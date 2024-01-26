@@ -71,6 +71,15 @@
     return map;
   };
 
+  class Section {
+    constructor(object) {
+      this.section = object.section; // 'INFO2104'
+      this.time = object.time; // '금 1234 | Fri 9am-1pm'
+      this.location = object.location; // 'N4동 316호'
+      this.kakaotalk = object.kakaotalk; // 'https://open.kakao.com/o/g7tnYPDf'
+    }
+  }
+
   class Author {
     // constructor(name='', personalURL='', affiliation='', affiliationURL='') {
     //   this.name = name; // 'Chris Olah'
@@ -131,10 +140,9 @@
     }
 
     // EDIT
-    target.time = source.time;
-    target.location = source.location;
-    target.kakaotalk = source.kakaotalk;
-    target.portal = source.portal;
+    target.sections = source.sections.map(
+      (sectionObject) => new Section(sectionObject)
+    );
   }
 
   class FrontMatter {
@@ -142,12 +150,7 @@
       this.title = "unnamed article"; // 'Attention and Augmented Recurrent Neural Networks'
       this.description = ""; // 'A visual overview of neural attention...'
       this.authors = []; // Array of Author(s)
-
-      // EDIT
-      this.time = "";
-      this.location = "";
-      this.kakaotalk = "";
-      this.portal = "";
+      this.sections = []; // Array of Section(s)
 
       this.bibliography = new Map();
       this.bibliographyParsed = false;
@@ -2229,22 +2232,26 @@ d-appendix > distill-appendix {
     return `
   <div class="byline grid">
     <div class="authors-affiliations grid">
+
+      <h3>Section</h3><!-- EDIT -->
       <h3>Time</h3><!-- EDIT -->
       <h3>Location</h3><!-- EDIT -->
-      ${frontMatter.information
+      <h3>KakaoTalk</h3><!-- EDIT -->
+
+      ${frontMatter.sections
         .map(
-          (course) => `
+          (section) => `
         <p class="author">
-          <span class="section-number">${course.section}</span>
+          <span class="section-number">${section.section}</span>
         </p>
         <p class="author">
-          <span class="section-time">${course.time}</span>
+          <span class="section-time">${section.time}</span>
         </p>
         <p class="author">
-          <span class="section-location">${course.location}</span>
+          <span class="section-location">${section.location}</span>
         </p>
         <p class="author">
-          <a class="section-chat" href="${course.kakaotalk}">카카오 오픈 채트</a>
+          <a class="section-chat" href="${section.kakaotalk}">카카오 오픈 채트</a>
         </p>
       `
         )

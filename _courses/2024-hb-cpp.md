@@ -62,8 +62,6 @@ information:
 - C 컴파일러의 번환 단계와 전처리기의 역할을 이해할 수 있다.
 - C 프로그램을 테스트하고 디버그하며 분석할 수 있다.
 
----
-
 Students will learn how to write professional, safe, and portable C code that doesn't change over time and helps strengthen the foundations of the world of computing. Learn best practices for using C and the C standard library, as well as common errors you may encounter while using it. You will also learn how to debug, test, and analyze C programs.
 
 - Able to identify and handle undefined behavior in C programs.
@@ -76,82 +74,113 @@ Students will learn how to write professional, safe, and portable C code that do
 
 ---
 
-## Calendar
+## Logistics
+
+### Course Information / 과정정보
+
+시간이 지나도 변하지 않고 컴퓨팅 세계의 기반을 강화하는 데 도움이 되는 전문적이고 안전하며 이식 가능한 C 코드를 작성하는 방법을 알아본다.
+
+- **프로그래밍(50%)** 직무에 필요한 문제 또는 시스템을 프로그래밍 언어로 구현할 수 있는 역량
+- **전공기초(40%)** 정보통신전공을 수행할 수 있는 공학적 기초개념, 수학, 물리학 등의 기본역량
+- **자기주도문제해결(10%)** 프로젝트, 캡스톤디자인 및 지식재산권, 공학경영, 논문작성 등 전공분야에 밀접하게 연관된 비전공분야의 역량
+
+Students will learn how to write professional, safe, and portable C code that doesn't change over time and helps strengthen the foundations of the world of computing.
+
+- **Programming (50%)** Ability to implement problems or systems required for the job in a programming language
+- **Major foundations (40%)** Basic competencies such as basic engineering concepts, mathematics, physics, etc.
+- **Self-directed problem solving (10%)** Competence in non-major fields closely related to major fields, such as project, capstone design and intellectual property rights, engineering management, and thesis writing
+
+---
+
+### Grading
+
+The class requirements include brief reading summaries, (at least) 3 projects, and 2 tests.
+The grading breakdown is as follows:
+
+- Attendance (& Participation) (10%)
+- Assignments & Practice Exercises (30%)
+- Projects (10%)
+- Midterm Test (20%)
+- Final Test (30%)
+
+---
+
+#### Attendance (& Participation) (10%)
+
+We appreciate everyone being actively involved in the class!
+Students who will succeed are those who are actively involved:
+
+- **Active participation:** What does "active participation" look like? It means that you are engaged in the class, asking questions, answering questions, and participating in discussions.
+- **Disinterest:** Students who are not interested in the class do not study, do not participate, and do not do well on the tests. They will get a low grade.
+
+#### Assignments & Practice Exercises (30%)
+
+There will be various practice exercises we will do together in class. There will also be some homework assignments for you to do on your own at home and submit online. We may also have some in-class quizzes to be submitted online.
+These assignments may contain material that has been covered by published papers and webpages.
+
+#### Projects (10%)
+
+There will be (at least) three projects in this class (HTML, CSS, JavaScript). You will be required to submit a URL with your code or results.
+
+#### Tests (50%)
+
+There will be two tests in this class: a midterm and a final. Both tests may include both written and programming questions. The written questions will be similar to the homework questions, and the programming questions will be similar to the programming assignments. Written questions will be closed-book, and programming questions will be open-book (i.e., you can use any resources you want, including the Internet).
+
+- **Midterm:** 20%
+- **Final:** 30%
+
+---
+
+#### Collaboration Policy
+
+**Homework assignments must be done individually:** each student must hand in their own answers.
+However, it is acceptable to collaborate when figuring out answers and to help each other solve the problems.
+We will be assuming that you will be taking the responsibility to make sure you personally understand the solution arising from such collaboration.
+You also must indicate on each homework with whom you have collaborated.
+
+#### Late Policy
+
+You will be allowed **6 total homework late days** without penalty for the entire semester.
+You may be late by up to 6 days on any homework assignment.
+Once those days are used, you will be penalized according to the following policy:
+
+- Homework is worth full credit at the due time on the due date.
+- The allowed late days are counted by day (i.e., each new late day starts at 12:00 am ET).
+- Once the allowed late days are exceeded, the penalty is 50% per late day conted by hour (i.e., 2.0833% per hour).
+- The homework is worth zero credit 48 hours after exceeding the late day limit.
+
+You must turn in 75% of the practices and assignments, even if for zero credit, in order to pass the course.
+
+#### Regrade Policy
+
+If you feel that we have made a mistake in grading your homework, please submit a regrading request via email and I will consider your request.
+Please note that regrading of a homework may cause your grade to go either up or down.
+
+---
+
+## Lectures
 
 <iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=fcrk3osm1p6clk6rnbisupv1kk%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Resources
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Computer Software / 소프트웨어
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The software we will be using is listed below. 수업에서 사용할 소프트웨어가 다음과 같다.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- [Visual Studio Community](https://visualstudio.microsoft.com/free-developer-offers/)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Code::Blocks (MinGW)](http://www.codeblocks.org/downloads)
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Textbook Resources / 교재자료
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Do it! 실습 파일과 PDF 전자책**
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- [No Starch 책 사이트 (영어)](https://nostarch.com/effective_c)
+- [Acorn Pub 책 사이트 (한글)​](http://acornpub.co.kr/book/effective-c)
 
-{% raw %}
+### Tutorials / 튜토리얼
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/6.jpg" title="example image"
-    class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/11.jpg" title="example image"
-    class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+- [Learn-C.org](https://www.learn-c.org/)
