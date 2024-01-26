@@ -110,7 +110,7 @@ Students will learn how to write professional, safe, and portable C code that do
   </tbody>
 </table>
 
-<a class="btn" href="#">Top</a>
+<a class="btncv" href="#">Top</a>
 
 ---
 
@@ -130,7 +130,7 @@ Students will learn how to write professional, safe, and portable C code that do
 - **Major foundations (40%)** Basic competencies such as basic engineering concepts, mathematics, physics, etc.
 - **Self-directed problem solving (10%)** Competence in non-major fields closely related to major fields, such as project, capstone design and intellectual property rights, engineering management, and thesis writing
 
-<a class="btn" href="#">Top</a>
+<a class="btncv" href="#">Top</a>
 
 ---
 
@@ -171,7 +171,7 @@ There will be two tests in this class: a midterm and a final. Both tests may inc
 - **Midterm:** 20%
 - **Final:** 30%
 
-<a class="btn" href="#">Top</a>
+<a class="btncv" href="#">Top</a>
 
 ---
 
@@ -200,7 +200,7 @@ You must turn in 75% of the practices and assignments, even if for zero credit, 
 If you feel that we have made a mistake in grading your homework, please submit a regrading request via email and I will consider your request.
 Please note that regrading of a homework may cause your grade to go either up or down.
 
-<a class="btn" href="#">Top</a>
+<a class="btncv" href="#">Top</a>
 
 ---
 
@@ -208,7 +208,7 @@ Please note that regrading of a homework may cause your grade to go either up or
 
 <iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=fcrk3osm1p6clk6rnbisupv1kk%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
-<a class="btn" href="#">Top</a>
+<a class="btncv" href="#">Top</a>
 
 ---
 
@@ -233,4 +233,4 @@ The software we will be using is listed below. 수업에서 사용할 소프트�
 
 - [Learn-C.org](https://www.learn-c.org/)
 
-<a class="btn" href="#">Top</a>
+<a class="btncv" href="#">Top</a>
