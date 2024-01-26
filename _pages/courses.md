@@ -28,8 +28,7 @@ horizontal: false
   {%- else -%}
   <div class="grid">
     {%- for course in sorted_courses -%}
-      {% include projects.html %}
+      {% include courses.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
-</div>
