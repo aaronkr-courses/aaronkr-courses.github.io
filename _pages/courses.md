@@ -6,7 +6,7 @@ description: Materials for courses you taught. Replace this text with your descr
 nav: false
 nav_order: 2
 display_categories: [2023, 2024]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/courses.md -->
@@ -21,7 +21,7 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-2">
     {%- for course in sorted_courses -%}
-      {% include projects_horizontal.html %}
+      {% include courses_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
