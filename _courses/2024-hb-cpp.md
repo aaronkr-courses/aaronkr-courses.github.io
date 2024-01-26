@@ -25,18 +25,22 @@ authors:
 bibliography: 2018-12-22-distill.bib
 
 toc:
+  - name: Lectures
   - name: Logistics
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
-  - name: Lectures
+  - name: Grading
   - name: Resources
   - name: Midterm
   - name: Final
   - name: Project
 
 _styles: >
+  html {
+    scroll-behavior: smooth;
+  }
   .distill .logo {
     position: absolute;
     max-width: 140px;
@@ -90,6 +94,8 @@ Students will learn how to write professional, safe, and portable C code that do
 - **Major foundations (40%)** Basic competencies such as basic engineering concepts, mathematics, physics, etc.
 - **Self-directed problem solving (10%)** Competence in non-major fields closely related to major fields, such as project, capstone design and intellectual property rights, engineering management, and thesis writing
 
+[Top](#)
+
 ---
 
 ### Grading
@@ -129,6 +135,8 @@ There will be two tests in this class: a midterm and a final. Both tests may inc
 - **Midterm:** 20%
 - **Final:** 30%
 
+[Top](#)
+
 ---
 
 #### Collaboration Policy
@@ -156,11 +164,15 @@ You must turn in 75% of the practices and assignments, even if for zero credit, 
 If you feel that we have made a mistake in grading your homework, please submit a regrading request via email and I will consider your request.
 Please note that regrading of a homework may cause your grade to go either up or down.
 
+[Top](#)
+
 ---
 
 ## Lectures
 
 <iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=fcrk3osm1p6clk6rnbisupv1kk%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+[Top](#)
 
 ---
 
@@ -184,3 +196,5 @@ The software we will be using is listed below. 수업에서 사용할 소프트�
 ### Tutorials / 튜토리얼
 
 - [Learn-C.org](https://www.learn-c.org/)
+
+[Top](#)
