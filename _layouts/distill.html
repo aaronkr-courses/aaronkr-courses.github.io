@@ -22,6 +22,16 @@
             "title": "{{ page.title }}",
             "description": "{{ page.description }}",
             "published": "{{ page.date | date: '%B %-d, %Y' }}",
+            "sections": [
+              {% for section in page.information -%}
+              {
+                "section": "{{ section.section }}",
+                "time": "{{ section.time }}",
+                "location": "{{ section.location }}",
+                "kakaotalk": "{{ section.kakaotalk }}"
+              }{% if forloop.last == false %},{% endif %}
+              {% endfor %}
+            ],
             "authors": [
               {% for author in page.authors -%}
               {
