@@ -1,13 +1,30 @@
 ---
-layout: page
-title: <b>C++</b> 프로그래밍 <br/> <b>C++</b> Programming
+layout: distill
+title: C++ Programming
 description: INFO2104 • 2023년 2학기 • 한밭대학교
-img: assets/img/cpp-fast.jpg
+logo: hanbat-logo.jpg
+img: assets/img/books/cpp-fast.jpg
 importance: 6
 category: 2024
 giscus_comments: true
 toc:
   sidebar: left
+
+authors:
+  - name: Albert Einstein
+    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+    affiliations:
+      name: IAS, Princeton
+  - name: Boris Podolsky
+    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
+    affiliations:
+      name: IAS, Princeton
+  - name: Nathan Rosen
+    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
+    affiliations:
+      name: IAS, Princeton
+
+bibliography: 2018-12-22-distill.bib
 ---
 
 - **Time:** 금 1234 | Friday 9:00pm-12:50pm
