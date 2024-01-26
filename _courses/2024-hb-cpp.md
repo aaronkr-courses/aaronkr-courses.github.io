@@ -7,8 +7,6 @@ img: assets/img/books/cpp-fast.jpg
 importance: 6
 category: 2024
 giscus_comments: true
-toc:
-  sidebar: left
 
 authors:
   - name: Albert Einstein
@@ -25,6 +23,18 @@ authors:
       name: IAS, Princeton
 
 bibliography: 2018-12-22-distill.bib
+
+toc:
+  - name: Logistics
+    # if a section has subsections, you can add them as follows:
+    # subsections:
+    #   - name: Example Child Subsection 1
+    #   - name: Example Child Subsection 2
+  - name: Lectures
+  - name: Resources
+  - name: Midterm
+  - name: Final
+  - name: Project
 ---
 
 - **Time:** 금 1234 | Friday 9:00pm-12:50pm
