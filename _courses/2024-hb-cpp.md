@@ -38,11 +38,11 @@ toc:
 
 _styles: >
   .distill .logo {
-      position: absolute;
-      max-width: 100px;
-      top: 115px;
-      left: 50%;
-      transform: translateX(calc(-50% - 440px));
+    position: absolute;
+    max-width: 140px;
+    top: 90px;
+    left: 50%;
+    transform: translateX(calc(-50% - 460px));
   }
 
 information:
