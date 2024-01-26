@@ -9,7 +9,7 @@ display_categories: [2023, 2024]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/courses.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
