@@ -69,6 +69,51 @@ Students will learn how to write professional, safe, and portable C code that do
 
 ---
 
+### Textbook / 교재
+
+<table class="table textbooks clearfix" style="border: none">
+  <colgroup><col style="width: 10%"><col style="width: 90%"></colgroup>
+  <tbody>
+    <tr class="textbook">
+      <th scope="row">
+        <a href="https://www.yes24.com/Product/Goods/116860700" target="_blank">
+          <img width="100" style="box-shadow: 1px 1px 5px gainsboro" src="/dju-sql/assets/img/texts/sql-text.jpg">
+        </a>
+      </th>
+      <td>
+        <ol class="text-info" style="list-style: none; padding-left: 0">
+          <li><span>Text:</span>
+            <a href="https://www.yes24.com/Product/Goods/116860700" target="_blank">
+              <strong>실용 SQL:  PostgreSQL로 시작하는 데이터 스토리텔링 가이드북</strong>
+            </a>
+          </li>
+          <li><span>Author:</span> 앤서니 드바로스 저/임소정, 강민혁 역</li>
+          <li><span>Publisher:</span> 영진닷컴 | 2023년 01월 30일</li>
+        </ol>
+      </td>
+    </tr>
+    <tr class="textbook">
+      <th scope="col">
+      </th>
+      <td>
+        <ol class="text-info" style="list-style: none; padding-left: 0">
+          <li><span>Supplementary:</span>
+            <a href="https://www.yes24.com/Product/Goods/5269099" target="_blank">
+              <strong>SQL AntiPatterns: 개발자가 알아야 할 25가지 SQL 함정과 해법</strong>
+            </a>
+          </li>
+          <li><span>Author:</span> 빌 카윈 저 / 윤성준 역</li>
+          <li><span>Publisher:</span> 인사이트(insight) | 2011년 06월 23일</li>
+        </ol>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<a class="btn" href="#">Top</a>
+
+---
+
 ## Logistics
 
 ### Course Information / 과정정보
@@ -85,7 +130,7 @@ Students will learn how to write professional, safe, and portable C code that do
 - **Major foundations (40%)** Basic competencies such as basic engineering concepts, mathematics, physics, etc.
 - **Self-directed problem solving (10%)** Competence in non-major fields closely related to major fields, such as project, capstone design and intellectual property rights, engineering management, and thesis writing
 
-[Top](#)
+<a class="btn" href="#">Top</a>
 
 ---
 
@@ -126,7 +171,7 @@ There will be two tests in this class: a midterm and a final. Both tests may inc
 - **Midterm:** 20%
 - **Final:** 30%
 
-[Top](#)
+<a class="btn" href="#">Top</a>
 
 ---
 
@@ -155,7 +200,7 @@ You must turn in 75% of the practices and assignments, even if for zero credit, 
 If you feel that we have made a mistake in grading your homework, please submit a regrading request via email and I will consider your request.
 Please note that regrading of a homework may cause your grade to go either up or down.
 
-[Top](#)
+<a class="btn" href="#">Top</a>
 
 ---
 
@@ -163,7 +208,7 @@ Please note that regrading of a homework may cause your grade to go either up or
 
 <iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=fcrk3osm1p6clk6rnbisupv1kk%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
-[Top](#)
+<a class="btn" href="#">Top</a>
 
 ---
 
@@ -188,4 +233,4 @@ The software we will be using is listed below. 수업에서 사용할 소프트�
 
 - [Learn-C.org](https://www.learn-c.org/)
 
-[Top](#)
+<a class="btn" href="#">Top</a>
