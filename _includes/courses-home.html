@@ -1,0 +1,117 @@
+<!-- _includes/courses.html -->
+<style>
+  .courses-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.75rem;
+    margin: 20px 0 40px;
+  }
+
+  @media (max-width: 576px) {
+    .courses-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .courses-grid .card {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 20px 20px 10px;
+    display: inline-block;
+  }
+
+  .courses-grid .card:hover {
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition: all 0.55s ease-in-out;
+    transition: all 0.55s ease-in-out;
+  }
+
+  .courses-grid .card-meta {
+    display: inline-block;
+  }
+
+  .courses-grid .logo {
+    float: left;
+    width: 60px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+
+  .courses-grid h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  .courses-grid ul {
+    padding-left: 0;
+  }
+
+  .courses-grid li {
+    font-size: 16px;
+    list-style: inside;
+    margin-bottom: 5px;
+  }
+
+  .courses-grid li a {
+    text-decoration: none;
+  }
+</style>
+
+<section class="courses-grid">
+  <div class="card dju sql">
+    <img class="logo" src="/assets/img/dju-logo.png" />
+    <div class="card-meta">
+      <h2>DJU</h2>
+      <ul>
+        <li><a href="/dju-sql">데이터베이스 보안 /dju-sql</a></li>
+        <li><a href="/dju-sec">자바 웹 해킹 및 보안 /dju-sec</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--<a class="card dju sec" href="#">
+    <img class="logo" src="https://2023-aaronkr.github.io/assets/img/dju-logo.png" />
+    <div class="card-meta">
+      <h2>DJU-SEC</h2>
+      <p>자바 웹 해킹 및 보안</p>
+    </div>
+  </a>
+  <a class="card ut cad" href="#">
+    <img class="logo" src="https://2023-aaronkr.github.io/assets/img/ut-logo.jpg" />
+    <div class="card-meta">
+      <h2>UT-CAD</h2>
+      <p>의료 영상 진단</p>
+    </div>
+  </a>-->
+  <div class="card ut web">
+    <img class="logo" src="/assets/img/ut-logo.jpg" />
+    <div class="card-meta">
+      <h2>UT</h2>
+      <ul>
+        <li><a href="/ut-cad">의료 영상 진단 /ut-cad</a></li>
+        <li><a href="/ut-web">웹 프로그래밍 기초 /ut-web</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="card jnue iss">
+    <img class="logo" src="/assets/img/jnue-logo.jpg" />
+    <div class="card-meta">
+      <h2>JNUE</h2>
+      <ul>
+        <li><a href="/jnue-iss">정보 사회와 소프트웨어 /jnue-iss</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="card hb c">
+    <img class="logo" src="/assets/img/hanbat-logo.jpg" />
+    <div class="card-meta">
+      <h2>HB-C</h2>
+      <ul>
+        <li><a href="/hb-c">고급 C 프로그래밍 /hb-c</a></li>
+      </ul>
+    </div>
+  </div>
+</section>

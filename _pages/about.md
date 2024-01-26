@@ -34,7 +34,7 @@ Aaron Snowberger는 한밭대학교 정보통신공학과 박사과정 수료했
 
 ## Courses
 
-{% include courses.html %}
+{% include courses-home.html %}
 
 ## GitHub Repositories
 
