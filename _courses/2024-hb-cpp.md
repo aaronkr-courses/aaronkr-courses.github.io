@@ -35,13 +35,21 @@ toc:
   - name: Midterm
   - name: Final
   - name: Project
----
 
-- **Time:** 금 1234 | Friday 9:00pm-12:50pm
-- **Location:** [N4동 316호](https://naver.me/Ga2jXDVh){:target="\_blank"}
-- **KakaoTalk:** [카카오톡 오픈채팅](https://open.kakao.com/o/g7tnYPDf){:target="\_blank"}
-- **Portal:** [한밭대학교 포탈](https://my.hanbat.ac.kr){:target="\_blank"}
+_styles: >
+  .distill .logo {
+      position: absolute;
+      max-width: 100px;
+      top: 115px;
+      left: 50%;
+      transform: translateX(calc(-50% - 440px));
+  }
 
+information:
+  - section: INFO2104
+    time: 금 1234 | Fri 9am-1pm
+    location: N4동 316호
+    kakaotalk: https://open.kakao.com/o/g7tnYPDf
 ---
 
 시간이 지나도 변하지 않고 컴퓨팅 세계의 기반을 강화하는 데 도움이 되는 전문적이고 안전하며 이식 가능한 C 코드를 작성하는 방법을 알아본다. C와 C 표준 라이브러리를 사용하는 모범 사례와 사용 중에 발생할 수 있는 일반적인 오류 등을 배운다. C 프로그램을 디버깅하고 테스트하고 분석하는 방법도 배운다.

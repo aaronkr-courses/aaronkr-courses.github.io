@@ -1,14 +1,6 @@
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/
-.distill .logo {
-  position: absolute;
-  max-width: 100px;
-  top: 115px;
-  left: 50%;
-  transform: translateX(calc(-50% - 440px));
-}
-
 d-byline {
   border-top-color: var(--global-divider-color) !important;
 }
