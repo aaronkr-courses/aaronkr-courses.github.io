@@ -25,6 +25,13 @@ _styles: >
   html {
     scroll-behavior: smooth;
   }
+  d-byline .authors-affiliations {
+    grid-column-end: span 4;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  d-byline a {
+    color: initial;
+  }
   .distill .logo {
     position: absolute;
     max-width: 140px;
