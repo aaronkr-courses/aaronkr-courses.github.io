@@ -34,6 +34,9 @@ _styles: >
     color: initial;
     color: var(--global-theme-color)!important;
   }
+  d-article {
+    contain: none;
+  }
   d-article li {
     margin-bottom: 0;
   }
