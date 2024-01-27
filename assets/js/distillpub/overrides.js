@@ -51,17 +51,9 @@ $(document).ready(function () {
   let origOffsetY = contents.offset().top - 32;
   let origOffsetX =
     $(document).width() - (contents.offset().left + contents.width());
-  console.log("contents.offset().left: " + contents.offset().left);
-  console.log("contents.width(): " + contents.width());
-  console.log("$(document).width(): " + $(document).width());
-  console.log(
-    "$(document).width() - (contents.offset().left + contents.width()): " +
-      ($(document).width() - (contents.offset().left + contents.width()))
-  );
-  console.log("origOffsetY: " + origOffsetY);
 
-  function scroll() {
-    console.log("scroll: " + $(window).scrollTop());
+  // need to update for responsive design
+  function calcFixedMenu() {
     if ($(window).scrollTop() >= origOffsetY) {
       contents.addClass("contents-fixed");
       contents.css("right", "calc(" + origOffsetX + "px - 5em)");
@@ -72,5 +64,6 @@ $(document).ready(function () {
       contents.css("width", "auto");
     }
   }
-  document.onscroll = scroll;
+  document.onscroll = calcFixedMenu;
+  document.onresize = calcFixedMenu;
 });
