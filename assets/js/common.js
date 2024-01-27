@@ -1,19 +1,4 @@
 $(document).ready(function () {
-  // EDIT : Make distill menu fixed after certain scroll point
-  var contents = $("d-contents");
-  var origOffsetY = menu.offset().top;
-  console.log("origOffsetY: " + origOffsetY);
-
-  function scroll() {
-    console.log("scroll: " + $(window).scrollTop());
-    if ($(window).scrollTop() >= origOffsetY) {
-      contents.addClass("contents-fixed");
-    } else {
-      contents.removeClass("contents-fixed");
-    }
-  }
-  document.onscroll = scroll;
-
   // add toggle functionality to abstract and bibtex buttons
   $("a.abstract").click(function () {
     $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
