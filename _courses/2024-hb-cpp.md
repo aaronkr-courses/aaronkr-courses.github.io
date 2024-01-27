@@ -168,7 +168,7 @@ Please note that regrading of a homework may cause your grade to go either up or
 
 ---
 
-## Resources 자료실
+## Instructor 강사소개
 
 {% include_relative 2024/aaron.md %}
 
