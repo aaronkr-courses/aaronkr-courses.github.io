@@ -4,7 +4,7 @@ title: C++ Programming
 description: INFO2104 • 2023년 2학기 • 한밭대학교
 logo: hanbat-logo.jpg
 img: assets/img/books/cpp-fast.jpg
-favicon: assets/img/hanbat-logo.jpg
+favicon: /assets/img/hanbat-logo.jpg
 importance: 6
 category: 2024
 giscus_comments: true
