@@ -1,0 +1,147 @@
+- date: 9/1
+  week: 1
+  title: >
+    <strong>과정, 강사, C언어 소개</strong>
+  slides: "https://docs.google.com/presentation/d/1dl-HQBFEyVpSP5sk6yeoDewqe0b83UtfuSLonOOhcfI/edit?usp=sharing"
+  readings:
+  logistics:
+
+- date: 9/8
+  week: 2
+  title: >
+    <strong>1장: C 시작하기</strong>
+  slides: "https://docs.google.com/presentation/d/1QJSRsi_EfGGg5VXD3RJNvrNu-PPicD0FI_Hso7LUTZw/edit?usp=sharing"
+  readings: Effective C, <strong>1장 pp. 1-50</strong>
+  logistics:
+
+- date: 9/15
+  week: 3
+  title: >
+    <strong>2장: 개체와 함수, 형식</strong>
+  slides: "https://docs.google.com/presentation/d/1Lc9PPqllqBKdVkJpFgYEStOzMvSfbHkxbD-Qcs8YPA0/edit?usp=sharing"
+  readings: Effective C, <strong>2장 pp. 51-81</strong>
+  logistics: >
+    <a href="https://classroom.github.com/a/jIHGvihm">3주차 과제</a>
+
+- date: 9/22
+  week: 4
+  title: >
+    <strong>3장: 산술 형식</strong>
+  slides: "https://docs.google.com/presentation/d/1Q553yZIwS74CQVVjLVKeth-bbHW173E7proCZWUr8PM/edit?usp=sharing"
+  readings: Effective C, <strong>3장 pp. 83-111</strong>
+  logistics: >
+    <a href="https://classroom.github.com/a/T5Pf7S5z">4주차 과제</a>
+
+- date: 9/29
+  week: 5
+  title: >
+    <strong>No School</strong> Chuseok <span style="color: red">(보강: 12월8일)</span>
+  slides:
+  readings:
+  logistics:
+
+- date: 10/6
+  week: 6
+  title: >
+    <strong>4장: 식과 연산자</strong>
+  slides: "https://docs.google.com/presentation/d/1BHuRgvEzR1LXd2Q3Y_4aGK_-i2mCuRlMEujbt_zcNHw/edit?usp=sharing"
+  readings: Effective C, <strong>4장 pp. 113-145</strong>
+  logistics: >
+    <a href="https://classroom.github.com/a/uk1c2rKn">6주차 과제</a>
+
+- date: 10/13
+  week: 7
+  title: >
+    <strong>5장: 흐름 제어</strong>
+  slides: "https://docs.google.com/presentation/d/1Ih-a_lVVs3mdpUvcApsPxS1CFPW5YnDdLIcACdFxEjs/edit?usp=sharing"
+  readings: >
+    Effective C, <strong>5장 pp. 147-169</strong><br>
+    <a href="/midterm">중간고사 가이드</a>
+  logistics: >
+    <a href="https://classroom.github.com/a/4Jlu2zNO">7주차 과제</a>
+
+- date: 10/20
+  week: 8
+  title: >
+    <strong>Midterm Test</strong>
+  slides: "https://docs.google.com/presentation/d/12ipAGNkgpFjuvEGqwMeIEmDFCbpVjv9b1j8EJ8cxu_g/edit?usp=sharing"
+  readings:
+  logistics: >
+    <a href="https://forms.gle/aXew597GprFvpZCs9">퀴즈 링크</a><br>
+    <a href="https://classroom.github.com/a/iAcnaWG8">실기 시험</a>
+
+- date: 10/27
+  week: 9
+  title: >
+    <strong>6장: 동적으로 할당횐 메모리</strong>
+  slides: "https://docs.google.com/presentation/d/1gb6VGrYuWviw3ZJNP3AbYNPZFz0EzeYAVD6nUgOZte8/edit?usp=sharing"
+  readings: Effective C, <strong>6장 pp. 171-199</strong>
+  logistics: >
+    <a href="https://classroom.github.com/a/njiKRsyJ">9주차 과제</a>
+
+- date: 11/3
+  week: 10
+  title: >
+    <strong>7장: 문자와 문자열</strong>
+  slides: "https://docs.google.com/presentation/d/1cZerqaKDEepr1zXRLh1RTvOEQIuwkGFbHxAA8AHPmuQ/edit?usp=sharing"
+  readings: Effective C, <strong>7장 pp. 201-239</strong>
+  logistics: >
+    <a href="https://classroom.github.com/a/UX_-wHo2">10주차 과제</a>
+
+- date: 11/10
+  week: 11
+  title: >
+    <strong>8장: 입출력</strong>
+  slides: "https://docs.google.com/presentation/d/1Huj78ytbB9LMk3MaPZEfOt0igGVii0WLxNNrm-h8LVs/edit?usp=sharing"
+  readings: Effective C, <strong>8장 pp. 241-271</strong>
+  logistics: >
+    <a href="https://classroom.github.com/a/uHKXbj87">11주차 과제</a>
+
+- date: 11/17
+  week: 12
+  title: >
+    <strong>9장: 전처리기</strong>
+  slides: "https://docs.google.com/presentation/d/1KFpGQMMFUZn62JgETIpQg7hnId3a1cHT0nHsAx6xiCs/edit?usp=sharing"
+  readings: Effective C, <strong>9장 pp. 273-290</strong>
+  logistics: >
+    <a href="https://classroom.github.com/a/S8uRnlrD">12주차 과제</a>
+
+- date: 11/24
+  week: 13
+  title: >
+    <strong>10장: 프로그램 구조</strong>
+  slides: "https://docs.google.com/presentation/d/1OjbuKqcz30bxQJ5C3-usH_D_vQvHyIeLFX5-63phts4/edit?usp=sharing"
+  readings: Effective C, <strong>10장 pp. 291-310</strong>
+  logistics: >
+    <a href="https://classroom.github.com/a/4kwoHzDk">13주차 과제</a>
+
+- date: 12/1
+  week: 14
+  title: >
+    <strong>11장: 디버깅과 테스트, 분석</strong>
+  slides: "https://docs.google.com/presentation/d/1VBkS-uHawgkVf-jq4c9kT9ksEkgo-B6IHGGF-D4dxa8/edit?usp=sharing"
+  readings: Effective C, <strong>11장 pp. 311-342</strong>
+  logistics: >
+    <a href="https://classroom.github.com/a/bHsBCcd9">14주차 과제</a>
+
+- date: 12/8
+  week: 15
+  title: >
+    <span style="color: red">5주차 보강</span><br>
+    <strong>Final Project + Review</strong>
+  slides: "https://docs.google.com/presentation/d/1D_Q9FW0FXYYIn8WubgX6O_QAGDWu8pzz1mqbeedl2OY/edit?usp=sharing"
+  logistics: >
+    <a href="https://classroom.github.com/a/DjeU9TPy">15주차 과제</a>
+
+- date: 12/15
+  week: 16
+  title: >
+    <strong>Final Test</strong>
+  logistics: >
+    <a href="https://forms.gle/2E1Bs3FWCwdVC1Pc9">퀴즈 링크</a><br>
+    <a href="https://classroom.github.com/a/LA_pfLuP">실기 시험</a>
+
+- date: 12/22
+  week: 17
+  title: >
+    <strong>Final Grades</strong>

@@ -66,6 +66,8 @@ It also takes a unique approach to introducing features of C++ and the standard 
 
 {% include_relative 2024/hb-cpp-schedule.md %}
 
+{% include_relative 2024/hb-cpp-schedule-2.md %}
+
 <a class="btncv" href="#">Top</a>
 
 ---
