@@ -14,6 +14,10 @@
       {{ page._styles }}
     </style>
     {%- endif %}
+    <!-- Override Favicon? -->
+    {%- if page.favicon -%}
+    <link rel="icon" type="image/x-icon" href="{{ page.favicon }}" />
+    {%- endif %}
   </head>
 
   <d-front-matter>
