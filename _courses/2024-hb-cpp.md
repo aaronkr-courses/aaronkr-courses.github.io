@@ -128,6 +128,10 @@ Students will learn how to write professional, safe, and portable C code that do
   </tbody>
 </table>
 
+<h1>Include Relative</h1>
+
+{% include_relative 2024/hb-cpp-textbooks.md %}
+
 <a class="btncv" href="#">Top</a>
 
 ---
