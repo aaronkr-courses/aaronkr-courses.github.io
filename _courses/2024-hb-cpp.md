@@ -21,8 +21,8 @@ toc:
       - name: Midterm 중간고사
       - name: Final 기말고사
       - name: Project 프로젝트
-  - name: Instructor 강사소개
   - name: Resources 자료실
+  - name: Instructor 강사소개
   - name: Schedule 강의일정
 
 information:
