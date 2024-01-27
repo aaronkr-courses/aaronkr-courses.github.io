@@ -81,7 +81,7 @@
   title: >
     <strong>CHAPTER 10 메모리 관리 및 저수준 데이터 구조</strong>
   slides:
-  readings: Accelerated C++, <strong>10장 pp. 274-299
+  readings: Accelerated C++, <strong>10장 pp. 274-299</strong>
   logistics:
 
 - date: 5/17
@@ -125,7 +125,7 @@
     <strong>APPENDIX B 라이브러리 요약</strong>
   slides:
   readings: >
-    Accelerated C++, <strong>15-16장 pp. 426-461<br>
+    Accelerated C++, <strong>15-16장 pp. 426-461</strong><br>
     기말고사 가이드
   logistics:
 
