@@ -44,6 +44,16 @@ _styles: >
     left: 50%;
     transform: translateX(calc(-50% - 460px));
   }
+  .contents-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    z-index: 100;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+  }
 
 information:
   - section: INFO2104
