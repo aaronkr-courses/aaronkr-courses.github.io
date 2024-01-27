@@ -7,7 +7,6 @@ img: assets/img/books/cpp-fast.jpg
 favicon: /assets/img/hanbat-logo.jpg
 importance: 6
 category: 2024
-course_texts: 2024_hb_cpp_texts
 
 toc:
   - name: Textbook 교재
@@ -30,6 +29,38 @@ information:
     time: 금 1234 | Fri 9am-1pm
     location: N4동 316호
     kakaotalk:
+
+Main-Text:
+  - text: "주교재"
+    author: "로버트 C. 시코드 저/박정재, 장기식, 장준원 역"
+    title: >
+      <strong>Effective C: 전문적인 C 프로그래밍 입문서</strong>
+    publisher: "에이콘출판사 | 2023년 06월 30일"
+    link: "https://www.yes24.com/Product/Goods/119423118"
+    code:
+    notes:
+    image: texts/c-text.jpg
+
+Supplementary:
+  - text: "부교재"
+    author: "주우석 저"
+    title: >
+      <strong>전공자를 위한 C 언어 프로그래밍</strong>
+    publisher: "한빛아카데미 | 2020년 11월 27일"
+    link: "https://www.yes24.com/Product/Goods/67476379"
+    code:
+    notes:
+    image:
+
+  - text: "부교재"
+    author: "서현우 저 / 장현희 역"
+    title: >
+      <strong>혼자 공부하는 C 언어 1:1 과외하듯 배우는 프로그래밍 자습서 [ 개정판 ]</strong>
+    publisher: "한빛미디어 | 2023년 05월 18일"
+    link: "https://www.yes24.com/Product/Goods/118982111"
+    code:
+    notes:
+    image:
 ---
 
 <strong>라이브러리 중심으로 배우는 C++ 핵심<br>

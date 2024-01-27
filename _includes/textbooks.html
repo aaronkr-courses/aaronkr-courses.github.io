@@ -1,5 +1,3 @@
-{% assign course_texts = page.course_texts %}
-
 <h3 class="textbooks-title" style="font-size: 30px">Textbooks / 주교재</h3>
 <table class="table textbooks clearfix" style="border: none">
   <colgroup>
@@ -7,7 +5,7 @@
     <col style="width: 90%" />
   </colgroup>
   <tbody>
-    {% for text in site.data.course_texts %}
+    {% for text in page.Main-Text %}
     <tr class="textbook">
       <th scope="row">
         <a href="{{ text.link }}" target="_blank"
@@ -28,7 +26,7 @@
         </ol>
       </td>
     </tr>
-    {% endfor %} {% for text in site.data.texts.Supplementary %}
+    {% endfor %} {% for text in page.Supplementary %}
     <tr class="textbook">
       <th scope="col">
         {% if text.image %}
