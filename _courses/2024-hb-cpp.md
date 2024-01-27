@@ -84,8 +84,6 @@ It also takes a unique approach to introducing features of C++ and the standard 
 
 ---
 
----
-
 ## Logistics 수업운영
 
 ### Course Information / 과정정보
@@ -125,13 +123,5 @@ Students will learn how to write professional, safe, and portable C code that do
 ## Instructor 강사소개
 
 {% include_relative common/aaron.md %}
-
-<a class="btncv" href="#">Top</a>
-
----
-
-## Schedule 강의일정
-
-{% include_relative 2024/hb-cpp-schedule.md %}
 
 <a class="btncv" href="#">Top</a>
