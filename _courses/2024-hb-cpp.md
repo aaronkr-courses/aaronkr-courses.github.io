@@ -10,17 +10,20 @@ category: 2024
 giscus_comments: true
 
 toc:
-  - name: Lectures
-  - name: Logistics
-    # if a section has subsections, you can add them as follows:
-    # subsections:
-    #   - name: Example Child Subsection 1
-    #   - name: Example Child Subsection 2
-  - name: Grading
-  - name: Resources
-  - name: Midterm
-  - name: Final
-  - name: Project
+  - name: Overview / 개요
+  - name: Textbook / 교재
+  - name: Lectures / 강의일정
+  - name: Logistics / 수업운영
+    subsections:
+      # if a section has subsections, you can add them as follows:
+      # subsections:
+      #   - name: Example Child Subsection 1
+      #   - name: Example Child Subsection 2
+      - name: Grading / 평가방법
+      - name: Midterm / 중간고사
+      - name: Final / 기말고사
+      - name: Project / 프로젝트
+  - name: Resources / 자료실
 
 _styles: >
   html {
@@ -62,6 +65,8 @@ information:
     kakaotalk: https://open.kakao.com/o/g7tnYPDf
 ---
 
+# Overview / 개요
+
 시간이 지나도 변하지 않고 컴퓨팅 세계의 기반을 강화하는 데 도움이 되는 전문적이고 안전하며 이식 가능한 C 코드를 작성하는 방법을 알아본다. C와 C 표준 라이브러리를 사용하는 모범 사례와 사용 중에 발생할 수 있는 일반적인 오류 등을 배운다. C 프로그램을 디버깅하고 테스트하고 분석하는 방법도 배운다.
 
 - C 프로그램에서 정의되지 않은 동작을 식별하고 처리할 수 있다.
@@ -82,9 +87,7 @@ Students will learn how to write professional, safe, and portable C code that do
 - Able to understand the translation steps of the C compiler and the role of the preprocessor.
 - Able to test, debug, and analyze C programs.
 
----
-
-### Textbook / 교재
+## Textbook / 교재
 
 <table class="table textbooks clearfix" style="border: none">
   <colgroup><col style="width: 10%"><col style="width: 90%"></colgroup>
@@ -92,14 +95,14 @@ Students will learn how to write professional, safe, and portable C code that do
     <tr class="textbook">
       <th scope="row">
         <a href="https://www.yes24.com/Product/Goods/116860700" target="_blank">
-          <img width="100" style="box-shadow: 1px 1px 5px gainsboro" src="/dju-sql/assets/img/texts/sql-text.jpg">
+          <img width="100" style="box-shadow: 1px 1px 5px gainsboro" src="/assets/img/books/cpp-fast.jpg">
         </a>
       </th>
       <td>
         <ol class="text-info" style="list-style: none; padding-left: 0">
           <li><span>Text:</span>
             <a href="https://www.yes24.com/Product/Goods/116860700" target="_blank">
-              <strong>실용 SQL:  PostgreSQL로 시작하는 데이터 스토리텔링 가이드북</strong>
+              <strong>Accelerated C++:  PostgreSQL로 시작하는 데이터 스토리텔링 가이드북</strong>
             </a>
           </li>
           <li><span>Author:</span> 앤서니 드바로스 저/임소정, 강민혁 역</li>
@@ -129,7 +132,15 @@ Students will learn how to write professional, safe, and portable C code that do
 
 ---
 
-## Logistics
+## Lectures / 강의일정
+
+<iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=fcrk3osm1p6clk6rnbisupv1kk%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+<a class="btncv" href="#">Top</a>
+
+---
+
+## Logistics / 수업운영
 
 ### Course Information / 과정정보
 
@@ -149,7 +160,7 @@ Students will learn how to write professional, safe, and portable C code that do
 
 ---
 
-### Grading
+### Grading / 평가방법
 
 The class requirements include brief reading summaries, (at least) 3 projects, and 2 tests.
 The grading breakdown is as follows:
@@ -219,15 +230,7 @@ Please note that regrading of a homework may cause your grade to go either up or
 
 ---
 
-## Lectures
-
-<iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=fcrk3osm1p6clk6rnbisupv1kk%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
-<a class="btncv" href="#">Top</a>
-
----
-
-## Resources
+## Resources / 자료실
 
 ### Computer Software / 소프트웨어
 
