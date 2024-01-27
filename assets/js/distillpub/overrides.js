@@ -47,7 +47,7 @@ $(document).ready(function () {
   });
   // EDIT : Make distill menu fixed after certain scroll point
   let contents = $("d-contents");
-  let origOffsetY = menu.offset().top;
+  let origOffsetY = contents.offset().top;
   console.log("origOffsetY: " + origOffsetY);
 
   function scroll() {
