@@ -76,7 +76,7 @@ It also takes a unique approach to introducing features of C++ and the standard 
 2. Consolidate what you have learned by organizing key points
 3. Acquire application skills by solving practice problems
 
-### Textbook 교재
+## Textbooks 교재
 
 {% include textbooks.html %}
 
