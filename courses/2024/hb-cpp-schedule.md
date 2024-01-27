@@ -1,19 +1,229 @@
-﻿| Date                          | Lecture                        | Reading                                                     | Assignment                     |
-| :---------------------------- | :----------------------------- | :---------------------------------------------------------- | :----------------------------- |
-| <div style="width: 5%"></div> | <div style="width: 35%"></div> | <div style="width: 45%"></div>                              | <div style="width: 15%"></div> |
-| 1/1                           | Introduction                   | [Chapter 1](https://www.yes24.com/Product/Goods/116860700)  |                                |
-| 1/2                           | C++ Basics                     | [Chapter 2](https://www.yes24.com/Product/Goods/116860700)  |                                |
-| 1/3                           | C++ Basics                     | [Chapter 3](https://www.yes24.com/Product/Goods/116860700)  |                                |
-| 1/4                           | C++ Basics                     | [Chapter 4](https://www.yes24.com/Product/Goods/116860700)  |                                |
-| 1/5                           | C++ Basics                     | [Chapter 5](https://www.yes24.com/Product/Goods/116860700)  |                                |
-| 1/6                           | C++ Basics                     | [Chapter 6](https://www.yes24.com/Product/Goods/116860700)  |                                |
-| 1/7                           | C++ Basics                     | [Chapter 7](https://www.yes24.com/Product/Goods/116860700)  |                                |
-| 1/8                           | C++ Basics                     | [Chapter 8](https://www.yes24.com/Product/Goods/116860700)  |                                |
-| 1/9                           | C++ Basics                     | [Chapter 9](https://www.yes24.com/Product/Goods/116860700)  |                                |
-| 1/10                          | C++ Basics                     | [Chapter 10](https://www.yes24.com/Product/Goods/116860700) |                                |
-| 1/11                          | C++ Basics                     | [Chapter 11](https://www.yes24.com/Product/Goods/116860700) |                                |
-| 1/12                          | C++ Basics                     | [Chapter 12](https://www.yes24.com/Product/Goods/116860700) |                                |
-| 1/13                          | C++ Basics                     | [Chapter 13](https://www.yes24.com/Product/Goods/116860700) |                                |
-| 1/14                          | C++ Basics                     | [Chapter 14](https://www.yes24.com/Product/Goods/116860700) |                                |
-| 1/15                          | C++ Basics                     | [Chapter 15](https://www.yes24.com/Product/Goods/116860700) |                                |
-| 1/16                          | C++ Basics                     | [Chapter 16](https://www.yes24.com/Product/Goods/116860700) |                                |
+﻿<table class="table table-hover">
+  <colgroup>
+    <col style="width:5%">
+    <col style="width:35%">
+    <col style="width:45%">
+    <col style="width:15%">
+  </colgroup>
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Date</th>
+      <th scope="col">Lecture</th>
+      <th scope="col">Readings</th>
+      <th scope="col">Logistics</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="warning">
+      <th scope="row">9/1</th>
+      <td>Week #1:<br>
+        <strong>과정, 강사, C언어 소개</strong><br>
+        [ <a href="https://docs.google.com/presentation/d/1dl-HQBFEyVpSP5sk6yeoDewqe0b83UtfuSLonOOhcfI/edit?usp=sharing" target="_blank">slides</a> | notes ]
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class="upcoming">
+      <th scope="row">9/8</th>
+      <td>Week #2:<br>
+        <strong>1장: C 시작하기</strong><br>
+        [ <a href="https://docs.google.com/presentation/d/1QJSRsi_EfGGg5VXD3RJNvrNu-PPicD0FI_Hso7LUTZw/edit?usp=sharing" target="_blank">slides</a> | notes ]
+      </td>
+      <td>
+        <ul>
+          <li>Effective C, <strong>1장 pp. 1-50</strong></li>
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class="upcoming">
+      <th scope="row">9/8</th>
+      <td>Week #2:<br>
+        <strong>1장: C 시작하기</strong><br>
+        [ <a href="https://docs.google.com/presentation/d/1QJSRsi_EfGGg5VXD3RJNvrNu-PPicD0FI_Hso7LUTZw/edit?usp=sharing" target="_blank">slides</a> | notes ]
+      </td>
+      <td>
+        <ul>
+          <li>Effective C, <strong>1장 pp. 1-50</strong></li>
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class="upcoming">
+      <th scope="row">9/8</th>
+      <td>Week #2:<br>
+        <strong>1장: C 시작하기</strong><br>
+        [ <a href="https://docs.google.com/presentation/d/1QJSRsi_EfGGg5VXD3RJNvrNu-PPicD0FI_Hso7LUTZw/edit?usp=sharing" target="_blank">slides</a> | notes ]
+      </td>
+      <td>
+        <ul>
+          <li>Effective C, <strong>1장 pp. 1-50</strong></li>
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class="upcoming">
+      <th scope="row">9/8</th>
+      <td>Week #2:<br>
+        <strong>1장: C 시작하기</strong><br>
+        [ <a href="https://docs.google.com/presentation/d/1QJSRsi_EfGGg5VXD3RJNvrNu-PPicD0FI_Hso7LUTZw/edit?usp=sharing" target="_blank">slides</a> | notes ]
+      </td>
+      <td>
+        <ul>
+          <li>Effective C, <strong>1장 pp. 1-50</strong></li>
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class="upcoming">
+      <th scope="row">9/8</th>
+      <td>Week #2:<br>
+        <strong>1장: C 시작하기</strong><br>
+        [ <a href="https://docs.google.com/presentation/d/1QJSRsi_EfGGg5VXD3RJNvrNu-PPicD0FI_Hso7LUTZw/edit?usp=sharing" target="_blank">slides</a> | notes ]
+      </td>
+      <td>
+        <ul>
+          <li>Effective C, <strong>1장 pp. 1-50</strong></li>
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class="upcoming">
+      <th scope="row">9/8</th>
+      <td>Week #2:<br>
+        <strong>1장: C 시작하기</strong><br>
+        [ <a href="https://docs.google.com/presentation/d/1QJSRsi_EfGGg5VXD3RJNvrNu-PPicD0FI_Hso7LUTZw/edit?usp=sharing" target="_blank">slides</a> | notes ]
+      </td>
+      <td>
+        <ul>
+          <li>Effective C, <strong>1장 pp. 1-50</strong></li>
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class="upcoming">
+      <th scope="row">9/8</th>
+      <td>Week #2:<br>
+        <strong>1장: C 시작하기</strong><br>
+        [ <a href="https://docs.google.com/presentation/d/1QJSRsi_EfGGg5VXD3RJNvrNu-PPicD0FI_Hso7LUTZw/edit?usp=sharing" target="_blank">slides</a> | notes ]
+      </td>
+      <td>
+        <ul>
+          <li>Effective C, <strong>1장 pp. 1-50</strong></li>
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class="upcoming">
+      <th scope="row">9/8</th>
+      <td>Week #2:<br>
+        <strong>1장: C 시작하기</strong><br>
+        [ <a href="https://docs.google.com/presentation/d/1QJSRsi_EfGGg5VXD3RJNvrNu-PPicD0FI_Hso7LUTZw/edit?usp=sharing" target="_blank">slides</a> | notes ]
+      </td>
+      <td>
+        <ul>
+          <li>Effective C, <strong>1장 pp. 1-50</strong></li>
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class="upcoming">
+      <th scope="row">9/8</th>
+      <td>Week #2:<br>
+        <strong>1장: C 시작하기</strong><br>
+        [ <a href="https://docs.google.com/presentation/d/1QJSRsi_EfGGg5VXD3RJNvrNu-PPicD0FI_Hso7LUTZw/edit?usp=sharing" target="_blank">slides</a> | notes ]
+      </td>
+      <td>
+        <ul>
+          <li>Effective C, <strong>1장 pp. 1-50</strong></li>
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class="upcoming">
+      <th scope="row">9/8</th>
+      <td>Week #2:<br>
+        <strong>1장: C 시작하기</strong><br>
+        [ <a href="https://docs.google.com/presentation/d/1QJSRsi_EfGGg5VXD3RJNvrNu-PPicD0FI_Hso7LUTZw/edit?usp=sharing" target="_blank">slides</a> | notes ]
+      </td>
+      <td>
+        <ul>
+          <li>Effective C, <strong>1장 pp. 1-50</strong></li>
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class="upcoming">
+      <th scope="row">9/8</th>
+      <td>Week #2:<br>
+        <strong>1장: C 시작하기</strong><br>
+        [ <a href="https://docs.google.com/presentation/d/1QJSRsi_EfGGg5VXD3RJNvrNu-PPicD0FI_Hso7LUTZw/edit?usp=sharing" target="_blank">slides</a> | notes ]
+      </td>
+      <td>
+        <ul>
+          <li>Effective C, <strong>1장 pp. 1-50</strong></li>
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class="upcoming">
+      <th scope="row">9/8</th>
+      <td>Week #2:<br>
+        <strong>1장: C 시작하기</strong><br>
+        [ <a href="https://docs.google.com/presentation/d/1QJSRsi_EfGGg5VXD3RJNvrNu-PPicD0FI_Hso7LUTZw/edit?usp=sharing" target="_blank">slides</a> | notes ]
+      </td>
+      <td>
+        <ul>
+          <li>Effective C, <strong>1장 pp. 1-50</strong></li>
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class="upcoming">
+      <th scope="row">9/8</th>
+      <td>Week #2:<br>
+        <strong>1장: C 시작하기</strong><br>
+        [ <a href="https://docs.google.com/presentation/d/1QJSRsi_EfGGg5VXD3RJNvrNu-PPicD0FI_Hso7LUTZw/edit?usp=sharing" target="_blank">slides</a> | notes ]
+      </td>
+      <td>
+        <ul>
+          <li>Effective C, <strong>1장 pp. 1-50</strong></li>
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class="upcoming">
+      <th scope="row">9/8</th>
+      <td>Week #2:<br>
+        <strong>1장: C 시작하기</strong><br>
+        [ <a href="https://docs.google.com/presentation/d/1QJSRsi_EfGGg5VXD3RJNvrNu-PPicD0FI_Hso7LUTZw/edit?usp=sharing" target="_blank">slides</a> | notes ]
+      </td>
+      <td>
+        <ul>
+          <li>Effective C, <strong>1장 pp. 1-50</strong></li>
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class="upcoming">
+      <th scope="row">12/22</th>
+      <td colspan="4" align="center"><strong>Final Grades</strong>  </td>
+    </tr>
+  </tbody>
+</table>
