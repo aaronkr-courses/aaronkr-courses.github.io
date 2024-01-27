@@ -5,26 +5,24 @@ nav: true
 nav_order: 6
 dropdown: true
 children:
-  - title: DJU-SQL
-    permalink: /dju-sql/
-  - title: DJU-SEC
-    permalink: /dju-sec/
-  - title: divider
-  - title: UT-CAD
-    permalink: /ut-cad/
-  - title: UT-WEB
-    permalink: /ut-web/
-  - title: UT-NODE (1학기)
-    permalink: https://ut-nodejs.github.io/
-  - title: divider
   - title: JNUE-ISS
-    permalink: /jnue-iss/
+    permalink: /courses/2024-jnue-iss/
   - title: divider
-  - title: HB-C
-    permalink: /hb-c/
+  - title: DJU-UNIX
+    permalink: /courses/2024-dju-unix/
+  - title: DJU-JAVA
+    permalink: /courses/2024-dju-java/
   - title: divider
-  - title: Summer-Web
-    permalink: /web-crash-course/
-  - title: Summer-Python
-    permalink: /python-crash-course/
+  - title: UT-NODE
+    permalink: /courses/2024-ut-node/
+  - title: UT-IMD
+    permalink: /courses/2024-ut-imd/
+  - title: divider
+  - title: HB-CPP
+    permalink: /courses/2024-hb-cpp/
+  - title: divider
+  - title: All Courses
+    permalink: /courses/
+  - title: Archives
+    permalink: /courses/
 ---
