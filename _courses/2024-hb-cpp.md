@@ -22,6 +22,7 @@ toc:
       - name: Final 기말고사
       - name: Project 프로젝트
   - name: Resources 자료실
+  - name: Instructor 강사소개
 
 information:
   - section: INFO2118
@@ -30,25 +31,28 @@ information:
     kakaotalk:
 ---
 
-시간이 지나도 변하지 않고 컴퓨팅 세계의 기반을 강화하는 데 도움이 되는 전문적이고 안전하며 이식 가능한 C 코드를 작성하는 방법을 알아본다. C와 C 표준 라이브러리를 사용하는 모범 사례와 사용 중에 발생할 수 있는 일반적인 오류 등을 배운다. C 프로그램을 디버깅하고 테스트하고 분석하는 방법도 배운다.
+<strong>라이브러리 중심으로 배우는 C++ 핵심<br>
+Core C++ learning with a focus on libraries</strong>
 
-- C 프로그램에서 정의되지 않은 동작을 식별하고 처리할 수 있다.
-- 정수 및 부동 소수점 값의 범위 및 표현을 이해할 수 있다.
-- 동적 메모리 할당이 작동하는 방법과 비표준 함수를 사용할 수 있다.
-- 문자 인코딩 및 형식을 사용할 수 있다.
-- C 표준 스트림 및 POSIX 파일 설명자를 사용해 터미널과 파일 시스템에서 I/O를 수행할 수 있다.
-- C 컴파일러의 번환 단계와 전처리기의 역할을 이해할 수 있다.
-- C 프로그램을 테스트하고 디버그하며 분석할 수 있다.
+C++는 기존 C에서 좀 더 발전한 프로그래밍 언어입니다. 하지만 C를 처음 배웠던 사람은 자칫 C++에서 제시하는 프로그래밍 방법이 아닌 C 프로그래밍을 하던 습관대로 프로그램을 만들려고 할지도 모릅니다.
 
-Students will learn how to write professional, safe, and portable C code that doesn't change over time and helps strengthen the foundations of the world of computing. Learn best practices for using C and the C standard library, as well as common errors you may encounter while using it. You will also learn how to debug, test, and analyze C programs.
+이 책은 16개 장과 부록 2개를 통해 초중급 프로그래머가 C++를 C++답게 코딩하는 방법을 제대로 알려줍니다. C++ 표준 라이브러리를 이용해 함수, 데이터 구조, 클래스, 상속 등 객체지향 프로그래밍 개념으로 C++ 프로그래밍을 하는 방법을 순서대로 소개합니다.
 
-- Able to identify and handle undefined behavior in C programs.
-- Able to understand the range and representation of integer and floating point values.
-- Able to understand how dynamic memory allocation works and non-standard functions can be used.
-- Able to understand how character encoding and format can be used.
-- Able to perform I/O on terminals and file systems using C standard streams and POSIX file descriptors.
-- Able to understand the translation steps of the C compiler and the role of the preprocessor.
-- Able to test, debug, and analyze C programs.
+또한 특정 문제를 해결하는 프로그램을 작성하는 과정 각각에 도움이 되는 C++ 및 표준 라이브러리의 기능을 소개하는 독특한 방식을 취합니다. 단순한 문법 파악이 아닌 프로그래밍하는 원리를 알 수 있는 학습 구조로 이루어져 있습니다. 프로그래밍 언어를 한 번이라도 학습한 적 있는 분, STL을 사용하여 C++ 프로그래밍의 속도를 높이고 싶은 분이라면 이 책으로 C++ 프로그래밍을 제대로 배우기 바랍니다.
+
+1. 핵심 개념을 적용하면서 발전시키는 학생 성적 관리 프로그램 만들기
+2. 핵심 정리로 배운 내용 다지기
+3. 연습문제를 풀면서 다지는 응용 기술 습득
+
+C++ is a programming language that is more advanced than existing C. However, people who learned C for the first time may try to create programs according to their C programming habits rather than the programming method suggested by C++.
+
+Through 16 chapters and two appendices, this book teaches beginner and intermediate programmers how to code C++ like C++. We sequentially introduce how to do C++ programming using object-oriented programming concepts such as functions, data structures, classes, and inheritance using the C++ standard library.
+
+It also takes a unique approach to introducing features of C++ and the standard library, each of which helps in the process of writing a program that solves a specific problem. It has a learning structure that allows you to understand programming principles rather than simply understanding grammar. If you have ever learned a programming language or want to speed up C++ programming using STL, I recommend learning C++ programming properly with this book.
+
+1. Create a student grade management program that develops while applying core concepts
+2. Consolidate what you have learned by organizing key points
+3. Acquire application skills by solving practice problems
 
 ### Textbook 교재
 
@@ -159,5 +163,13 @@ Please note that regrading of a homework may cause your grade to go either up or
 ## Resources 자료실
 
 {% include_relative 2024/hb-cpp-resources.md %}
+
+<a class="btncv" href="#">Top</a>
+
+---
+
+## Resources 자료실
+
+{% include_relative 2024/aaron.md %}
 
 <a class="btncv" href="#">Top</a>
