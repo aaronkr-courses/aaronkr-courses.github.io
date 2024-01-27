@@ -84,7 +84,7 @@ Students will learn how to write professional, safe, and portable C code that do
 - Able to understand the translation steps of the C compiler and the role of the preprocessor.
 - Able to test, debug, and analyze C programs.
 
-## Textbook 교재
+### Textbook 교재
 
 {% include_relative 2024/hb-cpp-textbooks.md %}
 
