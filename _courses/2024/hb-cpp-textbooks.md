@@ -22,7 +22,7 @@
     <tr class="textbook">
       <th scope="row">
         <a href="https://www.yes24.com/Product/Goods/60524662" target="_blank">
-          <img width="80" style="box-shadow: 1px 1px 5px gainsboro" src="/assets/img/books/cpp-200.jpg">
+          <img width="90" style="box-shadow: 1px 1px 5px gainsboro" src="/assets/img/books/cpp-200.jpg">
         </a>
       </th>
       <td>

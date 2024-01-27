@@ -1,13 +1,12 @@
 ---
 layout: distill
 title: C++ Programming
-description: INFO2104 • 2023년 2학기 • 한밭대학교
+description: INFO2118 • 2024년 1학기 • 한밭대학교
 logo: hanbat-logo.jpg
 img: assets/img/books/cpp-fast.jpg
 favicon: /assets/img/hanbat-logo.jpg
 importance: 6
 category: 2024
-giscus_comments: true
 
 toc:
   - name: Textbook 교재
@@ -24,44 +23,11 @@ toc:
       - name: Project 프로젝트
   - name: Resources 자료실
 
-_styles: >
-  html {
-    scroll-behavior: smooth;
-  }
-  d-byline .authors-affiliations {
-    grid-column-end: span 4;
-    grid-template-columns: repeat(4, 1fr);
-  }
-  d-byline a {
-    color: initial;
-    color: var(--global-theme-color)!important;
-  }
-  d-article {
-    contain: none;
-  }
-  d-article li {
-    margin-bottom: 0;
-  }
-  .distill .logo {
-    position: absolute;
-    max-width: 140px;
-    top: 90px;
-    left: 50%;
-    transform: translateX(calc(-50% - 460px));
-  }
-  .contents-fixed {
-    position: fixed;
-    top: 85px;
-    max-width: 300px;
-    z-index: 100;
-    background: radial-gradient(circle at right, white, transparent);
-  }
-
 information:
-  - section: INFO2104
+  - section: INFO2118
     time: 금 1234 | Fri 9am-1pm
     location: N4동 316호
-    kakaotalk: https://open.kakao.com/o/g7tnYPDf
+    kakaotalk:
 ---
 
 시간이 지나도 변하지 않고 컴퓨팅 세계의 기반을 강화하는 데 도움이 되는 전문적이고 안전하며 이식 가능한 C 코드를 작성하는 방법을 알아본다. C와 C 표준 라이브러리를 사용하는 모범 사례와 사용 중에 발생할 수 있는 일반적인 오류 등을 배운다. C 프로그램을 디버깅하고 테스트하고 분석하는 방법도 배운다.

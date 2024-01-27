@@ -8,6 +8,13 @@
     <script src="{{ '/assets/js/distillpub/template.v2.edit.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/distillpub/transforms.v2.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/distillpub/overrides.js' | relative_url }}"></script>
+
+    <!-- Distill css -->
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/distill-override.css' | relative_url | bust_css_cache }}"
+    />
+
     {% if page._styles %}
     <!-- Page/Post style -->
     <style type="text/css">

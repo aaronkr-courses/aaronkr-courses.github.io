@@ -1,0 +1,31 @@
+﻿html {
+  scroll-behavior: smooth;
+}
+d-byline .authors-affiliations {
+  grid-column-end: span 4;
+  grid-template-columns: repeat(4, 1fr);
+}
+d-byline a {
+  color: initial;
+  color: var(--global-theme-color) !important;
+}
+d-article {
+  contain: none;
+}
+d-article li {
+  margin-bottom: 0;
+}
+.distill .logo {
+  position: absolute;
+  max-width: 140px;
+  top: 90px;
+  left: 50%;
+  transform: translateX(calc(-50% - 460px));
+}
+.contents-fixed {
+  position: fixed;
+  top: 85px;
+  max-width: 300px;
+  z-index: 100;
+  background: radial-gradient(circle at right, white, transparent);
+}
