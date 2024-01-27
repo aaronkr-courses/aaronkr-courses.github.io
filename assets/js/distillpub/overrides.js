@@ -47,13 +47,14 @@ $(document).ready(function () {
   });
   // EDIT : Make distill menu fixed after certain scroll point
   let contents = $("d-contents");
-  let origWidth = contents.width();
   let origOffsetY = contents.offset().top - 32;
-  let origOffsetX =
-    $(document).width() - (contents.offset().left + contents.width());
 
   // need to update for responsive design
   function calcFixedMenu() {
+    let origWidth = contents.width();
+    let origOffsetX =
+      $(document).width() - (contents.offset().left + contents.width());
+
     if ($(window).scrollTop() >= origOffsetY) {
       contents.addClass("contents-fixed");
       contents.css("right", "calc(" + origOffsetX + "px - 5em)");
