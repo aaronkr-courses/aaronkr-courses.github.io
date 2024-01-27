@@ -1,4 +1,6 @@
-﻿<table class="table textbooks clearfix" style="border: none">
+﻿<!-- hb-cpp/textbooks.md -->
+
+<table class="table textbooks clearfix" style="border: none">
   <colgroup><col style="width: 10%"><col style="width: 90%"></colgroup>
   <tbody>
     <tr class="textbook">

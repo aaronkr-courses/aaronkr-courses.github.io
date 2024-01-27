@@ -1,4 +1,6 @@
-﻿<table class="table table-hover">
+﻿<!-- hb-cpp/schedule-old.md -->
+
+<table class="table table-hover">
   <colgroup>
     <col style="width:5%"><col style="width:35%"><col style="width:45%"><col style="width:15%">
   </colgroup>
