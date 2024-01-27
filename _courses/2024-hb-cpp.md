@@ -10,9 +10,8 @@ category: 2024
 giscus_comments: true
 
 toc:
-  - name: Overview / 개요
-  - name: Textbook / 교재
-  - name: Lectures / 강의일정
+  - name: Textbook 교재
+  - name: Schedule 강의일정
   - name: Logistics / 수업운영
     subsections:
       # if a section has subsections, you can add them as follows:
@@ -87,7 +86,7 @@ Students will learn how to write professional, safe, and portable C code that do
 - Able to understand the translation steps of the C compiler and the role of the preprocessor.
 - Able to test, debug, and analyze C programs.
 
-## Textbook / 교재
+## Textbook 교재
 
 <table class="table textbooks clearfix" style="border: none">
   <colgroup><col style="width: 10%"><col style="width: 90%"></colgroup>
@@ -136,7 +135,7 @@ Students will learn how to write professional, safe, and portable C code that do
 
 ---
 
-## Lectures / 강의일정
+## Schedule 강의일정
 
 <iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=fcrk3osm1p6clk6rnbisupv1kk%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
