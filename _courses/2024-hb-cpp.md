@@ -52,6 +52,7 @@ _styles: >
     top: 85px;
     max-width: 300px;
     z-index: 100;
+    background: radial-gradient(circle at right, white, transparent);
   }
 
 information:

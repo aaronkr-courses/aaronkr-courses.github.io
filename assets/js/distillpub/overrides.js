@@ -48,7 +48,7 @@ $(document).ready(function () {
   // EDIT : Make distill menu fixed after certain scroll point
   let contents = $("d-contents");
   let origWidth = contents.width();
-  let origOffsetY = contents.offset().top - 85;
+  let origOffsetY = contents.offset().top - 32;
   let origOffsetX =
     $(document).width() - (contents.offset().left + contents.width());
   console.log("contents.offset().left: " + contents.offset().left);
