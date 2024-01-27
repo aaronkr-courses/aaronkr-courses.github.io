@@ -64,7 +64,7 @@ $(document).ready(function () {
     console.log("scroll: " + $(window).scrollTop());
     if ($(window).scrollTop() >= origOffsetY) {
       contents.addClass("contents-fixed");
-      contents.css("right", origOffsetX + "px");
+      contents.css("right", "calc(" + origOffsetX + "px - 5em)");
       contents.css("width", origWidth + "px");
     } else {
       contents.removeClass("contents-fixed");
