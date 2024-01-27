@@ -10,7 +10,6 @@ category: 2024
 
 toc:
   - name: Textbook 교재
-  - name: Schedule 강의일정
   - name: Logistics 수업운영
     subsections:
       # if a section has subsections, you can add them as follows:
@@ -18,11 +17,13 @@ toc:
       #   - name: Example Child Subsection 1
       #   - name: Example Child Subsection 2
       - name: Grading 평가방법
+      - name: Assignments 과제
       - name: Midterm 중간고사
       - name: Final 기말고사
       - name: Project 프로젝트
-  - name: Resources 자료실
   - name: Instructor 강사소개
+  - name: Resources 자료실
+  - name: Schedule 강의일정
 
 information:
   - section: INFO2118
@@ -76,7 +77,7 @@ It also takes a unique approach to introducing features of C++ and the standard 
 2. Consolidate what you have learned by organizing key points
 3. Acquire application skills by solving practice problems
 
-## Textbooks 교재
+## Textbook 교재
 
 {% include textbooks.html %}
 
@@ -114,7 +115,7 @@ Students will learn how to write professional, safe, and portable C code that do
 
 ## Resources 자료실
 
-{% include_relative 2024/hb-cpp-resources.md %}
+{% include_relative 2024/hb-cpp/resources.md %}
 
 <a class="btncv" href="#">Top</a>
 
@@ -130,6 +131,6 @@ Students will learn how to write professional, safe, and portable C code that do
 
 ## Schedule 강의일정
 
-{% include_relative 2024/hb-cpp-schedule.md %}
+{% include_relative 2024/hb-cpp/schedule.md %}
 
 <a class="btncv" href="#">Top</a>
