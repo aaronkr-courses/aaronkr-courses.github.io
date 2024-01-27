@@ -86,7 +86,7 @@ It also takes a unique approach to introducing features of C++ and the standard 
 
 ## Schedule 강의일정
 
-{% include_relative 2024/hb-cpp/schedule.md %}
+{% include_relative 2024/hb-cpp-schedule.md %}
 
 <a class="btncv" href="#">Top</a>
 
@@ -114,7 +114,7 @@ Students will learn how to write professional, safe, and portable C code that do
 
 ### Policies 규정
 
-{% include_relative 2024/policies.md %}
+{% include_relative common/policies.md %}
 
 <a class="btncv" href="#">Top</a>
 
@@ -122,7 +122,7 @@ Students will learn how to write professional, safe, and portable C code that do
 
 ## Resources 자료실
 
-{% include_relative 2024/hb-cpp/resources.md %}
+{% include_relative 2024/hb-cpp-resources.md %}
 
 <a class="btncv" href="#">Top</a>
 
@@ -130,6 +130,6 @@ Students will learn how to write professional, safe, and portable C code that do
 
 ## Instructor 강사소개
 
-{% include_relative 2024/aaron.md %}
+{% include_relative common/aaron.md %}
 
 <a class="btncv" href="#">Top</a>
