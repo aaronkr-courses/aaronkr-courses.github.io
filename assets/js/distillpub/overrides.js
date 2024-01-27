@@ -47,6 +47,7 @@ $(document).ready(function () {
   });
   // EDIT : Make distill menu fixed after certain scroll point
   let contents = $("d-contents");
+  let origWidth = contents.width();
   let origOffsetY = contents.offset().top - 85;
   let origOffsetX =
     $(document).width() - (contents.offset().left + contents.width());
@@ -63,10 +64,12 @@ $(document).ready(function () {
     console.log("scroll: " + $(window).scrollTop());
     if ($(window).scrollTop() >= origOffsetY) {
       contents.addClass("contents-fixed");
-      contents.css("right", origOffsetX);
+      contents.css("right", origOffsetX + "px");
+      contents.css("width", origWidth + "px");
     } else {
       contents.removeClass("contents-fixed");
       contents.css("right", "auto");
+      contents.css("width", "auto");
     }
   }
   document.onscroll = scroll;
