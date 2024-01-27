@@ -49,7 +49,8 @@ _styles: >
   }
   .contents-fixed {
     position: fixed;
-    top: 60px;
+    top: 80px;
+    width: auto;
     left: 0;
     z-index: 100;
   }
