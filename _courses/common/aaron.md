@@ -1,6 +1,6 @@
 ﻿<div class="instructors clearfix">
   {% for instructor in site.data.staff.Instructors %}
-  <div class="instructor-profile-two-col">
+  <div class="instructor-profile-one-col">
     <a href="{{ instructor.url }}" target="_blank"
       ><img
         src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}"
@@ -8,7 +8,7 @@
     <ul class="instructor-info">
       <li>
         <span>Instructor</span>
-        <a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a>
+        <strong><a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></strong>
       </li>
       <li>
         <span>Email:</span>

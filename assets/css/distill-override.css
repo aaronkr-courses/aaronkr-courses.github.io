@@ -1,6 +1,13 @@
 ﻿html {
   scroll-behavior: smooth;
 }
+d-article h3 {
+  font-size: 28px;
+}
+d-article h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
 d-byline .authors-affiliations {
   grid-column-end: span 4;
   grid-template-columns: repeat(4, 1fr);

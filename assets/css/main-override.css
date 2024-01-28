@@ -1,10 +1,12 @@
 ﻿@media screen and (min-width: 676px) {
+  .instructor-profile-one-col,
   .instructor-profile-two-col,
   .instructor-profile-three-col {
     height: 130px;
   }
 }
 
+.instructor-profile-one-col,
 .instructor-profile-two-col,
 .instructor-profile-three-col {
   display: block;
@@ -16,6 +18,7 @@
   width: 50%;
 }
 
+.instructor-profile-one-col img,
 .instructor-profile-two-col img,
 .instructor-profile-three-col img {
   border-radius: 50%;
@@ -26,6 +29,7 @@
   margin-right: 10px;
 }
 
+.instructor-profile-one-col ul.instructor-info,
 .instructor-profile-two-col ul.instructor-info,
 .instructor-profile-three-col ul.instructor-info {
   display: block;
