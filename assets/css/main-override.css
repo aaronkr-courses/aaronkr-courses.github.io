@@ -74,3 +74,7 @@ h2#textbook-교재 {
   border-bottom: none;
   margin-bottom: 0;
 }
+
+footer.sticky-bottom {
+  text-align: center;
+}

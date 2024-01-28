@@ -1,6 +1,9 @@
 ﻿html {
   scroll-behavior: smooth;
 }
+d-article h2:first-child {
+  margin-top: 0;
+}
 d-article h3 {
   font-size: 28px;
 }
