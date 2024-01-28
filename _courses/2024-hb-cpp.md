@@ -9,6 +9,7 @@ importance: 6
 category: 2024
 
 toc:
+  - name: Overview 개요
   - name: Textbook 교재
   - name: Logistics 수업운영
     subsections:
@@ -53,6 +54,8 @@ Supplementary:
     notes:
     image: books/cpp-200.jpg
 ---
+
+## Overview 개요
 
 <strong>라이브러리 중심으로 배우는 C++ 핵심<br>
 Core C++ learning with a focus on libraries</strong>

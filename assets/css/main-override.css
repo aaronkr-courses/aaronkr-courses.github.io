@@ -47,7 +47,7 @@
 }
 
 .table .thead-light th {
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
 }
 
 .table > thead > tr > td.warning,
@@ -68,4 +68,9 @@
 table.table th,
 table.table td {
   padding: 0.75rem;
+}
+
+h2#textbook-교재 {
+  border-bottom: none;
+  margin-bottom: 0;
 }

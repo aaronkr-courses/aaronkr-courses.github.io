@@ -32,6 +32,10 @@ d-article li {
 d-article table tbody :first-child td {
   padding: 0.75rem;
 }
+d-article table th,
+d-article table td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
 
 @media screen and (min-width: 1181px) {
   .contents-fixed {
