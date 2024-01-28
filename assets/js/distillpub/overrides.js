@@ -51,13 +51,22 @@ $(document).ready(function () {
   let origWidth = contents.width();
   let origOffsetX =
     $(document).width() - (contents.offset().left + contents.width());
+  let docWidth = $(document).width();
 
   // need to update for responsive design
   function calcFixedMenu() {
     if ($(window).scrollTop() >= origOffsetY) {
       contents.addClass("contents-fixed");
-      contents.css("right", "calc(" + origOffsetX + "px - 5em)");
-      contents.css("width", origWidth + "px");
+
+      // max-width: 1024px
+      if (docWidth <= 1024) {
+        contents.css("right", "0px");
+        contents.css("width", "auto");
+        contents.css("position", "fixed");
+      } else {
+        contents.css("right", "calc(" + origOffsetX + "px - 5em)");
+        contents.css("width", origWidth + "px");
+      }
     } else {
       contents.removeClass("contents-fixed");
       contents.css("right", "auto");
