@@ -35,7 +35,7 @@ d-article li {
 
 @media screen and (max-width: 1180px) {
   .distill .logo {
-    /* left: 57%; */
+    float: left;
     position: relative;
     top: 30px;
     left: 0;
