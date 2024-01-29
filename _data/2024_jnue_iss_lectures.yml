@@ -102,7 +102,7 @@
     5/6<span style="color: red;">*</span>
   week: 10
   title: >
-    <strong>No School</strong> 어린이날<br>
+    <span style="color: red;"><strong>No School</strong> 어린이날</span><br>
     <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강)</a><br>
     <strong>CHAPTER 09 이벤트를 활용한 응용 프로그래밍</strong>
   slides2: "https://docs.google.com/presentation/d/1gNQe6ZnOE8SC7_-4iJIT27qjwDJfdIpdoG6kJReJP2g/edit?usp=sharing"
