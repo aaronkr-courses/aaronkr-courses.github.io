@@ -17,7 +17,7 @@ d-byline .authors-affiliations {
   grid-template-columns: repeat(4, 1fr);
 }
 d-byline a,
-.post a,
+.post a :not(.btncv),
 .post a strong {
   color: initial;
   color: var(--global-theme-color) !important;
