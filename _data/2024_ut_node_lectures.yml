@@ -148,8 +148,8 @@
 - date: 6/5
   week: 14
   title: >
-    <strong>Appendix A. ES6에서 소개하는 JavaScript 문법 / JavaScript syntax introduced in ES6<strong><br>
-    <strong>Appendix B. 로깅과 Node.js의 전역 객체의 사용 / Logging and using Node.js global objects<strong><br>
+    <strong>Appendix A. ES6에서 소개하는 JavaScript 문법 / JavaScript syntax introduced in ES6</strong><br>
+    <strong>Appendix B. 로깅과 Node.js의 전역 객체의 사용 / Logging and using Node.js global objects</strong><br>
     - 개인 프로젝트 안내와 선택 / Personal projects information and selection
   slides:
   readings: Get Programming with Node, <strong>블록 pp. 531-543</strong>

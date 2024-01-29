@@ -3,8 +3,8 @@
 <table class="table table-hover">
   <colgroup>
     <col style="width:5%">
-    <col style="width:35%">
-    <col style="width:45%">
+    <col style="width:55%">
+    <col style="width:25%">
     <col style="width:15%">
   </colgroup>
   <thead class="thead-light">
