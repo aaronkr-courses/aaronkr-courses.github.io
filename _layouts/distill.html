@@ -22,8 +22,12 @@
     </style>
     {%- endif %}
     <!-- Override Favicon? -->
-    {%- if page.favicon -%}
-    <link rel="icon" type="image/x-icon" href="{{ page.favicon }}" />
+    {%- if page.logo -%}
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="{{ page.logo | prepend: '/assets/img/' | relative_url}}"
+    />
     {%- endif %}
   </head>
 

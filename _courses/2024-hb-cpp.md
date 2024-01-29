@@ -4,7 +4,6 @@ title: C++ Programming
 description: INFO2118 • 2024년 1학기 • 한밭대학교
 logo: hanbat-logo.jpg
 img: assets/img/books/cpp-fast.jpg
-favicon: /assets/img/hanbat-logo.jpg
 importance: 6
 category: 2024
 
