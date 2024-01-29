@@ -20,6 +20,7 @@ d-byline a,
 a {
   color: initial;
   color: var(--global-theme-color) !important;
+  text-decoration: none;
 }
 d-article {
   contain: none;
