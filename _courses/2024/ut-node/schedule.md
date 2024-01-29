@@ -1,4 +1,4 @@
-﻿<!-- ut-node/schedule.md -->
+﻿<!-- hb-cpp/schedule.md -->
 
 <table class="table table-hover">
   <colgroup>
@@ -21,7 +21,7 @@
 {% assign skip_classes = 0 %}
 {% assign prev_date = 0 %}
 
-{% for item in site.data.2024_ut_node_lectures %}
+{% for item in site.data.2024_hb_cpp_lectures %}
 {% if item.date %}
 {% assign lecture = item %}
 {% assign event_type = "upcoming" %}
