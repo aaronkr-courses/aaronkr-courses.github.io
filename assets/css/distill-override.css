@@ -24,6 +24,11 @@ d-byline a,
   text-decoration: none;
   border: none;
 }
+d-byline a:hover,
+.post a:hover,
+.post a strong:hover {
+  text-decoration: none !important;
+}
 d-article {
   contain: none;
 }
