@@ -15,7 +15,8 @@ d-byline .authors-affiliations {
   grid-column-end: span 4;
   grid-template-columns: repeat(4, 1fr);
 }
-d-byline a {
+d-byline a,
+a {
   color: initial;
   color: var(--global-theme-color) !important;
 }
