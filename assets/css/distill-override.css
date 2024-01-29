@@ -1,7 +1,8 @@
 ﻿html {
   scroll-behavior: smooth;
 }
-d-article h2:first-child {
+d-article h2:first-child,
+d-contents + h2 {
   margin-top: 0;
 }
 d-article h3 {
