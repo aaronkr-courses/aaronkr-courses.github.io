@@ -17,10 +17,12 @@ d-byline .authors-affiliations {
   grid-template-columns: repeat(4, 1fr);
 }
 d-byline a,
-a {
+.post a,
+.post a strong {
   color: initial;
   color: var(--global-theme-color) !important;
   text-decoration: none;
+  border: none;
 }
 d-article {
   contain: none;
