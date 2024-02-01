@@ -5,6 +5,9 @@ nav: true
 nav_order: 6
 dropdown: true
 children:
+  - title: All Courses
+    permalink: /courses/
+  - title: divider
   - title: JNUE-ISS
     permalink: /courses/2024-jnue-iss/
   - title: divider
@@ -21,8 +24,6 @@ children:
   - title: HB-CPP
     permalink: /courses/2024-hb-cpp/
   - title: divider
-  - title: All Courses
-    permalink: /courses/
   - title: Archives
     permalink: /courses/
 ---
