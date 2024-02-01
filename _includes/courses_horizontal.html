@@ -9,30 +9,29 @@
     <div class="col-sm-2 {%if course.img %}preview{% endif %}">
 
         {%- if course.img -%}
-        <div data-zoomable class="preview z-depth-1 rounded">
-          {% include figure.html path=course.img alt="course thumbnail" %}
-        </div>
+        <img data-zoomable class="preview z-depth-1 rounded" src="{{ course.img }}">
+
         {%- elsif course.logo -%}
         <img data-zoomable class="preview z-depth-1 rounded" src="{{ course.logo }}">
         {%- endif -%}
 
-        <!-- Course ID -->
-        <div id="{{ course.key }}" class="col-sm-8">
-          <!-- Title -->
-          <h3 class="title">{{ course.title }}</h3>
-          <!-- Subtitle -->
-          <h4 class="subtitle">{{ course.subtitle }}</h4>
-          <!-- Description -->
-          <p class="description">{{ course.description }}</p>
+    </div>
 
-          <!-- Class Information -->
+    <!-- Course ID -->
+    <div id="{{ course.key }}" class="col-sm-8">
+      <!-- Title -->
+      <h3 class="title">{{ course.title }}</h3>
+      <!-- Subtitle -->
+      <h4 class="subtitle">{{ course.subtitle }}</h4>
+      <!-- Description -->
+      <p class="description">{{ course.description }}</p>
 
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a href="{{ course.url | relative_url }}" class="btn btn-sm z-depth-0" role="button">Course Page</a>
-            <a href="{{ course.syllabus | relative_url }}" class="btn btn-sm z-depth-0" role="button">Syllabus</a>
-          </div>
-        </div>
+      <!-- Class Information -->
+
+      <!-- Links/Buttons -->
+      <div class="links">
+        <a href="{{ course.url | relative_url }}" class="btn btn-sm z-depth-0" role="button">Course Page</a>
+        <a href="{{ course.syllabus | relative_url }}" class="btn btn-sm z-depth-0" role="button">Syllabus</a>
       </div>
     </div>
   </a>
