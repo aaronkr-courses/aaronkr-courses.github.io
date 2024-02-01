@@ -1,6 +1,11 @@
 ﻿html {
   scroll-behavior: smooth;
 }
+@media (min-width: 768px) {
+  d-title {
+    padding: 2.5rem 0 1.5rem;
+  }
+}
 d-title h2 {
   grid-column: text;
   font-size: 40px;
