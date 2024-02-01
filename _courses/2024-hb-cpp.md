@@ -45,6 +45,16 @@ Main-Text:
 
 Supplementary:
   - text: "부교재"
+    author: "성윤정, 김태은 저"
+    title: >
+      <strong>C++ 하이킹</strong> 객체지향과 만나는 여행
+    publisher: "한빛아카데미 | 2013년 06월 20일"
+    link: "https://www.yes24.com/Product/Goods/60524662"
+    code:
+    notes:
+    image: books/cpp-hiking.jpg
+
+  - text: "부교재"
     author: "박준태 저"
     title: >
       <strong>초보자를 위한 C++ 200제</strong>
