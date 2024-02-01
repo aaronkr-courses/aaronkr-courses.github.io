@@ -1,4 +1,17 @@
-<div class="row">
+<style>
+  .course {
+    width: 100%;
+  }
+  .course h3.title {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  .course h4.subtitle {
+    font-size: 1.2rem;
+  }
+</style>
+
+<div class="course">
 
   {%- if course.redirect -%}
     <a href="{{ course.redirect }}">
@@ -9,10 +22,10 @@
     <div class="col-sm-2 {%if course.img %}preview{% endif %}">
 
         {%- if course.img -%}
-        <img data-zoomable class="preview z-depth-1 rounded" src="{{ course.img }}">
+        <img class="book" src="{{ course.img | prepend: '/' | relative_url}}">
 
         {%- elsif course.logo -%}
-        <img data-zoomable class="preview z-depth-1 rounded" src="{{ course.logo }}">
+        <img class="logo" src="{{ course.logo | prepend: '/' | relative_url}}">
         {%- endif -%}
 
     </div>
@@ -30,8 +43,8 @@
 
       <!-- Links/Buttons -->
       <div class="links">
-        <a href="{{ course.url | relative_url }}" class="btn btn-sm z-depth-0" role="button">Course Page</a>
-        <a href="{{ course.syllabus | relative_url }}" class="btn btn-sm z-depth-0" role="button">Syllabus</a>
+        <a href="{{ course.url | relative_url }}" class="btn btncv btn-sm z-depth-0" role="button">Course Page</a>
+        <a href="{{ course.syllabus | relative_url }}" class="btn btncv btn-sm z-depth-0" role="button">Syllabus</a>
       </div>
     </div>
   </a>
