@@ -6,7 +6,7 @@ description: Materials for courses you taught. Replace this text with your descr
 nav: false
 nav_order: 2
 display_categories: [2023, 2024]
-horizontal: true
+grid: false
 ---
 
 <!-- pages/courses.md -->
@@ -16,7 +16,7 @@ horizontal: true
 
   <!-- Generate cards for each course -->
 
-{% if page.horizontal -%}
+{% if page.grid -%}
 
   <div class="container">
     <div class="row row-cols-2">
@@ -25,10 +25,13 @@ horizontal: true
     {%- endfor %}
     </div>
   </div>
-  {%- else -%}
+
+{%- else -%}
+
   <div class="grid">
     {%- for course in sorted_courses -%}
       {% include courses.html %}
     {%- endfor %}
   </div>
-  {%- endif -%}
+
+{%- endif -%}
