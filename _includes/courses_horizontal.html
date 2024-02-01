@@ -14,20 +14,18 @@
 <div class="course">
 
   {%- if course.redirect -%}
-    <a href="{{ course.redirect }}">
+  <a href="{{ course.redirect }}">
   {%- else -%}
-    <a href="{{ course.url | relative_url }}">
+  <a href="{{ course.url | relative_url }}">
   {%- endif -%}
 
+  <div class="row">
     <div class="col-sm-2 {%if course.img %}preview{% endif %}">
-
-        {%- if course.img -%}
-        <img class="book" src="{{ course.img | prepend: '/' | relative_url}}">
-
-        {%- elsif course.logo -%}
-        <img class="logo" src="{{ course.logo | prepend: '/' | relative_url}}">
-        {%- endif -%}
-
+      {%- if course.img -%}
+      <img class="book" src="{{ course.img | prepend: '/' | relative_url}}">
+      {%- elsif course.logo -%}
+      <img class="logo" src="{{ course.logo | prepend: '/' | relative_url}}">
+      {%- endif -%}
     </div>
 
     <!-- Course ID -->
@@ -47,5 +45,6 @@
         <a href="{{ course.syllabus | relative_url }}" class="btn btncv btn-sm z-depth-0" role="button">Syllabus</a>
       </div>
     </div>
+  </div>
   </a>
 </div>
