@@ -24,7 +24,7 @@
       {%- if course.img -%}
       <img class="book" src="{{ course.img | prepend: '/' | relative_url}}">
       {%- elsif course.logo -%}
-      <img class="logo" src="{{ course.logo | prepend: '/' | relative_url}}">
+      <img class="logo" src="{{ course.logo | prepend: '/assets/img/' | relative_url}}">
       {%- endif -%}
     </div>
 
