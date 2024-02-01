@@ -1,7 +1,8 @@
 ---
 layout: distill
 title: Web Programming Application
-description: INFO2118 • 2024년 1학기 • 교통대학교
+subtitle: 웹프로그래밍응용
+description: 259122 • 2024년 1학기 • 교통대학교
 logo: ut-logo.jpg
 img: assets/img/books/node-get-programming.jpg
 importance: 4
@@ -26,11 +27,11 @@ toc:
   - name: Schedule 강의일정
 
 information:
-  - section: INFO2118-1
+  - section: 259122-1 (am)
     time: 수 123 | Wed 9am-12pm
     location: N4동 316호
     kakaotalk:
-  - section: INFO2118-2
+  - section: 259122-2 (pm)
     time: 수 567 | Wed 1am-4pm
     location: N4동 316호
     kakaotalk:

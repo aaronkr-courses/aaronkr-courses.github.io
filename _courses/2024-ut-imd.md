@@ -1,8 +1,8 @@
 ---
 layout: distill
-title: Imaging-based medical device manufacturing (1)
-subtitle: 영상기반의료기기제조(1)
-description: BIO025(1) • 2024년 1학기 • 교통대학교
+title: Imaging-based medical device manufacturing
+subtitle: 영상기반의료기기제조
+description: BIO025 • 2024년 1학기 • 교통대학교
 logo: ut-logo.jpg
 img: assets/img/books/bio-medical.jpg
 importance: 5

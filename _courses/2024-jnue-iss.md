@@ -1,7 +1,8 @@
 ---
 layout: distill
 title: Information Society and Software
-description: 060487 • 2023년 2학기 • 전주교육대학교
+subtitle: 정보사회와 소프트웨어
+description: 060487 • 2024년 1학기 • 전주교육대학교
 logo: jnue-logo.jpg
 img: assets/img/books/scratch-3.jpg
 importance: 1
