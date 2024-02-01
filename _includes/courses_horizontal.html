@@ -11,40 +11,49 @@
   }
 </style>
 
+{%- assign link = course.redirect | course.url | relative_url -%}
+
 <div class="course">
+  <a href="{{ link }}">
+    <div class="row">
+      <div class="col-sm-2 {%if course.img %}preview{% endif %}">
+        {%- if course.img -%}
+        <img class="book" src="{{ course.img | prepend: '/' | relative_url}}" />
+        {%- elsif course.logo -%}
+        <img
+          class="logo"
+          src="{{ course.logo | prepend: '/assets/img/' | relative_url}}"
+        />
+        {%- endif -%}
+      </div>
 
-  {%- if course.redirect -%}
-  <a href="{{ course.redirect }}">
-  {%- else -%}
-  <a href="{{ course.url | relative_url }}">
-  {%- endif -%}
+      <!-- Course ID -->
+      <div id="{{ course.key }}" class="col-sm-8">
+        <!-- Title -->
+        <h3 class="title">{{ course.title }}</h3>
+        <!-- Subtitle -->
+        <h4 class="subtitle">{{ course.subtitle }}</h4>
+        <!-- Description -->
+        <p class="description">{{ course.description }}</p>
 
-  <div class="row">
-    <div class="col-sm-2 {%if course.img %}preview{% endif %}">
-      {%- if course.img -%}
-      <img class="book" src="{{ course.img | prepend: '/' | relative_url}}">
-      {%- elsif course.logo -%}
-      <img class="logo" src="{{ course.logo | prepend: '/assets/img/' | relative_url}}">
-      {%- endif -%}
-    </div>
+        <!-- Class Information -->
 
-    <!-- Course ID -->
-    <div id="{{ course.key }}" class="col-sm-8">
-      <!-- Title -->
-      <h3 class="title">{{ course.title }}</h3>
-      <!-- Subtitle -->
-      <h4 class="subtitle">{{ course.subtitle }}</h4>
-      <!-- Description -->
-      <p class="description">{{ course.description }}</p>
-
-      <!-- Class Information -->
-
-      <!-- Links/Buttons -->
-      <div class="links">
-        <a href="{{ course.url | relative_url }}" class="btn btncv btn-sm z-depth-0" role="button">Course Page</a>
-        <a href="{{ course.syllabus | relative_url }}" class="btn btncv btn-sm z-depth-0" role="button">Syllabus</a>
+        <!-- Links/Buttons -->
+        <div class="links">
+          <a
+            href="{{ course.url | relative_url }}"
+            class="btn btncv btn-sm z-depth-0"
+            role="button"
+            >Course Page</a
+          >
+          <a
+            href="{{ course.syllabus | relative_url }}"
+            class="btn btncv btn-sm z-depth-0"
+            role="button"
+            >Syllabus</a
+          >
+        </div>
       </div>
     </div>
-  </div>
   </a>
 </div>
