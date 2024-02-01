@@ -34,7 +34,8 @@
         {% if text.image %}
         <a href="{{ text.link }}" target="_blank"
           ><img
-            width="100"
+            width="60"
+            align="right"
             style="box-shadow: 1px 1px 5px gainsboro"
             src="{{ text.image | prepend: '/assets/img/' | relative_url }}"
         /></a>
