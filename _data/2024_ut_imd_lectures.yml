@@ -1,0 +1,171 @@
+- date: 3/7
+  week: 1
+  title: >
+    <strong>1부 우리 몸을 들여다보다</strong><br>
+    - 1. 몸속 사진 한 장 한 장을 모으면 : X-레이 영상과 CT (임창환)<br>
+    - 2. 뇌는 제가 잘 봅니다 : MRI (임창환)
+  slides:
+  readings:
+  logistics:
+
+- date: 3/14
+  week: 2
+  title: >
+    <strong>1부 우리 몸을 들여다보다</strong><br>    
+    - 3. 소리를 이용해 영상을 보다 : 초음파 영상기기 (임창환)<br>
+    - 4. 몸속에선 어떤 일이 일어나고 있을까? : 핵의학영상 (장동표)
+  slides:
+  readings:
+  logistics:
+
+- date: 3/21
+  week: 3
+  title: >
+    <strong>2부 장애를 넘어 신체를 증강하다</strong><br>
+    - 5. 손발 잃은 사람들의 희망 : 근전 인터페이스 (전자의수, 의족) (임창환)<br>
+    - 6. 세상과 연결해 주는 인공 귀 : 보청기와 인공와우 (김인영)
+  slides:
+  readings:
+  logistics:
+
+- date: 3/28
+  week: 4
+  title: >
+    <strong>2부 장애를 넘어 신체를 증강하다</strong><br>
+    - 7. 뇌를 통해 세상을 보다 : 인공망막 (장동표)<br>
+    - 8. 몸짓으로 만드는 에너지 : 생체 내 에너지 하베스팅 (김선정)<br>
+    - 9. 로봇이 벌크업을 하면 어떻게 될까? : 인공근육 (김선정)
+  slides:
+  readings:
+  logistics:
+
+- date: 4/4
+  week: 5
+  title: >
+    <strong>3부 뇌 치료에서 인공두뇌까지, 뇌공학</strong><br>
+    - 10. 머릿속의 페이스메이커 : 뇌심부자극술 (장동표)<br>
+    - 11. 두개골을 열지 않고 뇌를 치료하는 법 : 비침습적 뇌자극 (임창환)
+  slides:
+  readings:
+  logistics:
+
+- date: 4/11
+  week: 6
+  title: >
+    <strong>3부 뇌 치료에서 인공두뇌까지, 뇌공학</strong><br>
+    - 12. 내 도파민 농도는 괜찮을까? : 신경전달물질 측정 기술 (장동표)<br>
+    - 13. 너의 ‘뇌 소리’가 보여 : 뇌 신호 측정 기술 (임창환)
+  slides:
+  readings:
+  logistics:
+
+- date: 4/18
+  week: 7
+  title: >
+    <strong>3부 뇌 치료에서 인공두뇌까지, 뇌공학</strong><br>
+    - 14. 내 뇌에 칩이 들어간다면 : 뇌-기계 인터페이스 (장동표)<br>
+    - 15. ‘뇌’맘대로 움직이는 세상 : 뇌-컴퓨터 인터페이스 (임창환)
+  slides:
+  readings: >
+    중간고사 가이드
+  logistics:
+
+- date: 4/25
+  week: 8
+  title: >
+    <strong>Midterm Test</strong>
+  slides:
+  readings:
+  logistics: >
+    퀴즈 링크<br>
+    실기 시험
+
+- date: 5/1
+  week: 9
+  title: >
+    <strong>4부 예방에서 치료까지, 나만의 주치의를 만나다</strong><br>
+    - 16. 내 손 안의 작은 병원 : 원격진료와 U-healthcare (김인영)<br>
+    - 17. 함께 자고, 먹고, 일하는 기기 : 웨어러블 헬스케어 (김인영)
+  slides:
+  readings:
+  logistics:
+
+- date: 5/8
+  week: 10
+  title: >
+    <strong>4부 예방에서 치료까지, 나만의 주치의를 만나다</strong><br>
+    - 18. 더 많은 정보, 더 나은 진단 : 의료 빅데이터와 디지털 헬스케어 (김인영)<br>
+    - 19. 나에게 꼭 맞는 치료 : 맞춤 의학 (김인영)
+  slides:
+  readings:
+  logistics:
+
+- date: 5/16
+  week: 11
+  title: >
+    <strong>5부 몸속 세포에서 답을 얻다</strong><br>
+    - 20. 우리 몸속 나노센서 로봇 : 마이크로 나노ㆍ제조기술 (최성용)<br>
+    - 21. 별자리처럼 빛나는 세포들 : 세포막 수용체 분석 (최성용)
+  slides:
+  readings:
+  logistics:
+
+- date: 5/23
+  week: 12
+  title: >
+    <strong>5부 몸속 세포에서 답을 얻다</strong><br>
+    - 22. 암 치료의 원조, 면역시스템 : 면역 치료제 (최성용)<br>
+    - 23. DNA는 범인을 알고 있다 : DNA 진단기술 (최성용)<br>
+    - 24. 세포들의 특별한 메신저 : 나노 소포체 진단기술 (최성용)
+  slides:
+  readings:
+  logistics:
+
+- date: 5/30
+  week: 13
+  title: >
+    <strong>6부 우리 뇌를 더 잘 이해해야 하는 이유</strong><br>
+    - 1. 뇌를 수식으로 표현하다 : 뇌신경 수학적 모델링 (김안모)<br>
+    - 2. 인공지능을 진화시키는 뇌과학 : 뇌모방 인공지능 (김안모)<br>
+    - 3. 생각이 업로드 되었습니다 : 뇌신경계 시뮬레이션 기술 (임창환)<br>
+    - 4. 뇌가 사용하는 언어가 있다? : 신경코드 해독 (임창환)
+  slides:
+  readings:
+  logistics:
+
+- date: >
+    6/6<span style="color: red">*</span>
+  week: 14
+  title: >
+    <span style="color: red"><strong>No Class</strong> Memorial Day</span>
+  slides:
+  readings:
+  logistics:
+
+- date: 6/13
+  week: 15
+  title: >
+    <strong>7부 계속해서 진화하는 의료기기</strong><br>
+    - 1. 먹지 않아도 되는 약이 있다? : 전자약 (이병훈)<br>
+    - 2. 내 몸 안의 119 구조대 : 이식형 의료기기 (이병훈)<br>
+    - 3. 냄새로 병을 진단할 수 있을까? : 인공후각 (김안모)<br>
+    - 4. 내 몸속의 초소형 드론: 캡슐형 내시경 (이병훈)<br>
+    - 5. 질병을 예방하는 똑똑한 시계 : 스마트 의료기기 (최성용)<br>
+    - 6. 빛으로 풀어내는 인체의 비밀 : 광유전학 (이병훈)
+  slides:
+  readings: >
+    기말고사 가이드
+  logistics:
+
+- date: 6/20
+  week: 16
+  title: >
+    <strong>Final Test</strong>
+  logistics: >
+    퀴즈 링크<br>
+    실기 시험
+
+- date: 6/27
+  week: 17
+  title: >
+    <strong>Final Grades</strong>
