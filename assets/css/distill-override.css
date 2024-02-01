@@ -1,6 +1,11 @@
 ﻿html {
   scroll-behavior: smooth;
 }
+d-title h2 {
+  grid-column: text;
+  font-size: 40px;
+  margin: 0 0 0.5rem;
+}
 d-article h2:first-child,
 d-contents + h2 {
   margin-top: 0;
