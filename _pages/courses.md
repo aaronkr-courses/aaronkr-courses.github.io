@@ -14,8 +14,20 @@ grid: false
 
 {%- assign sorted_courses = site.courses | sort: "importance" -%}
 
-<!-- Generate cards for each course -->
+<style>
+  .course {
+    width: 100%;
+  }
+  .course h3.title {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  .course h4.subtitle {
+    font-size: 1.2rem;
+  }
+</style>
 
+<!-- Generate cards for each course -->
 <div class="container">
   <div class="row">
   {%- for course in sorted_courses -%}
