@@ -1,4 +1,4 @@
-<div class="course card-item col">
+<div class="course card-item">
   {%- if course.redirect -%}
   <a href="{{ course.redirect }}">
   {%- else -%}
@@ -7,16 +7,20 @@
     <div class="card hoverable">
       <div class="row g-0">
         {%- if course.img -%}
-        <div class="card-img col-md-6">
+        <div class="card-img col-md-3">
           {% include figure.html path=course.img alt="course thumbnail" %}
         </div>
-        <div class="col-md-6">
+        <div class="col-md-9">
         {%- else -%}
         <div class="col-md-12">
         {%- endif -%}
           <div class="card-body">
-            <h3 class="card-title text-lowercase">{{ course.title }}</h3>
-            <p class="card-text">{{ course.description }}</p>
+            <!-- Title -->
+            <h3 class="title">{{ course.title }}</h3>
+            <!-- Subtitle -->
+            <h4 class="subtitle">{{ course.subtitle }}</h4>
+            <!-- Description -->
+            <p class="description">{{ course.description }}</p>
             <div class="row ml-1 mr-1 p-0">
               {%- if course.github -%}
               <div class="github-icon">
