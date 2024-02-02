@@ -9,11 +9,6 @@ display_categories: [2023, 2024]
 grid: false
 ---
 
-<!-- pages/courses.md -->
-<!-- Display courses without categories -->
-
-{%- assign sorted_courses = site.courses | sort: "importance" -%}
-
 <style>
   .course {
     width: 100%;
@@ -40,11 +35,35 @@ grid: false
   }
 </style>
 
-<!-- Generate cards for each course -->
-<div class="container">
-  <div class="row">
-  {%- for course in sorted_courses -%}
-    {% include courses_horizontal.html %}
-  {%- endfor %}
+<!-- pages/courses.md -->
+<div class="projects">
+{%- if site.enable_course_categories and page.display_categories %}
+<!-- Display courses without categories -->
+  <h2 class="category">{{ category }}</h2>
+  {%- assign categorized_courses = site.courses | where: "category", category -%}
+  {%- assign sorted_courses = site.courses | sort: "importance" -%}
+
+  <!-- Generate cards for each course -->
+  <div class="container">
+    <div class="row">
+    {%- for course in sorted_courses -%}
+      {% include courses_horizontal.html %}
+    {%- endfor %}
+    </div>
+  </div>
+
+{%- else -%}
+
+<!-- Display courses without categories -->
+
+{%- assign sorted_courses = site.courses | sort: "importance" -%}
+
+  <!-- Generate cards for each course -->
+  <div class="container">
+    <div class="row">
+    {%- for course in sorted_courses -%}
+      {% include courses_horizontal.html %}
+    {%- endfor %}
+    </div>
   </div>
 </div>
