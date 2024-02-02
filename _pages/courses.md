@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /courses/
-title: courses
-description: Materials for courses you taught. Replace this text with your description.
+title: Courses
+description: Current and previous courses taught by Aaron Snowberger.
 nav: false
 nav_order: 2
 display_categories: [2023, 2024]
@@ -37,9 +37,6 @@ grid: false
   }
   .card figure {
     margin-bottom: 0;
-  }
-  .card-body {
-    padding-left: 0;
   }
 </style>
 

@@ -11,6 +11,11 @@
           {% include figure.html path=course.img alt="course thumbnail" %}
         </div>
         <div class="col-md-10">
+        {%- elsif course.logo -%}
+        <div class="card-img col-md-2">
+          {% include figure.html path=course.logo alt="school logo" %}
+        </div>
+        <div class="col-md-10">
         {%- else -%}
         <div class="col-md-12">
         {%- endif -%}
