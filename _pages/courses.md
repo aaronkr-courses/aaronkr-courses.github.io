@@ -23,7 +23,14 @@ grid: false
     font-weight: 400;
   }
   .course h4.subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
+  }
+  .course p.description {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  .card-img.col-md-2 {
+    margin-right: -1.5rem;
   }
   .card {
     margin-bottom: 1rem;
