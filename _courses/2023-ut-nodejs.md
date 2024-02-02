@@ -3,7 +3,7 @@ layout: distill
 title: Web Programming Application
 subtitle: 웹프로그래밍응용
 description: 259122 • 2023년 1학기 • 교통대학교
-logo: ut-logo.jpg
+logo: assets/img/ut-logo.jpg
 img:
 importance: 20231
 category: 2023
