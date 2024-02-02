@@ -25,6 +25,15 @@ grid: false
   .course h4.subtitle {
     font-size: 1.2rem;
   }
+  .card {
+    margin-bottom: 1rem;
+  }
+  .card figure {
+    margin-bottom: 0;
+  }
+  .card-body {
+    padding-left: 0;
+  }
 </style>
 
 <!-- Generate cards for each course -->
