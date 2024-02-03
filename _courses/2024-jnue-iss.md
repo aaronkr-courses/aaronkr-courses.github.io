@@ -113,7 +113,7 @@ Coming soon.
 
 ## Instructor 강사소개
 
-{% include_relative common/aaron.md %}
+{% include about_me.html %}
 
 <a class="btncv" href="#">Top</a>
 
