@@ -6,7 +6,7 @@ description: 009833 • 2024년 1학기 • 대전대학교
 logo: dju-logo.png
 img: assets/img/books/unix.jpg
 importance: 2
-category: 2024년
+category: 2024
 
 toc:
   - name: Overview 개요
