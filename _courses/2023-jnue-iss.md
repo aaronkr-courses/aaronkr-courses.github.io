@@ -3,7 +3,7 @@ layout: distill
 title: Information Society and Software (Scratch)
 subtitle: 정보사회와 소프트웨어
 description: 060487 • 2023년 2학기 • 전주교육대학교
-logo: assets/img/jnue-logo.jpg
+logo: jnue-logo.jpg
 img:
 importance: 20231
 category: 2023

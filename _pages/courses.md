@@ -38,6 +38,13 @@ grid: false
     left: 1rem;
     width: 140%;
   }
+  .card-body .logo {
+    width: 50px!important;
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+    opacity: 0.25;
+}
 </style>
 
 <!-- pages/courses.md -->
@@ -51,7 +58,12 @@ grid: false
 
   <!-- Generate cards for each course -->
   <div class="container">
-    <div class="{%- unless forloop.first -%}row-cols-2{%- endunless -%} row">
+    {%- if forloop.first -%}
+    {%- assign row_class = 'row' -%}
+    {%- else -%}
+    {%- assign row_class = 'row row-cols-2' -%}
+    {%- endif -%}
+    <div class="{{ row_class }}">
     {%- for course in sorted_courses -%}
       {% include courses_horizontal.html %}
     {%- endfor %}
