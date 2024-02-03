@@ -13,6 +13,10 @@ grid: false
   .course {
     width: 100%;
   }
+  .courses a {
+    margin: 0 0.5rem;
+    display: block;
+  }
   .course h3.title {
     font-size: 1.4rem;
     font-weight: 400;
@@ -41,10 +45,14 @@ grid: false
   .card-body .logo {
     width: 50px!important;
     position: absolute;
-    right: 0;
-    top: 0.5rem;
-    opacity: 0.25;
-}
+    right: 1rem;
+    top: 1rem;
+    opacity: .25;
+    padding-right: 1rem;
+  }
+  .col-md-10 .card-body .logo {
+      padding: 0;
+  }
 </style>
 
 <!-- pages/courses.md -->
