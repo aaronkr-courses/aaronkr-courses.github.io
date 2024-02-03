@@ -46,7 +46,7 @@ grid: false
 
   <!-- Generate cards for each course -->
   <div class="container">
-    <div class="row {%- unless forloop.first -%}row-cols-2{%- endunless -%}">
+    <div class="row {%- unless forloop.first -%} row-cols-2 {%- endunless -%}">
     {%- for course in sorted_courses -%}
       {% include courses_horizontal.html %}
     {%- endfor %}
