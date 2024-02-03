@@ -28,13 +28,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Aaron Snowberger earned his Ph.D. in Information and Communications Engineering from Hanbat National University in South Korea. He also holds degrees in Computer Science and Media Design. He has taught high school technology courses for over 6 years, and has built dozens of web applications with Node and Express. His current research interests include computer vision, natural language processing, image processing, signal processing, and machine learning.
-
-Aaron Snowberger는 한밭대학교 정보통신공학과 박사학위를 받았으며, 컴퓨터 공학 및 미디어 디자인 학위를 보유하고 있습니다. 그는 6년 이상의 고등학교 기술 교육 과정을 가르치고 있으며, Node 및 Express를 사용하여 수십 개의 웹 애플리케이션을 구축했습니다. 현재 연구 관심사는 컴퓨터 비전, 자연어 처리, 영상 처리, 신호 처리 및 기계 학습입니다.
+{%- include about_me.html %}
 
 ## Courses
 
-{% include courses-home.html %}
+{% include courses_home.html %}
 
 <!--
 ## GitHub Repositories
