@@ -27,6 +27,13 @@
             <!-- Description -->
             <p class="description">{{ course.description }}</p>
             <div class="row ml-1 mr-1 p-0">
+              {%- if course.logo -%}
+              <img
+                src="{{ course.logo | prepend: '/assets/img/' | relative_url }}"
+                alt="{{ course.title }}"
+                class="img-fluid logo"
+              />
+              {%- endif -%}
               {%- if course.github -%}
               <div class="github-icon">
                 <div class="icon" data-toggle="tooltip" title="Code Repository">
