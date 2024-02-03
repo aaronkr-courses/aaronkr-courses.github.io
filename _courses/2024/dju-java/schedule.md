@@ -75,6 +75,11 @@
         {% endif %}
     </td>
     <td>
+        {% if lecture.slidethumb %}
+        <a href="{{ lecture.slidethumb }}" target="_blank">
+            <img src="{{ lecture.slides | prepend: /assets/ | relative_link }}" alt="slide thumbnail" style="max-width: 100px;" />
+        </a>
+        {% endif %}
         <p>{{ lecture.logistics }}</p>
     </td>
     {% endif %}

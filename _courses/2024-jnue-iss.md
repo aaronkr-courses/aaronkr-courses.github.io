@@ -113,7 +113,7 @@ Coming soon.
 
 ## Instructor 강사소개
 
-{% include about_me.html %}
+{% include_relative ../_includes/about_me.html %}
 
 <a class="btncv" href="#">Top</a>
 
