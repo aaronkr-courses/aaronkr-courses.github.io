@@ -6,7 +6,7 @@ description: 259122 • 2024년 1학기 • 교통대학교
 logo: ut-logo.jpg
 img: assets/img/books/node-get-programming.jpg
 importance: 4
-category: "2024"
+category: 2024
 
 toc:
   - name: Overview 개요

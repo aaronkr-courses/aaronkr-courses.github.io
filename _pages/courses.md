@@ -5,7 +5,7 @@ title: Courses
 description: Current and previous courses taught by Aaron Snowberger.
 nav: false
 nav_order: 2
-display_categories: ["2023", "2024"]
+display_categories: [2023, 2024]
 grid: false
 ---
 
@@ -38,7 +38,8 @@ grid: false
 <!-- pages/courses.md -->
 <div class="projects">
 {%- if site.enable_course_categories and page.display_categories %}
-<!-- Display courses without categories -->
+<!-- Display courses with categories -->
+  {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
   {%- assign categorized_courses = site.courses | where: "category", category -%}
   {%- assign sorted_courses = site.courses | sort: "importance" -%}
