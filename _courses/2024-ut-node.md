@@ -154,7 +154,7 @@ Students will learn how to write professional, safe, and portable C code that do
 
 ## Instructor 강사소개
 
-{% include_relative ../_includes/about_me.html %}
+{% include_absolute '../_includes/about_me.html' %}
 
 <a class="btncv" href="#">Top</a>
 
