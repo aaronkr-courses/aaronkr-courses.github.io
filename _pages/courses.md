@@ -33,6 +33,11 @@ grid: false
   .card figure {
     margin-bottom: 0;
   }
+  .card-img.card-logo {
+    position: relative;
+    left: 1rem;
+    width: 140%;
+  }
 </style>
 
 <!-- pages/courses.md -->
@@ -46,7 +51,7 @@ grid: false
 
   <!-- Generate cards for each course -->
   <div class="container">
-    <div class="row {%- unless forloop.first -%} row-cols-2 {%- endunless -%}">
+    <div class="{%- unless forloop.first -%}row-cols-2{%- endunless -%} row">
     {%- for course in sorted_courses -%}
       {% include courses_horizontal.html %}
     {%- endfor %}
