@@ -6,7 +6,7 @@ description: 060487 • 2024년 1학기 • 전주교육대학교
 logo: jnue-logo.jpg
 img: assets/img/books/scratch-3.jpg
 importance: 1
-category: 2024
+category: "2024"
 
 toc:
   - name: Overview 개요

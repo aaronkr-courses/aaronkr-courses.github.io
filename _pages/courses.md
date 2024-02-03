@@ -5,7 +5,7 @@ title: Courses
 description: Current and previous courses taught by Aaron Snowberger.
 nav: false
 nav_order: 2
-display_categories: [2023, 2024]
+display_categories: ["2023", "2024"]
 grid: false
 ---
 

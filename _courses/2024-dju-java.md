@@ -6,7 +6,7 @@ description: 009001 • 2024년 1학기 • 대전대학교
 logo: dju-logo.png
 img: assets/img/books/java-master.jpg
 importance: 3
-category: 2024
+category: "2024"
 
 toc:
   - name: Overview 개요

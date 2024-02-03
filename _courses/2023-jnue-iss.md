@@ -6,7 +6,7 @@ description: 060487 • 2023년 2학기 • 전주교육대학교
 logo: assets/img/jnue-logo.jpg
 img:
 importance: 20231
-category: 2023
+category: "2023"
 
 redirect: https://2023-aaronkr.github.io/jnue-iss/
 ---
