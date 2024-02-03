@@ -52,6 +52,7 @@ grid: false
     {%- endfor %}
     </div>
   </div>
+  {% endfor %}
 
 {%- else -%}
 
