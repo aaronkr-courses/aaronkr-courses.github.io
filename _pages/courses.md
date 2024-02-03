@@ -42,7 +42,7 @@ grid: false
   {%- for category in page.course_categories %}
   <h2 class="category">{{ category }}</h2>
   {%- assign categorized_courses = site.courses | where: "category", category -%}
-  {%- assign sorted_courses = site.courses | sort: "importance" -%}
+  {%- assign sorted_courses = categorized_courses | sort: "importance" -%}
 
   <!-- Generate cards for each course -->
   <div class="container">
