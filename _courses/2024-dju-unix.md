@@ -29,7 +29,7 @@ information:
   - section: 009833
     time: 화 1234 | Tues 9am-1pm
     location: 융합과학관 24호환
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/gpDW9Hbg
 
 Main-Text:
   - text: "주교재"

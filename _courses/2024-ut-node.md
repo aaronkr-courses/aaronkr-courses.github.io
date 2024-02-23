@@ -30,11 +30,11 @@ information:
   - section: 259122-1 (am)
     time: 수 123 | Wed 9am-12pm
     location: N4동 316호
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/gGtgeIbg
   - section: 259122-2 (pm)
     time: 수 567 | Wed 1am-4pm
     location: N4동 316호
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/g2opgIbg
 
 Main-Text:
   - text: "주교재"

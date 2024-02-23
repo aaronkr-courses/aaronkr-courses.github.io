@@ -30,7 +30,7 @@ information:
   - section: 009001
     time: 화 6789 | Tues 2am-6pm
     location: 융합과학관 24호환
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/gXOScIbg
 
 Main-Text:
   - text: "주교재"
