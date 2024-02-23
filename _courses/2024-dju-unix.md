@@ -3,7 +3,7 @@ layout: distill
 title: Unix System Control and Security
 subtitle: 유닉스시스템관제 및 보안
 description: 009833 • 2024년 1학기 • 대전대학교
-logo: dju-logo.png
+logo: dju-logo-2.png
 img: assets/img/books/unix.jpg
 importance: 2
 category: 2024

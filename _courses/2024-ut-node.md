@@ -3,7 +3,7 @@ layout: distill
 title: Web Programming Application
 subtitle: 웹프로그래밍응용
 description: 259122 • 2024년 1학기 • 교통대학교
-logo: ut-logo.jpg
+logo: ut-logo.png
 img: assets/img/books/node-get-programming.jpg
 importance: 4
 category: 2024

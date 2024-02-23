@@ -3,7 +3,7 @@ layout: distill
 title: Java Programming and Practice
 subtitle: 자바프로그래밍 및 실습
 description: 009001 • 2024년 1학기 • 대전대학교
-logo: dju-logo.png
+logo: dju-logo-2.png
 img: assets/img/books/java-master.jpg
 importance: 3
 category: 2024
