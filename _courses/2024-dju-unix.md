@@ -70,6 +70,10 @@ Supplementary:
 
 유닉스나 리눅스에 대한 기본 지식을 배우고자 하는 컴퓨터 관련 학과의 학부생을 대상으로 한다. 유닉스 입문에 꼭 필요한 기본 기능과 명령의 사용 방법을 예제와 함께 자세히 설명하기 때문에 유닉스 강의 교재로 적합하며, 독학용으로도 활용할 수 있다.
 
+**Easy to learn UNIX with various examples and step-by-step learning**
+
+It is aimed at undergraduate students in computer-related departments who want to learn basic knowledge about Unix or Linux. It is suitable as a textbook for UNIX lectures and can also be used for self-study because it explains in detail how to use the basic functions and commands essential for introduction to UNIX, along with examples.
+
 ---
 
 **슈퍼 사용자를 위한 리눅스**
@@ -79,12 +83,6 @@ Supplementary:
 이 책은 수년간 베스트셀러의 영광을 고수한 브라이언 워드의 『HOW LINUX WORKS』를 전면적으로 개정한 2판으로, 운영체제의 내부 동작에 대해 알고 싶어하는 사람들에게 리눅스 내부 이면에 존재하는 개념들에 좀 더 접근하기 쉽게 도와주고 있다. 이 책을 통해 여러분은 실제로 수년에 걸쳐서 어렵게 체득해야만 얻을 수 있는 값진 정보들을 보다 쉽게 발견할 수 있을 것이다.
 
 리눅스가 부팅하는 방법, 부트 로더를 시작으로 init 구현(systemd, Upstart, System V)에 이르는 부팅 관련 정보, 커널이 장치, 프로세스, 장치 드라이버를 관리하는 방법, 네트워킹, 인터페이스, 방화벽과 서버가 동작하는 방법, 개발 툴들의 동작 원리와 공유 라이브러리와의 연관성, 효과적인 셸 스크립트 작성 방법에 대해 배울 수 있다. 그 외에도 시스템 콜, 입력과 출력, 파일 시스템 등을 포함하여 사용자 공간 내부의 주요 시스템 작업들에 대해 검토하고, 커널에 대해 탐구할 것이다. 배경 지식, 이론, 현실적인 예제, 상세한 설명과 더불어 『리눅스 작동법』은 복잡한 여러 가지 문제들을 해결하고, 운영체제를 통제하는 데 필요한 모든 것을 가르쳐 줄 것이다.
-
-**Easy to learn UNIX with various examples and step-by-step learning**
-
-It is aimed at undergraduate students in computer-related departments who want to learn basic knowledge about Unix or Linux. It is suitable as a textbook for UNIX lectures and can also be used for self-study because it explains in detail how to use the basic functions and commands essential for introduction to UNIX, along with examples.
-
----
 
 **Linux for Super Users**
 

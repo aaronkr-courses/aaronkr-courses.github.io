@@ -67,6 +67,10 @@ d-article table td {
     z-index: 100;
     background: radial-gradient(circle at right, white, transparent);
   }
+
+  html[data-theme="dark"] .contents-fixed {
+    background: radial-gradient(circle at right, #1c1c1d, transparent);
+  }
 }
 
 @media screen and (max-width: 1180px) {

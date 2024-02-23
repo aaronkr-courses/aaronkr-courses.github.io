@@ -78,3 +78,25 @@ h2#textbook-교재 {
 footer.sticky-bottom {
   text-align: center;
 }
+
+/** Dark mode */
+html[data-theme="dark"] .table > thead > tr > td.warning,
+html[data-theme="dark"] .table > thead > tr > th.warning,
+html[data-theme="dark"] .table > thead > tr.warning > td,
+html[data-theme="dark"] .table > thead > tr.warning > th,
+html[data-theme="dark"] .table > tbody > tr > td.warning,
+html[data-theme="dark"] .table > tbody > tr > th.warning,
+html[data-theme="dark"] .table > tbody > tr.warning > td,
+html[data-theme="dark"] .table > tbody > tr.warning > th,
+html[data-theme="dark"] .table > tfoot > tr > td.warning,
+html[data-theme="dark"] .table > tfoot > tr > th.warning,
+html[data-theme="dark"] .table > tfoot > tr.warning > td,
+html[data-theme="dark"] .table > tfoot > tr.warning > th {
+  background-color: #32312d;
+}
+
+html[data-theme="dark"] .table .thead-light th {
+  background-color: #495057;
+  color: #e9ecef;
+  border-color: #32312d;
+}
