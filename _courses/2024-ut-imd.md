@@ -28,7 +28,7 @@ toc:
 information:
   - section: BIO025(1)
     time: 목 123 | Thur 9am-12pm
-    location: N4동 316호
+    location: W18동 102호
     kakaotalk: https://open.kakao.com/o/gfKXhIbg
 
 Main-Text:
