@@ -3,11 +3,11 @@
   title: >
     <strong>과정 소개<br>
     Chapter 01 자바 첫걸음</strong>
-  slides: "https://docs.google.com/presentation/d/1dgq3rK8IwWBwq5NWQ_1ncDWYcwRoSZ-qy3gIx5bCa38/edit?usp=sharing"
-  slidethumb: wro-profile.png
-  img:
-  readings:
+  supp:
+  readings: p. 1-61
   hw:
+  slides: "https://docs.google.com/presentation/d/1dgq3rK8IwWBwq5NWQ_1ncDWYcwRoSZ-qy3gIx5bCa38/edit?usp=sharing"
+  img: 2024/dju-java/1-JAVA-introduction.jpg
   logistics:
 
 - date: 3/12
@@ -15,72 +15,74 @@
   title: >
     <strong>Chapter 02 변수와 자료형<br>
     Chapter 03 연산자와 형 변환</strong>
-  slides2: "https://docs.google.com/presentation/d/1F4XBuGEirinFepgMK5f8t1Auwp-3WKQeJj0AvPu3U8Y/edit?usp=sharing"
-  img:
-  readings:
+  supp:
+  readings: p. 62-119
   hw:
+  slides:
+  img:
   logistics:
 
 - date: 3/19
   week: 3
   title: >
-    <strong>Chapter 04 조건문과 반복문<br>
-    Chapter 05 메서드</strong>
-  slides2: "https://docs.google.com/presentation/d/1BaWNDgvMbQbr7Is_nLJKtkaBo2WwCV1YXlzcB6RHnNk/edit?usp=sharing"
-  img:
-  readings:
+    <strong>Chapter 04 조건문과 반복문</strong>
+  supp:
+  readings: p. 120-163
   hw:
+  slides:
+  img:
   logistics:
 
 - date: 3/26
   week: 4
   title: >
-    <strong>Chapter 06 배열과 문자열<br>
-    Chapter 07 클래스와 객체</strong>
-  slides2: "https://docs.google.com/presentation/d/1Q1oWedQP01MXYCQOefps0J0uFe8SrKkB_ShwKqSwCx4/edit?usp=sharing"
-  img:
-  readings:
+    <strong>Chapter 05 메서드<br>
+    Chapter 06 배열과 문자열</strong>
+  supp:
+  readings: p. 164-231
   hw:
+  slides:
+  img:
   logistics:
 
 - date: 4/2
   week: 5
   title: >
-    <strong>Chapter 08 상속과 다형성<br>
-    Chapter 09 추상 클래스와 인터페이스</strong>
-  slides2: "https://docs.google.com/presentation/d/1pJfeVSec-nUry5Gm-GGpwvPLbIM1mYEkwOZK72pbhp0/edit?usp=sharing"
-  img:
-  readings:
+    <strong>Chapter 07 클래스와 객체</strong>
+  supp:
+  readings: p. 232-291
   hw:
+  slides:
+  img:
   logistics:
 
 - date: 4/9
   week: 6
   title: >
-    <strong>Chapter 10 패키지<br>
-    Chapter 11 예외 처리</strong>
-  slides2: "https://docs.google.com/presentation/d/16AP4TH7LyuRkIo8ZFbAFBwOyew56IAZTn9FLNMOgdiE/edit?usp=sharing"
-  img:
-  readings:
+    <strong>Chapter 08 상속과 다형성</strong>
+  supp:
+  readings: p. 292-337
   hw:
+  slides:
+  img:
   logistics:
 
 - date: 4/16
   week: 7
   title: >
-    <strong>Chapter 12 파일 입출력<br>
-    Chapter 13 컬렉션</strong>
-  slides2: "https://docs.google.com/presentation/d/1-tndVeXvJtqB-lzV7vm0Zncu33DHefRGdpKqTQjF_8E/edit?usp=sharing"
-  img:
-  readings:
+    <strong>Chapter 09 추상 클래스와 인터페이스</strong>
+  supp:
+  readings: p. 338-385
   hw:
+  slides:
+  img:
   logistics:
 
 - date: 4/23
   week: 8
   title: >
     <strong>Midterm Test</strong>
-  slides2: "https://docs.google.com/presentation/d/14lQTe9qJjwYAVETvh8mfhx-qKHbHcvKSCo002tb_rU0/edit?usp=sharing"
+  slides:
   img:
   logistics: >
     중간고사
@@ -88,78 +90,74 @@
 - date: 4/30
   week: 9
   title: >
-    <strong>Chapter 14 사용자 인터페이스 I<br>
-    Chapter 15 사용자 인터페이스 II</strong>
-  slides2: "https://docs.google.com/presentation/d/1pnpH_07rxCEokS3BK7eMGhr_4RtlFb73NtGXgYQw8gM/edit?usp=sharing"
-  img:
-  readings:
+    <strong>Chapter 10 패키지</strong>
+  supp:
+  readings: p. 386-445
   hw:
+  slides:
+  img:
   logistics:
 
 - date: 5/7
   week: 10
   title: >
-    <strong>이것이 자바다<br>
-    Chapter 12 java.base 모듈<br>
-    Chapter 13 제네릭</strong>
-  slides2: "https://docs.google.com/presentation/d/1gNQe6ZnOE8SC7_-4iJIT27qjwDJfdIpdoG6kJReJP2g/edit?usp=sharing"
-  img:
-  readings:
+    <strong>Chapter 11 예외 처리</strong>
+  supp:
+  readings: p. 446-479
   hw:
+  slides:
+  img:
   logistics:
 
 - date: 5/14
   week: 11
   title: >
-    <strong>이것이 자바다<br>
-    Chapter 14 멀티 스레드<br>
-    Chapter 15 컬렉션 자료구조</strong>
-  slides2: "https://docs.google.com/presentation/d/1cw7-HMIphjlPsi7ikcr5MFIyUCQNtIbZvEBsa2c06HM/edit?usp=sharing"
-  img:
-  readings:
+    <strong>Chapter 12 파일 입출력</strong>
+  supp:
+  readings: p. 480-525
   hw:
+  slides:
+  img:
   logistics:
 
 - date: 5/21
   week: 12
   title: >
-    <strong>이것이 자바다<br>
-    Chapter 16 람다식<br>
-    Chapter 17 스트림 요소 처리</strong>
+    <strong>Chapter 13 컬렉션</strong>
+  supp:
+  readings: p. 526-595
+  hw:
   slides:
   img:
-  readings:
-  hw:
   logistics:
 
 - date: 5/28
   week: 13
   title: >
-    <strong>이것이 자바다<br>
-    Appendix 01 데이터베이스 입출력(MySQL용)</strong>
-  slides2: "https://docs.google.com/presentation/d/1Kbuy37cIawvOY5C-eK680eNWVLXziyg6FyppDjkzHf8/edit?usp=sharing"
-  img:
-  readings:
+    <strong>Chapter 14 사용자 인터페이스 I</strong>
+  supp:
+  readings: p. 596-667
   hw:
+  slides:
+  img:
   logistics:
 
 - date: 6/4
   week: 14
   title: >
-    <strong>이것이 자바다<br>
-    Appendix 02 Java UI - Swing</strong>
-  slides2: "https://docs.google.com/presentation/d/1B0p17XW0jLqLhyS7_vzcAJ_kHXrH13VrwtBqItowR-Y/edit?usp=sharing"
-  img:
-  readings:
+    <strong>Chapter 15 사용자 인터페이스 II</strong>
+  supp:
+  readings: p. 668-729
   hw:
+  slides:
+  img:
   logistics:
 
 - date: 6/11
   week: 15
   title: >
     <strong>Final Test</strong>
-  slides2: "https://docs.google.com/presentation/d/1oEJRQ7LDb_VcjHc0652LIITJ4Wq-tZn8C9yjbmoOiao/edit?usp=sharing"
+  slides:
   img:
-  readings:
   logistics: >
     기말고사

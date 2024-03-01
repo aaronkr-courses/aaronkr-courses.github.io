@@ -3,13 +3,15 @@
 <table class="table table-hover">
   <colgroup>
     <col style="width:5%">
+    <col style="width:10%">
     <col style="width:35%">
-    <col style="width:45%">
+    <col style="width:35%">
     <col style="width:15%">
   </colgroup>
   <thead class="thead-light">
     <tr>
       <th scope="col">Date</th>
+      <th scope="col">Slides</th>
       <th scope="col">Lecture</th>
       <th scope="col">Readings</th>
       <th scope="col">Logistics</th>
@@ -41,8 +43,22 @@
     <td colspan="4" align="center">{{ lecture.title }}</td>
     {% else %}
     <td>
-        Week #{{ forloop.index | minus: current_module | minus: skip_classes }}
-        {% if lecture.lecturer %}({{ lecture.lecturer }}){% endif %}:
+        {% if lecture.img %}
+        <a href="{{ lecture.slides }}" target="_blank">
+            <img src="{{ lecture.img | prepend: '/assets/img/' | relative_link }}" alt="slide thumbnail" style="max-width: 100px;" />
+        </a>
+        {% endif %}
+        <br />
+        [
+            {% if lecture.slides %}
+              <a href="{{ lecture.slides }}" target="_blank">slides</a>
+            {% else %}
+              slides
+            {% endif %}
+        ]
+    </td>
+    <td>
+        Week #{{ forloop.index | minus: current_module | minus: skip_classes }}:
         <br />
         {{ lecture.title }}
     </td>
@@ -56,30 +72,6 @@
         {% endif %}
     </td>
     <td>
-        {% if lecture.img %}
-        <a href="{{ lecture.slides }}" target="_blank">
-            <img src="{{ lecture.img | prepend: '/assets/img/' | relative_link }}" alt="slide thumbnail" style="max-width: 100px;" />
-        </a>
-        {% endif %}
-        <br />
-        [
-            {% if lecture.slides %}
-              <a href="{{ lecture.slides }}" target="_blank">slides</a>
-            {% else %}
-              slides
-            {% endif %}
-            {% if lecture.annotated %}
-              (<a href="{{ lecture.annotated }}" target="_blank">annotated</a>)
-            {% endif %}
-            {% if lecture.video %}
-            | <a href="{{ lecture.video }}" target="_blank">video</a>
-            {% endif %}
-            {% if lecture.notes %}
-            | <a href="{{ lecture.notes }}" target="_blank">notes</a>
-            {% else %}
-            | notes
-            {% endif %}
-        ]
         <p>{{ lecture.logistics }}</p>
     </td>
     {% endif %}
