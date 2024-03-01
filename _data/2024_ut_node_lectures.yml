@@ -8,6 +8,8 @@
   slides:
   readings: Get Programming with Node, <strong>0장 pp. 35-64</strong>
   logistics:
+  img:
+  hw:
 
 - date: 3/13
   week: 2
@@ -20,6 +22,8 @@
   slides:
   readings: Get Programming with Node, <strong>1장 pp. 67-116</strong>
   logistics:
+  img:
+  hw:
 
 - date: 3/20
   week: 3
@@ -32,6 +36,8 @@
   slides:
   readings: Get Programming with Node, <strong>1, 2장 pp. 117-154</strong>
   logistics:
+  img:
+  hw:
 
 - date: 3/27
   week: 4
@@ -43,6 +49,8 @@
   slides:
   readings: Get Programming with Node, <strong>2장 pp. 143-185</strong>
   logistics:
+  img:
+  hw:
 
 - date: 4/3
   week: 5
@@ -55,6 +63,8 @@
   slides:
   readings: Get Programming with Node, <strong>3장 pp. 187-234</strong>
   logistics:
+  img:
+  hw:
 
 - date: 4/10
   week: 6
@@ -66,6 +76,8 @@
   slides:
   readings: Get Programming with Node, <strong>4장 pp. 237-286</strong>
   logistics:
+  img:
+  hw:
 
 - date: 4/17
   week: 7
@@ -78,6 +90,8 @@
     Get Programming with Node, <strong>4장 pp. 289-320</strong><br>
     중간고사 가이드
   logistics:
+  img:
+  hw:
 
 - date: 4/24
   week: 8
@@ -85,6 +99,8 @@
     <strong>Midterm Test</strong>
   slides:
   readings:
+  img:
+  hw:
   logistics: >
     퀴즈 링크<br>
     실기 시험
@@ -99,6 +115,8 @@
   slides:
   readings: Get Programming with Node, <strong>5장 pp. 321-374</strong>
   logistics:
+  img:
+  hw:
 
 - date: 5/8
   week: 10
@@ -111,6 +129,8 @@
   slides:
   readings: Get Programming with Node, <strong>6장 pp. 375-433</strong>
   logistics:
+  img:
+  hw:
 
 - date: >
     5/15<span style="color: red;">*</span>
@@ -120,6 +140,8 @@
   slides:
   readings:
   logistics:
+  img:
+  hw:
 
 - date: 5/22
   week: 12
@@ -132,6 +154,8 @@
   slides:
   readings: Get Programming with Node, <strong>7장 pp. 435-479</strong>
   logistics:
+  img:
+  hw:
 
 - date: 5/29
   week: 13
@@ -144,6 +168,8 @@
   slides:
   readings: Get Programming with Node, <strong>8장 pp. 481-530</strong>
   logistics:
+  img:
+  hw:
 
 - date: 6/5
   week: 14
@@ -154,6 +180,8 @@
   slides:
   readings: Get Programming with Node, <strong>블록 pp. 531-543</strong>
   logistics:
+  img:
+  hw:
 
 - date: 6/12
   week: 15
@@ -163,6 +191,8 @@
   readings: >
     기말고사 가이드
   logistics:
+  img:
+  hw:
 
 - date: 6/19
   week: 16
@@ -171,6 +201,8 @@
   logistics: >
     퀴즈 링크<br>
     실기 시험
+  img:
+  hw:
 
 - date: 6/26
   week: 17

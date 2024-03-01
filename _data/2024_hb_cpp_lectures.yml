@@ -5,6 +5,8 @@
   slides:
   readings: Accelerated C++, <strong>0장 pp. 26-34</strong>
   logistics:
+  img:
+  hw:
 
 - date: 3/15
   week: 2
@@ -14,6 +16,8 @@
   slides:
   readings: Accelerated C++, <strong>1-2장 pp. 37-72</strong>
   logistics:
+  img:
+  hw:
 
 - date: 3/22
   week: 3
@@ -23,6 +27,8 @@
   slides:
   readings: Accelerated C++, <strong>3-4장 pp. 75-128</strong>
   logistics:
+  img:
+  hw:
 
 - date: 3/29
   week: 4
@@ -31,6 +37,8 @@
   slides:
   readings: Accelerated C++, <strong>5장 pp. 131-164</strong>
   logistics:
+  img:
+  hw:
 
 - date: 4/5
   week: 5
@@ -39,6 +47,8 @@
   slides:
   readings: Accelerated C++, <strong>6장 pp. 170-198</strong>
   logistics:
+  img:
+  hw:
 
 - date: 4/12
   week: 6
@@ -47,6 +57,8 @@
   slides:
   readings: Accelerated C++, <strong>7장 pp. 202-222</strong>
   logistics:
+  img:
+  hw:
 
 - date: 4/19
   week: 7
@@ -57,6 +69,8 @@
     Accelerated C++, <strong>8장 pp. 225-248</strong><br>
     중간고사 가이드
   logistics:
+  img:
+  hw:
 
 - date: 4/26
   week: 8
@@ -64,6 +78,8 @@
     <strong>Midterm Test</strong>
   slides:
   readings:
+  img:
+  hw:
   logistics: >
     퀴즈 링크<br>
     실기 시험
@@ -75,6 +91,8 @@
   slides:
   readings: Accelerated C++, <strong>9장 pp. 251-271</strong>
   logistics:
+  img:
+  hw:
 
 - date: 5/10
   week: 10
@@ -83,6 +101,8 @@
   slides:
   readings: Accelerated C++, <strong>10장 pp. 274-299</strong>
   logistics:
+  img:
+  hw:
 
 - date: 5/17
   week: 11
@@ -91,6 +111,8 @@
   slides:
   readings: Accelerated C++, <strong>11장 pp. 302-335</strong>
   logistics:
+  img:
+  hw:
 
 - date: 5/24
   week: 12
@@ -99,6 +121,8 @@
   slides:
   readings: Accelerated C++, <strong>12장 pp. 338-359</strong>
   logistics:
+  img:
+  hw:
 
 - date: 5/31
   week: 13
@@ -107,6 +131,8 @@
   slides:
   readings: Accelerated C++, <strong>13장 pp. 362-398</strong>
   logistics:
+  img:
+  hw:
 
 - date: 6/7
   week: 14
@@ -115,6 +141,8 @@
   slides:
   readings: Accelerated C++, <strong>14장 pp. 402-424</strong>
   logistics:
+  img:
+  hw:
 
 - date: 6/14
   week: 15
@@ -124,6 +152,8 @@
     <strong>APPENDIX A C++ 세부 사항</strong><br>
     <strong>APPENDIX B 라이브러리 요약</strong>
   slides:
+  img:
+  hw:
   readings: >
     Accelerated C++, <strong>15-16장 pp. 426-461</strong><br>
     기말고사 가이드
@@ -133,6 +163,8 @@
   week: 16
   title: >
     <strong>Final Test</strong>
+  img:
+  hw:
   logistics: >
     퀴즈 링크<br>
     실기 시험

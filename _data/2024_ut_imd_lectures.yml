@@ -5,7 +5,9 @@
     - 1. 몸속 사진 한 장 한 장을 모으면 : X-레이 영상과 CT (임창환)<br>
     - 2. 뇌는 제가 잘 봅니다 : MRI (임창환)
   slides: "https://docs.google.com/presentation/d/1ST0O3bcCEBZJ-DPWCmzrYvxxb-4qGBdcS60BcppmzSY/edit?usp=sharing"
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 3/14
@@ -15,7 +17,9 @@
     - 3. 소리를 이용해 영상을 보다 : 초음파 영상기기 (임창환)<br>
     - 4. 몸속에선 어떤 일이 일어나고 있을까? : 핵의학영상 (장동표)
   slides:
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 3/21
@@ -25,7 +29,9 @@
     - 5. 손발 잃은 사람들의 희망 : 근전 인터페이스 (전자의수, 의족) (임창환)<br>
     - 6. 세상과 연결해 주는 인공 귀 : 보청기와 인공와우 (김인영)
   slides:
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 3/28
@@ -36,7 +42,9 @@
     - 8. 몸짓으로 만드는 에너지 : 생체 내 에너지 하베스팅 (김선정)<br>
     - 9. 로봇이 벌크업을 하면 어떻게 될까? : 인공근육 (김선정)
   slides:
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 4/4
@@ -46,7 +54,9 @@
     - 10. 머릿속의 페이스메이커 : 뇌심부자극술 (장동표)<br>
     - 11. 두개골을 열지 않고 뇌를 치료하는 법 : 비침습적 뇌자극 (임창환)
   slides:
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 4/11
@@ -56,7 +66,9 @@
     - 12. 내 도파민 농도는 괜찮을까? : 신경전달물질 측정 기술 (장동표)<br>
     - 13. 너의 ‘뇌 소리’가 보여 : 뇌 신호 측정 기술 (임창환)
   slides:
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 4/18
@@ -66,8 +78,10 @@
     - 14. 내 뇌에 칩이 들어간다면 : 뇌-기계 인터페이스 (장동표)<br>
     - 15. ‘뇌’맘대로 움직이는 세상 : 뇌-컴퓨터 인터페이스 (임창환)
   slides:
+  img:
   readings: >
     중간고사 가이드
+  hw:
   logistics:
 
 - date: 4/25
@@ -75,6 +89,7 @@
   title: >
     <strong>Midterm Test</strong>
   slides:
+  img:
   readings:
   logistics: >
     퀴즈 링크<br>
@@ -87,7 +102,9 @@
     - 16. 내 손 안의 작은 병원 : 원격진료와 U-healthcare (김인영)<br>
     - 17. 함께 자고, 먹고, 일하는 기기 : 웨어러블 헬스케어 (김인영)
   slides:
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 5/8
@@ -97,7 +114,9 @@
     - 18. 더 많은 정보, 더 나은 진단 : 의료 빅데이터와 디지털 헬스케어 (김인영)<br>
     - 19. 나에게 꼭 맞는 치료 : 맞춤 의학 (김인영)
   slides:
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 5/16
@@ -107,7 +126,9 @@
     - 20. 우리 몸속 나노센서 로봇 : 마이크로 나노ㆍ제조기술 (최성용)<br>
     - 21. 별자리처럼 빛나는 세포들 : 세포막 수용체 분석 (최성용)
   slides:
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 5/23
@@ -118,7 +139,9 @@
     - 23. DNA는 범인을 알고 있다 : DNA 진단기술 (최성용)<br>
     - 24. 세포들의 특별한 메신저 : 나노 소포체 진단기술 (최성용)
   slides:
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 5/30
@@ -130,7 +153,9 @@
     - 3. 생각이 업로드 되었습니다 : 뇌신경계 시뮬레이션 기술 (임창환)<br>
     - 4. 뇌가 사용하는 언어가 있다? : 신경코드 해독 (임창환)
   slides:
+  img:
   readings:
+  hw:
   logistics:
 
 - date: >
@@ -139,7 +164,9 @@
   title: >
     <span style="color: red"><strong>No Class</strong> Memorial Day</span>
   slides:
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 6/13
@@ -153,14 +180,17 @@
     - 5. 질병을 예방하는 똑똑한 시계 : 스마트 의료기기 (최성용)<br>
     - 6. 빛으로 풀어내는 인체의 비밀 : 광유전학 (이병훈)
   slides:
+  img:
   readings: >
     기말고사 가이드
+  hw:
   logistics:
 
 - date: 6/20
   week: 16
   title: >
     <strong>Final Test</strong>
+  img:
   logistics: >
     퀴즈 링크<br>
     실기 시험

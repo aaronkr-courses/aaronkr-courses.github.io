@@ -4,8 +4,10 @@
     <strong>수업 소개, 강사 소개<br>
     Chapter 01 유닉스 개요 및 기본 사용법<br>
     들어가며, 유직스와 니룩스 비교</strong>
-  slides2: "https://docs.google.com/presentation/d/1Vs0jV-6I0b7n-YQDLhf7dZUwL9nZMHUUYS26aksYHs8/edit?usp=sharing"
+  slides: "https://docs.google.com/presentation/d/1QIx7IVEp-MsYgoavL2RdrnaZRBYCvSqpQDHX17I6QEw/edit?usp=sharing"
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 3/12
@@ -14,7 +16,9 @@
     <strong>Chapter 02 디렉토리 다루기<br>
     1장. 조감도</strong>
   slides2: "https://docs.google.com/presentation/d/1F4XBuGEirinFepgMK5f8t1Auwp-3WKQeJj0AvPu3U8Y/edit?usp=sharing"
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 3/19
@@ -23,7 +27,9 @@
     <strong>Chapter 03 파일 다루기<br>
     2장. 기본 명령어와 디렉터리 계층 구조</strong>
   slides2: "https://docs.google.com/presentation/d/1BaWNDgvMbQbr7Is_nLJKtkaBo2WwCV1YXlzcB6RHnNk/edit?usp=sharing"
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 3/26
@@ -33,7 +39,9 @@
     3장. 디바이스<br>
     4장. 디스크와 파일 시스템</strong>
   slides2: "https://docs.google.com/presentation/d/1Q1oWedQP01MXYCQOefps0J0uFe8SrKkB_ShwKqSwCx4/edit?usp=sharing"
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 4/2
@@ -43,7 +51,9 @@
     5장. 리눅스 커널 부팅 방법<br>
     6장. 사용자 공간 시동 방법</strong>
   slides2: "https://docs.google.com/presentation/d/1pJfeVSec-nUry5Gm-GGpwvPLbIM1mYEkwOZK72pbhp0/edit?usp=sharing"
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 4/9
@@ -52,7 +62,9 @@
     <strong>Chapter 06 파일 접근 권한 관리하기<br>
     7장. 시스템 설정: 로깅, 시스템 시간, 일괄 작업과 사용자</strong>
   slides2: "https://docs.google.com/presentation/d/16AP4TH7LyuRkIo8ZFbAFBwOyew56IAZTn9FLNMOgdiE/edit?usp=sharing"
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 4/16
@@ -61,7 +73,9 @@
     <strong>Chapter 07 파일과 디렉토리 검색하기<br>
     8장. 프로세스와 리소스 활용</strong>
   slides2: "https://docs.google.com/presentation/d/1-tndVeXvJtqB-lzV7vm0Zncu33DHefRGdpKqTQjF_8E/edit?usp=sharing"
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 4/23
@@ -69,6 +83,7 @@
   title: >
     <strong>Midterm Test</strong>
   slides2: "https://docs.google.com/presentation/d/14lQTe9qJjwYAVETvh8mfhx-qKHbHcvKSCo002tb_rU0/edit?usp=sharing"
+  img:
   logistics: >
     중간고사
 
@@ -78,7 +93,9 @@
     <strong>Chapter 08 사용자와 프로세스 명령 익히기<br>
     9장. 네트워크와 그 설정에 대한 이해</strong>
   slides2: "https://docs.google.com/presentation/d/1pnpH_07rxCEokS3BK7eMGhr_4RtlFb73NtGXgYQw8gM/edit?usp=sharing"
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 5/7
@@ -87,7 +104,9 @@
     <strong>Chapter 09 파일 아카이브와 압축 명령 익히기<br>
     10장. 네트워크 응용프로그램과 서비스</strong>
   slides2: "https://docs.google.com/presentation/d/1gNQe6ZnOE8SC7_-4iJIT27qjwDJfdIpdoG6kJReJP2g/edit?usp=sharing"
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 5/14
@@ -96,7 +115,9 @@
     <strong>Chapter 10 인터넷과 통신 명령 익히기<br>
     11장. 셸 스크립트 소개</strong>
   slides2: "https://docs.google.com/presentation/d/1cw7-HMIphjlPsi7ikcr5MFIyUCQNtIbZvEBsa2c06HM/edit?usp=sharing"
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 5/21
@@ -106,7 +127,9 @@
     12장. 네트워크를 거쳐 파일 옮기기<br>
     13장. 사용자 환경</strong>
   slides:
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 5/28
@@ -117,7 +140,9 @@
     14장. 리눅스 데스크톱에 대한 조망<br>
     15장. 개발 툴</strong>
   slides2: "https://docs.google.com/presentation/d/1Kbuy37cIawvOY5C-eK680eNWVLXziyg6FyppDjkzHf8/edit?usp=sharing"
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 6/4
@@ -127,7 +152,9 @@
     16장. C 소스 코드로 소프트웨어 컴파일하는 기본적인 방법<br>
     17장. 기초를 바탕으로 길제 구축하기</strong>
   slides2: "https://docs.google.com/presentation/d/1B0p17XW0jLqLhyS7_vzcAJ_kHXrH13VrwtBqItowR-Y/edit?usp=sharing"
+  img:
   readings:
+  hw:
   logistics:
 
 - date: 6/11
@@ -135,6 +162,7 @@
   title: >
     <strong>Final Test</strong>
   slides2: "https://docs.google.com/presentation/d/1oEJRQ7LDb_VcjHc0652LIITJ4Wq-tZn8C9yjbmoOiao/edit?usp=sharing"
+  img:
   readings:
   logistics: >
     기말고사
