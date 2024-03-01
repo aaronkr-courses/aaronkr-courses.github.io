@@ -100,3 +100,11 @@ html[data-theme="dark"] .table .thead-light th {
   color: #e9ecef;
   border-color: #32312d;
 }
+
+html[data-theme="dark"] table.table-hover tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+html[data-theme="dark"] .table-hover tbody tr:hover {
+  color: white;
+}
