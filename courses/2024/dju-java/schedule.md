@@ -38,7 +38,9 @@
     <th scope="row">{{ lecture.date }}</th>
     {% if lecture.title contains 'Test' or forloop.last %}
     {% assign skip_classes = skip_classes | plus: 1 %}
-    <td colspan="4" align="center">{{ lecture.title }}</td>
+    <td colspan="4" style="text-align: center; background: rgba(255, 255, 255, 0.075)">
+        {{ lecture.title }}
+    </td>
     {% else %}
     <td>
         {% if lecture.img %}
