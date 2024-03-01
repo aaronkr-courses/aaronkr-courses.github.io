@@ -3,8 +3,8 @@
 <table class="table table-hover">
   <colgroup>
     <col style="width:5%">
-    <col style="width:45%">
-    <col style="width:30%">
+    <col style="width:5%">
+    <col style="width:50%">
     <col style="width:20%">
   </colgroup>
   <thead class="thead-light">
@@ -36,7 +36,7 @@
 
   <tr class="{{ event_type }}">
     <th scope="row">{{ lecture.date }}</th>
-    {% if lecture.title contains 'No class' or forloop.last %}
+    {% if lecture.title contains 'Test' or forloop.last %}
     {% assign skip_classes = skip_classes | plus: 1 %}
     <td colspan="4" align="center">{{ lecture.title }}</td>
     {% else %}
