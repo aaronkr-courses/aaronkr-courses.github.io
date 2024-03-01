@@ -3,17 +3,15 @@
 <table class="table table-hover">
   <colgroup>
     <col style="width:5%">
-    <col style="width:10%">
-    <col style="width:35%">
-    <col style="width:35%">
-    <col style="width:15%">
+    <col style="width:45%">
+    <col style="width:30%">
+    <col style="width:20%">
   </colgroup>
   <thead class="thead-light">
     <tr>
       <th scope="col">Date</th>
-      <th scope="col">Slides</th>
       <th scope="col">Lecture</th>
-      <th scope="col">Readings</th>
+      <th scope="col">Content</th>
       <th scope="col">Logistics</th>
     </tr>
   </thead>
@@ -38,31 +36,24 @@
 
   <tr class="{{ event_type }}">
     <th scope="row">{{ lecture.date }}</th>
-    {% if lecture.title contains 'No class' or forloop.last %}
+    {% if lecture.title contains 'No class' or 'Test' or forloop.last %}
     {% assign skip_classes = skip_classes | plus: 1 %}
     <td colspan="4" align="center">{{ lecture.title }}</td>
     {% else %}
     <td>
         {% if lecture.img %}
         <a href="{{ lecture.slides }}" target="_blank">
-            <img src="{{ lecture.img | prepend: '/assets/img/' | relative_link }}" alt="slide thumbnail" style="max-width: 100px;" />
+            <img src="{{ lecture.img | prepend: '/assets/img/' | relative_link }}" alt="slide thumbnail" style="max-width: 250px;" />
         </a>
-        {% endif %}
         <br />
-        [
-            {% if lecture.slides %}
-              <a href="{{ lecture.slides }}" target="_blank">slides</a>
-            {% else %}
-              slides
-            {% endif %}
-        ]
+        {% else %}
+        [ slides ]
+        {% endif %}
     </td>
     <td>
         Week #{{ forloop.index | minus: current_module | minus: skip_classes }}:
         <br />
         {{ lecture.title }}
-    </td>
-    <td>
         {% if lecture.readings %}
         <ul>
         {% for reading in lecture.readings %}
