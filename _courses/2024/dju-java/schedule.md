@@ -43,7 +43,7 @@
     <td>
         {% if lecture.img %}
         <a href="{{ lecture.slides }}" target="_blank">
-            <img src="{{ lecture.img | prepend: '/assets/img/' | relative_link }}" alt="slide thumbnail" style="max-width: 250px;" />
+            <img src="{{ lecture.img | prepend: '/assets/img/' | relative_link }}" alt="slide thumbnail" style="max-width: 200px;" />
         </a>
         <br />
         {% else %}
@@ -63,6 +63,9 @@
         {% endif %}
     </td>
     <td>
+        {% if lecture.hw %}
+        [ <a href="{{ lecture.hw }}" target="_blank">과제</a> ]
+        {% endif %}
         <p>{{ lecture.logistics }}</p>
     </td>
     {% endif %}

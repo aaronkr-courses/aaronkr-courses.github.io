@@ -5,10 +5,10 @@
     Chapter 01 자바 첫걸음</strong>
   supp:
   readings: p. 1-61
-  hw:
+  hw: "https://google.com"
   slides: "https://docs.google.com/presentation/d/1dgq3rK8IwWBwq5NWQ_1ncDWYcwRoSZ-qy3gIx5bCa38/edit?usp=sharing"
   img: 2024/dju-java/1-JAVA-Introduction.jpg
-  logistics:
+  logistics: Eclipse 설치
 
 - date: 3/12
   week: 2
