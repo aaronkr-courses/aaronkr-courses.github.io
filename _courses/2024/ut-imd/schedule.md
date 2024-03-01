@@ -1,17 +1,17 @@
-﻿<!-- ut-node/schedule.md -->
+﻿<!-- hb-cpp/schedule.md -->
 
 <table class="table table-hover">
   <colgroup>
     <col style="width:5%">
-    <col style="width:55%">
-    <col style="width:25%">
-    <col style="width:15%">
+    <col style="width:5%">
+    <col style="width:50%">
+    <col style="width:20%">
   </colgroup>
   <thead class="thead-light">
     <tr>
       <th scope="col">Date</th>
       <th scope="col">Lecture</th>
-      <th scope="col">Readings</th>
+      <th scope="col">Content</th>
       <th scope="col">Logistics</th>
     </tr>
   </thead>
@@ -36,36 +36,26 @@
 
   <tr class="{{ event_type }}">
     <th scope="row">{{ lecture.date }}</th>
-    {% if lecture.title contains 'No class' or forloop.last %}
+    {% if lecture.title contains 'Test' or forloop.last %}
     {% assign skip_classes = skip_classes | plus: 1 %}
-    <td colspan="4" align="center">{{ lecture.title }}</td>
+    <td colspan="4" style="text-align: center; background: rgba(255, 255, 255, 0.075)">
+        {{ lecture.title }}
+    </td>
     {% else %}
     <td>
-        Week #{{ forloop.index | minus: current_module | minus: skip_classes }}
-        {% if lecture.lecturer %}({{ lecture.lecturer }}){% endif %}:
+        {% if lecture.img %}
+        <a href="{{ lecture.slides }}" target="_blank">
+            <img src="{{ lecture.img | prepend: '/assets/img/' | relative_link }}" alt="slide thumbnail" style="max-width: 200px;" />
+        </a>
         <br />
-        {{ lecture.title }}
-        <br />
-        [
-            {% if lecture.slides %}
-              <a href="{{ lecture.slides }}" target="_blank">slides</a>
-            {% else %}
-              slides
-            {% endif %}
-            {% if lecture.annotated %}
-              (<a href="{{ lecture.annotated }}" target="_blank">annotated</a>)
-            {% endif %}
-            {% if lecture.video %}
-            | <a href="{{ lecture.video }}" target="_blank">video</a>
-            {% endif %}
-            {% if lecture.notes %}
-            | <a href="{{ lecture.notes }}" target="_blank">notes</a>
-            {% else %}
-            | notes
-            {% endif %}
-        ]
+        {% else %}
+        [ slides ]
+        {% endif %}
     </td>
     <td>
+        Week #{{ forloop.index | minus: current_module | minus: skip_classes }}:
+        <br />
+        {{ lecture.title }}
         {% if lecture.readings %}
         <ul>
         {% for reading in lecture.readings %}
@@ -75,6 +65,9 @@
         {% endif %}
     </td>
     <td>
+        {% if lecture.hw %}
+        [ <a href="{{ lecture.hw }}" target="_blank">과제</a> ]
+        {% endif %}
         <p>{{ lecture.logistics }}</p>
     </td>
     {% endif %}

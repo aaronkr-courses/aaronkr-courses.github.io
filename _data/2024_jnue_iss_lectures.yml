@@ -7,9 +7,10 @@
     - 01 소프트웨어
     - 02 프로그램과 프로그래밍 언어
     - 03 스크래치의 특징과 실행
-  logistics:
-  img:
+  supp:
   hw:
+  img: 2024/jnue-iss/1-iss-introduction.jpg
+  logistics:
 
 - date: 3/11
   week: 2
@@ -19,9 +20,10 @@
   readings:
     - 01 스크래치 블록의 종류와 사용법
     - 02 스크래치 프로그래밍 전 과정
-  logistics:
-  img:
+  supp:
   hw:
+  img:
+  logistics:
 
 - date: 3/18
   week: 3
@@ -34,9 +36,10 @@
     - 03 스프라이트의 형태 구현
     - 04 스프라이트의 소리 구현
     - 05 스프라이트의 펜 활용
-  logistics:
-  img:
+  supp:
   hw:
+  img:
+  logistics:
 
 - date: 3/25
   week: 4
@@ -47,9 +50,10 @@
     - 01 자료형, 연산, 변수
     - 02 지역 변수와 전역 변수
     - 03 구조적 자료형- 배열과 리스트
-  logistics:
-  img:
+  supp:
   hw:
+  img:
+  logistics:
 
 - date: 4/1
   week: 5
@@ -62,9 +66,10 @@
     - 03 문장의 반복적 실행
     - 04 문장의 선택적 실행
     - 05 반복과 선택의 중첩 실행
-  logistics:
-  img:
+  supp:
   hw:
+  img:
+  logistics:
 
 - date: 4/8
   week: 6
@@ -74,9 +79,10 @@
   readings:
     - 01 프로시저의 개념과 구현
     - 02 병렬 처리의 개념과 구현
-  logistics:
-  img:
+  supp:
   hw:
+  img:
+  logistics:
 
 - date: 4/15
   week: 7
@@ -89,9 +95,10 @@
     - 03 분해의 개념과 구현
     - 04 패턴인식의 개념과 구현
     - 05 알고리즘의 개념과 활용
-  logistics:
-  img:
+  supp:
   hw:
+  img:
+  logistics:
 
 - date: 4/22
   week: 8
@@ -112,9 +119,10 @@
     - 01 감지의 이해
     - 02 감지 응용 프로그래밍
     - 03 카메라와 마이크 응용 프로그래밍
-  logistics:
-  img:
+  supp:
   hw:
+  img:
+  logistics:
 
 - date: >
     5/6<span style="color: red;">*</span>
@@ -128,9 +136,10 @@
     - 01 이벤트 처리와 메시지 방송
     - 02 이벤트 응용 프로그래밍
     - 03 비디오와 오디오 이벤트 응용 프로그래밍
-  logistics:
-  img:
+  supp:
   hw:
+  img:
+  logistics:
 
 - date: 5/13
   week: 11
@@ -141,9 +150,10 @@
     - 01 복제의 개념과 활용
     - 02 난수의 개념과 활용
     - 03 재귀호출의 개념과 활용
-  logistics:
-  img:
+  supp:
   hw:
+  img:
+  logistics:
 
 - date: 5/20
   week: 12
@@ -155,9 +165,10 @@
     - 02 요구사항 분석의 개념과 예
     - 03 프로그램 테스팅의 개념과 예
     - 04 요구사항 분석과 테스팅 연습
-  logistics:
-  img:
+  supp:
   hw:
+  img:
+  logistics:
 
 - date: 5/27
   week: 13
@@ -168,9 +179,10 @@
     - 01 게임의 개념과 종류
     - 02 다양한 게임 기능의 구현
     - 03 공을 던져 개를 맞히는 게임 프로그래밍
-  logistics:
-  img:
+  supp:
   hw:
+  img:
+  logistics:
 
 - date: 6/3
   week: 14
@@ -182,9 +194,10 @@
     - 02 인터랙티브 스토리의 씬 진행과 씬 전환
     - 03 인터랙티브 스토리의 대화 처리
     - <del>04 친구와의 만남 인터랙티브 스토리 프로그래밍</del>
-  logistics:
-  img:
+  supp:
   hw:
+  img:
+  logistics:
 
 - date: 6/10
   week: 15

@@ -5,10 +5,10 @@
     - Lesson 0. Node.js의 설정과 JavaScript 엔진 설치 / Setting up Node.js and the JavaScript engine<br>
     - Lesson 1. 환경설정 / Configuring your environment<br>
     - Lesson 2. Node.js 애플리케이션 실행 / Running a Node.js application
-  slides:
-  readings: Get Programming with Node, <strong>0장 pp. 35-64</strong>
+  slides: "https://docs.google.com/presentation/d/1mDevjb5E-z6rCXmBE090GxpsQqBNkcKOOfbKccUcDcs/edit?usp=sharing"
+  readings: <strong>0장 pp. 35-64</strong>
   logistics:
-  img:
+  img: 2024/ut-node/0-node-introduction.jpg
   hw:
 
 - date: 3/13

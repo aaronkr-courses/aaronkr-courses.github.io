@@ -2,147 +2,154 @@
   week: 1
   title: >
     <strong>CHAPTER 0 C++ 시작하기</strong>
-  slides:
+  supp:
   readings: Accelerated C++, <strong>0장 pp. 26-34</strong>
-  logistics:
-  img:
   hw:
+  slides:
+  img:
+  logistics:
 
 - date: 3/15
   week: 2
   title: >
     <strong>CHAPTER 1 문자열 사용</strong><br>
     <strong>CHAPTER 2 반복문과 카운팅</strong>
-  slides:
+  supp:
   readings: Accelerated C++, <strong>1-2장 pp. 37-72</strong>
-  logistics:
-  img:
   hw:
+  slides:
+  img:
+  logistics:
 
 - date: 3/22
   week: 3
   title: >
     <strong>CHAPTER 3 데이터 일괄 처리</strong><br>
     <strong>CHAPTER 4 프로그램 및 데이터 구조화</strong>
-  slides:
+  supp:
   readings: Accelerated C++, <strong>3-4장 pp. 75-128</strong>
-  logistics:
-  img:
   hw:
+  slides:
+  img:
+  logistics:
 
 - date: 3/29
   week: 4
   title: >
     <strong>CHAPTER 5 순차 컨테이너와 문자열 분석</strong>
-  slides:
+  supp:
   readings: Accelerated C++, <strong>5장 pp. 131-164</strong>
-  logistics:
-  img:
   hw:
+  slides:
+  img:
+  logistics:
 
 - date: 4/5
   week: 5
   title: >
     <strong>CHAPTER 6 라이브러리 알고리즘</strong>
-  slides:
+  supp:
   readings: Accelerated C++, <strong>6장 pp. 170-198</strong>
-  logistics:
-  img:
   hw:
+  slides:
+  img:
+  logistics:
 
 - date: 4/12
   week: 6
   title: >
     <strong>CHAPTER 7 연관 컨테이너</strong>
-  slides:
+  supp:
   readings: Accelerated C++, <strong>7장 pp. 202-222</strong>
-  logistics:
-  img:
   hw:
+  slides:
+  img:
+  logistics:
 
 - date: 4/19
   week: 7
   title: >
     <strong>CHAPTER 8 제네릭 함수</strong>
-  slides:
+  supp:
   readings: >
     Accelerated C++, <strong>8장 pp. 225-248</strong><br>
     중간고사 가이드
-  logistics:
-  img:
   hw:
+  slides:
+  img:
+  logistics:
 
 - date: 4/26
   week: 8
   title: >
-    <strong>Midterm Test</strong>
-  slides:
-  readings:
-  img:
-  hw:
-  logistics: >
-    퀴즈 링크<br>
-    실기 시험
+    <strong>Midterm Test</strong><br>
+    [퀴즈 링크] [실기 시험]
 
 - date: 5/3
   week: 9
   title: >
     <strong>CHAPTER 9 새로운 타입 정의</strong>
-  slides:
+  supp:
   readings: Accelerated C++, <strong>9장 pp. 251-271</strong>
-  logistics:
-  img:
   hw:
+  slides:
+  img:
+  logistics:
 
 - date: 5/10
   week: 10
   title: >
     <strong>CHAPTER 10 메모리 관리 및 저수준 데이터 구조</strong>
-  slides:
+  supp:
   readings: Accelerated C++, <strong>10장 pp. 274-299</strong>
-  logistics:
-  img:
   hw:
+  slides:
+  img:
+  logistics:
 
 - date: 5/17
   week: 11
   title: >
     <strong>CHAPTER 11 추상 데이터 타입</strong>
-  slides:
+  supp:
   readings: Accelerated C++, <strong>11장 pp. 302-335</strong>
-  logistics:
-  img:
   hw:
+  slides:
+  img:
+  logistics:
 
 - date: 5/24
   week: 12
   title: >
     <strong>CHAPTER 12 값처럼 동작하는 클래스 객체</strong>
-  slides:
+  supp:
   readings: Accelerated C++, <strong>12장 pp. 338-359</strong>
-  logistics:
-  img:
   hw:
+  slides:
+  img:
+  logistics:
 
 - date: 5/31
   week: 13
   title: >
     <strong>CHAPTER 13 상속과 동적 바인딩</strong>
-  slides:
+  supp:
   readings: Accelerated C++, <strong>13장 pp. 362-398</strong>
-  logistics:
-  img:
   hw:
+  slides:
+  img:
+  logistics:
 
 - date: 6/7
   week: 14
   title: >
     <strong>CHAPTER 14 메모리 관리 자동화</strong>
-  slides:
+  supp:
   readings: Accelerated C++, <strong>14장 pp. 402-424</strong>
-  logistics:
-  img:
   hw:
+  slides:
+  img:
+  logistics:
 
 - date: 6/14
   week: 15
@@ -151,23 +158,20 @@
     <strong>CHAPTER 16 앞으로 나아갈 방향</strong><br>
     <strong>APPENDIX A C++ 세부 사항</strong><br>
     <strong>APPENDIX B 라이브러리 요약</strong>
-  slides:
-  img:
-  hw:
+  supp:
   readings: >
     Accelerated C++, <strong>15-16장 pp. 426-461</strong><br>
     기말고사 가이드
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 6/21
   week: 16
   title: >
-    <strong>Final Test</strong>
-  img:
-  hw:
-  logistics: >
-    퀴즈 링크<br>
-    실기 시험
+    <strong>Final Test</strong><br>
+    [퀴즈 링크] [실기 시험]
 
 - date: 6/28
   week: 17
