@@ -45,6 +45,22 @@
         {% if lecture.lecturer %}({{ lecture.lecturer }}){% endif %}:
         <br />
         {{ lecture.title }}
+    </td>
+    <td>
+        {% if lecture.readings %}
+        <ul>
+        {% for reading in lecture.readings %}
+            <li>{{ reading }}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+    </td>
+    <td>
+        {% if lecture.img %}
+        <a href="{{ lecture.slides }}" target="_blank">
+            <img src="{{ lecture.img | prepend: '/assets/img/' | relative_link }}" alt="slide thumbnail" style="max-width: 100px;" />
+        </a>
+        {% endif %}
         <br />
         [
             {% if lecture.slides %}
@@ -64,22 +80,6 @@
             | notes
             {% endif %}
         ]
-    </td>
-    <td>
-        {% if lecture.readings %}
-        <ul>
-        {% for reading in lecture.readings %}
-            <li>{{ reading }}</li>
-        {% endfor %}
-        </ul>
-        {% endif %}
-    </td>
-    <td>
-        {% if lecture.slidethumb %}
-        <a href="{{ lecture.slides }}" target="_blank">
-            <img src="{{ lecture.slidethumb | prepend: '/assets/img/' | relative_link }}" alt="slide thumbnail" style="max-width: 100px;" />
-        </a>
-        {% endif %}
         <p>{{ lecture.logistics }}</p>
     </td>
     {% endif %}
