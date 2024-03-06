@@ -27,12 +27,12 @@ toc:
   - name: Schedule 강의일정
 
 information:
-  - section: 259122-1 (am)
-    time: 수 123 | Wed 9am-12pm
+  - section: 259122-1 (pm)
+    time: 수 567 | Wed 1pm-4pm
     location: W18동 421호
     kakaotalk: https://open.kakao.com/o/gGtgeIbg
-  - section: 259122-2 (pm)
-    time: 수 567 | Wed 1am-4pm
+  - section: 259122-2 (am)
+    time: 수 123 | Wed 9am-12pm
     location: W18동 421호
     kakaotalk: https://open.kakao.com/o/g2opgIbg
 
