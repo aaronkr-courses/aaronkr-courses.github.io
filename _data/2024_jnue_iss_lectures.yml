@@ -23,7 +23,8 @@
   supp:
   hw:
   img: 2024/jnue-iss/2-jnue-blocks.jpg
-  logistics:
+  logistics: >
+    <a href="https://docs.google.com/presentation/d/1jV8vBH8jmYvM0xtluoeJIe1ptpU6uWPwmDHRsQKjOkQ/edit?usp=sharing">Slides2</a>
 
 - date: 3/18
   week: 3
