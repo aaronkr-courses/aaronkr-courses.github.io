@@ -27,15 +27,15 @@ toc:
 
 information:
   - section: 070137-1 (윤리)
-    time: 월 12 | Mon 9am-11am
+    time: 월 34 | Mon 11am-1pm
     location: 전산교육실2
     kakaotalk: https://open.kakao.com/o/ggZVnIbg
   - section: 070137-4 (수학)
-    time: 월 34 | Mon 11am-1pm
+    time: 월 67 | Mon 2pm-4pm
     location: 전산교육실2
     kakaotalk: https://open.kakao.com/o/gCwepIbg
   - section: 070137-5 (과학)
-    time: 월 67 | Mon 2pm-4pm
+    time: 월 12 | Mon 9am-11am
     location: 전산교육실2
     kakaotalk: https://open.kakao.com/o/gJgvqIbg
 
