@@ -20,11 +20,13 @@
     - Lesson 4. Node.js에서 웹 서버 만들기 / Building a simple web server in Node.js<br>
     - Lesson 5. 수신 데이터 다루기 / Handling incoming data<br>
     - Lesson 6. 라우트와 외부 파일 / Writing better routes and serving external files
-  slides:
+  slides: "https://docs.google.com/presentation/d/1bgILKiJ1G_H2YZ7QkU13DmXXabO1kubCrDGaE6XElaE/edit?usp=sharing"
+  slides2: "https://docs.google.com/presentation/d/1vYz8soxeTOsBzbFaLmkDG5njvkDy7CBb_wY1C_PXfFM/edit?usp=sharing"
   readings: Get Programming with Node, <strong>1장 pp. 67-116</strong>
   logistics:
-  img:
-  hw:
+  img: 2024/ut-node/2a-web-review.jpg
+  hw1: "https://classroom.github.com/a/x9xH4e-l"
+  hw2: ""
 
 - date: 3/20
   week: 3
