@@ -52,7 +52,7 @@
         [ slides ]
         {% endif %}
         {% if lecture.slides2 %}
-        <a href="{{ lecture.slides }}" target="_blank">[ slides2 ]</a>
+        <a href="{{ lecture.slides2 }}" target="_blank">[ slides2 ]</a>
         {% endif %}
     </td>
     <td>
