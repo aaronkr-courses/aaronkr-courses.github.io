@@ -12,8 +12,8 @@
 - date: 3/15
   week: 2
   title: >
-    <strong>CHAPTER 0 C++ 시작하기</strong>
-    <strong>CHAPTER 1 문자열 사용</strong><br>
+    <strong>CHAPTER 0 C++ 시작하기</strong><br>
+    <strong>CHAPTER 1 문자열 사용</strong>
   supp:
   readings: Accelerated C++, <strong>1-2장 pp. 26-48</strong>
   hw:
@@ -24,7 +24,7 @@
 - date: 3/22
   week: 3
   title: >
-    <strong>CHAPTER 2 반복문과 카운팅</strong>
+    <strong>CHAPTER 2 반복문과 카운팅</strong><br>
     <strong>CHAPTER 3 데이터 일괄 처리</strong><br>
     <strong>CHAPTER 4 프로그램 및 데이터 구조화</strong>
   supp:
