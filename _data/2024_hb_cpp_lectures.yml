@@ -1,33 +1,34 @@
 - date: 3/8
   week: 1
   title: >
-    <strong>CHAPTER 0 C++ 시작하기</strong>
+    <strong>수업 소개</strong>
   supp:
   readings: Accelerated C++, <strong>0장 pp. 26-34</strong>
   hw: "https://classroom.github.com/a/doR4LooN"
   slides: "https://docs.google.com/presentation/d/1-dFpKK26GtJ1xWLj3wk2aT_HWaB7KO_pOoSQ9eWs6F0/edit?usp=sharing"
-  img:
+  img: 2024/hb-cpp/1-cpp-intro.jpg
   logistics:
 
 - date: 3/15
   week: 2
   title: >
+    <strong>CHAPTER 0 C++ 시작하기</strong>
     <strong>CHAPTER 1 문자열 사용</strong><br>
-    <strong>CHAPTER 2 반복문과 카운팅</strong>
   supp:
-  readings: Accelerated C++, <strong>1-2장 pp. 37-72</strong>
+  readings: Accelerated C++, <strong>1-2장 pp. 26-48</strong>
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1mMCkyL3UcTNDD_LbYCR0dlzKYnq5glPU6Em87d_JE1Y/edit?usp=sharing"
+  img: 2024/hb-cpp/2-cpp-strings.jpg
   logistics:
 
 - date: 3/22
   week: 3
   title: >
+    <strong>CHAPTER 2 반복문과 카운팅</strong>
     <strong>CHAPTER 3 데이터 일괄 처리</strong><br>
     <strong>CHAPTER 4 프로그램 및 데이터 구조화</strong>
   supp:
-  readings: Accelerated C++, <strong>3-4장 pp. 75-128</strong>
+  readings: Accelerated C++, <strong>3-4장 pp. 48-128</strong>
   hw:
   slides:
   img:
