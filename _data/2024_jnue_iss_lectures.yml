@@ -23,14 +23,13 @@
   supp:
   hw:
   img: 2024/jnue-iss/2-jnue-blocks.jpeg
-  logistics: >
-    <a href="https://docs.google.com/presentation/d/1jV8vBH8jmYvM0xtluoeJIe1ptpU6uWPwmDHRsQKjOkQ/edit?usp=sharing">Slides2</a>
+  logistics:
 
 - date: 3/18
   week: 3
   title: >
     <strong>CHAPTER 03 스프라이트 사용법 익히기</strong>
-  slides2: "https://docs.google.com/presentation/d/1BaWNDgvMbQbr7Is_nLJKtkaBo2WwCV1YXlzcB6RHnNk/edit?usp=sharing"
+  slides: "https://docs.google.com/presentation/d/1jV8vBH8jmYvM0xtluoeJIe1ptpU6uWPwmDHRsQKjOkQ/edit?usp=sharing"
   readings:
     - 01 스프라이트의 구현 방식
     - 02 스프라이트의 동작 구현
@@ -39,7 +38,7 @@
     - 05 스프라이트의 펜 활용
   supp:
   hw:
-  img:
+  img: 2024/jnue-iss/3-jnue-sprites.jpeg
   logistics:
 
 - date: 3/25
