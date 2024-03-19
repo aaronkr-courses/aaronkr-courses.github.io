@@ -14,8 +14,11 @@
 - date: 3/12
   week: 2
   title: >
-    <strong>Chapter 02 디렉토리 다루기<br>
-    1장. 조감도</strong>
+    <strong>
+    Chapter 02 디렉토리 다루기<br>
+    Chapter 03 파일 다루기
+    </strong><br>
+    1장. 조감도
   supp:
   readings:
   hw: 
@@ -26,11 +29,11 @@
 - date: 3/19
   week: 3
   title: >
-    <strong>Chapter 03 파일 다루기<br>
-    2장. 기본 명령어와 디렉터리 계층 구조</strong>
+    <strong>Chapter 04 vim 사용법 익히기</strong><br>
+    2장. 기본 명령어와 디렉터리 계층 구조
   supp:
   readings:
-  hw:
+  hw: "https://forms.gle/2Cz7QBzgPEXg2o3P7"
   slides: "https://docs.google.com/presentation/d/1mt6uPk9Uc-CeTfRqFdtQ4bpMswc-Kn5fixmSrPpWb4Y/edit?usp=drivesdk"
   img: 2024/dju-unix/3-unix-vim.jpg
   logistics:
@@ -38,7 +41,7 @@
 - date: 3/26
   week: 4
   title: >
-    <strong>Chapter 04 vim 사용법 익히기<br>
+    <br>
     3장. 디바이스<br>
     4장. 디스크와 파일 시스템</strong>
   supp:
