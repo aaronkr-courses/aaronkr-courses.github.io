@@ -2,9 +2,8 @@
   week: 1
   title: >
     <strong>Unit 0. 시작하기 / Getting Set up</strong><br>
-    - Lesson 0. Node.js의 설정과 JavaScript 엔진 설치 / Setting up Node.js and the JavaScript engine<br>
-    - Lesson 1. 환경설정 / Configuring your environment<br>
-    - Lesson 2. Node.js 애플리케이션 실행 / Running a Node.js application
+    - 수업 소개
+    - Node.JS 소개
   slides: "https://docs.google.com/presentation/d/1mDevjb5E-z6rCXmBE090GxpsQqBNkcKOOfbKccUcDcs/edit?usp=sharing"
   readings: <strong>0장 pp. 35-64</strong>
   logistics:
@@ -15,11 +14,10 @@
 - date: 3/13
   week: 2
   title: >
-    <strong>Unit 1. Node.js의 시작 / Getting started with Node.js</strong><br>    
-    - Lesson 3. Node.js 모듈의 생성 / Creating a Node.js module<br>
-    - Lesson 4. Node.js에서 웹 서버 만들기 / Building a simple web server in Node.js<br>
-    - Lesson 5. 수신 데이터 다루기 / Handling incoming data<br>
-    - Lesson 6. 라우트와 외부 파일 / Writing better routes and serving external files
+    <strong>Unit 0. 시작하기 / Getting Set up</strong><br>
+    - Lesson 0. Node.js의 설정과 JavaScript 엔진 설치 / Setting up Node.js and the JavaScript engine<br>
+    - Lesson 1. 환경설정 / Configuring your environment<br>
+    - Lesson 2. Node.js 애플리케이션 실행 / Running a Node.js application
   slides: "https://docs.google.com/presentation/d/1bgILKiJ1G_H2YZ7QkU13DmXXabO1kubCrDGaE6XElaE/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/1vYz8soxeTOsBzbFaLmkDG5njvkDy7CBb_wY1C_PXfFM/edit?usp=sharing"
   readings: Get Programming with Node, <strong>1장 pp. 67-116</strong>
@@ -31,26 +29,33 @@
 - date: 3/20
   week: 3
   title: >
-    <strong>Unit 1. Node.js의 시작 / Getting started with Node.js</strong><br>
-    - Lesson 7. 캡스톤 프로젝트: 첫 번째 웹 애플리케이션 만들기 / Capstone: Creating your first web application<br>
-    <strong>Unit 2. Express.js를 통한 웹 개발 / Easier web development with Express.js</strong><br>
-    - Lesson 8. Express.js의 설정 / Setting up an app with Express.js<br>
-    - Lesson 9. Express.js에서의 라우트 / Routing in Express.js
-  slides:
-  readings: Get Programming with Node, <strong>1, 2장 pp. 117-154</strong>
+    <strong>Unit 1. Node.js의 시작 / Getting started with Node.js</strong><br>    
+    - Lesson 3. Node.js 모듈의 생성 / Creating a Node.js module<br>
+    - Lesson 4. Node.js에서 웹 서버 만들기 / Building a simple web server in Node.js<br>
+    - Lesson 5. 수신 데이터 다루기 / Handling incoming data<br>
+    - Lesson 6. 라우트와 외부 파일 / Writing better routes and serving external files
+  slides: "https://docs.google.com/presentation/d/1FCatIvJsCBDldZiGoBsDvLo2lfk0KLHTtmG1ZlKZ6ls/edit?usp=sharing"
+  readings: Get Programming with Node, <strong>1장 pp. 67-116</strong>
   logistics:
-  img:
+  img: 2024/ut-node/3-node-web-app.jpg
   hw:
 
 - date: 3/27
   week: 4
   title: >
+    <strong>Unit 1. Node.js의 시작 / Getting started with Node.js</strong><br>
+    - Lesson 7. 캡스톤 프로젝트: 첫 번째 웹 애플리케이션 만들기 / Capstone: Creating your first web application<br>
+    <strong>Unit 2. Express.js를 통한 웹 개발 / Easier web development with Express.js</strong><br>
+    - Lesson 8. Express.js의 설정 / Setting up an app with Express.js<br>
+    - Lesson 9. Express.js에서의 라우트 / Routing in Express.js<br><br>
     <strong>Unit 2. Express.js를 통한 웹 개발 / Easier web development with Express.js</strong><br>
     - Lesson 10 뷰와 템플릿의 연결 / Connecting views with templates<br>
     - Lesson 11. 설정과 에러 처리 / Configurations and error handling<br>
     - Lesson 12. 캡스톤 프로젝트: Express.js를 통한 Confetti Cuisine 사이트 개선 / Capstone: Enhancing the Confetti Cuisine site with Express.js
   slides:
-  readings: Get Programming with Node, <strong>2장 pp. 143-185</strong>
+  readings: >
+    - Get Programming with Node, <strong>1, 2장 pp. 117-154</strong>
+    - Get Programming with Node, <strong>2장 pp. 143-185</strong>
   logistics:
   img:
   hw:
