@@ -25,18 +25,18 @@
   week: 3
   title: >
     <strong>CHAPTER 2 반복문과 카운팅</strong><br>
-    <strong>CHAPTER 3 데이터 일괄 처리</strong><br>
-    <strong>CHAPTER 4 프로그램 및 데이터 구조화</strong>
+    <strong>CHAPTER 3 데이터 일괄 처리</strong>
   supp:
   readings: Accelerated C++, <strong>3-4장 pp. 48-128</strong>
-  hw:
-  slides:
-  img:
+  hw: "https://classroom.github.com/a/JPx7KmYV"
+  slides: "https://docs.google.com/presentation/d/1tkv6Ec9DOHbpjfWRVhqOcpx9iVxhBi2LIkCF90ZAQQk/edit?usp=sharing"
+  img: 2024/hb-cpp/3-cpp-loops-data.jpg
   logistics:
 
 - date: 3/29
   week: 4
   title: >
+    <strong>CHAPTER 4 프로그램 및 데이터 구조화</strong><br>
     <strong>CHAPTER 5 순차 컨테이너와 문자열 분석</strong>
   supp:
   readings: Accelerated C++, <strong>5장 pp. 131-164</strong>
