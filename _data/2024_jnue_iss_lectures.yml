@@ -45,14 +45,14 @@
   week: 4
   title: >
     <strong>CHAPTER 04 자료형과 연산, 변수 익히기</strong>
-  slides2: "https://docs.google.com/presentation/d/1Q1oWedQP01MXYCQOefps0J0uFe8SrKkB_ShwKqSwCx4/edit?usp=sharing"
+  slides: "https://docs.google.com/presentation/d/16fCSUwXuPRbNsQMuYLXVB7cdZQg2IOc4ulvB1ye1vy0/edit?usp=sharing"
   readings:
     - 01 자료형, 연산, 변수
     - 02 지역 변수와 전역 변수
     - 03 구조적 자료형- 배열과 리스트
   supp:
   hw:
-  img:
+  img: 2024/jnue-iss/4-jnue-var.jpeg
   logistics:
 
 - date: 4/1
