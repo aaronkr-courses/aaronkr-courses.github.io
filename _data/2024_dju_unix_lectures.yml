@@ -41,9 +41,9 @@
 - date: 3/26
   week: 4
   title: >
-    <br>
+    <strong>Chapter 05 배시 셸 활용하기</strong><br>
     3장. 디바이스<br>
-    4장. 디스크와 파일 시스템</strong>
+    4장. 디스크와 파일 시스템
   supp:
   readings:
   hw: "https://forms.gle/E4hFPsHEZiHkZqa6A"
