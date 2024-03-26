@@ -41,9 +41,9 @@
     Chapter 06 배열과 문자열</strong>
   supp:
   readings: p. 164-231
-  hw:
-  slides:
-  img:
+  hw: "https://classroom.github.com/a/duPLSDxY"
+  slides: "https://docs.google.com/presentation/d/1En76IiGivpCSeQqqT7zEw46SeXOFlx0H2bc34RQu6-g/edit?usp=sharing"
+  img: 2024/dju-java/4-java-strings-arrays.jpg
   logistics:
 
 - date: 4/2
