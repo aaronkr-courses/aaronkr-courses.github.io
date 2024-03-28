@@ -24,8 +24,7 @@
 - date: 3/22
   week: 3
   title: >
-    <strong>CHAPTER 2 반복문과 카운팅</strong><br>
-    <strong>CHAPTER 3 데이터 일괄 처리</strong>
+    <strong>CHAPTER 2 반복문과 카운팅</strong>
   supp:
   readings: Accelerated C++, <strong>3-4장 pp. 48-128</strong>
   hw: "https://classroom.github.com/a/JPx7KmYV"
@@ -36,18 +35,19 @@
 - date: 3/29
   week: 4
   title: >
-    <strong>CHAPTER 4 프로그램 및 데이터 구조화</strong><br>
-    <strong>CHAPTER 5 순차 컨테이너와 문자열 분석</strong>
+    <strong>CHAPTER 3 데이터 일괄 처리</strong><br>
+    <strong>CHAPTER 4 프로그램 및 데이터 구조화</strong>
   supp:
   readings: Accelerated C++, <strong>5장 pp. 131-164</strong>
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1ZdPVBYd_7f6GLMqNXs7lcpYZaJTHruhKlngh2peSB6g/edit?usp=sharing"
+  img: 2024/hb-cpp/4-cpp-data.jpg
   logistics:
 
 - date: 4/5
   week: 5
   title: >
+    <strong>CHAPTER 5 순차 컨테이너와 문자열 분석</strong><br>
     <strong>CHAPTER 6 라이브러리 알고리즘</strong>
   supp:
   readings: Accelerated C++, <strong>6장 pp. 170-198</strong>
