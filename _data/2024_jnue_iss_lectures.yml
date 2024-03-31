@@ -59,7 +59,7 @@
   week: 5
   title: >
     <strong>CHAPTER 05 조건과 문장 제어 익히기</strong>
-  slides2: "https://docs.google.com/presentation/d/1pJfeVSec-nUry5Gm-GGpwvPLbIM1mYEkwOZK72pbhp0/edit?usp=sharing"
+  slides: "https://docs.google.com/presentation/d/1jptwCXoO9K4z3tEkCkj6KiKJdel0bjfjUMyorJObkgY/edit?usp=sharing"
   readings:
     - 01 조건의 이해
     - 02 문장의 이해
@@ -68,7 +68,7 @@
     - 05 반복과 선택의 중첩 실행
   supp:
   hw:
-  img:
+  img: 2024/jnue-iss/5-jnue-loops.jpg
   logistics:
 
 - date: 4/8
