@@ -60,8 +60,8 @@
   supp:
   readings:
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1ZNwYlmLHbdW147cV8UkKZMQXBtLfGexQrvbmXPbUYp0/edit?usp=sharing"
+  img: 2024/dju-unix/5-unix-file-access.jpg
   logistics:
 
 - date: 4/9
