@@ -56,9 +56,9 @@
 - date: 4/2
   week: 5
   title: >
-    <strong>Chapter 05 배시 셸 활용하기<br>
+    <strong>Chapter 06 파일 접근 권한 관리하기</strong><br>
     5장. 리눅스 커널 부팅 방법<br>
-    6장. 사용자 공간 시동 방법</strong>
+    6장. 사용자 공간 시동 방법
   supp:
   readings:
   hw:
@@ -69,8 +69,8 @@
 - date: 4/9
   week: 6
   title: >
-    <strong>Chapter 06 파일 접근 권한 관리하기<br>
-    7장. 시스템 설정: 로깅, 시스템 시간, 일괄 작업과 사용자</strong>
+    <strong>Chapter 07 파일과 디렉토리 검색하기</strong><br>
+    7장. 시스템 설정: 로깅, 시스템 시간, 일괄 작업과 사용자
   supp:
   readings:
   hw:
@@ -81,8 +81,8 @@
 - date: 4/16
   week: 7
   title: >
-    <strong>Chapter 07 파일과 디렉토리 검색하기<br>
-    8장. 프로세스와 리소스 활용</strong>
+    <strong>Chapter 08 사용자와 프로세스 명령 익히기</strong><br>
+    8장. 프로세스와 리소스 활용
   supp:
   readings:
   hw:
