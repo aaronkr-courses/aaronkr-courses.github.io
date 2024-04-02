@@ -52,9 +52,9 @@
     <strong>Chapter 07 클래스와 객체</strong>
   supp:
   readings: p. 232-291
-  hw:
-  slides:
-  img:
+  hw: "https://classroom.github.com/a/0j_ZI3Wl"
+  slides: "https://docs.google.com/presentation/d/17ZmGeRP__tAfu7BdWCj68FjFxHnwLXwZgWMNvy4PqG4/edit?usp=sharing"
+  img: 2024/dju-java/5-java-classes.jpg
   logistics:
 
 - date: 4/9
