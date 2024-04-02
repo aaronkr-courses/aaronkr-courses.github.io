@@ -64,11 +64,12 @@
     - Lesson 10 뷰와 템플릿의 연결 / Connecting views with templates<br>
     - Lesson 11. 설정과 에러 처리 / Configurations and error handling<br>
     - Lesson 12. 캡스톤 프로젝트: Express.js를 통한 Confetti Cuisine 사이트 개선 / Capstone: Enhancing the Confetti Cuisine site with Express.js
-  slides:
+  slides: "https://docs.google.com/presentation/d/1-JXmj71BN_nHFSntmjdnqSdPht_EFJF1OKxqu4MwkKY/edit?usp=sharing"
   readings: Get Programming with Node, <strong>3장 pp. 187-234</strong>
   logistics:
-  img:
-  hw:
+  img: 2024/ut-node/4-node-express.jpg
+  hw1: "https://classroom.github.com/a/cmvIvmhu"
+  hw2: "https://classroom.github.com/a/33C5Nanw"
 
 - date: 4/10
   week: 6
