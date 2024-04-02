@@ -61,7 +61,7 @@
     6장. 사용자 공간 시동 방법
   supp:
   readings:
-  hw:
+  hw: "https://forms.gle/DUSPeWepC7LhZ5cL9"
   slides: "https://docs.google.com/presentation/d/1ZNwYlmLHbdW147cV8UkKZMQXBtLfGexQrvbmXPbUYp0/edit?usp=sharing"
   img: 2024/dju-unix/5-unix-file-access.jpg
   logistics:
