@@ -51,9 +51,9 @@
     <strong>CHAPTER 6 라이브러리 알고리즘</strong>
   supp:
   readings: Accelerated C++, <strong>6장 pp. 170-198</strong>
-  hw:
-  slides:
-  img:
+  hw: "https://classroom.github.com/a/ojjUKorG"
+  slides: "https://docs.google.com/presentation/d/1UJYA38aefQcnxaLWDpmD1_cPz7jAuxfYvry9C68ltiw/edit?usp=sharing"
+  img: 2024/hb-cpp/5-cpp-data-containers.jpg
   logistics:
 
 - date: 4/12
