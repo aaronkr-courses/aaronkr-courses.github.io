@@ -54,7 +54,8 @@
   hw: "https://classroom.github.com/a/ta1zbr4s"
   slides: "https://docs.google.com/presentation/d/1UJYA38aefQcnxaLWDpmD1_cPz7jAuxfYvry9C68ltiw/edit?usp=sharing"
   img: 2024/hb-cpp/5-cpp-data-containers.jpg
-  logistics:
+  logistics: >
+    <a href="https://github.com/aaronkr-classroom/5-data-containers">Clone repo</a>
 
 - date: 4/12
   week: 6
