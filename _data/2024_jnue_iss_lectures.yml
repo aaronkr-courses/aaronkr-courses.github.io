@@ -75,13 +75,13 @@
   week: 6
   title: >
     <strong>CHAPTER 06 프로시저(함수)와 병렬 처리 익히기</strong>
-  slides2: "https://docs.google.com/presentation/d/16AP4TH7LyuRkIo8ZFbAFBwOyew56IAZTn9FLNMOgdiE/edit?usp=sharing"
+  slides: "https://docs.google.com/presentation/d/1Wub0xR1jr5Py-OWmvjfdnWMK4eXnUXFCe0EstRnptS4/edit?usp=sharing"
   readings:
     - 01 프로시저의 개념과 구현
     - 02 병렬 처리의 개념과 구현
   supp:
   hw:
-  img:
+  img: 2024/jnue-iss/6-jnue-procedures.jpg
   logistics:
 
 - date: 4/15
