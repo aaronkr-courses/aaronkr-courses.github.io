@@ -74,8 +74,8 @@
   supp:
   readings:
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1j0QzgC8ZkoWH-kdjxRiA2uk9Jt-9-1T2rzLTaY3rbw8/edit?usp=sharing"
+  img: 2024/dju-unix/6-unix-searches.jpg
   logistics:
 
 - date: 4/16
