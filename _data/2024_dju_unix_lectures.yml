@@ -73,7 +73,7 @@
     7장. 시스템 설정: 로깅, 시스템 시간, 일괄 작업과 사용자
   supp:
   readings:
-  hw:
+  hw: "https://forms.gle/MdA2xSH1ZPK1Wwiy6"
   slides: "https://docs.google.com/presentation/d/1j0QzgC8ZkoWH-kdjxRiA2uk9Jt-9-1T2rzLTaY3rbw8/edit?usp=sharing"
   img: 2024/dju-unix/6-unix-searches.jpg
   logistics:
