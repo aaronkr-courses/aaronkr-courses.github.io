@@ -63,9 +63,9 @@
     <strong>Chapter 08 상속과 다형성</strong>
   supp:
   readings: p. 292-337
-  hw:
-  slides:
-  img:
+  hw: "https://classroom.github.com/a/swlC2Xuv"
+  slides: "https://docs.google.com/presentation/d/1outoGybJxMa8NNPeYWkAllqQQFrAOjCJOsp8QezN2TI/edit?usp=sharing"
+  img: 2024/dju-java/6-java-inheritance.jpg
   logistics:
 
 - date: 4/16
