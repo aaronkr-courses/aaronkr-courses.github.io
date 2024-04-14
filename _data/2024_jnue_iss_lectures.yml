@@ -88,7 +88,7 @@
   week: 7
   title: >
     <strong>CHAPTER 07 컴퓨팅 사고력과 프로그래밍</strong>
-  slides2: "https://docs.google.com/presentation/d/1-tndVeXvJtqB-lzV7vm0Zncu33DHefRGdpKqTQjF_8E/edit?usp=sharing"
+  slides: "https://docs.google.com/presentation/d/1yjaRuTNmQf0THaDnbvuTy0nPv8uSMCa0CfmR7j9k-Ao/edit?usp=sharing"
   readings:
     - 01 컴퓨팅 사고력
     - 02 추상화의 개념과 구현
@@ -97,7 +97,7 @@
     - 05 알고리즘의 개념과 활용
   supp:
   hw:
-  img:
+  img: 2024/jnue-iss/7-jnue-comp-thinking.jpg
   logistics:
 
 - date: 4/22
