@@ -85,9 +85,9 @@
     8장. 프로세스와 리소스 활용
   supp:
   readings:
-  hw:
-  slides:
-  img:
+  hw: 
+  slides: "https://docs.google.com/presentation/d/1OCsPw5CpIvrMgbb9OqcALxNZ5658Q8tWcPbG-6Gj1a0/edit?usp=sharing"
+  img: 2024/dju-unix-7-unix-processes.jpg
   logistics:
 
 - date: 4/23
