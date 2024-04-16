@@ -85,7 +85,7 @@
     8장. 프로세스와 리소스 활용
   supp:
   readings:
-  hw: 
+  hw: "https://forms.gle/ZMryBdrhdUoWPnvT7"
   slides: "https://docs.google.com/presentation/d/1OCsPw5CpIvrMgbb9OqcALxNZ5658Q8tWcPbG-6Gj1a0/edit?usp=sharing"
   img: 2024/dju-unix/7-unix-processes.jpg
   logistics:
@@ -94,7 +94,7 @@
   week: 8
   title: >
     <strong>Midterm Test</strong>
-
+  
 - date: 4/30
   week: 9
   title: >
