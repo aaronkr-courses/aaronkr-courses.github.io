@@ -74,7 +74,7 @@
     <strong>Chapter 09 추상 클래스와 인터페이스</strong>
   supp:
   readings: p. 338-385
-  hw:
+  hw: "https://classroom.github.com/a/1rmukx8C"
   slides: "https://docs.google.com/presentation/d/1eFESPO9ahi1L3natQo5MbVveKdfUHNYfnyMbZ8Zz0go/edit?usp=sharing"
   img: 2024/dju-java/7-java-abstraction.jpg
   logistics:
@@ -82,7 +82,8 @@
 - date: 4/23
   week: 8
   title: >
-    <strong>Midterm Test</strong>
+    <strong>Midterm Test</strong><br>
+    <a href="https://docs.google.com/presentation/d/1J362ggD1x61HA4gxZMqljtQELSwgWP5k2aU2p-YKwns/edit?usp=sharing" style="display: none;">스터디 가이드</a>
 
 - date: 4/30
   week: 9
