@@ -102,8 +102,8 @@
 - date: 4/30
   week: 9
   title: >
-    <strong>Chapter 08 사용자와 프로세스 명령 익히기<br>
-    9장. 네트워크와 그 설정에 대한 이해</strong>
+    <strong>Chapter 09 파일 아카이브와 압축 명령 익히기</strong><br>
+    9장. 네트워크와 그 설정에 대한 이해
   supp:
   readings:
   hw:
@@ -114,8 +114,8 @@
 - date: 5/7
   week: 10
   title: >
-    <strong>Chapter 09 파일 아카이브와 압축 명령 익히기<br>
-    10장. 네트워크 응용프로그램과 서비스</strong>
+    <strong>Chapter 10 인터넷과 통신 명령 익히기</strong><br>
+    10장. 네트워크 응용프로그램과 서비스
   supp:
   readings:
   hw:
@@ -126,8 +126,8 @@
 - date: 5/14
   week: 11
   title: >
-    <strong>Chapter 10 인터넷과 통신 명령 익히기<br>
-    11장. 셸 스크립트 소개</strong>
+    <strong>Chapter 11 유닉스 유틸리티 이용하기</strong><br>
+    11장. 셸 스크립트 소개
   supp:
   readings:
   hw:
@@ -138,9 +138,9 @@
 - date: 5/21
   week: 12
   title: >
-    <strong>Chapter 11 유닉스 유틸리티 이용하기<br>
+    <strong>Chapter 12 유닉스 셸의 이해</strong><br>
     12장. 네트워크를 거쳐 파일 옮기기<br>
-    13장. 사용자 환경</strong>
+    13장. 사용자 환경
   supp:
   readings:
   hw:
@@ -151,10 +151,9 @@
 - date: 5/28
   week: 13
   title: >
-    <strong>Chapter 12 유닉스 셸의 이해<br>
-    Chapter 13 배시 셸 프로그래밍<br>
+    <strong>Chapter 13 배시 셸 프로그래밍</strong><br>
     14장. 리눅스 데스크톱에 대한 조망<br>
-    15장. 개발 툴</strong>
+    15장. 개발 툴
   supp:
   readings:
   hw:
@@ -165,9 +164,9 @@
 - date: 6/4
   week: 14
   title: >
-    <strong>Chapter 14 시스템 관리 기초<br>
+    <strong>Chapter 14 시스템 관리 기초</strong><br>
     16장. C 소스 코드로 소프트웨어 컴파일하는 기본적인 방법<br>
-    17장. 기초를 바탕으로 길제 구축하기</strong>
+    17장. 기초를 바탕으로 길제 구축하기
   supp:
   readings:
   hw:
