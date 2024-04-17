@@ -103,15 +103,40 @@
 - date: 4/22
   week: 8
   title: >
-    <strong>Midterm Test</strong>
+    <span style="color: red;"><strong>No School</strong></span><br>
+    <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강)</a><br>
+    <strong>CHAPTER 09 이벤트를 활용한 응용 프로그래밍</strong>
+  slides2: "https://docs.google.com/presentation/d/1gNQe6ZnOE8SC7_-4iJIT27qjwDJfdIpdoG6kJReJP2g/edit?usp=sharing"
+  readings:
+    - 01 이벤트 처리와 메시지 방송
+    - 02 이벤트 응용 프로그래밍
+    - 03 비디오와 오디오 이벤트 응용 프로그래밍
+  img:
+  logistics: >
+    <a style="color: red;" href="https://lms.jnue.kr">LMS 동영상 (5/24일까지)</a>
+
+- date: 4/29
+  week: 9
+  title: >
+    <strong>Midterm Quiz</strong>
   slides2: "https://docs.google.com/presentation/d/14lQTe9qJjwYAVETvh8mfhx-qKHbHcvKSCo002tb_rU0/edit?usp=sharing"
   img:
   hw:
   logistics: >
-    중간고사
+    퀴즈와 연습문제
 
-- date: 4/29
-  week: 9
+- date: >
+    5/6<span style="color: red;">*</span>
+  week: 10
+  title: >
+    <strong style="color: red;">No School</strong> Children's Day
+  slides: 
+  img:
+  logistics: >
+    보강 (6/10일 예정)
+    
+- date: 5/13
+  week: 11
   title: >
     <strong>CHAPTER 08 감지를 활용한 응용 프로그래밍</strong>
   slides2: "https://docs.google.com/presentation/d/1pnpH_07rxCEokS3BK7eMGhr_4RtlFb73NtGXgYQw8gM/edit?usp=sharing"
@@ -124,25 +149,8 @@
   img:
   logistics:
 
-- date: >
-    5/6<span style="color: red;">*</span>
-  week: 10
-  title: >
-    <span style="color: red;"><strong>No School</strong> 어린이날</span><br>
-    <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강)</a><br>
-    <strong>CHAPTER 09 이벤트를 활용한 응용 프로그래밍</strong>
-  slides2: "https://docs.google.com/presentation/d/1gNQe6ZnOE8SC7_-4iJIT27qjwDJfdIpdoG6kJReJP2g/edit?usp=sharing"
-  readings:
-    - 01 이벤트 처리와 메시지 방송
-    - 02 이벤트 응용 프로그래밍
-    - 03 비디오와 오디오 이벤트 응용 프로그래밍
-  supp:
-  hw:
-  img:
-  logistics:
-
-- date: 5/13
-  week: 11
+- date: 5/20
+  week: 12
   title: >
     <strong>CHAPTER 10 복제, 난수, 재귀 호출을 활용한 응용 프로그래밍</strong>
   slides2: "https://docs.google.com/presentation/d/1cw7-HMIphjlPsi7ikcr5MFIyUCQNtIbZvEBsa2c06HM/edit?usp=sharing"
@@ -155,8 +163,8 @@
   img:
   logistics:
 
-- date: 5/20
-  week: 12
+- date: 5/27
+  week: 13
   title: >
     <strong>CHAPTER 11 프로그램 개발 과정 이해하기</strong>
   slides:
@@ -170,8 +178,8 @@
   img:
   logistics:
 
-- date: 5/27
-  week: 13
+- date: 6/3
+  week: 14
   title: >
     <strong>CHAPTER 12 창의 게임 프로그래밍</strong>
   slides2: "https://docs.google.com/presentation/d/1Kbuy37cIawvOY5C-eK680eNWVLXziyg6FyppDjkzHf8/edit?usp=sharing"
@@ -184,8 +192,9 @@
   img:
   logistics:
 
-- date: 6/3
-  week: 14
+- date: >
+    6/10 (보강)
+  week: 15
   title: >
     <strong>CHAPTER 13 창의 인터랙티브 스토리 프로그래밍</strong>
   slides2: "https://docs.google.com/presentation/d/1B0p17XW0jLqLhyS7_vzcAJ_kHXrH13VrwtBqItowR-Y/edit?usp=sharing"
@@ -199,7 +208,7 @@
   img:
   logistics:
 
-- date: 6/10
+- date: 6/17
   week: 15
   title: >
     <strong>Final Test</strong>
