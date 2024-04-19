@@ -72,8 +72,8 @@
     <strong>CHAPTER 6 라이브러리 알고리즘</strong>
   supp:
   readings: >
-    Accelerated C++, <strong>6장 pp. 170-198</strong>
-    중간고사 가이드
+    Accelerated C++, <strong>6장 pp. 170-198</strong><br>
+    <a href="https://docs.google.com/presentation/d/14KfuQIVphy5IKBkBGRGVLdhlRcsioiirtJGO-a48N9A/edit?usp=sharing">중간고사 가이드</a>
   hw: "https://classroom.github.com/a/vYlyECqb"
   slides: "https://docs.google.com/presentation/d/1lkRBP9kVjCJf-AbDgAY-D8PCB6SnGlaW4TO9hWEbsx4/edit?usp=sharing"
   img: 2024/hb-cpp/7-cpp-lib-algorithms.jpg
