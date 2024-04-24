@@ -91,10 +91,12 @@
   week: 8
   title: >
     <strong>Midterm Test</strong><br>
-    [<a href="https://forms.gle/EJGeVJc4mt1HUSL58">AM 퀴즈</a>]
-    [<a href="https://classroom.github.com/a/O6AyoaYX">AM 실기</a>]<br>
+    <div style="display: none;">
+      [<a href="https://forms.gle/EJGeVJc4mt1HUSL58">AM 퀴즈</a>]
+      [<a href="https://classroom.github.com/a/O6AyoaYX">AM 실기</a>]<br>
+    </div>
     [<a href="https://forms.gle/vVYvBdTVbQdCQdCE9">PM 퀴즈</a>]
-    [<a href="https://classroom.github.com/a/dCP9iC4U">PM 실기</>]
+    [<a href="https://classroom.github.com/a/dCP9iC4U">PM 실기</a>]
 
 - date: 5/1
   week: 9
