@@ -167,7 +167,7 @@
     <span style="color: red"><strong>No Class</strong> Memorial Day</span>
 
 - date: >
-    6/11 (LMS에서 동영상 보강)
+    6/11 (LMS)
   week: 15
   title: >
     <strong>Unit 7. 채팅 기능 추가 / Adding Chat functionality</strong><br>
@@ -183,7 +183,7 @@
 
 - date: >
     6/12 (대면 보강)
-  week: 15
+  week: 16
   title: >
     <strong>Unit 8. 프로덕션에서의 코드 배포와 관리 / Deploying and managing code in production</strong><br>
     - Lesson 34. 애플리케이션 배포 / Deploying your application<br>
@@ -197,8 +197,8 @@
   hw:
 
 - date: >
-    6/14 (LMS에서 동영상 보강)
-  week: 15
+    6/14 (LMS)
+  week: 17
   title: >
     <strong>Appendix A. ES6에서 소개하는 JavaScript 문법 / JavaScript syntax introduced in ES6</strong><br>
     <strong>Appendix B. 로깅과 Node.js의 전역 객체의 사용 / Logging and using Node.js global objects</strong><br>
@@ -210,7 +210,7 @@
   hw:
 
 - date: 6/19
-  week: 16
+  week: 18
   title: >
     <strong>Final Test</strong>
   logistics: >
@@ -220,6 +220,6 @@
   hw:
 
 - date: 6/26
-  week: 17
+  week: 19
   title: >
     <strong>Final Grades</strong>
