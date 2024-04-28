@@ -9,9 +9,9 @@ importance: 1
 category: 2024
 
 toc:
+  - name: Schedule 강의일정
   - name: Overview 개요
   - name: Textbook 교재
-  - name: Logistics 수업운영
     subsections:
       # if a section has subsections, you can add them as follows:
       # subsections:
@@ -21,9 +21,7 @@ toc:
       - name: Assignments 과제
       - name: Midterm 중간고사
       - name: Final 기말고사
-  - name: Resources 자료실
   - name: Instructor 강사소개
-  - name: Schedule 강의일정
 
 information:
   - section: 070137-1 (윤리)
@@ -51,6 +49,14 @@ Main-Text:
     image: books/scratch-3.jpg
 ---
 
+## Schedule 강의일정
+
+{% include_relative 2024/jnue-iss/schedule.md %}
+
+<a class="btncv" href="#">Top</a>
+
+---
+
 ## Overview 개요
 
 프로그래밍은 문제의 본질을 파악한 뒤 컴퓨터가 풀 수 있는 방법을 구상하여 그들의 언어로 표현하는 종합적인 문제 해결 과정이다. 이 책은 단순히 프로그램을 입력하는 ‘코딩’이 아닌, 문제 해결을 위한 ‘프로그래밍’ 관점을 기르는 데 초점을 맞추어 제작한 도서로, 프로그램의 주요 개념을 통해 컴퓨팅 사고력의 기본기를 다지고, 게임이나 인터랙티브 스토리 같은 융합 예제를 통해 문제를 통합적이고 다양한 사고로 바라보게 하는 힘을 길러줄 수 있도록 하였다.
@@ -75,26 +81,6 @@ Programming is a comprehensive problem-solving process that identifies the essen
 
 ---
 
-## Logistics 수업운영
-
-### Course Information / 과정정보
-
-시간이 지나도 변하지 않고 컴퓨팅 세계의 기반을 강화하는 데 도움이 되는 전문적이고 안전하며 이식 가능한 C 코드를 작성하는 방법을 알아본다.
-
-- **프로그래밍(50%)** 직무에 필요한 문제 또는 시스템을 프로그래밍 언어로 구현할 수 있는 역량
-- **전공기초(40%)** 정보통신전공을 수행할 수 있는 공학적 기초개념, 수학, 물리학 등의 기본역량
-- **자기주도문제해결(10%)** 프로젝트, 캡스톤디자인 및 지식재산권, 공학경영, 논문작성 등 전공분야에 밀접하게 연관된 비전공분야의 역량
-
-Students will learn how to write professional, safe, and portable C code that doesn't change over time and helps strengthen the foundations of the world of computing.
-
-- **Programming (50%)** Ability to implement problems or systems required for the job in a programming language
-- **Major foundations (40%)** Basic competencies such as basic engineering concepts, mathematics, physics, etc.
-- **Self-directed problem solving (10%)** Competence in non-major fields closely related to major fields, such as project, capstone design and intellectual property rights, engineering management, and thesis writing
-
-<a class="btncv" href="#">Top</a>
-
----
-
 ### Policies 규정
 
 {% include_relative common/policies.md %}
@@ -103,24 +89,8 @@ Students will learn how to write professional, safe, and portable C code that do
 
 ---
 
-## Resources 자료실
-
-Coming soon.
-
-<a class="btncv" href="#">Top</a>
-
----
-
 ## Instructor 강사소개
 
 {% include aboutAaron.html %}
-
-<a class="btncv" href="#">Top</a>
-
----
-
-## Schedule 강의일정
-
-{% include_relative 2024/jnue-iss/schedule.md %}
 
 <a class="btncv" href="#">Top</a>
