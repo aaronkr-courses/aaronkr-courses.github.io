@@ -100,17 +100,16 @@
   img: 2024/jnue-iss/7-jnue-comp-thinking.jpg
   logistics:
 
-- date: 4/22
+- date: >
+    4/22<span style="color: red;">*</span>
   week: 8
   title: >
-    <span style="color: red;"><strong>No School</strong></span><br>
+    <strong style="color: red;">No School</strong><br>
     <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강)</a><br>
-    <strong>CHAPTER 09 이벤트를 활용한 응용 프로그래밍</strong>
+    <strong>APPENDIX 창의 응용 프로그램 모음</strong>
   slides: "https://docs.google.com/presentation/d/1SvfqV7bpINxqEQ8_9w8qmerUXU6WUnsv9PlhmiRbZoY/edit?usp=sharing"
   readings:
-    - 01 이벤트 처리와 메시지 방송
-    - 02 이벤트 응용 프로그래밍
-    - 03 비디오와 오디오 이벤트 응용 프로그래밍
+    - A-01 상어 잡는 잠수부
   img: 2024/jnue-iss/8-jnue-programs.jpg
   logistics: >
     <a style="color: red;" href="https://lms.jnue.kr">LMS 동영상 (5/24일까지)</a>
@@ -153,6 +152,20 @@
 - date: 5/20
   week: 12
   title: >
+    <strong>CHAPTER 09 이벤트를 활용한 응용 프로그래밍</strong>
+  slides2: "https://docs.google.com/presentation/d/1pnpH_07rxCEokS3BK7eMGhr_4RtlFb73NtGXgYQw8gM/edit?usp=sharing"
+  readings:
+    - 01 이벤트 처리와 메시지 방송
+    - 02 이벤트 응용 프로그래밍
+    - 03 비디오와 오디오 이벤트 응용 프로그래밍
+  supp:
+  hw:
+  img:
+  logistics:
+
+- date: 5/27
+  week: 13
+  title: >
     <strong>CHAPTER 10 복제, 난수, 재귀 호출을 활용한 응용 프로그래밍</strong>
   slides2: "https://docs.google.com/presentation/d/1cw7-HMIphjlPsi7ikcr5MFIyUCQNtIbZvEBsa2c06HM/edit?usp=sharing"
   readings:
@@ -164,8 +177,8 @@
   img:
   logistics:
 
-- date: 5/27
-  week: 13
+- date: 6/3
+  week: 14
   title: >
     <strong>CHAPTER 11 프로그램 개발 과정 이해하기</strong>
   slides:
@@ -179,8 +192,9 @@
   img:
   logistics:
 
-- date: 6/3
-  week: 14
+- date: >
+    6/10 (보강)
+  week: 15
   title: >
     <strong>CHAPTER 12 창의 게임 프로그래밍</strong>
   slides2: "https://docs.google.com/presentation/d/1Kbuy37cIawvOY5C-eK680eNWVLXziyg6FyppDjkzHf8/edit?usp=sharing"
@@ -193,24 +207,8 @@
   img:
   logistics:
 
-- date: >
-    6/10 (보강)
-  week: 15
-  title: >
-    <strong>CHAPTER 13 창의 인터랙티브 스토리 프로그래밍</strong>
-  slides2: "https://docs.google.com/presentation/d/1B0p17XW0jLqLhyS7_vzcAJ_kHXrH13VrwtBqItowR-Y/edit?usp=sharing"
-  readings:
-    - 01 인터랙티브 스토리의 개념과 진행 구조
-    - 02 인터랙티브 스토리의 씬 진행과 씬 전환
-    - 03 인터랙티브 스토리의 대화 처리
-    - <del>04 친구와의 만남 인터랙티브 스토리 프로그래밍</del>
-  supp:
-  hw:
-  img:
-  logistics:
-
 - date: 6/17
-  week: 15
+  week: 16
   title: >
     <strong>Final Test</strong>
   slides2: "https://docs.google.com/presentation/d/1oEJRQ7LDb_VcjHc0652LIITJ4Wq-tZn8C9yjbmoOiao/edit?usp=sharing"
