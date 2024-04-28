@@ -9,6 +9,7 @@ importance: 3
 category: 2024
 
 toc:
+  - name: Schedule 강의일정
   - name: Overview 개요
   - name: Textbook 교재
   - name: Logistics 수업운영
@@ -24,7 +25,6 @@ toc:
       - name: Project 프로젝트
   - name: Resources 자료실
   - name: Instructor 강사소개
-  - name: Schedule 강의일정
 
 information:
   - section: 009001
@@ -55,16 +55,6 @@ Supplementary:
     image: books/java-this-is.jpg
 
   - text: "부교재"
-    author: "Kennedy, Sean / Putten, Maaike Van"
-    title: >
-      <strong>Learn Java with Projects:</strong> A concise practical guide to learning everything a Java professional really needs to know
-    publisher: "Packt Publishing | 2023년 11월 30일"
-    link: "https://www.yes24.com/Product/Goods/124070260"
-    code:
-    notes:
-    image: books/java-projects.jpg
-
-  - text: "부교재"
     author: "조효은 저"
     title: >
       <strong>초보자를 위한 Java 200제</strong> [2판]
@@ -73,6 +63,14 @@ Supplementary:
     code:
     notes:
     image: books/java-200.jpg
+---
+
+## Schedule 강의일정
+
+{% include_relative 2024/dju-java/schedule.md %}
+
+<a class="btncv" href="#">Top</a>
+
 ---
 
 ## Overview 개요
@@ -109,17 +107,15 @@ This book is aimed at readers who are new to web and mobile application developm
 
 ### Course Information / 과정정보
 
-시간이 지나도 변하지 않고 컴퓨팅 세계의 기반을 강화하는 데 도움이 되는 전문적이고 안전하며 이식 가능한 C 코드를 작성하는 방법을 알아본다.
+단계별로 프로젝트를 구현하며 배우는 JAVA 프로그래밍!
 
-- **프로그래밍(50%)** 직무에 필요한 문제 또는 시스템을 프로그래밍 언어로 구현할 수 있는 역량
-- **전공기초(40%)** 정보통신전공을 수행할 수 있는 공학적 기초개념, 수학, 물리학 등의 기본역량
-- **자기주도문제해결(10%)** 프로젝트, 캡스톤디자인 및 지식재산권, 공학경영, 논문작성 등 전공분야에 밀접하게 연관된 비전공분야의 역량
+- **과학적사고역량(70%)**
+- **자기주도역량(30%)**
 
-Students will learn how to write professional, safe, and portable C code that doesn't change over time and helps strengthen the foundations of the world of computing.
+Learn JAVA programming by implementing projects step by step!
 
-- **Programming (50%)** Ability to implement problems or systems required for the job in a programming language
-- **Major foundations (40%)** Basic competencies such as basic engineering concepts, mathematics, physics, etc.
-- **Self-directed problem solving (10%)** Competence in non-major fields closely related to major fields, such as project, capstone design and intellectual property rights, engineering management, and thesis writing
+- **Scientific thinking competency (70%)**
+- **Self-direction capability (30%)**
 
 <a class="btncv" href="#">Top</a>
 
@@ -132,10 +128,10 @@ Students will learn how to write professional, safe, and portable C code that do
 - 출석 10%
 - 중간고사 20%
 - 기말고사 25%
-- 프로젝트 5%
-- 과제 25%
-- 퀴즈 10%
 - 핵심역량 5%
+- 퀴즈 10%
+- 과제 25%
+- 프로젝트 5%
 
 {% include_relative common/policies.md %}
 
@@ -154,13 +150,5 @@ Students will learn how to write professional, safe, and portable C code that do
 ## Instructor 강사소개
 
 {% include aboutAaron.html %}
-
-<a class="btncv" href="#">Top</a>
-
----
-
-## Schedule 강의일정
-
-{% include_relative 2024/dju-java/schedule.md %}
 
 <a class="btncv" href="#">Top</a>
