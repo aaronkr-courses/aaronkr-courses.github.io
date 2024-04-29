@@ -124,9 +124,9 @@
   logistics: >
     [퀴즈]<br>
     - <a href="https://forms.gle/kWFdFXRgrQetpujbA" style="display:none;">과학 퀴즈</a><br>
-    - <a href="https://forms.gle/WHduk5fbwJgiUhME6">윤리 링크</a><br>
+    - <a href="https://forms.gle/WHduk5fbwJgiUhME6"  style="display:none;">윤리 링크</a><br>
     - <a href="https://forms.gle/hg8X5fWB5DDh1BHa7" style="display:none;">수학 링크</a><br>
-    [<a href="https://docs.google.com/presentation/d/1mqrGuoIz5XPelHs0iZflRWAaNeDCdVJAkYqVQjPYN6w/edit?usp=sharing">연습문제</a><span>연습문제</span>]
+    [<a href="https://docs.google.com/presentation/d/1mqrGuoIz5XPelHs0iZflRWAaNeDCdVJAkYqVQjPYN6w/edit?usp=sharing" style="display:none;">연습문제</a><span>연습문제</span>]
 
 - date: >
     5/6<span style="color: red;">*</span>
