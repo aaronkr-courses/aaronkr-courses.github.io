@@ -106,11 +106,12 @@
     - Lesson 14. Mongoose를 사용한 모델 제작 / Building models with Mongoose<br>
     - Lesson 15. 컨트롤러와 모델과의 연결 / Connecting controllers and models<br>
     - Lesson 16. 캡스톤: 사용자 구독 저장 / Capstone: Saving user subscriptions
-  slides:
+  slides: "https://docs.google.com/presentation/d/1nQ9S0eJkDxUubjYuhfDyA1j6DHjCgPsr8s00Q-Q3E14/edit?usp=drivesdk"
   readings: Get Programming with Node, <strong>4장 pp. 237-286</strong>
   logistics:
-  img:
-  hw:
+  img: 2024/ut-node/9-node-mongodb.jpg
+  hw1:
+  hw2:
 
 - date: 5/8
   week: 10
