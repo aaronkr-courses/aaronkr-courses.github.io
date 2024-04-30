@@ -93,9 +93,9 @@
     <strong>Chapter 10 패키지</strong>
   supp:
   readings: p. 386-445
-  hw:
-  slides:
-  img:
+  hw: "https://classroom.github.com/a/DhG5o5ZT"
+  slides: "https://docs.google.com/presentation/d/1mD5COBzG8tRTJJ_9ZgqAQ-Wh9SRb5LJQXI6dkjKH9-Y/edit?usp=sharing"
+  img: 2024/dju-java/9-java-packages.jpg
   logistics:
 
 - date: 5/7
