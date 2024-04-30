@@ -109,8 +109,8 @@
   supp:
   readings:
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/19a-1Pvn4Ly2NOEiQaK9WhXCCXCEX4hsZ0GHZF-bX5Ck/edit?usp=sharing"
+  img: 2024/dju-unix/9-unix-archives.jpg
   logistics:
 
 - date: 5/7
