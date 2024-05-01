@@ -9,6 +9,7 @@ importance: 4
 category: 2024
 
 toc:
+  - name: Schedule 강의일정
   - name: Overview 개요
   - name: Textbook 교재
   - name: Logistics 수업운영
@@ -24,7 +25,6 @@ toc:
       - name: Project 프로젝트
   - name: Resources 자료실
   - name: Instructor 강사소개
-  - name: Schedule 강의일정
 
 information:
   - section: 259122-1 (pm)
@@ -57,6 +57,14 @@ Supplementary:
     code:
     notes:
     image: books/node-ko.jpg
+---
+
+## Schedule 강의일정
+
+{% include_relative 2024/ut-node/schedule.md %}
+
+<a class="btncv" href="#">Top</a>
+
 ---
 
 ## Overview 개요
@@ -155,13 +163,5 @@ Students will learn how to write professional, safe, and portable C code that do
 ## Instructor 강사소개
 
 {% include aboutAaron.html %}
-
-<a class="btncv" href="#">Top</a>
-
----
-
-## Schedule 강의일정
-
-{% include_relative 2024/ut-node/schedule.md %}
 
 <a class="btncv" href="#">Top</a>
