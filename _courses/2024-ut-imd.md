@@ -9,6 +9,7 @@ importance: 5
 category: 2024
 
 toc:
+  - name: Schedule 강의일정
   - name: Overview 개요
   - name: Textbook 교재
   - name: Logistics 수업운영
@@ -23,7 +24,6 @@ toc:
       - name: Final 기말고사
   - name: Resources 자료실
   - name: Instructor 강사소개
-  - name: Schedule 강의일정
 
 information:
   - section: BIO025(1)
@@ -62,6 +62,14 @@ Supplementary:
     code:
     notes:
     image: books/ml-health-fitness.jpg
+---
+
+## Schedule 강의일정
+
+{% include_relative 2024/ut-imd/schedule.md %}
+
+<a class="btncv" href="#">Top</a>
+
 ---
 
 ## Overview 개요
@@ -133,13 +141,5 @@ Students will learn how to write professional, safe, and portable C code that do
 ## Instructor 강사소개
 
 {% include aboutAaron.html %}
-
-<a class="btncv" href="#">Top</a>
-
----
-
-## Schedule 강의일정
-
-{% include_relative 2024/ut-imd/schedule.md %}
 
 <a class="btncv" href="#">Top</a>
