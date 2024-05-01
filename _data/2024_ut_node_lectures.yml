@@ -110,8 +110,8 @@
   readings: Get Programming with Node, <strong>4장 pp. 237-286</strong>
   logistics:
   img: 2024/ut-node/9-node-mongodb.jpg
-  hw1:
-  hw2:
+  hw1: "https://classroom.github.com/a/0Ur4Oyoq"
+  hw2: "https://classroom.github.com/a/crAoyCF_"
 
 - date: 5/8
   week: 10
