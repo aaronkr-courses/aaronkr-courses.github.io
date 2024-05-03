@@ -88,36 +88,39 @@
 - date: 5/3
   week: 9
   title: >
-    <strong>CHAPTER 7 연관 컨테이너</strong><br>
-    <strong>CHAPTER 8 제네릭 함수</strong><br>
-    <strong>CHAPTER 9 새로운 타입 정의</strong>
+    <strong>CHAPTER 7 연관 컨테이너</strong>
   supp:
   readings: >
-    Accelerated C++, <strong>7장 pp. 202-222</strong><br>
-    Accelerated C++, <strong>8장 pp. 225-248</strong><br>
-    Accelerated C++, <strong>9장 pp. 251-271</strong>
-  hw:
-  slides:
-  img:
-  logistics:
+    Accelerated C++, <strong>7장 pp. 202-222</strong>
+  hw: "https://classroom.github.com/a/m6zmgryi"
+  slides: "https://docs.google.com/presentation/d/14nJYzlsUWj-USRDSbSXlShhtWvC9GVX-UNhY-2Sqo2s/edit?usp=sharing"
+  img: 2024/hb-cpp/9-cpp-a-containers.jpg
+  logistics: 
 
 - date: 5/10
   week: 10
   title: >
-    <strong>CHAPTER 10 메모리 관리 및 저수준 데이터 구조</strong>
+    <strong>CHAPTER 8 제네릭 함수</strong><br>
+    <strong>CHAPTER 9 새로운 타입 정의</strong>
   supp:
-  readings: Accelerated C++, <strong>10장 pp. 274-299</strong>
+  readings: >
+    Accelerated C++, <strong>8장 pp. 225-248</strong>
+    Accelerated C++, <strong>9장 pp. 251-271</strong><br>
   hw:
   slides:
   img:
-  logistics:
+  logistics: >
+    최종 프로젝트 시작 코드
 
 - date: 5/17
   week: 11
   title: >
+    <strong>CHAPTER 10 메모리 관리 및 저수준 데이터 구조</strong><br>
     <strong>CHAPTER 11 추상 데이터 타입</strong>
   supp:
-  readings: Accelerated C++, <strong>11장 pp. 302-335</strong>
+  readings: > 
+    Accelerated C++, <strong>10장 pp. 274-299</strong><br>
+    Accelerated C++, <strong>11장 pp. 302-335</strong>
   hw:
   slides:
   img:
