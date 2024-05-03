@@ -82,8 +82,11 @@
 - date: 4/26
   week: 8
   title: >
-    <strong>Midterm Test</strong><br>
-    [<a href="https://forms.gle/UtjJP1fyjf4471DP8">퀴즈 링크</a>] [<a href="https://classroom.github.com/a/c1JDVzy_">실기 시험</a>]
+    <strong>Midterm Test</strong>
+    <div style="display: none">
+      <br>
+      [<a href="https://forms.gle/UtjJP1fyjf4471DP8">퀴즈 링크</a>] [<a href="https://classroom.github.com/a/c1JDVzy_">실기 시험</a>]
+    </div>
 
 - date: 5/3
   week: 9
