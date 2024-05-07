@@ -123,8 +123,8 @@
   supp:
   readings:
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/11wGPi8gV4S9hb8EF9BBbvX25RHDohUp0QPyvst85JVA/edit?usp=sharing"
+  img: 2024/dju-unix/10-unix-internet.jpg
   logistics:
 
 - date: 5/14
