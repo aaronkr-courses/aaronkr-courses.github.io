@@ -106,9 +106,9 @@
     <strong>Chapter 11 예외 처리</strong>
   supp:
   readings: p. 446-479
-  hw:
-  slides:
-  img:
+  hw: "https://classroom.github.com/a/8PEB7cfr"
+  slides: "https://docs.google.com/presentation/d/1qEyUrHs7hKNs4Gn2St9CUNzxk2F-an-thqelgMkZCRk/edit?usp=sharing"
+  img: 2024/dju-java/10-java-exceptions.jpg
   logistics:
 
 - date: 5/14
