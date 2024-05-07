@@ -106,7 +106,7 @@
     - Lesson 14. Mongoose를 사용한 모델 제작 / Building models with Mongoose<br>
     - Lesson 15. 컨트롤러와 모델과의 연결 / Connecting controllers and models<br>
     - Lesson 16. 캡스톤: 사용자 구독 저장 / Capstone: Saving user subscriptions
-  slides: "https://docs.google.com/presentation/d/1nQ9S0eJkDxUubjYuhfDyA1j6DHjCgPsr8s00Q-Q3E14/edit?usp=drivesdk"
+  slides: "https://docs.google.com/presentation/d/1nQ9S0eJkDxUubjYuhfDyA1j6DHjCgPsr8s00Q-Q3E14/edit?usp=sharing"
   readings: Get Programming with Node, <strong>4장 pp. 237-286</strong>
   logistics:
   img: 2024/ut-node/9-node-mongodb.jpg
@@ -114,6 +114,24 @@
   hw2: "https://classroom.github.com/a/crAoyCF_"
 
 - date: 5/8
+  week: 10
+  title: >
+    <strong>Unit 3. 데이터베이스 연결 / Connecting to a database</strong><br>
+    - Lesson 15. 컨트롤러와 모델과의 연결 / Connecting controllers and models<br>
+    - Lesson 16. 캡스톤: 사용자 구독 저장 / Capstone: Saving user subscriptions
+  slides: "https://docs.google.com/presentation/d/1HADbHsUjcF5qTmlddxPz9_pBFFAqmrdMsVqSU7Q8-0o/edit?usp=sharing"
+  readings: Get Programming with Node, <strong>4장 pp. 237-286</strong>
+  logistics:
+  img: 2024/ut-node/10-node-subscribers.jpg
+  hw1: ""
+  hw2: ""
+
+- date: 5/15
+  week: 11
+  title: >
+    <span style="color: red"><strong>No Class</strong> Buddha's Birthday</span>
+
+- date: 5/22
   week: 10
   title: >
     <strong>Unit 4. 사용자 모델 제작 / Building a User model</strong><br>
@@ -129,11 +147,6 @@
   logistics:
   img:
   hw:
-
-- date: 5/15
-  week: 11
-  title: >
-    <span style="color: red"><strong>No Class</strong> Buddha's Birthday</span>
 
 - date: 5/22
   week: 12
