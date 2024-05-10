@@ -109,11 +109,10 @@
   readings: >
     Accelerated C++, <strong>8장 pp. 225-248</strong>
     Accelerated C++, <strong>9장 pp. 251-271</strong><br>
-  hw:
-  slides:
-  img:
-  logistics: >
-    최종 프로젝트 시작 코드
+  hw: "https://classroom.github.com/a/wtUxbBnv"
+  slides: "https://docs.google.com/presentation/d/1egDE93iN5rWULPahVj_FBvEzsTaGglhQ6qZ-dD0MWug/edit?usp=sharing"
+  img: 2024/hb-cpp/10-cpp-generic-types.jpg
+  logistics: 
 
 - date: 5/17
   week: 11
@@ -127,7 +126,8 @@
   hw:
   slides:
   img:
-  logistics:
+  logistics: >
+    최종 프로젝트 시작 코드
 
 - date: 5/24
   week: 12
