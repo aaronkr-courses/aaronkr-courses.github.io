@@ -135,8 +135,8 @@
   supp:
   readings:
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1Gf48NOYRIlq4ksOR5qwd1-Yg0PkSBPzIuOAAjsPWt68/edit?usp=sharing"
+  img: 2024/dju-unix/11-unix-utilities.jpg
   logistics:
 
 - date: 5/21
