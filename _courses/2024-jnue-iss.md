@@ -47,6 +47,17 @@ Main-Text:
     code:
     notes:
     image: books/scratch-3.jpg
+
+Supplementary:
+  - text: "부교재"
+    author: "고광일 저"
+    title: >
+      <strong>난생처음 인공지능 with 스크래치 [2판]<strong> 
+    publisher: "한빛아카데미 | 2023년 10월 23일"
+    link: "https://www.yes24.com/Product/Goods/123146699"
+    code:
+    notes:
+    image: books/ai-with-scratch.jpg
 ---
 
 ## Schedule 강의일정
