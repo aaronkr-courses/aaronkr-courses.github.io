@@ -144,7 +144,7 @@
 - date: 5/13
   week: 11
   title: >
-    <strong>인공지능 with 스크래치<strong><br>
+    <strong>인공지능 with 스크래치</strong><br>
     - CHAPTER 01 인공지능 소개하<br>
     - CHAPTER 02 머신러닝 알아보기
   slides: "https://docs.google.com/presentation/d/1n6bIH-7E4OseeOvBbXgIShN77GqTZnlOfXBjvuvrrw8/edit?usp=sharing"
@@ -163,7 +163,7 @@
 - date: 5/20
   week: 12
   title: >
-    <strong>인공지능 with 스크래치<strong><br>
+    <strong>인공지능 with 스크래치</strong><br>
     - CHAPTER 03 인공신경망과 딥러닝 이해하기<br>
     - CHAPTER 04 챗GPT 이해하기
   slides2: "https://docs.google.com/presentation/d/1pnpH_07rxCEokS3BK7eMGhr_4RtlFb73NtGXgYQw8gM/edit?usp=sharing"
@@ -186,7 +186,7 @@
 - date: 5/27
   week: 13
   title: >
-    <strong>인공지능 with 스크래치<strong><br>
+    <strong>인공지능 with 스크래치</strong><br>
     - CHAPTER 09 ‘머신러닝 for 키즈’ 소개하기<br>
     - CHAPTER 10 이미지 분류 머신러닝 모델 활용하기
   slides2: "https://docs.google.com/presentation/d/1cw7-HMIphjlPsi7ikcr5MFIyUCQNtIbZvEBsa2c06HM/edit?usp=sharing"
@@ -205,7 +205,7 @@
 - date: 6/3
   week: 14
   title: >
-    <strong>인공지능 with 스크래치<strong><br>
+    <strong>인공지능 with 스크래치</strong><br>
     - CHAPTER 11 숫자 분류 머신러닝 모델 활용하기
   slides:
   readings:
@@ -221,7 +221,7 @@
     6/10 (보강)
   week: 15
   title: >
-    <strong>인공지능 with 스크래치<strong><br>
+    <strong>인공지능 with 스크래치</strong><br>
     - CHAPTER 12 소리 분류 머신러닝 모델 활용하기
   slides2: "https://docs.google.com/presentation/d/1Kbuy37cIawvOY5C-eK680eNWVLXziyg6FyppDjkzHf8/edit?usp=sharing"
   readings:
