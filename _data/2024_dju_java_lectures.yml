@@ -117,9 +117,9 @@
     <strong>Chapter 12 파일 입출력</strong>
   supp:
   readings: p. 480-525
-  hw:
-  slides:
-  img:
+  hw: "https://classroom.github.com/a/OiHODWlf"
+  slides: "https://docs.google.com/presentation/d/1gd9SuzyNVJDi_Rb0uRZyVe1AsJ5eS87mfJM8GUgLClM/edit?usp=sharing"
+  img: 2024/dju-java/11-java-files.jpg
   logistics:
 
 - date: 5/21
