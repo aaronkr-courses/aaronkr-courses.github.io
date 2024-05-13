@@ -139,7 +139,7 @@
   slides: 
   img: 
   logistics: >
-    보강<br>(6/10일 예정)
+    보강<br>(<span style="color: red;">6/10일 예정</span>)
     
 - date: 5/13
   week: 11
