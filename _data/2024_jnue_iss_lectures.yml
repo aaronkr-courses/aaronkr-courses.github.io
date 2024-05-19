@@ -164,33 +164,34 @@
   week: 12
   title: >
     <strong>인공지능 with 스크래치<br>
-    CHAPTER 03 인공신경망과 딥러닝 이해하기<br>
-    CHAPTER 04 챗GPT 이해하기</strong>
-  slides2: "https://docs.google.com/presentation/d/1pnpH_07rxCEokS3BK7eMGhr_4RtlFb73NtGXgYQw8gM/edit?usp=sharing"
+    CHAPTER 03 인공신경망과 딥러닝 이해하기</strong>
+  slides: "https://docs.google.com/presentation/d/1-a12HlkwBVzN6bQ7FCG55mFU2dBWnUKhLtZZcA6qUcw/edit?usp=sharing"
   readings:
     - 3.01 인공신경망이란 무엇인가요?
     - 3.02 인공뉴런 퍼셉트론에 대해 알아봅시다
     - 3.03 다층 퍼셉트론에 대해 살펴봅시다
     - 3.04 딥러닝에 대해서도 간단히 알아볼까요?
     - 3.05 딥러닝의 대표주자인 CNN을 소개합니다
-    - 4.01 챗GPT 탄생과 발전의 주역들에 대해 알아봅니다
-    - 4.02 챗GPT란 무엇인가요?
-    - 4.03 트랜스포머를 소개합니다
-    - 4.04 챗GPT는 어디에 활용될까요?
-    - 4.05 챗GPT를 경험해 봅시다
   supp:
   hw:
-  img:
-  logistics:
+  img: 2024/jnue-iss/12-iss-deep-learning.jpg
+  logistics: >
+    <a href="https://docs.google.com/presentation/d/13TdMQplzoouUF00Mx8QDtoFawGtNxmAm1WwMcpzuNMI/edit?usp=sharing">보충 CNN 슬라이드</a>
 
 - date: 5/27
   week: 13
   title: >
     <strong>인공지능 with 스크래치<br>
+    CHAPTER 04 챗GPT 이해하기<br>
     CHAPTER 09 ‘머신러닝 for 키즈’ 소개하기<br>
     CHAPTER 10 이미지 분류 머신러닝 모델 활용하기</strong>
   slides2: "https://docs.google.com/presentation/d/1cw7-HMIphjlPsi7ikcr5MFIyUCQNtIbZvEBsa2c06HM/edit?usp=sharing"
   readings:
+    - 4.01 챗GPT 탄생과 발전의 주역들에 대해 알아봅니다
+    - 4.02 챗GPT란 무엇인가요?
+    - 4.03 트랜스포머를 소개합니다
+    - 4.04 챗GPT는 어디에 활용될까요?
+    - 4.05 챗GPT를 경험해 봅시다
     - 9.01 ‘머신러닝 for 키즈’에 대해 알아봅시다
     - 9.02 ‘머신러닝 for 키즈’ 실습 환경을 만들어 봅시다
     - 9.03 ‘머신러닝 for 키즈’의 간단한 실습을 진행합니다
