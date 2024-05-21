@@ -132,7 +132,7 @@
     <span style="color: red"><strong>No Class</strong> Buddha's Birthday</span>
 
 - date: 5/22
-  week: 10
+  week: 12
   title: >
     <strong>Unit 4. 사용자 모델 제작 / Building a User model</strong><br>
     - Lesson 17. 데이터 모델의 개선 / Improving your data models<br>
@@ -140,13 +140,14 @@
     - Lesson 19. 모델의 생성과 읽기 / Creating and reading your models
     - Lesson 20. 모델의 업데이트와 삭제 / Updating and deleting your models<br>
     - Lesson 21. 캡스톤 프로젝트: Confetti Cusine에 CRUD 모델 추가 / Capstone: Adding CRUD models to Confetti Cuisine
-  slides:
+  slides: "https://docs.google.com/presentation/d/1mxBwx5XaqK8LbmY7Uz5K3pP4X60jl-nVQIUSmOYC3IQ/edit?usp=sharing"
   readings: >
     Get Programming with Node, <strong>4장 pp. 289-320</strong><br>
     중간고사 가이드
   logistics:
-  img:
-  hw:
+  img: 2024/ut-node/12-crud-operations.jpg
+  hw1: "https://classroom.github.com/a/vu6GfvGY"
+  hw2: "https://classroom.github.com/a/pWYFBDa1"
 
 - date: 5/22
   week: 12
