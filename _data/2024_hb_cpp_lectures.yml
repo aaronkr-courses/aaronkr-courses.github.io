@@ -132,9 +132,9 @@
     <strong>CHAPTER 11 추상 데이터 타입</strong>
   supp:
   readings: Accelerated C++, <strong>11장 pp. 302-335</strong>
-  hw:
-  slides:
-  img:
+  hw: "https://classroom.github.com/a/793ZRDPm"
+  slides: "https://docs.google.com/presentation/d/1tAkFzr3ejmv6ERe6E6Ng2RB-kVtayFkTpWDlNKuCJP0/edit?usp=sharing"
+  img: 2024/hb-cpp/12-abstract-data-types.jpg
   logistics: >
     최종 프로젝트 시작 코드
 
