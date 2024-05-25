@@ -135,11 +135,20 @@
     5/6<span style="color: red;">*</span>
   week: 10
   title: >
-    <strong style="color: red;">No School</strong> Children's Day
-  slides: 
-  img: 
+    <strong style="color: red;">No School</strong> Children's Day<br>
+    <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강)</a><br>
+    <strong>인공지능 with 스크래치<br>
+    CHAPTER 04 챗GPT 이해하기<br></strong>
+  slides: "https://docs.google.com/presentation/d/1gdErZr0993npyWbxEVmI7Jb1JC07r24W1VjOMoNKlus/edit?usp=sharing"
+  img: 2024/jnue-iss/13-iss-chatgpt.jpg
+  readings:
+    - 4.01 챗GPT 탄생과 발전의 주역들에 대해 알아봅니다
+    - 4.02 챗GPT란 무엇인가요?
+    - 4.03 트랜스포머를 소개합니다
+    - 4.04 챗GPT는 어디에 활용될까요?
+    - 4.05 챗GPT를 경험해 봅시다
   logistics: >
-    보강<br>(<span style="color: red;">6/10일 예정</span>)
+    <a style="color: red;" href="https://lms.jnue.kr">LMS 동영상 (6.9일까지)</a>
     
 - date: 5/13
   week: 11
@@ -177,21 +186,15 @@
   img: 2024/jnue-iss/12-iss-deep-learning.jpg
   logistics: >
     <a href="https://docs.google.com/presentation/d/13TdMQplzoouUF00Mx8QDtoFawGtNxmAm1WwMcpzuNMI/edit?usp=sharing">보충 CNN 슬라이드</a>
-
+    
 - date: 5/27
   week: 13
   title: >
     <strong>인공지능 with 스크래치<br>
-    CHAPTER 04 챗GPT 이해하기<br>
     CHAPTER 09 ‘머신러닝 for 키즈’ 소개하기<br>
     CHAPTER 10 이미지 분류 머신러닝 모델 활용하기</strong>
   slides2: "https://docs.google.com/presentation/d/1cw7-HMIphjlPsi7ikcr5MFIyUCQNtIbZvEBsa2c06HM/edit?usp=sharing"
   readings:
-    - 4.01 챗GPT 탄생과 발전의 주역들에 대해 알아봅니다
-    - 4.02 챗GPT란 무엇인가요?
-    - 4.03 트랜스포머를 소개합니다
-    - 4.04 챗GPT는 어디에 활용될까요?
-    - 4.05 챗GPT를 경험해 봅시다
     - 9.01 ‘머신러닝 for 키즈’에 대해 알아봅시다
     - 9.02 ‘머신러닝 for 키즈’ 실습 환경을 만들어 봅시다
     - 9.03 ‘머신러닝 for 키즈’의 간단한 실습을 진행합니다
@@ -207,25 +210,13 @@
   week: 14
   title: >
     <strong>인공지능 with 스크래치<br>
-    CHAPTER 11 숫자 분류 머신러닝 모델 활용하기</strong>
+    CHAPTER 11 숫자 분류 머신러닝 모델 활용하기<br>
+    CHAPTER 12 소리 분류 머신러닝 모델 활용하기</strong>
   slides:
   readings:
     - 11.01 숫자 분류 머신러닝 모델을 만들어 봅시다
     - 11.02 숫자 분류 머신러닝 모델을 활용하여 프로그래밍해 볼까요?
     - 11.03 스크래치 프로그램 내에서 머신러닝 모델을 학습시켜 봅시다
-  supp:
-  hw:
-  img:
-  logistics:
-
-- date: >
-    6/10 (보강)
-  week: 15
-  title: >
-    <strong>인공지능 with 스크래치<br>
-    CHAPTER 12 소리 분류 머신러닝 모델 활용하기</strong>
-  slides2: "https://docs.google.com/presentation/d/1Kbuy37cIawvOY5C-eK680eNWVLXziyg6FyppDjkzHf8/edit?usp=sharing"
-  readings:
     - 12.01 소리 분류 머신러닝 모델을 만들어 봅시다
     - 12.02 소리 분류 머신러닝 모델을 활용하여 프로그래밍해 볼까요?
     - 12.03 스크래치 프로그램 내에서 머신러닝 모델을 학습시켜 봅시다
@@ -234,8 +225,8 @@
   img:
   logistics:
 
-- date: 6/17
-  week: 16
+- date: 6/10
+  week: 15
   title: >
     <strong>Final Test</strong>
   slides2: "https://docs.google.com/presentation/d/1oEJRQ7LDb_VcjHc0652LIITJ4Wq-tZn8C9yjbmoOiao/edit?usp=sharing"
