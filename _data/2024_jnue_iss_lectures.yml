@@ -193,7 +193,7 @@
     <strong>인공지능 with 스크래치<br>
     CHAPTER 09 ‘머신러닝 for 키즈’ 소개하기<br>
     CHAPTER 10 이미지 분류 머신러닝 모델 활용하기</strong>
-  slides2: "https://docs.google.com/presentation/d/1cw7-HMIphjlPsi7ikcr5MFIyUCQNtIbZvEBsa2c06HM/edit?usp=sharing"
+  slides: "https://docs.google.com/presentation/d/1N7JuGGHFn6up5oChJ_--TeA0YUCNzrwQNA1ETm2r1bI/edit?usp=sharing"
   readings:
     - 9.01 ‘머신러닝 for 키즈’에 대해 알아봅시다
     - 9.02 ‘머신러닝 for 키즈’ 실습 환경을 만들어 봅시다
@@ -202,8 +202,8 @@
     - 10.02 이미지 분류 머신러닝 모델을 활용하여 프로그래밍해 볼까요?
     - 10.03 스크래치 프로그램 내에서 머신러닝 모델을 학습시켜 봅시다
   supp:
-  hw:
-  img:
+  hw: "https://forms.gle/XMxY4EVhrLQc9LDv6"
+  img: 2024/jnue-iss/13-ml-for-kids.jpg
   logistics:
 
 - date: 6/3
