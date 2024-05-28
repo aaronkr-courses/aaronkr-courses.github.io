@@ -161,8 +161,8 @@
   supp:
   readings:
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1BUXGDmlz_wkTiPdSqfpXRAWl1kD7foKSeMxhZwArz14/edit?usp=sharing"
+  img: 2024/dju-unix/13-unix-shell-scripting.jpg
   logistics:
 
 - date: 6/4
