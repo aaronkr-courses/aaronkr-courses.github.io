@@ -137,20 +137,35 @@
     <strong>Unit 4. 사용자 모델 제작 / Building a User model</strong><br>
     - Lesson 17. 데이터 모델의 개선 / Improving your data models<br>
     - Lesson 18. 사용자 모델의 구현 / Building the user model<br>
-    - Lesson 19. 모델의 생성과 읽기 / Creating and reading your models
-    - Lesson 20. 모델의 업데이트와 삭제 / Updating and deleting your models<br>
-    - Lesson 21. 캡스톤 프로젝트: Confetti Cusine에 CRUD 모델 추가 / Capstone: Adding CRUD models to Confetti Cuisine
   slides: "https://docs.google.com/presentation/d/1mxBwx5XaqK8LbmY7Uz5K3pP4X60jl-nVQIUSmOYC3IQ/edit?usp=sharing"
-  readings: >
-    Get Programming with Node, <strong>4장 pp. 289-320</strong><br>
-    중간고사 가이드
+  readings: Get Programming with Node, <strong>4장 pp. 289-320</strong>
   logistics:
   img: 2024/ut-node/12-crud-operations.jpg
   hw1: "https://classroom.github.com/a/vu6GfvGY"
   hw2: "https://classroom.github.com/a/pWYFBDa1"
 
-- date: 5/22
-  week: 12
+- date: 5/29
+  week: 13
+  title: >
+    <strong>Unit 4. 사용자 모델 제작 / Building a User model</strong><br>
+    - Lesson 19. 모델의 생성과 읽기 / Creating and reading your models
+    - Lesson 20. 모델의 업데이트와 삭제 / Updating and deleting your models<br>
+    - Lesson 21. 캡스톤 프로젝트: Confetti Cusine에 CRUD 모델 추가 / Capstone: Adding CRUD models to Confetti Cuisine
+  slides: "https://docs.google.com/presentation/d/1-sJux9vT-atzqdPRPIr5yAXHdAWMa4JlL_chu8BO4nU/edit?usp=drivesdk"
+  readings: Get Programming with Node, <strong>4장 pp. 289-320</strong>
+  logistics:
+  img: 2024/ut-node/13-adding-crud.jpg
+  hw1: "https://classroom.github.com/a/3GuLx0wJ"
+  hw2: "https://classroom.github.com/a/Vo0H5yHd"
+
+- date: 6/5
+  week: 14
+  title: >
+    <span style="color: red"><strong>No Class</strong> School Birthday!</span>
+
+- date: >
+    6/11 (LMS)
+  week: 보강
   title: >
     <strong>Unit 5. 사용자 계정 인증 / Authenticating User accounts</strong><br>
     - Lesson 22. 세션과 플래시 메시지의 추가 / Adding sessions and flash messages<br>
@@ -162,8 +177,9 @@
   img:
   hw:
 
-- date: 5/29
-  week: 13
+- date: >
+    6/12 (대면 보강)
+  week: 보강
   title: >
     <strong>Unit 6. API 빌드 / Building an API</strong><br>
     - Lesson 26. 애플리케이션에 API 추가 / Adding an API to your application<br>
@@ -176,14 +192,9 @@
   img:
   hw:
 
-- date: 6/5
-  week: 14
-  title: >
-    <span style="color: red"><strong>No Class</strong> Memorial Day</span>
-
 - date: >
-    6/11 (LMS)
-  week: 15
+    6/14 (LMS)
+  week: 보강
   title: >
     <strong>Unit 7. 채팅 기능 추가 / Adding Chat functionality</strong><br>
     - Lesson 30. socket.io로의 작업 / Working with Socket.io<br>
@@ -197,7 +208,7 @@
   hw:
 
 - date: >
-    6/12 (대면 보강)
+    추가
   week: 16
   title: >
     <strong>Unit 8. 프로덕션에서의 코드 배포와 관리 / Deploying and managing code in production</strong><br>
@@ -212,7 +223,7 @@
   hw:
 
 - date: >
-    6/14 (LMS)
+    추가
   week: 17
   title: >
     <strong>Appendix A. ES6에서 소개하는 JavaScript 문법 / JavaScript syntax introduced in ES6</strong><br>
