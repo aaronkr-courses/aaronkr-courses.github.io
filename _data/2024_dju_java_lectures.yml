@@ -139,9 +139,9 @@
     <strong>Chapter 14 사용자 인터페이스 I</strong>
   supp:
   readings: p. 596-667
-  hw:
-  slides:
-  img:
+  hw: "https://classroom.github.com/a/0CabuQ7b"
+  slides: "https://docs.google.com/presentation/d/1eTfCD6v17xcapJSFVpIhUJSoWXcplFTkKv36B-gPE0k/edit?usp=sharing"
+  img: 2024/dju-java/13-java-gui-i.jpg
   logistics:
 
 - date: 6/4
