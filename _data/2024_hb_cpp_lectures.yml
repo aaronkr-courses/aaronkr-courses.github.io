@@ -144,9 +144,9 @@
     <strong>CHAPTER 12 값처럼 동작하는 클래스 객체</strong>
   supp:
   readings: Accelerated C++, <strong>12장 pp. 338-359</strong>
-  hw:
-  slides:
-  img:
+  hw: "https://classroom.github.com/a/KdNhX6QH"
+  slides: "https://docs.google.com/presentation/d/1agx1Hkdt1ecjLmknyvLBxCXkNdd4JSudyRn8ZwJiaZ0/edit?usp=sharing"
+  img: 2024/hb-cpp/13-cpp-str-class.jpg
   logistics:
 
 - date: 6/7
