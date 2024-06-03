@@ -206,8 +206,8 @@
   week: 14
   title: >
     <strong>인공지능 with 스크래치<br>
-    CHAPTER 11 숫자 분류 머신러닝 모델 활용하기<br>
-    CHAPTER 10 이미지 분류 머신러닝 모델 활용하기</strong>
+    CHAPTER 10 이미지 분류 머신러닝 모델 활용하기<br>
+    CHAPTER 11 숫자 분류 머신러닝 모델 활용하기</strong>
   slides: "https://docs.google.com/presentation/d/1GeMX-cxtmWqt8GW8CNdGJvr6Kwx7Dy6lIXHOR0Y6ugo/edit?usp=sharing"
   readings:
     - 10.01 이미지 분류 머신러닝 모델을 만들어 봅시다
