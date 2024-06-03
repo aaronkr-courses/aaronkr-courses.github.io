@@ -150,9 +150,9 @@
     <strong>Chapter 15 사용자 인터페이스 II</strong>
   supp:
   readings: p. 668-729
-  hw:
-  slides:
-  img:
+  hw: "https://classroom.github.com/a/ud9T4XK6"
+  slides: "https://docs.google.com/presentation/d/1zxUk6soNGRGuCfvFQeBarJ0rBSYTLmyj3O7OsccJ-Hs/edit?usp=sharing"
+  img: 2024/dju-java/14-java-gui-ii.jpg
   logistics:
 
 - date: 6/11
