@@ -155,9 +155,9 @@
     <strong>CHAPTER 13 상속과 동적 바인딩</strong>
   supp:
   readings: Accelerated C++, <strong>13장 pp. 362-398</strong>
-  hw:
-  slides:
-  img:
+  hw: "https://classroom.github.com/a/qOTUdkdE"
+  slides: "https://docs.google.com/presentation/d/1XCW6qO1fw3NzdvseNX52TJkVauafmsmcYTeNdoIl_WI/edit?usp=sharing"
+  img: 2024/hb-cpp/14-inheritance.jpg
   logistics:
 
 - date: 6/14
