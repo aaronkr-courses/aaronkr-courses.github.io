@@ -230,4 +230,13 @@
   img:
   hw:
   logistics: >
-    기말고사
+    기말고사<br>
+    <div style="display:none;">
+      <a href="https://forms.gle/hZKoXLV2sndhjBp77">과학 퀴즈</a> | 
+      <a href="https://docs.google.com/presentation/d/1js8CSULHE2YMAa8prL8142C95p70n_0WmxNWkwWf2Js/edit?usp=sharing">과학 실기</a><br>
+      <a href="https://forms.gle/GTyujyr7zp7CdhRY8">윤리 퀴즈</a> | 
+      <a href="https://docs.google.com/presentation/d/1ccesdTi6619PwuOA91Xp_KULFSGeYuX8Q1dZ07rbh0M/edit?usp=sharing">윤리 실기</a><br>
+      <a href="https://forms.gle/FbDtvYTWKMLUSGPJA">수학 퀴즈</a> | 
+      <a href="https://docs.google.com/presentation/d/1_EbCKWjKtpNvuuufeU8nMm01wc0E2I3GpjNrDHY949U/edit?usp=sharing">수학 실기</a><br>
+    </div>
+    <a href="https://forms.gle/yfd2Ds8JWJjayG5Z6" style="display:none;">실기 파일 업로드</a>
