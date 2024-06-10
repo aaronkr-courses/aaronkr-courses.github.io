@@ -164,21 +164,22 @@
     <span style="color: red"><strong>No Class</strong> School Birthday!</span>
 
 - date: >
-    6/11 (LMS)
+    6/12 (대면 보강)
   week: 보강
   title: >
     <strong>Unit 5. 사용자 계정 인증 / Authenticating User accounts</strong><br>
     - Lesson 22. 세션과 플래시 메시지의 추가 / Adding sessions and flash messages<br>
     - Lesson 23. 사용자 로그인 폼 생성과 패스워드 해시 / Building a user login and hashing passwords<br>
     - Lesson 24. 사용자 인증 추가 / Adding user authentication
-  slides:
+  slides: "https://docs.google.com/presentation/d/1g6Ck7VXLIXbyWpdhTv8mS8WGIO-vaE1uc7PiMWUfj0I/edit?usp=sharing"
   readings: Get Programming with Node, <strong>5장 pp. 321-374</strong>
   logistics:
-  img:
-  hw:
+  img: 2024/ut-node/14-node-user-auth.jpg
+  hw1:
+  hw2:
 
 - date: >
-    6/12 (대면 보강)
+    6/11 (LMS)
   week: 보강
   title: >
     <strong>Unit 6. API 빌드 / Building an API</strong><br>
@@ -186,11 +187,12 @@
     - Lesson 27. 애플리케이션에서 API 액세스 / Accessing your API from your application<br>
     - Lesson 28. API 보안 / Adding API security<br>
     - Lesson 29. 캡스톤 프로젝트: API 구현 / Capstone: Implementing an API
-  slides:
+  slides: "https://docs.google.com/presentation/d/185p4mldFRbJ3QhmpilNXfIjIxf79wUy--em0RQziuDs/edit?usp=sharing"
   readings: Get Programming with Node, <strong>6장 pp. 375-433</strong>
   logistics:
-  img:
-  hw:
+  img: 2024/ut-node/15-node-api-build.jpg
+  hw1:
+  hw2: 
 
 - date: >
     6/14 (LMS)
