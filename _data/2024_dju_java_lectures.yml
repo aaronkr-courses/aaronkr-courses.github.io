@@ -154,20 +154,13 @@
   slides: "https://docs.google.com/presentation/d/1zxUk6soNGRGuCfvFQeBarJ0rBSYTLmyj3O7OsccJ-Hs/edit?usp=sharing"
   img: 2024/dju-java/14-java-gui-ii.jpg
   logistics:
-
-- date: 6/11
-  week: 15
-  title: >
-    <strong>No School (보강 주)</strong>
-  slides:
-  img:
-  logistics:
     
 - date: 6/18
   week: 16
   title: >
-    <strong>Final Test</strong>
-  slides:
-  img:
-  logistics: >
-    기말고사
+    <strong>Final Test</strong><br>
+    <a href="https://docs.google.com/presentation/d/1nTyp8oIDqGmh2wFDEJjhiHu5laj-t19v5i6MW7ieupM/edit?usp=sharing">스터디 가이드</a>
+    <div style="display: none;"><br>
+      [<a href="">퀴즈</a>]
+      [<a href="">실기</a>]
+    </div>
