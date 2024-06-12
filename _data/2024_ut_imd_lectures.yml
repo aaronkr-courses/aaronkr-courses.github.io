@@ -160,11 +160,6 @@
   week: 14
   title: >
     <span style="color: red"><strong>No Class</strong> Memorial Day</span>
-  slides:
-  img:
-  readings:
-  hw:
-  logistics:
 
 - date: 6/13
   week: 15
@@ -176,8 +171,8 @@
     - 4. 내 몸속의 초소형 드론: 캡슐형 내시경 (이병훈)<br>
     - 5. 질병을 예방하는 똑똑한 시계 : 스마트 의료기기 (최성용)<br>
     - 6. 빛으로 풀어내는 인체의 비밀 : 광유전학 (이병훈)
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1pgICjtm9ZL1DQg3VrP9iwUTVUWjvMm31b6OOyaIWVkU/edit?usp=sharing"
+  img: 2024/ut-imd/14-med-evo.jpg
   readings: >
     기말고사 가이드
   hw:
@@ -187,12 +182,4 @@
   week: 16
   title: >
     <strong>Final Test</strong>
-  img:
-  logistics: >
-    퀴즈 링크<br>
-    실기 시험
 
-- date: 6/27
-  week: 17
-  title: >
-    <strong>Final Grades</strong>
