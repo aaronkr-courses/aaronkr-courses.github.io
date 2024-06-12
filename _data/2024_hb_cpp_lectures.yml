@@ -164,27 +164,4 @@
   week: 15
   title: >
     <strong>Final Test</strong><br>
-    [퀴즈 링크] [실기 시험]
-
-- date: 6/21
-  week: 16
-  title: >
-    <strong>CHAPTER 14 메모리 관리 자동화</strong>
-    <strong>CHAPTER 15 문자 그림 다시 살펴보기</strong><br>
-    <strong>CHAPTER 16 앞으로 나아갈 방향</strong><br>
-    <strong>APPENDIX A C++ 세부 사항</strong><br>
-    <strong>APPENDIX B 라이브러리 요약</strong>
-  supp:
-  readings: >
-    Accelerated C++, <strong>14장 pp. 402-424</strong><br>
-    Accelerated C++, <strong>15-16장 pp. 426-461</strong><br>
-    기말고사 가이드
-  hw:
-  slides:
-  img:
-  logistics:
-
-- date: 6/28
-  week: 17
-  title: >
-    <strong>Final Grades</strong>
+    [<a href="https://docs.google.com/presentation/d/1cEgIlQsl61Sxtt3SwvVC6EYX7KRns_MFPk83HbcGiQs/edit?usp=sharing">스터디 가이드</a>]
