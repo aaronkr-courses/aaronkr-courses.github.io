@@ -207,8 +207,8 @@
   readings: Get Programming with Node, <strong>7장 pp. 435-479</strong>
   logistics:
   img: 2024/ut-node/16-node-chatting.jpg
-  hw1:
-  hw2:
+  hw1: "https://classroom.github.com/a/soE4SSKd"
+  hw2: "https://classroom.github.com/a/ENNgJsBI"
 
 - date: 6/19
   week: 18
