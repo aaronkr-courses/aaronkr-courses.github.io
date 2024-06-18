@@ -182,13 +182,12 @@
   week: 16
   title: >
     <strong>Final Test</strong><br>
-    스터디 가이드: 
-    [
-      <a href="https://docs.google.com/presentation/d/17Hl2Buum7woglPRPuAliXZf9Oi1V8iqKSNSvTXwFuj0/edit?usp=sharing">PPT</a> | 
-      <a href="https://docs.google.com/document/d/1zJ2hoKXo74NULrKA0BHvVZ8ssWZb7wKBLSPDANi-mCw/edit?usp=sharing">DOC</a>
-    ]
-    <div style="display: none;">
-      <br>
-      [<a href="">퀴즈</a>]
-      [<a href="">실기</a>]
+    <div style="display:none;">
+      스터디 가이드: 
+      [
+        <a href="https://docs.google.com/presentation/d/17Hl2Buum7woglPRPuAliXZf9Oi1V8iqKSNSvTXwFuj0/edit?usp=sharing">PPT</a> | 
+        <a href="https://docs.google.com/document/d/1zJ2hoKXo74NULrKA0BHvVZ8ssWZb7wKBLSPDANi-mCw/edit?usp=sharing">DOC</a>
+      ]
     </div>
+    <a href="https://forms.gle/otCwUvvZEY2RQgA37">퀴즈</a> | <a href="https://forms.gle/P2kq7wVBGRKxU76h7">실기</a>
+    
