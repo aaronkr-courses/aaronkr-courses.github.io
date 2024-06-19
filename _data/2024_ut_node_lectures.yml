@@ -215,3 +215,10 @@
   title: >
     <strong>Final Test</strong><br>
     <a href="https://docs.google.com/presentation/d/1wPKgFOKqNjXLXB31zkUpLRtnKju_gfsMiBiHlLs2qr4/edit?usp=sharing">스터디 가이다</a>
+    <div style="display: none;">
+      <a href="https://forms.gle/8wJxUzwkiWBaHMHb6">오전 퀴즈</a>
+      <a href="https://classroom.github.com/a/LDXST20N">오전 실기</a>
+      <br>
+      <a href="https://forms.gle/8eGgjJpRR8ZaHsce6">오후 퀴즈</a>
+      <a href="https://classroom.github.com/a/Todgmdva">오후 실기</a>
+    </div>
