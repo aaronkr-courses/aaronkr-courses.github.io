@@ -6,7 +6,7 @@ description: 009832 • 2024년 2학기 • 대전대학교
 logo: dju-logo-2.png
 img: assets/img/books/jsp-web.jpg
 importance: 3
-category: 2024
+category: 2024-2
 
 ---
 

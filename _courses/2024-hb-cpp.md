@@ -6,7 +6,7 @@ description: INFO2118 • 2024년 1학기 • 한밭대학교
 logo: hanbat-logo.png
 img: assets/img/books/cpp-fast.jpg
 importance: 6
-category: 2024
+category: 2024-1
 
 toc:
   - name: Schedule 강의일정
