@@ -8,8 +8,6 @@ img: assets/img/books/sql-nosql.jpg
 importance: 2
 category: 2024-2
 
----
-
 toc:
   - name: Schedule 강의일정
   - name: Overview 개요

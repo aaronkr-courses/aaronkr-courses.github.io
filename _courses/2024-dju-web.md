@@ -8,8 +8,6 @@ img: assets/img/books/jsp-web.jpg
 importance: 3
 category: 2024-2
 
----
-
 toc:
   - name: Schedule 강의일정
   - name: Overview 개요

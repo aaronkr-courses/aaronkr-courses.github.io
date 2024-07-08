@@ -6,7 +6,7 @@ description: 2023년 방학 • 충북에 있는 고등학교
 logo: ut-logo.png
 img:
 importance: 20233
-category: 2023
+category: Special
 
 redirect: https://2023-aaronkr.github.io/python-crash-course/
 ---
