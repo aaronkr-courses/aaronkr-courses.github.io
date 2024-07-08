@@ -21,7 +21,7 @@
 {% assign skip_classes = 0 %}
 {% assign prev_date = 0 %}
 
-{% for item in site.data.2022_iksan_gg_lectures %}
+{% for item in site.data.2021_iksan_gg_lectures %}
 {% if item.date %}
 {% assign lecture = item %}
 {% assign event_type = "upcoming" %}

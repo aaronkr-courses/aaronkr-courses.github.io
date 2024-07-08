@@ -1,4 +1,4 @@
-- date:
+- date: 8/2
   week: 1
   title: >
     <strong>과정 소개<br>
@@ -8,10 +8,10 @@
   readings: p. 6-23
   hw:
   slides: "https://docs.google.com/presentation/d/19ofSOtwqTQJ52IWSgYV1b65DkNfLbvuwGC7LmSQ2YpU/edit?usp=sharing"
-  img: 2022/iksan-gg/python-1-2.jpg
+  img: 2021/iksan-gg/python-1-2.jpg
   logistics:
 
-- date:
+- date: 8/2
   week: 2
   title: >
     <strong>Chapter 03 파이썬 설치<br>
@@ -20,10 +20,10 @@
   readings: p. 25-43
   hw:
   slides: "https://docs.google.com/presentation/d/1T3DQ7LhJT0fe8LZEpUIAMboAkhrohzo2qC4O14UdS_w/edit?usp=sharing"
-  img: 2022/iksan-gg/python-3-4.jpg
+  img: 2021/iksan-gg/python-3-4.jpg
   logistics:
 
-- date: 
+- date: 8/2
   week: 3
   title: >
     <strong>Chapter 05 파이썬 기초</strong>
@@ -31,10 +31,10 @@
   readings: p. 55-79
   hw: 
   slides: "https://docs.google.com/presentation/d/1qDgmcKD9wFg0XgrWBFExXmSUARkF4DZnh4qOlIYfZs8/edit?usp=sharing"
-  img: 2022/iksan-gg/python-5.jpg
+  img: 2021/iksan-gg/python-5.jpg
   logistics:
 
-- date: 
+- date: 8/2
   week: 4
   title: >
     <strong>Chapter 06 파이썬 연산자와 수식</strong>
@@ -42,10 +42,10 @@
   readings: p. 81-91
   hw: 
   slides: "https://docs.google.com/presentation/d/1EJvgDVWP9ZhVbRuXJzOPNUko_u7rDt0q3cmzXTarOuY/edit?usp=sharing"
-  img: 2022/iksan-gg/python-6.jpg
+  img: 2021/iksan-gg/python-6.jpg
   logistics:
 
-- date: 
+- date: 8/3
   week: 5
   title: >
     <strong>Chapter 07 흐름 제어</strong>
@@ -53,10 +53,10 @@
   readings: p. 93-109
   hw: 
   slides: "https://docs.google.com/presentation/d/1cNJ0hdrF1V2_ylI8IP5WXWOANRVWw9ozxHyRYufoS5Q/edit?usp=sharing"
-  img: 2022/iksan-gg/python-7.jpg
+  img: 2021/iksan-gg/python-7.jpg
   logistics:
 
-- date: 
+- date: 8/3
   week: 6
   title: >
     <strong>Chapter 08 함수</strong>
@@ -64,10 +64,10 @@
   readings: p. 111-131
   hw:
   slides: "https://docs.google.com/presentation/d/1QAau5-IUCczW1952-H2A-U9TY6NgzSFFAjSw32bGKcU/edit?usp=sharing"
-  img: 2022/iksan-gg/python-8.jpg
+  img: 2021/iksan-gg/python-8.jpg
   logistics:
 
-- date: 
+- date: 8/3
   week: 7
   title: >
     <strong>Chapter 09 모듈</strong>
@@ -75,10 +75,10 @@
   readings: p. 133-147
   hw: 
   slides: "https://docs.google.com/presentation/d/1WIyWMsbuUL3i6ETD82_2xhDwXnNXYgvOI2JkYnHn6oo/edit?usp=sharing"
-  img: 2022/iksan-gg/python-9.jpg
+  img: 2021/iksan-gg/python-9.jpg
   logistics:
 
-- date: 
+- date: 8/4
   week: 8
   title: >
     <strong>Chapter 10 자료 구조</strong>
@@ -86,10 +86,10 @@
   readings: p. 149-175
   hw: 
   slides: "https://docs.google.com/presentation/d/1ZoduVXZiVKODl6wBQF75diXJlhbPj_88b4MaSwdl7Js/edit?usp=sharing"
-  img: 2022/iksan-gg/python-10.jpg
+  img: 2021/iksan-gg/python-10.jpg
   logistics:
 
-- date: 
+- date: 8/4
   week: 9
   title: >
     <strong>Chapter 11 실생활 문제 해결</strong>
@@ -97,10 +97,10 @@
   readings: p. 177-201
   hw: 
   slides: "https://docs.google.com/presentation/d/1Hy4zH8fc1ZhSqgX--EFwLCDW9FiCyF8UCBJ-s96ir5E/edit?usp=sharing"
-  img: 2022/iksan-gg/python-11.jpg
+  img: 2021/iksan-gg/python-11.jpg
   logistics:
 
-- date: 
+- date: 8/5
   week: 10
   title: >
     <strong>Chapter 12 객체 지향 프로그래밍</strong>
@@ -108,10 +108,10 @@
   readings: p. 203-225
   hw: 
   slides: "https://docs.google.com/presentation/d/1GJbOQmLzLTvBBnDwsgljrSit2qMJVxCJJL-3nlJeD7A/edit?usp=sharing"
-  img: 2022/iksan-gg/python-12.jpg
+  img: 2021/iksan-gg/python-12.jpg
   logistics:
 
-- date: 
+- date: 8/6
   week: 11
   title: >
     <strong>Chapter 13 입력과 출력</strong>
@@ -119,10 +119,10 @@
   readings: p. 227-239
   hw: 
   slides: "https://docs.google.com/presentation/d/183tnhnfB6PhwwXdiY5_yl0YnawZT1sD2Im6a7NuzKFQ/edit?usp=sharing"
-  img: 2022/iksan-gg/python-13.jpg
+  img: 2021/iksan-gg/python-13.jpg
   logistics:
 
-- date: 
+- date: 8/6
   week: 12
   title: >
     <strong>Chapter 14 예외 처리</strong>
@@ -130,10 +130,10 @@
   readings: p. 241-251
   hw: 
   slides: "https://docs.google.com/presentation/d/1XgLoJl2ncriijHbInKB3qZI51yIsmO7q814qKA741OE/edit?usp=sharing"
-  img: 2022/iksan-gg/python-14.jpg
+  img: 2021/iksan-gg/python-14.jpg
   logistics:
 
-- date:
+- date: 8/6
   week: 13
   title: >
     <strong>Chapter 15 표준 라이브러리</strong>
@@ -141,10 +141,10 @@
   readings: p. 253-259
   hw: 
   slides: "https://docs.google.com/presentation/d/1nHG3bo4Iyw5Ige41iq4_V1993p833AX35btYumqPWzE/edit?usp=sharing"
-  img: 2022/iksan-gg/python-15.jpg
+  img: 2021/iksan-gg/python-15.jpg
   logistics:
 
-- date: 
+- date: 8/6
   week: 14
   title: >
     <strong>Chapter 16 더 많은 것들</strong>
@@ -152,10 +152,10 @@
   readings: p. 261-273
   hw: 
   slides: "https://docs.google.com/presentation/d/1XN_m71ssbAHE1iAtZAtzd9oFmAT32hDpLETi3yncPdw/edit?usp=sharing"
-  img: 2022/iksan-gg/python-16.jpg
+  img: 2021/iksan-gg/python-16.jpg
   logistics:
     
-- date: 
+- date: 8/6
   week: 16
   title: >
     <strong>Chapter 17 다음은? (부록)</strong>
@@ -163,5 +163,5 @@
   readings: p. 275-307
   hw: 
   slides: "https://docs.google.com/presentation/d/1FfoIbxNSI-GFKUufNaoNP9uJCLQ0bPdBxBOFE_d8Ixw/edit?usp=sharing"
-  img: 2022/iksan-gg/python-17.jpg
+  img: 2021/iksan-gg/python-17.jpg
   logistics:

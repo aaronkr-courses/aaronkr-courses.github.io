@@ -2,7 +2,7 @@
 layout: distill
 title: Python Basic Course for Robotics Training
 subtitle: 파이썬기초과정 로봇특화교육
-description: 2022년 방학 • 국립전북기계공업고등학교
+description: 2021년 방학 • 국립전북기계공업고등학교
 logo: iksan-gg-logo.png
 img:
 importance: 3
