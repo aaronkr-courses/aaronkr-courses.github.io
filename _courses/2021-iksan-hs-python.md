@@ -12,21 +12,7 @@ toc:
   - name: Schedule 강의일정
   - name: Overview 개요
   - name: Textbook 교재
-    subsections:
-      # if a section has subsections, you can add them as follows:
-      # subsections:
-      #   - name: Example Child Subsection 1
-      #   - name: Example Child Subsection 2
-      - name: Grading 평가방법
-      - name: Assignments 과제
-      - name: Midterm 중간고사
-      - name: Final 기말고사
   - name: Instructor 강사소개
-
-information:
-  - section: 070137-1 (윤리)
-    time: 월 34 | Mon 11am-1pm
-    location: 전산교육실2
 
 Main-Text:
   - text: "주교재"

@@ -39,6 +39,7 @@
             "description": "{{ page.description }}",
             "published": "{{ page.date | date: '%B %-d, %Y' }}",
             "sections": [
+            {% if page.information -%}
               {% for section in page.information -%}
               {
                 "section": "{{ section.section }}",
@@ -47,6 +48,7 @@
                 "kakaotalk": "{{ section.kakaotalk }}"
               }{% if forloop.last == false %},{% endif %}
               {% endfor %}
+            {% endif %}
             ],
             "authors": [
               {% for author in page.authors -%}
