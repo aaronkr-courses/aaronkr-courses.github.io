@@ -156,7 +156,7 @@
   logistics:
     
 - date: 8/6
-  week: 16
+  week: 15
   title: >
     <strong>Chapter 17 다음은? (부록)</strong>
   supp:
@@ -165,3 +165,8 @@
   slides: "https://docs.google.com/presentation/d/1FfoIbxNSI-GFKUufNaoNP9uJCLQ0bPdBxBOFE_d8Ixw/edit?usp=sharing"
   img: 2021/iksan-gg/python-17.jpg
   logistics:
+
+- date: 8/6
+  week: 16
+  title: >
+    <strong>Final Project~</strong>
