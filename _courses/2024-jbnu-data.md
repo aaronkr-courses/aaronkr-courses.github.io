@@ -1,11 +1,11 @@
 ---
 layout: distill
-title: Java Web Hacking Security and Practice
-subtitle: 자바웹해킹보안 및 실습
-description: 009832 • 2024년 2학기 • 대전대학교
-logo: dju-logo-2.png
-img: assets/img/books/jsp-web.jpg
-importance: 5
+title: Data Structures
+subtitle: 데이터 구조
+description: INFO2104 • 2024년 2학기 • 전북대학교
+logo: jbnu-logo.png
+img: assets/img/books/data-structs.jpg
+importance: 2
 category: 2024-2
 
 toc:
@@ -27,37 +27,26 @@ toc:
   - name: Instructor 강사소개
 
 information:
-  - section: 009832
-    time: 화 6789	Tues | 2:00pm - 5:50pm
-    location: 융합과학환 408호
-    kakaotalk:
+  - section: INFO2104
+    time: 월요일 오후 2-4시 & 수요일 2-3시
+    location: 인문대학 2호관 글로벌프론티어칼리지 504호
+    kakaotalk: 
 
 Main-Text:
   - text: "주교재"
-    author: "송미영 저"
+    author: "Kubica, Jeremy"
     title: >
-      <strong>쉽게 배우는 JSP 웹 프로그래밍 [2판]</strong>
-    publisher: "한빛아카데미 | 2023년 12월 08일"
-    link: "https://www.yes24.com/Product/Goods/124095448"
+      <strong>Data Structures the Fun Way:</strong> An Amusing Adventure with Coffee-Filled Examples
+    publisher: " No Starch Press | 2022년 11월 08일"
+    link: "https://www.yes24.com/Product/Goods/108968858"
     code:
     notes:
-    image: books/jsp-web.jpg
-
-Supplementary:
-  - text: "부교재"
-    author: "성윤정, 김태은 저"
-    title: >
-      <strong>웹 개발자를 위한 웹 보안: 실제 해킹 공격에서 적용할 수 있는 웹 보안 가이드</strong>
-    publisher: "에이콘출판사 | 2022년 07월 22일"
-    link: "https://www.yes24.com/Product/Goods/110530471"
-    code:
-    notes:
-    image: books/sec-text.jpg
+    image: books/data-structs.jpg
 ---
 
 ## Schedule 강의일정
 
-{% include_relative 2024/hb-cpp/schedule.md %}
+{% include_relative 2024/jbnu-data/schedule.md %}
 
 <a class="btncv" href="#">Top</a>
 
@@ -65,15 +54,19 @@ Supplementary:
 
 ## Overview 개요
 
-<strong>단계별로 쇼핑몰을 구현하며 쉽게 배운다!</strong>
+<strong>Data Structures the Fun Way</strong> <a href="https://nostarch.com/data-structures-fun-way">No Starch Link</a>
 
-JSP의 이론적 개념 → 기본 실습 → 응용 실습 순의 단계별 학습이 가능합니다. 응용 실습이 합쳐져 최종적으로 북마켓 하나를 완성하도록 구성하여 본문에서 배운 내용이 어디에 어떻게 적용되는지 알 수 있습니다. 북마켓 프로젝트를 따라하다 보면 자연스럽게 JSP의 개념은 물론 실무에서 응용하여 적용할 수 있는 지식까지 습득할 수 있을 것입니다.
+This accessible and entertaining book provides an in-depth introduction to computational thinking through the lens of data structures — a critical component in any programming endeavor. Through diagrams, pseudocode, and humorous analogies, you’ll learn how the structure of data drives algorithmic operations, gaining insight into not just how to build data structures, but precisely how and when to use them.
 
-※ 본 도서는 대학 강의용 교재로 개발되었으므로 연습문제 해답은 제공하지 않습니다.
+This book will give you a strong background in implementing and working with more than 15 key data structures, from stacks, queues, and caches to bloom filters, skip lists, and graphs. Master linked lists by standing in line at a cafe, hash tables by cataloging the history of the summer Olympics, and Quadtrees by neatly organizing your kitchen cabinets. Along with basic computer science concepts like recursion and iteration, you’ll learn:
 
-You can learn step by step in the following order: theoretical concepts of JSP → basic practice → applied practice. The application exercises are combined to form a final bookmarket, allowing you to see where and how what you have learned in the text is applied. If you follow the Bookmarket project, you will naturally be able to acquire not only the concepts of JSP but also knowledge that can be applied in practice.
+* The complexity and power of pointers
+* The branching logic of tree-based data structures
+* How different data structures insert and delete data in memory
+* Why mathematical mappings and randomization are useful
+* How to make tradeoffs between speed, flexibility, and memory usage
 
-※ This book was developed as a textbook for university lectures, so it does not provide answers to practice questions.
+_Data Structures the Fun Way_ shows how to efficiently apply these ideas to real-world problems—a surprising number of which focus on procuring a decent cup of coffee. At any level, fully understanding data structures will teach you core skills that apply across multiple programming languages, taking your career to the next level.
 
 ## Textbook 교재
 

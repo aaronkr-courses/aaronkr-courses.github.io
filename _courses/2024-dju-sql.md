@@ -5,7 +5,7 @@ subtitle: 데이터베이스 보안
 description: 011780 • 2024년 2학기 • 대전대학교
 logo: dju-logo-2.png
 img: assets/img/books/sql-nosql.jpg
-importance: 2
+importance: 4
 category: 2024-2
 
 toc:
