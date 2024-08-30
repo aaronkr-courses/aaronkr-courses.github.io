@@ -3,7 +3,7 @@ layout: distill
 title: Hydrogen Fuel Cells
 subtitle: 수소 연료전지
 description: 2024년 2학기 • 전북대학교
-logo: jbnu-logo.png
+logo: jbnu-logo-2.png
 img: assets/img/books/hydrogen-fuel.jpg
 importance: 1
 category: 2024-2

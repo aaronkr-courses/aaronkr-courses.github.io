@@ -28,7 +28,7 @@ toc:
 
 information:
   - section: 009832
-    time: 화 6789	Tues | 2:00pm - 5:50pm
+    time: 화 6789	Tues | 2pm - 6pm
     location: 융합과학관 408호
     kakaotalk:
 
@@ -57,7 +57,7 @@ Supplementary:
 
 ## Schedule 강의일정
 
-{% include_relative 2024/hb-cpp/schedule.md %}
+{% include_relative 2024/dju-web/schedule.md %}
 
 <a class="btncv" href="#">Top</a>
 

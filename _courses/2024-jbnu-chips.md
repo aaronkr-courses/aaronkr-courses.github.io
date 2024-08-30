@@ -3,7 +3,7 @@ layout: distill
 title: Semiconductor Processing
 subtitle: 반도체공정
 description: 2024년 2학기 • 전북대학교
-logo: jbnu-logo.png
+logo: jbnu-logo-2.png
 img: assets/img/books/semiconductor-understanding.jpg
 importance: 3
 category: 2024-2
