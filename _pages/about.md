@@ -3,17 +3,21 @@ layout: about
 title: About
 permalink: /
 subtitle: >
+  <a href='https://portal.jbnu.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 2px;" src="/assets/img/jbnu-logo.png" /></a>
+  <a href='https://www.jbnu.ac.kr'>전북대학교</a>
+  &nbsp;&bull;&nbsp;
   <a href='https://portal.dju.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 2px;" src="/assets/img/dju-logo-2.png" /></a>
   <a href='https://www.dju.ac.kr'>대전대학교</a>
   &nbsp;&bull;&nbsp;
   <a href='https://portal.ut.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 2px;" src="/assets/img/ut-logo.png" /></a>
   <a href='https://www.ut.ac.kr/'>교통대학교</a>
   &nbsp;&bull;&nbsp;
-  <a href='https://portal.jnue.kr'><img style="width: 20px; border-radius: 50%; margin-right: 2px;" src="/assets/img/jnue-logo.png" /></a>
-  <a href='https://www.jnue.kr'>전주교육대학교</a>
-  &nbsp;&bull;&nbsp;
   <a href='https://my.hanbat.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 2px;" src="/assets/img/hanbat-logo.png" /></a>
   <a href='https://www.hanbat.ac.kr'>한밭대학교</a>
+  &nbsp;&bull;&nbsp;
+  <a href='https://portal.jnue.kr'><img style="width: 20px; border-radius: 50%; margin-right: 2px;" src="/assets/img/jnue-logo.png" /></a>
+  <a href='https://www.jnue.kr'>전주교육대학교</a>
+  
 
 profile:
   align: right
