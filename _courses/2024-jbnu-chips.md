@@ -2,7 +2,7 @@
 layout: distill
 title: Semiconductor Processing
 subtitle: 반도체공정
-description: INFO2104 • 2024년 2학기 • 전북대학교
+description: 2024년 2학기 • 전북대학교
 logo: jbnu-logo.png
 img: assets/img/books/semiconductor-understanding.jpg
 importance: 3
@@ -28,8 +28,8 @@ toc:
 
 information:
   - section: 
-    time: 월요일 오후 4-6시 & 수요일 오후 4-5시
-    location: 인문대학 2호관 글로벌프론티어칼리지 ??호
+    time: 월 4-6pm & 수 4-5pm
+    location: 인문대학 2호관 501호
     kakaotalk: 
 
 Main-Text:

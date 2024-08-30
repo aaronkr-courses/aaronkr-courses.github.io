@@ -1,0 +1,160 @@
+- date: 9/2, 4
+  week: 1
+  title: >
+    <strong>Introduction<br>
+    Chapter 1: Information in Memory</strong>
+  supp:
+  readings: p. 1-12
+  hw: 
+  slides: "https://docs.google.com/presentation/d/1dgq3rK8IwWBwq5NWQ_1ncDWYcwRoSZ-qy3gIx5bCa38/edit?usp=sharing"
+  img: 
+  logistics: 
+
+- date: 9/9, 11
+  week: 2
+  title: >
+    <strong>Chapter 2: Binary Search<br>
+    Chapter 3: Dynamic Data Structures</strong>
+  supp:
+  readings: p. 13-42
+  hw: 
+  slides: 
+  img: 
+  logistics: 
+
+- date: 9/16, 18
+  week: 3
+  title: >
+    <span style="color: red"><strong>No Class</strong> Chuseok</span>
+
+- date: 9/23, 25
+  week: 4
+  title: >
+    <strong>Chapter 4: Stacks and Queues</strong>
+  supp:
+  readings: p. 43-54
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 9/30, 10/2
+  week: 5
+  title: >
+    <strong>Chapter 5: Binary Search Trees</strong>
+  supp:
+  readings: p. 55-74
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/7, 9
+  week: 6
+  title: >
+    <strong>Chapter 6: Tries and Adapting Data Structures</strong><br>
+    <span style="color: red"><strong>No Class</strong> Hangul Day</span>
+  supp:
+  readings: p. 75-92
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/14, 16
+  week: 7
+  title: >
+    <strong>Chapter 7: Priority Queues and Heaps<br>
+    Chapter 8: Grids</strong>
+  supp:
+  readings: p. 93-138
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/21, 23
+  week: 8
+  title: >
+    <strong>Midterm Test</strong><br>
+    <div style="display: none;"><br>
+      [<a href="">퀴즈</a>]
+      [<a href="">실기</a>]
+    </div>
+
+- date: 10/28, 30
+  week: 9
+  title: >
+    <strong>Chapter 9: Spatial Trees</strong>
+  supp:
+  readings: p. 139-170
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/4, 6
+  week: 10
+  title: >
+    <strong>Chapter 10: Hash Tables<br>
+    Chapter 11: Caches</strong>
+  supp:
+  readings: p. 171-198
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/11, 13
+  week: 11
+  title: >
+    <strong>Chapter 12: B-Trees</strong>
+  supp:
+  readings: p. 199-224
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/18, 20
+  week: 12
+  title: >
+    <strong>Chapter 13: Bloom Filters</strong>
+  supp:
+  readings: p. 225-234
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/25, 27
+  week: 13
+  title: >
+    <strong>Chapter 14: Skip Lists</strong>
+  supp:
+  readings: p. 235-246
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 12/2, 4
+  week: 14
+  title: >
+    <strong>Chapter 15: Graphs<br>
+    Conclusion</strong>
+  supp:
+  readings: p. 247-270
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 12/9, 11
+  week: 16
+  title: >
+    <strong>Final Test</strong><br>
+    <div style="display: none;"><br>
+      <a href="">퀴즈</a> | <a href="">실기</a>
+      <a href="">스터디 가이드</a>
+    </div>

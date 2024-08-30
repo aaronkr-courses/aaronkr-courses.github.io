@@ -1,0 +1,155 @@
+- date: 9/2, 4
+  week: 1
+  title: >
+    <strong>1 - Introduction</strong>
+  supp:
+  readings: p. 1-4
+  hw: 
+  slides: "https://docs.google.com/presentation/d/1dgq3rK8IwWBwq5NWQ_1ncDWYcwRoSZ-qy3gIx5bCa38/edit?usp=sharing"
+  img: 
+  logistics: 
+
+- date: 9/9, 11
+  week: 2
+  title: >
+    <strong>2 - Hydrogen, I</strong>
+  supp:
+  readings: p. 5-105
+  hw: 
+  slides: 
+  img: 
+  logistics: 
+
+- date: 9/16, 18
+  week: 3
+  title: >
+    <span style="color: red"><strong>No Class</strong> Chuseok</span>
+
+- date: 9/23, 25
+  week: 4
+  title: >
+    <strong>2 - Hydrogen, II</strong>
+  supp:
+  readings: p. 5-105
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 9/30, 10/2
+  week: 5
+  title: >
+    <strong>3 - Fuel cells, I</strong>
+  supp:
+  readings: p. 107-220
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/7, 9
+  week: 6
+  title: >
+    <strong>3 - Fuel cells, II</strong><br>
+    <span style="color: red"><strong>No Class</strong> Hangul Day</span>
+  supp:
+  readings: p. 107-220
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/14, 16
+  week: 7
+  title: >
+    <strong>4 - Fuel cell systems, I</strong>
+  supp:
+  readings: p. 221-272
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/21, 23
+  week: 8
+  title: >
+    <strong>Midterm Test</strong><br>
+    <div style="display: none;"><br>
+      [<a href="">퀴즈</a>]
+      [<a href="">실기</a>]
+    </div>
+
+- date: 10/28, 30
+  week: 9
+  title: >
+    <strong>4 - Fuel cell systems, II</strong>
+  supp:
+  readings: p. 221-272
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/4, 6
+  week: 10
+  title: >
+    <strong>5 - Implementation scenarios, I</strong>
+  supp:
+  readings: p. 273-411
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/11, 13
+  week: 11
+  title: >
+    <strong>5 - Implementation scenarios, II</strong>
+  supp:
+  readings: p. 273-411
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/18, 20
+  week: 12
+  title: >
+    <strong>6 - Social implications, I</strong>
+  supp:
+  readings: p. 413-461
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/25, 27
+  week: 13
+  title: >
+    <strong>6 - Social implications, II</strong>
+  supp:
+  readings: p. 413-461
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 12/2, 4
+  week: 14
+  title: >
+    <strong>7 - Conclusion: A conditional outcome</strong>
+  supp:
+  readings: p. 463-491
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 12/9, 11
+  week: 16
+  title: >
+    <strong>Final Test</strong><br>
+    <div style="display: none;"><br>
+      <a href="">퀴즈</a> | <a href="">실기</a>
+      <a href="">스터디 가이드</a>
+    </div>

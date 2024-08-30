@@ -1,0 +1,178 @@
+- date: 9/2, 4
+  week: 1
+  title: >
+    <strong>Introduction</strong>
+  supp:
+  readings: p. 1-4
+  hw: 
+  slides: "https://docs.google.com/presentation/d/1dgq3rK8IwWBwq5NWQ_1ncDWYcwRoSZ-qy3gIx5bCa38/edit?usp=sharing"
+  img: 
+  logistics: 
+
+- date: 9/9, 11
+  week: 2
+  title: >
+    <strong>1 - Semiconductor Basics</strong><br>
+    - Chp 1. Semiconductors<br>
+    - Chp 2. Diluted Magnetic Semiconductors<br>
+  supp:
+  readings: p. 1-23
+  hw: 
+  slides: 
+  img: 
+  logistics: 
+
+- date: 9/16, 18
+  week: 3
+  title: >
+    <span style="color: red"><strong>No Class</strong> Chuseok</span>
+
+- date: 9/23, 25
+  week: 4
+  title: >
+    <strong>2 - Circuit Building Blocks</strong><br>
+    - Chp 3. Types and Properties of Semiconductors<br>
+    - Chp 4. Wide Band Gap Semiconductors<br>
+  supp:
+  readings: p. 25-39
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 9/30, 10/2
+  week: 5
+  title: >
+    <strong>3 - Building a System</strong><br>
+    - Chp 5. Doping Methods and Their Effects<br>
+    - Chp 6. Emerging Materials in Semiconductor Devices<br>
+  supp:
+  readings: p. 41-56
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/7, 9
+  week: 6
+  title: >
+    <strong>4 - Semiconductor Manufacturing</strong><br>
+    - Chp 7. Organic Semiconductor Devices<br>
+    <span style="color: red"><strong>No Class</strong> Hangul Day</span>
+  supp:
+  readings: p. 57-80
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/14, 16
+  week: 7
+  title: >
+    <strong>5 - Tying the System Together</strong><br>
+    - Chp 8. Organic Semiconductors for Electrochemical Energy Applications<br>
+    - Chp 9. Nanotechnology in Semiconductors<br>
+  supp:
+  readings: p. 81-95
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/21, 23
+  week: 8
+  title: >
+    <strong>Midterm Test</strong><br>
+    <div style="display: none;"><br>
+      [<a href="">퀴즈</a>]
+      [<a href="">실기</a>]
+    </div>
+
+- date: 10/28, 30
+  week: 9
+  title: >
+    <strong>6 - Common Circuits and System Components</strong><br>
+    - Chp 10. The Development and Processing of Advanced Low-Dimensional Semiconductors<br>
+    - Chp 11. Fundamentals and Advanced Concepts of Microprocessors<br>
+  supp:
+  readings: p. 97-135
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/4, 6
+  week: 10
+  title: >
+    <strong>7 - RF and Wireless Technologies</strong><br>
+    - Chp 12. Fundamentals and Recent Advancements in Photodetectors Using Semiconductors<br>
+    - Chp 13. Semiconductor Photoelectrochemistry<br>
+  supp:
+  readings: p. 137-154
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/11, 13
+  week: 11
+  title: >
+    <strong>8 - System Architecture and Integration</strong><br>
+    - Chp 14. Semiconductors for Transparent Conductors<br>
+    - Chp 15. Semiconductor-based Photodiodes<br>
+  supp:
+  readings: p. 155-174
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/18, 20
+  week: 12
+  title: >
+    <strong>9 - The Semiconductor Industry – Past, Present, and Future</strong><br>
+    - Chp 16. Semiconductors for Solar Cells<br>
+    - Chp 17. Semiconductor Lasers<br>
+  supp:
+  readings: p. 175-210
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/25, 27
+  week: 13
+  title: >
+    <strong>10 - The Future of Semiconductors and Electronic Systems</strong><br>
+    - Chp 18. Semiconductor-based Light Emitting Diodes<br>
+    - Chp 19. Semiconductor-based Transistors<br>
+  supp:
+  readings: p. 211-223
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 12/2, 4
+  week: 14
+  title: >
+    - Chp 20. Non-Volatile Memory Devices<br>
+    - Chp 21. Sensors Based on Semiconductors<br>
+    - Chp 22. Semiconductor-based Ferroelectrics<br>
+    - Chp 23. Role of Semiconductors in Energy Devices<br>
+    - Chp 24. Role of Semiconductors in Future Flexible Batteries<br>
+  supp:
+  readings: p. 463-491
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 12/9, 11
+  week: 16
+  title: >
+    <strong>Final Test</strong><br>
+    <div style="display: none;"><br>
+      <a href="">퀴즈</a> | <a href="">실기</a>
+      <a href="">스터디 가이드</a>
+    </div>

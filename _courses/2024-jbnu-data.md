@@ -2,7 +2,7 @@
 layout: distill
 title: Data Structures
 subtitle: 데이터 구조
-description: INFO2104 • 2024년 2학기 • 전북대학교
+description: 2024년 2학기 • 전북대학교
 logo: jbnu-logo.png
 img: assets/img/books/data-structs.jpg
 importance: 2
@@ -28,8 +28,8 @@ toc:
 
 information:
   - section: INFO2104
-    time: 월요일 오후 2-4시 & 수요일 2-3시
-    location: 인문대학 2호관 글로벌프론티어칼리지 504호
+    time: 월 2-4pm & 수 2-3pm
+    location: 인문대학 2호관 504호
     kakaotalk: 
 
 Main-Text:

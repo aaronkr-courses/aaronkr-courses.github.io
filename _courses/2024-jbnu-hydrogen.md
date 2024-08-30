@@ -2,7 +2,7 @@
 layout: distill
 title: Hydrogen Fuel Cells
 subtitle: 수소 연료전지
-description: INFO2104 • 2024년 2학기 • 전북대학교
+description: 2024년 2학기 • 전북대학교
 logo: jbnu-logo.png
 img: assets/img/books/hydrogen-fuel.jpg
 importance: 1
@@ -28,8 +28,8 @@ toc:
 
 information:
   - section: 
-    time: 금 1234 | Fri 9am-1pm
-    location: N4동 316호
+    time: 월 9-11am & 수 9-10am
+    location: 인문대학 2호관 501호
     kakaotalk: 
 
 Main-Text:
@@ -56,7 +56,11 @@ Main-Text:
 
 <strong>Hydrogen and Fuel Cells</strong> <a href="https://www.sciencedirect.com/book/9780081007082/hydrogen-and-fuel-cells">Science Direct Link</a>
 
-In a multidisciplinary field such as energy, _Hydrogen and Fuel Cells_ stands out by covering the entire width of hydrogen production and usage technologies, giving detailed descriptions of not just one but the range of very different fuel cells that have been developed or are under development. In one volume, respected experts Bent Sorensen and Giuseppe Spazzafumo provide all the basic scientific theory underlying hydrogen and fuel cell technologies, but at the same time present applications and sustainable integration into society in a way accessible to a broad range of people working in this field, whether in technical, economic or management roles. The third edition reflects both recently emerged technologies and the market penetration of the most promising technologies, and it gives an appraisal of how far fuel cell technology may go in the future, considering current challenges and economic trends. This new edition has updated and expanded content on hydrogen storage and transmission, molten carbonate fuel cells, PEM fuel cells, solid oxide fuel cells, biofuel cells, including microbial fuel cells, applications in transportation and power plants, future scenarios and life-cycle assessment. It is ideal for researchers and professionals in the field of energy, and renewable energy in particular, both in academia and industry. It is also useful to lecturers and graduate students in engineering, physics, and environmental sciences, as well as professionals involved in energy or environmental regulation and policy.
+In a multidisciplinary field such as energy, _Hydrogen and Fuel Cells_ stands out by covering the entire width of hydrogen production and usage technologies, giving detailed descriptions of not just one but the range of very different fuel cells that have been developed or are under development.
+
+In one volume, respected experts Bent Sorensen and Giuseppe Spazzafumo provide all the basic scientific theory underlying hydrogen and fuel cell technologies, but at the same time present applications and sustainable integration into society in a way accessible to a broad range of people working in this field, whether in technical, economic or management roles. The third edition reflects both recently emerged technologies and the market penetration of the most promising technologies, and it gives an appraisal of how far fuel cell technology may go in the future, considering current challenges and economic trends.
+
+This new edition has updated and expanded content on hydrogen storage and transmission, molten carbonate fuel cells, PEM fuel cells, solid oxide fuel cells, biofuel cells, including microbial fuel cells, applications in transportation and power plants, future scenarios and life-cycle assessment. It is ideal for researchers and professionals in the field of energy, and renewable energy in particular, both in academia and industry. It is also useful to lecturers and graduate students in engineering, physics, and environmental sciences, as well as professionals involved in energy or environmental regulation and policy.
 
 **Key Features**
 
