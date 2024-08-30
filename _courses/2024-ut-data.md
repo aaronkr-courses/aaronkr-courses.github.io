@@ -2,7 +2,7 @@
 layout: distill
 title: Data Science
 subtitle: 데이터 과학
-description: INFO2104 • 2024년 2학기 • 교통대학교
+description: 259124 • 2024년 2학기 • 교통대학교
 logo: ut-logo.png
 img: assets/img/books/hands-on-machine-learning.jpg
 importance: 6
@@ -27,13 +27,13 @@ toc:
   - name: Instructor 강사소개
 
 information:
-  - section: INFO2104
+  - section: 259124(2)
     time: 목 123 | Thur 9am-12pm
-    location: 
+    location: W18-402호
     kakaotalk: 
-  - section: INFO2104
+  - section: 259124(1)
     time: 목 567 | Thur 1pm-4pm
-    location: 
+    location: W18-402호
     kakaotalk: 
 
 Main-Text:

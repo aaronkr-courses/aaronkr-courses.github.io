@@ -21,7 +21,7 @@
 {% assign skip_classes = 0 %}
 {% assign prev_date = 0 %}
 
-{% for item in site.data.2024_dju_java_lectures %}
+{% for item in site.data.2024_dju_web_lectures %}
 {% if item.date %}
 {% assign lecture = item %}
 {% assign event_type = "upcoming" %}

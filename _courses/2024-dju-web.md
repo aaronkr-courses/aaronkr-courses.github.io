@@ -29,7 +29,7 @@ toc:
 information:
   - section: 009832
     time: 화 6789	Tues | 2:00pm - 5:50pm
-    location: 융합과학환 408호
+    location: 융합과학관 408호
     kakaotalk:
 
 Main-Text:

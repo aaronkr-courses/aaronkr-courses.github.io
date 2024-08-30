@@ -1,0 +1,167 @@
+- date: 9/6
+  week: 1
+  title: >
+    <strong>01 프로그램과 C 언어</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: "https://docs.google.com/presentation/d/1dgq3rK8IwWBwq5NWQ_1ncDWYcwRoSZ-qy3gIx5bCa38/edit?usp=sharing"
+  img: 
+  logistics: 
+
+- date: 9/13
+  week: 2
+  title: >
+    <strong>02 C 언어로 만드는 첫 번째 프로그램<br>
+    03 자료형</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics: 
+
+- date: 9/20
+  week: 3
+  title: >
+    <strong>04 상수와 변수<br>
+    05 함수</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics: 
+
+- date: 9/27
+  week: 4
+  title: >
+    <strong>06 표준 출력 함수<br>
+    07 연산자</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/4
+  week: 5
+  title: >
+    <strong>08 조건문</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/11
+  week: 6
+  title: >
+    <strong>09 반복문</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/18
+  week: 7
+  title: >
+    <strong>10 시프트 연산자와 비트 연산자<br>
+    11 지역 변수와 전역 변수</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/25
+  week: 8
+  title: >
+    <strong>Midterm Test</strong><br>
+    <div style="display: none;"><br>
+      [<a href="">퀴즈</a>]
+      [<a href="">실기</a>]
+    </div>
+
+- date: 11/1
+  week: 9
+  title: >
+    <strong>12 배열과 문자열<br>
+    13 포인터</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/8
+  week: 10
+  title: >
+    <strong>14 표준 입력 함수<br>
+    15 배열과 포인터</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/15
+  week: 11
+  title: >
+    <strong>16 메모리 할당</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/22
+  week: 12
+  title: >
+    <strong>17 다차원 포인터</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/29
+  week: 13
+  title: >
+    <strong>18 구조체와 연결 리스트</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 12/6
+  week: 14
+  title: >
+    <strong>19 파일 입출력<br>
+    20 함수 포인터</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 12/13
+  week: 15
+  title: >
+    <strong>Final Test</strong><br>
+    <div style="display: none;"><br>
+      <a href="">퀴즈</a> | <a href="">실기</a>
+      <a href="">스터디 가이드</a>
+    </div>

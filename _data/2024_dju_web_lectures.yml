@@ -1,0 +1,171 @@
+- date: 9/3
+  week: 1
+  title: >
+    <strong>과정 소개<br>
+    Chapter 01 JSP의 개요: 원리를 이해하고 개발 환경 구축하기</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: "https://docs.google.com/presentation/d/1dgq3rK8IwWBwq5NWQ_1ncDWYcwRoSZ-qy3gIx5bCa38/edit?usp=sharing"
+  img: 
+  logistics: 
+
+- date: 9/10
+  week: 2
+  title: >
+    <strong>Chapter 02 스크립트 태그: 시작 페이지 만들기<br>
+    Chapter 03 디렉티브 태그: 한글 출력 및 페이지 모듈화하기</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics: 
+
+- date: 9/17
+  week: 3
+  title: >
+    <span style="color: red"><strong>No Class</strong> Chuseok</span>
+
+- date: 9/24
+  week: 4
+  title: >
+    <strong>Chapter 04 액션 태그: 상품 목록 표시하기<br>
+    Chapter 05 내장 객체: 상품 상세 정보 표시하기</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/1
+  week: 5
+  title: >
+    <strong>Chapter 06 폼 태그: 상품 등록 페이지 만들기</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/8
+  week: 6
+  title: >
+    <strong>Chapter 07 파일 업로드: 상품 이미지 등록하기<br>
+    Chapter 08 유효성 검사: 상품 등록 데이터의 유효성 검사하기</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/15
+  week: 7
+  title: >
+    <strong>Chapter 09 다국어 처리: 상품 등록 페이지의 다국어 처리하기<br>
+    Chapter 10 시큐리티: 상품 등록 페이지의 보안 처리하기</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/22
+  week: 8
+  title: >
+    <strong>Midterm Test</strong><br>
+    <div style="display: none;"><br>
+      [<a href="">퀴즈</a>]
+      [<a href="">실기</a>]
+    </div>
+
+- date: 10/29
+  week: 9
+  title: >
+    <strong>Chapter 11 예외 처리: 예외 처리 페이지 만들기<br>
+    Chapter 12 필터: 로그 기록하기</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/5
+  week: 10
+  title: >
+    <strong>Chapter 13 세션: 장바구니 페이지 만들기</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/12
+  week: 11
+  title: >
+    <strong>Chapter 14 쿠키: 주문 처리 페이지 만들기</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/19
+  week: 12
+  title: >
+    <strong>Chapter 15 데이터베이스 개발 환경 구축: 상품 관리 테이블 생성 및 상품 등록하기</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/26
+  week: 13
+  title: >
+    <strong>Chapter 16 JDBC로 데이터베이스와 JSP 연동: 상품 조회, 등록, 수정, 삭제하기</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 12/3
+  week: 14
+  title: >
+    <strong>Chapter 17 JSP 표준 태그 라이브러리: 회원 가입, 수정, 탈퇴하기</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 12/10
+  week: 15
+  title: >
+    <strong>Chapter 18 웹 MVC: 게시판 만들기</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 12/17
+  week: 16
+  title: >
+    <strong>Final Test</strong><br>
+    <div style="display: none;"><br>
+      <a href="">퀴즈</a> | <a href="">실기</a>
+      <a href="">스터디 가이드</a>
+    </div>

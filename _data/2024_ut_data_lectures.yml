@@ -1,0 +1,170 @@
+- date: 9/5
+  week: 1
+  title: >
+    <strong>수업 소개, 1장 한눈에 보는 머신러닝</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: "https://docs.google.com/presentation/d/1dgq3rK8IwWBwq5NWQ_1ncDWYcwRoSZ-qy3gIx5bCa38/edit?usp=sharing"
+  img: 
+  logistics: 
+
+- date: 9/12
+  week: 2
+  title: >
+    <strong>2장 머신러닝 프로젝트 처음부터 끝까지</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics: 
+
+- date: 9/19
+  week: 3
+  title: >
+    <strong>3장 분류<br>
+    4장 모델 훈련</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics: 
+
+- date: 9/26
+  week: 4
+  title: >
+    <strong>5장 서포트 벡터 머신<br>
+    6장 결정 트리</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/3
+  week: 5
+  title: >
+    <span style="color: red"><strong>No Class</strong> Coming from Heaven Day</span>
+
+- date: 10/10
+  week: 6
+  title: >
+    <strong>7장 앙상블 학습과 랜덤 포레스트</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/17
+  week: 7
+  title: >
+    <strong>8장 차원 축소</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 10/24
+  week: 8
+  title: >
+    <strong>Midterm Test</strong><br>
+    <div style="display: none;"><br>
+      [<a href="">퀴즈</a>]
+      [<a href="">실기</a>]
+    </div>
+
+- date: 10/31
+  week: 9
+  title: >
+    <strong>9장 비지도 학습</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/7
+  week: 10
+  title: >
+    <strong>10장 케라스를 사용한 인공 신경망 소개<br>
+    11장 심층 신경망 훈련</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/14
+  week: 11
+  title: >
+    <strong>12장 텐서플로를 사용한 사용자 정의 모델과 훈련</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/21
+  week: 12
+  title: >
+    <strong>13장 텐서플로를 사용한 데이터 적재와 전처리<br>
+    14장 합성곱 신경망을 사용한 컴퓨터 비전</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 11/28
+  week: 13
+  title: >
+    <strong>15장 RNN과 CNN을 사용한 시퀀스 처리<br>
+    16장 RNN과 어텐션을 사용한 자연어 처리</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 12/5
+  week: 14
+  title: >
+    <strong>17장 오토인코더, GAN 그리고 확산 모델</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 12/12
+  week: 15
+  title: >
+    <strong>18장 강화 학습</strong>
+  supp:
+  readings: p. 
+  hw: 
+  slides: 
+  img: 
+  logistics:
+
+- date: 12/19
+  week: 16
+  title: >
+    <strong>Final Test</strong><br>
+    <div style="display: none;"><br>
+      <a href="">퀴즈</a> | <a href="">실기</a>
+      <a href="">스터디 가이드</a>
+    </div>
