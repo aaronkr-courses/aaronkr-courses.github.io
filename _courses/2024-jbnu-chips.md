@@ -30,7 +30,7 @@ information:
   - section: 0000125132
     time: 월 4-6pm & 수 4-5pm
     location: 인문대학 2호관 501호
-    kakaotalk: 
+    kakaotalk: https://open.kakao.com/o/gAu7mtMg
 
 Main-Text:
   - text: "주교재"
