@@ -2,7 +2,7 @@
 layout: distill
 title: Semiconductor Processing
 subtitle: 반도체공정
-description: 2024년 2학기 • 전북대학교
+description: 0000125132 • 2024년 2학기 • 전북대학교
 logo: jbnu-logo-2.png
 img: assets/img/books/semiconductor-understanding.jpg
 importance: 3
@@ -27,7 +27,7 @@ toc:
   - name: Instructor 강사소개
 
 information:
-  - section: 
+  - section: 0000125132
     time: 월 4-6pm & 수 4-5pm
     location: 인문대학 2호관 501호
     kakaotalk: 
@@ -45,9 +45,19 @@ Main-Text:
 
 Supplementary:
   - text: "부교재"
+    author: "Lian, Yaguang"
+    title: >
+      <strong>Semiconductor Microchips and Fabrication:</strong> A Practical Guide to Theory and Manufacturing
+    publisher: "Wiley-IEEE Press | 2023년 06월 15일"
+    link: "https://www.yes24.com/Product/Goods/106153977"
+    code:
+    notes:
+    image: books/semiconductor-fabrication.jpg
+
+  - text: "부교재"
     author: "Gupta, Ram K."
     title: >
-      <strong> Handbook of Semiconductors</strong> Fundamentals to Emerging Applications
+      <strong>Handbook of Semiconductors</strong> Fundamentals to Emerging Applications
     publisher: "CRC Press | 2024년 07월 15일"
     link: "https://www.yes24.com/Product/Goods/124277667"
     code:

@@ -2,7 +2,7 @@
 layout: distill
 title: Hydrogen Fuel Cells
 subtitle: 수소 연료전지
-description: 2024년 2학기 • 전북대학교
+description: 0000128148 • 2024년 2학기 • 전북대학교
 logo: jbnu-logo-2.png
 img: assets/img/books/hydrogen-fuel.jpg
 importance: 1
@@ -27,7 +27,7 @@ toc:
   - name: Instructor 강사소개
 
 information:
-  - section: 
+  - section: 0000128148
     time: 월 9-11am & 수 9-10am
     location: 인문대학 2호관 501호
     kakaotalk: 
