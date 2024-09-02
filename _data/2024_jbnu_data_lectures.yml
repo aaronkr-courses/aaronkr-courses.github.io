@@ -5,10 +5,10 @@
     Chapter 1: Information in Memory</strong>
   supp:
   readings: p. 1-12
-  hw: 
+  hw:
   slides: "https://docs.google.com/presentation/d/1RUKGGa5xauYPSy5kErpZ0g64Y8BboRlHqCoYV4tCEh4/edit?usp=sharing"
-  img: 2024/jbnu-chips/1-intro-to-data-structs.jpg
-  logistics: 
+  img: 2024/jbnu-data/1-intro-to-data-structs.jpg
+  logistics:
 
 - date: 9/9, 11
   week: 2
@@ -17,10 +17,10 @@
     Chapter 3: Dynamic Data Structures</strong>
   supp:
   readings: p. 13-42
-  hw: 
-  slides: 
-  img: 
-  logistics: 
+  hw:
+  slides:
+  img:
+  logistics:
 
 - date: 9/16, 18
   week: 3
@@ -33,9 +33,9 @@
     <strong>Chapter 4: Stacks and Queues</strong>
   supp:
   readings: p. 43-54
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 9/30, 10/2
@@ -44,9 +44,9 @@
     <strong>Chapter 5: Binary Search Trees</strong>
   supp:
   readings: p. 55-74
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 10/7, 9
@@ -56,9 +56,9 @@
     <span style="color: red"><strong>No Class</strong> Hangul Day</span>
   supp:
   readings: p. 75-92
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 10/14, 16
@@ -68,9 +68,9 @@
     Chapter 8: Grids</strong>
   supp:
   readings: p. 93-138
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 10/21, 23
@@ -88,9 +88,9 @@
     <strong>Chapter 9: Spatial Trees</strong>
   supp:
   readings: p. 139-170
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/4, 6
@@ -100,9 +100,9 @@
     Chapter 11: Caches</strong>
   supp:
   readings: p. 171-198
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/11, 13
@@ -111,9 +111,9 @@
     <strong>Chapter 12: B-Trees</strong>
   supp:
   readings: p. 199-224
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/18, 20
@@ -122,9 +122,9 @@
     <strong>Chapter 13: Bloom Filters</strong>
   supp:
   readings: p. 225-234
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/25, 27
@@ -133,9 +133,9 @@
     <strong>Chapter 14: Skip Lists</strong>
   supp:
   readings: p. 235-246
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 12/2, 4
@@ -145,9 +145,9 @@
     Conclusion</strong>
   supp:
   readings: p. 247-270
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 12/9, 11
