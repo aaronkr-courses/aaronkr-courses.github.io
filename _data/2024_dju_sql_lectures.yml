@@ -4,10 +4,10 @@
     <strong>과정 소개</strong>
   supp:
   readings: 실용 SQL, 이 책에 대하여, pp. 17-24
-  hw: 
-  slides: "https://docs.google.com/presentation/d/1dgq3rK8IwWBwq5NWQ_1ncDWYcwRoSZ-qy3gIx5bCa38/edit?usp=sharing"
-  img: 
-  logistics: 
+  hw:
+  slides: "https://docs.google.com/presentation/d/1prBoWRRRmnbfa_OXl83ZlZCoQZQZl1zeHYH8I2A9PxM/edit?usp=sharing"
+  img: 2024/dju-sql/1-sql-intro.jpg
+  logistics:
 
 - date: 9/10
   week: 2
@@ -16,10 +16,10 @@
     2장. 데이터베이스와 테이블 생성</strong>
   supp:
   readings: 실용 SQL, 1-2장, pp. 27-54
-  hw: 
-  slides: 
-  img: 
-  logistics: 
+  hw:
+  slides:
+  img:
+  logistics:
 
 - date: 9/17
   week: 3
@@ -33,9 +33,9 @@
     4장. 데이터 타입 이해</strong>
   supp:
   readings: 실용 SQL, 3-4장, pp. 57-87
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 10/1
@@ -45,9 +45,9 @@
     6장. SQL을 사용한 기본 수학 및 통계 (1)</strong>
   supp:
   readings: 실용 SQL, 5-6장, pp. 89-123
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 10/8
@@ -57,9 +57,9 @@
     6장. SQL을 사용한 기본 수학 및 통계 (2)</strong>
   supp:
   readings: 실용 SQL, 5-6장, pp. 89-123
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 10/15
@@ -68,9 +68,9 @@
     <strong>7장. 관계형 데이터베이스에서 테이블 조인</strong>
   supp:
   readings: 실용 SQL, 7장, pp. 125-148
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 10/22
@@ -88,9 +88,9 @@
     <strong>8장. 적시적소에 알맞은 테이블 디자인</strong>
   supp:
   readings: 실용 SQL, 8장, pp. 149-170
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/5
@@ -99,9 +99,9 @@
     <strong>9장. 그루핑과 요약으로 정보 추출</strong>
   supp:
   readings: 실용 SQL, 9장, pp. 173-189
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/12
@@ -110,9 +110,9 @@
     <strong>10장. 데이터 검사 및 수정</strong>
   supp:
   readings: 실용 SQL, 10장, pp. 191-216
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/19
@@ -121,9 +121,9 @@
     <strong>11장. SQL 통계 함수</strong>
   supp:
   readings: 실용 SQL, 11장, pp. 217-236
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/26
@@ -132,9 +132,9 @@
     <strong>12장. 날짜와 시간을 사용한 작업</strong>
   supp:
   readings: 실용 SQL, 12장, pp. 237-256
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 12/3
@@ -143,9 +143,9 @@
     <strong>13장. 고급 쿼리 기술</strong>
   supp:
   readings: 실용 SQL, 13장, pp. 259-280
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 12/10
@@ -154,9 +154,9 @@
     <strong>14장. 의미 있는 데이터를 찾기 위한 텍스트 마이닝</strong>
   supp:
   readings: 실용 SQL, 14장, pp. 283-312
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 12/17
