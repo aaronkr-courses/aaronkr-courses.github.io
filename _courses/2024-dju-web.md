@@ -47,7 +47,7 @@ Supplementary:
   - text: "부교재"
     author: "성윤정, 김태은 저"
     title: >
-      <strong>웹 개발자를 위한 웹 보안: 실제 해킹 공격에서 적용할 수 있는 웹 보안 가이드</strong>
+      <strong>웹 개발자를 위한 웹 보안:</strong> 실제 해킹 공격에서 적용할 수 있는 웹 보안 가이드
     publisher: "에이콘출판사 | 2022년 07월 22일"
     link: "https://www.yes24.com/Product/Goods/110530471"
     code:

@@ -4,7 +4,7 @@ title: Semiconductor Processing
 subtitle: 반도체공정
 description: 0000125132 • 2024년 2학기 • 전북대학교
 logo: jbnu-logo-2.png
-img: assets/img/books/semiconductor-understanding.jpg
+img: assets/img/books/semiconductor-fabrication.jpg
 importance: 3
 category: 2024-2
 
@@ -34,17 +34,6 @@ information:
 
 Main-Text:
   - text: "주교재"
-    author: "Richard, Corey"
-    title: >
-      <strong>Understanding Semiconductors:</strong> A Technical Guide for Non-Technical People
-    publisher: "Apress | 2023년 03월 09일"
-    link: "https://www.yes24.com/Product/Goods/113265187"
-    code:
-    notes:
-    image: books/semiconductor-understanding.jpg
-
-Supplementary:
-  - text: "부교재"
     author: "Lian, Yaguang"
     title: >
       <strong>Semiconductor Microchips and Fabrication:</strong> A Practical Guide to Theory and Manufacturing
@@ -53,6 +42,17 @@ Supplementary:
     code:
     notes:
     image: books/semiconductor-fabrication.jpg
+
+Supplementary:
+  - text: "부교재"
+    author: "Richard, Corey"
+    title: >
+      <strong>Understanding Semiconductors:</strong> A Technical Guide for Non-Technical People
+    publisher: "Apress | 2023년 03월 09일"
+    link: "https://www.yes24.com/Product/Goods/113265187"
+    code:
+    notes:
+    image: books/semiconductor-understanding.jpg
 
   - text: "부교재"
     author: "Gupta, Ram K."
