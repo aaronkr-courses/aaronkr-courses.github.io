@@ -30,21 +30,10 @@ information:
   - section: 011780
     time: 화 234 Tues 10am - 1pm
     location: 융합과학관 408호
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/ghQkqGMg
 
 Main-Text:
   - text: "주교재"
-    author: "앤서니 드바로스 저/임소정, 강민혁 역"
-    title: >
-      <strong>실용 SQL: PostgreSQL로 시작하는 데이터 스토리텔링 가이드북</strong>
-    publisher: "영진닷컴 | 2023년 01월 30일"
-    link: "https://www.yes24.com/Product/Goods/116860700"
-    code:
-    notes:
-    image: books/sql-text.jpg
-
-Supplementary:
-  - text: "부교재"
     author: "박성진 저"
     title: >
       <strong>SQL과 NoSQL 기반의 데이터베이스 입문</strong>
@@ -53,6 +42,17 @@ Supplementary:
     code:
     notes:
     image: books/sql-nosql.jpg
+
+Supplementary:
+  - text: "부교재"
+    author: "앤서니 드바로스 저/임소정, 강민혁 역"
+    title: >
+      <strong>실용 SQL: PostgreSQL로 시작하는 데이터 스토리텔링 가이드북</strong>
+    publisher: "영진닷컴 | 2023년 01월 30일"
+    link: "https://www.yes24.com/Product/Goods/116860700"
+    code:
+    notes:
+    image: books/sql-text.jpg
 ---
 
 ## Schedule 강의일정
