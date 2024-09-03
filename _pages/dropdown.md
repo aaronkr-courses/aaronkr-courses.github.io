@@ -15,7 +15,7 @@ children:
   - title: JBNU-CHIPS
     permalink: /courses/2024-jbnu-chips/
   - title: divider
-  - title: DJU-SQL
+  - title: DJU-DB
     permalink: /courses/2024-dju-db/
   - title: DJU-WEB
     permalink: /courses/2024-dju-web/

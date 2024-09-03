@@ -30,11 +30,11 @@ information:
   - section: 259124(2)
     time: 목 123 | Thur 9am-12pm
     location: W18-402호
-    kakaotalk: 
+    kakaotalk: https://open.kakao.com/o/gY8jNGMg
   - section: 259124(1)
     time: 목 567 | Thur 1pm-4pm
     location: W18-402호
-    kakaotalk: 
+    kakaotalk: https://open.kakao.com/o/gxqqOGMg
 
 Main-Text:
   - text: "주교재"
