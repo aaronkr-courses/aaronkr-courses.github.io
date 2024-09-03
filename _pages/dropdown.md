@@ -16,7 +16,7 @@ children:
     permalink: /courses/2024-jbnu-chips/
   - title: divider
   - title: DJU-SQL
-    permalink: /courses/2024-dju-sql/
+    permalink: /courses/2024-dju-db/
   - title: DJU-WEB
     permalink: /courses/2024-dju-web/
   - title: divider

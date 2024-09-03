@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Database Security (PostgreSQL)
+title: Database Security
 subtitle: 데이터베이스 보안
 description: 011780 • 2024년 2학기 • 대전대학교
 logo: dju-logo-2.png
