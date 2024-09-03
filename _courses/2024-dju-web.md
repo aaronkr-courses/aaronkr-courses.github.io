@@ -30,7 +30,7 @@ information:
   - section: 009832
     time: 화 6789	Tues | 2pm - 6pm
     location: 융합과학관 408호
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/gEC8vGMg
 
 Main-Text:
   - text: "주교재"

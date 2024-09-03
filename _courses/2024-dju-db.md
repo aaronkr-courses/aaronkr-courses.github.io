@@ -57,7 +57,7 @@ Supplementary:
 
 ## Schedule 강의일정
 
-{% include_relative 2024/dju-sql/schedule.md %}
+{% include_relative 2024/dju-db/schedule.md %}
 
 <a class="btncv" href="#">Top</a>
 
