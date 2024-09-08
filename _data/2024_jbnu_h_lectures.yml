@@ -4,21 +4,21 @@
     <strong>1 - Introduction</strong>
   supp:
   readings: p. 1-4
-  hw: 
+  hw:
   slides: "https://docs.google.com/presentation/d/1Bk9vPAcRz5x9TDzoDy95o3GauItB_1UZG9j3hTWOAqw/edit?usp=sharing"
   img: 2024/jbnu-h/1-intro.jpg
-  logistics: 
+  logistics:
 
 - date: 9/9, 11
   week: 2
   title: >
-    <strong>2 - Hydrogen, I</strong>
+    <strong>1 - Fuel Cells for Transportation - Overview (book 2)</strong>
   supp:
-  readings: p. 5-105
-  hw: 
-  slides: 
-  img: 
-  logistics: 
+  readings: p. 1-26
+  hw:
+  slides: "https://docs.google.com/presentation/d/18eDJLJ6xfTaV-NzujnRHVMmIFuDbd3Ngi-GPOgnAfcU/edit?usp=sharing"
+  img: 2024/jbnu-h/2-fc-transportation.jpg
+  logistics:
 
 - date: 9/16, 18
   week: 3
@@ -31,9 +31,9 @@
     <strong>2 - Hydrogen, II</strong>
   supp:
   readings: p. 5-105
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 9/30, 10/2
@@ -42,9 +42,9 @@
     <strong>3 - Fuel cells, I</strong>
   supp:
   readings: p. 107-220
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 10/7, 9
@@ -54,9 +54,9 @@
     <span style="color: red"><strong>No Class</strong> Hangul Day</span>
   supp:
   readings: p. 107-220
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 10/14, 16
@@ -65,9 +65,9 @@
     <strong>4 - Fuel cell systems, I</strong>
   supp:
   readings: p. 221-272
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 10/21, 23
@@ -85,9 +85,9 @@
     <strong>4 - Fuel cell systems, II</strong>
   supp:
   readings: p. 221-272
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/4, 6
@@ -96,9 +96,9 @@
     <strong>5 - Implementation scenarios, I</strong>
   supp:
   readings: p. 273-411
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/11, 13
@@ -107,9 +107,9 @@
     <strong>5 - Implementation scenarios, II</strong>
   supp:
   readings: p. 273-411
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/18, 20
@@ -118,9 +118,9 @@
     <strong>6 - Social implications, I</strong>
   supp:
   readings: p. 413-461
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/25, 27
@@ -129,9 +129,9 @@
     <strong>6 - Social implications, II</strong>
   supp:
   readings: p. 413-461
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 12/2, 4
@@ -140,9 +140,9 @@
     <strong>7 - Conclusion: A conditional outcome</strong>
   supp:
   readings: p. 463-491
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 12/9, 11
