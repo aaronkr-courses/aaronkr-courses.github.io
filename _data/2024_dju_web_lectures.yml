@@ -16,10 +16,10 @@
     <strong>Chapter 02 스크립트 태그: 시작 페이지 만들기<br>
     Chapter 03 디렉티브 태그: 한글 출력 및 페이지 모듈화하기</strong>
   supp:
-  readings: p.
+  readings: p. 59-118
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1Klpquhrdt_P54juJAxcPF_PSxcjrm0H__NoLbZ7ikmk/edit?usp=sharing"
+  img: 2024/dju-web/2-scripts-directives.jpg
   logistics:
 
 - date: 9/17
