@@ -5,7 +5,7 @@
     Chapter 01 JSP의 개요: 원리를 이해하고 개발 환경 구축하기</strong>
   supp:
   readings: p.
-  hw:
+  hw: "https://classroom.github.com/a/GmHhc-fR"
   slides: "https://docs.google.com/presentation/d/1DH22ItOwv2yUp7rAxhmSzMdcQ-OMpD8pp_z0FwQ3gpY/edit?usp=sharing"
   img: 2024/dju-web/1-web-intro.jpg
   logistics:
@@ -17,7 +17,7 @@
     Chapter 03 디렉티브 태그: 한글 출력 및 페이지 모듈화하기</strong>
   supp:
   readings: p. 59-118
-  hw:
+  hw: "https://classroom.github.com/a/C-KrxYh4"
   slides: "https://docs.google.com/presentation/d/1Klpquhrdt_P54juJAxcPF_PSxcjrm0H__NoLbZ7ikmk/edit?usp=sharing"
   img: 2024/dju-web/2-scripts-directives.jpg
   logistics:
