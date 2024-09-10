@@ -18,7 +18,8 @@
   hw:
   slides: "https://docs.google.com/presentation/d/18qZensM7SVbwj1G6zeinNalz0yoyO9RfCXVot1D_M5s/edit?usp=sharing"
   img: 2024/dju-db/2-db-system.jpg
-  logistics:
+  logistics: >
+    <a href="https://docs.google.com/presentation/d/18Y-0nSrlGzUN3x7CETKwkAf-5t-1rFYCcAUEhueknRA/edit?usp=sharing">PostgreSQL #1</a>
 
 - date: 9/17
   week: 3
