@@ -1,47 +1,46 @@
 - date: 9/5
   week: 1
   title: >
-    <strong>수업 소개, 1장 한눈에 보는 머신러닝</strong>
+    <strong>수업 소개</strong>
   supp:
-  readings: p. 
-  hw: 
+  readings: p.
+  hw:
   slides: "https://docs.google.com/presentation/d/1TUnhrNPdww_9EMbzZMzNn-F_1T7Zt0JDMMP00rdtSOs/edit?usp=sharing"
   img: 2024/ut-data/1-intro-to-data-sci.jpg
-  logistics: 
+  logistics:
 
 - date: 9/12
   week: 2
   title: >
-    <strong>2장 머신러닝 프로젝트 처음부터 끝까지</strong>
+    <strong>1장 한눈에 보는 머신러닝</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
-  logistics: 
+  readings: p. 27-67
+  hw:
+  slides: "https://docs.google.com/presentation/d/1TGg7rGsrRqk5j9TC948R3aBOGBzBXSzRix4W_W2XtOk/edit?usp=sharing"
+  img: 2024/ut-data/2-ml-at-a-glance.jpg
+  logistics:
 
 - date: 9/19
   week: 3
   title: >
-    <strong>3장 분류<br>
-    4장 모델 훈련</strong>
+    <strong>2장 머신러닝 프로젝트 처음부터 끝까지</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
-  logistics: 
+  readings: p.
+  hw:
+  slides:
+  img:
+  logistics:
 
 - date: 9/26
   week: 4
   title: >
-    <strong>5장 서포트 벡터 머신<br>
-    6장 결정 트리</strong>
+    <strong>3장 분류<br>
+    4장 모델 훈련</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
+  readings: p.
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 10/3
@@ -52,12 +51,14 @@
 - date: 10/10
   week: 6
   title: >
-    <strong>7장 앙상블 학습과 랜덤 포레스트</strong>
+    <strong>5장 서포트 벡터 머신<br>
+    6장 결정 트리<br>
+    7장 앙상블 학습과 랜덤 포레스트</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
+  readings: p.
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 10/17
@@ -65,10 +66,10 @@
   title: >
     <strong>8장 차원 축소</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
+  readings: p.
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 10/24
@@ -85,10 +86,10 @@
   title: >
     <strong>9장 비지도 학습</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
+  readings: p.
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/7
@@ -97,10 +98,10 @@
     <strong>10장 케라스를 사용한 인공 신경망 소개<br>
     11장 심층 신경망 훈련</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
+  readings: p.
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/14
@@ -108,10 +109,10 @@
   title: >
     <strong>12장 텐서플로를 사용한 사용자 정의 모델과 훈련</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
+  readings: p.
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/21
@@ -120,10 +121,10 @@
     <strong>13장 텐서플로를 사용한 데이터 적재와 전처리<br>
     14장 합성곱 신경망을 사용한 컴퓨터 비전</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
+  readings: p.
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 11/28
@@ -132,10 +133,10 @@
     <strong>15장 RNN과 CNN을 사용한 시퀀스 처리<br>
     16장 RNN과 어텐션을 사용한 자연어 처리</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
+  readings: p.
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 12/5
@@ -143,10 +144,10 @@
   title: >
     <strong>17장 오토인코더, GAN 그리고 확산 모델</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
+  readings: p.
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 12/12
@@ -154,10 +155,10 @@
   title: >
     <strong>18장 강화 학습</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
+  readings: p.
+  hw:
+  slides:
+  img:
   logistics:
 
 - date: 12/19
