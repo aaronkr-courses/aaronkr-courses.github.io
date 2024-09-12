@@ -43,13 +43,16 @@
     </td>
     {% else %}
     <td>
-        {% if lecture.img %}
+        {% if lecture.slides %}
         <a href="{{ lecture.slides }}" target="_blank">
             <img src="{{ lecture.img | prepend: '/assets/img/' | relative_link }}" alt="slide thumbnail" style="max-width: 200px;" />
         </a>
         <br />
         {% else %}
         [ slides ]
+        {% endif %}
+        {% if lecture.slides2 %}
+        <a href="{{ lecture.slides2 }}" target="_blank">[ slides2 ]</a>
         {% endif %}
     </td>
     <td>
@@ -65,8 +68,11 @@
         {% endif %}
     </td>
     <td>
-        {% if lecture.hw %}
-        [ <a href="{{ lecture.hw }}" target="_blank">과제</a> ]
+        {% if lecture.hw1 %}
+        [ <a href="{{ lecture.hw1 }}" target="_blank">과제 am</a> ]
+        {% endif %}
+        {% if lecture.hw2 %}
+        <br />[ <a href="{{ lecture.hw2 }}" target="_blank">과제 pm</a> ]
         {% endif %}
         <p>{{ lecture.logistics }}</p>
     </td>
