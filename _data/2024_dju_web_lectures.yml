@@ -14,7 +14,7 @@
   week: 2
   title: >
     <strong>Chapter 02 스크립트 태그: 시작 페이지 만들기<br>
-    Chapter 03 디렉티브 태그: 한글 출력 및 페이지 모듈화하기</strong>
+    </strong>
   supp:
   readings: p. 59-118
   hw: "https://classroom.github.com/a/C-KrxYh4"
@@ -26,6 +26,19 @@
   week: 3
   title: >
     <span style="color: red"><strong>No Class</strong> Chuseok</span>
+
+- date: > 
+    <span style="color: red">9/21 (동영상 보강)</span>
+  week: 3
+  title: >
+    <strong>Chapter 03 디렉티브 태그: 한글 출력 및 페이지 모듈화하기<br>
+    Chapter 04 액션 태그: 상품 목록 표시하기</strong>
+  supp:
+  readings: p.
+  hw:
+  slides: "https://docs.google.com/presentation/d/1ZdmEnIB5m5z3GrrujlHAdDggIxVu-SS6IwVA7QJ7G4o/edit?usp=sharing"
+  img: 2024/dju-web/3-directives-actions.jpg
+  logistics:
 
 - date: 9/24
   week: 4
