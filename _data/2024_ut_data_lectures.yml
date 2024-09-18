@@ -15,7 +15,8 @@
     <strong>1장 한눈에 보는 머신러닝</strong>
   supp:
   readings: p. 27-67
-  hw:
+  hw1: "https://classroom.github.com/a/xfxqWKMC"
+  hw2: "https://classroom.github.com/a/W5hHbiDI"
   slides: "https://docs.google.com/presentation/d/1TGg7rGsrRqk5j9TC948R3aBOGBzBXSzRix4W_W2XtOk/edit?usp=sharing"
   img: 2024/ut-data/2-ml-at-a-glance.jpg
   logistics:
@@ -26,8 +27,8 @@
     <strong>2장 머신러닝 프로젝트 처음부터 끝까지</strong>
   supp:
   readings: p.
-  hw1:
-  hw2:
+  hw1: "https://classroom.github.com/a/EfJ-WpOH"
+  hw2: "https://classroom.github.com/a/JDaFRqGX"
   slides: "https://docs.google.com/presentation/d/1onWWgiSOLmHiKNFEfb-hMKZDblQL_xiDjpVL0oJugLg/edit?usp=sharing"
   img: 2024/ut-data/3-ml-project.jpg
   logistics:
