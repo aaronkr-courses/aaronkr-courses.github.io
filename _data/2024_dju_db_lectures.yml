@@ -26,7 +26,7 @@
   title: >
     <span style="color: red"><strong>No Class</strong> Chuseok</span>
 
-- date: > 
+- date: >
     <span style="color: red">9/21 (동영상 보강)</span>
   week: 3
   title: >
@@ -36,7 +36,9 @@
   hw:
   slides: "https://docs.google.com/presentation/d/1qwmWpPHghHnQpajJL9DmZOm51IzTSkGHNU1oL_JrmVA/edit?usp=sharing"
   img: 2024/dju-db/3-relational-data-model.jpg
-  logistics:
+  logistics: >
+    <a href="https://drive.google.com/file/d/1Hg4Y0yU174eAjQ2wmT-hJmmiWJ6n4d7s/view?usp=sharing">Chp 3 연습 문제</a><br>
+    <a href="https://docs.google.com/presentation/d/1EmHhUwbOk6vQ8i0Y5wVLSyt2TT6siIRFdFehboi7LEM/edit?usp=sharing">PostgreSQL #2</a>
 
 - date: 9/24
   week: 4
