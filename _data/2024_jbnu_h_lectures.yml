@@ -12,7 +12,7 @@
 - date: 9/9, 11
   week: 2
   title: >
-    <strong>1 - Fuel Cells for Transportation - Overview (book 2)</strong>
+    <strong>2 - Fuel Cells for Transportation - Overview (book 2)</strong>
   supp:
   readings: p. 1-26
   hw:
@@ -28,12 +28,12 @@
 - date: 9/23, 25
   week: 4
   title: >
-    <strong>2 - Hydrogen, II</strong>
+    <strong>3 - Electrochemistry and Thermodynamics</strong>
   supp:
   readings: p. 5-105
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1K8vEGg4Ioh-3H59gLlgPuBKCtznpcf2Y9d-qVoHc09E/edit?usp=sharing"
+  img: 2024/jbnu-h/4-elec-thermo.jpg
   logistics:
 
 - date: 9/30, 10/2
