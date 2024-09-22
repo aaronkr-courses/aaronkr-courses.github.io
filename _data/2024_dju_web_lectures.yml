@@ -38,7 +38,8 @@
   hw: "https://classroom.github.com/a/pN-Ohd3G"
   slides: "https://docs.google.com/presentation/d/1ZdmEnIB5m5z3GrrujlHAdDggIxVu-SS6IwVA7QJ7G4o/edit?usp=sharing"
   img: 2024/dju-web/3-directives-actions.jpg
-  logistics:
+  logistics: >
+    <a href="https://velog.io/@songunnie/project-git-clone%ED%95%9C-%ED%8F%B4%EB%8D%94%EB%A1%9C-Dynamic-Web-Project-%EB%A7%8C%EB%93%A4%EA%B8%B0">git 프로젝트 도움</a>
 
 - date: 9/24
   week: 4
