@@ -1,4 +1,4 @@
-- date: 9/2, 4
+- date: 9/2
   week: 1
   title: >
     <strong>Introduction<br>
@@ -10,7 +10,7 @@
   img: 2024/jbnu-data/1-intro-to-data-structs.jpg
   logistics:
 
-- date: 9/9, 11
+- date: 9/9
   week: 2
   title: >
     <strong>Chapter 2: Binary Search<br>
@@ -22,12 +22,12 @@
   img: 2024/jbnu-data/2-dynamic-structs.jpg
   logistics:
 
-- date: 9/16, 18
+- date: 9/16
   week: 3
   title: >
     <span style="color: red"><strong>No Class</strong> Chuseok</span>
 
-- date: 9/23, 25
+- date: 9/23
   week: 4
   title: >
     <strong>Chapter 4: Stacks and Queues</strong>
@@ -38,7 +38,7 @@
   img:
   logistics:
 
-- date: 9/30, 10/2
+- date: 9/30
   week: 5
   title: >
     <strong>Chapter 5: Binary Search Trees</strong>
@@ -49,7 +49,7 @@
   img:
   logistics:
 
-- date: 10/7, 9
+- date: 10/7
   week: 6
   title: >
     <strong>Chapter 6: Tries and Adapting Data Structures</strong><br>
@@ -61,7 +61,7 @@
   img:
   logistics:
 
-- date: 10/14, 16
+- date: 10/14
   week: 7
   title: >
     <strong>Chapter 7: Priority Queues and Heaps<br>
@@ -73,7 +73,7 @@
   img:
   logistics:
 
-- date: 10/21, 23
+- date: 10/21
   week: 8
   title: >
     <strong>Midterm Test</strong><br>
@@ -82,7 +82,7 @@
       [<a href="">실기</a>]
     </div>
 
-- date: 10/28, 30
+- date: 10/28
   week: 9
   title: >
     <strong>Chapter 9: Spatial Trees</strong>
@@ -93,7 +93,7 @@
   img:
   logistics:
 
-- date: 11/4, 6
+- date: 11/4
   week: 10
   title: >
     <strong>Chapter 10: Hash Tables<br>
@@ -105,7 +105,7 @@
   img:
   logistics:
 
-- date: 11/11, 13
+- date: 11/11
   week: 11
   title: >
     <strong>Chapter 12: B-Trees</strong>
@@ -116,7 +116,7 @@
   img:
   logistics:
 
-- date: 11/18, 20
+- date: 11/18
   week: 12
   title: >
     <strong>Chapter 13: Bloom Filters</strong>
@@ -127,7 +127,7 @@
   img:
   logistics:
 
-- date: 11/25, 27
+- date: 11/25
   week: 13
   title: >
     <strong>Chapter 14: Skip Lists</strong>
@@ -138,7 +138,7 @@
   img:
   logistics:
 
-- date: 12/2, 4
+- date: 12/2
   week: 14
   title: >
     <strong>Chapter 15: Graphs<br>
@@ -150,7 +150,7 @@
   img:
   logistics:
 
-- date: 12/9, 11
+- date: 12/9
   week: 16
   title: >
     <strong>Final Test</strong><br>
