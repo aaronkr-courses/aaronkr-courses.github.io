@@ -20,7 +20,7 @@
   slides2: "https://docs.google.com/presentation/d/18Y-0nSrlGzUN3x7CETKwkAf-5t-1rFYCcAUEhueknRA/edit?usp=sharing"
   img: 2024/dju-db/2-db-system.jpg
   logistics: >
-    <a href="https://docs.google.com/presentation/d/18Y-0nSrlGzUN3x7CETKwkAf-5t-1rFYCcAUEhueknRA/edit?usp=sharing">PostgreSQL #1</a>
+    GitHub 저장소
 
 - date: 9/17
   week: 3
@@ -28,41 +28,36 @@
     <span style="color: red"><strong>No Class</strong> Chuseok</span>
 
 - date: >
-    <span style="color: red">9/21 (동영상 보강)</span>
+    <span style="color: red">9/21 (보강)</span>
   week: 3
   title: >
     <strong>03 관계형 데이터 모델</strong>
   supp:
-  readings: p.
-  hw:
+  readings: p. 66-96
+  hw: "https://drive.google.com/file/d/1Hg4Y0yU174eAjQ2wmT-hJmmiWJ6n4d7s/view?usp=sharing"
   slides: "https://docs.google.com/presentation/d/1qwmWpPHghHnQpajJL9DmZOm51IzTSkGHNU1oL_JrmVA/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/1EmHhUwbOk6vQ8i0Y5wVLSyt2TT6siIRFdFehboi7LEM/edit?usp=sharing"
   img: 2024/dju-db/3-relational-data-model.jpg
   logistics: >
-    <a href="https://drive.google.com/file/d/1Hg4Y0yU174eAjQ2wmT-hJmmiWJ6n4d7s/view?usp=sharing">Chp 3 연습 문제</a><br>
-    <a href="https://docs.google.com/presentation/d/1EmHhUwbOk6vQ8i0Y5wVLSyt2TT6siIRFdFehboi7LEM/edit?usp=sharing">PostgreSQL #2</a>
+    3장 연습 문제
+
 
 - date: 9/24
   week: 4
   title: >
-    <strong>03 관계형 데이터 모델</strong>
+    <strong>04 관계 대수</strong>
   supp:
-  readings: p. 66-96
-  hw:
+  readings: p. 98-130
+  hw: "https://drive.google.com/file/d/1DIAXXa6SF785RKxtxCZTlWXHdKdCRS06/view?usp=sharing"
   slides: "https://docs.google.com/presentation/d/1CHemYt6g2OWAw30wVPsl4HZaK2F6zhMbjJt1t2kzDvY/edit?usp=sharing"
   img: 2024/dju-db/4-relational-algebra.jpg
-  logistics:
+  logistics: >
+    4장 연습 문제
 
 - date: 10/1
   week: 5
   title: >
-    <strong>04 관계 대수</strong>
-  supp:
-  readings: p. 98-130
-  hw:
-  slides:
-  img:
-  logistics:
+    <span style="color: red"><strong>No Class</strong> 국군의 날</span>
 
 - date: 10/8
   week: 6
