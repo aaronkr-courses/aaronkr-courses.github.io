@@ -36,7 +36,7 @@
 
   <tr class="{{ event_type }}">
     <th scope="row">{{ lecture.date }}</th>
-    {% if lecture.title contains 'Test' or forloop.last %}
+    {% if lecture.title contains 'Test' or lecture.title contains 'No Class' or forloop.last %}
     {% assign skip_classes = skip_classes | plus: 1 %}
     <td colspan="4" style="text-align: center; background: rgba(255, 255, 255, 0.075)">
         {{ lecture.title }}
@@ -50,6 +50,9 @@
         <br />
         {% else %}
         [ slides ]
+        {% endif %}
+        {% if lecture.slides2 %}
+        <a href="{{ lecture.slides2 }}" target="_blank">[ Additional #{{ forloop.index | minus: current_module | minus: skip_classes }} ]</a>
         {% endif %}
     </td>
     <td>
