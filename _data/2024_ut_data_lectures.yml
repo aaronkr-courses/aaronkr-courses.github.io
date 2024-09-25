@@ -3,7 +3,7 @@
   title: >
     <strong>수업 소개</strong>
   supp:
-  readings: p.
+  readings: p. 1-26
   hw:
   slides: "https://docs.google.com/presentation/d/1TUnhrNPdww_9EMbzZMzNn-F_1T7Zt0JDMMP00rdtSOs/edit?usp=sharing"
   img: 2024/ut-data/1-intro-to-data-sci.jpg
@@ -26,7 +26,7 @@
   title: >
     <strong>2장 머신러닝 프로젝트 처음부터 끝까지</strong>
   supp:
-  readings: p.
+  readings: p. 68-142
   hw1: "https://classroom.github.com/a/EfJ-WpOH"
   hw2: "https://classroom.github.com/a/JDaFRqGX"
   slides: "https://docs.google.com/presentation/d/1onWWgiSOLmHiKNFEfb-hMKZDblQL_xiDjpVL0oJugLg/edit?usp=sharing"
@@ -39,10 +39,10 @@
     <strong>3장 분류<br>
     4장 모델 훈련</strong>
   supp:
-  readings: p.
+  readings: p. 143-176
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1PTBHY3TSIIe3jNy-gm0FtKuhyH67GuslhFyNj6Yp56c/edit?usp=sharing"
+  img: 2024/ut-data-4-classification.jpg
   logistics:
 
 - date: 10/3
