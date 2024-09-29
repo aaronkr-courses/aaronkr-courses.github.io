@@ -39,18 +39,18 @@
 - date: 9/30
   week: 5
   title: >
-    <strong>3 - Fuel cells, I</strong>
+    <strong>3 - Electrochemistry and Thermodynamics II</strong>
   supp:
   readings: p. 107-220
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1ccMhncnAow1Fhse9Mx1MwrAGo2BlOYd0yZ4fBsL3_84/edit?usp=sharing"
+  img: 2024/jbnu-h/5-electro-thermo-ii.jpg
   logistics:
 
 - date: 10/7
   week: 6
   title: >
-    <strong>3 - Fuel cells, II</strong><br>
+    <strong>3 - Fuel cells</strong><br>
     <span style="color: red"><strong>No Class</strong> Hangul Day</span>
   supp:
   readings: p. 107-220
