@@ -29,9 +29,8 @@
 - date: 9/23
   week: 4
   title: >
-    <strong>2 - Circuit Building Blocks</strong><br>
-    - Chp 3. Types and Properties of Semiconductors<br>
-    - Chp 4. Wide Band Gap Semiconductors<br>
+    <strong>4 - Electric Circuits<br>
+    5 - Energy Bands &amp; Diodes</strong>
   supp:
   readings: p. 25-39
   hw:
@@ -42,14 +41,13 @@
 - date: 9/30
   week: 5
   title: >
-    <strong>3 - Building a System</strong><br>
-    - Chp 5. Doping Methods and Their Effects<br>
-    - Chp 6. Emerging Materials in Semiconductor Devices<br>
+    <strong>5 - Diodes<br>
+    6 - Transistors &amp; Integrated Circuits</strong>
   supp:
   readings: p. 41-56
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1ekYij693KrkzrDD1lfkZtj9f2o510YzMcKW6zDNZymo/edit?usp=sharing"
+  img: 2024/jbnu-chips/5-diodes-transistors.jpg
   logistics:
 
 - date: 10/7
