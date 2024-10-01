@@ -53,7 +53,7 @@
         {% endif %}
     </td>
     <td>
-        Week #{{ forloop.index | minus: current_module | minus: skip_classes }}:
+        Week #{{ forloop.index | minus: current_module }}:
         <br />
         {{ lecture.title }}
         {% if lecture.readings %}
