@@ -53,14 +53,14 @@
 - date: 10/7
   week: 6
   title: >
-    <strong>4 - Semiconductor Manufacturing</strong><br>
-    - Chp 7. Organic Semiconductor Devices<br>
+    <strong>7 - Semiconductor Industry<br>
+    8 - Photonic Devices</strong><br>
     <span style="color: red"><strong>No Class</strong> Hangul Day</span>
   supp:
   readings: p. 57-80
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1jG4qe6rV0uGAXefv-4hG5PaAqFSe_umE0Lieze4i7_g/edit?usp=sharing"
+  img: 2024/jbnu-chips/6-photonics.jpg
   logistics:
 
 - date: 10/14
