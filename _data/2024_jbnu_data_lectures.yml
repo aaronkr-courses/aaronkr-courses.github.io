@@ -41,30 +41,31 @@
 - date: 9/30
   week: 5
   title: >
-    <strong>Chapter 5: Binary Search Trees</strong>
+    <strong>Chapter 4: Breadth-First Search, Depth-First Search</strong>
   supp:
   readings: p. 55-74
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1o0NmqEqo4fOQ3O_Fc7hNt6O6AHG5wZlOeRy8V71YYEI/edit?usp=sharing"
+  img: 2024/jbnu-data/5-bfs-dfs.jpg
   logistics:
 
 - date: 10/7
   week: 6
   title: >
-    <strong>Chapter 6: Tries and Adapting Data Structures</strong><br>
+    <strong>Chapter 5: Binary Search Trees</strong><br>
     <span style="color: red"><strong>No Class</strong> Hangul Day</span>
   supp:
   readings: p. 75-92
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1X4GhVQ5_pOErCkaV7ozXoZHGqIJl9VtornWSbcb7Iz0/edit?usp=sharing"
+  img: 2024/jbnu-data/6-bst.jpg
   logistics:
 
 - date: 10/14
   week: 7
   title: >
-    <strong>Chapter 7: Priority Queues and Heaps<br>
+    <strong>Chapter 6: Tries and Adapting Data Structures<br>
+    Chapter 7: Priority Queues and Heaps<br>
     Chapter 8: Grids</strong>
   supp:
   readings: p. 93-138
