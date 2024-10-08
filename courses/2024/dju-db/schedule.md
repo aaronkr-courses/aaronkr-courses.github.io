@@ -52,7 +52,7 @@
         [ slides ]
         {% endif %}
         {% if lecture.slides2 %}
-        <a href="{{ lecture.slides2 }}" target="_blank">[ Additional #{{ forloop.index | minus: current_module | minus: skip_classes }} ]</a>
+        <a href="{{ lecture.slides2 }}" target="_blank">[ Additional #{{ forloop.index | minus: current_module }} ]</a>
         {% endif %}
     </td>
     <td>
