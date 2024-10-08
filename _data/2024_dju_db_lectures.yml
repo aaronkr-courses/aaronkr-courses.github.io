@@ -66,10 +66,11 @@
     06 SQL 활용</strong>
   supp:
   readings: p. 132-186, p. 188-226
-  hw:
+  hw: "https://drive.google.com/file/d/1aqzmFKgIJD-wdPlycL_ZoYZ0eGLoroYp/view?usp=sharing"
   slides: "https://docs.google.com/presentation/d/1CHemYt6g2OWAw30wVPsl4HZaK2F6zhMbjJt1t2kzDvY/edit?usp=sharing"
   img: 2024/dju-db/6-sql-basics.jpg
-  logistics:
+  logistics: >
+    5장 연습 문제
 
 - date: 10/15
   week: 7
