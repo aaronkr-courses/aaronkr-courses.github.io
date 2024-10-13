@@ -50,7 +50,7 @@
 - date: 10/7
   week: 6
   title: >
-    <strong>3 - Fuel cells</strong><br>
+    <strong>4 - Hydrogen Production I</strong><br>
     <span style="color: red"><strong>No Class</strong> Hangul Day</span>
   supp:
   readings: p. 107-220
@@ -62,12 +62,12 @@
 - date: 10/14
   week: 7
   title: >
-    <strong>4 - Fuel cell systems, I</strong>
+    <strong>4 - Hydrogen Production II</strong>
   supp:
   readings: p. 221-272
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1ZBJarMe5zrZo2vdxYOuaCXkKQDQWQE6jcp_MRm0klBI/edit?usp=sharing"
+  img: 2024/jbnu-h/7-h-prod-2.jpg
   logistics:
 
 - date: 10/21
