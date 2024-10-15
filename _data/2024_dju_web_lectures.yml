@@ -76,9 +76,9 @@
     Chapter 08 유효성 검사: 상품 등록 데이터의 유효성 검사하기</strong>
   supp:
   readings: p. 236-274, 276-310
-  hw:
-  slides:
-  img:
+  hw: "https://classroom.github.com/a/BOJWSL2P"
+  slides: "https://docs.google.com/presentation/d/1GPeh6S8WpWfBSuHCyWanOLSJlPt4HUOhn4gGnG_XXzc/edit?usp=sharing"
+  img: 2024/dju-web/7-file-upload.jpg
   logistics:
 
 - date: 10/22
