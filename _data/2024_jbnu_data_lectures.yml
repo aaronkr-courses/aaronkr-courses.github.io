@@ -64,9 +64,8 @@
 - date: 10/14
   week: 7
   title: >
-    <strong>Chapter 6: Tries and Adapting Data Structures<br>
-    Chapter 7: Priority Queues and Heaps<br>
-    Chapter 8: Grids</strong>
+    Linked List coding<br>
+    <strong>Midterm Study Guide</strong>
   supp:
   readings: p. 93-138
   hw:
@@ -86,7 +85,10 @@
 - date: 10/28
   week: 9
   title: >
-    <strong>Chapter 9: Spatial Trees</strong>
+    <strong>Chapter 6: Tries and Adapting Data Structures<br>
+    Chapter 7: Priority Queues and Heaps<br>
+    Chapter 8: Grids<br>
+    Chapter 9: Spatial Trees</strong>
   supp:
   readings: p. 139-170
   hw:
