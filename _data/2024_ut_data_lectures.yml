@@ -67,35 +67,36 @@
   title: >
     <strong>5장 서포트 벡터 머신<br>
     6장 결정 트리<br>
-    7장 앙상블 학습과 랜덤 포레스트<br>
-    8장 차원 축소</strong>
+    7장 앙상블 학습과 랜덤 포레스트</strong>
   supp:
-  readings: p.
+  readings: p. 177-296
   hw1: "https://classroom.github.com/a/OnVgv0M3"
   hw2: "https://classroom.github.com/a/V3vUlq5O"
   slides: "https://docs.google.com/presentation/d/1WunSoesW_wXc5nzeX2_VK1LQkraNDNL3dxGpKIFd6xw/edit?usp=sharing"
   img: 2024/ut-data/7-3-models.jpg
   logistics:
 
-- date: 10/24
+- date: > 
+    10/24 <span style="color: red">LMS</span>
   week: 8
   title: >
-    <strong>Midterm Test</strong><br>
-    <div style="display: none;"><br>
-      [<a href="">퀴즈</a>]
-      [<a href="">실기</a>]
-    </div>
-
-- date: 10/31
-  week: 9
-  title: >
-    <strong>9장 비지도 학습</strong>
+    <strong>8장 차원 축소<br>
+    9장 비지도 학습</strong>
   supp:
   readings: p.
   hw:
   slides:
   img:
   logistics:
+
+- date: 10/31
+  week: 9
+  title: >
+    <strong>Midterm Test</strong><br>
+    <div style="display: none;"><br>
+      [<a href="">퀴즈</a>]
+      [<a href="">실기</a>]
+    </div>
 
 - date: 11/7
   week: 10
