@@ -71,9 +71,10 @@
     8장 차원 축소</strong>
   supp:
   readings: p.
-  hw:
-  slides:
-  img:
+  hw1:
+  hw2: 
+  slides: "https://docs.google.com/presentation/d/1WunSoesW_wXc5nzeX2_VK1LQkraNDNL3dxGpKIFd6xw/edit?usp=sharing"
+  img: 2024/ut-data/7-3-models.jpg
   logistics:
 
 - date: 10/24
