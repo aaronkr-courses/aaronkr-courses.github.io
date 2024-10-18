@@ -59,9 +59,10 @@
 - date: 10/11
   week: 6
   title: >
-    <strong>09 반복문</strong>
+    <strong>09 반복문<br>
+    10 시프트 연산자와 비트 연산자</strong>
   supp:
-  readings: p. 176-227
+  readings: p. 176-225
   hw: "https://classroom.github.com/a/PAVFKz_t"
   slides: "https://docs.google.com/presentation/d/1XXWbXEX3pR4Ngud3HkUIDP81X6TsM6dixpn5Q614xyU/edit?usp=sharing"
   img: 2024/hb-c/6-loops-shifts.jpg
@@ -70,13 +71,13 @@
 - date: 10/18
   week: 7
   title: >
-    <strong>10 시프트 연산자와 비트 연산자<br>
-    11 지역 변수와 전역 변수</strong>
+    <strong>11 지역 변수와 전역 변수<br>
+    12 배열과 문자열</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
+  readings: p. 226-288
+  hw: "https://classroom.github.com/a/m5uN5L3t"
+  slides: "https://docs.google.com/presentation/d/19UHBMpkpZbhRO9Caus7-xr-r6fjfDn8rKhhwU0sTtdY/edit?usp=sharing"
+  img: 2024/hb-c/7-scope-arrays.jpg
   logistics:
 
 - date: 10/25
@@ -91,7 +92,7 @@
 - date: 11/1
   week: 9
   title: >
-    <strong>12 배열과 문자열<br>
+    <strong><br>
     13 포인터</strong>
   supp:
   readings: p. 
