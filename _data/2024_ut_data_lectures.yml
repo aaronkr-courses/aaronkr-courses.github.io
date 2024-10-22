@@ -76,7 +76,7 @@
   logistics:
 
 - date: > 
-    10/24 <span style="color: red">LMS</span>
+    10/24 <a style="color: red" href="https://ecampus.ut.ac.kr/">LMS</a>
   week: 8
   title: >
     <strong>7장 앙상블 학습과 랜덤 포레스트<br>
