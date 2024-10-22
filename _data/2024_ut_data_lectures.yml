@@ -66,8 +66,7 @@
   week: 7
   title: >
     <strong>5장 서포트 벡터 머신<br>
-    6장 결정 트리<br>
-    7장 앙상블 학습과 랜덤 포레스트</strong>
+    6장 결정 트리</strong>
   supp:
   readings: p. 177-296
   hw1: "https://classroom.github.com/a/OnVgv0M3"
@@ -80,8 +79,8 @@
     10/24 <span style="color: red">LMS</span>
   week: 8
   title: >
-    <strong>8장 차원 축소<br>
-    9장 비지도 학습</strong>
+    <strong>7장 앙상블 학습과 랜덤 포레스트<br>
+    8장 차원 축소</strong>
   supp:
   readings: p. p. 268-323
   hw1: "https://classroom.github.com/a/QRfTIAap"
@@ -102,7 +101,8 @@
 - date: 11/7
   week: 10
   title: >
-    <strong>10장 케라스를 사용한 인공 신경망 소개<br>
+    <strong>9장 비지도 학습<br>
+    10장 케라스를 사용한 인공 신경망 소개<br>
     11장 심층 신경망 훈련</strong>
   supp:
   readings: p.
