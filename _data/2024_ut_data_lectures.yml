@@ -83,10 +83,10 @@
     <strong>8장 차원 축소<br>
     9장 비지도 학습</strong>
   supp:
-  readings: p.
+  readings: p. p. 268-323
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1goTW6RepqzHNa3JZDuP8KadDMNuO2ZpyvSvQAiHStxY/edit?usp=sharing"
+  img: 2024/ut-data/8-ensemble-dim.jpg
   logistics:
 
 - date: 10/31
