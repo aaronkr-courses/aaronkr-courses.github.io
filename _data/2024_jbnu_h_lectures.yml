@@ -86,7 +86,8 @@
   hw:
   slides: "https://docs.google.com/presentation/d/1LOagiipx_3kLgA4pED4UbAmV7RQ78KCA46kkMJDQJHI/edit?usp=sharing"
   img: 2024/jbnu-h/9-hydro-storage-transmission.jpg
-  logistics:
+  logistics: >
+    <a href="https://docs.google.com/document/d/17-BaNC1jGPIa5ENJyO5FYts_uMhe99Xk/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true">Paper</a>
 
 - date: 11/4
   week: 10
