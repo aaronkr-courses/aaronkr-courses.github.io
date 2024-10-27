@@ -66,9 +66,8 @@
 - date: 10/14
   week: 7
   title: >
-    <strong>5 - Tying the System Together</strong><br>
-    - Chp 8. Organic Semiconductors for Electrochemical Energy Applications<br>
-    - Chp 9. Nanotechnology in Semiconductors<br>
+    <strong>8 - Photonic Devices<br>
+    9 - Light Detection &amp; Photocell</strong>
   supp:
   readings: p. 81-95
   hw:
@@ -79,21 +78,19 @@
 - date: 10/21
   week: 8
   title: >
-    <strong>Midterm Test</strong> [<a href="https://docs.google.com/presentation/d/1btjGW1-mEq_dbMeCx9cRGUMQurIcgWvfkdwrDk2c1J4/edit?usp=sharing">Study Guide</a>]<br>
-    <a href="https://forms.gle/aRcWx4izEwZBMyo86">Test</a>
+    <strong>Midterm Test</strong><br>
+    [<a href="https://docs.google.com/presentation/d/1btjGW1-mEq_dbMeCx9cRGUMQurIcgWvfkdwrDk2c1J4/edit?usp=sharing">Study Guide</a>]<br>
     <div style="display: none;"><br>
-      [<a href="">퀴즈</a>]
-      [<a href="">실기</a>]
+      <a href="https://forms.gle/aRcWx4izEwZBMyo86">Test</a>
     </div>
 
 - date: 10/28
   week: 9
   title: >
-    <strong>6 - Common Circuits and System Components</strong><br>
-    - Chp 10. The Development and Processing of Advanced Low-Dimensional Semiconductors<br>
-    - Chp 11. Fundamentals and Advanced Concepts of Microprocessors<br>
+    <strong>10 - Manufacture of Silicon Wafer<br>
+    11 - Basic Knowledge of Process</strong>
   supp:
-  readings: p. 97-135
+  readings: p.
   hw:
   slides:
   img:
@@ -102,11 +99,10 @@
 - date: 11/4
   week: 10
   title: >
-    <strong>7 - RF and Wireless Technologies</strong><br>
-    - Chp 12. Fundamentals and Recent Advancements in Photodetectors Using Semiconductors<br>
-    - Chp 13. Semiconductor Photoelectrochemistry<br>
+    <strong>12 - Photolithography<br>
+    13 - Dielectric Films Growth</strong>
   supp:
-  readings: p. 137-154
+  readings: p.
   hw:
   slides:
   img:
@@ -115,11 +111,10 @@
 - date: 11/11
   week: 11
   title: >
-    <strong>8 - System Architecture and Integration</strong><br>
-    - Chp 14. Semiconductors for Transparent Conductors<br>
-    - Chp 15. Semiconductor-based Photodiodes<br>
+    <strong>14 - Etching and RIE System<br>
+    15 - Dry Etching</strong>
   supp:
-  readings: p. 155-174
+  readings: p.
   hw:
   slides:
   img:
@@ -128,11 +123,10 @@
 - date: 11/18
   week: 12
   title: >
-    <strong>9 - The Semiconductor Industry – Past, Present, and Future</strong><br>
-    - Chp 16. Semiconductors for Solar Cells<br>
-    - Chp 17. Semiconductor Lasers<br>
+    <strong>16 - Metal Processes<br>
+    17 - Doping Processes</strong>
   supp:
-  readings: p. 175-210
+  readings: p.
   hw:
   slides:
   img:
@@ -141,11 +135,10 @@
 - date: 11/25
   week: 13
   title: >
-    <strong>10 - The Future of Semiconductors and Electronic Systems</strong><br>
-    - Chp 18. Semiconductor-based Light Emitting Diodes<br>
-    - Chp 19. Semiconductor-based Transistors<br>
+    <strong>17 - Doping Processes, II<br>
+    18 - Process Control Monitor, Packaging, etc.</strong>
   supp:
-  readings: p. 211-223
+  readings: p.
   hw:
   slides:
   img:
@@ -154,19 +147,26 @@
 - date: 12/2
   week: 14
   title: >
-    - Chp 20. Non-Volatile Memory Devices<br>
-    - Chp 21. Sensors Based on Semiconductors<br>
-    - Chp 22. Semiconductor-based Ferroelectrics<br>
-    - Chp 23. Role of Semiconductors in Energy Devices<br>
-    - Chp 24. Role of Semiconductors in Future Flexible Batteries<br>
+    <strong>Circuit Design or TBA</strong>
   supp:
-  readings: p. 463-491
+  readings: p.
   hw:
   slides:
   img:
   logistics:
 
 - date: 12/9
+  week: 15
+  title: >
+    <strong>Circuit Design or TBA</strong>
+  supp:
+  readings: p.
+  hw:
+  slides:
+  img:
+  logistics:
+
+- date: 12/16
   week: 16
   title: >
     <strong>Final Test</strong><br>

@@ -77,21 +77,19 @@
   week: 8
   title: >
     <strong>Midterm Test</strong><br>
-    [<a href="https://forms.gle/9VPJ4wwPDvVkqx7T9">3:00pm Test</a>]
     <div style="display: none;"><br>
       [<a href="https://forms.gle/ttHc2kij1EgUoY1H7">1:00pm Test</a>]<br>
-      [<a href="https://forms.gle/Rt78av7X7B1E3SKe6">2:00pm Test</a>]
+      [<a href="https://forms.gle/Rt78av7X7B1E3SKe6">2:00pm Test</a>]<br>
+      [<a href="https://forms.gle/9VPJ4wwPDvVkqx7T9">3:00pm Test</a>]
     </div>
 
 - date: 10/28
   week: 9
   title: >
     <strong>Chapter 6: Tries and Adapting Data Structures<br>
-    Chapter 7: Priority Queues and Heaps<br>
-    Chapter 8: Grids<br>
-    Chapter 9: Spatial Trees</strong>
+    Chapter 7: Priority Queues and Heaps<br></strong>
   supp:
-  readings: p. 139-170
+  readings: p. 75-112
   hw:
   slides:
   img:
@@ -99,6 +97,18 @@
 
 - date: 11/4
   week: 10
+  title: >
+    <strong>Chapter 8: Grids<br>
+    Chapter 9: Spatial Trees</strong>
+  supp:
+  readings: p. 112-170
+  hw:
+  slides:
+  img:
+  logistics:
+
+- date: 11/11
+  week: 11
   title: >
     <strong>Chapter 10: Hash Tables<br>
     Chapter 11: Caches</strong>
@@ -109,8 +119,8 @@
   img:
   logistics:
 
-- date: 11/11
-  week: 11
+- date: 11/18
+  week: 12
   title: >
     <strong>Chapter 12: B-Trees</strong>
   supp:
@@ -120,8 +130,8 @@
   img:
   logistics:
 
-- date: 11/18
-  week: 12
+- date: 11/25
+  week: 13
   title: >
     <strong>Chapter 13: Bloom Filters</strong>
   supp:
@@ -131,8 +141,8 @@
   img:
   logistics:
 
-- date: 11/25
-  week: 13
+- date: 12/2
+  week: 14
   title: >
     <strong>Chapter 14: Skip Lists</strong>
   supp:
@@ -142,8 +152,8 @@
   img:
   logistics:
 
-- date: 12/2
-  week: 14
+- date: 12/9
+  week: 15
   title: >
     <strong>Chapter 15: Graphs<br>
     Conclusion</strong>
@@ -154,7 +164,7 @@
   img:
   logistics:
 
-- date: 12/9
+- date: 12/16
   week: 16
   title: >
     <strong>Final Test</strong><br>

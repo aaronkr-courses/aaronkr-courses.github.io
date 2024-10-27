@@ -1,4 +1,8 @@
-﻿@media screen and (min-width: 676px) {
+﻿.projects .card-item {
+  width: 100%;
+}
+
+@media screen and (min-width: 676px) {
   .instructor-profile-one-col,
   .instructor-profile-two-col,
   .instructor-profile-three-col {
