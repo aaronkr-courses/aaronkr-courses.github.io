@@ -52,6 +52,30 @@ Main-Text:
 
 ---
 
+## Assignments 과제
+
+Assignment Files:
+
+- `0-python-basics.ipynb` (**4 pts**)
+  - Basic Data Types (int, float, complex, arrays, objects)
+  - Getting User Input
+  - Conditionals
+  - Loops (for, while)
+- `1-info-in-memory.ipynb` (**6 pts**)
+  - Array value swap
+  - Insertion sort
+  - String equality
+- `2-binary-search-linked-lists.ipynb` (**10 pts**)
+  - Linear scan
+  - Binary search
+  - Array doubling
+  - Linked lists
+    - Lookup
+    - Insertion
+    - Deletion
+
+---
+
 ## Overview 개요
 
 <strong>Data Structures the Fun Way</strong> <a href="https://nostarch.com/data-structures-fun-way">No Starch Link</a>
