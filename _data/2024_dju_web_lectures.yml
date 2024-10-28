@@ -72,10 +72,9 @@
 - date: 10/15
   week: 7
   title: >
-    <strong>Chapter 07 파일 업로드: 상품 이미지 등록하기<br>
-    Chapter 08 유효성 검사: 상품 등록 데이터의 유효성 검사하기</strong>
+    <strong>Chapter 07 파일 업로드: 상품 이미지 등록하기</strong>
   supp:
-  readings: p. 236-274, 276-310
+  readings: p. 236-274
   hw: "https://classroom.github.com/a/BOJWSL2P"
   slides: "https://docs.google.com/presentation/d/1GPeh6S8WpWfBSuHCyWanOLSJlPt4HUOhn4gGnG_XXzc/edit?usp=sharing"
   img: 2024/dju-web/7-file-upload.jpg
@@ -93,20 +92,21 @@
 - date: 10/29
   week: 9
   title: >
-    <strong>Chapter 09 다국어 처리: 상품 등록 페이지의 다국어 처리하기</strong>
+    <strong>Chapter 08 유효성 검사: 상품 등록 데이터의 유효성 검사하기</strong>
   supp:
-  readings: p. 312-352
+  readings: p. 276-310
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1RIpz1rvhRUA2mZ0lLuBOEt2GOGnxD02YY1dnsESIZWA/edit?usp=sharing"
+  img: 2024/dju-web/9-validation.jpg
   logistics:
 
 - date: 11/5
   week: 10
   title: >
-    <strong>Chapter 10 시큐리티: 상품 등록 페이지의 보안 처리하기</strong>
+    <strong>Chapter 09 다국어 처리: 상품 등록 페이지의 다국어 처리하기<br>
+    Chapter 10 시큐리티: 상품 등록 페이지의 보안 처리하기</strong>
   supp:
-  readings: p. 354-382
+  readings: p. 312-352, 354-382
   hw:
   slides:
   img:
