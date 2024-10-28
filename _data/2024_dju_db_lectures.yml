@@ -41,7 +41,6 @@
   logistics: >
     3장 연습 문제
 
-
 - date: 9/24
   week: 4
   title: >
@@ -62,10 +61,9 @@
 - date: 10/8
   week: 6
   title: >
-    <strong>05 SQL 기초<br>
-    06 SQL 활용</strong>
+    <strong>05 SQL 기초</strong>
   supp:
-  readings: p. 132-186, p. 188-226
+  readings: p. 132-186
   hw: "https://drive.google.com/file/d/1aqzmFKgIJD-wdPlycL_ZoYZ0eGLoroYp/view?usp=sharing"
   slides: "https://docs.google.com/presentation/d/1Yr94Q-BhWnzQYb7VOizdvpOiMj1RVMyFnFjqaI3bQkw/edit?usp=sharing"
   img: 2024/dju-db/6-sql-basics.jpg
@@ -75,39 +73,41 @@
 - date: 10/15
   week: 7
   title: >
-    <strong>07 SQL 응용</strong>
+    <strong>06 SQL 활용</strong>
   supp:
-  readings: p. 228-282
+  readings: p. 188-226
   hw: "https://drive.google.com/file/d/1__LVNf5gPwPL-tcUqItGOzB8-CXBGqhA/view?usp=sharing"
   slides: "https://docs.google.com/presentation/d/177vgQvQGSxfwptzZO4K5VmNa_RgofkulVSQRWyDHoPc/edit?usp=sharing"
   img: 2024/dju-db/7-sql-use.jpg
-  logistics:
+  logistics: >
+    6장 연습 문제
 
 - date: 10/22
   week: 8
   title: >
     <strong>Midterm Test</strong><br>
-    [<a href="https://forms.gle/6q77bNa7j8nYu4hb7">퀴즈</a>] 
-    [<a href="https://docs.google.com/presentation/d/1dPZeRL_wIPsUHi6oG-rz4fFA0H52JBuelDGD_jAF8i8/edit?usp=sharing">실기</a>]
     <div style="display: none;"><br>
-      
+      [<a href="https://forms.gle/6q77bNa7j8nYu4hb7">퀴즈</a>] 
+      [<a href="https://docs.google.com/presentation/d/1dPZeRL_wIPsUHi6oG-rz4fFA0H52JBuelDGD_jAF8i8/edit?usp=sharing">실기</a>]
     </div>
 
 - date: 10/29
   week: 9
   title: >
-    <strong>08 정규화</strong>
+    <strong>07 SQL 응용</strong>
   supp:
-  readings: p. 284-314
+  readings: p. 227-282
   hw:
-  slides:
-  img:
-  logistics:
+  slides: "https://docs.google.com/presentation/d/1jLl9lepQWUbvdLYNPr6cLL7jWbQhFq_IV5dUAcVxiFA/edit?usp=sharing"
+  img: 2024/dju-db/9-sql-app.jpg
+  logistics: >
+    7장 연습 문제
 
 - date: 11/5
   week: 10
   title: >
-    <strong>09 E-R 모델</strong>
+    <strong>08 정규화<br>
+    09 E-R 모델</strong>
   supp:
   readings: p. 316-340
   hw:
