@@ -84,7 +84,7 @@
   week: 8
   title: >
     <strong>Midterm Test</strong><br>
-    <div><br>
+    <div style="display: none;">
       [<a href="https://forms.gle/dLr87oHGcARw4bZ37">퀴즈</a>]
       [<a href="https://classroom.github.com/a/OC_OKlvj">실기</a>]
     </div>
