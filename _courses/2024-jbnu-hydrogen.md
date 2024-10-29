@@ -79,17 +79,9 @@ This new edition has updated and expanded content on hydrogen storage and transm
 
 ### Course Information / 과정정보
 
-시간이 지나도 변하지 않고 컴퓨팅 세계의 기반을 강화하는 데 도움이 되는 전문적이고 안전하며 이식 가능한 C 코드를 작성하는 방법을 알아본다.
+This course focuses on the latest Hydrogen Fuel Cell technologies and their applications. The course will cover the basic principles of hydrogen production, storage, and fuel cell operation. The course will also cover the latest research and development in the field of hydrogen fuel cells.
 
-- **프로그래밍(50%)** 직무에 필요한 문제 또는 시스템을 프로그래밍 언어로 구현할 수 있는 역량
-- **전공기초(40%)** 정보통신전공을 수행할 수 있는 공학적 기초개념, 수학, 물리학 등의 기본역량
-- **자기주도문제해결(10%)** 프로젝트, 캡스톤디자인 및 지식재산권, 공학경영, 논문작성 등 전공분야에 밀접하게 연관된 비전공분야의 역량
-
-Students will learn how to write professional, safe, and portable C code that doesn't change over time and helps strengthen the foundations of the world of computing.
-
-- **Programming (50%)** Ability to implement problems or systems required for the job in a programming language
-- **Major foundations (40%)** Basic competencies such as basic engineering concepts, mathematics, physics, etc.
-- **Self-directed problem solving (10%)** Competence in non-major fields closely related to major fields, such as project, capstone design and intellectual property rights, engineering management, and thesis writing
+We will use a combination of lectures and videos to cover the material. The course will be graded based on attendance, participation, tests, and a final project.
 
 <a class="btncv" href="#">Top</a>
 
