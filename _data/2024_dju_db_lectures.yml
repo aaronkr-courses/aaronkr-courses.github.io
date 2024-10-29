@@ -81,7 +81,7 @@
   img: 2024/dju-db/7-sql-use.jpg
   logistics: >
     6장 연습 문제<br>
-    <span style="color: green;">인덱스 예시 (보충 PPT #32)</a>
+    <span style="color: purple;">인덱스 예시 (보충 PPT #32)</span>
 
 - date: 10/22
   week: 8
