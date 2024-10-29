@@ -1,17 +1,17 @@
 ﻿#### Grading 평가방법
 
-The class requirements include brief reading summaries, (at least) 3 projects, and 2 tests.
+The class requirements include brief assignments, (various) projects, and 2 tests.
 The grading breakdown is as follows:
 
-- Attendance (& Participation) (10%)
-- Assignments & Practice Exercises (30%)
-- Projects (10%)
-- Midterm Test (20%)
-- Final Test (30%)
+- Attendance (& Participation)
+- Assignments & Practice Exercises
+- Project
+- Midterm Test
+- Final Test
 
 ---
 
-#### Attendance (& Participation) (10%)
+#### Attendance (& Participation)
 
 We appreciate everyone being actively involved in the class!
 Students who will succeed are those who are actively involved:
@@ -19,16 +19,16 @@ Students who will succeed are those who are actively involved:
 - **Active participation:** What does "active participation" look like? It means that you are engaged in the class, asking questions, answering questions, and participating in discussions.
 - **Disinterest:** Students who are not interested in the class do not study, do not participate, and do not do well on the tests. They will get a low grade.
 
-#### Assignments & Practice Exercises (30%)
+#### Assignments & Practice Exercises
 
 There will be various practice exercises we will do together in class. There will also be some homework assignments for you to do on your own at home and submit online. We may also have some in-class quizzes to be submitted online.
 These assignments may contain material that has been covered by published papers and webpages.
 
-#### Projects (10%)
+#### Projects
 
 There will be (at least) three projects in this class (HTML, CSS, JavaScript). You will be required to submit a URL with your code or results.
 
-#### Tests (50%)
+#### Tests
 
 There will be two tests in this class: a midterm and a final. Both tests may include both written and programming questions. The written questions will be similar to the homework questions, and the programming questions will be similar to the programming assignments. Written questions will be closed-book, and programming questions will be open-book (i.e., you can use any resources you want, including the Internet).
 
