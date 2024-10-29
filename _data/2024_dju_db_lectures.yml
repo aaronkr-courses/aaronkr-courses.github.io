@@ -74,7 +74,7 @@
   week: 7
   title: >
     <strong>06 SQL 활용</strong>
-  supp: "https://docs.google.com/presentation/d/1ItZuJgwlhK-3HCqVuVEa_my9uMHpYN_RCIPDFkY70bw/edit?usp=sharing"
+  supp: 
   readings: p. 188-226
   hw: "https://drive.google.com/file/d/1__LVNf5gPwPL-tcUqItGOzB8-CXBGqhA/view?usp=sharing"
   slides: "https://docs.google.com/presentation/d/177vgQvQGSxfwptzZO4K5VmNa_RgofkulVSQRWyDHoPc/edit?usp=sharing"
@@ -100,6 +100,7 @@
   readings: p. 227-282
   hw:
   slides: "https://docs.google.com/presentation/d/1jLl9lepQWUbvdLYNPr6cLL7jWbQhFq_IV5dUAcVxiFA/edit?usp=sharing"
+  slides2: "https://docs.google.com/presentation/d/1ItZuJgwlhK-3HCqVuVEa_my9uMHpYN_RCIPDFkY70bw/edit?usp=sharing"
   img: 2024/dju-db/9-sql-app.jpg
   logistics: >
     7장 연습 문제
