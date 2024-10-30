@@ -12,5 +12,6 @@
 - <a href="https://dl.jbnu.ac.kr">JBNU Digital Library</a> (Get access to articles with your JBNU ID)
 - <a href="https://www.scopus.com">Scopus</a>
 - <a href="https://www.sciencedirect.com/">Science Direct</a>
+- <a href="https://arxiv.org">ArXiv Preprint Repository</a>
 - <a href="https://researchgate.net">Research Gate</a>
 - <a href="https://scholar.google.com/">Google Scholar</a>

@@ -95,9 +95,9 @@
 - date: 11/4
   week: 10
   title: >
-    <strong>5 - Implementation scenarios, I</strong>
+    <strong>5 - Hydrogen Storage, Transmission, Conversion</strong>
   supp:
-  readings: p. 273-411
+  readings: p. 55-105
   hw:
   slides:
   img:
@@ -106,9 +106,9 @@
 - date: 11/11
   week: 11
   title: >
-    <strong>5 - Implementation scenarios, II</strong>
+    <strong>6 - Fuel Cell Types</strong>
   supp:
-  readings: p. 273-411
+  readings: p. 149-220
   hw:
   slides:
   img:
@@ -117,9 +117,9 @@
 - date: 11/18
   week: 12
   title: >
-    <strong>6 - Social implications, I</strong>
+    <strong>7 - Fuel Cell Systems</strong>
   supp:
-  readings: p. 413-461
+  readings: p. 221-272
   hw:
   slides:
   img:
@@ -128,9 +128,9 @@
 - date: 11/25
   week: 13
   title: >
-    <strong>6 - Social implications, II</strong>
+    <strong>8 - Implementation Scenarios</strong>
   supp:
-  readings: p. 413-461
+  readings: p. 273-411
   hw:
   slides:
   img:
@@ -139,9 +139,9 @@
 - date: 12/2
   week: 14
   title: >
-    <strong>7 - Conclusion: A conditional outcome</strong>
+    <strong>9 - Social Implications &amp; Conclusion</strong>
   supp:
-  readings: p. 463-491
+  readings: p. 413-491
   hw:
   slides:
   img:
@@ -150,7 +150,7 @@
 - date: 12/9
   week: 15
   title: >
-    <strong>TBA</strong>
+    <strong>Research Presentations</strong>
   supp:
   readings: p. 463-491
   hw:
