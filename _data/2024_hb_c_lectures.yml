@@ -93,13 +93,13 @@
 - date: 11/1
   week: 9
   title: >
-    <strong><br>
+    <strong>12 배열과 문자열<br>
     13 포인터</strong>
   supp:
-  readings: p. 
+  readings: p. 289-333
   hw: 
-  slides: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/1tzxXyGoTG_w6W9x0eqe4F2cSpfG6lDl2S-eJR-CfI0I/edit?usp=sharing"
+  img: 2024/hb-c/9-pointers.jpg
   logistics:
 
 - date: 11/8
