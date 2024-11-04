@@ -104,8 +104,8 @@
   supp:
   readings: p.
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/19GhyAnXH3CQSfQke0x21GSepxG-ljroZFwm7B3uFx0Q/edit?usp=sharing"
+  img: 2024/jbnu-chips/10-lithography.jpg
   logistics:
 
 - date: 11/11
