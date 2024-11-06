@@ -101,7 +101,8 @@
   hw:
   slides: "https://docs.google.com/presentation/d/1H4UL2glUOjJf6EVypLLIv1gmRbMw0tL8vcXPGAuh5d0/edit?usp=sharing"
   img: 2024/jbnu-h/10-h-storage.jpg
-  logistics:
+  logistics: > 
+    <a href="https://forms.gle/DoRcdcFRTte1Fa338">Research Update</a>
 
 - date: 11/11
   week: 11
