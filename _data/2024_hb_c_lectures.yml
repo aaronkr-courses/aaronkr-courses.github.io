@@ -108,10 +108,10 @@
     <strong>14 표준 입력 함수<br>
     15 배열과 포인터</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
+  readings: p. 334-383
+  hw: "https://classroom.github.com/a/tzvjuIum"
+  slides: "https://docs.google.com/presentation/d/1xoKEUx5wrvP3wsn8cz6bWZJUB6ua4-ufioK00lDNuTc/edit?usp=sharing"
+  img: 2024/hb-c/10-input-arr-pt.jpg
   logistics:
 
 - date: 11/15
