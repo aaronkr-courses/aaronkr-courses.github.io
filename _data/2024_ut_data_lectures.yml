@@ -118,7 +118,8 @@
     <strong>10장 케라스를 사용한 인공 신경망 소개</strong>
   supp:
   readings: p.
-  hw:
+  hw1: "https://classroom.github.com/a/3tIYKOXW"
+  hw2: "https://classroom.github.com/a/93ZFafSD"
   slides: "https://docs.google.com/presentation/d/1nHUbriVxg7J4NUSok7QhskrAmTJ-Mio_BZcO9DSj2bM/edit?usp=sharing"
   img: 2024/ut-data/11-keras-nn.jpg
   logistics:
