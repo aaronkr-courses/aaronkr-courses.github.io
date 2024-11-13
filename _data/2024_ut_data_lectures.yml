@@ -127,9 +127,7 @@
   week: 12
   title: >
     <strong>11장 심층 신경망 훈련<br>
-    12장 텐서플로를 사용한 사용자 정의 모델과 훈련<br>
-    13장 텐서플로를 사용한 데이터 적재와 전처리<br>
-    14장 합성곱 신경망을 사용한 컴퓨터 비전</strong>
+    12장 텐서플로를 사용한 사용자 정의 모델과 훈련</strong>
   supp:
   readings: p.
   hw:
@@ -140,8 +138,8 @@
 - date: 11/28
   week: 13
   title: >
-    <strong>15장 RNN과 CNN을 사용한 시퀀스 처리<br>
-    16장 RNN과 어텐션을 사용한 자연어 처리</strong>
+    <strong>13장 텐서플로를 사용한 데이터 적재와 전처리<br>
+    14장 합성곱 신경망을 사용한 컴퓨터 비전</strong>
   supp:
   readings: p.
   hw:
@@ -152,7 +150,7 @@
 - date: 12/5
   week: 14
   title: >
-    <strong>17장 오토인코더, GAN 그리고 확산 모델</strong>
+    <strong></strong>
   supp:
   readings: p.
   hw:
@@ -163,13 +161,20 @@
 - date: 12/12
   week: 15
   title: >
-    <strong>18장 강화 학습</strong>
+    <strong>팀 프로젝트 발표</strong>
   supp:
   readings: p.
   hw:
   slides:
   img:
-  logistics:
+  logistics: >
+    <ul style="display: none">못 하는 것
+      <li>15장 RNN과 CNN을 사용한 시퀀스 처리</li>
+      <li>16장 RNN과 어텐션을 사용한 자연어 처리</li>
+      <li>17장 오토인코더, GAN 그리고 확산 모델</li>
+      <li>18장 강화학습</li>
+      <li>19장 대규모 텐서플로 모델 훈련과 배포</li>
+    </ul>
 
 - date: 12/19
   week: 16

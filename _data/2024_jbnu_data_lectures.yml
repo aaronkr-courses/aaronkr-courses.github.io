@@ -110,10 +110,9 @@
 - date: 11/11
   week: 11
   title: >
-    <strong>Chapter 10: Hash Tables<br>
-    Chapter 11: Caches</strong>
+    <strong>Chapter 10: Hash Tables</strong>
   supp:
-  readings: p. 171-198
+  readings: p. 171-186
   hw:
   slides: "https://docs.google.com/presentation/d/1eQVoapljmpDWewLXqM8YmKy7ApHDTdzIxO6PeIXJ6G4/edit?usp=sharing"
   img: 2024/jbnu-data/11-hash-n-cache.jpg
@@ -121,6 +120,17 @@
 
 - date: 11/18
   week: 12
+  title: >
+    <strong>Chapter 11: Caches</strong>
+  supp:
+  readings: p. 187-198
+  hw:
+  slides:
+  img:
+  logistics:
+
+- date: 11/25
+  week: 13
   title: >
     <strong>Chapter 12: B-Trees</strong>
   supp:
@@ -130,23 +140,13 @@
   img:
   logistics:
 
-- date: 11/25
-  week: 13
-  title: >
-    <strong>Chapter 13: Bloom Filters</strong>
-  supp:
-  readings: p. 225-234
-  hw:
-  slides:
-  img:
-  logistics:
-
 - date: 12/2
   week: 14
   title: >
-    <strong>Chapter 14: Skip Lists</strong>
+    <strong>Chapter 13: Bloom Filters<br>
+    Chapter 14: Skip Lists</strong>
   supp:
-  readings: p. 235-246
+  readings: p. 225-246
   hw:
   slides:
   img:
