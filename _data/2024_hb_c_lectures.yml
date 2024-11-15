@@ -119,10 +119,10 @@
   title: >
     <strong>16 메모리 할당</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
+  readings: p. 368-421
+  hw: "https://classroom.github.com/a/49LEp5iv"
+  slides: "https://docs.google.com/presentation/d/1oTyt_AcTwUKFfxhA4I0vsdCCoc6RPEIUZ4ldDB0x7PM/edit?usp=sharing"
+  img: 2024/hb-c/11-memory.jpg
   logistics:
 
 - date: 11/22
