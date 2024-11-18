@@ -124,10 +124,11 @@
     <strong>Chapter 11: Caches</strong>
   supp:
   readings: p. 187-198
-  hw:
+  hw: "https://drive.google.com/drive/folders/1TxYuVy5e4rTR_tev4YKylkYOvKczR-gf?usp=sharing"
   slides:
   img:
-  logistics:
+  logistics: >
+    Coding with Stacks &amp; Queues
 
 - date: 11/25
   week: 13
@@ -135,10 +136,10 @@
     <strong>Chapter 12: B-Trees</strong>
   supp:
   readings: p. 199-224
-  hw:
+  hw: 
   slides:
   img:
-  logistics:
+  logistics: 
 
 - date: 12/2
   week: 14
