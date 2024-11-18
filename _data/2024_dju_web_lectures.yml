@@ -127,20 +127,21 @@
 - date: 11/19
   week: 12
   title: >
-    <strong>Chapter 13 세션: 장바구니 페이지 만들기</strong>
+    <strong>Chapter 13 세션: 장바구니 페이지 만들기<br>
+    Chapter 14 쿠키: 주문 처리 페이지 만들기</strong>
   supp:
-  readings: p. 450-482
+  readings: p. 450-482, p. 484-510
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1RMlIS-ksp1yOfdg6AISUhsayTYbnXRwfHKNYB8q5Yp0/edit?usp=sharing"
+  img: 2024/dju-web/12-sessions-cookies.jpg
   logistics:
 
 - date: 11/26
   week: 13
   title: >
-    <strong>Chapter 14 쿠키: 주문 처리 페이지 만들기</strong>
+    <strong>Chapter 15 데이터베이스 개발 환경 구축: 상품 관리 테이블 생성 및 상품 등록하기</strong>
   supp:
-  readings: p. 484-510
+  readings: p. 512-546
   hw:
   slides:
   img:
@@ -149,10 +150,9 @@
 - date: 12/3
   week: 14
   title: >
-    <strong>Chapter 15 데이터베이스 개발 환경 구축: 상품 관리 테이블 생성 및 상품 등록하기<br>
-    Chapter 16 JDBC로 데이터베이스와 JSP 연동: 상품 조회, 등록, 수정, 삭제하기</strong>
+    <strong> Chapter 16 JDBC로 데이터베이스와 JSP 연동: 상품 조회, 등록, 수정, 삭제하기</strong>
   supp:
-  readings: p. 512-546, 548-610
+  readings: p. 548-610
   hw:
   slides:
   img:
