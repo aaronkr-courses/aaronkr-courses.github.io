@@ -137,10 +137,11 @@
     <strong>11 데이터웨어하우스와 데이터베이스 응용</strong>
   supp:
   readings: p. 380-420
-  hw:
+  hw: "https://drive.google.com/file/d/12QgjN0c0LV8W0UM7XrX74aNKkn8qV8ho/view?usp=sharing"
   slides: "https://docs.google.com/presentation/d/15wXgQwlUYmLnPlSkYZ-J4KHrc0Jm8FdHd-J6xlS46_s/edit?usp=sharing"
   img: 2024/dju-db/12-data-warehouse.jpg
-  logistics:
+  logistics: >
+    11장 연습 문제
 
 - date: 11/26
   week: 13
