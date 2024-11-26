@@ -135,7 +135,8 @@
   hw:
   slides: "https://docs.google.com/presentation/d/129PGDN5T9zW7s3K-dO0oBXszZgd_1ZrV1utyh0-e-YA/edit?usp=sharing"
   img: 2024/jbnu-h/13-fc-systems-ii.jpg
-  logistics:
+  logistics: >
+    <a href="https://forms.gle/p2f8tuwsaukFmwQt7">First Draft Submission</a>
 
 - date: 12/2
   week: 14
