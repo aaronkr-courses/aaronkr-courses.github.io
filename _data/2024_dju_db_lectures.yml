@@ -149,10 +149,11 @@
     <strong>12 빅데이터와 NoSQL</strong>
   supp:
   readings: p. 422-456
-  hw:
+  hw: "https://drive.google.com/file/d/1nqckkikdZhItsZm6R9zHd8T7xJIfIDdo/view?usp=sharing"
   slides: "https://docs.google.com/presentation/d/1RoPW2FoNcLz3cOEw_a6toiVUtOqJgwtKn8g1aX1_yKk/edit?usp=sharing"
   img: 2024/dju-db/13-big-data.jpg
-  logistics:
+  logistics: >
+    12장 연습 문제
 
 - date: 12/3
   week: 14
