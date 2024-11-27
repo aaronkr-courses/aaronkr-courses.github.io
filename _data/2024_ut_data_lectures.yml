@@ -140,12 +140,11 @@
   week: 13
   title: >
     <strong>12장 텐서플로를 사용한 사용자 정의 모델과 훈련<br>
-    13장 텐서플로를 사용한 데이터 적재와 전처리<br>
-    14장 합성곱 신경망을 사용한 컴퓨터 비전</strong>
+    13장 텐서플로를 사용한 데이터 적재와 전처리</strong>
   supp:
   readings: p. 489-576
-  hw1:
-  hw2: 
+  hw1: "https://classroom.github.com/a/fkT6WA3o"
+  hw2: "https://classroom.github.com/a/fssWZJyD"
   slides: "https://docs.google.com/presentation/d/1eMMfWqxcO-6yz4cU2PfY1hVEDmgVNG9m0_t-veLd20Q/edit?usp=sharing"
   img: 2024/ut-data/13-tf-user-defined.jpg
   logistics:
@@ -153,7 +152,7 @@
 - date: 12/5
   week: 14
   title: >
-    <strong></strong>
+    <strong>14장 합성곱 신경망을 사용한 컴퓨터 비전</strong>
   supp:
   readings: p.
   hw:
