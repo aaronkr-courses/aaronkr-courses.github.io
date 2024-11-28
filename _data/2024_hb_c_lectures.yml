@@ -141,10 +141,10 @@
   title: >
     <strong>18 구조체와 연결 리스트</strong>
   supp:
-  readings: p. 
-  hw: 
-  slides: 
-  img: 
+  readings: p. 455-496
+  hw: "https://classroom.github.com/a/UouuuiZa"
+  slides: "https://docs.google.com/presentation/d/1svf1SoawCfFYaxxwKY4aHxe8rUPb8m0n34V_wESoRlw/edit?usp=sharing"
+  img: 2024/hb-c/13-structs.jpg
   logistics:
 
 - date: 12/6
@@ -153,7 +153,7 @@
     <strong>19 파일 입출력<br>
     20 함수 포인터</strong>
   supp:
-  readings: p. 
+  readings: p. 497-540
   hw: 
   slides: 
   img: 
