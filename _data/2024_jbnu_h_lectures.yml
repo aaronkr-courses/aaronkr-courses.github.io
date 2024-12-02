@@ -147,7 +147,10 @@
   hw:
   slides: "https://docs.google.com/presentation/d/1E_T7H_zKgfGzHbKFQyH8uKVe-J7NZErBNc6Hq1JhK50/edit?usp=sharing"
   img: 2024/jbnu-h/14-scenarios-i.jpg
-  logistics:
+  logistics: > 
+    <a href="https://docs.google.com/presentation/d/1gC6BVcZxFh8O7PJ1F7L-0CFsDYjotdk75SFpbT7QEp0/edit?usp=sharing">PPT Template</a><br>
+    <a href="https://docs.google.com/presentation/d/1Ik3-0CFmh_7CxXydx3-pikpX5Dvcte3IniDuSbeZL68/edit?usp=sharing">Short Example</a><br>
+    <a href="https://docs.google.com/presentation/d/1G5-akZ60OWfsFSI9ICHg2PtjkV0gpi-r-1wp0PW27FI/edit?usp=sharing">Long Example</a>
 
 - date: 12/9
   week: 15
