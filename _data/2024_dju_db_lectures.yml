@@ -162,9 +162,11 @@
   supp:
   readings: p 458-490
   hw:
-  slides:
-  img:
-  logistics:
+  slides: "https://docs.google.com/presentation/d/1q9u0-vbXhD6iG3gyYx_e4cuBTrN0zU3vwys7kLXB19M/edit?usp=sharing"
+  img: 2024/dju-db/14-mongodb.jpg
+  logistics: >
+    13장 연습 문제<br>
+    <a href="https://naver.me/xTTjuAZ7">박사 연구 설문조사</a>
 
 - date: 12/10
   week: 15
