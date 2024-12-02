@@ -154,9 +154,10 @@
   supp:
   readings: p. 548-610
   hw:
-  slides:
-  img:
-  logistics:
+  slides: "https://docs.google.com/presentation/d/1pceTQnZUN2UAYmqInTc6mLy_tGTQG35bjKSkvZGdJIg/edit?usp=sharing"
+  img: 2024/dju-web/14-jdbc.jpg
+  logistics: >
+    <a href="https://naver.me/xTTjuAZ7">박사 연구 설문조사</a>
 
 - date: 12/10
   week: 15
