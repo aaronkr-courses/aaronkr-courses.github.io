@@ -147,12 +147,12 @@
 - date: 12/2
   week: 14
   title: >
-    <strong>Circuit Design or TBA</strong>
+    <strong>PCB Design</strong>
   supp:
   readings: p.
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/18sd_FQl2smrKVKV1qMFbTxCSTVmJvIniYDg02RfJDDI/edit?usp=sharing"
+  img: 2024/jbnu-chips/14-pcbs.jpg
   logistics:
 
 - date: 12/9
