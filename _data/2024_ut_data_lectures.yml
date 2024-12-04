@@ -155,7 +155,8 @@
     <strong>14장 합성곱 신경망을 사용한 컴퓨터 비전</strong>
   supp:
   readings: p.
-  hw:
+  hw1: "https://classroom.github.com/a/O5IlB54x"
+  hw2: "https://classroom.github.com/a/eHDLKE_3"
   slides: "https://docs.google.com/presentation/d/1QrBSXQ03YFvQ9fvnp_p0zFit5HBjztRjMctJdBcxHyY/edit?usp=sharing"
   img: 2024/ut-data/14-cv.jpg
   logistics: >
