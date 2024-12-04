@@ -3,11 +3,11 @@
   title: >
     <strong>01 프로그램과 C 언어</strong>
   supp:
-  readings: p. 
-  hw: 
+  readings: p.
+  hw:
   slides: "https://docs.google.com/presentation/d/1ifu-jsmxb9yTwo3XEwNElRuoilWxIW0w0Xp9zb3hNIw/edit?usp=sharing"
   img: 2024/hb-c/1-c-intro.jpg
-  logistics: 
+  logistics:
 
 - date: 9/13
   week: 2
@@ -15,11 +15,11 @@
     <strong>02 C 언어로 만드는 첫 번째 프로그램<br>
     03 자료형</strong>
   supp:
-  readings: p. 
+  readings: p.
   hw: "https://classroom.github.com/a/ASsjNSNT"
   slides: "https://docs.google.com/presentation/d/1EdiLDFcpJZT6_a-5XLQ-LrBY-r8tI2Fg31TvKMjBmJc/edit?usp=sharing"
   img: 2024/hb-c/2-hello-c.jpg
-  logistics: 
+  logistics:
 
 - date: 9/20
   week: 3
@@ -27,11 +27,11 @@
     <strong>04 상수와 변수<br>
     05 함수</strong>
   supp:
-  readings: p. 
+  readings: p.
   hw: "https://classroom.github.com/a/EiTWwozm"
   slides: "https://docs.google.com/presentation/d/1uutXtChW8xY5mWwRkJyB-OIaP8V0kuR9vruH4KESwww/edit?usp=sharing"
   img: 2024/hb-c/3-vars-funcs.jpg
-  logistics: 
+  logistics:
 
 - date: 9/27
   week: 4
@@ -84,10 +84,11 @@
   week: 8
   title: >
     <strong>Midterm Test</strong><br>
-    [<a href="https://forms.gle/inYD5upMwy1DQmRa7">퀴즈</a>]
-    [<a href="https://classroom.github.com/a/Qon0lvC2">실기</a>]
-    <div style="display: none;"><br>
-    <a href="https://docs.google.com/presentation/d/1lMoA2v2qIU2-s5bFtOnbXPOctu5luoA8bEyWJsChCCA/edit?usp=sharing">스터디 가이드</a>
+    <div style="display: none;">
+      [<a href="https://forms.gle/inYD5upMwy1DQmRa7">퀴즈</a>]
+      [<a href="https://classroom.github.com/a/Qon0lvC2">실기</a>]
+      <br>
+      <a href="https://docs.google.com/presentation/d/1lMoA2v2qIU2-s5bFtOnbXPOctu5luoA8bEyWJsChCCA/edit?usp=sharing">스터디 가이드</a>
     </div>
 
 - date: 11/1
@@ -154,9 +155,9 @@
     20 함수 포인터</strong>
   supp:
   readings: p. 497-540
-  hw: 
-  slides: 
-  img: 
+  hw:
+  slides:
+  img:
   logistics: >
     <a href="https://naver.me/xTTjuAZ7">박사 연구 설문조사</a>
 

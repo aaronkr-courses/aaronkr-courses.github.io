@@ -101,7 +101,7 @@
   hw:
   slides: "https://docs.google.com/presentation/d/1H4UL2glUOjJf6EVypLLIv1gmRbMw0tL8vcXPGAuh5d0/edit?usp=sharing"
   img: 2024/jbnu-h/10-h-storage.jpg
-  logistics: > 
+  logistics: >
     <a href="https://forms.gle/DoRcdcFRTte1Fa338">Research Update</a>
 
 - date: 11/11
@@ -129,7 +129,7 @@
 - date: 11/25
   week: 13
   title: >
-    <strong>8 - Implementation Scenarios</strong>
+    <strong>8 - Implementation Scenarios I</strong>
   supp:
   readings: p. 273-411
   hw:
@@ -141,13 +141,13 @@
 - date: 12/2
   week: 14
   title: >
-    <strong>9 - Social Implications &amp; Conclusion</strong>
+    <strong>8 - Implementation Scenarios II</strong>
   supp:
   readings: p. 413-491
   hw:
   slides: "https://docs.google.com/presentation/d/1E_T7H_zKgfGzHbKFQyH8uKVe-J7NZErBNc6Hq1JhK50/edit?usp=sharing"
   img: 2024/jbnu-h/14-scenarios-i.jpg
-  logistics: > 
+  logistics: >
     <a href="https://docs.google.com/presentation/d/1gC6BVcZxFh8O7PJ1F7L-0CFsDYjotdk75SFpbT7QEp0/edit?usp=sharing">PPT Template</a><br>
     <a href="https://docs.google.com/presentation/d/1Ik3-0CFmh_7CxXydx3-pikpX5Dvcte3IniDuSbeZL68/edit?usp=sharing">Short Example</a><br>
     <a href="https://docs.google.com/presentation/d/1G5-akZ60OWfsFSI9ICHg2PtjkV0gpi-r-1wp0PW27FI/edit?usp=sharing">Long Example</a>
@@ -155,7 +155,7 @@
 - date: 12/9
   week: 15
   title: >
-    <strong>Research Presentations</strong>
+    <strong>8 - Implementation Scenarios III &amp; Research Presentations</strong>
   supp:
   readings: p. 463-491
   hw:
@@ -168,6 +168,7 @@
   title: >
     <strong>Final Test</strong><br>
     <div style="display: none;"><br>
+      9 - Social Implications &amp; Conclusion
       <a href="">퀴즈</a> | <a href="">실기</a>
       <a href="">스터디 가이드</a>
     </div>
