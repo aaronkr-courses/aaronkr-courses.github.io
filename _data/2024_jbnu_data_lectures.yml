@@ -144,8 +144,7 @@
 - date: 12/2
   week: 14
   title: >
-    <strong>Chapter 13: Bloom Filters<br>
-    Chapter 14: Skip Lists</strong>
+    <strong>Chapter 13: Bloom Filters</strong>
   supp:
   readings: p. 225-246
   hw:
@@ -156,13 +155,14 @@
 - date: 12/9
   week: 15
   title: >
-    <strong>Chapter 15: Graphs<br>
+    <strong>Chapter 14: Skip Lists<br>
+    Chapter 15: Graphs<br>
     Conclusion</strong>
   supp:
   readings: p. 247-270
   hw:
-  slides:
-  img:
+  slides: "https://docs.google.com/presentation/d/1TLSbANOBsZ5QMhhFPGj96vqxycCP0KbyjEwtXeSNuC8/edit?usp=sharing"
+  img: 2024/jbnu-data/15-graphs.jpg
   logistics:
 
 - date: 12/16
