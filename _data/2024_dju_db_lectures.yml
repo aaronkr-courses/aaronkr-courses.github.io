@@ -176,10 +176,11 @@
     <strong>14 데이터베이스 모바일 웹 프로그래밍</strong>
   supp:
   readings: p. 492-532
-  hw:
+  hw: "https://classroom.github.com/a/3Kw0h1Fe"
   slides: "https://docs.google.com/presentation/d/1jVm51DY7akksIe9c_0ahWJ5LylCBcHE1QVK566pF2k4/edit?usp=sharing"
   img: 2024/dju-db/15-mobile-web.jpg
-  logistics:
+  logistics: >
+    PHP MovieDB 프로젝트
 
 - date: 12/17
   week: 16
