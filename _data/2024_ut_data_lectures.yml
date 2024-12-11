@@ -168,10 +168,12 @@
     <strong>팀 프로젝트 발표</strong>
   supp:
   readings: p.
-  hw:
-  slides:
-  img:
+  hw1: "https://classroom.github.com/a/v0Ll672L"
+  hw2: "https://classroom.github.com/a/PFDbQZp_"
+  slides: "https://docs.google.com/presentation/d/1a4yxg59EzCwAriDRHNguuMnlwCPdx3DEQ4SFRcjiBsE/edit?usp=sharing"
+  img: 2024/ut-data/15-final-guide.jpg
   logistics: >
+    팀 발표 (.ipynb, .py, .ppt) 파일들은 GitHub 저장소에서 제출
     <ul style="display: none">못 하는 것
       <li>15장 RNN과 CNN을 사용한 시퀀스 처리</li>
       <li>16장 RNN과 어텐션을 사용한 자연어 처리</li>
