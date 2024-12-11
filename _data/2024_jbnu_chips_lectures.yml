@@ -162,10 +162,11 @@
     <strong>PCB Design II</strong>
   supp:
   readings: p.
-  hw:
+  hw: "https://forms.gle/hy8cHY4xX6bTTdnu9"
   slides: "https://docs.google.com/presentation/d/1MsuNPcsGox8ptPcGSVhey0r8-lS961cdm-Vj4pvUAr0/edit?usp=sharing"
   img: 2024/jbnu-chips/15-pcbs-ii.jpg
-  logistics:
+  logistics: >
+    EAGLE Files Shared Folder Link
 
 - date: 12/16
   week: 16
