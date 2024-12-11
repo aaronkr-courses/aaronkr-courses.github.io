@@ -20,7 +20,8 @@
   hw: "https://classroom.github.com/a/iWgbTGyF"
   slides: "https://docs.google.com/presentation/d/1BO2dLHfmBJQ4sD3mnGiKysUhkwNwiEZPJGqXw1mjlL8/edit?usp=sharing"
   img: 2024/jbnu-data/2-dynamic-structs.jpg
-  logistics:
+  logistics: >
+    GitHub File Repository
 
 - date: 9/16
   week: 3
