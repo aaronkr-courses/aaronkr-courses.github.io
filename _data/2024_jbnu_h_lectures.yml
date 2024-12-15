@@ -161,7 +161,8 @@
   hw:
   slides: "https://docs.google.com/presentation/d/1HdJFe_RIBRwH6HihIbwzXr8ELfd2-pc6qUvUIMiHIyk/edit?usp=sharing"
   img: 2024/jbnu-h/15-scenarios-iii.jpg
-  logistics:
+  logistics: > 
+    <a href="https://forms.gle/TJSqP7B6zovzHF7eA">FINAL Paper &amp; PPT Upload</a>
 
 - date: 12/16
   week: 16
