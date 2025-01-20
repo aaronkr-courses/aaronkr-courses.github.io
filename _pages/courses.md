@@ -32,7 +32,7 @@ grid: false
     margin-right: -1.5rem;
   }
   .card-img.col-md-3 {
-    margin-right: -2.5rem;
+    margin-right: -2rem;
   }
   .card {
     margin-bottom: 1rem;
@@ -70,7 +70,7 @@ grid: false
   <!-- Generate cards for each course -->
   <div class="container">
     {%- if forloop.first -%}
-    {%- assign row_class = 'row' -%}
+    {%- assign row_class = 'row first' -%}
     {%- else -%}
     {%- assign row_class = 'row row-cols-2' -%}
     {%- endif -%}
