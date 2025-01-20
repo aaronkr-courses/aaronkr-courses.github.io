@@ -8,23 +8,24 @@ children:
   - title: All Courses
     permalink: /courses/
   - title: divider
-  - title: JBNU-H
-    permalink: /courses/2024-jbnu-hydrogen/
-  - title: JBNU-DATA
-    permalink: /courses/2024-jbnu-data/
   - title: JBNU-CHIPS
-    permalink: /courses/2024-jbnu-chips/
+    permalink: /courses/2025-jbnu-chips/
   - title: divider
   - title: DJU-DB
-    permalink: /courses/2024-dju-db/
-  - title: DJU-WEB
-    permalink: /courses/2024-dju-web/
+    permalink: /courses/2025-dju-db/
+  - title: DJU-SEC
+    permalink: /courses/2025-dju-sec/
   - title: divider
-  - title: UT-DATA
-    permalink: /courses/2024-ut-data/
+  - title: JNUE-ISS
+    permalink: /courses/2025-jnue-iss/
   - title: divider
-  - title: HB-C
-    permalink: /courses/2024-hb-c/
+  - title: UT-IMD
+    permalink: /courses/2025-ut-imd/
+  - title: divider
+  - title: HB-C#
+    permalink: /courses/2025-hb-cs/
+  - title: HB-C++
+    permalink: /courses/2025-hb-cpp/
   - title: divider
   - title: Archives
     permalink: /courses/
