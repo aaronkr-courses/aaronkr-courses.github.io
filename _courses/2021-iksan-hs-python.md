@@ -4,7 +4,7 @@ title: Python Basic Course for Robotics Training
 subtitle: 파이썬기초과정 로봇특화교육
 description: 2021년 방학 • 국립전북기계공업고등학교
 logo: iksan-gg-logo.png
-img:
+img: assets/img/books/python-byte.png
 importance: 3
 category: Special
 
@@ -44,7 +44,7 @@ Main-Text:
 
 **Designer’s Note:** This book was put together using the most recent English version (Nov 6, 2020) detailing Python 3 and the most recent full Korean version (Jan 7, 2015) detailing Python 2.7. Therefore, there will be some minor differences between the English and Korean version. However, I think it is helpful to be able to see both, side-by-side, in order to get a fuller picture of Python. I also performed minor edits for space and clarity.
 
-This book will teach you to use Python version 3. There will also be guidance for you to adapt to the older and more common Python version 2 in the book. 
+This book will teach you to use Python version 3. There will also be guidance for you to adapt to the older and more common Python version 2 in the book.
 
 “A Byte of Python” is a free book on programming using the Python language. It serves as a tutorial or guide to the Python language for a beginner audience. If all you know about computers is how to save text files, then this is the book for you.
 

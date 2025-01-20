@@ -31,6 +31,9 @@ grid: false
   .card-img.col-md-2 {
     margin-right: -1.5rem;
   }
+  .card-img.col-md-3 {
+    margin-right: -2.5rem;
+  }
   .card {
     margin-bottom: 1rem;
   }
