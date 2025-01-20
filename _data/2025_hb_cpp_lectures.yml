@@ -1,0 +1,173 @@
+- date: 3/7
+  week: 1
+  title: >
+    <strong>수업 소개</strong>
+  supp:
+  readings: Accelerated C++, <strong>0장 pp. 26-34</strong>
+  hw:
+  slides:
+  img: 2024/hb-cpp/1-cpp-intro.jpg
+  logistics:
+
+- date: 3/14
+  week: 2
+  title: >
+    <strong>CHAPTER 0 C++ 시작하기</strong><br>
+    <strong>CHAPTER 1 문자열 사용</strong>
+  supp:
+  readings: Accelerated C++, <strong>1-2장 pp. 26-48</strong>
+  hw:
+  slides:
+  img: 2024/hb-cpp/2-cpp-strings.jpg
+  logistics:
+
+- date: 3/21
+  week: 3
+  title: >
+    <strong>CHAPTER 2 반복문과 카운팅</strong>
+  supp:
+  readings: Accelerated C++, <strong>3-4장 pp. 48-128</strong>
+  hw:
+  slides:
+  img: 2024/hb-cpp/3-cpp-loops-data.jpg
+  logistics:
+
+- date: 3/28
+  week: 4
+  title: >
+    <strong>CHAPTER 3 데이터 일괄 처리</strong>
+  supp:
+  readings: Accelerated C++, <strong>3-4장 pp. 48-128</strong>
+  hw:
+  slides:
+  img: 2024/hb-cpp/4-cpp-data.jpg
+  logistics:
+
+- date: 4/4
+  week: 5
+  title: >
+    <strong>CHAPTER 4 프로그램 및 데이터 구조화</strong>
+  supp:
+  readings: Accelerated C++, <strong>3-4장 pp. 48-128</strong>
+  hw:
+  slides:
+  img: 2024/hb-cpp/5-cpp-data-containers.jpg
+  logistics:
+
+- date: 4/11
+  week: 6
+  title: >
+    <strong>CHAPTER 5 순차 컨테이너와 문자열 분석</strong>
+  supp:
+  readings: Accelerated C++, <strong>5장 pp. 131-164</strong>
+  hw:
+  slides:
+  img: 2024/hb-cpp/6-cpp-containers-strings.jpg
+  logistics:
+
+- date: 4/18
+  week: 7
+  title: >
+    <strong>CHAPTER 6 라이브러리 알고리즘</strong>
+  supp:
+  readings: >
+    Accelerated C++, <strong>6장 pp. 170-198</strong><br>
+    중간고사 가이드
+  hw:
+  slides:
+  img: 2024/hb-cpp/7-cpp-lib-algorithms.jpg
+  logistics:
+
+- date: 4/25
+  week: 8
+  title: >
+    <strong>Midterm Test</strong>
+    <div style="display: none">
+      <br>
+      [<a href="">퀴즈 링크</a>] [<a href="">실기 시험</a>]
+    </div>
+
+- date: 5/2
+  week: 9
+  title: >
+    <strong>CHAPTER 7 연관 컨테이너</strong>
+  supp:
+  readings: >
+    Accelerated C++, <strong>7장 pp. 202-222</strong>
+  hw:
+  slides:
+  img: 2024/hb-cpp/9-cpp-a-containers.jpg
+  logistics:
+
+- date: 5/9
+  week: 10
+  title: >
+    <strong>CHAPTER 8 제네릭 함수</strong><br>
+    <strong>CHAPTER 9 새로운 타입 정의</strong>
+  supp:
+  readings: >
+    Accelerated C++, <strong>8장 pp. 225-248</strong><br>
+    Accelerated C++, <strong>9장 pp. 251-271</strong>
+  hw:
+  slides:
+  img: 2024/hb-cpp/10-cpp-generic-types.jpg
+  logistics:
+
+- date: 5/16
+  week: 11
+  title: >
+    <strong>CHAPTER 10 메모리 관리 및 저수준 데이터 구조</strong>
+  supp:
+  readings: >
+    Accelerated C++, <strong>10장 pp. 274-299</strong>
+  hw:
+  slides:
+  img: 2024/hb-cpp/11-cpp-memory.jpg
+  logistics:
+
+- date: 5/23
+  week: 12
+  title: >
+    <strong>CHAPTER 11 추상 데이터 타입</strong>
+  supp:
+  readings: Accelerated C++, <strong>11장 pp. 302-335</strong>
+  hw:
+  slides:
+  img: 2024/hb-cpp/12-abstract-data-types.jpg
+  logistics:
+
+- date: 5/30
+  week: 13
+  title: >
+    <strong>CHAPTER 12 값처럼 동작하는 클래스 객체</strong>
+  supp:
+  readings: Accelerated C++, <strong>12장 pp. 338-359</strong>
+  hw:
+  slides:
+  img: 2024/hb-cpp/13-cpp-str-class.jpg
+  logistics:
+
+- date: 6/6
+  week: 14
+  title: >
+    <span style="color: red"><strong>No Class</strong> 현충일</span>
+
+- date: 6/13
+  week: 15
+  title: >
+    <strong>CHAPTER 13 상속과 동적 바인딩</strong>
+  supp:
+  readings: Accelerated C++, <strong>13장 pp. 362-398</strong>
+  hw:
+  slides:
+  img: 2024/hb-cpp/14-inheritance.jpg
+  logistics:
+
+- date: 6/20
+  week: 15
+  title: >
+    <strong>
+      <a href="">Final Test</a> | 
+      <a href="">실기</a>
+    </strong><br>
+    [<a href="">스터디 가이드</a>]

@@ -1,0 +1,171 @@
+- date: 3/5
+  week: 1
+  title: >
+    <strong>Introduction</strong>
+  supp:
+  readings:
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 3/10
+  week: 2
+  title: >
+    <strong>Chapter 1: Semiconductor Fundamentals</strong>
+  supp:
+  readings: p. 1-28
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 3/17
+  week: 3
+  title: >
+    <strong>Chapter 2: PN Junctions and Diodes<br>
+    Chapter 3: Diode Applications</strong>
+  supp:
+  readings: p. 29-89
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 3/24
+  week: 4
+  title: >
+    <strong>Chapter 4: Bipolar Junction Transistors (BJTs)<br>
+    Chapter 5: BJT Biasing</strong>
+  supp:
+  readings: p. 90-140
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 3/31
+  week: 5
+  title: >
+    <strong>Chapter 6: Amplifier Concepts<br>
+    Chapter 7: BJT Small Signal Amplifiers</strong>
+  supp:
+  readings: p. 141-198
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 4/7
+  week: 6
+  title: >
+    <strong>Chapter 8: BJT Class A Power Amplifiers</strong>
+  supp:
+  readings: p. 199-230
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 4/14
+  week: 7
+  title: >
+    <strong>Chapter 9: BJT Class B Power Amplifiers </strong>
+  supp:
+  readings: p. 231-265
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 4/21
+  week: 8
+  title: >
+    <strong>Midterm Test</strong><br>
+    [<a href="">Study Guide</a>]<br>
+    <div style="display: none;"><br>
+      <a href="">Test</a>
+    </div>
+
+- date: 4/28
+  week: 9
+  title: >
+    <strong>Chapter 10: Junction Field Effect Transistors (JFETs)</strong>
+  supp:
+  readings: p. 266-295
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 5/5
+  week: 10
+  title: >
+    <span style="color: red"><strong>No Class</strong> 어린이 날 (대체)</span>
+
+- date: 5/12
+  week: 11
+  title: >
+    <strong>Chapter 11: JFET Small Signal Amplfiers</strong>
+  supp:
+  readings: p. 296-324
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 5/19
+  week: 12
+  title: >
+    <strong>Chapter 12: Metal Oxide Semiconductor FETs (MOSFETs)</strong>
+  supp:
+  readings: p. 325-347
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 5/26
+  week: 13
+  title: >
+    <strong>Chapter 13: MOSFET Small Signal Amplifiers<br>
+    Chapter 14: Class D Power Amplifiers</strong>
+  supp:
+  readings: p. 348-381
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 6/2
+  week: 14
+  title: >
+    <strong>Chapter 15: Insulated Gate Bipolar Transistors (IGBTs)<br>
+    Chapter 16: Decibels and Bode Plots</strong>
+  supp:
+  readings: p. 382-428
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 6/9
+  week: 15
+  title: >
+    <strong>Chapter 17: Frequency Limits<br>
+    Appendices</strong>
+  supp:
+  readings: p. 429-484
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 6/16
+  week: 16
+  title: >
+    <strong>Final Test</strong><br>
+    <a href="">Study Guide</a>
+    <div style="display: none;"><br>
+      <a href="">퀴즈</a> | <a href="">실기</a>
+    </div>

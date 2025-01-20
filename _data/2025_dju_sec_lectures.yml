@@ -1,0 +1,170 @@
+- date: 3/4
+  week: 1
+  title: >
+    <strong>01장: 웹 응용 프로그램 취약점이란?</strong>
+  supp:
+  readings: p. 1-9
+  hw:
+  slides:
+  img: 2025/dju-sec/
+  logistics:
+
+- date: 3/11
+  week: 2
+  title: >
+    <strong>02장: 실습 환경 설정</strong>
+  supp:
+  readings: p. 9-36
+  hw:
+  slides:
+  slides2:
+  img: 2025/dju-sec/
+  logistics:
+
+- date: 3/18
+  week: 3
+  title: >
+    <strong>03장: 웹 보안 기초 - HTTP, 세션 관리, 동일 출처 정책, CORS</strong>
+  supp:
+  readings: p. 37-88
+  hw:
+  slides:
+  slides2:
+  img: 2025/dju-sec/
+  logistics:
+
+- date: 3/25
+  week: 4
+  title: >
+    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #1-4</strong>
+  supp:
+  readings: p. 89-165
+  hw:
+  slides:
+  img: 2025/dju-sec/
+  logistics:
+
+- date: 4/1
+  week: 5
+  title: >
+    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #5-8</strong>
+  supp:
+  readings: p. 165-255
+  hw:
+  slides:
+  img: 2025/dju-sec/
+  logistics:
+
+- date: 4/8
+  week: 6
+  title: >
+    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #9-12</strong>
+  supp:
+  readings: p. 255-322
+  hw:
+  slides:
+  slides2:
+  img: 2025/dju-sec/
+  logistics:
+
+- date: 4/15
+  week: 7
+  title: >
+    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #13-15</strong>
+  supp:
+  readings: p. 322-373
+  hw:
+  slides:
+  slides2:
+  img: 2025/dju-sec/
+  logistics:
+
+- date: 4/22
+  week: 8
+  title: >
+    <strong>Midterm Test</strong><br>
+    <div style="display: none;"><br>
+      [<a href="">퀴즈</a>] 
+      [<a href="">실기</a>]
+    </div>
+
+- date: 4/29
+  week: 9
+  title: >
+    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #16-17</strong>
+  supp:
+  readings: p. 374-441
+  hw:
+  slides:
+  img: 2025/dju-sec/
+  logistics:
+
+- date: 5/6
+  week: 10
+  title: >
+    <span style="color: red"><strong>No Class</strong> 어린이 날 (대체)</span>
+
+- date: 5/13
+  week: 11
+  title: >
+    <strong>05장: 대표적인 보안 기능</strong>
+  supp:
+  readings: p. 442-508
+  hw:
+  slides:
+  img: 2025/dju-sec/
+  logistics:
+
+- date: 5/20
+  week: 12
+  title: >
+    <strong>06장: 문자 코드와 보안</strong>
+  supp:
+  readings: p. 509-528
+  hw:
+  slides:
+  img: 2025/dju-sec/
+  logistics:
+
+- date: 5/27
+  week: 13
+  title: >
+    <strong>07장: 취약점 진단 입문</strong>
+  supp:
+  readings: p. 529-587
+  hw:
+  slides:
+  img: 2025/dju-sec/
+  logistics:
+
+- date: 6/3
+  week: 14
+  title: >
+    <strong>08장: 웹 사이트의 안전성을 높이기 위해</strong>
+  supp:
+  readings: p. 588-618
+  hw:
+  slides:
+  slides2:
+  img: 2025/dju-sec/
+  logistics:
+
+- date: 6/10
+  week: 15
+  title: >
+    <strong>09장: 안전한 웹 응용 프로그램을 위한 개발 관리</strong>
+  supp:
+  readings: p. 619-630
+  hw:
+  slides:
+  img: 2025/dju-sec/
+  logistics:
+
+- date: 6/17
+  week: 16
+  title: >
+    <strong>Final Test</strong><br>
+    <a href="">퀴즈</a> | <a href="">실기</a>
+    <div style="display: none;"><br>
+      스터디 가이드: <a href="">짧게</a>
+    </div>

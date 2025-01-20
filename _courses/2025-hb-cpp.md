@@ -2,11 +2,11 @@
 layout: distill
 title: C++ Programming
 sutitle: C++ 프로그래밍
-description: INFO2118 • 2024년 1학기 • 한밭대학교
+description: INFO2118 • 2025년 1학기 • 한밭대학교
 logo: hanbat-logo.png
 img: assets/img/books/cpp-fast.jpg
-importance: 6
-category: 2024-1
+importance: 7
+category: 2025-1
 
 toc:
   - name: Schedule 강의일정
@@ -28,9 +28,9 @@ toc:
 
 information:
   - section: INFO2118
-    time: 금 1234 | Fri 9am-1pm
+    time: 금 6789 | Fri 2pm-6pm
     location: N4동 316호
-    kakaotalk: https://open.kakao.com/o/gDT4jIbg
+    kakaotalk:
 
 Main-Text:
   - text: "주교재"
@@ -45,16 +45,6 @@ Main-Text:
 
 Supplementary:
   - text: "부교재"
-    author: "성윤정, 김태은 저"
-    title: >
-      <strong>C++ 하이킹</strong> 객체지향과 만나는 여행
-    publisher: "한빛아카데미 | 2013년 06월 20일"
-    link: "https://www.yes24.com/Product/Goods/60524662"
-    code:
-    notes:
-    image: books/cpp-hiking.jpg
-
-  - text: "부교재"
     author: "박준태 저"
     title: >
       <strong>초보자를 위한 C++ 200제</strong>
@@ -67,7 +57,7 @@ Supplementary:
 
 ## Schedule 강의일정
 
-{% include_relative 2024/hb-cpp/schedule.md %}
+{% include_relative 2025/hb-cpp/schedule.md %}
 
 <a class="btncv" href="#">Top</a>
 
@@ -106,37 +96,9 @@ It also takes a unique approach to introducing features of C++ and the standard 
 
 ---
 
-## Logistics 수업운영
-
-### Course Information / 과정정보
-
-시간이 지나도 변하지 않고 컴퓨팅 세계의 기반을 강화하는 데 도움이 되는 전문적이고 안전하며 이식 가능한 C 코드를 작성하는 방법을 알아본다.
-
-- **프로그래밍(50%)** 직무에 필요한 문제 또는 시스템을 프로그래밍 언어로 구현할 수 있는 역량
-- **전공기초(40%)** 정보통신전공을 수행할 수 있는 공학적 기초개념, 수학, 물리학 등의 기본역량
-- **자기주도문제해결(10%)** 프로젝트, 캡스톤디자인 및 지식재산권, 공학경영, 논문작성 등 전공분야에 밀접하게 연관된 비전공분야의 역량
-
-Students will learn how to write professional, safe, and portable C code that doesn't change over time and helps strengthen the foundations of the world of computing.
-
-- **Programming (50%)** Ability to implement problems or systems required for the job in a programming language
-- **Major foundations (40%)** Basic competencies such as basic engineering concepts, mathematics, physics, etc.
-- **Self-directed problem solving (10%)** Competence in non-major fields closely related to major fields, such as project, capstone design and intellectual property rights, engineering management, and thesis writing
-
-<a class="btncv" href="#">Top</a>
-
----
-
 ### Policies 규정
 
 {% include_relative common/policies.md %}
-
-<a class="btncv" href="#">Top</a>
-
----
-
-## Resources 자료실
-
-{% include_relative 2024/hb-cpp/resources.md %}
 
 <a class="btncv" href="#">Top</a>
 

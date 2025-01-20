@@ -2,11 +2,11 @@
 layout: distill
 title: Information Society and Software
 subtitle: 정보사회와 소프트웨어
-description: 060487 • 2024년 1학기 • 전주교육대학교
+description: 060487 • 2025년 1학기 • 전주교육대학교
 logo: jnue-logo.png
-img: assets/img/books/scratch-3.jpg
-importance: 1
-category: 2024-1
+img: assets/img/books/ai-with-scratch.jpg
+importance: 4
+category: 2025-1
 
 toc:
   - name: Schedule 강의일정
@@ -24,18 +24,14 @@ toc:
   - name: Instructor 강사소개
 
 information:
-  - section: 070137-1 (윤리)
-    time: 월 34 | Mon 11am-1pm
+  - section: 070137-? (??)
+    time: 수 67 | Wed 2pm-4pm
     location: 전산교육실2
-    kakaotalk: https://open.kakao.com/o/ggZVnIbg
-  - section: 070137-4 (수학)
-    time: 월 67 | Mon 2pm-4pm
+    kakaotalk:
+  - section: 070137-? (??)
+    time: 수 89 | Wed 4pm-6pm
     location: 전산교육실2
-    kakaotalk: https://open.kakao.com/o/gCwepIbg
-  - section: 070137-5 (과학)
-    time: 월 12 | Mon 9am-11am
-    location: 전산교육실2
-    kakaotalk: https://open.kakao.com/o/gJgvqIbg
+    kakaotalk:
 
 Main-Text:
   - text: "주교재"
@@ -52,7 +48,7 @@ Supplementary:
   - text: "부교재"
     author: "고광일 저"
     title: >
-      <strong>난생처음 인공지능 with 스크래치 [2판]</strong> 
+      <strong>난생처음 인공지능 with 스크래치 [2판]</strong>
     publisher: "한빛아카데미 | 2023년 10월 23일"
     link: "https://www.yes24.com/Product/Goods/123146699"
     code:
@@ -62,7 +58,7 @@ Supplementary:
 
 ## Schedule 강의일정
 
-{% include_relative 2024/jnue-iss/schedule.md %}
+{% include_relative 2025/jnue-iss/schedule.md %}
 
 <a class="btncv" href="#">Top</a>
 

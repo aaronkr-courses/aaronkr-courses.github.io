@@ -1,0 +1,245 @@
+- date: 3/5
+  week: 1
+  title: >
+    <strong>CHAPTER 01 소프트웨어와 스크래치</strong>
+  slides:
+  readings:
+    - 01 소프트웨어
+    - 02 프로그램과 프로그래밍 언어
+    - 03 스크래치의 특징과 실행
+  supp:
+  hw:
+  img: 2024/jnue-iss/1-iss-introduction-2024.jpg
+  logistics:
+
+- date: 3/12
+  week: 2
+  title: >
+    <strong>CHAPTER 02 블록 사용법 익히기</strong>
+  slides:
+  readings:
+    - 01 스크래치 블록의 종류와 사용법
+    - 02 스크래치 프로그래밍 전 과정
+  supp:
+  hw:
+  img: 2024/jnue-iss/2-jnue-blocks.jpeg
+  logistics:
+
+- date: 3/19
+  week: 3
+  title: >
+    <strong>CHAPTER 03 스프라이트 사용법 익히기</strong>
+  slides:
+  readings:
+    - 01 스프라이트의 구현 방식
+    - 02 스프라이트의 동작 구현
+    - 03 스프라이트의 형태 구현
+    - 04 스프라이트의 소리 구현
+    - 05 스프라이트의 펜 활용
+  supp:
+  hw:
+  img: 2024/jnue-iss/3-jnue-sprites.jpeg
+  logistics:
+
+- date: 3/26
+  week: 4
+  title: >
+    <strong>CHAPTER 04 자료형과 연산, 변수 익히기</strong>
+  slides:
+  readings:
+    - 01 자료형, 연산, 변수
+    - 02 지역 변수와 전역 변수
+    - 03 구조적 자료형- 배열과 리스트
+  supp:
+  hw:
+  img: 2024/jnue-iss/4-jnue-var.jpeg
+  logistics:
+
+- date: 4/2
+  week: 5
+  title: >
+    <strong>CHAPTER 05 조건과 문장 제어 익히기</strong>
+  slides:
+  readings:
+    - 01 조건의 이해
+    - 02 문장의 이해
+    - 03 문장의 반복적 실행
+    - 04 문장의 선택적 실행
+    - 05 반복과 선택의 중첩 실행
+  supp:
+  hw:
+  img: 2024/jnue-iss/5-jnue-loops.jpg
+  logistics:
+
+- date: 4/9
+  week: 6
+  title: >
+    <strong>CHAPTER 06 프로시저(함수)와 병렬 처리 익히기</strong>
+  slides:
+  readings:
+    - 01 프로시저의 개념과 구현
+    - 02 병렬 처리의 개념과 구현
+  supp:
+  hw:
+  img: 2024/jnue-iss/6-jnue-procedures.jpg
+  logistics:
+
+- date: 4/16
+  week: 7
+  title: >
+    <strong>CHAPTER 07 컴퓨팅 사고력과 프로그래밍</strong>
+  slides:
+  readings:
+    - 01 컴퓨팅 사고력
+    - 02 추상화의 개념과 구현
+    - 03 분해의 개념과 구현
+    - 04 패턴인식의 개념과 구현
+    - 05 알고리즘의 개념과 활용
+  supp:
+  hw:
+  img: 2024/jnue-iss/7-jnue-comp-thinking.jpg
+  logistics:
+
+- date: 4/23
+  week: 8
+  title: >
+    <strong>Midterm Quiz</strong>
+  slides:
+  img: 2024/jnue-iss/9-jnue-midterm-guide.jpg
+  hw:
+  logistics: >
+    [퀴즈]<br>
+    <div style="display:none;">
+      - <a href="">과학 퀴즈</a><br>
+      - <a href="">윤리 링크</a><br>
+      - <a href="">수학 링크</a><br>
+    </div>
+    [<a href="" style="display:none;">연습문제</a>
+    <span>연습문제</span>]
+
+- date: >
+    4/30
+  week: 9
+  title: >
+    <div style="display: none;">
+      <strong style="color: red;">No School</strong><br>
+      <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강)</a><br>
+    </div>
+    <strong>APPENDIX 창의 응용 프로그램 모음</strong>
+  slides:
+  readings:
+    - A-01 상어 잡는 잠수부
+  img: 2024/jnue-iss/8-jnue-programs.jpg
+  logistics:
+
+- date: >
+    5/7
+  week: 10
+  title: >
+    <div style="display: none;">
+      <strong style="color: red;">No School</strong> Children's Day<br>
+      <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강)</a><br>
+    </div>
+    <strong>인공지능 with 스크래치<br>
+    CHAPTER 04 챗GPT 이해하기<br></strong>
+  slides: "https://docs.google.com/presentation/d/1gdErZr0993npyWbxEVmI7Jb1JC07r24W1VjOMoNKlus/edit?usp=sharing"
+  img: 2024/jnue-iss/10-iss-chatgpt.jpg
+  readings:
+    - 4.01 챗GPT 탄생과 발전의 주역들에 대해 알아봅니다
+    - 4.02 챗GPT란 무엇인가요?
+    - 4.03 트랜스포머를 소개합니다
+    - 4.04 챗GPT는 어디에 활용될까요?
+    - 4.05 챗GPT를 경험해 봅시다
+  logistics:
+
+- date: 5/14
+  week: 11
+  title: >
+    <strong>인공지능 with 스크래치<br>
+    CHAPTER 01 인공지능 소개하<br>
+    CHAPTER 02 머신러닝 알아보기</strong>
+  slides:
+  readings:
+    - 1.01 생활 속 인공지능의 존재감을 느껴 봅시다
+    - 1.02 인공지능 학문의 탄생과 정의를 알아봅시다
+    - 1.03 인공지능은 무엇으로 구분할 수 있을까요?
+    - 1.04 인공지능의 역사를 알아봅시다
+    - 2.01 머신러닝이란 무엇인가요?
+    - 2.02 머신러닝 학습방법에 대해 알아봅시다
+  supp:
+  hw:
+  img: 2024/jnue-iss/11-iss-ai.jpg
+  logistics:
+
+- date: 5/21
+  week: 12
+  title: >
+    <strong>인공지능 with 스크래치<br>
+    CHAPTER 03 인공신경망과 딥러닝 이해하기</strong>
+  slides:
+  readings:
+    - 3.01 인공신경망이란 무엇인가요?
+    - 3.02 인공뉴런 퍼셉트론에 대해 알아봅시다
+    - 3.03 다층 퍼셉트론에 대해 살펴봅시다
+    - 3.04 딥러닝에 대해서도 간단히 알아볼까요?
+    - 3.05 딥러닝의 대표주자인 CNN을 소개합니다
+  supp:
+  hw:
+  img: 2024/jnue-iss/12-iss-deep-learning.jpg
+  logistics: >
+    <a style="display: none;" href="https://docs.google.com/presentation/d/13TdMQplzoouUF00Mx8QDtoFawGtNxmAm1WwMcpzuNMI/edit?usp=sharing">보충 CNN 슬라이드</a>
+
+- date: 5/28
+  week: 13
+  title: >
+    <strong>인공지능 with 스크래치<br>
+    CHAPTER 09 ‘머신러닝 for 키즈’ 소개하기</strong>
+  slides:
+  readings:
+    - 9.01 ‘머신러닝 for 키즈’에 대해 알아봅시다
+    - 9.02 ‘머신러닝 for 키즈’ 실습 환경을 만들어 봅시다
+    - 9.03 ‘머신러닝 for 키즈’의 간단한 실습을 진행합니다
+  supp:
+  hw:
+  img: 2024/jnue-iss/13-ml-for-kids.jpg
+  logistics:
+
+- date: 6/4
+  week: 14
+  title: >
+    <strong>인공지능 with 스크래치<br>
+    CHAPTER 10 이미지 분류 머신러닝 모델 활용하기<br>
+    CHAPTER 11 숫자 분류 머신러닝 모델 활용하기</strong>
+  slides:
+  readings:
+    - 10.01 이미지 분류 머신러닝 모델을 만들어 봅시다
+    - 10.02 이미지 분류 머신러닝 모델을 활용하여 프로그래밍해 볼까요?
+    - 10.03 스크래치 프로그램 내에서 머신러닝 모델을 학습시켜 봅시다
+    - 11.01 숫자 분류 머신러닝 모델을 만들어 봅시다
+    - 11.02 숫자 분류 머신러닝 모델을 활용하여 프로그래밍해 볼까요?
+    - 11.03 스크래치 프로그램 내에서 머신러닝 모델을 학습시켜 봅시다
+  supp:
+  hw:
+  img: 2024/jnue-iss/14-iss-images-numbers.jpg
+  logistics: >
+    기말고사?<br>
+    <div style="display:none;">
+      <a href="https://forms.gle/hZKoXLV2sndhjBp77">과학 퀴즈</a><br>
+      <a href="https://docs.google.com/presentation/d/1js8CSULHE2YMAa8prL8142C95p70n_0WmxNWkwWf2Js/edit?usp=sharing">과학 실기</a><br>
+      <a href="https://forms.gle/GTyujyr7zp7CdhRY8">윤리 퀴즈</a><br>
+      <a href="https://docs.google.com/presentation/d/1ccesdTi6619PwuOA91Xp_KULFSGeYuX8Q1dZ07rbh0M/edit?usp=sharing">윤리 실기</a><br>
+      <a href="https://forms.gle/FbDtvYTWKMLUSGPJA">수학 퀴즈</a><br>
+      <a href="https://docs.google.com/presentation/d/1_EbCKWjKtpNvuuufeU8nMm01wc0E2I3GpjNrDHY949U/edit?usp=sharing">수학 실기</a><br>
+      <a href="https://forms.gle/yfd2Ds8JWJjayG5Z6">실기 파일 업로드</a>
+    </div>
+
+- date: 6/10
+  week: 15
+  title: >
+    <strong>Final Test</strong>
+  slides2:
+  readings:
+  img:
+  hw:
+  logistics: >
+    기말고사

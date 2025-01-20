@@ -1,0 +1,168 @@
+- date: 3/7
+  week: 1
+  title: >
+    <strong>Chapter 01 C# 프로그래밍 첫걸음</strong>
+  supp:
+  readings: p. 25-54
+  hw:
+  slides:
+  img: 2025/hb-cs/
+  logistics:
+
+- date: 3/14
+  week: 2
+  title: >
+    <strong>Chapter 02 기본 문법</strong>
+  supp:
+  readings: p. 55-122
+  hw:
+  slides:
+  img: 2025/hb-cs/
+  logistics:
+
+- date: 3/21
+  week: 3
+  title: >
+    <strong>Chapter 03 조건문<br>
+    Chapter 04 반복문</strong>
+  supp:
+  readings: p. 123-196
+  hw:
+  slides:
+  img: 2025/hb-cs/
+  logistics:
+
+- date: 3/28
+  week: 4
+  title: >
+    <strong>Chapter 05 클래스 기본</strong>
+  supp:
+  readings: p. 197-258
+  hw:
+  slides:
+  img: 2025/hb-cs/
+  logistics:
+
+- date: 4/4
+  week: 5
+  title: >
+    <strong>Chapter 06 메서드</strong>
+  supp:
+  readings: p. 259-322
+  hw:
+  slides:
+  img: 2025/hb-cs/
+  logistics:
+
+- date: 4/11
+  week: 6
+  title: >
+    <strong>Chapter 07 상속과 다형성</strong>
+  supp:
+  readings: p. 323-382
+  hw:
+  slides:
+  img: 2025/hb-cs/
+  logistics:
+
+- date: 4/18
+  week: 7
+  title: >
+    <strong>Chapter 08 클래스 심화</strong>
+  supp:
+  readings: >
+    p. 383-412<br>
+    중간고사 가이드
+  hw:
+  slides:
+  img: 2025/hb-cs/
+  logistics:
+
+- date: 4/25
+  week: 8
+  title: >
+    <strong>Midterm Test</strong>
+    <div style="display: none">
+      <br>
+      [<a href="">퀴즈 링크</a>] [<a href="">실기 시험</a>]
+    </div>
+
+- date: 5/2
+  week: 9
+  title: >
+    <strong>Chapter 09 인터페이스</strong>
+  supp:
+  readings: p. 413-456
+  hw:
+  slides:
+  img: 2025/hb-cs/
+  logistics:
+
+- date: 5/9
+  week: 10
+  title: >
+    <strong>Chapter 10 예외 처리</strong>
+  supp:
+  readings: p. 457-484
+  hw:
+  slides:
+  img: 2025/hb-cs/
+  logistics:
+
+- date: 5/16
+  week: 11
+  title: >
+    <strong>Chapter 11 델리게이터와 람다</strong>
+  supp:
+  readings: p. 485-514
+  hw:
+  slides:
+  img: 2025/hb-cs/
+  logistics:
+
+- date: 5/23
+  week: 12
+  title: >
+    <strong>Chapter 12 Linq</strong>
+  supp:
+  readings: p. 515-542
+  hw:
+  slides:
+  img: 2025/hb-cs/
+  logistics:
+
+- date: 5/30
+  week: 13
+  title: >
+    <strong>Chapter 13 도서 관리 프로그램</strong>
+  supp:
+  readings: p. 543-566
+  hw:
+  slides:
+  img: 2025/hb-cs/
+  logistics:
+
+- date: 6/6
+  week: 14
+  title: >
+    <span style="color: red"><strong>No Class</strong> 현충일</span>
+
+- date: 6/13
+  week: 15
+  title: >
+    <strong>Chapter 14 인공지능 챗봇 프로그램</strong>
+  supp:
+  readings: p. 567-603
+  hw:
+  slides:
+  img: 2025/hb-cs/
+  logistics:
+
+- date: 6/20
+  week: 15
+  title: >
+    <strong>
+      <a href="">Final Test</a> | 
+      <a href="">실기</a>
+    </strong><br>
+    [<a href="">스터디 가이드</a>]

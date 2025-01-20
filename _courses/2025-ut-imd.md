@@ -2,11 +2,11 @@
 layout: distill
 title: Imaging-based medical device manufacturing
 subtitle: 영상기반의료기기제조
-description: BIO025 • 2024년 1학기 • 교통대학교
+description: BIO025 • 2025년 1학기 • 교통대학교
 logo: ut-logo.png
-img: assets/img/books/bio-medical.jpg
+img: assets/img/books/bio-images.jpg
 importance: 5
-category: 2024-1
+category: 2025-1
 
 toc:
   - name: Schedule 강의일정
@@ -29,10 +29,21 @@ information:
   - section: BIO025(1)
     time: 목 123 | Thur 9am-12pm
     location: W18동 102호
-    kakaotalk: https://open.kakao.com/o/gfKXhIbg
+    kakaotalk:
 
 Main-Text:
   - text: "주교재"
+    author: "제오프 도허티 저 / 김경섭, 이문호, 정성환, 정회경 공저"
+    title: >
+      <strong>디지털 의료영상처리</strong> 기초부터 분석, 응용까지
+    publisher: "홍릉과학출판사 | 2016년 12월 05일"
+    link: "https://www.yes24.com/Product/Goods/95858463"
+    code:
+    notes:
+    image: books/bio-images.jpg
+
+Supplementary:
+  - text: "부교재"
     author: "임창환, 김선정, 김안모, 김인영, 이병훈, 장동표, 최성용 공저"
     title: >
       <strong>교실 밖에서 듣는 바이오메디컬공학</strong> 한양대 공대 교수들이 말하는 미래 의공학 기술
@@ -41,8 +52,6 @@ Main-Text:
     code:
     notes:
     image: books/bio-medical.jpg
-
-Supplementary:
   - text: "부교재"
     author: "Udacity Instructors"
     title: >
@@ -52,21 +61,11 @@ Supplementary:
     code:
     notes:
     image: books/ai-for-healthcare.jpg
-
-  - text: "부교재"
-    author: "Kevin Ashley"
-    title: >
-      <strong>Applied Machine Learning for Health and Fitness:</strong> A Practical Guide to Machine Learning with Deep Vision, Sensors and Iot
-    publisher: "Apress | 2020년 08월 25일"
-    link: "https://www.yes24.com/Product/Goods/92374449"
-    code:
-    notes:
-    image: books/ml-health-fitness.jpg
 ---
 
 ## Schedule 강의일정
 
-{% include_relative 2024/ut-imd/schedule.md %}
+{% include_relative 2025/ut-imd/schedule.md %}
 
 <a class="btncv" href="#">Top</a>
 
@@ -102,37 +101,9 @@ And now, with the great trend of the 4th Industrial Revolution, biomedical engin
 
 ---
 
-## Logistics 수업운영
-
-### Course Information / 과정정보
-
-시간이 지나도 변하지 않고 컴퓨팅 세계의 기반을 강화하는 데 도움이 되는 전문적이고 안전하며 이식 가능한 C 코드를 작성하는 방법을 알아본다.
-
-- **프로그래밍(50%)** 직무에 필요한 문제 또는 시스템을 프로그래밍 언어로 구현할 수 있는 역량
-- **전공기초(40%)** 정보통신전공을 수행할 수 있는 공학적 기초개념, 수학, 물리학 등의 기본역량
-- **자기주도문제해결(10%)** 프로젝트, 캡스톤디자인 및 지식재산권, 공학경영, 논문작성 등 전공분야에 밀접하게 연관된 비전공분야의 역량
-
-Students will learn how to write professional, safe, and portable C code that doesn't change over time and helps strengthen the foundations of the world of computing.
-
-- **Programming (50%)** Ability to implement problems or systems required for the job in a programming language
-- **Major foundations (40%)** Basic competencies such as basic engineering concepts, mathematics, physics, etc.
-- **Self-directed problem solving (10%)** Competence in non-major fields closely related to major fields, such as project, capstone design and intellectual property rights, engineering management, and thesis writing
-
-<a class="btncv" href="#">Top</a>
-
----
-
 ### Policies 규정
 
 {% include_relative common/policies.md %}
-
-<a class="btncv" href="#">Top</a>
-
----
-
-## Resources 자료실
-
-{% include_relative 2024/ut-imd/resources.md %}
 
 <a class="btncv" href="#">Top</a>
 

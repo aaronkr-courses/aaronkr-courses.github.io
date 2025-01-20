@@ -1,0 +1,185 @@
+- date: 3/4
+  week: 1
+  title: >
+    <strong>01 데이터베이스 개념</strong>
+  supp:
+  readings: p. 16-38
+  hw:
+  slides:
+  img: 2024/dju-db/1-db-intro.jpg
+  logistics:
+
+- date: 3/11
+  week: 2
+  title: >
+    <strong>02 데이터베이스 시스템</strong>
+  supp:
+  readings: p. 40-64
+  hw:
+  slides:
+  slides2:
+  img: 2024/dju-db/2-db-system.jpg
+  logistics: >
+    <strong>GitHub 저장소</strong>
+
+- date: 3/18
+  week: 3
+  title: >
+    <strong>03 관계형 데이터 모델</strong>
+  supp:
+  readings: p. 66-96
+  hw:
+  slides:
+  slides2:
+  img: 2024/dju-db/3-relational-data-model.jpg
+  logistics: >
+    3장 연습 문제
+
+- date: 3/25
+  week: 4
+  title: >
+    <strong>04 관계 대수</strong>
+  supp:
+  readings: p. 98-130
+  hw:
+  slides:
+  img: 2024/dju-db/4-relational-algebra.jpg
+  logistics: >
+    4장 연습 문제
+
+- date: 4/1
+  week: 5
+  title: >
+    <strong>05 SQL 기초</strong>
+  supp:
+  readings: p. 132-186
+  hw:
+  slides:
+  img: 2024/dju-db/6-sql-basics.jpg
+  logistics: >
+    5장 연습 문제
+
+- date: 4/8
+  week: 6
+  title: >
+    <strong>06 SQL 활용</strong>
+  supp:
+  readings: p. 188-226
+  hw:
+  slides:
+  slides2:
+  img: 2024/dju-db/7-sql-use.jpg
+  logistics: >
+    6장 연습 문제<br>
+    <span style="color: purple;">인덱스 예시 (보충 PPT #32)</span>
+
+- date: 4/15
+  week: 7
+  title: >
+    <strong>07 SQL 응용</strong>
+  supp:
+  readings: p. 227-282
+  hw:
+  slides:
+  slides2:
+  img: 2024/dju-db/9-sql-app.jpg
+  logistics: >
+    7장 연습 문제
+
+- date: 4/22
+  week: 8
+  title: >
+    <strong>Midterm Test</strong><br>
+    <div style="display: none;"><br>
+      [<a href="">퀴즈</a>] 
+      [<a href="">실기</a>]
+    </div>
+
+- date: 4/29
+  week: 9
+  title: >
+    <strong>08 정규화<br>
+    09 E-R 모델</strong>
+  supp:
+  readings: p. 316-340
+  hw:
+  slides:
+  img: 2024/dju-db/10-reg-er.jpg
+  logistics: >
+    8장 연습 문제<br>
+    9장 연습 문제
+
+- date: 5/6
+  week: 10
+  title: >
+    <span style="color: red"><strong>No Class</strong> 어린이 날 (대체)</span>
+
+- date: 5/13
+  week: 11
+  title: >
+    <strong>10 데이터베이스 설계</strong>
+  supp:
+  readings: p. 342-378
+  hw:
+  slides:
+  img: 2024/dju-db/11-db-arch.jpg
+  logistics: >
+    10장 연습 문제
+
+- date: 5/20
+  week: 12
+  title: >
+    <strong>11 데이터웨어하우스와 데이터베이스 응용</strong>
+  supp:
+  readings: p. 380-420
+  hw:
+  slides:
+  img: 2024/dju-db/12-data-warehouse.jpg
+  logistics: >
+    11장 연습 문제
+
+- date: 5/27
+  week: 13
+  title: >
+    <strong>12 빅데이터와 NoSQL</strong>
+  supp:
+  readings: p. 422-456
+  hw:
+  slides:
+  img: 2024/dju-db/13-big-data.jpg
+  logistics: >
+    12장 연습 문제
+
+- date: 6/3
+  week: 14
+  title: >
+    <strong>13 NoSQL과 몽고DB</strong>
+  supp:
+  readings: p 458-490
+  hw:
+  slides:
+  slides2:
+  img: 2024/dju-db/14-mongodb.jpg
+  logistics: >
+    13장 연습 문제
+
+- date: 6/10
+  week: 15
+  title: >
+    <strong>14 데이터베이스 모바일 웹 프로그래밍</strong>
+  supp:
+  readings: p. 492-532
+  hw:
+  slides:
+  img: 2024/dju-db/15-mobile-web.jpg
+  logistics: >
+    PHP MovieDB 프로젝트
+
+- date: 6/17
+  week: 16
+  title: >
+    <strong>Final Test</strong><br>
+    <a href="">퀴즈</a> | <a href="">실기</a>
+    <div style="display: none;"><br>
+      스터디 가이드: <a href="">짧게</a>
+    </div>

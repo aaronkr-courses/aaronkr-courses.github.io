@@ -1,0 +1,155 @@
+- date: 3/6
+  week: 1
+  title: >
+    <strong>1부 우리 몸을 들여다보다</strong><br>
+    - 1. 몸속 사진 한 장 한 장을 모으면 : X-레이 영상과 CT (임창환)<br>
+    - 2. 뇌는 제가 잘 봅니다 : MRI (임창환)
+  slides:
+  img: 2024/ut-imd/1-imd-introduction.jpg
+  readings:
+  hw:
+  logistics:
+
+- date: 3/13
+  week: 2
+  title: >
+    <strong>1부 우리 몸을 들여다보다</strong><br>    
+    - 3. 소리를 이용해 영상을 보다 : 초음파 영상기기 (임창환)<br>
+    - 4. 몸속에선 어떤 일이 일어나고 있을까? : 핵의학영상 (장동표)
+  slides:
+  img: 2024/ut-imd/2-imd-in-the-body.jpg
+  readings:
+  hw:
+  logistics:
+
+- date: 3/20
+  week: 3
+  title: >
+    <strong>1. 영상처리 소개<br>
+    2. 영상시스템</strong>
+  slides:
+  img: 2025/ut-imd/
+  readings: p. 1-48
+  hw:
+  logistics:
+
+- date: 3/27
+  week: 4
+  title: >
+    <strong>3. 이온화 방사선 의학영상 획득 장치<br>
+    4. 비이온화 방사선 의학영상 획득 장치</strong>
+  slides:
+  img: 2025/ut-imd/
+  readings: p. 49-136
+  hw:
+  logistics:
+
+- date: 4/3
+  week: 5
+  title: >
+    <strong>5. 디지털 영상처리의 기초<br>
+    6. 공간 영역에서 영상 개선</strong>
+  slides:
+  img: 2025/ut-imd/
+  readings: p. 137-228
+  hw:
+  logistics:
+
+- date: 4/10
+  week: 6
+  title: >
+    <strong>7. 주파수 영역에서 영상 개선</strong>
+  slides:
+  img: 2025/ut-imd/
+  readings: p. 229-282
+  hw:
+  logistics:
+
+- date: 4/17
+  week: 7
+  title: >
+    <strong>8. 영상 복원</strong>
+  slides:
+  img: 2025/ut-imd/
+  readings: >
+    p. 283-310<br>
+    중간고사 가이드
+  hw:
+  logistics:
+
+- date: 4/24
+  week: 8
+  title: >
+    <strong>Midterm Test</strong>
+    <div style="display: none;"><br>
+      [<a href="">퀴즈 링크</a>]
+    </div>
+
+- date: >
+    5/1<span style="color: red;">*</span>
+  week: 9
+  title: >
+    <strong>9. 형태적 영상처리</strong>
+  slides:
+  img: 2025/ut-imd/
+  readings: p. 311-346
+  hw:
+  logistics:
+
+- date: 5/8
+  week: 10
+  title: >
+    <strong>10. 영상 분할</strong>
+  slides:
+  img: 2025/ut-imd/
+  readings: p. 347-376
+  hw:
+  logistics:
+
+- date: 5/15
+  week: 11
+  title: >
+    <strong>11. 특징 인식과 분류</strong>
+  slides:
+  img: 2025/ut-imd/
+  readings: p. 377-408
+  hw:
+  logistics:
+
+- date: 5/22
+  week: 12
+  title: >
+    <strong>12. 3차원 가시화</strong>
+  slides:
+  img: 2025/ut-imd/
+  readings: p. 409-422
+  hw:
+  logistics:
+
+- date: 5/29
+  week: 13
+  title: >
+    <strong>13. 영상촬영의 의학적 응용</strong>
+  slides:
+  img: 2025/ut-imd/
+  readings: p. 423-438
+  hw:
+  logistics:
+
+- date: 6/5
+  week: 14
+  title: >
+    <strong>14. 의료영상 획득 기술의 최신 발전 동향</strong>
+  slides:
+  img: 2025/ut-imd/
+  readings: >
+    p.439-443<br>
+    기말고사 가이드
+  hw:
+  logistics:
+
+- date: 6/12
+  week: 15
+  title: >
+    <strong>Final Test</strong><br>
+    <a href="">기말고사</a>
