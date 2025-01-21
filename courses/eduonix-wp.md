@@ -5,7 +5,7 @@ subtitle: Build 3 Projects
 description: 2020 • Eduonix
 logo: eduonix-logo.png
 img:
-importance:
+importance: 2
 category: Online
 
 redirect: https://www.eduonix.com/modern-wordpress-theme-development

@@ -5,7 +5,7 @@ subtitle: InDesign & Photoshop
 description: 2016-2018 • 국제영재아카데미
 logo: gpa-logo.png
 img:
-importance:
+importance: 8
 category: GPA
 
 redirect: https://aaron.kr/content/about/teaching/

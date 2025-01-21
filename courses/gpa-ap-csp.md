@@ -5,7 +5,7 @@ subtitle: Internet & JavaScript
 description: 2017-2018 • 국제영재아카데미
 logo: gpa-logo.png
 img:
-importance:
+importance: 2
 category: GPA
 
 redirect: https://aaron.kr/content/about/teaching/
