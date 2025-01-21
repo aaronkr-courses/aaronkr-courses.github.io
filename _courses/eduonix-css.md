@@ -5,7 +5,7 @@ subtitle: Learn CSS from Scratch
 description: 2020 • Eduonix
 logo: eduonix-logo.png
 img:
-importance:
+importance: 1
 category: Online
 
 redirect: https://www.eduonix.com/beginners-guide-to-css

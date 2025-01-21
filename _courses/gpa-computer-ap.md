@@ -5,7 +5,7 @@ subtitle: A+ Certification Preparation
 description: 2018 • 국제영재아카데미
 logo: gpa-logo.png
 img:
-importance:
+importance: 4
 category: GPA
 
 redirect: https://aaron.kr/content/about/teaching/
