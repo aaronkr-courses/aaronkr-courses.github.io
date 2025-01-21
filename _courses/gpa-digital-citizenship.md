@@ -4,7 +4,7 @@ title: Digital Citizenship
 subtitle: Common Sense Media Curriculum
 description: 2018 • 국제영재아카데미
 logo: gpa-logo.png
-img:
+img: /assets/img/ai-for-healthcare.jpg
 importance: 10
 category: GPA
 
