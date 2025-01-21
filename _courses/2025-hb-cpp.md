@@ -7,6 +7,7 @@ logo: hanbat-logo.png
 img: assets/img/books/cpp-fast.jpg
 importance: 7
 category: 2025-1
+now: Yes
 
 toc:
   - name: Schedule 강의일정

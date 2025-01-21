@@ -7,6 +7,7 @@ logo: ut-logo.png
 img: assets/img/books/bio-images.jpg
 importance: 5
 category: 2025-1
+now: Yes
 
 toc:
   - name: Schedule 강의일정

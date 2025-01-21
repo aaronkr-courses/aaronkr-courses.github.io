@@ -7,7 +7,7 @@
     <div class="card hoverable">
       <div class="row g-0">
         {%- if course.img -%}
-          {%- if course.category == "2025-1" -%}
+          {%- if course.now -%}
           <div class="card-img col-md-2 course-thumbnail textbook">
             {% include figure.html path=course.img alt="course thumbnail" %}
           </div>

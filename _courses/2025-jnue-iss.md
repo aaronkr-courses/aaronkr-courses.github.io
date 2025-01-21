@@ -7,6 +7,7 @@ logo: jnue-logo.png
 img: assets/img/books/ai-with-scratch.jpg
 importance: 4
 category: 2025-1
+now: Yes
 
 toc:
   - name: Schedule 강의일정
