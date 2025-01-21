@@ -53,8 +53,11 @@ grid: false
     opacity: .25;
     padding-right: 1rem;
   }
+  .row-cols-2 .card-body .logo {
+    right: -1rem;
+  }
   .col-md-10 .card-body .logo {
-      padding: 0;
+    padding: 0;
   }
 </style>
 
