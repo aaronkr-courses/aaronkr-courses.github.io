@@ -11,12 +11,13 @@
           <div class="card-img col-md-2 course-thumbnail textbook">
             {% include figure.html path=course.img alt="course thumbnail" %}
           </div>
+          <div class="col-md-10">
           {%- else -%}
           <div class="card-img col-md-3 course-thumbnail">
             {% include figure.html path=course.img alt="course thumbnail" %}
           </div>
+          <div class="col-md-9">
           {%- endif -%}
-        <div class="col-md-9">
         {%- else -%}
         <div class="col-md-12">
         {%- endif -%}
