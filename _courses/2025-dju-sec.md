@@ -5,7 +5,7 @@ subtitle: 시큐어코딩
 description: 012744 • 2025년 1학기 • 대전대학교
 logo: dju-logo-2.png
 img: assets/img/books/secure-web.jpg
-importance: 3
+importance: 4
 category: 2025-1
 now: Yes
 

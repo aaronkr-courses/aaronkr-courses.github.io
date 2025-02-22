@@ -5,7 +5,7 @@ subtitle: 영상기반의료기기제조
 description: BIO025 • 2025년 1학기 • 교통대학교
 logo: ut-logo.png
 img: assets/img/books/bio-images.jpg
-importance: 5
+importance: 6
 category: 2025-1
 now: Yes
 

@@ -10,6 +10,8 @@ children:
   - title: divider
   - title: JBNU-CHIPS
     permalink: /courses/2025-jbnu-chips/
+  - title: JBNU-CIRCUITS
+    permalink: /courses/2025-jbnu-circuits/
   - title: divider
   - title: DJU-DB
     permalink: /courses/2025-dju-db/

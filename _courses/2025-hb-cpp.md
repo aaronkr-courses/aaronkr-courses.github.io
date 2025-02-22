@@ -5,7 +5,7 @@ sutitle: C++ 프로그래밍
 description: INFO2118 • 2025년 1학기 • 한밭대학교
 logo: hanbat-logo.png
 img: assets/img/books/cpp-fast.jpg
-importance: 7
+importance: 8
 category: 2025-1
 now: Yes
 
