@@ -2,7 +2,7 @@
 layout: distill
 title: Program-Based Circuit Theory
 subtitle: 프로그램 기반 회로 이론
-description: 0000102163 • 2025년 1학기 • 전북대학교
+description: 0000127046 • 2025년 1학기 • 전북대학교
 logo: jbnu-logo-2.png
 img: assets/img/books/electric-circuits.jpg
 importance: 2
@@ -28,7 +28,7 @@ toc:
   - name: Instructor 강사소개
 
 information:
-  - section: 0000102163
+  - section: 0000127046
     time: 월 1-4pm
     location: 인문대학 2호관
     kakaotalk:

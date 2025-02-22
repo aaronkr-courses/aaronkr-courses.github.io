@@ -1,0 +1,172 @@
+- date: 3/10
+  week: 1
+  title: >
+    <strong>Introduction</strong>
+  supp:
+  readings:
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 3/17
+  week: 2
+  title: >
+    <strong>Basic Concpts
+    <br>Basic Laws</strong>
+  supp:
+  readings:
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 3/24
+  week: 3
+  title: >
+    <strong>Methods of Analysis</strong>
+  supp:
+  readings:
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 3/31
+  week: 4
+  title: >
+    <strong>Circuit Theorems</strong>
+  supp:
+  readings:
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 4/7
+  week: 5
+  title: >
+    <strong>Operational Amplifiers<br>
+    Capacitors & Inductors</strong>
+  supp:
+  readings:
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 4/14
+  week: 6
+  title: >
+    <strong>First-Order Circuits</strong>
+  supp:
+  readings:
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 4/21
+  week: 7
+  title: >
+    <strong>Second-Order Circuits</strong>
+  supp:
+  readings:
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 4/28
+  week: 8
+  title: >
+    <strong>Midterm Test</strong><br>
+    [<a href="">Study Guide</a>]<br>
+    <div style="display: none;"><br>
+      <a href="">Test</a>
+    </div>
+
+- date: 5/5
+  week: 9
+  title: >
+    <span style="color: red"><strong>No Class</strong> 어린이 날 (대체)</span>
+
+- date: 5/12
+  week: 10
+  title: >
+    <strong>AC Circuits I<br>
+    (Sinusoids, Phasors)</strong>
+  supp:
+  readings:
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 5/19
+  week: 11
+  title: >
+    <strong>AC Circuits II<br>
+    (Power Analysis, 3-Phase)</strong>
+  supp:
+  readings: p. 296-324
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 5/26
+  week: 12
+  title: >
+    <strong>AC Circuits III<br>
+    (Magnetically Coupled, Frequency Response)</strong>
+  supp:
+  readings: p. 325-347
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 6/2
+  week: 13
+  title: >
+    <strong>Advanced Circuit Analysis I<br>
+    (Laplace Transform)</strong>
+  supp:
+  readings: p. 348-381
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 6/9
+  week: 14
+  title: >
+    <strong>Advanced Circuit Analysis II<br>
+    (Fourier Transform)</strong>
+  supp:
+  readings: p. 382-428
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 6/16
+  week: 15
+  title: >
+    <strong>Conclusion, Arduino Projects, TBA</strong>
+  supp:
+  readings: p. 429-484
+  hw:
+  slides:
+  img: 2025/jbnu-chips/
+  logistics:
+
+- date: 6/23
+  week: 16
+  title: >
+    <strong>Final Test</strong><br>
+    <a href="">Study Guide</a>
+    <div style="display: none;"><br>
+      <a href="">퀴즈</a> | <a href="">실기</a>
+    </div>
