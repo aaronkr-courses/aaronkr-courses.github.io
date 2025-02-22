@@ -6,7 +6,7 @@ description: 2016-2017 • 국제영재아카데미
 logo: gpa-logo.png
 img:
 importance: 9
-category: GPA
+category: Gpa
 
 redirect: https://aaron.kr/content/about/teaching/
 ---
