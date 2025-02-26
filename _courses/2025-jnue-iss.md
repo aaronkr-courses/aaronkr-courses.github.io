@@ -45,7 +45,6 @@ Main-Text:
     notes:
     image: books/excel.jpg
 
-Supplementary:
   - text: "부교재"
     author: "에이럭스 미래교육연구소, 곽혜미 저"
     title: >
