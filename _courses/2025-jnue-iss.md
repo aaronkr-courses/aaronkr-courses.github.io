@@ -67,7 +67,7 @@ Supplementary:
 
 ## Overview 개요
 
-<img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="books/excel.jpg" />
+<img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/excel.jpg" />
 
 **이보다 쉬운 엑셀 책은 없었다!
 IT 교육 크리에이터 ‘누나IT’가 알려주는 엑셀 왕초보를 위한 ‘진짜 쉬운’ 엑셀 도서!**
@@ -85,7 +85,7 @@ IT 교육 크리에이터 ‘누나IT’가 알려주는 엑셀 왕초보를 위
 
 ---
 
-<img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="books/entry.jpg" />
+<img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/entry.jpg" />
 
 **초등코딩 BEST 1위!
 엔트리 최신 버전을 반영한 개정판
