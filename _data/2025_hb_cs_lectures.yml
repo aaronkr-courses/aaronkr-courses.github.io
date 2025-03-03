@@ -87,7 +87,8 @@
       [<a href="">퀴즈 링크</a>] [<a href="">실기 시험</a>]
     </div>
 
-- date: 5/2
+- date: >
+    <span style="color: red">5/2<br>보강</span>
   week: 9
   title: >
     <strong>Chapter 09 인터페이스</strong>
@@ -120,7 +121,8 @@
   img: 2025/hb-cs/
   logistics:
 
-- date: 5/23
+- date: >
+    <span style="color: red">5/23<br>보강</span>
   week: 12
   title: >
     <strong>Chapter 12 Linq</strong>
@@ -161,8 +163,4 @@
 - date: 6/20
   week: 15
   title: >
-    <strong>
-      <a href="">Final Test</a> | 
-      <a href="">실기</a>
-    </strong><br>
-    [<a href="">스터디 가이드</a>]
+    <strong>Final Test</strong>
