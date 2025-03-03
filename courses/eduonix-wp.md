@@ -7,7 +7,6 @@ logo: eduonix-logo.png
 img:
 importance: 2
 category: Online
-now: Yes
 
 redirect: https://www.eduonix.com/modern-wordpress-theme-development
 ---

@@ -7,7 +7,6 @@ logo: eduonix-logo.png
 img:
 importance: 1
 category: Online
-now: Yes
 
 redirect: https://www.eduonix.com/beginners-guide-to-css
 ---
