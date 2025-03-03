@@ -2,11 +2,11 @@
   week: 1
   title: >
     <strong>수업소개</strong>
-  slides:
+  slides: "https://docs.google.com/presentation/d/1WPp0FgqR41laebl1tYrJqtumvFfPpv5nnTzT59-Gltw/edit?usp=sharing"
   readings:
   supp:
   hw:
-  img: 2025/jnue-iss/
+  img: 2025/jnue-iss/1-intro.jpg
   logistics:
 
 - date: 3/12
