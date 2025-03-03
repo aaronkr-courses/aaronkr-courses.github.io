@@ -18,7 +18,7 @@
   hw:
   slides:
   slides2:
-  img: 2025/dju-sec/
+  img2: 2025/dju-sec/
   logistics:
 
 - date: 3/18
@@ -30,7 +30,7 @@
   hw:
   slides:
   slides2:
-  img: 2025/dju-sec/
+  img2: 2025/dju-sec/
   logistics:
 
 - date: 3/25
@@ -41,7 +41,7 @@
   readings: p. 89-165
   hw:
   slides:
-  img: 2025/dju-sec/
+  img2: 2025/dju-sec/
   logistics:
 
 - date: 4/1
@@ -52,7 +52,7 @@
   readings: p. 165-255
   hw:
   slides:
-  img: 2025/dju-sec/
+  img2: 2025/dju-sec/
   logistics:
 
 - date: 4/8
@@ -64,7 +64,7 @@
   hw:
   slides:
   slides2:
-  img: 2025/dju-sec/
+  img2: 2025/dju-sec/
   logistics:
 
 - date: 4/15
@@ -76,7 +76,7 @@
   hw:
   slides:
   slides2:
-  img: 2025/dju-sec/
+  img2: 2025/dju-sec/
   logistics:
 
 - date: 4/22
@@ -96,7 +96,7 @@
   readings: p. 374-441
   hw:
   slides:
-  img: 2025/dju-sec/
+  img2: 2025/dju-sec/
   logistics:
 
 - date: 5/6
@@ -112,7 +112,7 @@
   readings: p. 442-508
   hw:
   slides:
-  img: 2025/dju-sec/
+  img2: 2025/dju-sec/
   logistics:
 
 - date: 5/20
@@ -123,7 +123,7 @@
   readings: p. 509-528
   hw:
   slides:
-  img: 2025/dju-sec/
+  img2: 2025/dju-sec/
   logistics:
 
 - date: 5/27
@@ -134,7 +134,7 @@
   readings: p. 529-587
   hw:
   slides:
-  img: 2025/dju-sec/
+  img2: 2025/dju-sec/
   logistics:
 
 - date: 6/3
@@ -146,7 +146,7 @@
   hw:
   slides:
   slides2:
-  img: 2025/dju-sec/
+  img2: 2025/dju-sec/
   logistics:
 
 - date: 6/10
@@ -157,14 +157,10 @@
   readings: p. 619-630
   hw:
   slides:
-  img: 2025/dju-sec/
+  img2: 2025/dju-sec/
   logistics:
 
 - date: 6/17
   week: 16
   title: >
-    <strong>Final Test</strong><br>
-    <a href="">퀴즈</a> | <a href="">실기</a>
-    <div style="display: none;"><br>
-      스터디 가이드: <a href="">짧게</a>
-    </div>
+    <strong>Final Test</strong>

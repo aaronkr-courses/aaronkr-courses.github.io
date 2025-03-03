@@ -17,7 +17,7 @@
   readings: p. 55-122
   hw:
   slides:
-  img: 2025/hb-cs/
+  img2: 2025/hb-cs/
   logistics:
 
 - date: 3/21
@@ -29,7 +29,7 @@
   readings: p. 123-196
   hw:
   slides:
-  img: 2025/hb-cs/
+  img2: 2025/hb-cs/
   logistics:
 
 - date: 3/28
@@ -40,7 +40,7 @@
   readings: p. 197-258
   hw:
   slides:
-  img: 2025/hb-cs/
+  img2: 2025/hb-cs/
   logistics:
 
 - date: 4/4
@@ -51,7 +51,7 @@
   readings: p. 259-322
   hw:
   slides:
-  img: 2025/hb-cs/
+  img2: 2025/hb-cs/
   logistics:
 
 - date: 4/11
@@ -62,7 +62,7 @@
   readings: p. 323-382
   hw:
   slides:
-  img: 2025/hb-cs/
+  img2: 2025/hb-cs/
   logistics:
 
 - date: 4/18
@@ -75,17 +75,13 @@
     중간고사 가이드
   hw:
   slides:
-  img: 2025/hb-cs/
+  img2: 2025/hb-cs/
   logistics:
 
 - date: 4/25
   week: 8
   title: >
     <strong>Midterm Test</strong>
-    <div style="display: none">
-      <br>
-      [<a href="">퀴즈 링크</a>] [<a href="">실기 시험</a>]
-    </div>
 
 - date: >
     <span style="color: red">5/2<br>보강</span>
@@ -96,7 +92,7 @@
   readings: p. 413-456
   hw:
   slides:
-  img: 2025/hb-cs/
+  img2: 2025/hb-cs/
   logistics:
 
 - date: 5/9
@@ -107,7 +103,7 @@
   readings: p. 457-484
   hw:
   slides:
-  img: 2025/hb-cs/
+  img2: 2025/hb-cs/
   logistics:
 
 - date: 5/16
@@ -118,7 +114,7 @@
   readings: p. 485-514
   hw:
   slides:
-  img: 2025/hb-cs/
+  img2: 2025/hb-cs/
   logistics:
 
 - date: >
@@ -130,7 +126,7 @@
   readings: p. 515-542
   hw:
   slides:
-  img: 2025/hb-cs/
+  img2: 2025/hb-cs/
   logistics:
 
 - date: 5/30
@@ -141,7 +137,7 @@
   readings: p. 543-566
   hw:
   slides:
-  img: 2025/hb-cs/
+  img2: 2025/hb-cs/
   logistics:
 
 - date: 6/6
@@ -157,7 +153,7 @@
   readings: p. 567-603
   hw:
   slides:
-  img: 2025/hb-cs/
+  img2: 2025/hb-cs/
   logistics:
 
 - date: 6/20

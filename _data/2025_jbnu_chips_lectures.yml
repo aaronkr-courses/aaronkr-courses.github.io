@@ -17,7 +17,7 @@
   readings: p. 1-28
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 3/17
@@ -29,7 +29,7 @@
   readings: p. 29-89
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 3/24
@@ -41,7 +41,7 @@
   readings: p. 90-140
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 3/31
@@ -53,7 +53,7 @@
   readings: p. 141-198
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 4/7
@@ -64,7 +64,7 @@
   readings: p. 199-230
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 4/14
@@ -75,17 +75,13 @@
   readings: p. 231-265
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 4/21
   week: 8
   title: >
-    <strong>Midterm Test</strong><br>
-    [<a href="">Study Guide</a>]<br>
-    <div style="display: none;"><br>
-      <a href="">Test</a>
-    </div>
+    <strong>Midterm Test</strong>
 
 - date: 4/28
   week: 9
@@ -95,7 +91,7 @@
   readings: p. 266-295
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 5/5
@@ -111,7 +107,7 @@
   readings: p. 296-324
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 5/19
@@ -122,7 +118,7 @@
   readings: p. 325-347
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 5/26
@@ -146,7 +142,7 @@
   readings: p. 382-428
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 6/9
@@ -158,14 +154,10 @@
   readings: p. 429-484
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 6/16
   week: 16
   title: >
-    <strong>Final Test</strong><br>
-    <a href="">Study Guide</a>
-    <div style="display: none;"><br>
-      <a href="">퀴즈</a> | <a href="">실기</a>
-    </div>
+    <strong>Final Test</strong>

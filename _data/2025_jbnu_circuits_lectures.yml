@@ -18,7 +18,7 @@
   readings:
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 3/24
@@ -29,7 +29,7 @@
   readings:
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 3/31
@@ -40,7 +40,7 @@
   readings:
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 4/7
@@ -52,7 +52,7 @@
   readings:
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 4/14
@@ -63,7 +63,7 @@
   readings:
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 4/21
@@ -74,17 +74,13 @@
   readings:
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 4/28
   week: 8
   title: >
-    <strong>Midterm Test</strong><br>
-    [<a href="">Study Guide</a>]<br>
-    <div style="display: none;"><br>
-      <a href="">Test</a>
-    </div>
+    <strong>Midterm Test</strong>
 
 - date: 5/5
   week: 9
@@ -100,7 +96,7 @@
   readings:
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 5/19
@@ -112,7 +108,7 @@
   readings: p. 296-324
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 5/26
@@ -124,7 +120,7 @@
   readings: p. 325-347
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 6/2
@@ -136,7 +132,7 @@
   readings: p. 348-381
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 6/9
@@ -148,7 +144,7 @@
   readings: p. 382-428
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 6/16
@@ -159,14 +155,10 @@
   readings: p. 429-484
   hw:
   slides:
-  img: 2025/jbnu-chips/
+  img2: 2025/jbnu-chips/
   logistics:
 
 - date: 6/23
   week: 16
   title: >
-    <strong>Final Test</strong><br>
-    <a href="">Study Guide</a>
-    <div style="display: none;"><br>
-      <a href="">퀴즈</a> | <a href="">실기</a>
-    </div>
+    <strong>Final Test</strong>

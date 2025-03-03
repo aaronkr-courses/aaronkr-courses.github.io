@@ -18,7 +18,7 @@
   readings:
   supp:
   hw:
-  img: 2025/jnue-iss/
+  img2: 2025/jnue-iss/
   logistics:
 
 - date: 3/19
@@ -30,7 +30,7 @@
   readings:
   supp:
   hw:
-  img: 2025/jnue-iss/
+  img2: 2025/jnue-iss/
   logistics:
 
 - date: 3/26
@@ -41,7 +41,7 @@
   readings:
   supp:
   hw:
-  img: 2025/jnue-iss/
+  img2: 2025/jnue-iss/
   logistics:
 
 - date: 4/2
@@ -52,7 +52,7 @@
   readings:
   supp:
   hw:
-  img: 2025/jnue-iss/
+  img2: 2025/jnue-iss/
   logistics:
 
 - date: 4/9
@@ -64,7 +64,7 @@
   readings:
   supp:
   hw:
-  img: 2025/jnue-iss/
+  img2: 2025/jnue-iss/
   logistics:
 
 - date: 4/16
@@ -76,7 +76,7 @@
   readings:
   supp:
   hw:
-  img: 2025/jnue-iss/
+  img2: 2025/jnue-iss/
   logistics:
 
 - date: 4/23
@@ -84,7 +84,7 @@
   title: >
     <strong style="color: red">1학년 참관실습Ⅰ</strong>
   slides:
-  img: 2025/jnue-iss/
+  img2: 2025/jnue-iss/
   hw:
   logistics: >
     <div style="display:none;">
@@ -108,7 +108,7 @@
     WEEK 04 어서 와! 엔트리는 처음이지?</strong>
   slides:
   readings:
-  img: 2025/jnue-iss/
+  img2: 2025/jnue-iss/
   logistics:
 
 - date: 5/7
@@ -117,7 +117,7 @@
     <strong>WEEK 05 야구 연습 기계 만들기<br>
     WEEK 06 친구들에게 줄 빵을 만들어요</strong>
   slides:
-  img: 2025/jnue-iss/
+  img2: 2025/jnue-iss/
   readings:
   logistics:
 
@@ -130,7 +130,7 @@
   readings:
   supp:
   hw:
-  img: 2025/jnue-iss/
+  img2: 2025/jnue-iss/
   logistics:
 
 - date: 5/21
@@ -142,7 +142,7 @@
   readings:
   supp:
   hw:
-  img: 2025/jnue-iss/
+  img2: 2025/jnue-iss/
   logistics:
 
 - date: 5/28
@@ -154,7 +154,7 @@
   readings:
   supp:
   hw:
-  img: 2025/jnue-iss/
+  img2: 2025/jnue-iss/
   logistics:
 
 - date: 6/4
@@ -166,7 +166,7 @@
   readings:
   supp:
   hw:
-  img: 2025/jnue-iss/
+  img2: 2025/jnue-iss/
   logistics:
 
 - date: 6/10
@@ -175,7 +175,7 @@
     <strong>WEEK 15 똑똑한 AI로 색깔을 분류해 보자!</strong>
   slides2:
   readings:
-  img:
+  img2:
   hw:
   logistics:
 
@@ -185,7 +185,7 @@
     <strong>Final Test</strong>
   slides2:
   readings:
-  img:
+  img2:
   hw:
   logistics: >
     기말고사?<br>
