@@ -30,7 +30,7 @@ information:
   - section: BIO025(1)
     time: 목 123 | Thur 9am-12pm
     location: W18동 102호
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/gqFSQgjh
 
 Main-Text:
   - text: "주교재"

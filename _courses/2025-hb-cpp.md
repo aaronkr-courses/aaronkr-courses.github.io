@@ -31,7 +31,7 @@ information:
   - section: INFO2118
     time: 금 6789 | Fri 2pm-6pm
     location: N4동 316호
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/gHkvRgjh
 
 Main-Text:
   - text: "주교재"

@@ -31,7 +31,7 @@ information:
   - section: 012744
     time: 화 678 Tues 2pm - 5pm
     location: 융합과학관 408호
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/gVHtQgjh
 
 Main-Text:
   - text: "주교재"

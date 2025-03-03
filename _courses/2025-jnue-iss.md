@@ -28,11 +28,12 @@ information:
   - section: 070137-7 (??)
     time: 수 67 | Wed 2pm-4pm
     location: 전산교육실
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/goKpPgjh
+
   - section: 070137-4 (??)
     time: 수 89 | Wed 4pm-6pm
     location: 전산교육실
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/gPYLOgjh
 
 Main-Text:
   - text: "주교재"
