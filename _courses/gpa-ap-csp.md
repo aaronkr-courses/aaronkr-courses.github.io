@@ -7,6 +7,7 @@ logo: gpa-logo.png
 img:
 importance: 2
 category: GPA
+now: Yes
 
 redirect: https://aaron.kr/content/about/teaching/
 ---

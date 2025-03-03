@@ -66,6 +66,8 @@ Supplementary:
 
 ## Overview 개요
 
+<img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/cpp-fast.jpg" />
+
 <strong>라이브러리 중심으로 배우는 C++ 핵심<br>
 Core C++ learning with a focus on libraries</strong>
 
@@ -97,7 +99,14 @@ It also takes a unique approach to introducing features of C++ and the standard 
 
 ---
 
-### Policies 규정
+## Policies 규정
+
+### Grading Curve 성적평가
+
+- 출석: **10%**
+- 중간고사: **25%**
+- 기말고사: **30%**
+- 과제 (연습문제, 실습코드, 등): **35%**
 
 {% include_relative common/policies.md %}
 

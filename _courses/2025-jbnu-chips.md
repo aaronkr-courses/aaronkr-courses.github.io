@@ -66,6 +66,8 @@ Supplementary:
 
 ## Overview 개요
 
+<img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/semiconductor-devices.jpg" />
+
 <strong>Semiconductor Devices: Theory and Application</strong> <a href="https://open.umn.edu/opentextbooks/textbooks/semiconductor-devices-theory-and-application">Open Textbook Library</a>
 
 This book discusses the features and applications of the fundamental semiconductor devices such as diodes, bipolar junction transistors, junction field effect transistors, metal oxide semiconductor field effect transistors, and insulated gate bipolar transistors. These are the basic devices that are used in industry and they should be covered in an introductory semiconductor or electronic course.
@@ -95,7 +97,14 @@ This book discusses the features and applications of the fundamental semiconduct
 
 ---
 
-### Policies 규정
+## Policies 규정
+
+### Grading Curve 성적평가
+
+- 출석 (Attendance): **10%** (20)
+- 중간고사 (Midterm): **30%** (20)
+- 기말고사 (Final): **30%** (20)
+- 과제 (연습문제, 실습코드, 등) (HW): **30%** (40)
 
 {% include_relative common/policies.md %}
 
