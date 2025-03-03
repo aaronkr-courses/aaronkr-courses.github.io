@@ -1,9 +1,10 @@
 - date: 3/6
   week: 1
   title: >
-    <strong>Introduction to BIO030</strong><br>
+    <strong>Introduction to BIO025</strong><br>
     Introduction to Image Processing & Imaging Systems / 영상처리 소개와 영상시스템
-  slides: ""
+  slides: "https://docs.google.com/presentation/d/1ifv29XGVBWYC-Tbdy4bFKTtaMymaO95F6k3DWtcy-iU/edit?usp=sharing"
+  slides2: "https://docs.google.com/presentation/d/1SfkpW5t11VP2V1xecIVo77lfhniez_wGf7mSzSQjE4k/edit?usp=sharing"
   img: 2025/ut-imd/1-intro.jpg
   readings:
   hw:
@@ -18,7 +19,7 @@
     - 3. 소리를 이용해 영상을 보다 : 초음파 영상기기 (임창환)<br>
     - 4. 몸속에선 어떤 일이 일어나고 있을까? : 핵의학영상 (장동표)
   slides:
-  img: 2024/ut-imd/2-imd-in-the-body.jpg
+  img2: 2024/ut-imd/2-imd-in-the-body.jpg
   readings:
   hw:
   logistics:
