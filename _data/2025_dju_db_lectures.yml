@@ -5,7 +5,7 @@
   supp:
   readings: p. 16-38
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1prBoWRRRmnbfa_OXl83ZlZCoQZQZl1zeHYH8I2A9PxM/edit?usp=sharing"
   img: 2024/dju-db/1-db-intro.jpg
   logistics:
 
@@ -18,7 +18,7 @@
   hw:
   slides:
   slides2:
-  img: 2024/dju-db/2-db-system.jpg
+  img2: 2024/dju-db/2-db-system.jpg
   logistics: >
     <strong>GitHub 저장소</strong>
 
@@ -31,7 +31,7 @@
   hw:
   slides:
   slides2:
-  img: 2024/dju-db/3-relational-data-model.jpg
+  img2: 2024/dju-db/3-relational-data-model.jpg
   logistics: >
     3장 연습 문제
 
@@ -43,7 +43,7 @@
   readings: p. 98-130
   hw:
   slides:
-  img: 2024/dju-db/4-relational-algebra.jpg
+  img2: 2024/dju-db/4-relational-algebra.jpg
   logistics: >
     4장 연습 문제
 
@@ -55,7 +55,7 @@
   readings: p. 132-186
   hw:
   slides:
-  img: 2024/dju-db/6-sql-basics.jpg
+  img2: 2024/dju-db/6-sql-basics.jpg
   logistics: >
     5장 연습 문제
 
@@ -68,7 +68,7 @@
   hw:
   slides:
   slides2:
-  img: 2024/dju-db/7-sql-use.jpg
+  img2: 2024/dju-db/7-sql-use.jpg
   logistics: >
     6장 연습 문제<br>
     <span style="color: purple;">인덱스 예시 (보충 PPT #32)</span>
@@ -82,7 +82,7 @@
   hw:
   slides:
   slides2:
-  img: 2024/dju-db/9-sql-app.jpg
+  img2: 2024/dju-db/9-sql-app.jpg
   logistics: >
     7장 연습 문제
 
@@ -104,7 +104,7 @@
   readings: p. 316-340
   hw:
   slides:
-  img: 2024/dju-db/10-reg-er.jpg
+  img2: 2024/dju-db/10-reg-er.jpg
   logistics: >
     8장 연습 문제<br>
     9장 연습 문제
@@ -122,7 +122,7 @@
   readings: p. 342-378
   hw:
   slides:
-  img: 2024/dju-db/11-db-arch.jpg
+  img2: 2024/dju-db/11-db-arch.jpg
   logistics: >
     10장 연습 문제
 
@@ -134,7 +134,7 @@
   readings: p. 380-420
   hw:
   slides:
-  img: 2024/dju-db/12-data-warehouse.jpg
+  img2: 2024/dju-db/12-data-warehouse.jpg
   logistics: >
     11장 연습 문제
 
@@ -146,7 +146,7 @@
   readings: p. 422-456
   hw:
   slides:
-  img: 2024/dju-db/13-big-data.jpg
+  img2: 2024/dju-db/13-big-data.jpg
   logistics: >
     12장 연습 문제
 
@@ -159,7 +159,7 @@
   hw:
   slides:
   slides2:
-  img: 2024/dju-db/14-mongodb.jpg
+  img2: 2024/dju-db/14-mongodb.jpg
   logistics: >
     13장 연습 문제
 
@@ -171,7 +171,7 @@
   readings: p. 492-532
   hw:
   slides:
-  img: 2024/dju-db/15-mobile-web.jpg
+  img2: 2024/dju-db/15-mobile-web.jpg
   logistics: >
     PHP MovieDB 프로젝트
 
@@ -179,7 +179,7 @@
   week: 16
   title: >
     <strong>Final Test</strong><br>
-    <a href="">퀴즈</a> | <a href="">실기</a>
     <div style="display: none;"><br>
+      <a href="">퀴즈</a> | <a href="">실기</a>
       스터디 가이드: <a href="">짧게</a>
     </div>
