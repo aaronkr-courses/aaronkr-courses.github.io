@@ -87,7 +87,8 @@
       [<a href="">퀴즈 링크</a>] [<a href="">실기 시험</a>]
     </div>
 
-- date: 5/2
+- date: >
+    <span style="color: red">5/2<br>보강?</span>
   week: 9
   title: >
     <strong>CHAPTER 7 연관 컨테이너</strong>
@@ -125,7 +126,8 @@
   img2: 2024/hb-cpp/11-cpp-memory.jpg
   logistics:
 
-- date: 5/23
+- date: >
+    <span style="color: red">5/23<br>보강?</span>
   week: 12
   title: >
     <strong>CHAPTER 11 추상 데이터 타입</strong>
