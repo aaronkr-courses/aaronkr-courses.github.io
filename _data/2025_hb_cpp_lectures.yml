@@ -5,7 +5,7 @@
   supp:
   readings: Accelerated C++, <strong>0장 pp. 26-34</strong>
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1-dFpKK26GtJ1xWLj3wk2aT_HWaB7KO_pOoSQ9eWs6F0/edit?usp=sharing"
   img: 2024/hb-cpp/1-cpp-intro.jpg
   logistics:
 
@@ -18,7 +18,7 @@
   readings: Accelerated C++, <strong>1-2장 pp. 26-48</strong>
   hw:
   slides:
-  img: 2024/hb-cpp/2-cpp-strings.jpg
+  img2: 2024/hb-cpp/2-cpp-strings.jpg
   logistics:
 
 - date: 3/21
@@ -29,7 +29,7 @@
   readings: Accelerated C++, <strong>3-4장 pp. 48-128</strong>
   hw:
   slides:
-  img: 2024/hb-cpp/3-cpp-loops-data.jpg
+  img2: 2024/hb-cpp/3-cpp-loops-data.jpg
   logistics:
 
 - date: 3/28
@@ -40,7 +40,7 @@
   readings: Accelerated C++, <strong>3-4장 pp. 48-128</strong>
   hw:
   slides:
-  img: 2024/hb-cpp/4-cpp-data.jpg
+  img2: 2024/hb-cpp/4-cpp-data.jpg
   logistics:
 
 - date: 4/4
@@ -51,7 +51,7 @@
   readings: Accelerated C++, <strong>3-4장 pp. 48-128</strong>
   hw:
   slides:
-  img: 2024/hb-cpp/5-cpp-data-containers.jpg
+  img2: 2024/hb-cpp/5-cpp-data-containers.jpg
   logistics:
 
 - date: 4/11
@@ -62,7 +62,7 @@
   readings: Accelerated C++, <strong>5장 pp. 131-164</strong>
   hw:
   slides:
-  img: 2024/hb-cpp/6-cpp-containers-strings.jpg
+  img2: 2024/hb-cpp/6-cpp-containers-strings.jpg
   logistics:
 
 - date: 4/18
@@ -75,7 +75,7 @@
     중간고사 가이드
   hw:
   slides:
-  img: 2024/hb-cpp/7-cpp-lib-algorithms.jpg
+  img2: 2024/hb-cpp/7-cpp-lib-algorithms.jpg
   logistics:
 
 - date: 4/25
@@ -96,7 +96,7 @@
     Accelerated C++, <strong>7장 pp. 202-222</strong>
   hw:
   slides:
-  img: 2024/hb-cpp/9-cpp-a-containers.jpg
+  img2: 2024/hb-cpp/9-cpp-a-containers.jpg
   logistics:
 
 - date: 5/9
@@ -110,7 +110,7 @@
     Accelerated C++, <strong>9장 pp. 251-271</strong>
   hw:
   slides:
-  img: 2024/hb-cpp/10-cpp-generic-types.jpg
+  img2: 2024/hb-cpp/10-cpp-generic-types.jpg
   logistics:
 
 - date: 5/16
@@ -122,7 +122,7 @@
     Accelerated C++, <strong>10장 pp. 274-299</strong>
   hw:
   slides:
-  img: 2024/hb-cpp/11-cpp-memory.jpg
+  img2: 2024/hb-cpp/11-cpp-memory.jpg
   logistics:
 
 - date: 5/23
@@ -133,7 +133,7 @@
   readings: Accelerated C++, <strong>11장 pp. 302-335</strong>
   hw:
   slides:
-  img: 2024/hb-cpp/12-abstract-data-types.jpg
+  img2: 2024/hb-cpp/12-abstract-data-types.jpg
   logistics:
 
 - date: 5/30
@@ -144,7 +144,7 @@
   readings: Accelerated C++, <strong>12장 pp. 338-359</strong>
   hw:
   slides:
-  img: 2024/hb-cpp/13-cpp-str-class.jpg
+  img2: 2024/hb-cpp/13-cpp-str-class.jpg
   logistics:
 
 - date: 6/6
@@ -160,7 +160,7 @@
   readings: Accelerated C++, <strong>13장 pp. 362-398</strong>
   hw:
   slides:
-  img: 2024/hb-cpp/14-inheritance.jpg
+  img2: 2024/hb-cpp/14-inheritance.jpg
   logistics:
 
 - date: 6/20
