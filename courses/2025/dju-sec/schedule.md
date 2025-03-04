@@ -51,6 +51,9 @@
         {% else %}
         [ slides ]
         {% endif %}
+        {% if lecture.slides2 %}
+        <a href="{{ lecture.slides2 }}" target="_blank">[ Additional #{{ forloop.index | minus: current_module }} ]</a>
+        {% endif %}
     </td>
     <td>
         Week #{{ forloop.index | minus: current_module }}:
