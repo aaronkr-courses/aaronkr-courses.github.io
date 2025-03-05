@@ -24,8 +24,6 @@ children:
   - title: UT-IMD
     permalink: /courses/2025-ut-imd/
   - title: divider
-  - title: HB-C#
-    permalink: /courses/2025-hb-cs/
   - title: HB-C++
     permalink: /courses/2025-hb-cpp/
   - title: divider
