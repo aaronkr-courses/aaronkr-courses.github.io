@@ -23,6 +23,8 @@ children:
   - title: divider
   - title: UT-IMD
     permalink: /courses/2025-ut-imd/
+  - title: UT-CARS
+    permalink: /courses/2025-ut-cars/
   - title: divider
   - title: HB-C++
     permalink: /courses/2025-hb-cpp/

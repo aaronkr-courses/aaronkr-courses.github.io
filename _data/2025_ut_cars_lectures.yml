@@ -1,0 +1,144 @@
+- date: 3/6
+  week: 1
+  title: >
+    <strong>Introduction to U30001</strong><br>
+    Introduction to Autonomous Vehicles / 자율주행 소개
+  slides:
+  img: 2025/ut-cars/
+  readings:
+  hw:
+  logistics:
+
+- date: 3/13
+  week: 2
+  title: >
+    <strong></strong>
+  slides:
+  img2: 2025/ut-cars/
+  readings:
+  hw:
+  logistics:
+
+- date: 3/20
+  week: 3
+  title: >
+    <strong></strong>
+  slides:
+  img2: 2025/ut-cars/
+  readings:
+  hw:
+  logistics:
+
+- date: 3/27
+  week: 4
+  title: >
+    <strong></strong>
+  slides:
+  img2: 2025/ut-cars/
+  readings:
+  hw:
+  logistics:
+
+- date: 4/3
+  week: 5
+  title: >
+    <strong></strong>
+  slides:
+  img2: 2025/ut-cars/
+  readings:
+  hw:
+  logistics:
+
+- date: 4/10
+  week: 6
+  title: >
+    <strong></strong>
+  slides:
+  img2: 2025/ut-cars/
+  readings:
+  hw:
+  logistics:
+
+- date: 4/17
+  week: 7
+  title: >
+    <strong></strong>
+  slides:
+  img2: 2025/ut-cars/
+  readings: >
+    중간고사 가이드
+  hw:
+  logistics:
+
+- date: 4/24
+  week: 8
+  title: >
+    <strong>Midterm Test</strong>
+
+- date: >
+    5/1<span style="color: red;">*</span>
+  week: 9
+  title: >
+    <strong></strong>
+  slides:
+  img2: 2025/ut-cars/
+  readings:
+  hw:
+  logistics:
+
+- date: 5/8
+  week: 10
+  title: >
+    <strong></strong>
+  slides:
+  img2: 2025/ut-cars/
+  readings:
+  hw:
+  logistics:
+
+- date: 5/15
+  week: 11
+  title: >
+    <strong></strong>
+  slides:
+  img2: 2025/ut-cars/
+  readings:
+  hw:
+  logistics:
+
+- date: >
+    5/22<span style="color: red;">*</span>
+  week: 12
+  title: >
+    <strong></strong>
+  slides:
+  img2: 2025/ut-cars/
+  readings:
+  hw:
+  logistics:
+
+- date: 5/29
+  week: 13
+  title: >
+    <strong></strong>
+  slides:
+  img2: 2025/ut-cars/
+  readings:
+  hw:
+  logistics:
+
+- date: 6/5
+  week: 14
+  title: >
+    <strong></strong>
+  slides:
+  img2: 2025/ut-cars/
+  readings: >
+    기말고사 가이드
+  hw:
+  logistics:
+
+- date: 6/12
+  week: 15
+  title: >
+    <strong>Final Test</strong>
