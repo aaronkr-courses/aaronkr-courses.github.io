@@ -4,7 +4,7 @@ title: Autonomous Driving and Machine Learning
 subtitle: 자율주행과 기계학습
 description: U30001 • 2025년 1학기 • 교통대학교
 logo: ut-logo.png
-img: assets/img/books/cars2.png
+img: assets/img/books/driving.jpg
 importance: 7
 category: 2025-1
 
@@ -44,6 +44,16 @@ Main-Text:
     image: books/cars2.png
 
 Supplementary:
+  - text: "주교재"
+    author: "이정원 저"
+    title: >
+      <strong>자동차 자율주행 기술 교과서</strong> 인공지능 시대의 자동차 첨단기술을 이해하는 자율주행 메커니즘 해설
+    publisher: "보누스 | 2024년 07월 05일"
+    link: "https://www.yes24.com/Product/Goods/128200494"
+    code:
+    notes:
+    image: books/driving.jpg
+
   - text: "주교재"
     author: "오렐리앙 제롱 저/박해선 역"
     title: >
