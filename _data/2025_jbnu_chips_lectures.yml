@@ -6,7 +6,6 @@
   readings:
   hw:
   slides: "https://docs.google.com/presentation/d/1bK2LOkz07XJgPJYVGUJIWHdn5HWocf398q7BW9L2Im4/edit?usp=sharing"
-  slides2: "https://docs.google.com/presentation/d/16AgmiT68Y3MQ-SGSEZm17FSBU3mOQSkH/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true"
   img: 2025/jbnu-chips/1-intro.jpg
   logistics:
 
@@ -18,7 +17,8 @@
   readings: p. 1-28
   hw:
   slides: "https://docs.google.com/presentation/d/129bKVA0-CvShr8cF2i-iWbHT3_lSrIdYP4AkDmAukzg/edit?usp=sharing"
-  img2: 2025/jbnu-chips/2-fundamentals.jpg
+  slides2: "https://docs.google.com/presentation/d/16AgmiT68Y3MQ-SGSEZm17FSBU3mOQSkH/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true"
+  img: 2025/jbnu-chips/2-fundamentals.jpg
   logistics:
 
 - date: 3/17
