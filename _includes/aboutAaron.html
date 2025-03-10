@@ -21,6 +21,14 @@
           >{{ instructor.email }}</a
         >
       </li>
+      {%- if instructor.kakaotalk -%}
+      <li>
+        <span>KakaoTalk:</span>
+        <a href="{{ instructor.kakaotalk }}" target="_blank"
+          >AaronKr</a
+        >
+      </li>
+      {%- endif -%}
       <!-- <li><span>Office hours:</span> {{ instructor.office-hours }}</li> -->
     </ul>
   </div>

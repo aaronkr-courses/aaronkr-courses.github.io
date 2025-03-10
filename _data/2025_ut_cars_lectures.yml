@@ -3,8 +3,8 @@
   title: >
     <strong>Introduction to U30001</strong><br>
     Introduction to Autonomous Vehicles / 자율주행 소개
-  slides:
-  img: 2025/ut-cars/
+  slides: "https://docs.google.com/presentation/d/1B9THfnigfigYVAo7eO2WJQu7vcG8J8wBXh6Wc4vKvMM/edit?usp=sharing"
+  img: 2025/ut-cars/1-intro.jpg
   readings:
   hw:
   logistics:

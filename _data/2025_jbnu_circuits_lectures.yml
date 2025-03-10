@@ -8,12 +8,13 @@
   slides: "https://docs.google.com/presentation/d/1qlnPP1H8OHqNXL8dpVZaSXfVv43KOLfXw1ZROPVDItM/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/16AgmiT68Y3MQ-SGSEZm17FSBU3mOQSkH/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true"
   img: 2025/jbnu-circuits/1-intro.jpg
-  logistics:
+  logistics: >
+    <a href="https://classroom.google.com/c/NzU3NjEwNjg3Nzk5?cjc=wz54luj">Google Classroom</a>
 
 - date: 3/17
   week: 2
   title: >
-    <strong>Basic Concpts
+    <strong>Basic Concepts
     <br>Basic Laws</strong>
   supp:
   readings:
@@ -159,7 +160,7 @@
   img2: 2025/jbnu-circuits/
   logistics:
 
-- date: 6/23
+- date: 6/18
   week: 16
   title: >
     <strong>Final Test</strong>

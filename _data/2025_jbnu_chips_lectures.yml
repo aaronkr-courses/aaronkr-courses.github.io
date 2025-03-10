@@ -19,7 +19,8 @@
   slides: "https://docs.google.com/presentation/d/129bKVA0-CvShr8cF2i-iWbHT3_lSrIdYP4AkDmAukzg/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/16AgmiT68Y3MQ-SGSEZm17FSBU3mOQSkH/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true"
   img: 2025/jbnu-chips/2-fundamentals.jpg
-  logistics:
+  logistics: >
+    <a href="https://classroom.google.com/c/NzU3NjEwNzMxMzU1?cjc=pfc6jxn">Google Classroom</a>
 
 - date: 3/17
   week: 3

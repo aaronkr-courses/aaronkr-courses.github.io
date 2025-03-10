@@ -30,7 +30,7 @@ toc:
 information:
   - section: 0000127046
     time: 월 1-4pm
-    location: 인문대학 2호관
+    location: 인문대학 2호관 504호
     kakaotalk: https://open.kakao.com/o/gNhLNgjh
 
 Main-Text:
@@ -46,14 +46,24 @@ Main-Text:
 
 Supplementary:
   - text: "부교재"
-    author: "Blum, Jeremy"
+    author: "O'Malley, John"
     title: >
-      <strong>Exploring Arduino:</strong> Tools and Techniques for Engineering Wizardry, 2nd Edition
-    publisher: "Wiley | 2019년 11월 19일"
-    link: "https://www.amazon.com/Exploring-Arduino-Techniques-Engineering-Wizardry/dp/1119405378/"
+      <strong>Schaum's Outline of Basic Circuit Analysis</strong>, 2nd Edition
+    publisher: "McGraw Hill; 2nd edition (February 17, 2011)"
+    link: "https://www.amazon.com/Schaums-Outline-Circuit-Analysis-Outlines/dp/0071756434/"
     code:
     notes:
-    image: books/exploring-arduino.jpg
+    image: books/schaums-circuits.jpg
+
+  - text: "부교재"
+    author: "Flux, Jamie"
+    title: >
+      <strong>Linear Algebra in Circuit Design: With Python</strong> (Electrical Engineering Essentials with Python)
+    publisher: "Independently published (October 2, 2024)"
+    link: "https://www.amazon.com/Linear-Algebra-Circuit-Design-Engineering/dp/B0DJDF1D63/"
+    code:
+    notes:
+    image: books/linear-alg-circuits.jpg
 ---
 
 ## Schedule 강의일정
@@ -77,14 +87,6 @@ Robust media offerings renders this text to be the most comprehensive and studen
 McGraw-Hill''s Connect, is also available with Fundamentals of Electric Circuits. Connect provides an ebook experience for students and enables professors to assign and assess reading, homework, quizzes, and tests easily and automatically grades and records the scores of the student''s work. Problems are randomized to prevent sharing of answers an may also have a "multi-step solution" which helps move the students'' learning along if they experience difficulty.
 
 ---
-
-<img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/exploring-arduino.jpg" />
-
-<strong>Exploring Arduino: Tools and Techniques for Engineering Wizardry, 2nd Edition</strong> <a href="https://www.amazon.com/Exploring-Arduino-Techniques-Engineering-Wizardry/dp/1119405378">Amazon</a>
-
-Exploring Arduino makes electrical engineering and embedded software accessible. Learn step by step everything you need to know about electrical engineering, programming, and human-computer interaction through a series of increasingly complex projects. Arduino guru Jeremy Blum walks you through each build, providing code snippets and schematics that will remain useful for future projects. Projects are accompanied by downloadable source code, tips and tricks, and video tutorials to help you master Arduino. You'll gain the skills you need to develop your own microcontroller projects!
-
-Whether you're a first-timer just starting out in electronics, or a pro looking to mock-up more complex builds, Arduino is a fantastic tool for building a variety of devices. This book offers a comprehensive tour of the hardware itself, plus in-depth introduction to the various peripherals, tools, and techniques used to turn your little Arduino device into something useful, artistic, and educational. Exploring Arduino is your roadmap to adventure―start your journey today!
 
 ## Textbook 교재
 
