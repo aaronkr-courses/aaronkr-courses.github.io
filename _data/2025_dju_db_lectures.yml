@@ -15,7 +15,12 @@
   title: >
     <strong>02 데이터베이스 시스템</strong>
   supp:
-  readings: p. 40-64
+  readings: >
+    - p. 40-64
+    - <a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench 설치</a>
+    - <a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads">PostgreSQL 15.12 설치</a>
+    - <a href="https://code.visualstudio.com/download">VS Code 설치</a> + Korean Language Pack 확장 프로그램 설치
+    - <a href="https://www.apachefriends.org/download.html">XAMPP 설치</a>
   hw: "https://classroom.github.com/a/VjLIdC7A"
   slides: "https://docs.google.com/presentation/d/18qZensM7SVbwj1G6zeinNalz0yoyO9RfCXVot1D_M5s/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/18Y-0nSrlGzUN3x7CETKwkAf-5t-1rFYCcAUEhueknRA/edit?usp=sharing"
