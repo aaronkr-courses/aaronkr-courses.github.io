@@ -15,7 +15,13 @@
   title: >
     <strong>02장: 실습 환경 설정</strong>
   supp:
-  readings: p. 9-36
+  readings:
+    - p. 9-36
+    - <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox 설치</a>
+    - <a href="http://wikibook.co.kr/wasbook/">Wasbook 내용 다운로드</a> (아이디와 비번은 책 <strong>vi</strong>쪽에 있다)
+    - <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox 설치</a> + <a href="https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/">FoxyProxy 확장 프로그램 설치</a>
+    - <a href="https://www.zaproxy.org/download/">OWASP ZAP 설치</a>
+    - <a href="https://www.java.com/en/download/manual.jsp">JRE 설치</a>
   hw:
   slides: "https://docs.google.com/presentation/d/1je49VO_Jj7dL5WGKgXQXRRIu2wPYrrBdvSTeXTBlEtY/edit?usp=sharing"
   slides2:
