@@ -16,9 +16,9 @@
     <strong>CHAPTER 1 문자열 사용</strong>
   supp:
   readings: Accelerated C++, <strong>1-2장 pp. 26-48</strong>
-  hw:
-  slides:
-  img2: 2024/hb-cpp/2-cpp-strings.jpg
+  hw: "https://classroom.github.com/a/sFzeLKdz"
+  slides: "https://docs.google.com/presentation/d/1mMCkyL3UcTNDD_LbYCR0dlzKYnq5glPU6Em87d_JE1Y/edit?usp=sharing"
+  img: 2024/hb-cpp/2-cpp-strings.jpg
   logistics:
 
 - date: 3/21
