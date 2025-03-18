@@ -33,12 +33,12 @@
     <strong>03 관계형 데이터 모델</strong>
   supp:
   readings: p. 66-96
-  hw: "https://drive.google.com/file/d/1Hg4Y0yU174eAjQ2wmT-hJmmiWJ6n4d7s/view?usp=sharing"
+  hw:
   slides: "https://docs.google.com/presentation/d/1qwmWpPHghHnQpajJL9DmZOm51IzTSkGHNU1oL_JrmVA/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/1EmHhUwbOk6vQ8i0Y5wVLSyt2TT6siIRFdFehboi7LEM/edit?usp=sharing"
   img: 2024/dju-db/3-relational-data-model.jpg
   logistics: >
-    3장 연습 문제
+    <a href="https://drive.google.com/file/d/1Hg4Y0yU174eAjQ2wmT-hJmmiWJ6n4d7s/view?usp=sharing">3장 연습 문제</a>
 
 - date: 3/25
   week: 4
