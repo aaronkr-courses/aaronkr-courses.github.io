@@ -65,8 +65,11 @@
         {% endif %}
     </td>
     <td>
-        {% if lecture.hw %}
-        [ <a href="{{ lecture.hw }}" target="_blank">과제</a> ]
+        {% if lecture.hw1 %}
+        [ <a href="{{ lecture.hw1 }}" target="_blank">과제 (음악)</a> ]
+        {% endif %}
+        {% if lecture.hw2 %}
+        <br />[ <a href="{{ lecture.hw2 }}" target="_blank">과제 (수학)</a> ]
         {% endif %}
         <p>{{ lecture.logistics }}</p>
     </td>
