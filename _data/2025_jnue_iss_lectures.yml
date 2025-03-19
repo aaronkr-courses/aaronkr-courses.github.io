@@ -17,11 +17,12 @@
   slides: "https://docs.google.com/presentation/d/1Wu-AiNpgdrCuJHD8OQVX9-6Euh00Q_aR5dzZSLF3Bsg/edit?usp=sharing"
   readings:
   supp:
-  hw:
+  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzU4NTY2MzQ3NDc3/details"
+  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzU4NTczMzgyOTc2/details"
   img: 2025/jnue-iss/2-starting.jpg
   logistics: >
-    <a href="https://classroom.google.com/c/NzU3NjE5NTQ0MTc2?cjc=vagjo5g">Google Classroom (음악)</a><br><br>
-    <a href="https://classroom.google.com/c/NzU3NjE5MjczNDkx?cjc=5drxpo7">Google Classroom (수학)</a>
+    <a href="https://classroom.google.com/c/NzU3NjE5NTQ0MTc2?cjc=vagjo5g">Google 클래스룸 (음악)</a><br><br>
+    <a href="https://classroom.google.com/c/NzU3NjE5MjczNDkx?cjc=5drxpo7">Google 클래스룸 (수학)</a>
 
 - date: 3/19
   week: 3
@@ -31,7 +32,8 @@
   slides: "https://docs.google.com/presentation/d/1R6L8CQrcoa3z1b_UYJICeqARHiOoVRnjPGQJQzSumMc/edit?usp=sharing"
   readings:
   supp:
-  hw:
+  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzYwMDA1MzQ2Mzgx/details"
+  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzYwMDEzNDIxMDgw/details"
   img: 2025/jnue-iss/3-calc.jpg
   logistics:
 
@@ -39,11 +41,11 @@
   week: 4
   title: >
     <strong>5장 함수 제대로 써먹기</strong>
-  slides:
+  slides: "https://docs.google.com/presentation/d/1ZSBOnAWr8DJqrjW19ewQK3yAQtQS18jlIYlQjgvZm9k/edit?usp=sharing"
   readings:
   supp:
   hw:
-  img2: 2025/jnue-iss/
+  img2: 2025/jnue-iss/4-calc.jpg
   logistics:
 
 - date: 4/2
