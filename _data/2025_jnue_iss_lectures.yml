@@ -27,8 +27,7 @@
 - date: 3/19
   week: 3
   title: >
-    <strong>3장 편집과 인쇄로 작업 실력 키우기<br>
-    4장 수식으로 빠르게 계산하기</strong>
+    <strong>3장 편집과 인쇄로 작업 실력 키우기</strong>
   slides: "https://docs.google.com/presentation/d/1R6L8CQrcoa3z1b_UYJICeqARHiOoVRnjPGQJQzSumMc/edit?usp=sharing"
   readings:
   supp:
@@ -40,7 +39,8 @@
 - date: 3/26
   week: 4
   title: >
-    <strong>5장 함수 제대로 써먹기</strong>
+    <strong>4장 수식으로 빠르게 계산하기<br>
+    5장 함수 제대로 써먹기</strong>
   slides: "https://docs.google.com/presentation/d/1ZSBOnAWr8DJqrjW19ewQK3yAQtQS18jlIYlQjgvZm9k/edit?usp=sharing"
   readings:
   supp:
