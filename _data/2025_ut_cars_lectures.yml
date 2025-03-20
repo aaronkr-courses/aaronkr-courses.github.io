@@ -33,7 +33,7 @@
   title: >
     <strong>PART 1 스스로 주행하는 자동차가 온다</strong>
   slides: "https://docs.google.com/presentation/d/1VETVI7XRg_bWrxb1VuvKYgwFk52-ycC1RY4T8zj9GcM/edit?usp=sharing"
-  img2: 2025/ut-cars/3-bayes.jpg
+  img: 2025/ut-cars/3-bayes.jpg
   readings:
     - 01-08 SCC, 알아서 조절되는 속도<br>
     - 01-09 LFA, 차로 유지 보조 기능<br>
