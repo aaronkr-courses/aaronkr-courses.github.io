@@ -31,10 +31,12 @@
     <strong>1. 영상처리 소개<br>
     2. 영상시스템</strong>
   slides: "https://docs.google.com/presentation/d/1dS66H_zS9Ovehj3AVuc2fow8SVMmagzGxgtfMygkOEA/edit?usp=sharing"
+  slides2: "https://docs.google.com/presentation/d/1CQhc6GRUHuJYgzMsvEfAV0TLxDVw7OHDk21ChEu6VZE/edit?usp=sharing"
   img: 2025/ut-imd/3-img-systems.jpg
   readings: p. 1-48
-  hw:
-  logistics:
+  hw: "https://drive.google.com/drive/folders/1JTTBeT0QbKTXEBh3HdouhrltWxjf0Z70?usp=drive_link"
+  logistics: >
+    <a href="https://forms.gle/nKHX3FABGrCfLF6VA">구글 드라이브 폴더 링크</a>
 
 - date: 3/27
   week: 4
