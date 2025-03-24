@@ -41,8 +41,8 @@
   supp:
   readings: Accelerated C++, <strong>5장 pp. 131-164</strong>
   hw:
-  slides:
-  img2: 2024/hb-cpp/6-cpp-containers-strings.jpg
+  slides: "https://docs.google.com/presentation/d/1MHrevhoPPx3-QNR4z1IuKrQlnqCTLRMya0bzfY4vTUM/edit?usp=sharing"
+  img: 2025/hb-cpp/4-containers.jpg
   logistics:
 
 - date: 4/4

@@ -47,10 +47,10 @@
   supp:
   readings: p. 98-130
   hw:
-  slides:
-  img2: 2024/dju-db/4-relational-algebra.jpg
+  slides: "https://docs.google.com/presentation/d/1CHemYt6g2OWAw30wVPsl4HZaK2F6zhMbjJt1t2kzDvY/edit?usp=sharing"
+  img: 2024/dju-db/4-relational-algebra.jpg
   logistics: >
-    4장 연습 문제
+    <a href="https://drive.google.com/file/d/1DIAXXa6SF785RKxtxCZTlWXHdKdCRS06/view?usp=sharing">4장 연습 문제</a>
 
 - date: 4/1
   week: 5

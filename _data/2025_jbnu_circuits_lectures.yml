@@ -1,5 +1,10 @@
-- date: 3/10
+- date: 3/1
   week: 1
+  title: >
+    <span style="color: red"><strong>No Class</strong> 삼일절</span>
+
+- date: 3/10
+  week: 2
   title: >
     <strong>Introduction</strong>
   supp:
@@ -12,10 +17,9 @@
     <a href="https://classroom.google.com/c/NzU3NjEwNjg3Nzk5?cjc=wz54luj">Google Classroom</a>
 
 - date: 3/17
-  week: 2
+  week: 3
   title: >
-    <strong>Basic Concepts
-    <br>Basic Laws</strong>
+    <strong>Basic Concepts I</strong>
   supp:
   readings:
   hw:
@@ -24,18 +28,20 @@
   logistics:
 
 - date: 3/24
-  week: 3
+  week: 4
   title: >
-    <strong>Methods of Analysis</strong>
+    <strong>Basic Concepts II<br>
+    Basic Laws<br>
+    Methods of Analysis</strong>
   supp:
   readings:
   hw:
-  slides:
-  img2: 2025/jbnu-circuits/
+  slides: "https://docs.google.com/presentation/d/12ai9_AzZy7c9PaxbaXH11upoyMPaJc2MOQ_hjNaxtv8/edit?usp=sharing"
+  img: 2025/jbnu-circuits/4-basics-ii.jpg
   logistics:
 
 - date: 3/31
-  week: 4
+  week: 5
   title: >
     <strong>Circuit Theorems</strong>
   supp:
@@ -46,7 +52,7 @@
   logistics:
 
 - date: 4/7
-  week: 5
+  week: 6
   title: >
     <strong>Operational Amplifiers<br>
     Capacitors & Inductors</strong>
@@ -58,7 +64,7 @@
   logistics:
 
 - date: 4/14
-  week: 6
+  week: 7
   title: >
     <strong>First-Order Circuits</strong>
   supp:
@@ -69,7 +75,7 @@
   logistics:
 
 - date: 4/21
-  week: 7
+  week: 8
   title: >
     <strong>Second-Order Circuits</strong>
   supp:
@@ -80,17 +86,17 @@
   logistics:
 
 - date: 4/28
-  week: 8
+  week: 9
   title: >
     <strong>Midterm Test</strong>
 
 - date: 5/5
-  week: 9
+  week: 10
   title: >
     <span style="color: red"><strong>No Class</strong> 어린이 날 (대체)</span>
 
 - date: 5/12
-  week: 10
+  week: 11
   title: >
     <strong>AC Circuits I<br>
     (Sinusoids, Phasors)</strong>
@@ -102,7 +108,7 @@
   logistics:
 
 - date: 5/19
-  week: 11
+  week: 12
   title: >
     <strong>AC Circuits II<br>
     (Power Analysis, 3-Phase)</strong>
@@ -114,7 +120,7 @@
   logistics:
 
 - date: 5/26
-  week: 12
+  week: 13
   title: >
     <strong>AC Circuits III<br>
     (Magnetically Coupled, Frequency Response)</strong>
@@ -126,7 +132,7 @@
   logistics:
 
 - date: 6/2
-  week: 13
+  week: 14
   title: >
     <strong>Advanced Circuit Analysis I<br>
     (Laplace Transform)</strong>
@@ -138,7 +144,7 @@
   logistics:
 
 - date: 6/9
-  week: 14
+  week: 15
   title: >
     <strong>Advanced Circuit Analysis II<br>
     (Fourier Transform)</strong>
@@ -150,7 +156,7 @@
   logistics:
 
 - date: 6/16
-  week: 15
+  week: 16
   title: >
     <strong>Conclusion, Arduino Projects, TBA</strong>
   supp:
@@ -161,6 +167,6 @@
   logistics:
 
 - date: 6/18
-  week: 16
+  week: 17
   title: >
     <strong>Final Test</strong>
