@@ -39,8 +39,7 @@
 - date: 3/26
   week: 4
   title: >
-    <strong>4장 수식으로 빠르게 계산하기<br>
-    5장 함수 제대로 써먹기</strong>
+    <strong>4장 수식으로 빠르게 계산하기</strong>
   slides: "https://docs.google.com/presentation/d/1ZSBOnAWr8DJqrjW19ewQK3yAQtQS18jlIYlQjgvZm9k/edit?usp=sharing"
   readings:
   supp:
@@ -51,7 +50,8 @@
 - date: 4/2
   week: 5
   title: >
-    <strong>6장 데이터를 정렬하고 원하는 정보 찾기</strong>
+    <strong>5장 함수 제대로 써먹기<br>
+    6장 데이터를 정렬하고 원하는 정보 찾기</strong>
   slides:
   readings:
   supp:

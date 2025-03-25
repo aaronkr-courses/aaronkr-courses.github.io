@@ -36,7 +36,7 @@
 
   <tr class="{{ event_type }}">
     <th scope="row">{{ lecture.date }}</th>
-    {% if lecture.title contains 'Test' or lecture.title contains 'Chuseok' or forloop.last %}
+    {% if lecture.title contains 'Test' or lecture.title contains 'No Class' or forloop.last %}
     {% assign skip_classes = skip_classes | plus: 1 %}
     <td colspan="4" style="text-align: center; background: rgba(255, 255, 255, 0.075)">
         {{ lecture.title }}
@@ -69,7 +69,7 @@
     </td>
     <td>
         {% if lecture.hw %}
-        [ <a href="{{ lecture.hw }}" target="_blank">과제</a> ]
+        [ <a href="{{ lecture.hw }}" target="_blank">Homework</a> ]
         {% endif %}
         <p>{{ lecture.logistics }}</p>
     </td>

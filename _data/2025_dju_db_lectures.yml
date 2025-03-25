@@ -19,13 +19,13 @@
     - <a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench 설치</a>
     - <a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads">PostgreSQL 15.12 설치</a>
     - <a href="https://code.visualstudio.com/download">VS Code 설치</a> + Korean Language Pack 확장 프로그램 설치
-    - <a href="https://www.apachefriends.org/download.html">XAMPP 설치</a>
-  hw: "https://classroom.github.com/a/VjLIdC7A"
+    - <del><a href="https://www.apachefriends.org/download.html">XAMPP 설치</a></del>
+  hw:
   slides: "https://docs.google.com/presentation/d/18qZensM7SVbwj1G6zeinNalz0yoyO9RfCXVot1D_M5s/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/18Y-0nSrlGzUN3x7CETKwkAf-5t-1rFYCcAUEhueknRA/edit?usp=sharing"
   img: 2024/dju-db/2-db-system.jpg
   logistics: >
-    <strong>GitHub 저장소</strong>
+    <a href="https://classroom.github.com/a/VjLIdC7A">GitHub 저장소</a>
 
 - date: 3/18
   week: 3

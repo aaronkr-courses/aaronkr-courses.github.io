@@ -2,7 +2,8 @@
   week: 1
   title: >
     <strong>Introduction to BIO025</strong><br>
-    Introduction to Image Processing & Imaging Systems / 영상처리 소개와 영상시스템
+    - Introduction to Image Processing & Imaging Systems / 영상처리 소개와 영상시스템<br>
+    - 1. 영상처리 소개
   slides: "https://docs.google.com/presentation/d/1ifv29XGVBWYC-Tbdy4bFKTtaMymaO95F6k3DWtcy-iU/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/1SfkpW5t11VP2V1xecIVo77lfhniez_wGf7mSzSQjE4k/edit?usp=sharing"
   img: 2025/ut-imd/1-intro.jpg
@@ -28,21 +29,20 @@
 - date: 3/20
   week: 3
   title: >
-    <strong>1. 영상처리 소개<br>
-    2. 영상시스템</strong>
+    <strong>2. 영상시스템<br>
+    3. 이온화 방사선 의학영상 획득 장치</strong>
   slides: "https://docs.google.com/presentation/d/1dS66H_zS9Ovehj3AVuc2fow8SVMmagzGxgtfMygkOEA/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/1CQhc6GRUHuJYgzMsvEfAV0TLxDVw7OHDk21ChEu6VZE/edit?usp=sharing"
   img: 2025/ut-imd/3-img-systems.jpg
   readings: p. 1-48
-  hw: "https://drive.google.com/drive/folders/1JTTBeT0QbKTXEBh3HdouhrltWxjf0Z70?usp=drive_link"
+  hw: "https://classroom.google.com/c/NzUyMTA1MjYxNTM1/a/NzYxMzk4NDEyODM2/details"
   logistics: >
-    <a href="https://forms.gle/nKHX3FABGrCfLF6VA">구글 드라이브 폴더 링크</a>
+    <a href="https://drive.google.com/drive/folders/1JTTBeT0QbKTXEBh3HdouhrltWxjf0Z70?usp=drive_link">X선 실습 관련 자료</a>
 
 - date: 3/27
   week: 4
   title: >
-    <strong>3. 이온화 방사선 의학영상 획득 장치<br>
-    4. 비이온화 방사선 의학영상 획득 장치</strong>
+    <strong>4. 비이온화 방사선 의학영상 획득 장치</strong>
   slides:
   img2: 2025/ut-imd/
   readings: p. 49-136
