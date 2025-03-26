@@ -47,7 +47,8 @@
   img: 2025/ut-imd/4-img-systems-ii.jpg
   readings: p. 49-136
   hw:
-  logistics:
+  logistics: > 
+    참조: <a href="https://github.com/MrGiovanni/SuPreM">재밌는 데이터</a>
 
 - date: 4/3
   week: 5
