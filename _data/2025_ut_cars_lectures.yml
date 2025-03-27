@@ -25,7 +25,7 @@
     - 01-07 AEBS, 안전을 위한 최후의 보루
   hw: "https://classroom.github.com/a/Xkk-LPpc"
   logistics:
-    - 확률
+    - 확률<br>
     - 저건부 확률
 
 - date: 3/20
@@ -50,8 +50,8 @@
   week: 4
   title: >
     <strong>PART 2 스스로 가고 멈추고 도는 자율주행 차량의 기본</strong>
-  slides:
-  img2: 2025/ut-cars/
+  slides: "https://docs.google.com/presentation/d/1usOnFzRbuDSWuXlyLMvw-aCg39FejCgjV6Hf4uRmxWo/edit?usp=sharing"
+  img: 2025/ut-cars/4-prob-dist.jpg
   readings:
     - 02-01 자율주행에도 승차감이 중요한 이유<br>
     - 02-02 타이어를 이용해 노면을 박차고 움직이는 자동차<br>
@@ -60,9 +60,9 @@
     - 02-05 피드백 제어와 모델 기반 복합 제어<br>
     - 02-06 복잡한 상황을 제어하는 데 쓰는 상태 공간 방정식<br>
     - 02-07 사람의 애매한 판단을 수치화한 퍼지 제어
-  hw:
+  hw: "https://classroom.github.com/a/XWi6H_a2"
   logistics: >
-    - 확률 분포
+    - 확률 분포<br>
     - 가우스 분포
 
 - date: 4/3
@@ -231,6 +231,11 @@
 - date: 6/5
   week: 14
   title: >
+    <span style="color: red"><strong>No Class</strong> 개교기념일</span>
+
+- date: 6/12
+  week: 14
+  title: >
     <strong></strong>
   slides:
   img2: 2025/ut-cars/
@@ -240,7 +245,7 @@
   logistics: >
     - 자율 주행차를 위한 모션 플래닝 및 의사 결정
 
-- date: 6/12
+- date: 6/19
   week: 15
   title: >
     <strong>Final Test</strong>

@@ -142,6 +142,11 @@
 - date: 6/5
   week: 14
   title: >
+    <span style="color: red"><strong>No Class</strong> 개교기념일</span>
+
+- date: 6/12
+  week: 14
+  title: >
     <strong>14. 의료영상 획득 기술의 최신 발전 동향</strong>
   slides:
   img2: 2025/ut-imd/
