@@ -10,53 +10,50 @@
   supp:
   readings:
   hw:
-  slides: "https://docs.google.com/presentation/d/1qlnPP1H8OHqNXL8dpVZaSXfVv43KOLfXw1ZROPVDItM/edit?usp=sharing"
-  slides2: "https://docs.google.com/presentation/d/16AgmiT68Y3MQ-SGSEZm17FSBU3mOQSkH/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true"
+  slides:
+  slides2:
   img: 2025/jbnu-circuits/1-intro.jpg
-  logistics: >
-    <a href="https://classroom.google.com/c/NzU3NjEwNjg3Nzk5?cjc=wz54luj">Google Classroom</a>
+  logistics:
 
 - date: 3/17
   week: 3
   title: >
-    <strong>1. Basic Concepts I</strong>
+    <strong>9. Sinusoids and Phasors</strong>
   supp:
-  readings: p. 1-14
+  readings: p. 366-409
   hw:
-  slides: "https://docs.google.com/presentation/d/1LLIqsFH-8qO6zdtHeP6Vue1C9fs_AmxkcKCmTJ61TUY/edit?usp=sharing"
+  slides:
   img: 2025/jbnu-circuits/2-basics.jpg
   logistics:
 
 - date: 3/24
   week: 4
   title: >
-    <strong>1. Basic Concepts II</strong>
+    <strong>10. Sinusoidal Steady-State Analysis</strong>
   supp:
-  readings: p. 14-26
-  hw: "https://classroom.google.com/c/NzU3NjEwNjg3Nzk5/a/NzUyOTc4NjY1NDE5/details"
-  slides: "https://docs.google.com/presentation/d/12ai9_AzZy7c9PaxbaXH11upoyMPaJc2MOQ_hjNaxtv8/edit?usp=sharing"
+  readings: p. 411-441
+  hw:
+  slides:
   img: 2025/jbnu-circuits/4-basics-ii.jpg
   logistics:
 
-- date: >
-    <span style="color: red;">3/31 (<a href="https://ieilms.jbnu.ac.kr/">LMS</a>)</span>
+- date: 3/31
   week: 5
   title: >
-    <strong>2. Basic Laws</strong>
+    <strong>11. AC Power Analysis</strong>
   supp:
-  readings: p. 29-78
+  readings: p. 455-498
   hw:
-  slides: "https://docs.google.com/presentation/d/1F1D4gPhXG2Dx_HoFXOaHqP4UVdpWnULg9L8otjp5fW0/edit?usp=sharing"
+  slides:
   img: 2025/jbnu-circuits/5-basic-laws.jpg
-  logistics: >
-    <span style="color: red;">Watch on (<a href="https://ieilms.jbnu.ac.kr/">LMS</a>)</span>
+  logistics:
 
 - date: 4/7
   week: 6
   title: >
-    <strong>3. Methods of Analysis</strong>
+    <strong>12. Three-Phase Circuits</strong>
   supp:
-  readings: p. 79-124
+  readings: p. 501-551
   hw:
   slides:
   img2: 2025/jbnu-circuits/
@@ -65,9 +62,9 @@
 - date: 4/14
   week: 7
   title: >
-    <strong>4. Circuit Theorems</strong>
+    <strong>13. Magnetically Coupled Circuits</strong>
   supp:
-  readings: p. 125-171
+  readings: p. 554-609
   hw:
   slides:
   img2: 2025/jbnu-circuits/
@@ -76,9 +73,9 @@
 - date: 4/21
   week: 8
   title: >
-    <strong>5. Operational Amplifiers</strong>
+    <strong>14. Frequency Response</strong>
   supp:
-  readings: p. 173-212
+  readings: p. 611-671
   hw:
   slides:
   img2: 2025/jbnu-circuits/
@@ -97,9 +94,9 @@
 - date: 5/12
   week: 11
   title: >
-    <strong>6. Capacitors & Inductors</strong>
+    <strong>15. Intro to the Laplace Transform</strong>
   supp:
-  readings: p. 213-249
+  readings: p. 672-707
   hw:
   slides:
   img2: 2025/jbnu-circuits/
@@ -108,9 +105,9 @@
 - date: 5/19
   week: 12
   title: >
-    <strong>7. First-Order Circuits</strong>
+    <strong>16. Applications of the Laplace Transform</strong>
   supp:
-  readings: p. 251-309
+  readings: p. 713-756
   hw:
   slides:
   img2: 2025/jbnu-circuits/
@@ -119,9 +116,9 @@
 - date: 5/26
   week: 13
   title: >
-    <strong>8. Second-Order Circuits</strong>
+    <strong>17. The Fourier Series</strong>
   supp:
-  readings: p. 311-365
+  readings: p. 757-809
   hw:
   slides:
   img2: 2025/jbnu-circuits/
@@ -130,9 +127,9 @@
 - date: 6/2
   week: 14
   title: >
-    <strong>TBD</strong>
+    <strong>18. Fourier Transform</strong>
   supp:
-  readings:
+  readings: p. 811-849
   hw:
   slides:
   img2: 2025/jbnu-circuits/
@@ -141,9 +138,9 @@
 - date: 6/9
   week: 15
   title: >
-    <strong>TBD</strong>
+    <strong>19. Two-Port Networks</strong>
   supp:
-  readings:
+  readings: p. 851-903
   hw:
   slides:
   img2: 2025/jbnu-circuits/
