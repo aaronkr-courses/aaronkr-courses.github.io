@@ -25,12 +25,12 @@ toc:
   - name: Instructor 강사소개
 
 information:
-  - section: 070137-7 (??)
+  - section: 070137-7 (음악)
     time: 수 67 | Wed 2pm-4pm
     location: 전산교육실
     kakaotalk: https://open.kakao.com/o/goKpPgjh
 
-  - section: 070137-4 (??)
+  - section: 070137-4 (수학)
     time: 수 89 | Wed 4pm-6pm
     location: 전산교육실
     kakaotalk: https://open.kakao.com/o/gPYLOgjh

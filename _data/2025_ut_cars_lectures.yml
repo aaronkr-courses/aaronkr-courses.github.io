@@ -25,7 +25,7 @@
     - 01-07 AEBS, 안전을 위한 최후의 보루
   hw: "https://classroom.github.com/a/Xkk-LPpc"
   logistics:
-    - 확률
+    - 확률<br>
     - 저건부 확률
 
 - date: 3/20
@@ -43,18 +43,16 @@
     - 01-13 서로가 필요한 자율주행과 전기차<br>
     - Column 자율주행과 테슬라
   hw: "https://classroom.github.com/a/DMnHbiSn"
-  logistics:
+  logistics: >
     - 베이즈 규칙
-    - 확률 분포
-    - 가우스 분포
-    - 히스토그램 필터
 
 - date: 3/27
   week: 4
   title: >
     <strong>PART 2 스스로 가고 멈추고 도는 자율주행 차량의 기본</strong>
-  slides:
-  img2: 2025/ut-cars/
+  slides: "https://docs.google.com/presentation/d/1usOnFzRbuDSWuXlyLMvw-aCg39FejCgjV6Hf4uRmxWo/edit?usp=sharing"
+  slides2: "https://speakerdeck.com/asnowberger/computer-vision-project-3-slam"
+  img: 2025/ut-cars/4-prob-dist.jpg
   readings:
     - 02-01 자율주행에도 승차감이 중요한 이유<br>
     - 02-02 타이어를 이용해 노면을 박차고 움직이는 자동차<br>
@@ -63,11 +61,10 @@
     - 02-05 피드백 제어와 모델 기반 복합 제어<br>
     - 02-06 복잡한 상황을 제어하는 데 쓰는 상태 공간 방정식<br>
     - 02-07 사람의 애매한 판단을 수치화한 퍼지 제어
-  hw:
-  logistics:
-    - 칼만 필터
-    - 센서
-    - 센서 퓨전
+  hw: "https://classroom.github.com/a/XWi6H_a2"
+  logistics: >
+    - 확률 분포<br>
+    - 가우스 분포
 
 - date: 4/3
   week: 5
@@ -83,7 +80,9 @@
     - 02-12 ECU가 모두 관장하는 By-Wire 전자식 제어
     - Column ADAS 기능이 필수가 된 시대
   hw:
-  logistics:
+  logistics: >
+    - 히스토그램 필터
+    - 칼만 필터
 
 - date: 4/10
   week: 6
@@ -101,7 +100,9 @@
     - 03-07 자동차가 가야 할 차선을 인식하는 허프 변환<br>
     - 03-08 교통 표지판과 신호도 영상으로 읽는 기술
   hw:
-  logistics:
+  logistics: >
+    - 센서
+    - 센서 퓨전
 
 - date: 4/17
   week: 7
@@ -121,7 +122,8 @@
     - Column 라이다 센서 없이 완전 자율주행이 가능할까?<br>
     - 중간고사 가이드
   hw:
-  logistics:
+  logistics: >
+    - 라이더 장애물 감지
 
 - date: 4/24
   week: 8
@@ -145,7 +147,8 @@
     - 04-07 GPS 신호로 지도상의 진짜 위치를 찾아가는 맵 매칭<br>
     - 04-08 이동 거리 학습을 활용한 확률적 자기 위치 찾기
   hw:
-  logistics:
+  logistics: >
+    - 카메라 기반 2D 기능 추적
 
 - date: 5/8
   week: 10
@@ -162,7 +165,8 @@
     - 04-14 병렬 계산으로 수많은 신호를 처리하는 GPU<br>
     - Column 내비게이션, 단순한 길 안내에서 벗어나다
   hw:
-  logistics:
+  logistics: >
+    - 3D 공간에서 객체 추적
 
 - date: 5/15
   week: 11
@@ -179,7 +183,8 @@
     - 05-06 다른 운전자나 보행자와 소통하는 기술<br>
     - Column 자율주행 시대에 발맞추는 새로운 법들
   hw:
-  logistics:
+  logistics: >
+    - 레이더 타겟 생성 및 탐지
 
 - date: >
     5/22<span style="color: red;">*</span>
@@ -200,7 +205,8 @@
     - 06-09 디지털 트윈을 이용한 자율주행 안정성 평가<br>
     - Column 자율주행 기술이 가져다줄 자동차 이외의 것들
   hw:
-  logistics:
+  logistics: >
+    - CNN을 사용한 이미지 분류
 
 - date: 5/29
   week: 13
@@ -219,9 +225,16 @@
     - 07-08 화물차 자율주행 운전에 집중한 마스오토<br>
     - Column 자율주행과 인공지능 그리고 반도체 전쟁
   hw:
-  logistics:
+  logistics: >
+    - 스캔 매칭 현지화
+    - SLAM
 
 - date: 6/5
+  week: 14
+  title: >
+    <span style="color: red"><strong>No Class</strong> 개교기념일</span>
+
+- date: 6/12
   week: 14
   title: >
     <strong></strong>
@@ -230,9 +243,10 @@
   readings: >
     기말고사 가이드
   hw:
-  logistics:
+  logistics: >
+    - 자율 주행차를 위한 모션 플래닝 및 의사 결정
 
-- date: 6/12
+- date: 6/19
   week: 15
   title: >
     <strong>Final Test</strong>

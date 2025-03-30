@@ -43,11 +43,13 @@
   week: 4
   title: >
     <strong>4. 비이온화 방사선 의학영상 획득 장치</strong>
-  slides:
-  img2: 2025/ut-imd/
+  slides: "https://docs.google.com/presentation/d/1WxcoFhZhls_g06ZKumi542-CN3Og5OEF6bbBCnYfIK8/edit?usp=sharing"
+  img: 2025/ut-imd/4-img-systems-ii.jpg
   readings: p. 49-136
   hw:
-  logistics:
+  logistics: > 
+    참조: <a href="https://github.com/MrGiovanni/SuPreM">재밌는 데이터</a><br>
+    <a href="https://drive.google.com/drive/folders/1MSmg5UiWg4FhpJjTdnEot9Rmyu4fj-bw?usp=sharing">CT 실습 관련 자료</a>
 
 - date: 4/3
   week: 5
@@ -139,6 +141,11 @@
   logistics:
 
 - date: 6/5
+  week: 14
+  title: >
+    <span style="color: red"><strong>No Class</strong> 개교기념일</span>
+
+- date: 6/12
   week: 14
   title: >
     <strong>14. 의료영상 획득 기술의 최신 발전 동향</strong>

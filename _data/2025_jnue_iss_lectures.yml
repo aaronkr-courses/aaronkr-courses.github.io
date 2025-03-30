@@ -43,15 +43,15 @@
   slides: "https://docs.google.com/presentation/d/1ZSBOnAWr8DJqrjW19ewQK3yAQtQS18jlIYlQjgvZm9k/edit?usp=sharing"
   readings:
   supp:
-  hw:
+  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzYyNTIzOTg3NTAz/details"
+  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzYyNTIzNTczMDkx/details"
   img: 2025/jnue-iss/4-calc.jpg
   logistics:
 
 - date: 4/2
   week: 5
   title: >
-    <strong>5장 함수 제대로 써먹기<br>
-    6장 데이터를 정렬하고 원하는 정보 찾기</strong>
+    <strong>5장 함수 제대로 써먹기</strong>
   slides:
   readings:
   supp:
@@ -62,8 +62,7 @@
 - date: 4/9
   week: 6
   title: >
-    <strong>7장 데이터가 한눈에 들어오는 차트 그리기<br>
-    부록 바로 써먹는 단축키 알아보기</strong>
+    <strong>6장 데이터를 정렬하고 원하는 정보 찾기</strong>
   slides:
   readings:
   supp:
@@ -74,8 +73,8 @@
 - date: 4/16
   week: 7
   title: >
-    <strong>WEEK 01 출발, 소프트웨어 세상 속으로!<br>
-    WEEK 02 AI(인공지능), 너는 누구니?</strong>
+    <strong>7장 데이터가 한눈에 들어오는 차트 그리기<br>
+    부록 바로 써먹는 단축키 알아보기</strong>
   slides:
   readings:
   supp:
@@ -86,7 +85,9 @@
 - date: 4/23
   week: 8
   title: >
-    <strong style="color: red">1학년 참관실습Ⅰ</strong>
+    <strong style="color: red">1학년 참관실습Ⅰ</strong> 보강?<br>
+    WEEK 01 출발, 소프트웨어 세상 속으로!<br>
+    WEEK 02 AI(인공지능), 너는 누구니?
   slides:
   img2: 2025/jnue-iss/
   hw:

@@ -47,8 +47,8 @@
   supp:
   readings:
   hw:
-  slides:
-  img2: 2025/jbnu-circuits/
+  slides: "https://docs.google.com/presentation/d/1F1D4gPhXG2Dx_HoFXOaHqP4UVdpWnULg9L8otjp5fW0/edit?usp=sharing"
+  img: 2025/jbnu-circuits/5-basic-laws.jpg
   logistics:
 
 - date: 4/7
