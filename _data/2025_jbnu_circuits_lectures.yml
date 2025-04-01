@@ -19,9 +19,9 @@
 - date: 3/17
   week: 3
   title: >
-    <strong>Basic Concepts I</strong>
+    <strong>1. Basic Concepts I</strong>
   supp:
-  readings:
+  readings: p. 1-14
   hw:
   slides: "https://docs.google.com/presentation/d/1LLIqsFH-8qO6zdtHeP6Vue1C9fs_AmxkcKCmTJ61TUY/edit?usp=sharing"
   img: 2025/jbnu-circuits/2-basics.jpg
@@ -30,34 +30,33 @@
 - date: 3/24
   week: 4
   title: >
-    <strong>Basic Concepts II<br>
-    Basic Laws<br>
-    Methods of Analysis</strong>
+    <strong>1. Basic Concepts II</strong>
   supp:
-  readings:
+  readings: p. 14-26
   hw: "https://classroom.google.com/c/NzU3NjEwNjg3Nzk5/a/NzUyOTc4NjY1NDE5/details"
   slides: "https://docs.google.com/presentation/d/12ai9_AzZy7c9PaxbaXH11upoyMPaJc2MOQ_hjNaxtv8/edit?usp=sharing"
   img: 2025/jbnu-circuits/4-basics-ii.jpg
   logistics:
 
-- date: 3/31
+- date: >
+    <span style="color: red;">3/31 (<a href="https://ieilms.jbnu.ac.kr/">LMS</a>)</span>
   week: 5
   title: >
-    <strong>Circuit Theorems</strong>
+    <strong>2. Basic Laws</strong>
   supp:
-  readings:
+  readings: p. 29-78
   hw:
-  slides:
-  img2: 2025/jbnu-circuits/
-  logistics:
+  slides: "https://docs.google.com/presentation/d/1F1D4gPhXG2Dx_HoFXOaHqP4UVdpWnULg9L8otjp5fW0/edit?usp=sharing"
+  img: 2025/jbnu-circuits/5-basic-laws.jpg
+  logistics: >
+    <span style="color: red;">Watch on (<a href="https://ieilms.jbnu.ac.kr/">LMS</a>)</span>
 
 - date: 4/7
   week: 6
   title: >
-    <strong>Operational Amplifiers<br>
-    Capacitors & Inductors</strong>
+    <strong>3. Methods of Analysis</strong>
   supp:
-  readings:
+  readings: p. 79-124
   hw:
   slides:
   img2: 2025/jbnu-circuits/
@@ -66,9 +65,9 @@
 - date: 4/14
   week: 7
   title: >
-    <strong>First-Order Circuits</strong>
+    <strong>4. Circuit Theorems</strong>
   supp:
-  readings:
+  readings: p. 125-171
   hw:
   slides:
   img2: 2025/jbnu-circuits/
@@ -77,9 +76,9 @@
 - date: 4/21
   week: 8
   title: >
-    <strong>Second-Order Circuits</strong>
+    <strong>5. Operational Amplifiers</strong>
   supp:
-  readings:
+  readings: p. 173-212
   hw:
   slides:
   img2: 2025/jbnu-circuits/
@@ -98,10 +97,9 @@
 - date: 5/12
   week: 11
   title: >
-    <strong>AC Circuits I<br>
-    (Sinusoids, Phasors)</strong>
+    <strong>6. Capacitors & Inductors</strong>
   supp:
-  readings:
+  readings: p. 213-249
   hw:
   slides:
   img2: 2025/jbnu-circuits/
@@ -110,10 +108,9 @@
 - date: 5/19
   week: 12
   title: >
-    <strong>AC Circuits II<br>
-    (Power Analysis, 3-Phase)</strong>
+    <strong>7. First-Order Circuits</strong>
   supp:
-  readings: p. 296-324
+  readings: p. 251-309
   hw:
   slides:
   img2: 2025/jbnu-circuits/
@@ -122,10 +119,9 @@
 - date: 5/26
   week: 13
   title: >
-    <strong>AC Circuits III<br>
-    (Magnetically Coupled, Frequency Response)</strong>
+    <strong>8. Second-Order Circuits</strong>
   supp:
-  readings: p. 325-347
+  readings: p. 311-365
   hw:
   slides:
   img2: 2025/jbnu-circuits/
@@ -134,10 +130,9 @@
 - date: 6/2
   week: 14
   title: >
-    <strong>Advanced Circuit Analysis I<br>
-    (Laplace Transform)</strong>
+    <strong>TBD</strong>
   supp:
-  readings: p. 348-381
+  readings:
   hw:
   slides:
   img2: 2025/jbnu-circuits/
@@ -146,10 +141,9 @@
 - date: 6/9
   week: 15
   title: >
-    <strong>Advanced Circuit Analysis II<br>
-    (Fourier Transform)</strong>
+    <strong>TBD</strong>
   supp:
-  readings: p. 382-428
+  readings:
   hw:
   slides:
   img2: 2025/jbnu-circuits/
@@ -158,9 +152,9 @@
 - date: 6/16
   week: 16
   title: >
-    <strong>Conclusion, Arduino Projects, TBA</strong>
+    <strong>TBD</strong>
   supp:
-  readings: p. 429-484
+  readings:
   hw:
   slides:
   img2: 2025/jbnu-circuits/
