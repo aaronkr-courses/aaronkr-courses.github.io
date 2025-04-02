@@ -57,7 +57,8 @@
   supp:
   hw:
   img: 2025/jnue-iss/5-formulas.jpg
-  logistics:
+  logistics: >
+    <a href="https://docs.google.com/spreadsheets/d/1fBNjjBhUF9nEHgdI06TzGF0rbEBoLIsb/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true">시작 파일</a>
 
 - date: 4/9
   week: 6
