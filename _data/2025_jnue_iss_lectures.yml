@@ -52,11 +52,11 @@
   week: 5
   title: >
     <strong>5장 함수 제대로 써먹기</strong>
-  slides:
+  slides: "https://docs.google.com/presentation/d/13mk7I40qRDSgNBQ1nXj8SMuumA3nFuClXbS3M0jg1sg/edit?usp=sharing"
   readings:
   supp:
   hw:
-  img2: 2025/jnue-iss/
+  img: 2025/jnue-iss/5-formulas.jpg
   logistics:
 
 - date: 4/9
