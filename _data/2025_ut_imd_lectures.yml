@@ -47,7 +47,7 @@
   img: 2025/ut-imd/4-img-systems-ii.jpg
   readings: p. 49-136
   hw:
-  logistics: > 
+  logistics: >
     참조: <a href="https://github.com/MrGiovanni/SuPreM">재밌는 데이터</a><br>
     <a href="https://drive.google.com/drive/folders/1MSmg5UiWg4FhpJjTdnEot9Rmyu4fj-bw?usp=sharing">CT 실습 관련 자료</a>
 
@@ -56,8 +56,9 @@
   title: >
     <strong>5. 디지털 영상처리의 기초<br>
     6. 공간 영역에서 영상 개선</strong>
-  slides:
-  img2: 2025/ut-imd/
+  slides: "https://docs.google.com/presentation/d/1QLGZR_TeiPL_wEUVgesQlCZHzo1kEnhtIpwRH5eOEj0/edit?usp=sharing"
+  slides2: "https://docs.google.com/presentation/d/13TdMQplzoouUF00Mx8QDtoFawGtNxmAm1WwMcpzuNMI/edit?usp=sharing"
+  img: 2025/ut-imd/5-img-proc-basics.jpg
   readings: p. 137-228
   hw:
   logistics:
