@@ -61,7 +61,8 @@
   img: 2025/ut-imd/5-img-proc-basics.jpg
   readings: p. 137-228
   hw:
-  logistics:
+  logistics: >
+    <a href="https://drive.google.com/drive/folders/1XIvtiWgg0OcCod1DD0NmYBbtTUACYrzY?usp=sharing">DICOM + 히스토그램</a>
 
 - date: 4/10
   week: 6
