@@ -54,8 +54,7 @@
 - date: 4/3
   week: 5
   title: >
-    <strong>5. 디지털 영상처리의 기초<br>
-    6. 공간 영역에서 영상 개선</strong>
+    <strong>5. 디지털 영상처리의 기초</strong>
   slides: "https://docs.google.com/presentation/d/1QLGZR_TeiPL_wEUVgesQlCZHzo1kEnhtIpwRH5eOEj0/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/13TdMQplzoouUF00Mx8QDtoFawGtNxmAm1WwMcpzuNMI/edit?usp=sharing"
   img: 2025/ut-imd/5-img-proc-basics.jpg
@@ -67,9 +66,10 @@
 - date: 4/10
   week: 6
   title: >
-    <strong>7. 주파수 영역에서 영상 개선</strong>
-  slides:
-  img2: 2025/ut-imd/
+    <strong>6. 공간 영역에서 영상 개선<br>
+    7. 주파수 영역에서 영상 개선</strong>
+  slides: "https://docs.google.com/presentation/d/1Vf1e9YOLnY9FXSk0g9ATDhWxU5guqbdNwGp7roAaFrQ/edit?usp=sharing"
+  img: 2025/ut-imd/6-img-enhance.jpg
   readings: p. 229-282
   hw:
   logistics:
