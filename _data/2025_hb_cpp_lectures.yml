@@ -53,8 +53,9 @@
     Accelerated C++, <strong>5장 pp. 131-164</strong>
   hw: "https://classroom.github.com/a/rimPz5Ko"
   slides: "https://docs.google.com/presentation/d/19f4MHgcsp2uRgHdYbXefMSpu6PQfYWmqJTbx94yJxZc/edit?usp=sharing"
-  img: 2024/hb-cpp/7-cpp-lib-algorithms.jpg
-  logistics:
+  img: 2024/hb-cpp/6-cpp-containers-strings.jpg
+  logistics: >
+    <a href="https://drive.google.com/file/d/1NRlZQlEh1wzHf9vbJv-u2dZY9dkJBCP6/view?usp=sharing">grades.txt</a>
 
 - date: 4/11
   week: 6
