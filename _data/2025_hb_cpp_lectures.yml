@@ -25,10 +25,9 @@
 - date: 3/21
   week: 3
   title: >
-    <strong>CHAPTER 3 데이터 일괄 처리</strong><br>
-    <strong>CHAPTER 4 프로그램 및 데이터 구조화</strong>
+    <strong>CHAPTER 3 데이터 일괄 처리</strong>
   supp:
-  readings: Accelerated C++, <strong>4장 pp. 48-128</strong>
+  readings: Accelerated C++, <strong>3장 pp. 48-128</strong>
   hw: "https://classroom.github.com/a/kdypmbIz"
   slides: "https://docs.google.com/presentation/d/13o4-ZsTewxFeBXz-9XKOzMdFZO9TzM1keEWd30DZB_c/edit?usp=sharing"
   img: 2024/hb-cpp/4-cpp-data.jpg
@@ -37,9 +36,9 @@
 - date: 3/28
   week: 4
   title: >
-    <strong>CHAPTER 5 순차 컨테이너와 문자열 분석</strong>
+    <strong>CHAPTER 4 프로그램 및 데이터 구조화</strong>
   supp:
-  readings: Accelerated C++, <strong>5장 pp. 131-164</strong>
+  readings:  Accelerated C++, <strong>4장 pp. 48-128</strong>
   hw: "https://classroom.github.com/a/YiOLSxOI"
   slides: "https://docs.google.com/presentation/d/1MHrevhoPPx3-QNR4z1IuKrQlnqCTLRMya0bzfY4vTUM/edit?usp=sharing"
   img: 2025/hb-cpp/4-containers.jpg
@@ -48,21 +47,23 @@
 - date: 4/4
   week: 5
   title: >
-    <strong>CHAPTER 6 라이브러리 알고리즘</strong>
+    <strong>CHAPTER 5 순차 컨테이너와 문자열 분석</strong>
   supp:
   readings: >
-    Accelerated C++, <strong>6장 pp. 170-198</strong>
+    Accelerated C++, <strong>5장 pp. 131-164</strong>
   hw: "https://classroom.github.com/a/rimPz5Ko"
-  slides: "https://docs.google.com/presentation/d/15XPrW8VZUtrAPB1vBWX2zRs2Dyx2fZ93vENSdQVtc9E/edit?usp=sharing"
+  slides: "https://docs.google.com/presentation/d/19f4MHgcsp2uRgHdYbXefMSpu6PQfYWmqJTbx94yJxZc/edit?usp=sharing"
   img: 2024/hb-cpp/7-cpp-lib-algorithms.jpg
   logistics:
 
 - date: 4/11
   week: 6
   title: >
-    <strong>CHAPTER 7 연관 컨테이너</strong>
+    <strong>CHAPTER 6 라이브러리 알고리즘<br>
+    CHAPTER 7 연관 컨테이너</strong>
   supp:
   readings: >
+    Accelerated C++, <strong>6장 pp. 170-198</strong>
     Accelerated C++, <strong>7장 pp. 202-222</strong>
   hw:
   slides:
