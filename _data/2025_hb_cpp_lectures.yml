@@ -52,10 +52,10 @@
   supp:
   readings: >
     Accelerated C++, <strong>6장 pp. 170-198</strong><br>
-    중간고사 가이드
-  hw:
-  slides:
-  img2: 2024/hb-cpp/7-cpp-lib-algorithms.jpg
+    <a href="https://docs.google.com/presentation/d/14KfuQIVphy5IKBkBGRGVLdhlRcsioiirtJGO-a48N9A/edit?usp=sharing">중간고사 가이드</a>
+  hw: ""
+  slides: "https://docs.google.com/presentation/d/1lkRBP9kVjCJf-AbDgAY-D8PCB6SnGlaW4TO9hWEbsx4/edit?usp=sharing"
+  img: 2024/hb-cpp/7-cpp-lib-algorithms.jpg
   logistics:
 
 - date: 4/11
