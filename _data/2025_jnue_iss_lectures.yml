@@ -65,11 +65,11 @@
   week: 6
   title: >
     <strong>6장 데이터를 정렬하고 원하는 정보 찾기</strong>
-  slides:
+  slides: "https://docs.google.com/presentation/d/1TsbzScRAFMfLWNK7wIeEUeHi3IMH0fqmcP4V5d-FDeY/edit?usp=sharing"
   readings:
   supp:
   hw:
-  img2: 2025/jnue-iss/
+  img: 2025/jnue-iss/6-data.jpg
   logistics:
 
 - date: 4/16
