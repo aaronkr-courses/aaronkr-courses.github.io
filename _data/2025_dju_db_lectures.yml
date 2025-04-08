@@ -66,14 +66,14 @@
 
 - date: 4/8
   week: 6
-  title: >
+ title: >
     <strong>06 SQL 활용</strong>
   supp:
   readings: p. 188-226
-  hw:
-  slides:
-  slides2:
-  img2: 2024/dju-db/7-sql-use.jpg
+  hw: ""
+  slides: "https://docs.google.com/presentation/d/177vgQvQGSxfwptzZO4K5VmNa_RgofkulVSQRWyDHoPc/edit?usp=sharing"
+  slides2: "https://docs.google.com/presentation/d/1ItZuJgwlhK-3HCqVuVEa_my9uMHpYN_RCIPDFkY70bw/edit?usp=sharing"
+  img: 2024/dju-db/7-sql-use.jpg
   logistics: >
     6장 연습 문제<br>
     <span style="color: purple;">인덱스 예시 (보충 PPT #32)</span>
