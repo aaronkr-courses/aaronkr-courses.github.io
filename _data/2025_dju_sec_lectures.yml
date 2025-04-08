@@ -44,9 +44,9 @@
 - date: 3/25
   week: 4
   title: >
-    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #1-4</strong>
+    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #1-2</strong>
   supp:
-  readings: p. 89-165
+  readings: p. 89-108
   hw:
   slides: "https://docs.google.com/presentation/d/1gINC0LZXOILnPIOd43yiDxUwnBnMMT1yeqmyu8h-1dU/edit?usp=sharing"
   img: 2025/dju-sec/4-bugs-i.jpg
@@ -55,9 +55,9 @@
 - date: 4/1
   week: 5
   title: >
-    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #5-8</strong>
+    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #3</strong>
   supp:
-  readings: p. 165-255
+  readings: p. 109-141
   hw:
   slides: "https://docs.google.com/presentation/d/1sDPMWuWHH4aeYITm9hxzFwgopaLDW5PaI5fQnT7xRc0/edit?usp=sharing"
   img: 2025/dju-sec/5-bugs-ii.jpg
@@ -66,9 +66,9 @@
 - date: 4/8
   week: 6
   title: >
-    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #9-12</strong>
+    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #4-5</strong>
   supp:
-  readings: p. 255-322
+  readings: p. 141-193
   hw:
   slides: "https://docs.google.com/presentation/d/1Wewiy1iTqrCICxQhCmc-XmasMB-bigz62Q7ZV1wr6-w/edit?usp=sharing"
   slides2:
@@ -78,9 +78,9 @@
 - date: 4/15
   week: 7
   title: >
-    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #13-15</strong>
+    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #6-7</strong>
   supp:
-  readings: p. 322-373
+  readings: p. 194-242
   hw:
   slides:
   slides2:
@@ -90,9 +90,9 @@
 - date: 4/22
   week: 8
   title: >
-    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #16-17</strong>
+    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #8-10</strong>
   supp:
-  readings: p. 374-441
+  readings: p. 243-279
   hw:
   slides:
   img2: 2025/dju-sec/
@@ -115,9 +115,9 @@
 - date: 5/13
   week: 11
   title: >
-    <strong>05장: 대표적인 보안 기능</strong>
+    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #11-13</strong><br>
   supp:
-  readings: p. 442-508
+  readings: p. 280-329
   hw:
   slides:
   img2: 2025/dju-sec/
@@ -125,6 +125,18 @@
 
 - date: 5/20
   week: 12
+  title: >
+    <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #14-17</strong><br>
+    <strong>05장: 대표적인 보안 기능</strong>
+  supp:
+  readings: p. 330-441, 442-508
+  hw:
+  slides:
+  img2: 2025/dju-sec/
+  logistics:
+
+- date: 5/27
+  week: 13
   title: >
     <strong>06장: 문자 코드와 보안</strong>
   supp:
@@ -134,23 +146,18 @@
   img2: 2025/dju-sec/
   logistics:
 
-- date: 5/27
-  week: 13
+- date: 6/3
+  week: 14
+  title: >
+    <span style="color: red"><strong>No Class</strong> 선거</span>
+
+- date: >
+    <span style="color: red">6/3 보강</span>
+  week: 14
   title: >
     <strong>07장: 취약점 진단 입문</strong>
   supp:
   readings: p. 529-587
-  hw:
-  slides:
-  img2: 2025/dju-sec/
-  logistics:
-
-- date: 6/3
-  week: 14
-  title: >
-    <strong>08장: 웹 사이트의 안전성을 높이기 위해</strong>
-  supp:
-  readings: p. 588-618
   hw:
   slides:
   slides2:
@@ -160,9 +167,10 @@
 - date: 6/10
   week: 15
   title: >
+    <strong>08장: 웹 사이트의 안전성을 높이기 위해</strong><br>
     <strong>09장: 안전한 웹 응용 프로그램을 위한 개발 관리</strong>
   supp:
-  readings: p. 619-630
+  readings: p. 588-618, 619-630
   hw:
   slides:
   img2: 2025/dju-sec/

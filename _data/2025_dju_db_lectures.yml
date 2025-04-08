@@ -158,6 +158,12 @@
 - date: 6/3
   week: 14
   title: >
+    <span style="color: red"><strong>No Class</strong> 선거</span>
+
+- date: >
+    <span style="color: red">6/3 보강</span>
+  week: 14
+  title: >
     <strong>13 NoSQL과 몽고DB</strong>
   supp:
   readings: p 458-490
