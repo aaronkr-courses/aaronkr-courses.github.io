@@ -15,7 +15,7 @@
     <strong>Chapter 1: Semiconductor Fundamentals</strong>
   supp:
   readings: p. 1-28
-  hw:
+  hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzUyNjQxMzc4ODcz/details"
   slides: "https://docs.google.com/presentation/d/129bKVA0-CvShr8cF2i-iWbHT3_lSrIdYP4AkDmAukzg/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/16AgmiT68Y3MQ-SGSEZm17FSBU3mOQSkH/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true"
   img: 2025/jbnu-chips/2-fundamentals.jpg
@@ -28,7 +28,7 @@
     <strong>Chapter 2: PN Junctions and Diodes</strong>
   supp:
   readings: p. 29-62
-  hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzUyNjQxMzc4ODcz/details"
+  hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzUyOTc3NTYzODc0/details"
   slides: "https://docs.google.com/presentation/d/1q0lV0Q76ciDuA5KqenPVALfWeRntnPTchaB0XM11bWc/edit?usp=sharing"
   img: 2025/jbnu-chips/3-diodes.jpg
   logistics:
@@ -39,7 +39,7 @@
     <strong>Chapter 3: Diode Applications</strong>
   supp:
   readings: p. 63-89
-  hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzUyOTc3NTYzODc0/details"
+  hw:
   slides: "https://docs.google.com/presentation/d/1LJRhGGHHsPqi-99KZAHtkNeBllsk6EOCSVOuIUQsyQo/edit?usp=sharing"
   img: 2025/jbnu-chips/4-diode-apps.jpg
   logistics:
@@ -67,7 +67,7 @@
     Chapter 8: BJT Class A Power Amplifiers</strong>
   supp:
   readings: p. 90-140, 141-198, 199-230
-  hw:
+  hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzY1MzA0NjAwNDQ1/details"
   slides: "https://docs.google.com/presentation/d/1fm4TtQSv0pwQHbaFn240cHJxekY7GGJMKc4uFOsj5Rw/edit?usp=sharing"
   img: 2025/jbnu-chips/5-bjt.jpg
   logistics:

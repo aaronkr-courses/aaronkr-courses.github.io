@@ -68,7 +68,8 @@
   slides: "https://docs.google.com/presentation/d/1TsbzScRAFMfLWNK7wIeEUeHi3IMH0fqmcP4V5d-FDeY/edit?usp=sharing"
   readings:
   supp:
-  hw:
+  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzY1MzAyMzk4Mjgz/details"
+  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzY3MDkzNDA3OTMx/details"
   img: 2025/jnue-iss/6-data.jpg
   logistics: >
     <a href="https://docs.google.com/spreadsheets/d/1DPOu_YX7ciXNlEGMfPyNqJFb9WDE_wvb/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true">시작 파일</a>
@@ -77,23 +78,13 @@
   week: 7
   title: >
     <strong>7장 데이터가 한눈에 들어오는 차트 그리기<br>
-    부록 바로 써먹는 단축키 알아보기</strong>
+    부록 바로 써먹는 단축키 알아보기</strong><br>
+    <span style="color: purple;">개념 퀴즈 + 과제</span>
   slides:
   readings:
   supp:
   hw:
   img2: 2025/jnue-iss/
-  logistics:
-
-- date: 4/23
-  week: 8
-  title: >
-    <strong style="color: red">1학년 참관실습Ⅰ</strong> 보강?<br>
-    WEEK 01 출발, 소프트웨어 세상 속으로!<br>
-    WEEK 02 AI(인공지능), 너는 누구니?
-  slides:
-  img2: 2025/jnue-iss/
-  hw:
   logistics: >
     <div style="display:none;">
       - [퀴즈]<br>
@@ -104,14 +95,23 @@
     [<a href="" style="display:none;">연습문제</a>
     <span>연습문제</span>]
 
+- date: 4/23
+  week: 8
+  title: >
+    <strong style="color: red">1학년 참관실습Ⅰ</strong> 보강?<br>
+    WEEK 01 출발, 소프트웨어 세상 속으로!<br>
+    WEEK 02 AI(인공지능), 너는 누구니?
+  slides:
+  img2: 2025/jnue-iss/
+  hw:
+  logistics:
+
 - date: >
-    4/30
+    <span style="color: red;">4/30 (LMS)</span>
   week: 9
   title: >
-    <div style="display: none;">
-      <strong style="color: red;">No School</strong><br>
-      <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강)</a><br>
-    </div>
+    <strong style="color: red;">No School (개인사정)</strong><br>
+    <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강)</a><br>
     <strong>WEEK 03 알쏭달쏭! 알고리즘 제대로 알기<br>
     WEEK 04 어서 와! 엔트리는 처음이지?</strong>
   slides:

@@ -81,7 +81,7 @@
     <strong>Midterm Test</strong>
 
 - date: >
-    5/1<span style="color: red;">*</span>
+    <span style="color: red;">5/1* (LMS)</span>
   week: 9
   title: >
     <strong>Lidar, Point clouds, KD-Tree<br>
