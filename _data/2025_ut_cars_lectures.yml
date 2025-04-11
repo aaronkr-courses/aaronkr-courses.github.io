@@ -59,9 +59,9 @@
   title: >
     <strong>칼만 필터<br>
     PART 3 사람처럼 주변을 인지하고 판단하는 기술</strong>
-  slides:
-  img2: 2025/ut-cars/
-  hw:
+  slides: "https://docs.google.com/presentation/d/1X5I9zycW709lZUbWfxJMuxQDzecKxMnT_kQoMogqR1o/edit?usp=sharing"
+  img: 2025/ut-cars/6-kalman.jpg
+  hw: "https://classroom.github.com/a/zVHjc4p2"
   logistics:
 
 - date: 4/17
@@ -81,7 +81,7 @@
     <strong>Midterm Test</strong>
 
 - date: >
-    5/1<span style="color: red;">*</span>
+    <span style="color: red;">5/1* (5/13 LMS)</span>
   week: 9
   title: >
     <strong>Lidar, Point clouds, KD-Tree<br>
@@ -118,7 +118,7 @@
     - 레이더 타겟 생성 및 탐지
 
 - date: >
-    5/22<span style="color: red;">*</span>
+    <span style="color: red;">5/22* (5/20 LMS)</span>
   week: 12
   title: >
     <strong>Classification<br>
