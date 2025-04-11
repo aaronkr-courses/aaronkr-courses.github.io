@@ -5,7 +5,7 @@
   supp:
   readings: Accelerated C++, <strong>0장 pp. 26-34</strong>
   hw: "https://classroom.github.com/a/HWOZflew"
-  slides: "https://docs.google.com/presentation/d/1-dFpKK26GtJ1xWLj3wk2aT_HWaB7KO_pOoSQ9eWs6F0/edit?usp=sharing"
+  slides: "https://docs.google.com/presentation/d/1z-gLR1EKPCNSeWWRoxOD8Z-QOngeK-_Es2c_PE5AfsI/edit?usp=sharing"
   img: 2024/hb-cpp/1-cpp-intro.jpg
   logistics:
 
@@ -18,7 +18,7 @@
   supp:
   readings: Accelerated C++, <strong>1-2장 pp. 26-48</strong>
   hw: "https://classroom.github.com/a/HjU8bHdA"
-  slides: "https://docs.google.com/presentation/d/1mMCkyL3UcTNDD_LbYCR0dlzKYnq5glPU6Em87d_JE1Y/edit?usp=sharing"
+  slides: "https://docs.google.com/presentation/d/1S4mY_gLCo0_0rWe1lCwS4sbSRnyLDLNPwTeVlfomric/edit?usp=sharing"
   img: 2024/hb-cpp/2-cpp-strings.jpg
   logistics:
 
@@ -52,7 +52,7 @@
   readings: >
     Accelerated C++, <strong>5장 pp. 131-164</strong>
   hw: "https://classroom.github.com/a/rimPz5Ko"
-  slides: "https://docs.google.com/presentation/d/19f4MHgcsp2uRgHdYbXefMSpu6PQfYWmqJTbx94yJxZc/edit?usp=sharing"
+  slides: "https://docs.google.com/presentation/d/1lN_icmRvuYPy99ILE7-fr2LnAKgBK2esVERtcksw_iE/edit?usp=sharing"
   img: 2024/hb-cpp/6-cpp-containers-strings.jpg
   logistics:
 
@@ -64,7 +64,7 @@
   readings: >
     Accelerated C++, <strong>6장 pp. 170-198</strong>
   hw: "https://classroom.github.com/a/gN5crwfC"
-  slides: "https://docs.google.com/presentation/d/1lkRBP9kVjCJf-AbDgAY-D8PCB6SnGlaW4TO9hWEbsx4/edit?usp=sharing"
+  slides: "https://docs.google.com/presentation/d/15XPrW8VZUtrAPB1vBWX2zRs2Dyx2fZ93vENSdQVtc9E/edit?usp=sharing"
   img: 2024/hb-cpp/7-cpp-lib-algorithms.jpg
   logistics: >
     <a href="https://drive.google.com/file/d/1NRlZQlEh1wzHf9vbJv-u2dZY9dkJBCP6/view?usp=sharing">grades.txt</a>
