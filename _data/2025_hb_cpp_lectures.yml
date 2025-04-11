@@ -38,7 +38,7 @@
   title: >
     <strong>CHAPTER 4 프로그램 및 데이터 구조화</strong>
   supp:
-  readings:  Accelerated C++, <strong>4장 pp. 48-128</strong>
+  readings: Accelerated C++, <strong>4장 pp. 48-128</strong>
   hw: "https://classroom.github.com/a/YiOLSxOI"
   slides: "https://docs.google.com/presentation/d/1MHrevhoPPx3-QNR4z1IuKrQlnqCTLRMya0bzfY4vTUM/edit?usp=sharing"
   img: 2025/hb-cpp/4-containers.jpg
@@ -54,22 +54,20 @@
   hw: "https://classroom.github.com/a/rimPz5Ko"
   slides: "https://docs.google.com/presentation/d/19f4MHgcsp2uRgHdYbXefMSpu6PQfYWmqJTbx94yJxZc/edit?usp=sharing"
   img: 2024/hb-cpp/6-cpp-containers-strings.jpg
-  logistics: >
-    <a href="https://drive.google.com/file/d/1NRlZQlEh1wzHf9vbJv-u2dZY9dkJBCP6/view?usp=sharing">grades.txt</a>
+  logistics:
 
 - date: 4/11
   week: 6
   title: >
-    <strong>CHAPTER 6 라이브러리 알고리즘<br>
-    CHAPTER 7 연관 컨테이너</strong>
+    <strong>CHAPTER 6 라이브러리 알고리즘</strong>
   supp:
   readings: >
     Accelerated C++, <strong>6장 pp. 170-198</strong>
-    Accelerated C++, <strong>7장 pp. 202-222</strong>
-  hw:
-  slides:
-  img2: 2024/hb-cpp/9-cpp-a-containers.jpg
-  logistics:
+  hw: "https://classroom.github.com/a/gN5crwfC"
+  slides: "https://docs.google.com/presentation/d/1lkRBP9kVjCJf-AbDgAY-D8PCB6SnGlaW4TO9hWEbsx4/edit?usp=sharing"
+  img: 2024/hb-cpp/7-cpp-lib-algorithms.jpg
+  logistics: >
+    <a href="https://drive.google.com/file/d/1NRlZQlEh1wzHf9vbJv-u2dZY9dkJBCP6/view?usp=sharing">grades.txt</a>
 
 - date: 4/18
   week: 7
