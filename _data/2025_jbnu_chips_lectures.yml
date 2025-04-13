@@ -60,11 +60,7 @@
 - date: 4/7
   week: 6
   title: >
-    <strong>Chapter 4: Bipolar Junction Transistors (BJTs)<br>
-    Chapter 5: BJT Biasing<br>
-    Chapter 6: Amplifier Concepts<br>
-    Chapter 7: BJT Small Signal Amplifiers<br>
-    Chapter 8: BJT Class A Power Amplifiers</strong>
+    <strong>Chapter 4: Bipolar Junction Transistors (BJTs)</strong>
   supp:
   readings: p. 90-140, 141-198, 199-230
   hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzY1MzA0NjAwNDQ1/details"
@@ -75,12 +71,12 @@
 - date: 4/14
   week: 7
   title: >
-    <strong>Chapter 9: BJT Class B Power Amplifiers </strong>
+    <strong>Chapter 5: BJT Biasing</strong>
   supp:
   readings: p. 231-265
   hw:
-  slides:
-  img2: 2025/jbnu-chips/
+  slides: "https://docs.google.com/presentation/d/1HihN3I0B6xjkXPoI_z9Q7IovJZtcA07P7YweWZMVTKE/edit?usp=sharing"
+  img2: 2025/jbnu-chips/7-bjt-biasing.jpg
   logistics:
 
 - date: 4/21
@@ -91,7 +87,11 @@
 - date: 4/28
   week: 9
   title: >
-    <strong>Chapter 10: Junction Field Effect Transistors (JFETs)</strong>
+    <strong>Chapter 6: Amplifier Concepts<br>
+    Chapter 7: BJT Small Signal Amplifiers<br>
+    Chapter 8: BJT Class A Power Amplifiers<br>
+    Chapter 9: BJT Class B Power Amplifiers<br>
+    Chapter 10: Junction Field Effect Transistors (JFETs)</strong>
   supp:
   readings: p. 266-295
   hw:

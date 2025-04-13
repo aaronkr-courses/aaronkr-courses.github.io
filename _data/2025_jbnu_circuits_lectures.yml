@@ -65,21 +65,21 @@
 - date: 4/14
   week: 7
   title: >
-    <strong>3. Methods of Analysis<br>
-    4. Circuit Theorems</strong>
+    <strong>3. Methods of Analysis</strong>
   supp:
-  readings: p. 79-124, 125-171
+  readings: p. 79-124
   hw:
-  slides:
-  img2: 2025/jbnu-circuits/
+  slides: "https://docs.google.com/presentation/d/1Q6H4PJ45v2BFa136pgPdXyQpYTX5--O1IBou_61RbrU/edit?usp=sharing"
+  img2: 2025/jbnu-circuits/7-methods.jpg
   logistics:
 
 - date: 4/21
   week: 8
   title: >
-    <strong>5. Operational Amplifiers</strong>
+    <strong>4. Circuit Theorems<br>
+    5. Operational Amplifiers</strong>
   supp:
-  readings: p. 173-212
+  readings: p. 125-171, 173-212
   hw:
   slides:
   img2: 2025/jbnu-circuits/
