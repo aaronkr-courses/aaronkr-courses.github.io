@@ -80,11 +80,11 @@
     <strong>7장 데이터가 한눈에 들어오는 차트 그리기<br>
     부록 바로 써먹는 단축키 알아보기</strong><br>
     <span style="color: purple;">개념 퀴즈 + 과제</span>
-  slides:
+  slides: "https://docs.google.com/presentation/d/1ZC948uMZ9d_v5CwJkKL7dL0u3vQbZaoZMdGh0geYBZA/edit?usp=sharing"
   readings:
   supp:
   hw:
-  img2: 2025/jnue-iss/
+  img: 2025/jnue-iss/7-charts.jpg
   logistics: >
     <div style="display:none;">
       - [퀴즈]<br>
