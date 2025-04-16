@@ -86,14 +86,11 @@
   hw:
   img: 2025/jnue-iss/7-charts.jpg
   logistics: >
+    <a href="https://forms.gle/G1EkwLPVDoLwB85H7">음악 퀴즈</a><br>
     <div style="display:none;">
-      - [퀴즈]<br>
-      - <a href="">과학 퀴즈</a><br>
       - <a href="">윤리 링크</a><br>
       - <a href="">수학 링크</a><br>
     </div>
-    [<a href="" style="display:none;">연습문제</a>
-    <span>연습문제</span>]
 
 - date: 4/23
   week: 8
