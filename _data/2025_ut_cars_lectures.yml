@@ -69,8 +69,8 @@
   title: >
     <strong>SLAM<br>
     PART 3 사람처럼 주변을 인지하고 판단하는 기술</strong>
-  slides:
-  img2: 2025/ut-cars/
+  slides: "https://docs.google.com/presentation/d/1B-2wbcTBIapu6t4M3MIqPUiLlgzuP3PMrD0TDds3Jm0/edit?usp=sharing"
+  img: 2025/ut-cars/7-slam.jpg
   readings:
   hw:
   logistics:
