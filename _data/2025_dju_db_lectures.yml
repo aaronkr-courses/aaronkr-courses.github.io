@@ -76,7 +76,7 @@
   img: 2024/dju-db/7-sql-use.jpg
   logistics: >
     <a href="https://drive.google.com/file/d/1__LVNf5gPwPL-tcUqItGOzB8-CXBGqhA/view?usp=sharing">6장 연습 문제</a><br>
-    <span style="color: purple;">인덱스 예시 (보충 PPT #32)</span>
+    <span style="color: #9b65ff;">인덱스 예시 (보충 PPT #32)</span>
 
 - date: 4/15
   week: 7
@@ -94,7 +94,7 @@
 - date: 4/22
   week: 8
   title: >
-    <strong>07.5.3 트랜잭션과 로그부터...코드</br>
+    <strong>07.5.3 트랜잭션과 로그부터...코드<br>
     08 정규화<br>
     09 E-R 모델</strong>
   supp:
