@@ -79,7 +79,8 @@
   hw: "https://classroom.github.com/a/m9XQ2mUq"
   slides: "https://docs.google.com/presentation/d/1N9Fv9cM5CohQsPnPaGCAZfmTuvdM3PyGnO_V7hxXMxA/edit?usp=sharing"
   img: 2024/hb-cpp/9-cpp-a-containers.jpg
-  logistics:
+  logistics: >
+    <a href="https://drive.google.com/drive/folders/1KfepA96FcGy0KfCyCPXeWInkaqwZREe4?usp=sharing">CPP 자료</a>
 
 - date: 4/25
   week: 8
