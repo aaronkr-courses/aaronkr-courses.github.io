@@ -65,7 +65,7 @@
 - date: 4/14
   week: 7
   title: >
-    <strong>3. Methods of Analysis</strong>
+    <strong>3. Methods of Analysis I</strong> Node Analysis
   supp:
   readings: p. 79-124
   hw:
@@ -76,19 +76,19 @@
 - date: 4/21
   week: 8
   title: >
-    <strong>4. Circuit Theorems<br>
-    5. Operational Amplifiers</strong>
+    <strong>3. Methods of Analysis II</strong> Mesh Analysis
   supp:
-  readings: p. 125-171, 173-212
+  readings: p. 79-124
   hw:
-  slides:
-  img2: 2025/jbnu-circuits/
+  slides: "https://docs.google.com/presentation/d/1x-08M3jYXoZ8TRgv-5ZGMeb5d2944PHTt4fkvxb9qJQ/edit?usp=sharing"
+  img: 2025/jbnu-circuits/7-methods.jpg
   logistics:
 
 - date: 4/28
   week: 9
   title: >
-    <strong>Midterm Test</strong>
+    <strong>Midterm Test</strong><br>
+    <a href="https://docs.google.com/presentation/d/1OJgn12MhAeuIWAY2Pqarmh6T4zHgCTb1ujjiAV6UM1c/edit?usp=sharing">Study Guide</a>
 
 - date: 5/5
   week: 10
@@ -98,9 +98,11 @@
 - date: 5/12
   week: 11
   title: >
-    <strong>6. Capacitors & Inductors</strong>
+    <strong>4. Circuit Theorems<br>
+    5. Operational Amplifiers<br>
+    6. Capacitors & Inductors</strong>
   supp:
-  readings: p. 213-249
+  readings: p. 125-171, 173-212, 213-249
   hw:
   slides:
   img2: 2025/jbnu-circuits/
