@@ -100,11 +100,13 @@
   supp:
   readings: p. 316-340
   hw:
-  slides:
-  img2: 2024/dju-db/10-reg-er.jpg
+  slides: "https://docs.google.com/presentation/d/1LVqTBe_gFx5-8p0G1H2cBX5iK6YZi7CwTuRlRThrz-Q/edit?usp=sharing"
+  img: 2024/dju-db/10-reg-er.jpg
   logistics: >
-    8장 연습 문제<br>
-    9장 연습 문제
+    <div style="display: none;">
+      <a href="https://drive.google.com/file/d/1gIY4Zv2Reb1JmOPCyNvbllZm0UEfHVQ2/view?usp=sharing">8장 연습 문제</a><br>
+      <a href="https://drive.google.com/file/d/1kBFLeTiLQI6nFxoFANmeTR5yp4WSy7Tv/view?usp=sharing">9장 연습 문제</a>
+    </div>
 
 - date: 4/29
   week: 9
