@@ -111,9 +111,9 @@
     <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강)</a><br>
     <strong>WEEK 03 알쏭달쏭! 알고리즘 제대로 알기<br>
     WEEK 04 어서 와! 엔트리는 처음이지?</strong>
-  slides:
+  slides: "https://docs.google.com/presentation/d/11NQaELLLf3WRL30k7yPxZZpO2ocynej5FkH-1mqidTY/edit?usp=sharing"
   readings:
-  img2: 2025/jnue-iss/
+  img: 2025/jnue-iss/9-alg-entry.jpg
   logistics:
 
 - date: 5/7
