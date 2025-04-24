@@ -79,7 +79,10 @@
   week: 8
   title: >
     <strong>Midterm Test</strong><br>
-    <a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
+    <div style="display: none;">
+       <a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
+    </div>
+    <a href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
 
 - date: >
     <span style="color: red;">5/1* (5/13 LMS)</span>
