@@ -4,7 +4,7 @@ title: Information Society and Software
 subtitle: 정보사회와 소프트웨어
 description: 060487 • 2025년 1학기 • 전주교육대학교
 logo: jnue-logo.png
-img: assets/img/books/excel.jpg
+img: assets/img/books/entry.jpg
 importance: 5
 category: 2025-1
 now: Yes
