@@ -110,10 +110,7 @@
   week: 9
   title: >
     <strong>Midterm Test</strong><br>
-    <a href="https://forms.gle/pYT2Uon6BV226Pb48">퀴즈</a>
-    <div style="display: none;"><br>
-      [<a href="">실기</a>]
-    </div>
+    <a href="https://forms.gle/pYT2Uon6BV226Pb48">퀴즈</a> &bull; <a href="https://docs.google.com/presentation/d/1AO9VxJjUxrUmnPTJi9_f8BdrHUyI0yUm4pVxI7eGXOo/edit?usp=sharing">실기</a>
 
 - date: 5/6
   week: 10
