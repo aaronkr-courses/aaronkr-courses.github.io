@@ -66,8 +66,7 @@
 - date: 4/10
   week: 6
   title: >
-    <strong>6. 공간 영역에서 영상 개선<br>
-    7. 주파수 영역에서 영상 개선</strong>
+    <strong>6. 공간 영역에서 영상 개선</strong>
   slides: "https://docs.google.com/presentation/d/1Vf1e9YOLnY9FXSk0g9ATDhWxU5guqbdNwGp7roAaFrQ/edit?usp=sharing"
   img: 2025/ut-imd/6-img-enhance.jpg
   readings: p. 229-282
@@ -77,7 +76,7 @@
 - date: 4/17
   week: 7
   title: >
-    <strong>8. 영상 복원</strong>
+    <strong>7. 주파수 영역에서 영상 개선</strong>
   slides: "https://docs.google.com/presentation/d/1IDicPIr6OBwUeYZQSptruLixu-67qX7TR4TK07pw_lg/edit?usp=sharing"
   img: 2025/ut-imd/7-img-enhance-ii.jpg
   readings: >
@@ -93,23 +92,24 @@
     <div style="display: none;">
       <a href="https://docs.google.com/presentation/d/1fkAHd-knE6z9wu8cRkiYnWr7NseiTzsewFmsdcutjDc/edit?usp=sharing">스터디 가이드</a>
     </div>
-    <a href="https://forms.gle/RmnGX2C9UqUANwv46">중간퀴즈</a> &bull; <a href="https://drive.google.com/file/d/1MbY2M85ixTSMGjTSs5HeMWiy9n6DhW9l/view?usp=sharing">Mystery File</a><br>
 
 - date: >
     <span style="color: red;">5/1* (LMS)</span>
   week: 9
   title: >
-    <strong>9. 형태적 영상처리</strong>
-  slides:
-  img2: 2025/ut-imd/
+    <strong>8. 영상 복원</strong>
+  slides: "https://docs.google.com/presentation/d/1c9IO3gZktGSLXbGBzNoR-tzdFUbwM9tGNAXZzmAcSsc/edit?usp=sharing"
+  img: 2025/ut-imd/8-img-restoration.jpg
   readings: p. 311-346
   hw:
-  logistics:
+  logistics: >
+    <a href="https://drive.google.com/drive/folders/16q0z8jNYAyPl2aWVlOIrzRA7tnr31o8g?usp=sharing">잡음 추가/제거</a>
 
 - date: 5/8
   week: 10
   title: >
-    <strong>10. 영상 분할</strong>
+    <strong>9. 형태적 영상처리<br>
+    10. 영상 분할</strong>
   slides:
   img2: 2025/ut-imd/
   readings: p. 347-376
