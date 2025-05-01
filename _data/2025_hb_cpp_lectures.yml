@@ -97,8 +97,8 @@
   readings: >
     Accelerated C++, <strong>8장 pp. 225-248</strong>
   hw:
-  slides: "https://docs.google.com/presentation/d/1zkJH1kQI3cYSfeh7UycIkcciTNXNzMtzdP2HnohDHpg/edit?usp=sharing"
-  img2: 2024/hb-cpp/10-cpp-generic-types.jpg
+  slides: "https://docs.google.com/presentation/d/1egDE93iN5rWULPahVj_FBvEzsTaGglhQ6qZ-dD0MWug/edit?usp=sharing"
+  img: 2024/hb-cpp/10-cpp-generic-types.jpg
   logistics:
 
 - date: 5/9
