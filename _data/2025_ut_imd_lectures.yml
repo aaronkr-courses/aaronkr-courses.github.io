@@ -99,7 +99,7 @@
   title: >
     <strong>8. 영상 복원</strong>
   slides: "https://docs.google.com/presentation/d/1c9IO3gZktGSLXbGBzNoR-tzdFUbwM9tGNAXZzmAcSsc/edit?usp=sharing"
-  img: 2025/ut-imd/8-img-restoration.jpg
+  img: 2025/ut-imd/9-restoration.jpg
   readings: p. 311-346
   hw:
   logistics: >
@@ -110,8 +110,8 @@
   title: >
     <strong>9. 형태적 영상처리<br>
     10. 영상 분할</strong>
-  slides:
-  img2: 2025/ut-imd/
+  slides: "https://docs.google.com/presentation/d/1E9-UfQBZSk4lNEV_-N4mLpzcznAaUXEHgnRCwrODWs0/edit?usp=sharing"
+  img: 2025/ut-imd/10-morph-seg.jpg
   readings: p. 347-376
   hw:
   logistics:

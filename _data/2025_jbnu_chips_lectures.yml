@@ -82,18 +82,12 @@
 - date: 4/21
   week: 8
   title: >
-    <strong>Midterm Test</strong><br>
-    <a href="https://docs.google.com/presentation/d/117i3kkGyOc4pcVCI63BAO3bqQUtpvTx9h-y5iUd-D6E/edit?usp=sharing">Study Guide</a>&nbsp;&bull;&nbsp;
-    <a href="https://docs.google.com/document/d/1cCjbdENCYmVJZLYrfztk3ZwVWzn1iuSquwaRwIGdtko/edit?usp=sharing">Sample Questions</a>
+    <strong>Midterm Test</strong>
 
 - date: 4/28
   week: 9
   title: >
-    <strong>Chapter 6: Amplifier Concepts<br>
-    Chapter 7: BJT Small Signal Amplifiers<br>
-    Chapter 8: BJT Class A Power Amplifiers<br>
-    Chapter 9: BJT Class B Power Amplifiers<br>
-    Chapter 10: Junction Field Effect Transistors (JFETs)</strong>
+    <strong>Chapter 6: Amplifier Concepts</strong>
   supp:
   readings: p. 266-295
   hw:
@@ -104,12 +98,21 @@
 - date: 5/5
   week: 10
   title: >
-    <span style="color: red"><strong>No Class</strong> 어린이 날 (대체)</span>
+    <span style="color: red"><strong>Monday OFF</strong> 어린이 날 (대체)</span><br>
+    <strong>Chapter 7: BJT Small Signal Amplifiers</strong>
+  readings: p. 266-295
+  hw:
+  slides: "https://docs.google.com/presentation/d/1ZleYWxZjNzCipauilmf32yT003k6edmArSMerJf4m6k/edit?usp=sharing"
+  img: 2025/jbnu-chips/10-small-amps.jpg
+  logistics:
 
 - date: 5/12
   week: 11
   title: >
-    <strong>Chapter 11: JFET Small Signal Amplfiers</strong>
+    <strong>Chapter 8: BJT Class A Power Amplifiers<br>
+    Chapter 9: BJT Class B Power Amplifiers<br>
+    Chapter 10: Junction Field Effect Transistors (JFETs)<br>
+    Chapter 11: JFET Small Signal Amplfiers</strong>
   supp:
   readings: p. 296-324
   hw:
