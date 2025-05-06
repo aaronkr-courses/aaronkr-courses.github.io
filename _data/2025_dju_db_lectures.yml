@@ -109,8 +109,7 @@
 - date: 4/29
   week: 9
   title: >
-    <strong>Midterm Test</strong><br>
-    <a href="https://forms.gle/pYT2Uon6BV226Pb48">퀴즈</a> &bull; <a href="https://docs.google.com/presentation/d/1AO9VxJjUxrUmnPTJi9_f8BdrHUyI0yUm4pVxI7eGXOo/edit?usp=sharing">실기</a>
+    <strong>Midterm Test</strong>
 
 - date: 5/6
   week: 10
@@ -124,10 +123,12 @@
   supp:
   readings: p. 342-378
   hw:
-  slides:
-  img2: 2024/dju-db/11-db-arch.jpg
+  slides: "https://docs.google.com/presentation/d/1qS6A3C-t6Zdr9f7vBkkzAOD5uTmGNR903Xpm-TsZ83Y/edit?usp=sharing"
+  img: 2024/dju-db/11-db-arch.jpg
   logistics: >
-    10장 연습 문제
+    <div style="display: none;">
+      <a href="https://drive.google.com/file/d/1oLRxH49dNMTGL8c_L7KA50n2fYf9ZI5l/view?usp=sharing">10장 연습 문제</a>
+    </div>
 
 - date: 5/20
   week: 12

@@ -88,7 +88,7 @@
     <strong>Midterm Test</strong>
 
 - date: >
-    <span style="color: #9b65ff;">5/2<br></span>
+    <span style="color: red">5/2<br>보강</span>
   week: 9
   title: >
     <strong>CHAPTER 8 제네릭 함수</strong>
