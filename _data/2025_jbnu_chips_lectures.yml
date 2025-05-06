@@ -110,9 +110,7 @@
   week: 11
   title: >
     <strong>Chapter 8: BJT Class A Power Amplifiers<br>
-    Chapter 9: BJT Class B Power Amplifiers<br>
-    Chapter 10: Junction Field Effect Transistors (JFETs)<br>
-    Chapter 11: JFET Small Signal Amplfiers</strong>
+    Chapter 9: BJT Class B Power Amplifiers</strong>
   supp:
   readings: p. 296-324
   hw:
@@ -123,7 +121,7 @@
 - date: 5/19
   week: 12
   title: >
-    <strong>Chapter 12: Metal Oxide Semiconductor FETs (MOSFETs)</strong>
+    <strong>Chapter 10: Junction Field Effect Transistors (JFETs)</strong>
   supp:
   readings: p. 325-347
   hw:
@@ -134,8 +132,7 @@
 - date: 5/26
   week: 13
   title: >
-    <strong>Chapter 13: MOSFET Small Signal Amplifiers<br>
-    Chapter 14: Class D Power Amplifiers</strong>
+    <strong>Chapter 11: JFET Small Signal Amplfiers</strong>
   supp:
   readings: p. 348-381
   hw:
@@ -146,8 +143,7 @@
 - date: 6/2
   week: 14
   title: >
-    <strong>Chapter 15: Insulated Gate Bipolar Transistors (IGBTs)<br>
-    Chapter 16: Decibels and Bode Plots</strong>
+    <strong>Chapter 12: Metal Oxide Semiconductor FETs (MOSFETs)</strong>
   supp:
   readings: p. 382-428
   hw:
@@ -158,8 +154,8 @@
 - date: 6/9
   week: 15
   title: >
-    <strong>Chapter 17: Frequency Limits<br>
-    Appendices</strong>
+    <strong>Guest Lecture?<br>
+    Chapter 13: MOSFET Small Signal Amplifiers</strong>
   supp:
   readings: p. 429-484
   hw:
@@ -171,3 +167,10 @@
   week: 16
   title: >
     <strong>Final Test</strong>
+  logistics: >
+    <strong>Not covered:<br>
+    - Chapter 14: Class D Power Amplifiers<br>
+    - Chapter 15: Insulated Gate Bipolar Transistors (IGBTs)<br>
+    - Chapter 16: Decibels and Bode Plots<br>
+    - Chapter 17: Frequency Limits<br>
+    - Appendices</strong>
