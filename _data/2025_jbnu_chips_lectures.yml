@@ -98,7 +98,7 @@
 - date: 5/5
   week: 10
   title: >
-    <span style="color: red"><strong>Monday OFF</strong> 어린이 날 (대체)</span><br>
+    <span style="color: red"><strong style="color: red">Monday OFF</strong> 어린이 날 (대체)</span><br>
     <strong>Chapter 7: BJT Small Signal Amplifiers</strong>
   readings: p. 266-295
   hw:
