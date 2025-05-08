@@ -114,7 +114,8 @@
   img: 2025/ut-imd/10-morph-seg.jpg
   readings: p. 347-376
   hw:
-  logistics:
+  logistics: >
+    <a href="https://drive.google.com/drive/folders/1MtuNmNqQK3NGFLKaRefE3u2YuWMNOLCW?usp=drive_link">분할 파일</a>
 
 - date: 5/15
   week: 11
