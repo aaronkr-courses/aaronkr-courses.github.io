@@ -88,10 +88,10 @@
     <span style="color: red;">5/1* (5/13 LMS)</span>
   week: 9
   title: >
-    <strong>Lidar, Point clouds, KD-Tree<br>
+    <strong>Lidar, Point clouds, Simple Classification<br>
     PART 4 위성항법을 이용한 인지 판단 기술</strong>
-  slides:
-  img2: 2025/ut-cars/
+  slides: "https://docs.google.com/presentation/d/1v708ZHauO1ETVzFqr03a601ObQHB1RABLxpveUoKG8I/edit?usp=sharing"
+  img: 2025/ut-cars/9-simple-classification.jpg
   readings:
   hw:
   logistics: >
