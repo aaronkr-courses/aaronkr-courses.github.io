@@ -91,7 +91,8 @@
     <span style="color: red">5/2<br>보강</span>
   week: 9
   title: >
-    <strong>CHAPTER 8 제네릭 함수</strong>
+    <strong>CHAPTER 8 제네릭 함수<br>
+    CHAPTER 9 새로운 타입 정의</strong>
   supp:
   readings: >
     Accelerated C++, <strong>8장 pp. 225-248</strong>
@@ -103,30 +104,17 @@
 - date: 5/9
   week: 10
   title: >
-    <strong>CHAPTER 9 새로운 타입 정의</strong>
+    <strong>CHAPTER 10 메모리 관리 및 저수준 데이터 구조</strong>
   supp:
-  readings: >
-    Accelerated C++, <strong>9장 pp. 251-271</strong>
-  hw:
-  slides: "https://docs.google.com/presentation/d/1LqlXSaYhb5CE5XlkZ1baKCh-48HlLS0LzKdOoOBlsfw/edit?usp=sharing"
-  img2: 2024/hb-cpp/10-cpp-generic-types.jpg
-  logistics:
+  readings: > 
+    Accelerated C++, <strong>10장 pp. 274-299</strong>
+  hw: "https://classroom.github.com/a/cr1XyQYb"
+  slides: "https://docs.google.com/presentation/d/1gw7GLdRzWjxpK_UlVEQn8E9xNd0IReHrxw6vPIwA1qA/edit?usp=sharing"
+  img: 2024/hb-cpp/11-cpp-memory.jpg
+  logistics: 
 
 - date: 5/16
   week: 11
-  title: >
-    <strong>CHAPTER 10 메모리 관리 및 저수준 데이터 구조</strong>
-  supp:
-  readings: >
-    Accelerated C++, <strong>10장 pp. 274-299</strong>
-  hw:
-  slides: "https://docs.google.com/presentation/d/1xeIEu9GzOPyAWfcwDK3G8fRz-Z5FkPKhSMWtq6JSbb0/edit?usp=sharing"
-  img2: 2024/hb-cpp/11-cpp-memory.jpg
-  logistics:
-
-- date: >
-    <span style="color: red">5/23<br>보강</span>
-  week: 12
   title: >
     <strong>CHAPTER 11 추상 데이터 타입</strong>
   supp:
@@ -136,8 +124,9 @@
   img2: 2024/hb-cpp/12-abstract-data-types.jpg
   logistics:
 
-- date: 5/30
-  week: 13
+- date: >
+    <span style="color: red">5/23<br>보강</span>
+  week: 12
   title: >
     <strong>CHAPTER 12 값처럼 동작하는 클래스 객체</strong>
   supp:
@@ -145,6 +134,17 @@
   hw:
   slides: "https://docs.google.com/presentation/d/1zMUfc73NQsGXszyYbzuAoay4OYOGGMgABAGM9iFfC4E/edit?usp=sharing"
   img2: 2024/hb-cpp/13-cpp-str-class.jpg
+  logistics:
+
+- date: 5/30
+  week: 13
+  title: >
+    <strong>CHAPTER 13 상속과 동적 바인딩</strong>
+  supp:
+  readings: Accelerated C++, <strong>13장 pp. 362-398</strong>
+  hw:
+  slides: "https://docs.google.com/presentation/d/1b5uiVgeNYdFr9v1Tg9wAOC2iLKKAAgRMAGtXCn3XQiE/edit?usp=sharing"
+  img2: 2024/hb-cpp/14-inheritance.jpg
   logistics:
 
 - date: 6/6
