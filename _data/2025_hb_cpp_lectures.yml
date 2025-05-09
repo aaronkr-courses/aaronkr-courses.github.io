@@ -95,7 +95,8 @@
     CHAPTER 9 새로운 타입 정의</strong>
   supp:
   readings: >
-    Accelerated C++, <strong>8장 pp. 225-248</strong>
+    Accelerated C++, <strong>8장 pp. 225-248</strong><br>
+    Accelerated C++, <strong>9장 pp. 251-271</strong>
   hw: "https://classroom.github.com/a/Qm1tDM1m"
   slides: "https://docs.google.com/presentation/d/1egDE93iN5rWULPahVj_FBvEzsTaGglhQ6qZ-dD0MWug/edit?usp=sharing"
   img: 2024/hb-cpp/10-cpp-generic-types.jpg
