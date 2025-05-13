@@ -120,10 +120,11 @@
 - date: 5/15
   week: 11
   title: >
-    <strong>11. 특징 인식과 분류</strong>
-  slides:
-  img2: 2025/ut-imd/
-  readings: p. 377-408
+    <strong>11. 특징 인식과 분류<br>
+    12. 3차원 가시화</strong>
+  slides: "https://docs.google.com/presentation/d/1pQh8t5wdcYV56zWIpYxigQ4_Cdk4TonT4JjgaAd95oc/edit?usp=sharing"
+  img: 2025/ut-imd/11-features.jpg
+  readings: p. 377-408, 409-422
   hw:
   logistics:
 
