@@ -131,11 +131,11 @@
   title: >
     <strong>WEEK 07 로켓을 타고 우주여행을 떠나자!<br>
     WEEK 08 어떤 계산이든 빠르게 척척!</strong>
-  slides:
+  slides: "https://docs.google.com/presentation/d/1tlCLEHmtSDBijd2MOGwB7ytXKrfciK1Rle4xdAjs7ME/edit?usp=sharing"
   readings:
   supp:
   hw:
-  img2: 2025/jnue-iss/
+  img: 2025/jnue-iss/11-coding-ii.jpg
   logistics:
 
 - date: 5/21
