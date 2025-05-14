@@ -114,7 +114,8 @@
   slides: "https://docs.google.com/presentation/d/11NQaELLLf3WRL30k7yPxZZpO2ocynej5FkH-1mqidTY/edit?usp=sharing"
   readings:
   img: 2025/jnue-iss/9-alg-entry.jpg
-  logistics:
+  logistics: >
+    <a href="https://forms.gle/MtG4fxgZQMGMMjdu6">Entry 계정 링크</a>
 
 - date: 5/7
   week: 10
