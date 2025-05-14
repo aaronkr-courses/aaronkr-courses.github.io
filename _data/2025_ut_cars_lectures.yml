@@ -100,10 +100,10 @@
 - date: 5/8
   week: 10
   title: >
-    <strong>Camera-based Object Tracking<br>
+    <strong>Day &amp; Night Classifier<br>
     PART 4 위성항법을 이용한 인지 판단 기술</strong>
-  slides:
-  img2: 2025/ut-cars/
+  slides: "https://docs.google.com/presentation/d/1v708ZHauO1ETVzFqr03a601ObQHB1RABLxpveUoKG8I/edit?usp=sharing"
+  img: 2025/ut-cars/day-night.jpg
   readings:
   hw:
   logistics: >
@@ -112,7 +112,7 @@
 - date: 5/15
   week: 11
   title: >
-    <strong>Radar Tracking<br>
+    <strong>Camera-based Object Tracking<br>Radar Tracking<br>
     PART 5 자율주행 중에 사용되는 운전자 인터페이스 기술</strong>
   slides:
   img2: 2025/ut-cars/

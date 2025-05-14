@@ -107,12 +107,12 @@
   title: >
     <strong>CHAPTER 10 메모리 관리 및 저수준 데이터 구조</strong>
   supp:
-  readings: > 
+  readings: >
     Accelerated C++, <strong>10장 pp. 274-299</strong>
   hw: "https://classroom.github.com/a/cr1XyQYb"
   slides: "https://docs.google.com/presentation/d/1gw7GLdRzWjxpK_UlVEQn8E9xNd0IReHrxw6vPIwA1qA/edit?usp=sharing"
   img: 2024/hb-cpp/11-cpp-memory.jpg
-  logistics: 
+  logistics:
 
 - date: 5/16
   week: 11
@@ -120,9 +120,9 @@
     <strong>CHAPTER 11 추상 데이터 타입</strong>
   supp:
   readings: Accelerated C++, <strong>11장 pp. 302-335</strong>
-  hw:
-  slides: "https://docs.google.com/presentation/d/1U3WeEsplNqMT2Jz_IAQu4ElrjSct1wXcQu5O6NpwT5g/edit?usp=sharing"
-  img2: 2024/hb-cpp/12-abstract-data-types.jpg
+  hw: "https://classroom.github.com/a/R9gvNdyY"
+  slides: "https://docs.google.com/presentation/d/1tAkFzr3ejmv6ERe6E6Ng2RB-kVtayFkTpWDlNKuCJP0/edit?usp=sharing"
+  img: 2024/hb-cpp/12-abstract-data-types.jpg
   logistics:
 
 - date: >
