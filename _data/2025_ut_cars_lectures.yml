@@ -112,7 +112,7 @@
 - date: 5/15
   week: 11
   title: >
-    <strong>Camera-based Object Tracking<br>Radar Tracking<br>
+    <strong>Intro to Computer Vision<br>
     PART 5 자율주행 중에 사용되는 운전자 인터페이스 기술</strong>
   slides:
   img2: 2025/ut-cars/
@@ -125,7 +125,7 @@
     <span style="color: red;">5/22* (5/20 LMS)</span>
   week: 12
   title: >
-    <strong>Classification<br>
+    <strong>NN - 합성곱 신경만<br>
     PART 6 자율주행 기술의 미래</strong>
   slides:
   img2: 2025/ut-cars/
@@ -137,7 +137,7 @@
 - date: 5/29
   week: 13
   title: >
-    <strong>Classification<br>
+    <strong>Object Detection - 객체 감지<br>
     PART 7 국내 자율주행 스타트업의 주요 기술</strong>
   slides:
   img2: 2025/ut-cars/
@@ -155,7 +155,7 @@
 - date: 6/12
   week: 15
   title: >
-    <strong>Classification</strong>
+    <strong>TBD<br>Camera-based Object Tracking<br>Radar Tracking</strong>
   slides:
   img2: 2025/ut-cars/
   readings: >
