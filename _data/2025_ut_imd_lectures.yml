@@ -126,7 +126,8 @@
   img: 2025/ut-imd/11-features.jpg
   readings: p. 377-408, 409-422
   hw:
-  logistics:
+  logistics: >
+    <a href="https://classroom.google.com/c/NzUyMTA1MjYxNTM1/a/NzYxMjc3MDA4MzI4/details">붓꽃 데이터 처리 예시</a>
 
 - date: 5/22
   week: 12
