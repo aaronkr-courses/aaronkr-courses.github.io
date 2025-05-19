@@ -135,10 +135,12 @@
   supp:
   readings: p. 380-420
   hw:
-  slides:
-  img2: 2024/dju-db/12-data-warehouse.jpg
+  slides: "https://docs.google.com/presentation/d/15wXgQwlUYmLnPlSkYZ-J4KHrc0Jm8FdHd-J6xlS46_s/edit?usp=sharing"
+  img: 2024/dju-db/12-data-warehouse.jpg
   logistics: >
-    11장 연습 문제
+    <div style="display: none;">
+      <a href="https://drive.google.com/file/d/12QgjN0c0LV8W0UM7XrX74aNKkn8qV8ho/view?usp=sharing">11장 연습 문제</a>
+    </div>
 
 - date: 5/27
   week: 13

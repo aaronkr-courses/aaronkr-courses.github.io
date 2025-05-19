@@ -124,18 +124,18 @@
   week: 12
   title: >
     <strong>04장: 웹 응용 프로그램 기능별 보안 버그, #14-17</strong><br>
-    <strong>05장: 대표적인 보안 기능</strong>
   supp:
   readings: p. 330-441, 442-508
   hw:
-  slides:
-  img2: 2025/dju-sec/
+  slides: "https://docs.google.com/presentation/d/1SE3sI5spipHjMnznwxD3vkq8Kxl61DZsGqBzHPtxx8k/edit?usp=sharing"
+  img: 2025/dju-sec/12-bugs-vii.jpg
   logistics:
 
 - date: 5/27
   week: 13
   title: >
-    <strong>06장: 문자 코드와 보안</strong>
+    <strong>05장: 대표적인 보안 기능<br>
+    06장: 문자 코드와 보안</strong>
   supp:
   readings: p. 509-528
   hw:
