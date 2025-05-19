@@ -97,11 +97,9 @@
 - date: 5/12
   week: 11
   title: >
-    <strong>4. Circuit Theorems<br>
-    5. Operational Amplifiers<br>
-    6. Capacitors & Inductors</strong>
+    <strong>4. Circuit Theorems</strong>
   supp:
-  readings: p. 125-171, 173-212, 213-249
+  readings: p. 125-171
   hw:
   slides: "https://docs.google.com/presentation/d/1-inXDXOmnyMGSuMCToj63lDjvydTU-5SL-rl3ClKazA/edit?usp=sharing"
   img: 2025/jbnu-circuits/11-c-theorems.jpg
@@ -109,6 +107,28 @@
 
 - date: 5/19
   week: 12
+  title: >
+    <strong>5. Operational Amplifiers</strong>
+  supp:
+  readings: p. 173-212
+  hw:
+  slides: "https://docs.google.com/presentation/d/1W6gFBPmHSEoJ0QRlopsB_K6YHS8qvHvvvxEdM8CwnuM/edit?usp=sharing"
+  img: 2025/jbnu-circuits/12-op-amps.jpg
+  logistics:
+
+- date: 5/26
+  week: 13
+  title: >
+    <strong>6. Capacitors & Inductors</strong>
+  supp:
+  readings: p. 213-249
+  hw:
+  slides:
+  img2: 2025/jbnu-circuits/
+  logistics:
+
+- date: 6/2
+  week: 14
   title: >
     <strong>7. First-Order Circuits</strong>
   supp:
@@ -118,34 +138,12 @@
   img2: 2025/jbnu-circuits/
   logistics:
 
-- date: 5/26
-  week: 13
+- date: 6/9
+  week: 15
   title: >
     <strong>8. Second-Order Circuits</strong>
   supp:
   readings: p. 311-365
-  hw:
-  slides:
-  img2: 2025/jbnu-circuits/
-  logistics:
-
-- date: 6/2
-  week: 14
-  title: >
-    <strong>TBD</strong>
-  supp:
-  readings:
-  hw:
-  slides:
-  img2: 2025/jbnu-circuits/
-  logistics:
-
-- date: 6/9
-  week: 15
-  title: >
-    <strong>TBD</strong>
-  supp:
-  readings:
   hw:
   slides:
   img2: 2025/jbnu-circuits/
