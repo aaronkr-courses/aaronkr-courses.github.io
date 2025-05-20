@@ -114,8 +114,8 @@
   title: >
     <strong>Intro to Computer Vision<br>
     PART 5 자율주행 중에 사용되는 운전자 인터페이스 기술</strong>
-  slides:
-  img2: 2025/ut-cars/
+  slides: "https://docs.google.com/presentation/d/1xEWuCF7m0L40u_OVZuIgj9HZlI9NCC2f0z7INaM6kJg/edit?usp=sharing"
+  img: 2025/ut-cars/11-intro-cv.jpg
   readings:
   hw:
   logistics: >
@@ -127,8 +127,8 @@
   title: >
     <strong>NN - 합성곱 신경만<br>
     PART 6 자율주행 기술의 미래</strong>
-  slides:
-  img2: 2025/ut-cars/
+  slides: "https://docs.google.com/presentation/d/111urGDJRqzhH_f2ed_pTxDZKEogH8jY_PeMRwmYNEvI/edit?usp=sharing"
+  img: 2025/ut-cars/12-cnn.jpg
   readings:
   hw:
   logistics: >

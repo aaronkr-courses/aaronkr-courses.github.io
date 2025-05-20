@@ -132,20 +132,21 @@
 - date: 5/22
   week: 12
   title: >
-    <strong>12. 3차원 가시화</strong>
-  slides:
-  img2: 2025/ut-imd/
-  readings: p. 409-422
+    <strong>12. 3차원 가시화<br>
+    13. 영상촬영의 의학적 응용</strong>
+  slides: "https://docs.google.com/presentation/d/1kbyeo5XDedrqXceDpHvHcRGj28q93rFf6sqh3_GXqAc/edit?usp=sharing"
+  img: 2025/ut-imd/12-apps.jpg
+  readings: p. 409-422, 423-438
   hw:
   logistics:
 
 - date: 5/29
   week: 13
   title: >
-    <strong>13. 영상촬영의 의학적 응용</strong>
+    <strong>TBD</strong>
   slides:
   img2: 2025/ut-imd/
-  readings: p. 423-438
+  readings:
   hw:
   logistics:
 
@@ -157,7 +158,7 @@
 - date: 6/12
   week: 14
   title: >
-    <strong>14. 의료영상 획득 기술의 최신 발전 동향</strong>
+    <strong>TBD</strong>
   slides:
   img2: 2025/ut-imd/
   readings: >
