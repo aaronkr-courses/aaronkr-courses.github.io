@@ -147,10 +147,10 @@
   supp:
   readings: p. 422-456
   hw:
-  slides:
-  img2: 2024/dju-db/13-big-data.jpg
+  slides: "https://docs.google.com/presentation/d/1RoPW2FoNcLz3cOEw_a6toiVUtOqJgwtKn8g1aX1_yKk/edit?usp=sharing"
+  img: 2024/dju-db/13-big-data.jpg
   logistics: >
-    12장 연습 문제
+    <a style="display: none;" href="https://drive.google.com/file/d/1nqckkikdZhItsZm6R9zHd8T7xJIfIDdo/view?usp=sharing">12장 연습 문제</a>
 
 - date: 6/3
   week: 14
@@ -161,6 +161,18 @@
     <span style="color: red">6/3 보강</span>
   week: 14
   title: >
+    <strong>14 데이터베이스 모바일 웹 프로그래밍</strong>
+  supp:
+  readings: p. 492-532
+  hw:
+  slides:
+  img2: 2024/dju-db/15-mobile-web.jpg
+  logistics: >
+    PHP MovieDB 프로젝트
+
+- date: 6/10
+  week: 15
+  title: >
     <strong>13 NoSQL과 몽고DB</strong>
   supp:
   readings: p 458-490
@@ -170,18 +182,6 @@
   img2: 2024/dju-db/14-mongodb.jpg
   logistics: >
     13장 연습 문제
-
-- date: 6/10
-  week: 15
-  title: >
-    <strong>14 데이터베이스 모바일 웹 프로그래밍</strong>
-  supp:
-  readings: p. 492-532
-  hw:
-  slides:
-  img2: 2024/dju-db/15-mobile-web.jpg
-  logistics: >
-    PHP MovieDB 프로젝트
 
 - date: 6/17
   week: 16
