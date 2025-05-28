@@ -143,9 +143,7 @@
   img2: 2025/ut-cars/
   readings:
   hw:
-  logistics: >
-    - 스캔 매칭 현지화
-    - SLAM
+  logistics:
 
 - date: 6/5
   week: 14
