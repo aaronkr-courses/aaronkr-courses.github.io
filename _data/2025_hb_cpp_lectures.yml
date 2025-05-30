@@ -146,7 +146,8 @@
   hw: "https://classroom.github.com/a/NmkOyoah"
   slides: "https://docs.google.com/presentation/d/1b5uiVgeNYdFr9v1Tg9wAOC2iLKKAAgRMAGtXCn3XQiE/edit?usp=sharing"
   img: 2024/hb-cpp/14-inheritance.jpg
-  logistics:
+  logistics: >
+    <a href="https://raw.githubusercontent.com/aaronkr-classroom/14-inheritance-dynamic-binding-jekkilekki/refs/heads/main/Chp13/new_grades.txt">new_grades.txt</a>
 
 - date: 6/6
   week: 14
