@@ -74,7 +74,7 @@
     <strong>Chapter 5: BJT Biasing</strong>
   supp:
   readings: p. 231-265
-  hw:
+  hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzgzOTkzNzIyNTU4/details"
   slides: "https://docs.google.com/presentation/d/1HihN3I0B6xjkXPoI_z9Q7IovJZtcA07P7YweWZMVTKE/edit?usp=sharing"
   img: 2025/jbnu-chips/7-bjt-biasing.jpg
   logistics:
@@ -91,7 +91,7 @@
     <strong>Chapter 6: Amplifier Concepts</strong>
   supp:
   readings: p. 266-295
-  hw:
+  hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzgzOTk0NDQ1NzM3/details"
   slides: "https://docs.google.com/presentation/d/1s8lrIqbFpmh3Q6AdQzJqiAq59Rko8BdnaL20sQZdYsc/edit?usp=sharing"
   img: 2025/jbnu-chips/9-amplifiers.jpg
   logistics:
@@ -102,7 +102,7 @@
     <span style="color: red"><strong style="color: red">Monday OFF</strong> 어린이 날 (대체)</span><br>
     <strong>Chapter 7: BJT Small Signal Amplifiers</strong>
   readings: p. 266-295
-  hw:
+  hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzgzOTkyODEyNTM3/details"
   slides: "https://docs.google.com/presentation/d/1ZleYWxZjNzCipauilmf32yT003k6edmArSMerJf4m6k/edit?usp=sharing"
   img: 2025/jbnu-chips/10-small-amps.jpg
   logistics:
@@ -114,7 +114,7 @@
     Chapter 9: BJT Class B Power Amplifiers</strong>
   supp:
   readings: p. 296-324
-  hw:
+  hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzY4NjEyNjgzMDUw/details"
   slides: "https://docs.google.com/presentation/d/15G0LGot58VywnP4G4cwzETx9P1Ge08Qk4R48A49MQ_o/edit?usp=sharing"
   img: 2025/jbnu-chips/11-class-amps.jpg
   logistics:
@@ -126,7 +126,7 @@
     Chapter 10: Junction Field Effect Transistors (JFETs)</strong>
   supp:
   readings: p. 325-347
-  hw:
+  hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzgzOTk0MjQ3MTcy/details"
   slides: "https://docs.google.com/presentation/d/19Y0v-0Je0jTcbNDqXGM2tgVXLvjfDSIklKhlPmIysh8/edit?usp=sharing"
   img: 2025/jbnu-chips/12-jfets.jpg
   logistics:
@@ -137,7 +137,7 @@
     <strong>Chapter 11: JFET Small Signal Amplfiers</strong>
   supp:
   readings: p. 348-381
-  hw:
+  hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzgzOTk0MTEyNzMw/details"
   slides: "https://docs.google.com/presentation/d/1MgHBirRRBJKUqlc0_-5-HYEvW3Xl-7hOhpMKB55947A/edit?usp=sharing"
   img: 2025/jbnu-chips/13-jfet-amps.jpg
   logistics:
@@ -149,8 +149,8 @@
   supp:
   readings: p. 382-428
   hw:
-  slides:
-  img2: 2025/jbnu-chips/
+  slides: "https://docs.google.com/presentation/d/12De47N36n7H4fTrd5uDew8mDNsprAIxLL49JBKAXoTQ/edit?usp=sharing"
+  img: 2025/jbnu-chips/14-mosfets.jpg
   logistics:
 
 - date: 6/9
