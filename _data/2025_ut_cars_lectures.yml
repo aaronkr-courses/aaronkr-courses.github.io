@@ -88,7 +88,17 @@
     <span style="color: red;">5/1* (5/13 LMS)</span>
   week: 9
   title: >
-    <strong>Lidar, Point clouds, Simple Classification<br>
+    <strong>SLAM II</strong>
+  slides: "https://docs.google.com/presentation/d/1B-2wbcTBIapu6t4M3MIqPUiLlgzuP3PMrD0TDds3Jm0/edit?usp=sharing"
+  img: 2025/ut-cars/7-slam.jpg
+  readings:
+  hw: "https://classroom.github.com/a/EtHPzboX"
+  logistics:
+
+- date: 5/8
+  week: 10
+  title: >
+    <strong>Simple Classification<br>
     PART 4 위성항법을 이용한 인지 판단 기술</strong>
   slides: "https://docs.google.com/presentation/d/1v708ZHauO1ETVzFqr03a601ObQHB1RABLxpveUoKG8I/edit?usp=sharing"
   img: 2025/ut-cars/9-simple-classification.jpg
@@ -97,8 +107,8 @@
   logistics: >
     - 카메라 기반 2D 기능 추적
 
-- date: 5/8
-  week: 10
+- date: 5/15
+  week: 11
   title: >
     <strong>Day &amp; Night Classifier<br>
     PART 4 위성항법을 이용한 인지 판단 기술</strong>
@@ -109,11 +119,13 @@
   logistics: >
     - 3D 공간에서 객체 추적
 
-- date: 5/15
-  week: 11
+- date: >
+    <span style="color: red;">5/22* (5/20 LMS)</span>
+  week: 12
   title: >
-    <strong>Intro to Computer Vision<br>
-    PART 5 자율주행 중에 사용되는 운전자 인터페이스 기술</strong>
+    <strong>Intro to Neural Networks (신경망 소개)<br>
+    PART 5 자율주행 중에 사용되는 운전자 인터페이스 기술<br>
+    PART 6 자율주행 기술의 미래</strong>
   slides: "https://docs.google.com/presentation/d/1xEWuCF7m0L40u_OVZuIgj9HZlI9NCC2f0z7INaM6kJg/edit?usp=sharing"
   img: 2025/ut-cars/11-intro-cv.jpg
   readings:
@@ -121,29 +133,16 @@
   logistics: >
     - 레이더 타겟 생성 및 탐지
 
-- date: >
-    <span style="color: red;">5/22* (5/20 LMS)</span>
-  week: 12
+- date: 5/29
+  week: 13
   title: >
-    <strong>NN - 합성곱 신경만<br>
-    PART 6 자율주행 기술의 미래</strong>
+    <strong>NN - 합성곱 신경만 실습</strong>
   slides: "https://docs.google.com/presentation/d/111urGDJRqzhH_f2ed_pTxDZKEogH8jY_PeMRwmYNEvI/edit?usp=sharing"
   img: 2025/ut-cars/12-cnn.jpg
   readings:
   hw:
   logistics: >
     - CNN을 사용한 이미지 분류
-
-- date: 5/29
-  week: 13
-  title: >
-    <strong>Object Detection - 객체 감지<br>
-    PART 7 국내 자율주행 스타트업의 주요 기술</strong>
-  slides:
-  img2: 2025/ut-cars/
-  readings:
-  hw:
-  logistics:
 
 - date: 6/5
   week: 14
@@ -153,7 +152,9 @@
 - date: 6/12
   week: 15
   title: >
-    <strong>TBD<br>Camera-based Object Tracking<br>Radar Tracking</strong>
+    <strong>Object Detection - 객체 감지<br>
+    Camera-based Object Tracking<br>
+    PART 7 국내 자율주행 스타트업의 주요 기술</strong>
   slides:
   img2: 2025/ut-cars/
   readings: >
