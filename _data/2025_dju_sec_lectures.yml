@@ -152,7 +152,7 @@
     <span style="color: red">6/3 보강</span>
   week: 14
   title: >
-    <strong>07장: 취약점 진단 입문</strong>
+    <strong>취약한 웹 앱 수정</strong>
   supp:
   readings: p. 529-587
   hw: "https://classroom.github.com/a/CXISVZjE"
@@ -164,8 +164,9 @@
 - date: 6/10
   week: 15
   title: >
-    <strong>08장: 웹 사이트의 안전성을 높이기 위해</strong><br>
-    <strong>09장: 안전한 웹 응용 프로그램을 위한 개발 관리</strong>
+    <strong>07장: 취약점 진단 입문<br>
+    08장: 웹 사이트의 안전성을 높이기 위해<br>
+    09장: 안전한 웹 응용 프로그램을 위한 개발 관리</strong>
   supp:
   readings: p. 588-618, 619-630
   hw:
