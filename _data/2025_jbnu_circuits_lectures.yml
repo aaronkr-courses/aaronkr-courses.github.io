@@ -123,7 +123,7 @@
     <strong>6. Capacitors & Inductors</strong>
   supp:
   readings: p. 213-249
-  hw:
+  hw: "https://classroom.google.com/c/NzU3NjEwNjg3Nzk5/a/NzgxNTgxMjY4OTMy/details"
   slides: "https://docs.google.com/presentation/d/1ThNA5y9FphWOMz9NBIrGSjqZTa06_lxkxWFwdah4JJM/edit?usp=sharing"
   img: 2025/jbnu-circuits/13-capacitors-inductors.jpg
   logistics:
@@ -134,7 +134,7 @@
     <strong>7. First-Order Circuits</strong>
   supp:
   readings: p. 251-309
-  hw:
+  hw: ""
   slides: "https://docs.google.com/presentation/d/1amjSqpvLULjzbvBpUYQTCvOfq-aqHfLbDMDTizzjXaY/edit?usp=sharing"
   img: 2025/jbnu-circuits/14-first-order.jpg
   logistics:
@@ -152,16 +152,5 @@
 
 - date: 6/16
   week: 16
-  title: >
-    <strong>TBD</strong>
-  supp:
-  readings:
-  hw:
-  slides:
-  img2: 2025/jbnu-circuits/
-  logistics:
-
-- date: 6/18
-  week: 17
   title: >
     <strong>Final Test</strong>

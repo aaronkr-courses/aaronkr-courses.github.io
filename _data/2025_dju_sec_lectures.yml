@@ -155,10 +155,10 @@
     <strong>07장: 취약점 진단 입문</strong>
   supp:
   readings: p. 529-587
-  hw:
-  slides:
+  hw: "https://classroom.github.com/a/CXISVZjE"
+  slides: "https://docs.google.com/presentation/d/14MajnW7lzwtMmv-H1g8QqQV-Qa1x3Nvbk7DUVwTyzSU/edit?usp=sharing"
   slides2:
-  img2: 2025/dju-sec/
+  img: 2025/dju-sec/14-web-app.jpg
   logistics:
 
 - date: 6/10

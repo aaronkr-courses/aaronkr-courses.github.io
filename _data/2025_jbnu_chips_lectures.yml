@@ -127,6 +127,7 @@
   supp:
   readings: p. 325-347
   hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzgzOTk0MjQ3MTcy/details"
+  hw2: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzgzOTk0MTEyNzMw/details"
   slides: "https://docs.google.com/presentation/d/19Y0v-0Je0jTcbNDqXGM2tgVXLvjfDSIklKhlPmIysh8/edit?usp=sharing"
   img: 2025/jbnu-chips/12-jfets.jpg
   logistics:
@@ -137,7 +138,7 @@
     <strong>Chapter 11: JFET Small Signal Amplfiers</strong>
   supp:
   readings: p. 348-381
-  hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzgzOTk0MTEyNzMw/details"
+  hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/NzY2NjAyNzYyNTQw/details"
   slides: "https://docs.google.com/presentation/d/1MgHBirRRBJKUqlc0_-5-HYEvW3Xl-7hOhpMKB55947A/edit?usp=sharing"
   img: 2025/jbnu-chips/13-jfet-amps.jpg
   logistics:
@@ -145,10 +146,12 @@
 - date: 6/2
   week: 14
   title: >
-    <strong>Chapter 12: Metal Oxide Semiconductor FETs (MOSFETs)</strong>
+    <strong>Chapter 12: Metal Oxide Semiconductor FETs (MOSFETs)<br>
+    Chapter 13: MOSFET Small Signal Amplifiers</strong>
   supp:
   readings: p. 382-428
-  hw:
+  hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/Nzg1NjgzNDE2ODU0/details"
+  hw2: ""
   slides: "https://docs.google.com/presentation/d/12De47N36n7H4fTrd5uDew8mDNsprAIxLL49JBKAXoTQ/edit?usp=sharing"
   img: 2025/jbnu-chips/14-mosfets.jpg
   logistics:
@@ -157,7 +160,8 @@
   week: 15
   title: >
     <strong>Guest Lecture?<br>
-    Chapter 13: MOSFET Small Signal Amplifiers</strong>
+    Chapter 14: Class D Power Amplifiers?<br>
+    Chapter 15: Insulated Gate Bipolar Transistors (IGBTs)</strong>
   supp:
   readings: p. 429-484
   hw:
@@ -171,8 +175,6 @@
     <strong>Final Test</strong>
   logistics: >
     <strong>Not covered:<br>
-    - Chapter 14: Class D Power Amplifiers<br>
-    - Chapter 15: Insulated Gate Bipolar Transistors (IGBTs)<br>
     - Chapter 16: Decibels and Bode Plots<br>
     - Chapter 17: Frequency Limits<br>
     - Appendices</strong>
