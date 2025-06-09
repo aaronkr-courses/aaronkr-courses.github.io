@@ -71,6 +71,9 @@
         {% if lecture.hw %}
         [ <a href="{{ lecture.hw }}" target="_blank">과제</a> ]
         {% endif %}
+        {% if lecture.hw2 %}
+        [ <a href="{{ lecture.hw2 }}" target="_blank">과제 2</a> ]
+        {% endif %}
         <p>{{ lecture.logistics }}</p>
     </td>
     {% endif %}
