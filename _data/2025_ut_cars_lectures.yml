@@ -140,7 +140,8 @@
   slides: "https://docs.google.com/presentation/d/111urGDJRqzhH_f2ed_pTxDZKEogH8jY_PeMRwmYNEvI/edit?usp=sharing"
   img: 2025/ut-cars/12-cnn.jpg
   readings:
-  hw:
+  hw: "https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign"
+  hw2: "https://forms.gle/Viw4Xg2jiuKyFxNb6"
   logistics: >
     - CNN을 사용한 이미지 분류
 
