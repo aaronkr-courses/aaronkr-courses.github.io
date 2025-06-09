@@ -177,11 +177,11 @@
   supp:
   readings: p 458-490
   hw:
-  slides:
-  slides2:
-  img2: 2024/dju-db/14-mongodb.jpg
+  slides: "https://docs.google.com/presentation/d/1q9u0-vbXhD6iG3gyYx_e4cuBTrN0zU3vwys7kLXB19M/edit?usp=sharing"
+  slides2: "https://docs.google.com/presentation/d/1nQ9S0eJkDxUubjYuhfDyA1j6DHjCgPsr8s00Q-Q3E14/edit?usp=sharing"
+  img: 2024/dju-db/14-mongodb.jpg
   logistics: >
-    13장 연습 문제
+    <a style="display: none;" href="https://drive.google.com/file/d/1F4n3wKVU99UZJgOO6GCjJy_PR4T9mD-K/view?usp=sharing">13장 연습 문제</a>
 
 - date: 6/17
   week: 16
