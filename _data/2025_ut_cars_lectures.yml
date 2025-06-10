@@ -154,11 +154,11 @@
 - date: 6/12
   week: 15
   title: >
-    <strong>Object Detection - 객체 감지<br>
-    Camera-based Object Tracking<br>
-    PART 7 국내 자율주행 스타트업의 주요 기술</strong>
-  slides:
-  img2: 2025/ut-cars/
+    <strong>PART 7 국내 자율주행 스타트업의 주요 기술</strong><br>
+    <em>Object Detection - 객체 감지<br>
+    Camera-based Object Tracking</em>
+  slides: "https://docs.google.com/presentation/d/1vVJVWBznTKC8gc7-zndEQ5btTDOaVz-MKpMn5FvX-yI/edit?usp=sharing"
+  img: 2025/ut-cars/13-korea.jpg
   readings: >
     기말고사 가이드
   hw:
