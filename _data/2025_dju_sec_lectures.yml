@@ -164,14 +164,12 @@
 - date: 6/10
   week: 15
   title: >
-    <strong>07장: 취약점 진단 입문<br>
-    08장: 웹 사이트의 안전성을 높이기 위해<br>
-    09장: 안전한 웹 응용 프로그램을 위한 개발 관리</strong>
+    <strong>기말고사 리뷰</strong>
   supp:
   readings: p. 588-618, 619-630
   hw:
-  slides:
-  img2: 2025/dju-sec/
+  slides: "https://docs.google.com/presentation/d/1GkD8pyPxcVOEx0OMyU7o5704tiMqanE2IZTiHw62ZbY/edit?usp=sharing"
+  img: 2025/dju-sec/15-final.jpg
   logistics:
 
 - date: 6/17
