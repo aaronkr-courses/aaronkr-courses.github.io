@@ -178,13 +178,14 @@
 - date: 6/11
   week: 15
   title: >
-    <strong>Final Test</strong>
+    <strong>Final Test</strong><br>
+    <a href="https://forms.gle/KTdMwLHhyq8h2Hx86">7반 퀴즈</a>
+    <a style="display:none;" href="https://forms.gle/wH22qKhgfCv878t19">4반 퀴즈</a>&bull;
+    <a href="https://docs.google.com/presentation/d/1zdf6gAvkB47gV5CfJw2bPmbygZmuEwPvmX4RRDM_I4A/edit?usp=sharing">실기</a>
   slides2:
   readings: <strong>WEEK 15 똑똑한 AI로 색깔을 분류해 보자!</strong>
   img2:
   hw:
   logistics: >
-    기말고사<br>
-    <a href="https://forms.gle/KTdMwLHhyq8h2Hx86">7반 퀴즈</a><br>
-    <a style="display:none;" href="https://forms.gle/wH22qKhgfCv878t19">4반 퀴즈</a><br>
-    <a href="https://docs.google.com/presentation/d/1zdf6gAvkB47gV5CfJw2bPmbygZmuEwPvmX4RRDM_I4A/edit?usp=sharing">실기</a><br>
+    기말고사
+   
