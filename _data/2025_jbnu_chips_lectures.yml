@@ -151,7 +151,7 @@
   supp:
   readings: p. 382-428
   hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/Nzg1NjgzNDE2ODU0/details"
-  hw2: ""
+  hw2: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/Nzg1NjgzNDc3NTA4/details"
   slides: "https://docs.google.com/presentation/d/12De47N36n7H4fTrd5uDew8mDNsprAIxLL49JBKAXoTQ/edit?usp=sharing"
   img: 2025/jbnu-chips/14-mosfets.jpg
   logistics:
@@ -159,12 +159,12 @@
 - date: 6/9
   week: 15
   title: >
-    <strong>Guest Lecture?<br>
-    Chapter 14: Class D Power Amplifiers?<br>
+    <strong>Chapter 14: Class D Power Amplifiers<br>
     Chapter 15: Insulated Gate Bipolar Transistors (IGBTs)</strong>
   supp:
   readings: p. 429-484
-  hw:
+  hw: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/Nzg2NjQzODMyMDk0/details"
+  hw2: "https://classroom.google.com/c/NzU3NjEwNzMxMzU1/a/Nzg2NjQzOTQ2NTE3/details"
   slides: "https://docs.google.com/presentation/d/1rUUtjvNvbCKFSoiWHxY2ut7VZe0YMscVRBx3EFtt3Lw/edit?usp=sharing"
   img: 2025/jbnu-chips/15-igbts.jpg
   logistics:
