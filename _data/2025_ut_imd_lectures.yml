@@ -159,9 +159,9 @@
 - date: 6/12
   week: 14
   title: >
-    <strong>TBD</strong>
-  slides:
-  img2: 2025/ut-imd/
+    <strong>폐렴 CNN이나 3D 프린팅팅</strong>
+  slides: "https://docs.google.com/presentation/d/1JRSVpffd82JuVJQMJ1dsKwvZCDdhdstSa3vAwrgD8eo/edit?usp=sharing"
+  img: 2025/ut-imd/14-cnn.jpg
   readings: >
     p.439-443<br>
     기말고사 가이드
