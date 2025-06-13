@@ -163,7 +163,8 @@
   hw: "https://classroom.github.com/a/b8_IqZXK"
   slides: "https://docs.google.com/presentation/d/1jZsl94TLtSibDlOzFc4SNnihqfv376pldcq5WaAyURI/edit?usp=sharing"
   img: 2025/hb-cpp/14-auto-mem.jpg
-  logistics:
+  logistics: >
+    <a href="https://github.com/aaronkr-classroom/13-dynamic-binding-jekkilekki">13장 완성 코드</a>
 
 - date: 6/20
   week: 15
