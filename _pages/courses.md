@@ -2,10 +2,10 @@
 layout: page
 permalink: /courses/
 title: Courses
-description: Current and previous courses taught by Aaron Snowberger.
+description: Current and previous Computer courses taught by Aaron Snowberger.
 nav: false
 nav_order: 2
-course_categories: [2025-1, 2024-2, 2024-1, 2023, Online, Special, GPA]
+course_categories: [2025-2, 2025-1, 2024-2, 2024-1, 2023, Online, Special, GPA]
 grid: false
 ---
 

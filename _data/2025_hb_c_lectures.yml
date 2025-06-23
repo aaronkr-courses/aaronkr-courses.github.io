@@ -1,0 +1,173 @@
+- date: 9/6
+  week: 1
+  title: >
+    <strong>01 프로그램과 C 언어</strong>
+  supp:
+  readings: p.
+  hw:
+  slides: "https://docs.google.com/presentation/d/1ifu-jsmxb9yTwo3XEwNElRuoilWxIW0w0Xp9zb3hNIw/edit?usp=sharing"
+  img: 2024/hb-c/1-c-intro.jpg
+  logistics:
+
+- date: 9/13
+  week: 2
+  title: >
+    <strong>02 C 언어로 만드는 첫 번째 프로그램<br>
+    03 자료형</strong>
+  supp:
+  readings: p.
+  hw: "https://classroom.github.com/a/ASsjNSNT"
+  slides: "https://docs.google.com/presentation/d/1EdiLDFcpJZT6_a-5XLQ-LrBY-r8tI2Fg31TvKMjBmJc/edit?usp=sharing"
+  img: 2024/hb-c/2-hello-c.jpg
+  logistics:
+
+- date: 9/20
+  week: 3
+  title: >
+    <strong>04 상수와 변수<br>
+    05 함수</strong>
+  supp:
+  readings: p.
+  hw: "https://classroom.github.com/a/EiTWwozm"
+  slides: "https://docs.google.com/presentation/d/1uutXtChW8xY5mWwRkJyB-OIaP8V0kuR9vruH4KESwww/edit?usp=sharing"
+  img: 2024/hb-c/3-vars-funcs.jpg
+  logistics:
+
+- date: 9/27
+  week: 4
+  title: >
+    <strong>06 표준 출력 함수<br>
+    07 연산자</strong>
+  supp:
+  readings: p. 105-150
+  hw: "https://classroom.github.com/a/U-J2myDs"
+  slides: "https://docs.google.com/presentation/d/1llsfHb7mQfLfUI58vOPUec4mpVtDXHqKCYO_spUE9Pc/edit?usp=sharing"
+  img: 2024/hb-c/4-print-preprocessor.jpg
+  logistics:
+
+- date: 10/4
+  week: 5
+  title: >
+    <strong>08 조건문</strong>
+  supp:
+  readings: p. 151-202
+  hw: "https://classroom.github.com/a/UIX8-3RA"
+  slides: "https://docs.google.com/presentation/d/18bYiAiOIe52ZcKx1QMj7GRWlGXXCLdZVAOav7jnY0T0/edit?usp=sharing"
+  img: 2024/hb-c/5-cond-loops.jpg
+  logistics:
+
+- date: 10/11
+  week: 6
+  title: >
+    <strong>09 반복문<br>
+    10 시프트 연산자와 비트 연산자</strong>
+  supp:
+  readings: p. 176-225
+  hw: "https://classroom.github.com/a/PAVFKz_t"
+  slides: "https://docs.google.com/presentation/d/1XXWbXEX3pR4Ngud3HkUIDP81X6TsM6dixpn5Q614xyU/edit?usp=sharing"
+  img: 2024/hb-c/6-loops-shifts.jpg
+  logistics:
+
+- date: 10/18
+  week: 7
+  title: >
+    <strong>11 지역 변수와 전역 변수<br>
+    12 배열과 문자열</strong>
+  supp:
+  readings: p. 226-288
+  hw: "https://classroom.github.com/a/m5uN5L3t"
+  slides: "https://docs.google.com/presentation/d/19UHBMpkpZbhRO9Caus7-xr-r6fjfDn8rKhhwU0sTtdY/edit?usp=sharing"
+  img: 2024/hb-c/7-scope-arrays.jpg
+  logistics:
+
+- date: 10/25
+  week: 8
+  title: >
+    <strong>Midterm Test</strong><br>
+    <div style="display: none;">
+      [<a href="https://forms.gle/inYD5upMwy1DQmRa7">퀴즈</a>]
+      [<a href="https://classroom.github.com/a/Qon0lvC2">실기</a>]
+      <br>
+      <a href="https://docs.google.com/presentation/d/1lMoA2v2qIU2-s5bFtOnbXPOctu5luoA8bEyWJsChCCA/edit?usp=sharing">스터디 가이드</a>
+    </div>
+
+- date: 11/1
+  week: 9
+  title: >
+    <strong>12 배열과 문자열<br>
+    13 포인터</strong>
+  supp:
+  readings: p. 289-333
+  hw: "https://classroom.github.com/a/rRXd4KJ8"
+  slides: "https://docs.google.com/presentation/d/1tzxXyGoTG_w6W9x0eqe4F2cSpfG6lDl2S-eJR-CfI0I/edit?usp=sharing"
+  img: 2024/hb-c/9-pointers.jpg
+  logistics:
+
+- date: 11/8
+  week: 10
+  title: >
+    <strong>14 표준 입력 함수<br>
+    15 배열과 포인터</strong>
+  supp:
+  readings: p. 334-383
+  hw: "https://classroom.github.com/a/tzvjuIum"
+  slides: "https://docs.google.com/presentation/d/1xoKEUx5wrvP3wsn8cz6bWZJUB6ua4-ufioK00lDNuTc/edit?usp=sharing"
+  img: 2024/hb-c/10-input-arr-pt.jpg
+  logistics:
+
+- date: 11/15
+  week: 11
+  title: >
+    <strong>16 메모리 할당</strong>
+  supp:
+  readings: p. 368-421
+  hw: "https://classroom.github.com/a/49LEp5iv"
+  slides: "https://docs.google.com/presentation/d/1oTyt_AcTwUKFfxhA4I0vsdCCoc6RPEIUZ4ldDB0x7PM/edit?usp=sharing"
+  img: 2024/hb-c/11-memory.jpg
+  logistics:
+
+- date: 11/22
+  week: 12
+  title: >
+    <strong>17 다차원 포인터</strong>
+  supp:
+  readings: p. 368-454
+  hw: "https://classroom.github.com/a/5XBkPsSn"
+  slides: "https://docs.google.com/presentation/d/1IXavL4kD_Y1z2sd4V8bf512VVBg3itIznfLtgUaNRGA/edit?usp=sharing"
+  img: 2024/hb-c/12-2d-pointers.jpg
+  logistics:
+
+- date: 11/29
+  week: 13
+  title: >
+    <strong>18 구조체와 연결 리스트</strong>
+  supp:
+  readings: p. 455-496
+  hw: "https://classroom.github.com/a/UouuuiZa"
+  slides: "https://docs.google.com/presentation/d/1svf1SoawCfFYaxxwKY4aHxe8rUPb8m0n34V_wESoRlw/edit?usp=sharing"
+  img: 2024/hb-c/13-structs.jpg
+  logistics:
+
+- date: 12/6
+  week: 14
+  title: >
+    <strong>19 파일 입출력<br>
+    20 함수 포인터</strong>
+  supp:
+  readings: p. 497-540
+  hw: "https://classroom.github.com/a/aSrhDP77"
+  slides: "https://docs.google.com/presentation/d/1P2SPZbc0dnkbBuM0sY6Ta58rEGpXeRyIrYECnzqMB5M/edit?usp=sharing"
+  img: 2024/hb-c/14-files.jpg
+  logistics: >
+    <a href="https://naver.me/xTTjuAZ7">박사 연구 설문조사</a>
+
+- date: 12/13
+  week: 15
+  title: >
+    <strong>Final Test</strong><br>
+    <a href="https://forms.gle/hDCYAHs7hLrBvGc39">퀴즈</a> | <a href="https://classroom.github.com/a/JWHOiOfS">실기</a>
+    <br>샘플 코드는 13주차 + 14주차에 있어요.<br>
+    <a href="https://github.com/orgs/aaronkr-classroom/repositories?q=language%3AC+jekkilekki">샘플 코드</a>
+    <div style="display: none;"><br>
+      <a href="https://docs.google.com/presentation/d/1aU5g_FIHoynPSQGGSU8KTbd88JP2aiFUaH90wkk99Is/edit?usp=sharing"><strong>기말고사</strong> 스터디 가이드</a><br>
+    </div>
