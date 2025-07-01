@@ -1,8 +1,8 @@
 ---
 layout: distill
-title: Program-Based Circuit Theory I (DC)
-subtitle: 프로그램 기반 회로 이론 I (DC)
-description: 0000127046 • 2025년 1학기 • 전북대학교
+title: Program-Based Circuit Theory II (AC)
+subtitle: 프로그램 기반 회로 이론 II (AC)
+description: 0000127046 • 2025년 2학기 • 전북대학교
 logo: jbnu-logo-2.png
 img: assets/img/books/electric-circuits.jpg
 importance: 2
@@ -28,9 +28,9 @@ toc:
 
 information:
   - section: 0000127046
-    time: 월 1-4pm
-    location: 인문대학 2호관 504호
-    kakaotalk: https://open.kakao.com/o/gNhLNgjh
+    time: 월 2-4pm, 수 2-3pm
+    location: 인문대학 2호관 505호
+    kakaotalk:
 
 Main-Text:
   - text: "주교재"
@@ -67,7 +67,7 @@ Supplementary:
 
 ## Schedule 강의일정
 
-{% include_relative 2025/jbnu-circuits/schedule.md %}
+{% include schedule.md data_file="2025_jbnu_circuits_ii_lectures" %}
 
 <a class="btncv" href="#">Top</a>
 

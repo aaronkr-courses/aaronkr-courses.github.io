@@ -7,7 +7,6 @@ logo: dju-logo-2.png
 img: assets/img/books/sql-nosql.jpg
 importance: 3
 category: 2025-1
-now: Yes
 
 toc:
   - name: Schedule 강의일정

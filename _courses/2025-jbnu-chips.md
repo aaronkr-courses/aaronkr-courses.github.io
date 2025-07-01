@@ -7,7 +7,6 @@ logo: jbnu-logo-2.png
 img: assets/img/books/semiconductor-devices.jpg
 importance: 1
 category: 2025-1
-now: Yes
 
 toc:
   - name: Schedule 강의일정
