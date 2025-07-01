@@ -1,4 +1,4 @@
-- date: 9/6
+- date: 9/2
   week: 1
   title: >
     <strong>01 프로그램과 C 언어</strong>
@@ -9,7 +9,7 @@
   img: 2024/hb-c/1-c-intro.jpg
   logistics:
 
-- date: 9/13
+- date: 9/9
   week: 2
   title: >
     <strong>02 C 언어로 만드는 첫 번째 프로그램<br>
@@ -21,7 +21,7 @@
   img: 2024/hb-c/2-hello-c.jpg
   logistics:
 
-- date: 9/20
+- date: 9/16
   week: 3
   title: >
     <strong>04 상수와 변수<br>
@@ -33,7 +33,7 @@
   img: 2024/hb-c/3-vars-funcs.jpg
   logistics:
 
-- date: 9/27
+- date: 9/23
   week: 4
   title: >
     <strong>06 표준 출력 함수<br>
@@ -45,7 +45,7 @@
   img: 2024/hb-c/4-print-preprocessor.jpg
   logistics:
 
-- date: 10/4
+- date: 9/30
   week: 5
   title: >
     <strong>08 조건문</strong>
@@ -67,6 +67,8 @@
   slides: "https://docs.google.com/presentation/d/1XXWbXEX3pR4Ngud3HkUIDP81X6TsM6dixpn5Q614xyU/edit?usp=sharing"
   img: 2024/hb-c/6-loops-shifts.jpg
   logistics:
+
+- date: 10/
 
 - date: 10/18
   week: 7

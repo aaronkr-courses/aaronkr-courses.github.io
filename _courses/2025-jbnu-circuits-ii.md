@@ -5,8 +5,9 @@ subtitle: 프로그램 기반 회로 이론 II (AC)
 description: 0000127046 • 2025년 2학기 • 전북대학교
 logo: jbnu-logo-2.png
 img: assets/img/books/electric-circuits.jpg
-importance: 2
-category: 2025-1
+importance: 3
+category: 2025-2
+now: Yes
 
 toc:
   - name: Schedule 강의일정

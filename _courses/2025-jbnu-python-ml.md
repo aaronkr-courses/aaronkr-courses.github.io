@@ -1,12 +1,13 @@
 ---
 layout: distill
-title: Program-Based Circuit Theory I (DC)
-subtitle: 프로그램 기반 회로 이론 I (DC)
-description: 0000127046 • 2025년 1학기 • 전북대학교
+title: Python Machine Learning
+subtitle: 파이썬기반 기계학습
+description: 0000127046 • 2025년 2학기 • 전북대학교
 logo: jbnu-logo-2.png
 img: assets/img/books/electric-circuits.jpg
 importance: 2
-category: 2025-1
+category: 2025-2
+now: Yes
 
 toc:
   - name: Schedule 강의일정
@@ -28,9 +29,9 @@ toc:
 
 information:
   - section: 0000127046
-    time: 월 1-4pm
-    location: 인문대학 2호관 504호
-    kakaotalk: https://open.kakao.com/o/gNhLNgjh
+    time: 월 11-1pm, 수 11-12pm
+    location: 인문대학 2호관 331호
+    kakaotalk:
 
 Main-Text:
   - text: "주교재"
@@ -67,7 +68,7 @@ Supplementary:
 
 ## Schedule 강의일정
 
-{% include_relative 2025/jbnu-circuits/schedule.md %}
+{% include schedule.md data_file="2025_jbnu_python_ml_lectures" %}
 
 <a class="btncv" href="#">Top</a>
 
@@ -99,10 +100,10 @@ McGraw-Hill''s Connect, is also available with Fundamentals of Electric Circuits
 
 ### Grading Curve 성적평가
 
-- 출석 (Attendance): <del>20%</del> **20%**
-- 중간고사 (Midterm): <del>20%</del> **30%**
-- 기말고사 (Final): <del>20%</del> **30%**
-- 과제 (연습문제, 실습코드, 등) (HW): <del>40%</del> **20%**
+- 출석 (Attendance): **20%**
+- 중간고사 (Midterm): **20%**
+- 기말고사 (Final): **20%**
+- 과제 (연습문제, 실습코드, 등) (HW): **40%**
 
 {% include_relative common/policies.md %}
 
