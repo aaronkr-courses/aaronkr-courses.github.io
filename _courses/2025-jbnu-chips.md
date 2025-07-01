@@ -100,10 +100,10 @@ This book discusses the features and applications of the fundamental semiconduct
 
 ### Grading Curve 성적평가
 
-- 출석 (Attendance): **10%** (20)
-- 중간고사 (Midterm): **30%** (20)
-- 기말고사 (Final): **30%** (20)
-- 과제 (연습문제, 실습코드, 등) (HW): **30%** (40)
+- 출석 (Attendance): **20%**
+- 중간고사 (Midterm): **30%**
+- 기말고사 (Final): **30%**
+- 과제 (연습문제, 실습코드, 등) (HW): **20%**
 
 {% include_relative common/policies.md %}
 

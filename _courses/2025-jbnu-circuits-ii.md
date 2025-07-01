@@ -101,9 +101,9 @@ McGraw-Hill''s Connect, is also available with Fundamentals of Electric Circuits
 ### Grading Curve 성적평가
 
 - 출석 (Attendance): **20%**
-- 중간고사 (Midterm): **20%**
-- 기말고사 (Final): **20%**
-- 과제 (연습문제, 실습코드, 등) (HW): **40%**
+- 중간고사 (Midterm): **30%**
+- 기말고사 (Final): **30%**
+- 과제 (연습문제, 실습코드, 등) (HW): **20%**
 
 {% include_relative common/policies.md %}
 
