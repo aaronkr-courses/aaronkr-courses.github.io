@@ -4,7 +4,7 @@ title: Python Machine Learning
 subtitle: 파이썬기반 기계학습
 description: 0000127046 • 2025년 2학기 • 전북대학교
 logo: jbnu-logo-2.png
-img: assets/img/books/electric-circuits.jpg
+img: assets/img/books/practical-dl.jpg
 importance: 2
 category: 2025-2
 now: Yes
@@ -37,33 +37,33 @@ Main-Text:
   - text: "주교재"
     author: "Alexander, Charles K., Matthew N. O. Sadiku"
     title: >
-      <strong>ISE Fundamentals of Electric Circuits</strong>, 7th Edition
-    publisher: McGraw-Hill Education | 2020년 2월 28일"
-    link: "https://www.amazon.com/ISE-Fundamentals-of-Electric-Circuits/dp/1260570797"
+      <strong>Practical Deep Learning</strong>, 2nd Edition: A Python-Based Introduction
+    publisher: No Starch Press (July 8, 2025)"
+    link: "https://www.amazon.com/Practical-Deep-Learning-Ronald-Kneusel/dp/1718504209/"
     code:
     notes:
-    image: books/electric-circuits.jpg
+    image: books/practical-dl.jpg
 
 Supplementary:
   - text: "부교재"
-    author: "O'Malley, John"
+    author: "Andrew Glassner"
     title: >
-      <strong>Schaum's Outline of Basic Circuit Analysis</strong>, 2nd Edition
-    publisher: "McGraw Hill; 2nd edition (February 17, 2011)"
-    link: "https://www.amazon.com/Schaums-Outline-Circuit-Analysis-Outlines/dp/0071756434/"
+      <strong>Deep Learning:</strong> A Visual Approach
+    publisher: "No Starch Press (June 29, 2021)"
+    link: "https://www.amazon.com/Deep-Learning-Approach-Andrew-Glassner/dp/1718500726/"
     code:
     notes:
-    image: books/schaums-circuits.jpg
+    image: books/dl.jpg
 
   - text: "부교재"
-    author: "Flux, Jamie"
+    author: "Ian Goodfellow, Yoshua Bengio, & Aaron Courville"
     title: >
-      <strong>Linear Algebra in Circuit Design: With Python</strong> (Electrical Engineering Essentials with Python)
-    publisher: "Independently published (October 2, 2024)"
-    link: "https://www.amazon.com/Linear-Algebra-Circuit-Design-Engineering/dp/B0DJDF1D63/"
+      <strong>Deep Learning</strong>
+    publisher: "MIT Press (November 18, 2016)"
+    link: "https://www.deeplearningbook.org/"
     code:
     notes:
-    image: books/linear-alg-circuits.jpg
+    image: books/dl-free.jpg
 ---
 
 ## Schedule 강의일정
@@ -74,17 +74,35 @@ Supplementary:
 
 ---
 
+## Instructor 강사소개
+
+{% include aboutAaron.html %}
+
+<a class="btncv" href="#">Top</a>
+
+---
+
 ## Overview 개요
 
-<img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/electric-circuits.jpg" />
+<img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/practical-dl.jpg" />
 
-<strong>ISE Fundamentals of Electric Circuits, 7th Edition</strong> <a href="https://www.amazon.com/ISE-Fundamentals-of-Electric-Circuits/dp/1260570797">Amazon</a>
+<strong>Practical Deep Learning, 2nd Edition</strong> <a href="https://www.amazon.com/Practical-Deep-Learning-Ronald-Kneusel/dp/1718504209/">Amazon</a>
 
-Fundamentals of Electric Circuits continues in the spirit of its successful previous editions, with the objective of presenting circuit analysis in a manner that is clearer, more interesting, and easier to understand than other, more traditional texts. A balance of theory, worked & extended examples, practice problems, and real-world applications, combined with over 580 new or changed homework problems complete this edition.
+**Deep learning made simple.**
 
-Robust media offerings renders this text to be the most comprehensive and student-friendly approach to linear circuit analysis. The seventh edition retains the "Design a Problem" feature which helps students develop their design skills by having the student develop the question, as well as the solution. There are over 100 "Design a Problem" exercises integrated into problem sets in the book.
+Dip into deep learning without drowning in theory with this fully updated edition of _Practical Deep Learning_ from experienced author and AI expert Ronald T. Kneusel.
 
-McGraw-Hill''s Connect, is also available with Fundamentals of Electric Circuits. Connect provides an ebook experience for students and enables professors to assign and assess reading, homework, quizzes, and tests easily and automatically grades and records the scores of the student''s work. Problems are randomized to prevent sharing of answers an may also have a "multi-step solution" which helps move the students'' learning along if they experience difficulty.
+After a brief review of basic math and coding principles, you’ll dive into hands-on experiments and learn to build working models for everything from image analysis to creative writing, and gain a thorough understanding of how each technique works under the hood. Whether you’re a developer looking to add AI to your toolkit or a student seeking practical machine learning skills, this book will teach you:
+
+- How neural networks work and how they’re trained
+- How to use classical machine learning models
+- How to develop a deep learning model from scratch
+- How to evaluate models with industry-standard metrics
+- How to create your own generative AI models
+
+Each chapter emphasizes practical skill development and experimentation, building to a case study that incorporates everything you’ve learned to classify audio recordings. Examples of working code you can easily run and modify are provided, and all code is freely available on GitHub. With _Practical Deep Learning_, second edition, you’ll gain the skills and confidence you need to build real AI systems that solve real problems.
+
+**New to this edition:** Material on computer vision, fine-tuning and transfer learning, localization, self-supervised learning, generative AI for novel image creation, and large language models for in-context learning, semantic search, and retrieval-augmented generation (RAG).
 
 ---
 
@@ -101,18 +119,10 @@ McGraw-Hill''s Connect, is also available with Fundamentals of Electric Circuits
 ### Grading Curve 성적평가
 
 - 출석 (Attendance): **20%**
-- 중간고사 (Midterm): **20%**
-- 기말고사 (Final): **20%**
-- 과제 (연습문제, 실습코드, 등) (HW): **40%**
+- 중간고사 (Midterm): **30%**
+- 기말고사 (Final): **30%**
+- 과제 (연습문제, 실습코드, 등) (HW): **20%**
 
 {% include_relative common/policies.md %}
-
-<a class="btncv" href="#">Top</a>
-
----
-
-## Instructor 강사소개
-
-{% include aboutAaron.html %}
 
 <a class="btncv" href="#">Top</a>
