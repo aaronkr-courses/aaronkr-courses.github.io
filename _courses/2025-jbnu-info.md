@@ -4,7 +4,7 @@ title: Convergence Information Transmission
 subtitle: 융합형 정보전송
 description: 0000127046 • 2025년 2학기 • 전북대학교
 logo: jbnu-logo-2.png
-img: assets/img/books/electric-circuits.jpg
+img: assets/img/books/info-theory-learning.jpg
 importance: 1
 category: 2025-2
 now: Yes
@@ -35,35 +35,35 @@ information:
 
 Main-Text:
   - text: "주교재"
-    author: "Alexander, Charles K., Matthew N. O. Sadiku"
+    author: "MacKay, David J. C."
     title: >
-      <strong>ISE Fundamentals of Electric Circuits</strong>, 7th Edition
-    publisher: McGraw-Hill Education | 2020년 2월 28일"
-    link: "https://www.amazon.com/ISE-Fundamentals-of-Electric-Circuits/dp/1260570797"
+      <strong>Information Theory, Inference and Learning Algorithms</strong>
+    publisher: "Cambridge University Press | 2003년 10월 06일"
+    link: "https://www.amazon.com/Information-Theory-Inference-Learning-Algorithms/dp/0521642981/"
     code:
     notes:
-    image: books/electric-circuits.jpg
+    image: books/info-theory-learning.jpg
 
 Supplementary:
   - text: "부교재"
-    author: "O'Malley, John"
+    author: "Polyanskiy, Yury & Wu, Yihong"
     title: >
-      <strong>Schaum's Outline of Basic Circuit Analysis</strong>, 2nd Edition
-    publisher: "McGraw Hill; 2nd edition (February 17, 2011)"
-    link: "https://www.amazon.com/Schaums-Outline-Circuit-Analysis-Outlines/dp/0071756434/"
+      <strong>Information Theory:</strong> From Coding to Learning
+    publisher: "Cambridge University Press | 2024년 11월 30일"
+    link: "https://www.amazon.com/Information-Theory-Learning-Yury-Polyanskiy/dp/1108832903/"
     code:
     notes:
-    image: books/schaums-circuits.jpg
+    image: books/info-theory-coding.jpg
 
   - text: "부교재"
-    author: "Flux, Jamie"
+    author: "Stone, James V."
     title: >
-      <strong>Linear Algebra in Circuit Design: With Python</strong> (Electrical Engineering Essentials with Python)
-    publisher: "Independently published (October 2, 2024)"
-    link: "https://www.amazon.com/Linear-Algebra-Circuit-Design-Engineering/dp/B0DJDF1D63/"
+      <strong>Information Theory: A Tutorial Introduction</strong>
+    publisher: "Tutorial Introductions | 2015년 02월 01일"
+    link: "https://www.amazon.com/Information-Theory-Tutorial-Introduction-2nd/dp/1739672704/"
     code:
     notes:
-    image: books/linear-alg-circuits.jpg
+    image: books/info-theory-tutorial.jpg
 ---
 
 ## Schedule 강의일정
@@ -74,17 +74,25 @@ Supplementary:
 
 ---
 
+## Instructor 강사소개
+
+{% include aboutAaron.html %}
+
+<a class="btncv" href="#">Top</a>
+
+---
+
 ## Overview 개요
 
-<img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/electric-circuits.jpg" />
+<img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/info-theory-learning.jpg" />
 
-<strong>ISE Fundamentals of Electric Circuits, 7th Edition</strong> <a href="https://www.amazon.com/ISE-Fundamentals-of-Electric-Circuits/dp/1260570797">Amazon</a>
+<strong>Information Theory, Inference and Learning Algorithms</strong> <a href="https://www.amazon.com/Information-Theory-Inference-Learning-Algorithms/dp/0521642981/">Amazon</a>
 
-Fundamentals of Electric Circuits continues in the spirit of its successful previous editions, with the objective of presenting circuit analysis in a manner that is clearer, more interesting, and easier to understand than other, more traditional texts. A balance of theory, worked & extended examples, practice problems, and real-world applications, combined with over 580 new or changed homework problems complete this edition.
+Information theory and inference, often taught separately, are here united in one entertaining textbook. These topics lie at the heart of many exciting areas of contemporary science and engineering - communication, signal processing, data mining, machine learning, pattern recognition, computational neuroscience, bioinformatics, and cryptography.
 
-Robust media offerings renders this text to be the most comprehensive and student-friendly approach to linear circuit analysis. The seventh edition retains the "Design a Problem" feature which helps students develop their design skills by having the student develop the question, as well as the solution. There are over 100 "Design a Problem" exercises integrated into problem sets in the book.
+This textbook introduces theory in tandem with applications. Information theory is taught alongside practical communication systems, such as arithmetic coding for data compression and sparse-graph codes for error-correction. A toolbox of inference techniques, including message-passing algorithms, Monte Carlo methods, and variational approximations, are developed alongside applications of these tools to clustering, convolutional codes, independent component analysis, and neural networks. The final part of the book describes the state of the art in error-correcting codes, including low-density parity-check codes, turbo codes, and digital fountain codes -- the twenty-first century standards for satellite communications, disk drives, and data broadcast.
 
-McGraw-Hill''s Connect, is also available with Fundamentals of Electric Circuits. Connect provides an ebook experience for students and enables professors to assign and assess reading, homework, quizzes, and tests easily and automatically grades and records the scores of the student''s work. Problems are randomized to prevent sharing of answers an may also have a "multi-step solution" which helps move the students'' learning along if they experience difficulty.
+Richly illustrated, filled with worked examples and over 400 exercises, some with detailed solutions, David MacKay's groundbreaking book is ideal for self-learning and for undergraduate or graduate courses. Interludes on crosswords, evolution, and sex provide entertainment along the way. In sum, this is a textbook on information, communication, and coding for a new generation of students, and an unparalleled entry point into these subjects for professionals in areas as diverse as computational biology, financial engineering, and machine learning.
 
 ---
 
@@ -101,18 +109,10 @@ McGraw-Hill''s Connect, is also available with Fundamentals of Electric Circuits
 ### Grading Curve 성적평가
 
 - 출석 (Attendance): **20%**
-- 중간고사 (Midterm): **20%**
-- 기말고사 (Final): **20%**
-- 과제 (연습문제, 실습코드, 등) (HW): **40%**
+- 중간고사 (Midterm): **30%**
+- 기말고사 (Final): **30%**
+- 과제 (연습문제, 실습코드, 등) (HW): **20%**
 
 {% include_relative common/policies.md %}
-
-<a class="btncv" href="#">Top</a>
-
----
-
-## Instructor 강사소개
-
-{% include aboutAaron.html %}
 
 <a class="btncv" href="#">Top</a>
