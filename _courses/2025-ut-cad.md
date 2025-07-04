@@ -5,7 +5,7 @@ subtitle: 의료영상진단
 description: BIO030 • 2025년 2학기 • 교통대학교
 logo: ut-logo.png
 img: assets/img/books/medical-dl-old.jpg
-importance: 6
+importance: 7
 category: 2025-2
 now: Yes
 
