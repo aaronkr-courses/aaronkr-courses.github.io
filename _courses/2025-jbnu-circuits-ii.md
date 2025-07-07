@@ -62,6 +62,10 @@ Supplementary:
     image: books/linear-alg-circuits.jpg
 ---
 
+#### Grading 평가방법
+
+| 출석 (Att): <strong style="color: #9b65ff;">20%</strong> | 중간고사 (Midterm): <strong style="color: #9b65ff;">30%</strong> | 기말고사 (Final): <strong style="color: #9b65ff;">30%</strong> | 과제 (HW): <strong style="color: #9b65ff;">20%</strong> |
+
 ## Schedule 강의일정
 
 {% include schedule.md data_file="2025_jbnu_circuits_ii_lectures" %}

@@ -52,6 +52,10 @@ Supplementary:
     image: books/medical-img-analysis.jpg
 ---
 
+#### Grading 평가방법
+
+| 출석 (Att): <strong style="color: #9b65ff;">10%</strong> | 중간고사 (Midterm): <strong style="color: #9b65ff;">30%</strong> | 기말고사 (Final): <strong style="color: #9b65ff;">30%</strong> | 과제 (HW): <strong style="color: #9b65ff;">30%</strong> |
+
 ## Schedule 강의일정
 
 {% include schedule.md data_file="2025_ut_cad_lectures" %}

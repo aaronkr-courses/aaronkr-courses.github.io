@@ -62,7 +62,9 @@ Supplementary:
     image: books/dl-free.jpg
 ---
 
-| 출석 (Att): **20%** | 중간고사 (Midterm): **30%** | 기말고사 (Final): **30%** | 과제 (HW): **20%** |
+#### Grading 평가방법
+
+| 출석 (Att): <strong style="color: #9b65ff;">20%</strong> | 중간고사 (Midterm): <strong style="color: #9b65ff;">30%</strong> | 기말고사 (Final): <strong style="color: #9b65ff;">30%</strong> | 과제 (HW): <strong style="color: #9b65ff;">20%</strong> |
 
 ## Schedule 강의일정
 
