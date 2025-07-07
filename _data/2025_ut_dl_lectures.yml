@@ -1,7 +1,8 @@
 - date: 9/4
   week: 1
   title: >
-    <strong>Introduction</strong>
+    <strong>Introduction</strong><br>
+    1장. 머신러닝 개요
   supp:
   readings:
   hw:
@@ -12,7 +13,9 @@
 
 - date: 9/11
   week: 2
-  title:
+  title: >
+    2장. 필수 통계<br>
+    3장. 성능 측정
   supp:
   readings:
   hw:
@@ -23,7 +26,9 @@
 
 - date: 9/18
   week: 3
-  title:
+  title: >
+    4장. 베이즈 규칙<br>
+    5장. 곡선과 표면
   supp:
   readings:
   hw:
@@ -34,7 +39,9 @@
 
 - date: 9/25
   week: 4
-  title:
+  title: >
+    6장. 정보 이론<br>
+    7장. 분류
   supp:
   readings:
   hw:
@@ -45,7 +52,9 @@
 
 - date: 10/1
   week: 5
-  title:
+  title: >
+    8장. 훈련과 테스팅<br>
+    9장. 과적합과 과소적합
   supp:
   readings:
   hw:
@@ -61,7 +70,9 @@
 
 - date: 10/16
   week: 7
-  title:
+  title: >
+    10장. 데이터 준비<br>
+    11장. 분류기
   supp:
   readings:
   hw:
@@ -81,7 +92,9 @@
 
 - date: 10/30
   week: 9
-  title:
+  title: >
+    12장. 앙상블<br>
+    13장. 신경망
   supp:
   readings:
   hw:
@@ -92,7 +105,9 @@
 
 - date: 11/6
   week: 10
-  title:
+  title: >
+    14장. 역전파<br>
+    15장. 옵티마이저
   supp:
   readings:
   hw:
@@ -103,7 +118,9 @@
 
 - date: 11/13
   week: 11
-  title:
+  title: >
+    16장. 컨볼루션 신경망<br>
+    17장. 실제 컨볼루션 신경망
   supp:
   readings:
   hw:
@@ -114,7 +131,9 @@
 
 - date: 11/20
   week: 12
-  title:
+  title: >
+    18장. 오토인코더<br>
+    19장. 순환 신경망
   supp:
   readings:
   hw:
@@ -125,7 +144,9 @@
 
 - date: 11/27
   week: 13
-  title:
+  title: >
+    20장. 어텐션과 트랜스포머<br>
+    21장. 강화학습
   supp:
   readings:
   hw:
@@ -136,7 +157,9 @@
 
 - date: 12/4
   week: 14
-  title:
+  title: >
+    22장. 생성적 적대 신경망<br>
+    23장. 창의적인 애플리케이션
   supp:
   readings:
   hw:
@@ -147,7 +170,8 @@
 
 - date: 12/11
   week: 15
-  title:
+  title: >
+    기말 프로젝트 (TBD)
   supp:
   readings:
   hw:

@@ -12,7 +12,9 @@
 
 - date: 9/8
   week: 2
-  title:
+  title: >
+    Class Overview, HW submission, and Git Basics<br>
+    Chapter 0. Environment and Mathematical Preliminaries
   supp:
   readings:
   hw:
@@ -23,7 +25,10 @@
 
 - date: 9/15
   week: 3
-  title:
+  title: >
+    <strong>Part I: Data is Everything</strong><br>
+    Chapter 1. It's all about the Data<br>
+    Chapter 2. Building the Datasets
   supp:
   readings:
   hw:
@@ -34,7 +39,10 @@
 
 - date: 9/22
   week: 4
-  title:
+  title: >
+    <strong>Part II: Classical Machine Learning</strong><br>
+    Chapter 3. Introduction to Machine Learning<br>
+    Chapter 4. Experiments with Classical Models
   supp:
   readings:
   hw:
@@ -45,7 +53,10 @@
 
 - date: 9/29
   week: 5
-  title:
+  title: >
+    <strong>Part III: Neural Networks</strong><br>
+    Chapter 5. Introduction to Neural Networks<br>
+    Chapter 6. Training a Neural Network
   supp:
   readings:
   hw:
@@ -61,7 +72,10 @@
 
 - date: 10/13
   week: 7
-  title:
+  title: >
+    <strong>Part III: Neural Networks</strong><br>
+    Chapter 7. Experiments with Neural Networks<br>
+    Chapter 8. Evaluating Models
   supp:
   readings:
   hw:
@@ -81,7 +95,10 @@
 
 - date: 10/27
   week: 9
-  title:
+  title: >
+    <strong>Part IV: Convolutional Neural Networks</strong><br>
+    Chapter 9. Introduction to Convolutional Neural Networks<br>
+    Chapter 10. Experiments with Keras and MNIST
   supp:
   readings:
   hw:
@@ -92,7 +109,10 @@
 
 - date: 11/3
   week: 10
-  title:
+  title: >
+    <strong>Part IV: Convolutional Neural Networks</strong><br>
+    Chapter 11. Experiments with CIFAR-10<br>
+    Chapter 12. A Case Study: Classifying Audio Samples
   supp:
   readings:
   hw:
@@ -103,7 +123,10 @@
 
 - date: 11/10
   week: 11
-  title:
+  title: >
+    <strong>Part V: Advanced Networks and Generative AI</strong><br>
+    Chapter 13. Advanced CNN Architectures<br>
+    Chapter 14. Fine-Tuning and Transfer Learning
   supp:
   readings:
   hw:
@@ -114,7 +137,9 @@
 
 - date: 11/17
   week: 12
-  title:
+  title: >
+    <strong>Part V: Advanced Networks and Generative AI</strong><br>
+    Chapter 15. From Classification to Localization
   supp:
   readings:
   hw:
@@ -125,7 +150,9 @@
 
 - date: 11/24
   week: 13
-  title:
+  title: >
+    <strong>Part V: Advanced Networks and Generative AI</strong><br>
+    Chapter 16. Self-Supervised Learning
   supp:
   readings:
   hw:
@@ -136,7 +163,9 @@
 
 - date: 12/1
   week: 14
-  title:
+  title: >
+    <strong>Part V: Advanced Networks and Generative AI</strong><br>
+    Chapter 17. Generative Adversarial Networks (GANs)
   supp:
   readings:
   hw:
@@ -147,7 +176,9 @@
 
 - date: 12/8
   week: 15
-  title:
+  title: >
+    <strong>Part V: Advanced Networks and Generative AI</strong><br>
+    Chapter 18. Large Language Models (LLMs) and Transformers
   supp:
   readings:
   hw:

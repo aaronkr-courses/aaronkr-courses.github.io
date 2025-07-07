@@ -12,7 +12,8 @@
 
 - date: 9/8
   week: 2
-  title:
+  title: >
+    Chapter 9. Sinusoids and Phasors
   supp:
   readings:
   hw:
@@ -23,7 +24,8 @@
 
 - date: 9/15
   week: 3
-  title:
+  title: >
+    Chapter 10. Sinusoidal Steady-State Analysis
   supp:
   readings:
   hw:
@@ -34,7 +36,8 @@
 
 - date: 9/22
   week: 4
-  title:
+  title: >
+    Chapter 11. AC Power Analysis
   supp:
   readings:
   hw:
@@ -45,7 +48,8 @@
 
 - date: 9/29
   week: 5
-  title:
+  title: >
+    Chapter 12. Three-Phase Circuits
   supp:
   readings:
   hw:
@@ -61,7 +65,8 @@
 
 - date: 10/13
   week: 7
-  title:
+  title: >
+    Chapter 13. Magnetically Coupled Circuits
   supp:
   readings:
   hw:
@@ -81,7 +86,8 @@
 
 - date: 10/27
   week: 9
-  title:
+  title: >
+    Chapter 14. Frequency Response
   supp:
   readings:
   hw:
@@ -92,7 +98,8 @@
 
 - date: 11/3
   week: 10
-  title:
+  title: >
+    Chapter 15. Introduction to the Laplace Transform
   supp:
   readings:
   hw:
@@ -103,7 +110,8 @@
 
 - date: 11/10
   week: 11
-  title:
+  title: >
+    Chapter 16. Applications of the Laplace Transform
   supp:
   readings:
   hw:
@@ -114,7 +122,8 @@
 
 - date: 11/17
   week: 12
-  title:
+  title: >
+    Chapter 17. The Fourier Series
   supp:
   readings:
   hw:
@@ -125,7 +134,8 @@
 
 - date: 11/24
   week: 13
-  title:
+  title: >
+    Chapter 18. Fourier Transform
   supp:
   readings:
   hw:
@@ -136,7 +146,8 @@
 
 - date: 12/1
   week: 14
-  title:
+  title: >
+    Chapter 19. Two-Port Networks
   supp:
   readings:
   hw:
@@ -147,7 +158,8 @@
 
 - date: 12/8
   week: 15
-  title:
+  title: >
+    TBD
   supp:
   readings:
   hw:

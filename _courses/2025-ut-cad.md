@@ -11,21 +11,17 @@ now: Yes
 
 toc:
   - name: Schedule 강의일정
-  - name: Overview 개요
+  - name: Instructor 강사소개
   - name: Textbook 교재
+  - name: Overview 개요
+  - name: Resources 자료실
   - name: Logistics 수업운영
     subsections:
-      # if a section has subsections, you can add them as follows:
-      # subsections:
-      #   - name: Example Child Subsection 1
-      #   - name: Example Child Subsection 2
       - name: Grading 평가방법
       - name: Assignments 과제
       - name: Midterm 중간고사
       - name: Final 기말고사
       - name: Project 프로젝트
-  - name: Resources 자료실
-  - name: Instructor 강사소개
 
 information:
   - section: BIO030
@@ -72,6 +68,14 @@ Supplementary:
 
 ---
 
+## Textbook 교재
+
+{% include textbooks.html %}
+
+<a class="btncv" href="#">Top</a>
+
+---
+
 ## Overview 개요
 
 <img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/medical-dl.jpg" />
@@ -89,14 +93,6 @@ Deep Learning for Medical Image Analysis, Second Edition is a great learning res
 - 일반적인 의료 영상 분석 연구 문제와 그 과제
 - 의료 영상 분석을 위한 접근 방식에 대한 최신 딥 러닝 방법과 이론
 - 심장, 신경 및 기능, 대장 내시경, OCTA 응용 프로그램 및 모델 평가를 포함한 광범위한 응용 분야에 알고리즘이 어떻게 적용되는지 설명합니다.
-
----
-
-## Textbook 교재
-
-{% include textbooks.html %}
-
-<a class="btncv" href="#">Top</a>
 
 ---
 

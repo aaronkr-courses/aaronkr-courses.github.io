@@ -38,13 +38,13 @@
   <tr class="{{ event_type }}">
     <th scope="row">{{ lecture.date }}</th>
     {% if lecture.title contains 'Test' or lecture.title contains 'No Class' or forloop.last %}
-    {% assign skip_classes = skip_classes | plus: 1 %}
+    {% assign skip_classes = skip_classes | plus: 0 %}
     <td colspan="4" style="text-align: center; background: rgba(255, 255, 255, 0.075)">
         {{ lecture.title }}
     </td>
     {% else %}
     <td>
-        {% if lecture.img %}
+        {% if lecture.slides and lecture.img %}
         <a href="{{ lecture.slides }}" target="_blank">
             <img src="{{ lecture.img | prepend: '/assets/img/' | relative_link }}" alt="slide thumbnail" style="max-width: 200px;" />
         </a>

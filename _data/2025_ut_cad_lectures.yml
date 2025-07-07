@@ -12,7 +12,9 @@
 
 - date: 9/11
   week: 2
-  title:
+  title: >
+    Chapter 1. An introduction to neural networks and deep learning<br>
+    (1장. 신경망과 딥러닝 소개)
   supp:
   readings:
   hw:
@@ -23,7 +25,9 @@
 
 - date: 9/18
   week: 3
-  title:
+  title: >
+    Chapter 2. Deep reinforcement learning in medical imaging<br>
+    (2장. 의료 영상에서의 딥 강화학습)
   supp:
   readings:
   hw:
@@ -34,7 +38,11 @@
 
 - date: 9/25
   week: 4
-  title:
+  title: >
+    Chapter 3. CapsNet for medical image segmentation<br>
+    (3장. 의료 영상 분할을 위한 CapsNet)<br>
+    Chapter 4. Transformer for medical image analysis<br>
+    (4장. 의료 영상 분석을 위한 트랜스포머)
   supp:
   readings:
   hw:
@@ -45,7 +53,11 @@
 
 - date: 10/1
   week: 5
-  title:
+  title: >
+    Chapter 5. An overview of disentangled representation learning for MR image harmonization<br>
+    (5장. MR 영상 조화를 위한 분리된 표현 학습 개요)<br>
+    Chapter 6. Hyper-graph learning and its applications for medical image analysis<br>
+    (6장. 의료 영상 분석을 위한 하이퍼 그래프 학습과 그 응용)
   supp:
   readings:
   hw:
@@ -61,7 +73,11 @@
 
 - date: 10/16
   week: 7
-  title:
+  title: >
+    Chapter 7. Unsupervised domain adaptation for medical image analysis<br>
+    (7장. 의료 영상 분석을 위한 비지도 도메인 적응)<br>
+    Chapter 8. Medical image synthesis and reconstruction using generative adversarial networks<br>
+    (8장. 생성적 적대 신경망을 이용한 의료 영상 합성 및 재구성)
   supp:
   readings:
   hw:
@@ -81,7 +97,11 @@
 
 - date: 10/30
   week: 9
-  title:
+  title: >
+    Chapter 9. Deep learning for medical image reconstruction<br>
+    (9장. 의료 영상 재구성을 위한 딥러닝)<br>
+    Chapter 10. Dynamic inference using neural architecture search in medical image segmentation<br>
+    (10장. 의료 영상 분할에서 신경망 구조 검색을 이용한 동적 추론)
   supp:
   readings:
   hw:
@@ -92,7 +112,11 @@
 
 - date: 11/6
   week: 10
-  title:
+  title: >
+    Chapter 11. Multi-modality cardiac image analysis with deep learning<br>
+    (11장. 딥러닝을 이용한 다중 모달리티 심장 영상 분석)<br>
+    Chapter 12. Deep learning-based medical image registration<br>
+    (12장. 딥러닝 기반 의료 영상 등록)
   supp:
   readings:
   hw:
@@ -103,7 +127,9 @@
 
 - date: 11/13
   week: 11
-  title:
+  title: >
+    Chapter 13. Data-driven learning strategies for biomarker detection and outcome prediction in Autism from task-based fMRI<br>
+    (13장. 작업 기반 fMRI에서 자폐증의 바이오마커 탐지 및 결과 예측을 위한 데이터 기반 학습 전략)
   supp:
   readings:
   hw:
@@ -114,7 +140,9 @@
 
 - date: 11/20
   week: 12
-  title:
+  title: >
+    Chapter 14. Deep learning in functional brain mapping and associated applications<br>
+    (14장. 기능적 뇌 매핑 및 관련 응용에서의 딥러닝)
   supp:
   readings:
   hw:
@@ -125,7 +153,9 @@
 
 - date: 11/27
   week: 13
-  title:
+  title: >
+    Chapter 15. Detecting, localizing, and classifying polyps from colonoscopy videos using deep learning<br>
+    (15장. 대장내시경 비디오에서 딥러닝을 이용한 폴립 탐지, 위치 파악 및 분류)
   supp:
   readings:
   hw:
@@ -136,7 +166,9 @@
 
 - date: 12/4
   week: 14
-  title:
+  title: >
+    Chapter 16. OCTA segmentation with limited training data using disentangled representation learning<br>
+    (16장. 분리된 표현 학습을 이용한 제한된 훈련 데이터를 가진 OCTA 분할)<br>
   supp:
   readings:
   hw:
@@ -147,7 +179,9 @@
 
 - date: 12/11
   week: 15
-  title:
+  title: >
+    Chapter 17. Considerations in the assessment of machine learning algorithm performance for medical imaging<br>
+    (17장. 의료 영상에서 기계 학습 알고리즘 성능 평가 시 고려사항)
   supp:
   readings:
   hw:

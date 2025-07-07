@@ -11,21 +11,17 @@ now: Yes
 
 toc:
   - name: Schedule 강의일정
-  - name: Overview 개요
+  - name: Instructor 강사소개
   - name: Textbook 교재
+  - name: Overview 개요
+  - name: Resources 자료실
   - name: Logistics 수업운영
     subsections:
-      # if a section has subsections, you can add them as follows:
-      # subsections:
-      #   - name: Example Child Subsection 1
-      #   - name: Example Child Subsection 2
       - name: Grading 평가방법
       - name: Assignments 과제
       - name: Midterm 중간고사
       - name: Final 기말고사
       - name: Project 프로젝트
-  - name: Resources 자료실
-  - name: Instructor 강사소개
 
 information:
   - section: 0000127046
@@ -66,6 +62,8 @@ Supplementary:
     image: books/dl-free.jpg
 ---
 
+| 출석 (Att): **20%** | 중간고사 (Midterm): **30%** | 기말고사 (Final): **30%** | 과제 (HW): **20%** |
+
 ## Schedule 강의일정
 
 {% include schedule.md data_file="2025_jbnu_python_ml_lectures" %}
@@ -77,6 +75,14 @@ Supplementary:
 ## Instructor 강사소개
 
 {% include aboutAaron.html %}
+
+<a class="btncv" href="#">Top</a>
+
+---
+
+## Textbook 교재
+
+{% include textbooks.html %}
 
 <a class="btncv" href="#">Top</a>
 
@@ -103,14 +109,6 @@ After a brief review of basic math and coding principles, you’ll dive into han
 Each chapter emphasizes practical skill development and experimentation, building to a case study that incorporates everything you’ve learned to classify audio recordings. Examples of working code you can easily run and modify are provided, and all code is freely available on GitHub. With _Practical Deep Learning_, second edition, you’ll gain the skills and confidence you need to build real AI systems that solve real problems.
 
 **New to this edition:** Material on computer vision, fine-tuning and transfer learning, localization, self-supervised learning, generative AI for novel image creation, and large language models for in-context learning, semantic search, and retrieval-augmented generation (RAG).
-
----
-
-## Textbook 교재
-
-{% include textbooks.html %}
-
-<a class="btncv" href="#">Top</a>
 
 ---
 

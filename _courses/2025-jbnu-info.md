@@ -11,21 +11,17 @@ now: Yes
 
 toc:
   - name: Schedule 강의일정
-  - name: Overview 개요
+  - name: Instructor 강사소개
   - name: Textbook 교재
+  - name: Overview 개요
+  - name: Resources 자료실
   - name: Logistics 수업운영
     subsections:
-      # if a section has subsections, you can add them as follows:
-      # subsections:
-      #   - name: Example Child Subsection 1
-      #   - name: Example Child Subsection 2
       - name: Grading 평가방법
       - name: Assignments 과제
       - name: Midterm 중간고사
       - name: Final 기말고사
       - name: Project 프로젝트
-  - name: Resources 자료실
-  - name: Instructor 강사소개
 
 information:
   - section: 0000127046
@@ -82,6 +78,14 @@ Supplementary:
 
 ---
 
+## Textbook 교재
+
+{% include textbooks.html %}
+
+<a class="btncv" href="#">Top</a>
+
+---
+
 ## Overview 개요
 
 <img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/info-theory-learning.jpg" />
@@ -93,14 +97,6 @@ Information theory and inference, often taught separately, are here united in on
 This textbook introduces theory in tandem with applications. Information theory is taught alongside practical communication systems, such as arithmetic coding for data compression and sparse-graph codes for error-correction. A toolbox of inference techniques, including message-passing algorithms, Monte Carlo methods, and variational approximations, are developed alongside applications of these tools to clustering, convolutional codes, independent component analysis, and neural networks. The final part of the book describes the state of the art in error-correcting codes, including low-density parity-check codes, turbo codes, and digital fountain codes -- the twenty-first century standards for satellite communications, disk drives, and data broadcast.
 
 Richly illustrated, filled with worked examples and over 400 exercises, some with detailed solutions, David MacKay's groundbreaking book is ideal for self-learning and for undergraduate or graduate courses. Interludes on crosswords, evolution, and sex provide entertainment along the way. In sum, this is a textbook on information, communication, and coding for a new generation of students, and an unparalleled entry point into these subjects for professionals in areas as diverse as computational biology, financial engineering, and machine learning.
-
----
-
-## Textbook 교재
-
-{% include textbooks.html %}
-
-<a class="btncv" href="#">Top</a>
 
 ---
 
