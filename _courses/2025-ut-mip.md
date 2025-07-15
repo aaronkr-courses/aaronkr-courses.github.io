@@ -58,7 +58,7 @@ Supplementary:
 
 ## Schedule 강의일정
 
-{% include schedule.md data_file="2025/2025_ut_mip_lectures" %}
+{% include schedule.md data_file="2025_ut_mip_lectures" %}
 
 <a class="btncv" href="#">Top</a>
 
