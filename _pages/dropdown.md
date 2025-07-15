@@ -20,8 +20,8 @@ children:
   - title: divider
   - title: UT-DL
     permalink: /courses/2025-ut-dl/
-  - title: UT-CAD
-    permalink: /courses/2025-ut-cad/
+  - title: UT-MIP
+    permalink: /courses/2025-ut-mip/
   - title: divider
   - title: Archives
     permalink: /courses/

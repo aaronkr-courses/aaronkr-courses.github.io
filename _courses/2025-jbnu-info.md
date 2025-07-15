@@ -2,7 +2,7 @@
 layout: distill
 title: Convergence Information Transmission
 subtitle: 융합형 정보전송
-description: 0000127046 • 2025년 2학기 • 전북대학교
+description: 0000130650 • 2025년 2학기 • 전북대학교
 logo: jbnu-logo-2.png
 img: assets/img/books/info-theory-learning.jpg
 importance: 1
@@ -24,7 +24,7 @@ toc:
       - name: Project 프로젝트
 
 information:
-  - section: 0000127046
+  - section: 0000130650
     time: 월 9-11am, 수 9-10am
     location: 인문대학 2호관 331호
     kakaotalk:
@@ -35,7 +35,7 @@ Main-Text:
     title: >
       <strong>Information Theory, Inference and Learning Algorithms</strong>
     publisher: "Cambridge University Press | 2003년 10월 06일"
-    link: "https://www.amazon.com/Information-Theory-Inference-Learning-Algorithms/dp/0521642981/"
+    link: "https://www.inference.org.uk/mackay/itila/book.html"
     code:
     notes:
     image: books/info-theory-learning.jpg
@@ -46,7 +46,7 @@ Supplementary:
     title: >
       <strong>Information Theory:</strong> From Coding to Learning
     publisher: "Cambridge University Press | 2024년 11월 30일"
-    link: "https://www.amazon.com/Information-Theory-Learning-Yury-Polyanskiy/dp/1108832903/"
+    link: "https://people.lids.mit.edu/yp/homepage/data/itbook-export.pdf"
     code:
     notes:
     image: books/info-theory-coding.jpg
@@ -94,7 +94,7 @@ Supplementary:
 
 <img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/info-theory-learning.jpg" />
 
-<strong>Information Theory, Inference and Learning Algorithms</strong> <a href="https://www.amazon.com/Information-Theory-Inference-Learning-Algorithms/dp/0521642981/">Amazon</a>
+<strong>Information Theory, Inference and Learning Algorithms</strong> <a href="https://www.inference.org.uk/mackay/itila/book.html">Inference.org.uk (Free)</a>
 
 Information theory and inference, often taught separately, are here united in one entertaining textbook. These topics lie at the heart of many exciting areas of contemporary science and engineering - communication, signal processing, data mining, machine learning, pattern recognition, computational neuroscience, bioinformatics, and cryptography.
 

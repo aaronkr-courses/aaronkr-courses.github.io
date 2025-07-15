@@ -2,7 +2,7 @@
 layout: distill
 title: Python Machine Learning
 subtitle: 파이썬기반 기계학습
-description: 0000127046 • 2025년 2학기 • 전북대학교
+description: 0000127050 • 2025년 2학기 • 전북대학교
 logo: jbnu-logo-2.png
 img: assets/img/books/practical-dl.jpg
 importance: 2
@@ -24,14 +24,14 @@ toc:
       - name: Project 프로젝트
 
 information:
-  - section: 0000127046
+  - section: 0000127050
     time: 월 11-1pm, 수 11-12pm
     location: 인문대학 2호관 331호
     kakaotalk:
 
 Main-Text:
   - text: "주교재"
-    author: "Alexander, Charles K., Matthew N. O. Sadiku"
+    author: "Ronald T. Kneusel"
     title: >
       <strong>Practical Deep Learning</strong>, 2nd Edition: A Python-Based Introduction
     publisher: No Starch Press (July 8, 2025)"

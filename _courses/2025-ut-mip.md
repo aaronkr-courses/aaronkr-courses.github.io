@@ -1,8 +1,8 @@
 ---
 layout: distill
-title: Computer-Aided Diagnosis
-subtitle: 의료영상진단
-description: BIO030 • 2025년 2학기 • 교통대학교
+title: Medical Image Processing
+subtitle: 의료영상처리
+description: AI0043(1) • 2025년 2학기 • 교통대학교
 logo: ut-logo.png
 img: assets/img/books/medical-dl-old.jpg
 importance: 7
@@ -24,9 +24,9 @@ toc:
       - name: Project 프로젝트
 
 information:
-  - section: BIO030
+  - section: AI0043(1)
     time: 목 1-4pm
-    location:
+    location: W18동 113호
     kakaotalk:
 
 Main-Text:
@@ -58,7 +58,7 @@ Supplementary:
 
 ## Schedule 강의일정
 
-{% include schedule.md data_file="2025_ut_cad_lectures" %}
+{% include schedule.md data_file="2025/2025_ut_mip_lectures" %}
 
 <a class="btncv" href="#">Top</a>
 

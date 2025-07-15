@@ -2,7 +2,7 @@
 layout: distill
 title: Program-Based Circuit Theory II (AC)
 subtitle: 프로그램 기반 회로 이론 II (AC)
-description: 0000127046 • 2025년 2학기 • 전북대학교
+description: 0000127048 • 2025년 2학기 • 전북대학교
 logo: jbnu-logo-2.png
 img: assets/img/books/electric-circuits.jpg
 importance: 3
@@ -24,7 +24,7 @@ toc:
       - name: Project 프로젝트
 
 information:
-  - section: 0000127046
+  - section: 0000127048
     time: 월 2-4pm, 수 2-3pm
     location: 인문대학 2호관 505호
     kakaotalk:
