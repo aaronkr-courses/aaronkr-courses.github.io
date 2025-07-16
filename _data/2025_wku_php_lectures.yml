@@ -1,0 +1,183 @@
+- date: 9/3
+  week: 1
+  title: >
+    <strong>교과목소개 및 오리엔테이션 (개발 환경 설정 소개, 과제물 제출 방법)</strong>
+  supp:
+  readings:
+  hw:
+  slides:
+  slides2:
+  img: 2025/wgu-php/
+  logistics:
+
+- date: 9/10
+  week: 2
+  title: >
+    1장 변수, 표현식 그리고 연산자
+    2장 제어 구조
+  supp:
+  readings:
+  hw:
+  slides:
+  slides2:
+  img:
+  logistics:
+
+- date: 9/17
+  week: 3
+  title: >
+    3장 함수
+    4장 객체 & 클래스
+  supp:
+  readings:
+  hw:
+  slides:
+  slides2:
+  img:
+  logistics:
+
+- date: 9/24
+  week: 4
+  title: >
+    5장 내장 함수
+  supp:
+  readings:
+  hw:
+  slides:
+  slides2:
+  img:
+  logistics:
+
+- date: 10/1
+  week: 5
+  title: >
+    6장 브라우저로부터 데이터 가져오기
+  supp:
+  readings:
+  hw:
+  slides:
+  slides2:
+  img:
+  logistics:
+
+- date: 10/8
+  week: 6
+  title: >
+    <span style="color: red"><strong>No Class</strong> Chuseok!~</span>
+
+- date: 10/15
+  week: 7
+  title: >
+    7장 이미지 & 파일
+    8장 날짜 & 시간
+  supp:
+  readings:
+  hw:
+  slides:
+  slides2:
+  img:
+  logistics:
+
+- date: 10/22
+  week: 8
+  title: >
+    <strong>Midterm Test</strong>
+    <div style="display: none;">
+      <br><a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
+      <br><a href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
+    </div>
+
+- date: 10/29
+  week: 9
+  title: >
+    9장 쿠키 & 세션
+    10장 오류 처리
+  supp:
+  readings:
+  hw:
+  slides:
+  slides2:
+  img:
+  logistics:
+
+- date: 11/5
+  week: 10
+  title: >
+    11장 구조화된 쿼리 언어
+  supp:
+  readings:
+  hw:
+  slides:
+  slides2:
+  img:
+  logistics:
+
+- date: 11/12
+  week: 11
+  title: >
+    12장 데이터베이스에서 데이터 가져오기 & 표시하기
+  supp:
+  readings:
+  hw:
+  slides:
+  slides2:
+  img:
+  logistics:
+
+- date: 11/19
+  week: 12
+  title: >
+    13장 데이터베이스의 데이터 업데이트하기
+  supp:
+  readings:
+  hw:
+  slides:
+  slides2:
+  img:
+  logistics:
+
+- date: 11/26
+  week: 13
+  title: >
+    14장 리팩터링 & 종속성 주입
+  supp:
+  readings:
+  hw:
+  slides:
+  slides2:
+  img:
+  logistics:
+
+- date: 12/3
+  week: 14
+  title: >
+    15장 네임스페이스 & 라이브러리
+  supp:
+  readings:
+  hw:
+  slides:
+  slides2:
+  img:
+  logistics:
+
+- date: 12/10
+  week: 15
+  title: >
+    16장 멤버십
+    17장 기능 추가하기
+  supp:
+  readings:
+  hw:
+  slides:
+  slides2:
+  img:
+  logistics:
+
+- date: 12/17
+  week: 16
+  title: >
+    <strong>Final Test</strong>
+    <div style="display: none;">
+      <br><a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
+      <br><a href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
+    </div>

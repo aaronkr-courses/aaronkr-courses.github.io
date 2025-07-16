@@ -18,6 +18,9 @@ children:
   - title: HB-C
     permalink: /courses/2025-hb-c/
   - title: divider
+  - title: WKU-PHP
+    permalink: /courses/2025-wku-php/
+  - title: divider
   - title: UT-DL
     permalink: /courses/2025-ut-dl/
   - title: UT-MIP
