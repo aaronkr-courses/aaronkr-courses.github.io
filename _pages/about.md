@@ -19,8 +19,8 @@ subtitle: >
   <a href='https://www.jnue.kr'>전주교육대학교</a>
   &nbsp;&bull;&nbsp;
   <div style="display: none;">
-  <a href='https://portal.dju.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 2px;" src="/assets/img/dju-logo-2.png" /></a>
-  <a href='https://www.dju.ac.kr'>대전대학교</a>
+    <a href='https://portal.dju.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 2px;" src="/assets/img/dju-logo-2.png" /></a>
+    <a href='https://www.dju.ac.kr'>대전대학교</a>
   </div>
 
 profile:
