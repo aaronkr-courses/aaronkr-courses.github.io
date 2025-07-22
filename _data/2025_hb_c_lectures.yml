@@ -3,7 +3,7 @@
   title: >
     <strong>01 프로그램과 C 언어</strong>
   supp:
-  readings: p.
+  readings: p. 1-31
   hw:
   slides: "https://docs.google.com/presentation/d/1ifu-jsmxb9yTwo3XEwNElRuoilWxIW0w0Xp9zb3hNIw/edit?usp=sharing"
   img: 2024/hb-c/1-c-intro.jpg
@@ -75,7 +75,7 @@
 
 - date: 10/21
   week: 8
-  title:  >
+  title: >
     <strong>Midterm Test</strong><br>
     <div style="display: none;">
       [<a href="https://forms.gle/inYD5upMwy1DQmRa7">퀴즈</a>]

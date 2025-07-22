@@ -12,7 +12,7 @@ children:
     permalink: /courses/2025-jbnu-info/
   - title: JBNU-ML
     permalink: /courses/2025-jbnu-python-ml/
-  - title: JBNU-CIRCUITS
+  - title: JBNU-CIRCUITS-II
     permalink: /courses/2025-jbnu-circuits-ii/
   - title: divider
   - title: HB-C
