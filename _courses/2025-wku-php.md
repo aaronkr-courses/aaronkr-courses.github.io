@@ -82,7 +82,7 @@ Supplementary:
 
 ## Overview 개요
 
-<img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/medical-dl.jpg" />
+<img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/php-text.jpg" />
 
 <strong>백엔드 프로그래밍을 위한 PHP & MySQL</strong> <a href="https://www.yes24.com/product/goods/118203397">Yes24</a>
 
