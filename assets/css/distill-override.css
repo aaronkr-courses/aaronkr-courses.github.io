@@ -48,8 +48,8 @@ d-article li {
   position: absolute;
   max-width: 140px;
   top: 90px;
-  left: 50%;
-  transform: translateX(calc(-50% - 460px));
+  left: -50%;
+  transform: translateX(calc(50% + 460px));
 }
 d-article table tbody :first-child td {
   padding: 0.75rem;
