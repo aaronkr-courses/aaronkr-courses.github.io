@@ -27,7 +27,7 @@ information:
   - section: 0000130650
     time: 월 9-11am, 수 9-10am
     location: 인문대학 2호관 331호
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/gHYKUEPh
 
 Main-Text:
   - text: "주교재"

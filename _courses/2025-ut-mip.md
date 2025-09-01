@@ -27,7 +27,7 @@ information:
   - section: AI0043(1)
     time: 목 1-4pm
     location: W18동 113호
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/gB0EXEPh
 
 Main-Text:
   - text: "주교재"

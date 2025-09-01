@@ -27,7 +27,7 @@ information:
   - section: 0000127048
     time: 월 2-4pm, 수 2-3pm
     location: 인문대학 2호관 505호
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/gZFbWEPh
 
 Main-Text:
   - text: "주교재"
