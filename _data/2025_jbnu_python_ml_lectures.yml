@@ -4,11 +4,14 @@
     <strong>Introduction</strong>
   supp:
   readings:
-  hw:
+  hw: "https://classroom.github.com/a/GnIOlq3Z"
   slides: "https://docs.google.com/presentation/d/153xEktJBhaMQnrcegH7FOlh8Bi_o46WyDBSDfIU1X_U/edit?usp=sharing"
   slides2:
   img: 2025/jbnu-python/1-intro.jpg
-  logistics:
+  logistics: >
+    <a href="https://docs.google.com/presentation/d/1KJgk9eaXtaVf_SEy5XcxJ5Om4xsv6LDYUl729R_pays/edit?usp=sharing">
+      Conference Presentation Info
+    </a>
 
 - date: 9/8
   week: 2

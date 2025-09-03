@@ -8,7 +8,10 @@
   slides: "https://docs.google.com/presentation/d/1PCqHQq9XjynWK_brYQQDSH7mxZUhf4K93Pg9ivIhRc4/edit?usp=sharing"
   slides2:
   img: 2025/jbnu-info/1-intro.jpg
-  logistics:
+  logistics: >
+    <a href="https://docs.google.com/presentation/d/1KJgk9eaXtaVf_SEy5XcxJ5Om4xsv6LDYUl729R_pays/edit?usp=sharing">
+      Conference Presentation Info
+    </a>
 
 - date: 9/8
   week: 2
