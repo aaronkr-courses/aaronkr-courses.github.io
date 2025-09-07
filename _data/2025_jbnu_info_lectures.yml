@@ -16,15 +16,16 @@
 - date: 9/8
   week: 2
   title: >
+    0. What is Information?<br>
     1. Introduction to Information Theory<br>
     2. Probability, Entropy, and Inference<br>
     3. More about Inference
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1g_wN1T6o0O1kOCuF7DLiW4mSqraUFQTjZ8bwFMbdY3U/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/jbnu-info/2-info.jpg
   logistics:
 
 - date: 9/15
