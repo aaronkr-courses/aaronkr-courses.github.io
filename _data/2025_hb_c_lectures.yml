@@ -15,10 +15,10 @@
     <strong>02 C 언어로 만드는 첫 번째 프로그램<br>
     03 자료형</strong>
   supp:
-  readings: p.
-  hw:
+  readings: p. 32-83
+  hw: "https://classroom.github.com/a/SvYGbAcg"
   slides: "https://docs.google.com/presentation/d/1EdiLDFcpJZT6_a-5XLQ-LrBY-r8tI2Fg31TvKMjBmJc/edit?usp=sharing"
-  img2: 2024/hb-c/2-hello-c.jpg
+  img: 2024/hb-c/2-hello-c.jpg
   logistics:
 
 - date: 9/16
