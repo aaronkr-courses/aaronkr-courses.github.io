@@ -49,6 +49,9 @@
             <img src="{{ lecture.img | prepend: '/assets/img/' | relative_link }}" alt="slide thumbnail" style="max-width: 200px;" />
         </a>
         <br />
+          {% if lecture.slides2 %}
+          <a href="{{ lecture.slides2 }}" target="_blank">Slides 2</a>
+          <br />
         {% else %}
         [ slides ]
         {% endif %}
