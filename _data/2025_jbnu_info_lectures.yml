@@ -51,8 +51,7 @@
     <strong>I: Data Compression</strong><br>
     4. The Source Coding Theorem<br>
     5. Symbol Codes<br>
-    6. Stream Codes<br>
-    7. Codes for Integers
+    6. Stream Codes
   supp:
   readings:
   hw:
@@ -80,11 +79,11 @@
 - date: 9/29
   week: 5
   title: >
-    <strong>III: Further Topics in Information Theory</strong><br>
-    12. Hash Codes: Codes for Efficient Information Retrieval<br>
-    13. Binary Codes<br>
-    14. Very Good Linear Codes Exist<br>
-    15. Further Exercises on Information Theory
+    <strong>IV: Probabilities and Inference</strong><br>
+    20. A Example Inference Task: Clustering<br>
+    21. Exact Inference by Complete Enumeration<br>
+    22. Maximum Likelihood and Clustering<br>
+    23. Useful Probability Distributions<br>
   supp:
   readings:
   hw:
@@ -101,11 +100,10 @@
 - date: 10/13
   week: 7
   title: >
-    <strong>III: Further Topics in Information Theory</strong><br>
-    16. Message Passing<br>
-    17. Communication over Constrained Noiseless Channels<br>
-    18. Crosswords and Codebreaking<br>
-    19. Why? Information Acquisition and Evolution
+    <strong>IV: Probabilities and Inference</strong><br>
+    24. Exact Marginalization<br>
+    27. Laplace's Method<br>
+    28. Model Comparison and Occam's Razor
   supp:
   readings:
   hw:
@@ -127,39 +125,6 @@
   week: 9
   title: >
     <strong>IV: Probabilities and Inference</strong><br>
-    20. A Example Inference Task: Clustering<br>
-    21. Exact Inference by Complete Enumeration<br>
-    22. Maximum Likelihood and Clustering<br>
-    23. Useful Probability Distributions<br>
-  supp:
-  readings:
-  hw:
-  slides:
-  slides2:
-  img:
-  logistics:
-
-- date: 11/3
-  week: 10
-  title: >
-    <strong>IV: Probabilities and Inference</strong><br>
-    24. Exact Marginalization<br>
-    25. Exact Marginalization in Trellises<br>
-    26. Exact Marginalization in Graphs<br>
-    27. Laplace's Method
-  supp:
-  readings:
-  hw:
-  slides:
-  slides2:
-  img:
-  logistics:
-
-- date: 11/10
-  week: 11
-  title: >
-    <strong>IV: Probabilities and Inference</strong><br>
-    28. Model Comparison and Occam's Razor<br>
     29. Monte Carlo Methods<br>
     30. Efficient Monte Carlo Methods<br>
     31. Ising Models<br>
@@ -172,15 +137,42 @@
   img:
   logistics:
 
-- date: 11/17
-  week: 12
+- date: 11/3
+  week: 10
   title: >
     <strong>IV: Probabilities and Inference</strong><br>
     33. Variational Methods<br>
     34. Independent Component Analysis and Latent Variable Modelling<br>
-    35. Random Inference Topics<br>
+    35. Random Inference Topics
+  supp:
+  readings:
+  hw:
+  slides:
+  slides2:
+  img:
+  logistics:
+
+- date: 11/10
+  week: 11
+  title: >
+    <strong>IV: Probabilities and Inference</strong><br>
     36. Decision Theory<br>
     37. Bayesian Inference and Sampling Theory
+  supp:
+  readings:
+  hw:
+  slides:
+  slides2:
+  img:
+  logistics:
+
+- date: 11/17
+  week: 12
+  title: >
+    <strong>V: Neural Networks</strong><br>
+    38. Introduction to Neural Networks<br>
+    39. The Single Neuron as a Classifier<br>
+    40. Capacity of a Single Neuron
   supp:
   readings:
   hw:
@@ -193,10 +185,9 @@
   week: 13
   title: >
     <strong>V: Neural Networks</strong><br>
-    38. Introduction to Neural Networks<br>
-    39. The Single Neuron as a Classifier<br>
-    40. Capacity of a Single Neuron<br>
-    41. Learning as Inference
+    41. Learning as Inference<br>
+    42. Hopfield Networks<br>
+    43. Boltzmann Machines
   supp:
   readings:
   hw:
@@ -209,8 +200,6 @@
   week: 14
   title: >
     <strong>V: Neural Networks</strong><br>
-    42. Hopfield Networks<br>
-    43. Boltzmann Machines<br>
     44. Supervised Learning in Multilayer Networks<br>
     45. Gaussian Processes<br>
     46. Deconvolution
@@ -225,11 +214,7 @@
 - date: 12/8
   week: 15
   title: >
-    <strong>VI: Sparse Graph Codes</strong><br>
-    47. Low-Density Parity-Check Codes<br>
-    48. Convolutional Codes and Turbo Codes<br>
-    49. Repeat-Accumulate Codes<br>
-    50. Digital Fountain Codes
+    <strong>TBD (Final Project?)</strong>
   supp:
   readings:
   hw:
