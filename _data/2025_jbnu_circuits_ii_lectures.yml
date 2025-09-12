@@ -32,7 +32,7 @@
 - date: 9/8
   week: 2
   title: >
-    Chapter 9. Sinusoids and Phasors
+    Chapter 9. Sinusoids and Phasors I
   supp:
   readings:
   hw:
@@ -44,19 +44,19 @@
 - date: 9/15
   week: 3
   title: >
-    Chapter 10. Sinusoidal Steady-State Analysis
+    Chapter 9. Sinusoids and Phasors II
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/19LFPCXflIs4DN3cG2-610VEE7fj6XNYWBKTZEsP-bHU/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/jbnu-circuits-ii/3-sinusoids-ii.jpg
   logistics:
 
 - date: 9/22
   week: 4
   title: >
-    Chapter 11. AC Power Analysis
+    Chapter 10. Sinusoidal Steady-State Analysis I
   supp:
   readings:
   hw:
@@ -68,7 +68,7 @@
 - date: 9/29
   week: 5
   title: >
-    Chapter 12. Three-Phase Circuits
+    Chapter 10. Sinusoidal Steady-State Analysis II
   supp:
   readings:
   hw:
@@ -85,7 +85,7 @@
 - date: 10/13
   week: 7
   title: >
-    Chapter 13. Magnetically Coupled Circuits
+    Chapter 11. AC Power Analysis
   supp:
   readings:
   hw:
@@ -106,7 +106,7 @@
 - date: 10/27
   week: 9
   title: >
-    Chapter 14. Frequency Response
+    Chapter 12. Three-Phase Circuits
   supp:
   readings:
   hw:
@@ -118,7 +118,7 @@
 - date: 11/3
   week: 10
   title: >
-    Chapter 15. Introduction to the Laplace Transform
+    Chapter 13. Magnetically Coupled Circuits
   supp:
   readings:
   hw:
@@ -130,7 +130,7 @@
 - date: 11/10
   week: 11
   title: >
-    Chapter 16. Applications of the Laplace Transform
+    Chapter 14. Frequency Response I
   supp:
   readings:
   hw:
@@ -142,7 +142,7 @@
 - date: 11/17
   week: 12
   title: >
-    Chapter 17. The Fourier Series
+    Chapter 14. Frequency Response II
   supp:
   readings:
   hw:
@@ -154,7 +154,7 @@
 - date: 11/24
   week: 13
   title: >
-    Chapter 18. Fourier Transform
+    Chapter 15. Introduction to the Laplace Transform
   supp:
   readings:
   hw:
@@ -166,7 +166,7 @@
 - date: 12/1
   week: 14
   title: >
-    Chapter 19. Two-Port Networks
+    Chapter 16. Applications of the Laplace Transform
   supp:
   readings:
   hw:
@@ -178,7 +178,9 @@
 - date: 12/8
   week: 15
   title: >
-    TBD
+    Chapter 17. The Fourier Series<br>
+    Chapter 18. Fourier Transform<br>
+    Chapter 19. Two-Port Networks
   supp:
   readings:
   hw:
