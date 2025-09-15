@@ -48,6 +48,7 @@
 - date: 9/15
   week: 3
   title: >
+    <strong>Baye's Rule</strong><br>
     <strong>I: Data Compression</strong><br>
     4. The Source Coding Theorem<br>
     5. Symbol Codes<br>
@@ -55,9 +56,9 @@
   supp:
   readings:
   hw:
-  slides:
-  slides2:
-  img:
+  slides: "https://docs.google.com/presentation/d/1K-wmU48lyNrBoEqKSDDb1YlE3J9higAFvylcUJk7HKI/edit?usp=sharing"
+  slides2: "https://docs.google.com/presentation/d/1VETVI7XRg_bWrxb1VuvKYgwFk52-ycC1RY4T8zj9GcM/edit?usp=sharing"
+  img: 2025/jbnu-info/3-inference.jpg
   logistics:
 
 - date: 9/22
