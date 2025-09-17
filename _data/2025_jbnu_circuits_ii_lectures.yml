@@ -35,7 +35,7 @@
     Chapter 9. Sinusoids and Phasors I
   supp:
   readings:
-  hw: "https://forms.gle/PvD6LtxAsm5fza5Z6"
+  hw:
   slides: "https://docs.google.com/presentation/d/1HVV1afL8p5Gd28sLagNwib-bDQYRYPz4dw5v9YEt-3U/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/1Gys3z-lZiNholhtD5ubriQUBpfVvEi5EtoHDv7cTUXk/edit?usp=sharing"
   img: 2025/jbnu-circuits-ii/2-sinusoids.jpg
@@ -47,9 +47,9 @@
     Chapter 9. Sinusoids and Phasors II
   supp:
   readings:
-  hw:
+  hw: "https://forms.gle/PvD6LtxAsm5fza5Z6"
   slides: "https://docs.google.com/presentation/d/19LFPCXflIs4DN3cG2-610VEE7fj6XNYWBKTZEsP-bHU/edit?usp=sharing"
-  slides2:
+  slides2: "https://colab.research.google.com/drive/1w0vlz9vLKLxcGopV1l_l9gsojaomNyQ7?usp=sharing"
   img: 2025/jbnu-circuits-ii/3-sinusoids-ii.jpg
   logistics:
 
