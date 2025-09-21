@@ -66,9 +66,9 @@
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1sAZWb4FgDUKh6VHjO2rC-SexnI8gfzhdMFsAN7Uedlo/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/jbnu-python/4-classic-ml.jpg
   logistics:
 
 - date: 9/29
