@@ -1,14 +1,23 @@
-# Capstone Project
+---
+layout: page
+title: Capstone Projects
+permalink: /capstone/
+description: Information about Capstone Design projects.
+nav: true
+nav_order: 2
+---
+
+# Capstone Projects
 
 ## ✅ General Deliverables (for every project)
 
 1. Proposal Document (Week 3): Problem, objectives, timeline.
 2. Midterm Presentation (Week 7): Progress update.
 3. Final Deliverables (Week 12):
-  1. Trained ML model
-  2. Working demo (Streamlit app or Arduino)
-  3. Final report (methods, results, discussion)
-  4. Slides + oral presentation
+   - Trained ML model
+   - Working demo (Streamlit app or Arduino)
+   - Final report (methods, results, discussion)
+   - Slides + oral presentation
 
 ## Project Ideas
 
