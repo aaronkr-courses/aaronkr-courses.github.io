@@ -5,6 +5,8 @@ permalink: /capstone/
 description: Information about Capstone Design projects.
 nav: true
 nav_order: 2
+display_categories: [work, fun]
+horizontal: false
 ---
 
 # Capstone Projects
@@ -98,6 +100,8 @@ nav_order: 2
   - Collect or download AQI data.
   - ML regression model to predict AQI from weather/traffic.
   - Arduino or Streamlit demo: display “Good / Moderate / Unhealthy” classification.
+
+---
 
 <!-- pages/projects.md -->
 <div class="projects">
