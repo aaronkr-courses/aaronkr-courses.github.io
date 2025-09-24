@@ -28,20 +28,20 @@ The following conferences are some that I have personally presented at and often
 I have also written papers for each of their journals. All three societies accept papers in English and Korean.
 
 1. **[KIICE](http://www.kiice.org/): Korea Institute of Information and Communication Engineering**
-   - ? Spring conference in May (`5월`)
-   - ? Fall conference in October (`10월`)
-   - ? International conference (English only) in January (`1월`)
-   - ? Website: [http://www.kiice.org/](http://www.kiice.org/)
-   - ? **English Journal** (longer papers): [JICCE](https://www.jicce.org/main.html)
+   - :hibiscus: Spring conference in May (`5월`)
+   - :fallen_leaves: Fall conference in October (`10월`)
+   - :earth_asia: International conference (English only) in January (`1월`)
+   - :globe_with_meridians: Website: [http://www.kiice.org/](http://www.kiice.org/)
+   - :notebook: **English Journal** (longer papers): [JICCE](https://www.jicce.org/main.html)
 2. **[KIPEE](https://kipee.or.kr/): Korea Institute of Practical Engineering Education**
-   - ? Fall conference in October (`10월`)
-   - ? Website: [https://kipee.or.kr/](https://kipee.or.kr/)
-   - ? **Journal** (accepts English papers): [JPEE](http://jpee.org/)
+   - :fallen_leaves: Fall conference in October (`10월`)
+   - :globe_with_meridians: Website: [https://kipee.or.kr/](https://kipee.or.kr/)
+   - :notebook: **Journal** (accepts English papers): [JPEE](http://jpee.org/)
 3. **[KLIFE](https://klife.re.kr/): Korean Quality of Life Society**
-   - ?? Summer conference in July (`7월`)
-   - ?? Winter conference in January (`1월`)
-   - ? Website: [https://klife.re.kr/](https://klife.re.kr/)
-   - ? **Journal** (accepts English papers): [JQoLR](https://klife.re.kr/html/journal.html)
+   - :sunny: Summer conference in July (`7월`)
+   - :snowman: Winter conference in January (`1월`)
+   - :globe_with_meridians: Website: [https://klife.re.kr/](https://klife.re.kr/)
+   - :notebook: **Journal** (accepts English papers): [JQoLR](https://klife.re.kr/html/journal.html)
 
 ## How to Get Started
 
