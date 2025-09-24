@@ -16,7 +16,7 @@ Conferences are a great way to share your projects, learn how to do and present 
 **Friday, October 24, 2025**
 
 - **[KIICE 2025 Fall Conference](http://www.kiice.org/)** (Korea Institute of Information and Communication Engineering)
-- Location: Hanyang National University, Busan, Korea (`∫ŒªÍ`)
+- Location: Hanyang National University, Busan, Korea (`Î∂ÄÏÇ∞`)
 - Submission Deadline: ~September 22, 2025~ (extended to **September 29, 2025**)
 
 **Please email me your full paper draft by Saturday (night), September 27, 2025** so I can review it before the submission deadline.
@@ -28,18 +28,18 @@ The following conferences are some that I have personally presented at and often
 I have also written papers for each of their journals. All three societies accept papers in English and Korean.
 
 1. **[KIICE](http://www.kiice.org/): Korea Institute of Information and Communication Engineering**
-   - :hibiscus: Spring conference in May (`5ø˘`)
-   - :fallen_leaves: Fall conference in October (`10ø˘`)
-   - :earth_asia: International conference (English only) in January (`1ø˘`)
+   - :hibiscus: Spring conference in May (`5Ïõî`)
+   - :fallen_leaves: Fall conference in October (`10Ïõî`)
+   - :earth_asia: International conference (English only) in January (`1Ïõî`)
    - :globe_with_meridians: Website: [http://www.kiice.org/](http://www.kiice.org/)
    - :notebook: **English Journal** (longer papers): [JICCE](https://www.jicce.org/main.html)
 2. **[KIPEE](https://kipee.or.kr/): Korea Institute of Practical Engineering Education**
-   - :fallen_leaves: Fall conference in October (`10ø˘`)
+   - :fallen_leaves: Fall conference in October (`10Ïõî`)
    - :globe_with_meridians: Website: [https://kipee.or.kr/](https://kipee.or.kr/)
    - :notebook: **Journal** (accepts English papers): [JPEE](http://jpee.org/)
 3. **[KLIFE](https://klife.re.kr/): Korean Quality of Life Society**
-   - :sunny: Summer conference in July (`7ø˘`)
-   - :snowman: Winter conference in January (`1ø˘`)
+   - :sunny: Summer conference in July (`7Ïõî`)
+   - :snowman: Winter conference in January (`1Ïõî`)
    - :globe_with_meridians: Website: [https://klife.re.kr/](https://klife.re.kr/)
    - :notebook: **Journal** (accepts English papers): [JQoLR](https://klife.re.kr/html/journal.html)
 
@@ -85,10 +85,10 @@ I have also written papers for each of their journals. All three societies accep
 1. [Student Research (full PPT)](https://docs.google.com/presentation/d/1KJgk9eaXtaVf_SEy5XcxJ5Om4xsv6LDYUl729R_pays/edit?usp=sharing)
 2. [Select a Topic PPT](https://docs.google.com/presentation/d/1Y_T0BYhbiMy-F0EKliaI6U169T2wFOXlC6CxuHi1y9Q/edit?usp=sharing)
 3. [Writing your Paper PPT](https://docs.google.com/presentation/d/1N8Hu-Y_YH7uxtR-OoXxICehon4ILtFGYbGlvh1W6QmY/edit?usp=sharing)
-4. ? [JBNU ¿¸∫œ¥Î Poster Presentation A4 Template (PPT)]
-5. ? [KNUT ±≥≈Î¥Î Poster Presentation A4 Template (PPT)]
+4. ? [JBNU Ï†ÑÎ∂ÅÎåÄ Poster Presentation A4 Template (PPT)]
+5. ? [KNUT ÍµêÌÜµÎåÄ Poster Presentation A4 Template (PPT)]
 6. **Template Files** (HWP, Word)
-   - **Note:** `ø‰æ‡` = Abstract file, `πﬂ«•` = Research Paper file
+   - **Note:** `ÏöîÏïΩ` = Abstract file, `Î∞úÌëú` = Research Paper file
    - [KIICE Template Files](https://drive.google.com/drive/folders/1XRI8KHzocVz4gamFO_V0qjqBXhmhyljl?usp=sharing)
 
 ### ChatGPT Scripts to Help Generate Research Topics
@@ -105,7 +105,7 @@ Please provide me with a list of 10 potential research topics that are relevant,
 **Option 2**
 
 ```plaintext
-I am preparing to write a short research paper (2-3 pages) for a conference in Korea (`¡§∫∏≈ÎΩ≈∞¯«–»∏`). The paper can be about:
+I am preparing to write a short research paper (2-3 pages) for a conference in Korea (`Ï†ïÎ≥¥ÌÜµÏã†Í≥µÌïôÌöå`). The paper can be about:
     - a conceptual design (idea for a system/app/device),
     - a literature review (summary of 2-5 related papers),
     - a simple program (small experiment with code/tools), or
@@ -117,7 +117,7 @@ Here is some information about me:
     - Projects or assignments I have done: [e.g., simple Python programs, Arduino project, class presentations]
     - My skills or tools I know: [e.g., Python, C, MATLAB, Excel, Google Forms]
     - Topics I am curious about: [e.g., AI in education, cybersecurity, VR/AR, IoT, healthcare apps]
-    - My future goals (optional): [e.g., Master°Øs in AI, career in cybersecurity, interest in healthcare technology]
+    - My future goals (optional): [e.g., Master‚Äôs in AI, career in cybersecurity, interest in healthcare technology]
 
 Please suggest:
     1. 5-10 possible research topics that fit my background and interests.
