@@ -66,7 +66,8 @@
   slides: "https://docs.google.com/presentation/d/1xGWspq6tJCcAGCE4mvTQtBSfX0VbEOqJx1mmtY7XMrg/edit?usp=sharing"
   slides2:
   img: 2025/ut-mip/4-capsnet.jpg
-  logistics:
+  logistics: >
+    <a href="https://drive.google.com/drive/folders/1huaKOM8i5aeq2uSQDyasuB-Is7vghCix?usp=sharing">샘플 코드</a>
 
 - date: 10/1
   week: 5
