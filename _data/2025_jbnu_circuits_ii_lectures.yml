@@ -72,11 +72,12 @@
     Chapter 10. Sinusoidal Steady-State Analysis II
   supp:
   readings:
-  hw:
-  slides:
+  hw: "https://forms.gle/yPACnX2hgDAgJWtW9"
+  slides: "https://docs.google.com/presentation/d/1yTW1ImXGjBLwgpinahKU70J_1qnF17nRym67EE0cJLI/edit?usp=sharing"
   slides2:
-  img:
-  logistics:
+  img: 2025/jbnu-circuits-ii/4-sinusoid-ssa.jpg
+  logistics: >
+    Bring team computer Wednesday.
 
 - date: 10/6
   week: 6

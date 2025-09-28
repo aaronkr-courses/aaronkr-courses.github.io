@@ -81,9 +81,9 @@
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1cJtqU3Hu0lGE7EdkCxq-K4eUz5AOEofOBG-5QDUzN44/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/jbnu-python/5-nn-intro.jpg
   logistics:
 
 - date: 10/6

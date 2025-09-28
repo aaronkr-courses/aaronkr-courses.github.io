@@ -89,9 +89,9 @@
   supp:
   readings:
   hw:
-  slides:
-  slides2:
-  img:
+  slides: "https://docs.google.com/presentation/d/1rqOkcXbjd2rDUNokM9ky0v5nq5Bmcmt81fxFPNic9ic/edit?usp=sharing"
+  slides2: "https://docs.google.com/presentation/d/1p4RDEEcevlC_N9J6Cg3OSdjqKi2EKR6DuC8bUhkjnPE/edit?usp=sharing"
+  img: 2025/jbnu-info/5-source-coding.jpg
   logistics:
 
 - date: 10/6
