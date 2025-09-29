@@ -64,7 +64,8 @@
   slides: "https://docs.google.com/presentation/d/1yTW1ImXGjBLwgpinahKU70J_1qnF17nRym67EE0cJLI/edit?usp=sharing"
   slides2:
   img: 2025/jbnu-circuits-ii/4-sinusoid-ssa.jpg
-  logistics:
+  logistics: >
+    <a href="https://www.khanacademy.org/join/XHUDCE3A">BONUS: Khan Academy Electrical Engineering Course</a>
 
 - date: 9/29
   week: 5
