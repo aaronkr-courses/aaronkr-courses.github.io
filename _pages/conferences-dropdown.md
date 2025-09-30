@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Conferences
-nav: false
-nav_order: 5
+nav: true
+nav_order: 3
 dropdown: true
 children:
   - title: Calendar
