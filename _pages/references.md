@@ -3,7 +3,7 @@ layout: page
 title: References
 permalink: /references/
 description: How to write references for papers.
-nav: true
+nav: false
 nav_order: 3
 ---
 

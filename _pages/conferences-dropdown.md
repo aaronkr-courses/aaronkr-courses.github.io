@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Conferences
-nav: true
+nav: false
 nav_order: 5
 dropdown: true
 children:

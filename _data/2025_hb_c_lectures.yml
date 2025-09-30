@@ -51,9 +51,9 @@
     <strong>08 조건문</strong>
   supp:
   readings: p. 151-202
-  hw:
+  hw: "https://classroom.github.com/a/lkwqacgL"
   slides: "https://docs.google.com/presentation/d/18bYiAiOIe52ZcKx1QMj7GRWlGXXCLdZVAOav7jnY0T0/edit?usp=sharing"
-  img2: 2024/hb-c/5-cond-loops.jpg
+  img: 2024/hb-c/5-cond-loops.jpg
   logistics:
 
 - date: 10/7
