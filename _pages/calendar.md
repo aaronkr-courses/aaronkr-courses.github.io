@@ -18,7 +18,7 @@ Conferences are a great way to share your projects, learn how to do and present 
 **Friday, October 24, 2025**
 
 - **[KIICE 2025 Fall Conference](http://www.kiice.org/)** (Korea Institute of Information and Communication Engineering)
-- Location: Hanyang National University, Busan, Korea (`ºÎ»ê`)
+- Location: Hanyang National University, Busan, Korea (`ë¶€ì‚°`)
 - Submission Deadline: ~September 22, 2025~ (extended to **September 29, 2025**)
 
 **Please email me your full paper draft by Saturday (night), September 27, 2025** so I can review it before the submission deadline.
