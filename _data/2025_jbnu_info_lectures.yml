@@ -81,7 +81,7 @@
   slides2: "https://docs.google.com/presentation/d/1p4RDEEcevlC_N9J6Cg3OSdjqKi2EKR6DuC8bUhkjnPE/edit?usp=sharing"
   img: 2025/jbnu-info/5-source-coding.jpg
   hw: "https://classroom.github.com/a/WsfQw-qJ"
-  logistics: "Run <code>huffman-coding.ipynb</code> and submit file with outputs.""
+  logistics: "Run <code>huffman-coding.ipynb</code> and submit file with outputs."
 
 - date: 10/6
   week: 6
