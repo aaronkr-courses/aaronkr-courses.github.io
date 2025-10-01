@@ -3,7 +3,7 @@ layout: page
 title: Calendar
 permalink: /calendar/
 description: Upcoming events and deadlines.
-nav: true
+nav: false
 nav_order: 4
 ---
 

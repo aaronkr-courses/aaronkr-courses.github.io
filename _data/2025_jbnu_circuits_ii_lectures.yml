@@ -52,7 +52,7 @@
   slides: "https://docs.google.com/presentation/d/19LFPCXflIs4DN3cG2-610VEE7fj6XNYWBKTZEsP-bHU/edit?usp=sharing"
   slides2: "https://colab.research.google.com/drive/1w0vlz9vLKLxcGopV1l_l9gsojaomNyQ7?usp=sharing"
   img: 2025/jbnu-circuits-ii/3-sinusoids-ii.jpg
-  logistics:
+  logistics: "Chp 9"
 
 - date: 9/22
   week: 4
@@ -78,6 +78,7 @@
   slides2:
   img: 2025/jbnu-circuits-ii/4-sinusoid-ssa.jpg
   logistics: >
+    Chp 10<br>
     Bring team computer Wednesday.
 
 - date: 10/6

@@ -21,15 +21,12 @@
     <strong>Introduction</strong>
   supp:
   readings:
-  hw: "https://classroom.github.com/a/GnIOlq3Z"
-  hw2: "https://classroom.github.com/a/agnMSUa2"
   slides: "https://docs.google.com/presentation/d/153xEktJBhaMQnrcegH7FOlh8Bi_o46WyDBSDfIU1X_U/edit?usp=sharing"
   slides2:
   img: 2025/jbnu-python/1-intro.jpg
-  logistics: >
-    <a href="https://docs.google.com/presentation/d/1KJgk9eaXtaVf_SEy5XcxJ5Om4xsv6LDYUl729R_pays/edit?usp=sharing">
-      Conference Presentation Info
-    </a>
+  hw: "https://classroom.github.com/a/GnIOlq3Z"
+  logistics: "Hello Python"
+  tooltip: "(if this HW doesn't work, try the next one)"
 
 - date: 9/8
   week: 2
@@ -38,11 +35,13 @@
     Chapter 0. Environment and Mathematical Preliminaries
   supp:
   readings:
-  hw: "https://classroom.github.com/a/QRtcvBFS"
   slides: "https://docs.google.com/presentation/d/1GNTg0QjoG07JtSY_PDSbrH2iatN-qulNXbQ_rRFBYXY/edit?usp=sharing"
   slides2:
   img: 2025/jbnu-python/2-env-math.jpg
-  logistics:
+  hw: "https://classroom.github.com/a/QRtcvBFS"
+  hw2: "https://classroom.github.com/a/agnMSUa2"
+  logistics: "Env & Math"
+  tooltip: "(only one HW may work for you - choose one, write any Python & Markdown code and submit, don't run it)"
 
 - date: 9/15
   week: 3
@@ -52,11 +51,11 @@
     Chapter 2. Building the Datasets
   supp:
   readings:
-  hw: "https://classroom.github.com/a/WOon1XBx"
   slides: "https://docs.google.com/presentation/d/1JfdT9_Ual9i8npR0Qe7aVN2rn3mjLwgvkkAOzmZ3a-A/edit?usp=sharing"
   slides2:
   img: 2025/jbnu-python/3-data.jpg
-  logistics:
+  hw: "https://classroom.github.com/a/WOon1XBx"
+  logistics: "Data Data Data"
 
 - date: 9/22
   week: 4
@@ -66,11 +65,11 @@
     Chapter 4. Experiments with Classical Models
   supp:
   readings:
-  hw: "https://classroom.github.com/a/l942b8Ua"
   slides: "https://docs.google.com/presentation/d/1sAZWb4FgDUKh6VHjO2rC-SexnI8gfzhdMFsAN7Uedlo/edit?usp=sharing"
   slides2:
   img: 2025/jbnu-python/4-classic-ml.jpg
-  logistics:
+  hw: "https://classroom.github.com/a/l942b8Ua"
+  logistics: "Classic ML"
 
 - date: 9/29
   week: 5
@@ -80,11 +79,13 @@
     Chapter 6. Training a Neural Network
   supp:
   readings:
-  hw: "https://classroom.github.com/a/wYFSS46Q"
   slides: "https://docs.google.com/presentation/d/1cJtqU3Hu0lGE7EdkCxq-K4eUz5AOEofOBG-5QDUzN44/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/13TdMQplzoouUF00Mx8QDtoFawGtNxmAm1WwMcpzuNMI/edit?usp=sharing"
   img: 2025/jbnu-python/5-nn-intro.jpg
-  logistics:
+  hw: "https://classroom.github.com/a/wYFSS46Q"
+  logistics: >
+    MNIST NN<br>
+    Fashion MNIST NN
 
 - date: 10/6
   week: 6

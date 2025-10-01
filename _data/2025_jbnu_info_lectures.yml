@@ -33,66 +33,55 @@
 - date: 9/8
   week: 2
   title: >
-    0. What is Information?<br>
-    1. Introduction to Information Theory<br>
-    2. Probability, Entropy, and Inference<br>
-    3. More about Inference
+    <strong>What is Information?</strong>
   supp:
   readings:
-  hw: "https://classroom.github.com/a/yFrPw__t"
-  hw2: "https://classroom.github.com/a/htg-Yrej"
   slides: "https://docs.google.com/presentation/d/1g_wN1T6o0O1kOCuF7DLiW4mSqraUFQTjZ8bwFMbdY3U/edit?usp=sharing"
   slides2:
   img: 2025/jbnu-info/2-info.jpg
-  logistics:
+  hw: "https://classroom.github.com/a/yFrPw__t"
+  hw2: "https://classroom.github.com/a/htg-Yrej"
+  logistics: "Hello Python, MD"
+  tooltip: "(only one HW may work for you - choose one, write any Python & Markdown code and submit, don't run it)"
 
 - date: 9/15
   week: 3
   title: >
-    <strong>Baye's Rule</strong><br>
-    <strong>I: Data Compression</strong><br>
-    4. The Source Coding Theorem<br>
-    5. Symbol Codes<br>
-    6. Stream Codes
+    <strong>Baye's Rule</strong>
   supp:
   readings:
-  hw: "https://classroom.github.com/a/hzQE2iCF"
   slides: "https://docs.google.com/presentation/d/1K-wmU48lyNrBoEqKSDDb1YlE3J9higAFvylcUJk7HKI/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/1VETVI7XRg_bWrxb1VuvKYgwFk52-ycC1RY4T8zj9GcM/edit?usp=sharing"
   img: 2025/jbnu-info/3-inference.jpg
-  logistics:
+  hw: "https://classroom.github.com/a/hzQE2iCF"
+  logistics: "Baye's Rule"
 
 - date: 9/22
   week: 4
   title: >
-    <strong>II: Noisy-Channel Coding</strong><br>
-    8. Dependent Random Variables<br>
-    9. Communication over a Noisy Channel<br>
-    10. The Noisy-Channel Coding Theorem<br>
-    11. Error-Correcting Codes and Real Channels
+    <strong>Entropy</strong>
   supp:
   readings:
-  hw: "https://classroom.github.com/a/WsfQw-qJ"
   slides: "https://docs.google.com/presentation/d/1nJZhh_2OGQdwBeYewASGnr087-go6pnkP98QC1IoXoQ/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/1lzYrjC7JivqDxQN0GmbEJ04xFz-VMC45aXJhH0Dt_SM/edit?usp=sharing"
   img: 2025/jbnu-info/4-entropy.jpg
+  hw:
   logistics:
 
 - date: 9/29
   week: 5
   title: >
-    <strong>IV: Probabilities and Inference</strong><br>
-    20. A Example Inference Task: Clustering<br>
-    21. Exact Inference by Complete Enumeration<br>
-    22. Maximum Likelihood and Clustering<br>
-    23. Useful Probability Distributions<br>
+    <strong>I: Data Compression</strong><br>
+    - The Source Coding Theorem<br>
+    - Symbol Codes<br>
+    - Stream Codes
   supp:
   readings:
-  hw:
   slides: "https://docs.google.com/presentation/d/1rqOkcXbjd2rDUNokM9ky0v5nq5Bmcmt81fxFPNic9ic/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/1p4RDEEcevlC_N9J6Cg3OSdjqKi2EKR6DuC8bUhkjnPE/edit?usp=sharing"
   img: 2025/jbnu-info/5-source-coding.jpg
-  logistics:
+  hw: "https://classroom.github.com/a/WsfQw-qJ"
+  logistics: "Run `huffman-coding.ipynb` and submit file with outputs.""
 
 - date: 10/6
   week: 6
@@ -102,10 +91,11 @@
 - date: 10/13
   week: 7
   title: >
-    <strong>IV: Probabilities and Inference</strong><br>
-    24. Exact Marginalization<br>
-    27. Laplace's Method<br>
-    28. Model Comparison and Occam's Razor
+    <strong>II: Noisy-Channel Coding</strong><br>
+    8. Dependent Random Variables<br>
+    9. Communication over a Noisy Channel<br>
+    10. The Noisy-Channel Coding Theorem<br>
+    11. Error-Correcting Codes and Real Channels
   supp:
   readings:
   hw:
@@ -117,20 +107,12 @@
 - date: 10/20
   week: 8
   title: >
-    <strong>Midterm Test</strong>
-    <div style="display: none;">
-      <br><a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
-      <br><a href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
-    </div>
-
-- date: 10/27
-  week: 9
-  title: >
+    <strong>Entropy of Continuous Variables</strong><br>
     <strong>IV: Probabilities and Inference</strong><br>
-    29. Monte Carlo Methods<br>
-    30. Efficient Monte Carlo Methods<br>
-    31. Ising Models<br>
-    32. Exact Monte Carlo Sampling
+    20. A Example Inference Task: Clustering<br>
+    21. Exact Inference by Complete Enumeration<br>
+    22. Maximum Likelihood and Clustering<br>
+    23. Useful Probability Distributions
   supp:
   readings:
   hw:
@@ -138,6 +120,26 @@
   slides2:
   img:
   logistics:
+
+- date: 10/27
+  week: 9
+  title: >
+    <strong>Midterm Test</strong>
+    <div style="display: none;">
+      <br><a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
+      <br><a href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
+    </div>
+  logistics: >
+    Not covered yet.
+    <strong>IV: Probabilities and Inference</strong><br>
+    29. Monte Carlo Methods<br>
+    30. Efficient Monte Carlo Methods<br>
+    31. Ising Models<br>
+    32. Exact Monte Carlo Sampling<br>
+    <strong>IV: Probabilities and Inference</strong><br>
+    24. Exact Marginalization<br>
+    27. Laplace's Method<br>
+    28. Model Comparison and Occam's Razor
 
 - date: 11/3
   week: 10

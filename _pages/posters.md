@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Conferences
-permalink: /conferences/
-description: Information about Conferences.
+permalink: /posters/
+description: Preparing Conference Presentation Posters.
 nav: false
 nav_order: 3
 ---

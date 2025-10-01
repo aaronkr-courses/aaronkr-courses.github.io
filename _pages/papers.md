@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Conferences
-permalink: /conferences/
-description: Information about Conferences.
+permalink: /papers/
+description: How to Write Conference Papers.
 nav: false
 nav_order: 3
 ---
