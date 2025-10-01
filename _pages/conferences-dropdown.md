@@ -18,5 +18,5 @@ children:
     permalink: /references/
   - title: divider
   - title: Template Files
-    permalink: /https://drive.google.com/drive/folders/1XRI8KHzocVz4gamFO_V0qjqBXhmhyljl?usp=sharing/
+    permalink: https://drive.google.com/drive/folders/1XRI8KHzocVz4gamFO_V0qjqBXhmhyljl?usp=sharing/
 ---

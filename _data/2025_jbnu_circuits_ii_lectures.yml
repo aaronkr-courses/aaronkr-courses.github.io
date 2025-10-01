@@ -71,6 +71,12 @@
   week: 5
   title: >
     Chapter 10. Sinusoidal Steady-State Analysis II
+    <ul>
+      <li><a href="https://docs.arduino.cc/hardware/uno-rev3/">Learn about your Arduino UNO</a></li>
+      <li><a href="https://aesk.arduino.cc/aesk/module/education/lesson/getting-started">1: Getting Started</a> (sign-in may be required)</li>
+      <li><a href="https://projecthub.arduino.cc/">Explore Arduino Project Hub</a></li>
+      <li><a href="https://app.arduino.cc/">Explore Arduino Cloud</a></li>
+    </ul>
   supp:
   readings:
   hw: "https://forms.gle/yPACnX2hgDAgJWtW9"
