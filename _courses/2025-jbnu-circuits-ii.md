@@ -64,7 +64,7 @@ Supplementary:
 
 #### Grading 평가방법
 
-| 출석 (Att): <strong style="color: #9b65ff;">20%</strong> | 중간고사 (Midterm): <strong style="color: #9b65ff;">30%</strong> | 기말고사 (Final): <strong style="color: #9b65ff;">30%</strong> | 과제 (HW): <strong style="color: #9b65ff;">20%</strong> |
+| Att: <strong style="color: #9b65ff;">20%</strong> | Midterm: <strong style="color: #9b65ff;">25%</strong> | Final: <strong style="color: #9b65ff;">25%</strong> | HW: <strong style="color: #9b65ff;">15%</strong> | Arduino: <strong style="color: #9b65ff;">15%</strong> |
 
 ## Schedule 강의일정
 
