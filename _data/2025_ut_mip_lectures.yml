@@ -107,15 +107,7 @@
 - date: 10/23
   week: 8
   title: >
-    <strong>Midterm Test</strong>
-    <div style="display: none;">
-      <br><a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
-      <br><a href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
-    </div>
-
-- date: 10/30
-  week: 9
-  title: >
+    <strong style="color: red">LMS 온라인 동영상 수업</strong><br>
     Chapter 9. Deep learning for medical image reconstruction<br>
     (9장. 의료 영상 재구성을 위한 딥러닝)<br>
     Chapter 10. Dynamic inference using neural architecture search in medical image segmentation<br>
@@ -127,6 +119,15 @@
   slides2:
   img:
   logistics:
+
+- date: 10/30
+  week: 9
+  title: >
+    <strong>Midterm Test</strong>
+    <div style="display: none;">
+      <br><a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
+      <br><a href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
+    </div>
 
 - date: 11/6
   week: 10

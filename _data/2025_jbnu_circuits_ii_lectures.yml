@@ -107,15 +107,6 @@
 - date: 10/20
   week: 8
   title: >
-    <strong>Midterm Test</strong>
-    <div style="display: none;">
-      <br><a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
-      <br><a href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
-    </div>
-
-- date: 10/27
-  week: 9
-  title: >
     Chapter 12. Three-Phase Circuits
   supp:
   readings:
@@ -124,6 +115,15 @@
   slides2:
   img:
   logistics:
+
+- date: 10/27
+  week: 9
+  title: >
+    <strong>Midterm Test</strong>
+    <div style="display: none;">
+      <br><a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
+      <br><a href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
+    </div>
 
 - date: 11/3
   week: 10
