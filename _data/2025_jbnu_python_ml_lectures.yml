@@ -101,9 +101,9 @@
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1SVQvjdXL_2V-q-6fwF32gNKNmd3ijtVeNSPNemHar_o/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/jbnu-python/6-nn-experiments.jpg
   logistics:
 
 - date: 10/20
