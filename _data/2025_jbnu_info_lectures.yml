@@ -102,7 +102,8 @@
   slides: "https://docs.google.com/presentation/d/1_4lg8lld9tTD8zQDh6rJH5ChxLVi6b8iS6e1_00h8qk/edit?usp=sharing"
   slides2:
   img: 2025/jbnu-info/6-noisy-channels.jpg
-  logistics:
+  logistics: >
+    <a href="https://classroom.google.com/c/ODA0MjY0MzM4Mjk3?cjc=36gyqccg">Join the Google Classroom</a>
 
 - date: 10/20
   week: 8
