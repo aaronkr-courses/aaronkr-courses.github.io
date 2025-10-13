@@ -21,6 +21,8 @@ We will use as many of the [Education Starter Kit](https://aesk.arduino.cc) less
 
 - [Lesson 1: Getting Started with Arduino](https://aesk.arduino.cc/aesk/module/education/lesson/getting-started)
     - Learn how to set up your Arduino board and install the Arduino IDE software.
+- [Lesson 3: Traffic Signals](https://aesk.arduino.cc/aesk/module/education/lesson/traffic-signals)
+    - Write programs to control the LEDs in the circuit, including a program for a traffic light.
 
 ### Resources
 
