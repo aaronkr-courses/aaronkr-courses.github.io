@@ -104,7 +104,8 @@
   slides: "https://docs.google.com/presentation/d/1SVQvjdXL_2V-q-6fwF32gNKNmd3ijtVeNSPNemHar_o/edit?usp=sharing"
   slides2:
   img: 2025/jbnu-python/6-nn-experiments.jpg
-  logistics:
+  logistics: >
+    <a href="https://classroom.google.com/c/ODE3ODkxMTUyNDM2?cjc=mtn6wc76">Join the Google Classroom</a> (Gmail)
 
 - date: 10/20
   week: 8
