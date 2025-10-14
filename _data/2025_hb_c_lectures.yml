@@ -48,7 +48,8 @@
 - date: 9/30
   week: 5
   title: >
-    <strong>08 조건문</strong>
+    <strong>08 조건문<br>
+    09 반복문</strong>
   supp:
   readings: p. 151-202
   hw: "https://classroom.github.com/a/lkwqacgL"
@@ -64,28 +65,17 @@
 - date: 10/14
   week: 7
   title: >
-    <strong>09 반복문<br>
+    <strong>09 반복문 (복습)<br>
     10 시프트 연산자와 비트 연산자</strong>
   supp:
   readings: p. 176-225
-  hw:
+  hw: "https://classroom.github.com/a/3DbiwJvt"
   slides: "https://docs.google.com/presentation/d/1XXWbXEX3pR4Ngud3HkUIDP81X6TsM6dixpn5Q614xyU/edit?usp=sharing"
-  img2: 2024/hb-c/6-loops-shifts.jpg
+  img: 2024/hb-c/6-loops-shifts.jpg
   logistics:
 
 - date: 10/21
   week: 8
-  title: >
-    <strong>Midterm Test</strong><br>
-    <div style="display: none;">
-      [<a href="https://forms.gle/inYD5upMwy1DQmRa7">퀴즈</a>]
-      [<a href="https://classroom.github.com/a/Qon0lvC2">실기</a>]
-      <br>
-      <a href="https://docs.google.com/presentation/d/1lMoA2v2qIU2-s5bFtOnbXPOctu5luoA8bEyWJsChCCA/edit?usp=sharing">스터디 가이드</a>
-    </div>
-
-- date: 10/28
-  week: 9
   title: >
     <strong>11 지역 변수와 전역 변수<br>
     12 배열과 문자열</strong>
@@ -95,6 +85,17 @@
   slides: "https://docs.google.com/presentation/d/19UHBMpkpZbhRO9Caus7-xr-r6fjfDn8rKhhwU0sTtdY/edit?usp=sharing"
   img2: 2024/hb-c/7-scope-arrays.jpg
   logistics:
+
+- date: 10/28
+  week: 9
+  title: >
+    <strong>Midterm Test</strong><br>
+    <div style="display: none;">
+      [<a href="https://forms.gle/inYD5upMwy1DQmRa7">퀴즈</a>]
+      [<a href="https://classroom.github.com/a/Qon0lvC2">실기</a>]
+      <br>
+      <a href="https://docs.google.com/presentation/d/1lMoA2v2qIU2-s5bFtOnbXPOctu5luoA8bEyWJsChCCA/edit?usp=sharing">스터디 가이드</a>
+    </div>
 
 - date: 11/4
   week: 10
