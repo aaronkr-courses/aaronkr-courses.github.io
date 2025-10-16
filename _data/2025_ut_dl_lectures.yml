@@ -96,7 +96,8 @@
   slides: "https://docs.google.com/presentation/d/1Z2NgQchn5V909BxOzkeyAYW_06j13WE0ATaGYqMPxUo/edit?usp=sharing"
   slides2:
   img: 2025/ut-dl/6-data-prep.jpg
-  logistics:
+  logistics: >
+    <a href="https://classroom.google.com/c/ODEzMDY3NTg2MDQ5?cjc=ag7acmfu">Google 클래스룸 가입</a> (@gmail.com 사용)
 
 - date: 10/23
   week: 8
