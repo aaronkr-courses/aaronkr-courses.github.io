@@ -102,7 +102,8 @@
   slides: "https://docs.google.com/presentation/d/1KEPp3V1-0r4AoOHp9F8icfqfCMny6KzUQdFB0_OU7RY/edit?usp=sharing"
   slides2:
   img: 2025/ut-mip/6-hypergraphs-domains.jpg
-  logistics:
+  logistics: >
+    <a href="https://classroom.google.com/c/ODA0NDc0MDE5MTQz?cjc=6dwfzika">Google 클래스룸 가입</a> (@gmail.com)
 
 - date: 10/23
   week: 8
