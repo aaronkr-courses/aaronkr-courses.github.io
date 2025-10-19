@@ -18,8 +18,9 @@ Most Arduino kits come with an Arduino UNO board, USB cable, and a variety of se
 ### Buy a Kit
 
 | Korea Basic Kit | Korea Advanced Kit | Official Starter Kit |
-|-----------------|--------------------|----------------------|
-| <a href="https://www.devicemart.co.kr/goods/view?no=1376694"><img src="/assets/img/pages/basic-arduino.jpg"></a> | | <a href="https://www.devicemart.co.kr/goods/view?no=1264627"><img src="/assets/img/pages/adv-arduino.jpg"></a> | | <a href="https://www.arduino.cc/education/edu-starter-kit/"><img src="/assets/img/pages/arduino-std-kit.webp"></a> |
+|:---------------:|:------------------:|:--------------------:|
+| <a href="https://www.devicemart.co.kr/goods/view?no=1376694"><img style="max-width: 150px; display: block; margin: 0 auto;" src="/assets/img/pages/basic-arduino.jpg"></a> | <a href="https://www.devicemart.co.kr/goods/view?no=1264627"><img style="max-width: 150px; display: block; margin: 0 auto;" src="/assets/img/pages/adv-arduino.jpg"></a> | <a href="https://www.arduino.cc/education/edu-starter-kit/"><img style="max-width: 150px; display: block; margin: 0 auto;" src="/assets/img/pages/arduino-std-kit.webp"></a> |
+| <a href="https://www.devicemart.co.kr/goods/view?no=1376694">Order Basic (Korean)</a> | <a href="https://www.devicemart.co.kr/goods/view?no=1264627">Order Advanced (Korean)</a> | <a href="https://www.arduino.cc/education/edu-starter-kit/">Order Official (Multilingual)</a> |
 
 ### Lessons
 
