@@ -116,9 +116,9 @@
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/14jNSSn6P8fdGgnUzuEjw2qm0Mo2v2tAmh8OYYR_-nWU/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/jbnu-python/7-nn-metrics.jpg
   logistics:
 
 - date: 10/27
