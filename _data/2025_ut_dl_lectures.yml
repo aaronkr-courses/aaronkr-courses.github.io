@@ -70,8 +70,7 @@
 - date: 10/1
   week: 5
   title: >
-    8장. 훈련과 테스팅<br>
-    9장. 과적합과 과소적합
+    8장. 훈련과 테스팅
   supp:
   readings:
   hw: "https://classroom.github.com/a/JSrqe66e"
@@ -88,8 +87,8 @@
 - date: 10/16
   week: 7
   title: >
-    10장. 데이터 준비<br>
-    11장. 분류기
+    9장. 과적합과 과소적합<br>
+    10장. 데이터 준비
   supp:
   readings:
   hw:
@@ -103,14 +102,14 @@
   week: 8
   title: >
     <strong style="color: red">LMS 온라인 동영상 수업</strong><br>
-    12장. 앙상블<br>
-    13장. 신경망
+    11장. 분류기<br>
+    12장. 앙상블
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1gATrmVIO2qtRrZyqL6lbGeDt26V6BxiLRbnYd4jGt8A/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/ut-dl/7-classifiers.jpg
   logistics:
 
 - date: 10/30
@@ -125,6 +124,7 @@
 - date: 11/6
   week: 10
   title: >
+    13장. 신경망<br>
     14장. 역전파<br>
     15장. 옵티마이저
   supp:
