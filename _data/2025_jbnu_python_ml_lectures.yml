@@ -126,9 +126,10 @@
   title: >
     <strong>Midterm Test</strong><br>
     <a href="https://docs.google.com/document/d/1P6kcW7Y0IqSf8VsOrUvGEYSLNC3DGh2fxeiwiquLn_U/edit?usp=sharing">Study Guide</a>
-    <div style="display: none;">
-      <br><a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
-      <br><a href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
+    <hr>
+    <div>
+      <a href="https://forms.gle/hnADBUhdZ4wD7rzdA" style="display: none;">Midterm Test A</a>
+      <br><a  style="display: none;" href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
     </div>
 
 - date: 11/3
