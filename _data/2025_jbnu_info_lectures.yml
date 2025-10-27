@@ -127,9 +127,10 @@
   title: >
     <strong>Midterm Test</strong><br>
     <a href="https://docs.google.com/presentation/d/1wqgA5ylGlZVApiVunBydzqdv3W7Ndgqi_BxwIUfyq_k/edit?usp=sharing">Study Guide</a>
-    <div style="display: none;">
-      <br><a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
-      <br><a href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
+    <hr>
+    <div>
+      <a href="https://forms.gle/4T3efioaP2sgecdD6">Test A (Monday)</a><br>
+      <a style="display: none;" href="#">Test B (Wednesday)</a>
     </div>
   logistics: >
     Not covered yet.
