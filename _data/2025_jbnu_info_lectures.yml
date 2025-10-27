@@ -129,7 +129,7 @@
     <a href="https://docs.google.com/presentation/d/1wqgA5ylGlZVApiVunBydzqdv3W7Ndgqi_BxwIUfyq_k/edit?usp=sharing">Study Guide</a>
     <hr>
     <div>
-      <a href="https://forms.gle/4T3efioaP2sgecdD6">Test A (Monday)</a><br>
+      <a style="display: none;" href="https://forms.gle/4T3efioaP2sgecdD6">Test A (Monday)</a><br>
       <a style="display: none;" href="#">Test B (Wednesday)</a>
     </div>
   logistics: >
