@@ -90,11 +90,11 @@
   week: 9
   title: >
     <strong>Midterm Test</strong><br>
-    <div style="display: none;">
-      [<a href="https://forms.gle/inYD5upMwy1DQmRa7">퀴즈</a>]
-      [<a href="https://classroom.github.com/a/Qon0lvC2">실기</a>]
+    <div>
+      [<a href="https://forms.gle/gN1xb8GiX9rKUKAD8">퀴즈</a>]
+      [<a style="display: none;" href="https://classroom.github.com/a/SmNw8oFb">실기</a>]
       <br>
-      <a href="https://docs.google.com/presentation/d/1lMoA2v2qIU2-s5bFtOnbXPOctu5luoA8bEyWJsChCCA/edit?usp=sharing">스터디 가이드</a>
+      <a style="display: none;" href="https://docs.google.com/presentation/d/1lMoA2v2qIU2-s5bFtOnbXPOctu5luoA8bEyWJsChCCA/edit?usp=sharing">스터디 가이드</a>
     </div>
 
 - date: 11/4
