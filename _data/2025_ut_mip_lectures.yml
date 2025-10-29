@@ -124,10 +124,11 @@
 - date: 10/30
   week: 9
   title: >
-    <strong>Midterm Test</strong>
+    <strong>Midterm Test</strong><br>
+    <a href="https://docs.google.com/document/d/1VtltgMQMcxV34BHLNncARVhx5PocbAMUY8i9Fu8vzkA/edit?usp=sharing">스터디 가이드 어휘</a>
     <div style="display: none;">
-      <br><a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
-      <br><a href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
+      <br><a href="">중간 프로젝트</a>
+      <br><a href="">중간 퀴즈</a>
     </div>
 
 - date: 11/6

@@ -95,13 +95,15 @@
 - date: 10/13
   week: 7
   title: >
-    Chapter 11. AC Power Analysis
+    Arduino Safety and <a href="https://aesk.arduino.cc/aesk/module/education/lesson/getting-started">Getting Started</a><br>
+    <a href="https://aesk.arduino.cc/aesk/module/education/lesson/traffic-signals">Traffic Signals Project</a>
   supp:
   readings:
-  hw:
+  hw: "https://classroom.google.com/c/ODA0MjcwNTc3NDEx/a/ODEyNDg2NTg1NDc1/details"
+  hw2: "https://classroom.google.com/c/ODA0MjcwNTc3NDEx/a/ODA0MjcyMjI2ODY4/details"
   slides: "https://docs.google.com/presentation/d/1zSw6xTzT_-e1egdPLCmg5YFbwLQJXfdp910QppV4fBU/edit?usp=sharing"
   slides2:
-  img: 2025/jbnu-circuits-ii/arduino-kits.jpg
+  img: pages/adv-arduino.jpg
   logistics: >
     <a href="https://classroom.google.com/c/ODA0MjcwNTc3NDEx?cjc=rw6xa36o">Join Google Classroom</a> (Gmail)<br>
     <a href="https://forms.gle/Vtd3SSqFneaop7nD6">Safety Quiz</a>
@@ -109,13 +111,13 @@
 - date: 10/20
   week: 8
   title: >
-    Chapter 12. Three-Phase Circuits
+    <a href="https://aesk.arduino.cc/aesk/module/education/lesson/dimmer-switch">Dimmer Switch Project</a>
   supp:
   readings:
-  hw:
-  slides:
+  hw: "https://classroom.google.com/c/ODA0MjcwNTc3NDEx/a/ODE1ODkyMzE0ODMz/details"
+  slides: "https://docs.google.com/presentation/d/1zSw6xTzT_-e1egdPLCmg5YFbwLQJXfdp910QppV4fBU/edit?usp=sharing"
   slides2:
-  img:
+  img: pages/adv-arduino.jpg
   logistics:
 
 - date: 10/27
@@ -123,15 +125,11 @@
   title: >
     <strong>Midterm Test</strong><br>
     <a href="https://docs.google.com/presentation/d/11ac-rFaeBNeNNLwcXGMR8xe0ebteHAqTZe9Py_1fvTE/edit?usp=sharing">Study Guide</a>
-    <div style="display: none;">
-      <br><a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
-      <br><a href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
-    </div>
 
 - date: 11/3
   week: 10
   title: >
-    Chapter 13. Magnetically Coupled Circuits
+    Chapter 11. AC Power Analysis
   supp:
   readings:
   hw:
@@ -143,7 +141,7 @@
 - date: 11/10
   week: 11
   title: >
-    Chapter 14. Frequency Response I
+    Chapter 12. Three-Phase Circuits I
   supp:
   readings:
   hw:
@@ -155,7 +153,7 @@
 - date: 11/17
   week: 12
   title: >
-    Chapter 14. Frequency Response II
+    Chapter 12. Three-Phase Circuits II
   supp:
   readings:
   hw:
@@ -167,7 +165,7 @@
 - date: 11/24
   week: 13
   title: >
-    Chapter 15. Introduction to the Laplace Transform
+    Chapter 13. Magnetically Coupled Circuits
   supp:
   readings:
   hw:
@@ -179,7 +177,7 @@
 - date: 12/1
   week: 14
   title: >
-    Chapter 16. Applications of the Laplace Transform
+    Chapter 14. Frequency Response I
   supp:
   readings:
   hw:
@@ -191,9 +189,7 @@
 - date: 12/8
   week: 15
   title: >
-    Chapter 17. The Fourier Series<br>
-    Chapter 18. Fourier Transform<br>
-    Chapter 19. Two-Port Networks
+    Chapter 14. Frequency Response II
   supp:
   readings:
   hw:
