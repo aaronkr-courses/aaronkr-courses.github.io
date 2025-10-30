@@ -116,10 +116,10 @@
   week: 9
   title: >
     <strong>Midterm Test</strong><br>
-    <a href="https://docs.google.com/document/d/1CdMXIaNnKhKj5R4Y5RPWTEfigSDE8gctFOpSp6N9J6I/edit?usp=sharing">스터디 가이드 어휘</a>
-    <div style="display: none;">
-      <br><a href="">중간 프로젝트</a>
-      <br><a href="">중간 퀴즈</a>
+    <a style="display: none;" href="https://docs.google.com/document/d/1CdMXIaNnKhKj5R4Y5RPWTEfigSDE8gctFOpSp6N9J6I/edit?usp=sharing">스터디 가이드 어휘</a>
+    <div>
+      <br><a href="https://forms.gle/cjdoXtqpeMPfCCre6">중간 퀴즈</a>
+      <br><a href="https://classroom.google.com/c/ODEzMDY3NTg2MDQ5/a/ODE3MjYzMTgwNzI1/details">중간 프로젝트</a>
     </div>
 
 - date: 11/6
