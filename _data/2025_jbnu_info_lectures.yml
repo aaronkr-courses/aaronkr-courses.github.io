@@ -134,28 +134,27 @@
   logistics: >
     Not covered yet.
     <strong>IV: Probabilities and Inference</strong><br>
+    24. Exact Marginalization<br>
+    27. Laplace's Method<br>
+    28. Model Comparison and Occam's Razor<br>
     29. Monte Carlo Methods<br>
     30. Efficient Monte Carlo Methods<br>
     31. Ising Models<br>
     32. Exact Monte Carlo Sampling<br>
-    <strong>IV: Probabilities and Inference</strong><br>
-    24. Exact Marginalization<br>
-    27. Laplace's Method<br>
-    28. Model Comparison and Occam's Razor
+    33. Variational Methods<br>
+    34. Independent Component Analysis and Latent Variable Modelling<br>
+    35. Random Inference Topics
 
 - date: 11/3
   week: 10
   title: >
-    <strong>IV: Probabilities and Inference</strong><br>
-    33. Variational Methods<br>
-    34. Independent Component Analysis and Latent Variable Modelling<br>
-    35. Random Inference Topics
+    <strong>Continuous Mutual Info, Channel Capacity</strong>
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1Le-aGLXoYOzCUO-0EmGM8tA0ARks8b4AY1AXQ5vdWlY/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/jbnu-info/9-cont-mi.jpg
   logistics:
 
 - date: 11/10
