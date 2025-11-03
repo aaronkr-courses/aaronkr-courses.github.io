@@ -96,8 +96,7 @@
   week: 7
   title: >
     <strong>Part III: Neural Networks</strong><br>
-    Chapter 7. Experiments with Neural Networks<br>
-    Chapter 8. Evaluating Models
+    Chapter 7. Experiments with Neural Networks
   supp:
   readings:
   hw:
@@ -110,9 +109,8 @@
 - date: 10/20
   week: 8
   title: >
-    <strong>Part IV: Convolutional Neural Networks</strong><br>
-    Chapter 9. Introduction to Convolutional Neural Networks<br>
-    Chapter 10. Experiments with Keras and MNIST
+    <strong>Part III: Neural Networks</strong><br>
+    Chapter 8. Evaluating Models
   supp:
   readings:
   hw:
@@ -137,22 +135,22 @@
   week: 10
   title: >
     <strong>Part IV: Convolutional Neural Networks</strong><br>
-    Chapter 11. Experiments with CIFAR-10<br>
-    Chapter 12. A Case Study: Classifying Audio Samples
+    Chapter 9. Introduction to Convolutional Neural Networks
   supp:
   readings:
   hw:
-  slides:
-  slides2:
-  img:
+  slides: "https://docs.google.com/presentation/d/13oRjfGqiK4P-fCM4mb9AFjaCMEPc7elLi7isMem7JIM/edit?usp=sharing"
+  slides2: "https://docs.google.com/presentation/d/1XG70FgXQiQrHcmdS0qzHsAyUG11T56mljDbC4FonuYY/edit?usp=sharing"
+  img: 2025/jbnu-python/9-nn-intro.jpg
   logistics:
 
 - date: 11/10
   week: 11
   title: >
-    <strong>Part V: Advanced Networks and Generative AI</strong><br>
-    Chapter 13. Advanced CNN Architectures<br>
-    Chapter 14. Fine-Tuning and Transfer Learning
+    <strong>Part IV: Convolutional Neural Networks</strong><br>
+    Chapter 10. Experiments with Keras and MNIST<br>
+    Chapter 11. Experiments with CIFAR-10<br>
+    Chapter 12. A Case Study: Classifying Audio Samples    
   supp:
   readings:
   hw:
@@ -165,6 +163,8 @@
   week: 12
   title: >
     <strong>Part V: Advanced Networks and Generative AI</strong><br>
+    Chapter 13. Advanced CNN Architectures<br>
+    Chapter 14. Fine-Tuning and Transfer Learning<br>
     Chapter 15. From Classification to Localization
   supp:
   readings:
