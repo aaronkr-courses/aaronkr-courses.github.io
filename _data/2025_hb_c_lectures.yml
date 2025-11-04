@@ -104,9 +104,9 @@
     13 포인터</strong>
   supp:
   readings: p. 289-333
-  hw:
+  hw: "https://classroom.github.com/a/DmHfqNH9"
   slides: "https://docs.google.com/presentation/d/1tzxXyGoTG_w6W9x0eqe4F2cSpfG6lDl2S-eJR-CfI0I/edit?usp=sharing"
-  img2: 2024/hb-c/9-pointers.jpg
+  img: 2024/hb-c/9-pointers.jpg
   logistics:
 
 - date: 11/11
