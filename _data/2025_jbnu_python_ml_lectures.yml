@@ -142,7 +142,8 @@
   slides: "https://docs.google.com/presentation/d/13oRjfGqiK4P-fCM4mb9AFjaCMEPc7elLi7isMem7JIM/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/1XG70FgXQiQrHcmdS0qzHsAyUG11T56mljDbC4FonuYY/edit?usp=sharing"
   img: 2025/jbnu-python/9-cnn-intro.jpg
-  logistics:
+  logistics: >
+    <a href="https://docs.google.com/presentation/d/1Y-8HfCAtk1LX8mZKY6bRj2-_4U3b2gE8-PMeIo_gTRg/edit?usp=sharing">Visualizing CNN Training</a>
 
 - date: 11/10
   week: 11
