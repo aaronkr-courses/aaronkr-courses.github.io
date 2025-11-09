@@ -155,10 +155,11 @@
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1fXyikoGPLaaXMCxiDHHumCDggYQjnTfJRQgQerIKKtg/edit?usp=sharing"
   slides2:
-  img:
-  logistics:
+  img: 2025/jbnu-python/10-audio.jpg
+  logistics: >
+    <a href="https://github.com/karolpiczak/ESC-50">ESC-50 Dataset for Audio Classification</a>
 
 - date: 11/17
   week: 12

@@ -160,15 +160,13 @@
 - date: 11/10
   week: 11
   title: >
-    <strong>IV: Probabilities and Inference</strong><br>
-    36. Decision Theory<br>
-    37. Bayesian Inference and Sampling Theory
+    <strong>Rate Distortion Theory</strong>
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1xPxiioUux8qr2jsD7-96w8_7grtolvdMGYBDg3SDCLI/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/jbnu-info/10-rd.jpg
   logistics:
 
 - date: 11/17
