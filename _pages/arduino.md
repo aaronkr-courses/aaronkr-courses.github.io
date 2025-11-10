@@ -26,6 +26,8 @@ Most Arduino kits come with an Arduino UNO board, USB cable, and a variety of se
 
 We will use as many of the [Education Starter Kit](https://aesk.arduino.cc) lessons as possible during the course. You may need to create a free account to access the lessons.
 
+**[STUDENT LOG BOOK](https://www.datocms-assets.com/42182/1579608838-aeskstudent-logbook.pdf)**
+
 - [Lesson 1: Getting Started with Arduino](https://aesk.arduino.cc/aesk/module/education/lesson/getting-started)
     - Learn how to set up your Arduino board and install the Arduino IDE software.
 - [Lesson 3: Traffic Signals](https://aesk.arduino.cc/aesk/module/education/lesson/traffic-signals)
@@ -33,6 +35,13 @@ We will use as many of the [Education Starter Kit](https://aesk.arduino.cc) less
 - [Lesson 4: Dimmer Switch](https://aesk.arduino.cc/aesk/module/education/lesson/dimmer-switch)
     - Attach a potentiometer to the breadboard. The side with two pins should go into holes 28e and 30e. The other pin should be in hole 29g. **(Use wires if necessary.)**
     - Build the "Dimmer Switch Circuit" (halfway down the page).
+- [Lesson 5: Holiday Lights](https://aesk.arduino.cc/aesk/module/education/lesson/holiday-lights)
+    - Design and create your own light-up circuit.
+    - Requirements: You must use between **4-8 LEDs** in your circuit (same color or different is optional).
+    - Components: _Push-button switch,_ potentiometer, one digital/one analog pin on the Arduino board.
+    - Note: Every LED must have a resistor wired with it in series.
+    - Code: Use at least ONE variable and ONE conditional (`if`) statement.
+
 
 ### Resources
 
