@@ -109,10 +109,7 @@
   week: 8
   title: >
     <strong style="color: red">LMS 온라인 동영상 수업</strong><br>
-    Chapter 9. Deep learning for medical image reconstruction<br>
-    (9장. 의료 영상 재구성을 위한 딥러닝)<br>
-    Chapter 10. Dynamic inference using neural architecture search in medical image segmentation<br>
-    (10장. 의료 영상 분할에서 신경망 구조 검색을 이용한 동적 추론)
+    중간고사 스터디 가이드
   supp:
   readings:
   hw:
@@ -135,10 +132,8 @@
 - date: 11/6
   week: 10
   title: >
-    Chapter 11. Multi-modality cardiac image analysis with deep learning<br>
-    (11장. 딥러닝을 이용한 다중 모달리티 심장 영상 분석)<br>
-    Chapter 12. Deep learning-based medical image registration<br>
-    (12장. 딥러닝 기반 의료 영상 등록)
+    Chapter 9. Deep learning for medical image reconstruction<br>
+    (9장. 의료 영상 재구성을 위한 딥러닝)
   supp:
   readings:
   hw:
@@ -150,19 +145,25 @@
 - date: 11/13
   week: 11
   title: >
-    Chapter 13. Data-driven learning strategies for biomarker detection and outcome prediction in Autism from task-based fMRI<br>
-    (13장. 작업 기반 fMRI에서 자폐증의 바이오마커 탐지 및 결과 예측을 위한 데이터 기반 학습 전략)
+    Chapter 10. Dynamic inference using neural architecture search in medical image segmentation<br>
+    (10장. 의료 영상 분할에서 신경망 구조 검색을 이용한 동적 추론)
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1c-M-fRRt9uBb_co5p7foZZfQzAmYZ3MWW7Ozvx1vONc/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/ut-mip/10-seg.jpg
   logistics:
 
 - date: 11/20
   week: 12
   title: >
+    Chapter 11. Multi-modality cardiac image analysis with deep learning<br>
+    (11장. 딥러닝을 이용한 다중 모달리티 심장 영상 분석)<br>
+    Chapter 12. Deep learning-based medical image registration<br>
+    (12장. 딥러닝 기반 의료 영상 등록)<br>
+    Chapter 13. Data-driven learning strategies for biomarker detection and outcome prediction in Autism from task-based fMRI<br>
+    (13장. 작업 기반 fMRI에서 자폐증의 바이오마커 탐지 및 결과 예측을 위한 데이터 기반 학습 전략)<br>
     Chapter 14. Deep learning in functional brain mapping and associated applications<br>
     (14장. 기능적 뇌 매핑 및 관련 응용에서의 딥러닝)
   supp:
