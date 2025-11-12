@@ -145,10 +145,11 @@
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1amfCscQHDUMPfttznKBRFGjBtBvE02aGQtncabxm7K4/edit?usp=sharing"
   slides2:
-  img:
-  logistics:
+  img: 2025/jbnu-circuits-ii/10-3-phase.jpg
+  logistics: >
+    <a href="https://aesk.arduino.cc/aesk/module/education/lesson/holiday-lights">Holiday Lights Project</a>
 
 - date: 11/17
   week: 12
