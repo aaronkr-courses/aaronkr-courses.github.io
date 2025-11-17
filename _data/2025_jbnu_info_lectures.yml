@@ -172,6 +172,18 @@
 - date: 11/17
   week: 12
   title: >
+    <strong>Transfer Entropy</strong>
+  supp:
+  readings:
+  hw:
+  slides: "https://docs.google.com/presentation/d/1vLpW48dMe1jnSf7kjrBX-O48AsLRpGZk5iTQi_eD2WE/edit?usp=sharing"
+  slides2:
+  img: 2025/jbnu-python/11-transfer.jpg
+  logistics:
+
+- date: 11/24
+  week: 13
+  title: >
     <strong>V: Neural Networks</strong><br>
     38. Introduction to Neural Networks<br>
     39. The Single Neuron as a Classifier<br>
@@ -184,8 +196,8 @@
   img:
   logistics:
 
-- date: 11/24
-  week: 13
+- date: 12/1
+  week: 14
   title: >
     <strong>V: Neural Networks</strong><br>
     41. Learning as Inference<br>
@@ -199,25 +211,13 @@
   img:
   logistics:
 
-- date: 12/1
-  week: 14
+- date: 12/8
+  week: 15
   title: >
     <strong>V: Neural Networks</strong><br>
     44. Supervised Learning in Multilayer Networks<br>
     45. Gaussian Processes<br>
     46. Deconvolution
-  supp:
-  readings:
-  hw:
-  slides:
-  slides2:
-  img:
-  logistics:
-
-- date: 12/8
-  week: 15
-  title: >
-    <strong>TBD (Final Project?)</strong>
   supp:
   readings:
   hw:
