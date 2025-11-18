@@ -112,8 +112,7 @@
 - date: 11/11
   week: 11
   title: >
-    <strong>14 표준 입력 함수<br>
-    15 배열과 포인터</strong>
+    <strong>14 표준 입력 함수</strong>
   supp:
   readings: p. 334-383
   hw: "https://classroom.github.com/a/lfB_mNex"
@@ -124,12 +123,13 @@
 - date: 11/18
   week: 12
   title: >
-    <strong>16 메모리 할당</strong>
+    <strong>15 배열과 포인터<br>
+    16 메모리 할당</strong>
   supp:
   readings: p. 368-421
-  hw:
+  hw: "https://classroom.github.com/a/WM472lbz"
   slides: "https://docs.google.com/presentation/d/1oTyt_AcTwUKFfxhA4I0vsdCCoc6RPEIUZ4ldDB0x7PM/edit?usp=sharing"
-  img2: 2024/hb-c/11-memory.jpg
+  img: 2024/hb-c/11-memory.jpg
   logistics:
 
 - date: 11/25
