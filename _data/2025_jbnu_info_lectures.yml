@@ -178,28 +178,28 @@
   hw:
   slides: "https://docs.google.com/presentation/d/1vLpW48dMe1jnSf7kjrBX-O48AsLRpGZk5iTQi_eD2WE/edit?usp=sharing"
   slides2:
-  img: 2025/jbnu-python/11-transfer.jpg
+  img: 2025/jbnu-info/11-transfer.jpg
   logistics:
 
 - date: 11/24
   week: 13
   title: >
-    <strong>V: Neural Networks</strong><br>
-    38. Introduction to Neural Networks<br>
-    39. The Single Neuron as a Classifier<br>
-    40. Capacity of a Single Neuron
+    <strong>Information as Nature's Currency</strong>
   supp:
   readings:
   hw:
   slides: "https://docs.google.com/presentation/d/1NjT9QmRU5Hn9q2jN3vp4NLKoZes28C63rYykNpw4Sk8/edit?usp=sharing"
   slides2:
-  img: 2025/jbnu-python/12-nature.jpg
+  img: 2025/jbnu-info/12-nature.jpg
   logistics:
 
 - date: 12/1
   week: 14
   title: >
     <strong>V: Neural Networks</strong><br>
+    38. Introduction to Neural Networks<br>
+    39. The Single Neuron as a Classifier<br>
+    40. Capacity of a Single Neuron
     41. Learning as Inference<br>
     42. Hopfield Networks<br>
     43. Boltzmann Machines
