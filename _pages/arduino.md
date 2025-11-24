@@ -41,7 +41,12 @@ We will use as many of the [Education Starter Kit](https://aesk.arduino.cc) less
     - Components: _Push-button switch,_ potentiometer, one digital/one analog pin on the Arduino board.
     - Note: Every LED must have a resistor wired with it in series.
     - Code: Use at least ONE variable and ONE conditional (`if`) statement.
-
+- [Lesson 6: Sports Robot](https://aesk.arduino.cc/aesk/module/education/lesson/sports-robot)
+    - Wire the circuit _without_ a **capacitor**.
+    - Just make sure the servo motor gets power.
+- [Lesson 7: Windsheild Wipers](https://aesk.arduino.cc/aesk/module/education/lesson/windshield-wipers)
+    - Wire the windshield wipers circuit (you don't need to add a cardboard wiper)
+    - Also complete the "Washer Mode" portion
 
 ### Resources
 
