@@ -184,9 +184,9 @@
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1eOLjk_OUj0yAo8DxzCv4iqFxrySv-kKE2x0FXXAmaqs/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/ut-dl/11-autoencoders.jpg
   logistics:
 
 - date: 12/1
