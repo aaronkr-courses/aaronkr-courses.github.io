@@ -138,9 +138,9 @@
     <strong>17 다차원 포인터</strong>
   supp:
   readings: p. 368-454
-  hw:
+  hw: "https://classroom.github.com/a/zO8_fwWf"
   slides: "https://docs.google.com/presentation/d/1IXavL4kD_Y1z2sd4V8bf512VVBg3itIznfLtgUaNRGA/edit?usp=sharing"
-  img2: 2024/hb-c/12-2d-pointers.jpg
+  img: 2024/hb-c/12-2d-pointers.jpg
   logistics:
 
 - date: 12/2
