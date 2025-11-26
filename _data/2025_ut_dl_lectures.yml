@@ -157,9 +157,9 @@
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/16vZ_GCQMY2XllFLQSmRZy_ksqjBGC1g_5NkaXgzdJek/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/ut-dl/11-autoencoders.jpg
   logistics:
 
 - date: 11/27
@@ -170,9 +170,9 @@
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1HgSjilxo40YybegBurKh72x-puoHkQ4bqGfaq7ExOYY/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/ut-dl/12-rnns.jpg
   logistics:
 
 - date: 12/4

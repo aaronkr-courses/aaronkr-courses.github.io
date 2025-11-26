@@ -161,37 +161,37 @@
     Chapter 11. Multi-modality cardiac image analysis with deep learning<br>
     (11장. 딥러닝을 이용한 다중 모달리티 심장 영상 분석)<br>
     Chapter 12. Deep learning-based medical image registration<br>
-    (12장. 딥러닝 기반 의료 영상 등록)<br>
-    Chapter 13. Data-driven learning strategies for biomarker detection and outcome prediction in Autism from task-based fMRI<br>
-    (13장. 작업 기반 fMRI에서 자폐증의 바이오마커 탐지 및 결과 예측을 위한 데이터 기반 학습 전략)<br>
-    Chapter 14. Deep learning in functional brain mapping and associated applications<br>
-    (14장. 기능적 뇌 매핑 및 관련 응용에서의 딥러닝)
+    (12장. 딥러닝 기반 의료 영상 등록)
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1CENvcEjxzAUk_BewXvCD0iPS7RRQSn82QjjVnMBue8g/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/ut-mip/11-multi-modal.jpg
   logistics:
 
 - date: 11/27
   week: 13
   title: >
-    Chapter 15. Detecting, localizing, and classifying polyps from colonoscopy videos using deep learning<br>
-    (15장. 대장내시경 비디오에서 딥러닝을 이용한 폴립 탐지, 위치 파악 및 분류)
+    Chapter 13. Data-driven learning strategies for biomarker detection and outcome prediction in Autism from task-based fMRI<br>
+    (13장. 작업 기반 fMRI에서 자폐증의 바이오마커 탐지 및 결과 예측을 위한 데이터 기반 학습 전략)
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1CVT7ygichF3DsBuXfrmAVdRGoJl1C34xj3munaYBZaA/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/ut-mip/12-autism.jpg
   logistics:
 
 - date: 12/4
   week: 14
   title: >
+    Chapter 14. Deep learning in functional brain mapping and associated applications<br>
+    (14장. 기능적 뇌 매핑 및 관련 응용에서의 딥러닝)<br>
+    Chapter 15. Detecting, localizing, and classifying polyps from colonoscopy videos using deep learning<br>
+    (15장. 대장내시경 비디오에서 딥러닝을 이용한 폴립 탐지, 위치 파악 및 분류)<br>
     Chapter 16. OCTA segmentation with limited training data using disentangled representation learning<br>
-    (16장. 분리된 표현 학습을 이용한 제한된 훈련 데이터를 가진 OCTA 분할)<br>
+    (16장. 분리된 표현 학습을 이용한 제한된 훈련 데이터를 가진 OCTA 분할)
   supp:
   readings:
   hw:
