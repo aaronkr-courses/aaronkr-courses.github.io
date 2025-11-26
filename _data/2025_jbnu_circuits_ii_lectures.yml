@@ -158,22 +158,24 @@
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1amfCscQHDUMPfttznKBRFGjBtBvE02aGQtncabxm7K4/edit?usp=sharing"
   slides2:
-  img:
-  logistics:
+  img: 2025/jbnu-circuits-ii/10-3-phase.jpg
+  logistics: >
+    <a href="https://aesk.arduino.cc/aesk/module/education/lesson/sports-robot">Sports Robot (Servo Motor)</a>
 
 - date: 11/24
   week: 13
   title: >
-    Chapter 13. Magnetically Coupled Circuits
+    Chapter 13. Magnetically Coupled Circuits I
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/17cjro_BUqAZCmKj93ToRS1WmwQtuc55MoIOt1aBLn70/edit?usp=sharing"
   slides2:
-  img:
-  logistics:
+  img: 2025/jbnu-circuits-ii/12-magnetic-coupling.jpg
+  logistics: >
+    <a href="https://aesk.arduino.cc/aesk/module/education/lesson/windshield-wipers">Windsheild Wipers</a>
 
 - date: 12/1
   week: 14
