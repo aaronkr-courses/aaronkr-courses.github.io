@@ -184,7 +184,7 @@
 - date: 11/24
   week: 13
   title: >
-    <strong>Information as Nature's Currency</strong>
+    <strong>Information as Nature's Currency I</strong>
   supp:
   readings:
   hw:
@@ -196,25 +196,25 @@
 - date: 12/1
   week: 14
   title: >
-    <strong>V: Neural Networks</strong><br>
-    38. Introduction to Neural Networks<br>
-    39. The Single Neuron as a Classifier<br>
-    40. Capacity of a Single Neuron
-    41. Learning as Inference<br>
-    42. Hopfield Networks<br>
-    43. Boltzmann Machines
+    <strong>Information as Nature's Currency II</strong>
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1NjT9QmRU5Hn9q2jN3vp4NLKoZes28C63rYykNpw4Sk8/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/jbnu-info/12-nature.jpg
   logistics:
 
 - date: 12/8
   week: 15
   title: >
     <strong>V: Neural Networks</strong><br>
+    38. Introduction to Neural Networks<br>
+    39. The Single Neuron as a Classifier<br>
+    40. Capacity of a Single Neuron
+    41. Learning as Inference<br>
+    42. Hopfield Networks<br>
+    43. Boltzmann Machines<br>
     44. Supervised Learning in Multilayer Networks<br>
     45. Gaussian Processes<br>
     46. Deconvolution

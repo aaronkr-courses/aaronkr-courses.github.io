@@ -180,19 +180,19 @@
 - date: 12/1
   week: 14
   title: >
-    Chapter 14. Frequency Response I
+    Chapter 13. Magnetically Coupled Circuits II
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/17cjro_BUqAZCmKj93ToRS1WmwQtuc55MoIOt1aBLn70/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/jbnu-circuits-ii/12-magnetic-coupling.jpg
   logistics:
 
 - date: 12/8
   week: 15
   title: >
-    Chapter 14. Frequency Response II
+    Chapter 14. Frequency Response
   supp:
   readings:
   hw:

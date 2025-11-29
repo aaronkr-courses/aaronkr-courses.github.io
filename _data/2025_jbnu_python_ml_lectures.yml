@@ -149,9 +149,9 @@
   week: 11
   title: >
     <strong>Part IV: Convolutional Neural Networks</strong><br>
-    Chapter 10. Experiments with Keras and MNIST<br>
-    Chapter 11. Experiments with CIFAR-10<br>
-    Chapter 12. A Case Study: Classifying Audio Samples    
+    <del>Chapter 10. Experiments with Keras and MNIST<br>
+    Chapter 11. Experiments with CIFAR-10<br></del>
+    Chapter 12. A Case Study: Classifying Audio Samples
   supp:
   readings:
   hw:
@@ -167,7 +167,7 @@
     <strong>Part V: Advanced Networks and Generative AI</strong><br>
     Chapter 13. Advanced CNN Architectures<br>
     Chapter 14. Fine-Tuning and Transfer Learning<br>
-    Chapter 15. From Classification to Localization
+    <del>Chapter 15. From Classification to Localization</del>
   supp:
   readings:
   hw: "https://classroom.google.com/c/ODE3ODkxMTUyNDM2/a/ODI5MjgyNzkxOTAz/details"
@@ -199,7 +199,7 @@
   hw:
   slides:
   slides2:
-  img:
+  img2: 2025/jbnu-python/12-gans.jpg
   logistics:
 
 - date: 12/8
@@ -212,7 +212,7 @@
   hw:
   slides:
   slides2:
-  img:
+  img2: 2025/jbnu-python/13-llms.jpg
   logistics:
 
 - date: 12/15
