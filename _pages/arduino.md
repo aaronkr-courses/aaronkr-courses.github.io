@@ -44,9 +44,14 @@ We will use as many of the [Education Starter Kit](https://aesk.arduino.cc) less
 - [Lesson 6: Sports Robot](https://aesk.arduino.cc/aesk/module/education/lesson/sports-robot)
     - Wire the circuit _without_ a **capacitor**.
     - Just make sure the servo motor gets power.
-- [Lesson 7: Windsheild Wipers](https://aesk.arduino.cc/aesk/module/education/lesson/windshield-wipers)
+- [Lesson 7: Windshield Wipers](https://aesk.arduino.cc/aesk/module/education/lesson/windshield-wipers)
     - Wire the windshield wipers circuit (you don't need to add a cardboard wiper)
     - Also complete the "Washer Mode" portion
+- [Lesson 8: Musical Keyboard](https://aesk.arduino.cc/aesk/module/education/lesson/musical-keyboard)
+    - The circuit shows 5 buttons, but our kit only has 4. You can omit the last button.
+    - Also, our kits do not have different Ohm resistors for each button. You can use the same resistor value for all buttons (e.g., 10k Ohm).
+- [Lesson 9: Lightwave Radar](https://aesk.arduino.cc/aesk/module/education/lesson/light-wave-radar-cp)
+    - You can choose to build either the Musical Keyboard or the Lightwave Radar project.
 
 ### Resources
 
