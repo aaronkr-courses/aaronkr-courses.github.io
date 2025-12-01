@@ -193,13 +193,13 @@
   week: 14
   title: >
     <strong>Part V: Advanced Networks and Generative AI</strong><br>
-    Chapter 17. Generative Adversarial Networks (GANs)
+    RNNs, Attention, & Transformers
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1HgSjilxo40YybegBurKh72x-puoHkQ4bqGfaq7ExOYY/edit?usp=sharing"
   slides2:
-  img2: 2025/jbnu-python/12-gans.jpg
+  img: 2025/ut-dl/12-rnns.jpg
   logistics:
 
 - date: 12/8
