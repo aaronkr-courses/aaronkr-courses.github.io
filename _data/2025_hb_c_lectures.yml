@@ -149,9 +149,9 @@
     <strong>18 구조체와 연결 리스트</strong>
   supp:
   readings: p. 455-496
-  hw:
+  hw: "https://classroom.github.com/a/UEjCy2cZ"
   slides: "https://docs.google.com/presentation/d/1svf1SoawCfFYaxxwKY4aHxe8rUPb8m0n34V_wESoRlw/edit?usp=sharing"
-  img2: 2024/hb-c/13-structs.jpg
+  img: 2024/hb-c/13-structs.jpg
   logistics:
 
 - date: 12/9
