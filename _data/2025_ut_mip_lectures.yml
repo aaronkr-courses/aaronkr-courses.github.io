@@ -187,22 +187,22 @@
   week: 14
   title: >
     Chapter 14. Deep learning in functional brain mapping and associated applications<br>
-    (14장. 기능적 뇌 매핑 및 관련 응용에서의 딥러닝)<br>
-    Chapter 15. Detecting, localizing, and classifying polyps from colonoscopy videos using deep learning<br>
-    (15장. 대장내시경 비디오에서 딥러닝을 이용한 폴립 탐지, 위치 파악 및 분류)<br>
-    Chapter 16. OCTA segmentation with limited training data using disentangled representation learning<br>
-    (16장. 분리된 표현 학습을 이용한 제한된 훈련 데이터를 가진 OCTA 분할)
+    (14장. 기능적 뇌 매핑 및 관련 응용에서의 딥러닝)
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1P1ELBsWSJQN3M2Jc1yMMudGKjTx44Ew7YsO2XXkNf4E/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/ut-mip/13-brain-mapping.jpg
   logistics:
 
 - date: 12/11
   week: 15
   title: >
+    Chapter 15. Detecting, localizing, and classifying polyps from colonoscopy videos using deep learning<br>
+    (15장. 대장내시경 비디오에서 딥러닝을 이용한 폴립 탐지, 위치 파악 및 분류)<br>
+    Chapter 16. OCTA segmentation with limited training data using disentangled representation learning<br>
+    (16장. 분리된 표현 학습을 이용한 제한된 훈련 데이터를 가진 OCTA 분할)<br>
     Chapter 17. Considerations in the assessment of machine learning algorithm performance for medical imaging<br>
     (17장. 의료 영상에서 기계 학습 알고리즘 성능 평가 시 고려사항)
   supp:
