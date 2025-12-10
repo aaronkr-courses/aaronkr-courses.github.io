@@ -210,9 +210,9 @@
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1VlAKcHFVAIxXmiHOr9ZcAaDJ6jvaAj-J6G9vHiJbmbI/edit?usp=sharing"
   slides2:
-  img2: 2025/jbnu-python/13-llms.jpg
+  img2: 2025/ut-dl/14-gans.jpg
   logistics:
 
 - date: 12/15
