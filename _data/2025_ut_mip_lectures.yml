@@ -202,15 +202,13 @@
     Chapter 15. Detecting, localizing, and classifying polyps from colonoscopy videos using deep learning<br>
     (15장. 대장내시경 비디오에서 딥러닝을 이용한 폴립 탐지, 위치 파악 및 분류)<br>
     Chapter 16. OCTA segmentation with limited training data using disentangled representation learning<br>
-    (16장. 분리된 표현 학습을 이용한 제한된 훈련 데이터를 가진 OCTA 분할)<br>
-    Chapter 17. Considerations in the assessment of machine learning algorithm performance for medical imaging<br>
-    (17장. 의료 영상에서 기계 학습 알고리즘 성능 평가 시 고려사항)
+    (16장. 분리된 표현 학습을 이용한 제한된 훈련 데이터를 가진 OCTA 분할)
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1HKnH7abJSyrFP0EGDlrJNwqYHVAkSVM4pTDHiPIW4P8/edit?usp=sharing"
   slides2:
-  img:
+  img: 2025/ut-mip/14-octa.jpg
   logistics:
 
 - date: 12/18
