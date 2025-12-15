@@ -219,7 +219,9 @@
   week: 16
   title: >
     <strong>Final Test</strong><br>
-    <a href="https://docs.google.com/document/d/1KQluJI7Whq6U54O56opRKCs7gwhugHfbEmPgoge1T4k/edit?usp=sharing">Study Guide</a><br><br>
+    <a href="https://docs.google.com/document/d/1KQluJI7Whq6U54O56opRKCs7gwhugHfbEmPgoge1T4k/edit?usp=sharing">Study Guide</a><br>
+    <a href="https://forms.gle/bcY4Q7eSRLyH4Cz7A">Test A (Monday)</a><br>
+    <a style="display: none" href="">Test B (Wednesday)</a><br><br>
     <a href="https://forms.gle/x76YgKuEEZLyqzqu8">GitHub vs. Colab Survey</a>
     <div style="display: none;">
       <br><a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
