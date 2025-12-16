@@ -124,7 +124,6 @@
   title: >
     <strong>Midterm Test</strong><br>
     <a href="https://docs.google.com/document/d/1P6kcW7Y0IqSf8VsOrUvGEYSLNC3DGh2fxeiwiquLn_U/edit?usp=sharing">Study Guide</a>
-    <hr style="margin-top: 10px; margin-bottom: 10px;">
     <div>
       <a href="https://classroom.google.com/c/ODE3ODkxMTUyNDM2/a/ODE3MDI3MDg0NTgz/details">Midterm Project <strong>Due: Nov 9, 2025 0:00</strong></a><br>
       <a style="display: none;" href="https://forms.gle/hnADBUhdZ4wD7rzdA">Midterm Test A</a><br>
@@ -220,10 +219,7 @@
   title: >
     <strong>Final Test</strong><br>
     <a href="https://docs.google.com/document/d/1KQluJI7Whq6U54O56opRKCs7gwhugHfbEmPgoge1T4k/edit?usp=sharing">Study Guide</a><br>
-    <a href="https://forms.gle/bcY4Q7eSRLyH4Cz7A">Test A (Monday)</a><br>
+    <a style="display: none" href="https://forms.gle/bcY4Q7eSRLyH4Cz7A">Test A (Monday)</a><br>
     <a style="display: none" href="">Test B (Wednesday)</a><br><br>
     <a href="https://forms.gle/x76YgKuEEZLyqzqu8">GitHub vs. Colab Survey</a>
-    <div style="display: none;">
-      <br><a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
-      <br><a href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
-    </div>
+
