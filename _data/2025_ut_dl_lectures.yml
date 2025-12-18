@@ -202,8 +202,7 @@
 - date: 12/18
   week: 16
   title: >
-    <strong>Final Test</strong>
-    <div style="display: none;">
-      <br><a href="https://docs.google.com/presentation/d/10fbnjsPThjdAY70T_91tLPwxrTQ9JssKHU52dmVtvzs/edit?usp=sharing">스터디 가이드</a>
-      <br><a href="https://forms.gle/wBXEg8Byt55so6VY7">중간퀴즈</a>
+    <strong>Final Test</strong><br>
+    <div>
+      <a href="https://forms.gle/WDTPWLdQtpo9x2D6A">기말퀴즈</a>
     </div>
