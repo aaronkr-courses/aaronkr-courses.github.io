@@ -7,7 +7,6 @@ logo: ut-logo.png
 img: assets/img/books/medical-dl-old.jpg
 importance: 7
 category: 2025-2
-now: Yes
 
 toc:
   - name: Schedule 강의일정

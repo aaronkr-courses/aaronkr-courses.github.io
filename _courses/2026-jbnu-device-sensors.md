@@ -1,12 +1,13 @@
 ---
 layout: distill
-title: Convergence Information Transmission
-subtitle: 융합형 정보전송
-description: 0000130650 • 2025년 2학기 • 전북대학교
+title: Sensor Analysis
+subtitle: 기기분석이론
+description: 0000130650 • 2026년 1학기 • 전북대학교
 logo: jbnu-logo-2.png
 img: assets/img/books/info-theory-learning.jpg
-importance: 1
-category: 2025-2
+importance: 7
+category: 2026-1
+now: Yes
 
 toc:
   - name: Schedule 강의일정

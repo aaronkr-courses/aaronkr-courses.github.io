@@ -1,12 +1,13 @@
 ---
 layout: distill
-title: Program-Based Circuit Theory II (AC)
+title: Convergence Power Electronics
 subtitle: 프로그램 기반 회로 이론 II (AC)
-description: 0000127048 • 2025년 2학기 • 전북대학교
+description: 0000127048 • 2026년 1학기 • 전북대학교
 logo: jbnu-logo-2.png
 img: assets/img/books/electric-circuits.jpg
-importance: 3
-category: 2025-2
+importance: 5
+category: 2026-1
+now: Yes
 
 toc:
   - name: Schedule 강의일정

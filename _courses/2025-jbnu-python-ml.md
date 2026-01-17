@@ -7,7 +7,6 @@ logo: jbnu-logo-2.png
 img: assets/img/books/practical-dl.jpg
 importance: 2
 category: 2025-2
-now: Yes
 
 toc:
   - name: Schedule 강의일정
