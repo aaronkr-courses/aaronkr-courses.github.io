@@ -2,9 +2,9 @@
 layout: distill
 title: IoT
 sutitle: 사물인터넷
-description: INFO2118 • 2025년 1학기 • 한밭대학교
+description: ??? • 2026년 1학기 • 한국교통대학교
 logo: ut-logo.png
-img: assets/img/books/cpp-fast.jpg
+img: assets/img/books/iot.jpg
 importance: 1
 category: 2026-1
 now: Yes
@@ -28,37 +28,30 @@ toc:
   - name: Instructor 강사소개
 
 information:
-  - section: INFO2118
-    time: 금 6789 | Fri 2pm-6pm
-    location: N4동 316호
-    kakaotalk: https://open.kakao.com/o/gHkvRgjh
+  - section: ???
+    time: 월 123 | Mon 9am-12pm
+    location: ???
+    kakaotalk: 
 
 Main-Text:
   - text: "주교재"
-    author: "앤드루 쾨니히, 바버라 E. 무 저 / 류태호 역"
+    author: "양재삼 저"
     title: >
-      <strong>Accelerated C++:  C++를 C++답게 배우는 16가지 방법</strong>
-    publisher: "한빛미디어 | 2018년 11월 05일"
-    link: "https://www.yes24.com/Product/Goods/66318020"
+      <strong>마이크로파이썬을 활용한 사물인터넷</strong> 챗GPT로 코딩하기
+    publisher: "한빛아카데미 | 2025년 01월 02일"
+    link: "https://www.yes24.com/product/goods/141217787"
     code:
     notes:
-    image: books/cpp-fast.jpg
-
-Supplementary:
-  - text: "부교재"
-    author: "박준태 저"
-    title: >
-      <strong>초보자를 위한 C++ 200제</strong>
-    publisher: "정보문화사 | 2018년 04월 30일"
-    link: "https://www.yes24.com/Product/Goods/60524662"
-    code:
-    notes:
-    image: books/cpp-200.jpg
+    image: books/iot.jpg
 ---
+
+#### Grading 평가방법
+
+| 출석 (Att): <strong style="color: #9b65ff;">10%</strong> | 중간고사 (Midterm): <strong style="color: #9b65ff;">25%</strong> | 기말고사 (Final): <strong style="color: #9b65ff;">30%</strong> | 과제 (HW): <strong style="color: #9b65ff;">20%</strong> | 프로젝트: <strong style="color: #9b65ff;">15%</strong> |
 
 ## Schedule 강의일정
 
-{% include_relative 2025/hb-cpp/schedule.md %}
+{% include schedule.md data_file="2026_ut_iot_lectures" %}
 
 <a class="btncv" href="#">Top</a>
 
@@ -66,30 +59,13 @@ Supplementary:
 
 ## Overview 개요
 
-<img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/cpp-fast.jpg" />
+<img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/iot.jpg" />
 
-<strong>라이브러리 중심으로 배우는 C++ 핵심<br>
-Core C++ learning with a focus on libraries</strong>
+<strong>마이크로파이썬과 챗GPT를 활용해</strong>
 
-C++는 기존 C에서 좀 더 발전한 프로그래밍 언어입니다. 하지만 C를 처음 배웠던 사람은 자칫 C++에서 제시하는 프로그래밍 방법이 아닌 C 프로그래밍을 하던 습관대로 프로그램을 만들려고 할지도 모릅니다.
+<em>누구나 쉽게 구현하는 사물인터넷 세상!</em>
 
-이 책은 16개 장과 부록 2개를 통해 초중급 프로그래머가 C++를 C++답게 코딩하는 방법을 제대로 알려줍니다. C++ 표준 라이브러리를 이용해 함수, 데이터 구조, 클래스, 상속 등 객체지향 프로그래밍 개념으로 C++ 프로그래밍을 하는 방법을 순서대로 소개합니다.
-
-또한 특정 문제를 해결하는 프로그램을 작성하는 과정 각각에 도움이 되는 C++ 및 표준 라이브러리의 기능을 소개하는 독특한 방식을 취합니다. 단순한 문법 파악이 아닌 프로그래밍하는 원리를 알 수 있는 학습 구조로 이루어져 있습니다. 프로그래밍 언어를 한 번이라도 학습한 적 있는 분, STL을 사용하여 C++ 프로그래밍의 속도를 높이고 싶은 분이라면 이 책으로 C++ 프로그래밍을 제대로 배우기 바랍니다.
-
-1. 핵심 개념을 적용하면서 발전시키는 학생 성적 관리 프로그램 만들기
-2. 핵심 정리로 배운 내용 다지기
-3. 연습문제를 풀면서 다지는 응용 기술 습득
-
-C++ is a programming language that is more advanced than existing C. However, people who learned C for the first time may try to create programs according to their C programming habits rather than the programming method suggested by C++.
-
-Through 16 chapters and two appendices, this book teaches beginner and intermediate programmers how to code C++ like C++. We sequentially introduce how to do C++ programming using object-oriented programming concepts such as functions, data structures, classes, and inheritance using the C++ standard library.
-
-It also takes a unique approach to introducing features of C++ and the standard library, each of which helps in the process of writing a program that solves a specific problem. It has a learning structure that allows you to understand programming principles rather than simply understanding grammar. If you have ever learned a programming language or want to speed up C++ programming using STL, I recommend learning C++ programming properly with this book.
-
-1. Create a student grade management program that develops while applying core concepts
-2. Consolidate what you have learned by organizing key points
-3. Acquire application skills by solving practice problems
+이 책은 간결한 언어인 마이크로파이썬을 활용해 누구나 쉽게 사물인터넷(IoT)을 시작할 수 있도록 했다. 일관된 소프트웨어 공학적 관점으로 IoT 관련 기술을 서술하고, 표준화된 모듈 기반 실습을 통해 IoT의 전체 사이클을 효과적으로 이해할 수 있게 했다. 또한 챗GPT를 이용해 복잡한 코딩은 간단하게, 아이디어는 더 빠르게 실현할 수 있도록 정리했다. IoT를 처음 시작하는 분부터 나만의 스마트 IoT 프로젝트를 꿈꾸는 분까지, 이 책과 함께라면 누구든 나만의 사물인터넷 세상을 꾸려나갈 수 있을 것이다.
 
 ## Textbook 교재
 
@@ -106,7 +82,8 @@ It also takes a unique approach to introducing features of C++ and the standard 
 - 출석: **10%**
 - 중간고사: **25%**
 - 기말고사: **30%**
-- 과제 (연습문제, 실습코드, 등): **35%**
+- 과제 (연습문제, 실습코드, 등): **20%**
+- 프로젝트: **15%**
 
 {% include_relative common/policies.md %}
 

@@ -7,21 +7,27 @@ dropdown: true
 children:
   - title: All Courses
     permalink: /courses/
+    - title: divider
+  - title: UT-IOT
+    permalink: /courses/2026-ut-iot/
+  - title: UT-DB
+    permalink: /courses/2026-ut-db/
   - title: divider
-  - title: JBNU-INFO
-    permalink: /courses/2025-jbnu-info/
-  - title: JBNU-ML
-    permalink: /courses/2025-jbnu-python-ml/
-  - title: JBNU-CIRCUITS-II
-    permalink: /courses/2025-jbnu-circuits-ii/
+  - title: WKU-PHP
+    permalink: /courses/2026-wku-php/
   - title: divider
-  - title: HB-C
-    permalink: /courses/2025-hb-c/
+  - title: HB-C++
+    permalink: /courses/2026-hb-cpp/
   - title: divider
-  - title: UT-DL
-    permalink: /courses/2025-ut-dl/
-  - title: UT-MIP
-    permalink: /courses/2025-ut-mip/
+  - title: JBNU-POWER
+    permalink: /courses/2026-jbnu-pe/
+  - title: JBNU-CIRCUITS-DC
+    permalink: /courses/2026-jbnu-dc/
+  - title: JBNU-DEVICES
+    permalink: /courses/2026-jbnu-devs/
+  - title: divider
+  - title: JNUE-ISS
+    permalink: /courses/2026-jnue-iss/
   - title: divider
   - title: Archives
     permalink: /courses/

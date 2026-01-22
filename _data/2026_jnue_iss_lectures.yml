@@ -1,0 +1,191 @@
+- date: 3/5
+  week: 1
+  title: >
+    <strong>수업소개</strong>
+  slides: "https://docs.google.com/presentation/d/1WPp0FgqR41laebl1tYrJqtumvFfPpv5nnTzT59-Gltw/edit?usp=sharing"
+  readings:
+  supp:
+  hw:
+  img: 2025/jnue-iss/1-intro.jpg
+  logistics:
+
+- date: 3/12
+  week: 2
+  title: >
+    <strong>1장 엑셀 시작 전 꼭 알아야 하는 다섯 가지<br>
+    2장 쉽지만 강력한 기초 기능 익히기</strong>
+  slides: "https://docs.google.com/presentation/d/1Wu-AiNpgdrCuJHD8OQVX9-6Euh00Q_aR5dzZSLF3Bsg/edit?usp=sharing"
+  readings:
+  supp:
+  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzU4NTY2MzQ3NDc3/details"
+  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzU4NTczMzgyOTc2/details"
+  img: 2025/jnue-iss/2-starting.jpg
+  logistics: >
+    <a href="https://classroom.google.com/c/NzU3NjE5NTQ0MTc2?cjc=vagjo5g">Google 클래스룸 (음악)</a><br><br>
+    <a href="https://classroom.google.com/c/NzU3NjE5MjczNDkx?cjc=5drxpo7">Google 클래스룸 (수학)</a>
+
+- date: 3/19
+  week: 3
+  title: >
+    <strong>3장 편집과 인쇄로 작업 실력 키우기</strong>
+  slides: "https://docs.google.com/presentation/d/1R6L8CQrcoa3z1b_UYJICeqARHiOoVRnjPGQJQzSumMc/edit?usp=sharing"
+  readings:
+  supp:
+  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzYwMDA1MzQ2Mzgx/details"
+  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzYwMDEzNDIxMDgw/details"
+  img: 2025/jnue-iss/3-calc.jpg
+  logistics:
+
+- date: 3/26
+  week: 4
+  title: >
+    <strong>4장 수식으로 빠르게 계산하기</strong>
+  slides: "https://docs.google.com/presentation/d/1ZSBOnAWr8DJqrjW19ewQK3yAQtQS18jlIYlQjgvZm9k/edit?usp=sharing"
+  readings:
+  supp:
+  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzYyNTIzOTg3NTAz/details"
+  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzYyNTIzNTczMDkx/details"
+  img: 2025/jnue-iss/4-calc.jpg
+  logistics:
+
+- date: 4/2
+  week: 5
+  title: >
+    <strong>5장 함수 제대로 써먹기</strong>
+  slides: "https://docs.google.com/presentation/d/13mk7I40qRDSgNBQ1nXj8SMuumA3nFuClXbS3M0jg1sg/edit?usp=sharing"
+  readings:
+  supp:
+  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzUzNDE2NjMzMTU5/details"
+  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzUzNDE3MjQ2MDUx/details"
+  img: 2025/jnue-iss/5-formulas.jpg
+  logistics: >
+    <a href="https://docs.google.com/spreadsheets/d/1fBNjjBhUF9nEHgdI06TzGF0rbEBoLIsb/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true">시작 파일</a>
+
+- date: 4/9
+  week: 6
+  title: >
+    <strong>6장 데이터를 정렬하고 원하는 정보 찾기</strong>
+  slides: "https://docs.google.com/presentation/d/1TsbzScRAFMfLWNK7wIeEUeHi3IMH0fqmcP4V5d-FDeY/edit?usp=sharing"
+  readings:
+  supp:
+  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzY1MzAyMzk4Mjgz/details"
+  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzY3MDkzNDA3OTMx/details"
+  img: 2025/jnue-iss/6-data.jpg
+  logistics: >
+    <a href="https://docs.google.com/spreadsheets/d/1DPOu_YX7ciXNlEGMfPyNqJFb9WDE_wvb/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true">시작 파일</a>
+
+- date: 4/16
+  week: 7
+  title: >
+    <strong>7장 데이터가 한눈에 들어오는 차트 그리기<br>
+    부록 바로 써먹는 단축키 알아보기</strong><br>
+    <span style="color: #9b65ff;">개념 퀴즈 + 과제</span>
+  slides: "https://docs.google.com/presentation/d/1ZC948uMZ9d_v5CwJkKL7dL0u3vQbZaoZMdGh0geYBZA/edit?usp=sharing"
+  readings:
+  supp:
+  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzcyMjM2MjU5MjYy/details"
+  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzcyMjUyNzk3ODc2/details"
+  img: 2025/jnue-iss/7-charts.jpg
+  logistics: >
+    <a href="https://forms.gle/gTbY6w2CASzhncTD8">수학 링크</a><br>
+    <div style="display:none;">
+      <a href="https://forms.gle/G1EkwLPVDoLwB85H7">음악 퀴즈</a><br>
+    </div>
+
+- date: 4/23
+  week: 8
+  title: >
+    <strong style="color: red">1학년 참관실습Ⅰ</strong> 보강?<br>
+    WEEK 01 출발, 소프트웨어 세상 속으로!<br>
+    WEEK 02 AI(인공지능), 너는 누구니?
+  slides: "https://docs.google.com/presentation/d/1fDDAsiftoRz3pXzd9c6nAARkvdWnXGIkNOjXlx8tEl4/edit?usp=sharing"
+  img: 2025/jnue-iss/9-software-ai.jpg
+  hw:
+  logistics:
+
+- date: >
+    <span style="color: red;">4/30 (LMS)</span>
+  week: 9
+  title: >
+    <strong style="color: red;">No School (개인사정)</strong><br>
+    <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강)</a><br>
+    <strong>WEEK 03 알쏭달쏭! 알고리즘 제대로 알기<br>
+    WEEK 04 어서 와! 엔트리는 처음이지?</strong>
+  slides: "https://docs.google.com/presentation/d/11NQaELLLf3WRL30k7yPxZZpO2ocynej5FkH-1mqidTY/edit?usp=sharing"
+  readings:
+  img: 2025/jnue-iss/9-alg-entry.jpg
+  logistics: >
+    <a href="https://forms.gle/MtG4fxgZQMGMMjdu6">Entry 계정 링크</a>
+
+- date: 5/7
+  week: 10
+  title: >
+    <strong>WEEK 05 야구 연습 기계 만들기<br>
+    WEEK 06 친구들에게 줄 빵을 만들어요</strong>
+  slides: "https://docs.google.com/presentation/d/1Rg12Myvvadh8QYKrvyo6mAoseDB4cgVPAzrpe3610zo/edit?usp=sharing"
+  img: 2025/jnue-iss/10-coding-i.jpg
+  readings:
+  logistics:
+
+- date: 5/14
+  week: 11
+  title: >
+    <strong>WEEK 07 로켓을 타고 우주여행을 떠나자!<br>
+    WEEK 08 어떤 계산이든 빠르게 척척!</strong>
+  slides: "https://docs.google.com/presentation/d/1tlCLEHmtSDBijd2MOGwB7ytXKrfciK1Rle4xdAjs7ME/edit?usp=sharing"
+  readings:
+  supp:
+  hw:
+  img: 2025/jnue-iss/11-coding-ii.jpg
+  logistics:
+
+- date: 5/21
+  week: 12
+  title: >
+    <strong>WEEK 09 장바구니에 물건을 넣고 빼기<br>
+    WEEK 10 누가누가 가장 크게 부나?</strong>
+  slides: "https://docs.google.com/presentation/d/1LrCvzVshFlXc_iuL4aYoYD-pKDraViIkA1yMGJR5r9Y/edit?usp=sharing"
+  readings:
+  supp:
+  hw:
+  img: 2025/jnue-iss/12-coding-iii.jpg
+  logistics:
+
+- date: 5/28
+  week: 13
+  title: >
+    <strong>WEEK 11 명령어 어벤져스 모여라!<br>
+    WEEK 12 이번 달엔 어떤 노래가 인기 있을까?</strong>
+  slides: "https://docs.google.com/presentation/d/1fEmCV1CfGLeP3mNobey97u4sXTNpMneXX5rOyDSuRFE/edit?usp=sharing"
+  readings:
+  supp:
+  hw:
+  img: 2025/jnue-iss/13-coding-iv.jpg
+  logistics:
+
+- date: 6/4
+  week: 14
+  title: >
+    <strong>WEEK 13 외계인으로부터 지구를 지켜라!<br>
+    WEEK 14 나에게 어울리는 옷을 골라줘!</strong>
+  slides: "https://docs.google.com/presentation/d/1djCzE4pJiy3FytZZkdNy0xewIOM8_8kzwgRmvS__-no/edit?usp=sharing"
+  readings:
+  supp:
+  hw:
+  img: 2025/jnue-iss/14-coding-v.jpg
+  logistics:
+
+- date: 6/11
+  week: 15
+  title: >
+    <strong>Final Test</strong><br>
+    <a style="display:none;" href="https://forms.gle/KTdMwLHhyq8h2Hx86">7반 퀴즈</a>
+    <a href="https://forms.gle/wH22qKhgfCv878t19">4반 퀴즈</a>&bull;
+    <a href="https://docs.google.com/presentation/d/1zdf6gAvkB47gV5CfJw2bPmbygZmuEwPvmX4RRDM_I4A/edit?usp=sharing">실기</a>
+  slides2:
+  readings: <strong>WEEK 15 똑똑한 AI로 색깔을 분류해 보자!</strong>
+  img2:
+  hw:
+  logistics: >
+    기말고사
+   

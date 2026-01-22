@@ -2,9 +2,9 @@
 layout: distill
 title: Information Society and Software
 subtitle: 정보사회와 소프트웨어
-description: 060487 • 2025년 1학기 • 전주교육대학교
+description: 060487 • 2026년 1학기 • 전주교육대학교
 logo: jnue-logo.png
-img: assets/img/books/entry.jpg
+img: assets/img/books/excel.jpg
 importance: 8
 category: 2026-1
 now: Yes
@@ -25,15 +25,20 @@ toc:
   - name: Instructor 강사소개
 
 information:
-  - section: 070137-7 (음악)
-    time: 수 67 | Wed 2pm-4pm
+  - section: 070137-???
+    time: 금 12 | Fri 9am-11am
     location: 전산교육실
-    kakaotalk: https://open.kakao.com/o/goKpPgjh
+    kakaotalk: 
 
-  - section: 070137-4 (수학)
-    time: 수 89 | Wed 4pm-6pm
+  - section: 070137-???
+    time: 수 34 | Fri 11am-1pm
     location: 전산교육실
-    kakaotalk: https://open.kakao.com/o/gPYLOgjh
+    kakaotalk: 
+
+  - section: 070137-???
+    time: 수 67 | Fri 2pm-4pm
+    location: 전산교육실
+    kakaotalk: 
 
 Main-Text:
   - text: "주교재"
@@ -59,7 +64,7 @@ Main-Text:
 
 ## Schedule 강의일정
 
-{% include_relative 2025/jnue-iss/schedule.md %}
+{% include schedule.md data_file="2026_jnue_iss_lectures" %}
 
 <a class="btncv" href="#">Top</a>
 

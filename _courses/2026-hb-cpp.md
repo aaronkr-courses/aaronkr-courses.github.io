@@ -29,9 +29,9 @@ toc:
 
 information:
   - section: INFO2118
-    time: 금 6789 | Fri 2pm-6pm
-    location: N4동 316호
-    kakaotalk: https://open.kakao.com/o/gHkvRgjh
+    time: 수 6789 | Wed 2pm-6pm
+    location: ???
+    kakaotalk: 
 
 Main-Text:
   - text: "주교재"
@@ -56,9 +56,13 @@ Supplementary:
     image: books/cpp-200.jpg
 ---
 
+#### Grading 평가방법
+
+| 출석: <strong style="color: #9b65ff;">10%</strong> | 중간: <strong style="color: #9b65ff;">25%</strong> | 기말: <strong style="color: #9b65ff;">30%</strong> | 과제 (HW): <strong style="color: #9b65ff;">30%</strong> | 프로젝트: <strong style="color: #9b65ff;">5%</strong> |
+
 ## Schedule 강의일정
 
-{% include_relative 2025/hb-cpp/schedule.md %}
+{% include schedule.md data_file="2026_hb_cpp_lectures" %}
 
 <a class="btncv" href="#">Top</a>
 
@@ -106,7 +110,8 @@ It also takes a unique approach to introducing features of C++ and the standard 
 - 출석: **10%**
 - 중간고사: **25%**
 - 기말고사: **30%**
-- 과제 (연습문제, 실습코드, 등): **35%**
+- 과제 (연습문제, 실습코드, 등): **30%**
+- 프로젝트: **5%**
 
 {% include_relative common/policies.md %}
 

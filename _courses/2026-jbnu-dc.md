@@ -2,7 +2,7 @@
 layout: distill
 title: Program-Based Circuit Theory I (DC)
 subtitle: 프로그램 기반 회로 이론 I (DC)
-description: 0000127046 • 2025년 1학기 • 전북대학교
+description: 0000127046 • 2026년 1학기 • 전북대학교
 logo: jbnu-logo-2.png
 img: assets/img/books/electric-circuits.jpg
 importance: 6
@@ -29,9 +29,9 @@ toc:
 
 information:
   - section: 0000127046
-    time: 월 1-4pm
-    location: 인문대학 2호관 504호
-    kakaotalk: https://open.kakao.com/o/gNhLNgjh
+    time: 목 123 | Thur 9am-12pm
+    location: 인문대학 2호관 501호
+    kakaotalk:
 
 Main-Text:
   - text: "주교재"
@@ -66,9 +66,13 @@ Supplementary:
     image: books/linear-alg-circuits.jpg
 ---
 
+#### Grading 평가방법
+
+| Att: <strong style="color: #9b65ff;">20%</strong> | Midterm: <strong style="color: #9b65ff;">25%</strong> | Final: <strong style="color: #9b65ff;">30%</strong> | HW: <strong style="color: #9b65ff;">15%</strong> | Project: <strong style="color: #9b65ff;">10%</strong> |
+
 ## Schedule 강의일정
 
-{% include_relative 2025/jbnu-circuits/schedule.md %}
+{% include schedule.md data_file="2026_jbnu_dc_lectures" %}
 
 <a class="btncv" href="#">Top</a>
 
@@ -100,10 +104,11 @@ McGraw-Hill''s Connect, is also available with Fundamentals of Electric Circuits
 
 ### Grading Curve 성적평가
 
-- 출석 (Attendance): <del>20%</del> **20%**
-- 중간고사 (Midterm): <del>20%</del> **30%**
-- 기말고사 (Final): <del>20%</del> **30%**
-- 과제 (연습문제, 실습코드, 등) (HW): <del>40%</del> **20%**
+- 출석 (Attendance): **20%**
+- 중간고사 (Midterm): **25%**
+- 기말고사 (Final): **30%**
+- 과제 (연습문제, 실습코드, 등) (HW): **15%**
+- 프로젝트: **10%**
 
 {% include_relative common/policies.md %}
 
