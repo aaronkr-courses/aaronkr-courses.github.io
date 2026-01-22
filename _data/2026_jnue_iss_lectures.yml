@@ -1,4 +1,4 @@
-- date: 3/5
+- date: 3/6
   week: 1
   title: >
     <strong>수업소개</strong>
@@ -9,7 +9,7 @@
   img: 2025/jnue-iss/1-intro.jpg
   logistics:
 
-- date: 3/12
+- date: 3/13
   week: 2
   title: >
     <strong>1장 엑셀 시작 전 꼭 알아야 하는 다섯 가지<br>
@@ -19,12 +19,12 @@
   supp:
   hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzU4NTY2MzQ3NDc3/details"
   hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzU4NTczMzgyOTc2/details"
-  img: 2025/jnue-iss/2-starting.jpg
+  img2: 2025/jnue-iss/2-starting.jpg
   logistics: >
     <a href="https://classroom.google.com/c/NzU3NjE5NTQ0MTc2?cjc=vagjo5g">Google 클래스룸 (음악)</a><br><br>
     <a href="https://classroom.google.com/c/NzU3NjE5MjczNDkx?cjc=5drxpo7">Google 클래스룸 (수학)</a>
 
-- date: 3/19
+- date: 3/20
   week: 3
   title: >
     <strong>3장 편집과 인쇄로 작업 실력 키우기</strong>
@@ -33,10 +33,10 @@
   supp:
   hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzYwMDA1MzQ2Mzgx/details"
   hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzYwMDEzNDIxMDgw/details"
-  img: 2025/jnue-iss/3-calc.jpg
+  img2: 2025/jnue-iss/3-calc.jpg
   logistics:
 
-- date: 3/26
+- date: 3/27
   week: 4
   title: >
     <strong>4장 수식으로 빠르게 계산하기</strong>
@@ -45,10 +45,10 @@
   supp:
   hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzYyNTIzOTg3NTAz/details"
   hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzYyNTIzNTczMDkx/details"
-  img: 2025/jnue-iss/4-calc.jpg
+  img2: 2025/jnue-iss/4-calc.jpg
   logistics:
 
-- date: 4/2
+- date: 4/3
   week: 5
   title: >
     <strong>5장 함수 제대로 써먹기</strong>
@@ -57,11 +57,11 @@
   supp:
   hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzUzNDE2NjMzMTU5/details"
   hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzUzNDE3MjQ2MDUx/details"
-  img: 2025/jnue-iss/5-formulas.jpg
+  img2: 2025/jnue-iss/5-formulas.jpg
   logistics: >
     <a href="https://docs.google.com/spreadsheets/d/1fBNjjBhUF9nEHgdI06TzGF0rbEBoLIsb/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true">시작 파일</a>
 
-- date: 4/9
+- date: 4/10
   week: 6
   title: >
     <strong>6장 데이터를 정렬하고 원하는 정보 찾기</strong>
@@ -70,11 +70,11 @@
   supp:
   hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzY1MzAyMzk4Mjgz/details"
   hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzY3MDkzNDA3OTMx/details"
-  img: 2025/jnue-iss/6-data.jpg
+  img2: 2025/jnue-iss/6-data.jpg
   logistics: >
     <a href="https://docs.google.com/spreadsheets/d/1DPOu_YX7ciXNlEGMfPyNqJFb9WDE_wvb/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true">시작 파일</a>
 
-- date: 4/16
+- date: 4/17
   week: 7
   title: >
     <strong>7장 데이터가 한눈에 들어오는 차트 그리기<br>
@@ -85,26 +85,26 @@
   supp:
   hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzcyMjM2MjU5MjYy/details"
   hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzcyMjUyNzk3ODc2/details"
-  img: 2025/jnue-iss/7-charts.jpg
+  img2: 2025/jnue-iss/7-charts.jpg
   logistics: >
     <a href="https://forms.gle/gTbY6w2CASzhncTD8">수학 링크</a><br>
     <div style="display:none;">
       <a href="https://forms.gle/G1EkwLPVDoLwB85H7">음악 퀴즈</a><br>
     </div>
 
-- date: 4/23
+- date: 4/24
   week: 8
   title: >
     <strong style="color: red">1학년 참관실습Ⅰ</strong> 보강?<br>
     WEEK 01 출발, 소프트웨어 세상 속으로!<br>
     WEEK 02 AI(인공지능), 너는 누구니?
   slides: "https://docs.google.com/presentation/d/1fDDAsiftoRz3pXzd9c6nAARkvdWnXGIkNOjXlx8tEl4/edit?usp=sharing"
-  img: 2025/jnue-iss/9-software-ai.jpg
+  img2: 2025/jnue-iss/9-software-ai.jpg
   hw:
   logistics:
 
 - date: >
-    <span style="color: red;">4/30 (LMS)</span>
+    <span style="color: red;">5/1 (LMS)</span>
   week: 9
   title: >
     <strong style="color: red;">No School (개인사정)</strong><br>
@@ -113,21 +113,21 @@
     WEEK 04 어서 와! 엔트리는 처음이지?</strong>
   slides: "https://docs.google.com/presentation/d/11NQaELLLf3WRL30k7yPxZZpO2ocynej5FkH-1mqidTY/edit?usp=sharing"
   readings:
-  img: 2025/jnue-iss/9-alg-entry.jpg
+  img2: 2025/jnue-iss/9-alg-entry.jpg
   logistics: >
     <a href="https://forms.gle/MtG4fxgZQMGMMjdu6">Entry 계정 링크</a>
 
-- date: 5/7
+- date: 5/8
   week: 10
   title: >
     <strong>WEEK 05 야구 연습 기계 만들기<br>
     WEEK 06 친구들에게 줄 빵을 만들어요</strong>
   slides: "https://docs.google.com/presentation/d/1Rg12Myvvadh8QYKrvyo6mAoseDB4cgVPAzrpe3610zo/edit?usp=sharing"
-  img: 2025/jnue-iss/10-coding-i.jpg
+  img2: 2025/jnue-iss/10-coding-i.jpg
   readings:
   logistics:
 
-- date: 5/14
+- date: 5/15
   week: 11
   title: >
     <strong>WEEK 07 로켓을 타고 우주여행을 떠나자!<br>
@@ -136,10 +136,10 @@
   readings:
   supp:
   hw:
-  img: 2025/jnue-iss/11-coding-ii.jpg
+  img2: 2025/jnue-iss/11-coding-ii.jpg
   logistics:
 
-- date: 5/21
+- date: 5/22
   week: 12
   title: >
     <strong>WEEK 09 장바구니에 물건을 넣고 빼기<br>
@@ -148,10 +148,10 @@
   readings:
   supp:
   hw:
-  img: 2025/jnue-iss/12-coding-iii.jpg
+  img2: 2025/jnue-iss/12-coding-iii.jpg
   logistics:
 
-- date: 5/28
+- date: 5/29
   week: 13
   title: >
     <strong>WEEK 11 명령어 어벤져스 모여라!<br>
@@ -160,10 +160,10 @@
   readings:
   supp:
   hw:
-  img: 2025/jnue-iss/13-coding-iv.jpg
+  img2: 2025/jnue-iss/13-coding-iv.jpg
   logistics:
 
-- date: 6/4
+- date: 6/5
   week: 14
   title: >
     <strong>WEEK 13 외계인으로부터 지구를 지켜라!<br>
@@ -172,20 +172,19 @@
   readings:
   supp:
   hw:
-  img: 2025/jnue-iss/14-coding-v.jpg
+  img2: 2025/jnue-iss/14-coding-v.jpg
   logistics:
 
-- date: 6/11
+- date: 6/12
   week: 15
   title: >
     <strong>Final Test</strong><br>
-    <a style="display:none;" href="https://forms.gle/KTdMwLHhyq8h2Hx86">7반 퀴즈</a>
-    <a href="https://forms.gle/wH22qKhgfCv878t19">4반 퀴즈</a>&bull;
-    <a href="https://docs.google.com/presentation/d/1zdf6gAvkB47gV5CfJw2bPmbygZmuEwPvmX4RRDM_I4A/edit?usp=sharing">실기</a>
-  slides2:
+    <div style="display:none;">
+      <a href="#">7반 퀴즈</a>
+      <a href="#">4반 퀴즈</a>&bull;
+      <a href="#">실기</a>
+    </div>
+
+  slides:
   readings: <strong>WEEK 15 똑똑한 AI로 색깔을 분류해 보자!</strong>
   img2:
-  hw:
-  logistics: >
-    기말고사
-   

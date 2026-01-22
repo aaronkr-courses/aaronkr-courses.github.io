@@ -7,7 +7,7 @@ dropdown: true
 children:
   - title: All Courses
     permalink: /courses/
-    - title: divider
+  - title: divider
   - title: UT-IOT
     permalink: /courses/2026-ut-iot/
   - title: UT-DB

@@ -1,4 +1,4 @@
-- date: 3/7
+- date: 3/4
   week: 1
   title: >
     <strong>수업 소개</strong>
@@ -9,7 +9,7 @@
   img: 2024/hb-cpp/1-cpp-intro.jpg
   logistics:
 
-- date: 3/14
+- date: 3/11
   week: 2
   title: >
     <strong>CHAPTER 0 C++ 시작하기</strong><br>
@@ -19,10 +19,10 @@
   readings: Accelerated C++, <strong>1-2장 pp. 26-48</strong>
   hw: "https://classroom.github.com/a/HjU8bHdA"
   slides: "https://docs.google.com/presentation/d/1S4mY_gLCo0_0rWe1lCwS4sbSRnyLDLNPwTeVlfomric/edit?usp=sharing"
-  img: 2024/hb-cpp/2-cpp-strings.jpg
+  img2: 2024/hb-cpp/2-cpp-strings.jpg
   logistics:
 
-- date: 3/21
+- date: 3/18
   week: 3
   title: >
     <strong>CHAPTER 3 데이터 일괄 처리</strong>
@@ -30,10 +30,10 @@
   readings: Accelerated C++, <strong>3장 pp. 48-128</strong>
   hw: "https://classroom.github.com/a/kdypmbIz"
   slides: "https://docs.google.com/presentation/d/13o4-ZsTewxFeBXz-9XKOzMdFZO9TzM1keEWd30DZB_c/edit?usp=sharing"
-  img: 2024/hb-cpp/4-cpp-data.jpg
+  img2: 2024/hb-cpp/4-cpp-data.jpg
   logistics:
 
-- date: 3/28
+- date: 3/25
   week: 4
   title: >
     <strong>CHAPTER 4 프로그램 및 데이터 구조화</strong>
@@ -41,10 +41,10 @@
   readings: Accelerated C++, <strong>4장 pp. 48-128</strong>
   hw: "https://classroom.github.com/a/YiOLSxOI"
   slides: "https://docs.google.com/presentation/d/1MHrevhoPPx3-QNR4z1IuKrQlnqCTLRMya0bzfY4vTUM/edit?usp=sharing"
-  img: 2025/hb-cpp/4-containers.jpg
+  img2: 2025/hb-cpp/4-containers.jpg
   logistics:
 
-- date: 4/4
+- date: 4/1
   week: 5
   title: >
     <strong>CHAPTER 5 순차 컨테이너와 문자열 분석</strong>
@@ -53,10 +53,10 @@
     Accelerated C++, <strong>5장 pp. 131-164</strong>
   hw: "https://classroom.github.com/a/rimPz5Ko"
   slides: "https://docs.google.com/presentation/d/1lN_icmRvuYPy99ILE7-fr2LnAKgBK2esVERtcksw_iE/edit?usp=sharing"
-  img: 2024/hb-cpp/6-cpp-containers-strings.jpg
+  img2: 2024/hb-cpp/6-cpp-containers-strings.jpg
   logistics:
 
-- date: 4/11
+- date: 4/8
   week: 6
   title: >
     <strong>CHAPTER 6 라이브러리 알고리즘</strong>
@@ -65,11 +65,11 @@
     Accelerated C++, <strong>6장 pp. 170-198</strong>
   hw: "https://classroom.github.com/a/gN5crwfC"
   slides: "https://docs.google.com/presentation/d/15XPrW8VZUtrAPB1vBWX2zRs2Dyx2fZ93vENSdQVtc9E/edit?usp=sharing"
-  img: 2024/hb-cpp/7-cpp-lib-algorithms.jpg
+  img2: 2024/hb-cpp/7-cpp-lib-algorithms.jpg
   logistics: >
     <a href="https://drive.google.com/file/d/1NRlZQlEh1wzHf9vbJv-u2dZY9dkJBCP6/view?usp=sharing">grades.txt</a>
 
-- date: 4/18
+- date: 4/15
   week: 7
   title: >
     <strong>CHAPTER 7 연관 컨테이너</strong>
@@ -78,17 +78,16 @@
     Accelerated C++, <strong>7장 pp. 202-222</strong>
   hw: "https://classroom.github.com/a/m9XQ2mUq"
   slides: "https://docs.google.com/presentation/d/1N9Fv9cM5CohQsPnPaGCAZfmTuvdM3PyGnO_V7hxXMxA/edit?usp=sharing"
-  img: 2024/hb-cpp/9-cpp-a-containers.jpg
+  img2: 2024/hb-cpp/9-cpp-a-containers.jpg
   logistics: >
     <a href="https://drive.google.com/drive/folders/1KfepA96FcGy0KfCyCPXeWInkaqwZREe4?usp=sharing">CPP 자료</a>
 
-- date: 4/25
+- date: 4/22
   week: 8
   title: >
     <strong>Midterm Test</strong>
 
-- date: >
-    <span style="color: red">5/2<br>보강</span>
+- date: 4/29
   week: 9
   title: >
     <strong>CHAPTER 8 제네릭 함수<br>
@@ -99,10 +98,10 @@
     Accelerated C++, <strong>9장 pp. 251-271</strong>
   hw: "https://classroom.github.com/a/Qm1tDM1m"
   slides: "https://docs.google.com/presentation/d/1egDE93iN5rWULPahVj_FBvEzsTaGglhQ6qZ-dD0MWug/edit?usp=sharing"
-  img: 2024/hb-cpp/10-cpp-generic-types.jpg
+  img2: 2024/hb-cpp/10-cpp-generic-types.jpg
   logistics:
 
-- date: 5/9
+- date: 5/6
   week: 10
   title: >
     <strong>CHAPTER 10 메모리 관리 및 저수준 데이터 구조</strong>
@@ -111,10 +110,10 @@
     Accelerated C++, <strong>10장 pp. 274-299</strong>
   hw: "https://classroom.github.com/a/cr1XyQYb"
   slides: "https://docs.google.com/presentation/d/1gw7GLdRzWjxpK_UlVEQn8E9xNd0IReHrxw6vPIwA1qA/edit?usp=sharing"
-  img: 2024/hb-cpp/11-cpp-memory.jpg
+  img2: 2024/hb-cpp/11-cpp-memory.jpg
   logistics:
 
-- date: 5/16
+- date: 5/13
   week: 11
   title: >
     <strong>CHAPTER 11 추상 데이터 타입</strong>
@@ -122,11 +121,10 @@
   readings: Accelerated C++, <strong>11장 pp. 302-335</strong>
   hw: "https://classroom.github.com/a/R9gvNdyY"
   slides: "https://docs.google.com/presentation/d/1tAkFzr3ejmv6ERe6E6Ng2RB-kVtayFkTpWDlNKuCJP0/edit?usp=sharing"
-  img: 2024/hb-cpp/12-abstract-data-types.jpg
+  img2: 2024/hb-cpp/12-abstract-data-types.jpg
   logistics:
 
-- date: >
-    <span style="color: red">5/23<br>보강</span>
+- date: 5/20
   week: 12
   title: >
     <strong>CHAPTER 12 값처럼 동작하는 클래스 객체</strong>
@@ -134,10 +132,10 @@
   readings: Accelerated C++, <strong>12장 pp. 338-359</strong>
   hw: "https://classroom.github.com/a/45bb0M7V"
   slides: "https://docs.google.com/presentation/d/1zMUfc73NQsGXszyYbzuAoay4OYOGGMgABAGM9iFfC4E/edit?usp=sharing"
-  img: 2024/hb-cpp/13-cpp-str-class.jpg
+  img2: 2024/hb-cpp/13-cpp-str-class.jpg
   logistics:
 
-- date: 5/30
+- date: 5/27
   week: 13
   title: >
     <strong>CHAPTER 13 상속과 동적 바인딩</strong>
@@ -145,16 +143,16 @@
   readings: Accelerated C++, <strong>13장 pp. 362-398</strong>
   hw: "https://classroom.github.com/a/NmkOyoah"
   slides: "https://docs.google.com/presentation/d/1b5uiVgeNYdFr9v1Tg9wAOC2iLKKAAgRMAGtXCn3XQiE/edit?usp=sharing"
-  img: 2024/hb-cpp/14-inheritance.jpg
+  img2: 2024/hb-cpp/14-inheritance.jpg
   logistics: >
     <a href="https://raw.githubusercontent.com/aaronkr-classroom/14-inheritance-dynamic-binding-jekkilekki/refs/heads/main/Chp13/new_grades.txt">new_grades.txt</a>
 
-- date: 6/6
+- date: 6/3
   week: 14
   title: >
-    <span style="color: red"><strong>No Class</strong> 현충일</span>
+    <span style="color: red"><strong>No Class</strong> 선거</span>
 
-- date: 6/13
+- date: 6/10
   week: 15
   title: >
     <strong>CHAPTER 14 메모리 관리 자동화</strong>
@@ -162,13 +160,15 @@
   readings: Accelerated C++, <strong>14장 pp. 399-</strong>
   hw: "https://classroom.github.com/a/b8_IqZXK"
   slides: "https://docs.google.com/presentation/d/1jZsl94TLtSibDlOzFc4SNnihqfv376pldcq5WaAyURI/edit?usp=sharing"
-  img: 2025/hb-cpp/14-auto-mem.jpg
+  img2: 2025/hb-cpp/14-auto-mem.jpg
   logistics: >
     <a href="https://github.com/aaronkr-classroom/13-dynamic-binding-jekkilekki">13장 완성 코드</a>
 
-- date: 6/20
+- date: 6/17
   week: 15
   title: >
     <strong>Final Test</strong>
-    <br><a href="https://docs.google.com/presentation/d/1Qx8-hOKIsNc7C0jbh4tYY-zzAbuso4OV6Hca9N_Zcsw/edit?usp=sharing">스터디 가이드</a>
-    <br><a href="https://forms.gle/32QtYoPHHKHACqgcA">기말퀴즈</a> &bull; <a href="https://classroom.github.com/a/JjqZbeL_">실기시험</a>
+    <div style="display:none;">
+      <br><a href="https://docs.google.com/presentation/d/1Qx8-hOKIsNc7C0jbh4tYY-zzAbuso4OV6Hca9N_Zcsw/edit?usp=sharing">스터디 가이드</a>
+      <br><a href="https://forms.gle/32QtYoPHHKHACqgcA">기말퀴즈</a> &bull; <a href="https://classroom.github.com/a/JjqZbeL_">실기시험</a>
+    </div>

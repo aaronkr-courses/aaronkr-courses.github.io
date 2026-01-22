@@ -1,194 +1,168 @@
-- date: 3/4
+- date: >
+    <span style="color: red;">3/2</span>
   week: 1
   title: >
-    <strong>01 데이터베이스 개념</strong>
-  supp:
-  readings: p. 16-38
-  hw:
-  slides: "https://docs.google.com/presentation/d/1prBoWRRRmnbfa_OXl83ZlZCoQZQZl1zeHYH8I2A9PxM/edit?usp=sharing"
-  img: 2024/dju-db/1-db-intro.jpg
-  logistics: >
+    <span style="color: red"><strong>No Class</strong> 삼일절 (대체휴일)</span>
+  slides: 
+  img: 
+  readings:
+  hw: 
+  logistics:
 
-- date: 3/11
+- date: 3/9
   week: 2
   title: >
-    <strong>02 데이터베이스 시스템</strong>
-  supp:
+    <strong>책소개, 수업소개, 강사소개<br>
+    Chapter 01 데이터베이스 개요</strong>
+  slides: 
+  img: 
   readings:
-    - p. 40-64
-    - <a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench 설치</a>
-    - <a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads">PostgreSQL 15.12 설치</a>
-    - <a href="https://code.visualstudio.com/download">VS Code 설치</a> + Korean Language Pack 확장 프로그램 설치
-    - <del><a href="https://www.apachefriends.org/download.html">XAMPP 설치</a></del>
-  hw:
-  slides: "https://docs.google.com/presentation/d/18qZensM7SVbwj1G6zeinNalz0yoyO9RfCXVot1D_M5s/edit?usp=sharing"
-  slides2: "https://docs.google.com/presentation/d/18Y-0nSrlGzUN3x7CETKwkAf-5t-1rFYCcAUEhueknRA/edit?usp=sharing"
-  img: 2024/dju-db/2-db-system.jpg
-  logistics: >
-    <a href="https://classroom.github.com/a/VjLIdC7A">GitHub 저장소</a>
+  hw: 
+  logistics:
 
-- date: 3/18
+- date: 3/16
   week: 3
   title: >
-    <strong>03 관계형 데이터 모델</strong>
-  supp:
-  readings: p. 66-96
-  hw:
-  slides: "https://docs.google.com/presentation/d/1qwmWpPHghHnQpajJL9DmZOm51IzTSkGHNU1oL_JrmVA/edit?usp=sharing"
-  slides2: "https://docs.google.com/presentation/d/1EmHhUwbOk6vQ8i0Y5wVLSyt2TT6siIRFdFehboi7LEM/edit?usp=sharing"
-  img: 2024/dju-db/3-relational-data-model.jpg
-  logistics: >
-    <a href="https://drive.google.com/file/d/1Hg4Y0yU174eAjQ2wmT-hJmmiWJ6n4d7s/view?usp=sharing">3장 연습 문제</a>
+    <strong>Chapter 02 데이터베이스 설계 개요</strong>
+  slides: 
+  img: 
+  readings:
+  hw: 
+  logistics:
 
-- date: 3/25
+- date: 3/23
   week: 4
   title: >
-    <strong>04 관계 대수</strong>
-  supp:
-  readings: p. 98-130
-  hw:
-  slides: "https://docs.google.com/presentation/d/1CHemYt6g2OWAw30wVPsl4HZaK2F6zhMbjJt1t2kzDvY/edit?usp=sharing"
-  img: 2024/dju-db/4-relational-algebra.jpg
-  logistics: >
-    <a href="https://drive.google.com/file/d/1DIAXXa6SF785RKxtxCZTlWXHdKdCRS06/view?usp=sharing">4장 연습 문제</a>
+    <strong>Chapter 03 요구 수집 및 분석</strong>
+  slides: 
+  img: 
+  readings:
+  hw: 
+  logistics:
 
-- date: 4/1
+- date: 3/30
   week: 5
   title: >
-    <strong>05 SQL 기초</strong>
-  supp:
-  readings: p. 132-186
-  hw:
-  slides: "https://docs.google.com/presentation/d/1Yr94Q-BhWnzQYb7VOizdvpOiMj1RVMyFnFjqaI3bQkw/edit?usp=sharing"
-  img: 2024/dju-db/6-sql-basics.jpg
-  logistics: >
-    <a href="https://drive.google.com/file/d/1aqzmFKgIJD-wdPlycL_ZoYZ0eGLoroYp/view?usp=sharing">5장 연습 문제</a>
+    <strong>Chapter 04 ER 모델</strong>
+  slides: 
+  img: 
+  readings:
+  hw: 
+  logistics:
 
-- date: 4/8
+- date: 4/6
   week: 6
   title: >
-    <strong>06 SQL 활용</strong>
-  supp:
-  readings: p. 188-226
-  hw:
-  slides: "https://docs.google.com/presentation/d/177vgQvQGSxfwptzZO4K5VmNa_RgofkulVSQRWyDHoPc/edit?usp=sharing"
-  slides2: "https://docs.google.com/presentation/d/1ItZuJgwlhK-3HCqVuVEa_my9uMHpYN_RCIPDFkY70bw/edit?usp=sharing"
-  img: 2024/dju-db/7-sql-use.jpg
-  logistics: >
-    <a href="https://drive.google.com/file/d/1__LVNf5gPwPL-tcUqItGOzB8-CXBGqhA/view?usp=sharing">6장 연습 문제</a><br>
-    <span style="color: #9b65ff;">인덱스 예시 (보충 PPT #32)</span>
+    <strong>Chapter 05 개념적 설계 기초</strong>
+  slides: 
+  img: 
+  readings:
+  hw: 
+  logistics:
 
-- date: 4/15
+- date: 4/13
   week: 7
   title: >
-    <strong>07 SQL 응용</strong>
-  supp:
-  readings: p. 227-282
-  hw:
-  slides: "https://docs.google.com/presentation/d/1jLl9lepQWUbvdLYNPr6cLL7jWbQhFq_IV5dUAcVxiFA/edit?usp=sharing"
-  slides2: "https://docs.google.com/presentation/d/1ItZuJgwlhK-3HCqVuVEa_my9uMHpYN_RCIPDFkY70bw/edit?usp=sharing"
-  img: 2024/dju-db/9-sql-app.jpg
-  logistics: >
-    <a href="https://drive.google.com/file/d/18G2cVuA_r8ikCRpAEjC0TBDUoDjfFUp0/view?usp=sharing">7장 연습 문제</a>
+    <strong>Chapter 06 개념적 설계 심화</strong>
+  slides: 
+  img: 
+  readings:
+  hw: 
+  logistics:
 
-- date: 4/22
+- date: 4/20
   week: 8
   title: >
-    <strong>07.5.3 트랜잭션과 로그부터...코드<br>
-    08 정규화<br>
-    09 E-R 모델</strong>
-  supp:
-  readings: p. 316-340
-  hw:
-  slides: "https://docs.google.com/presentation/d/1LVqTBe_gFx5-8p0G1H2cBX5iK6YZi7CwTuRlRThrz-Q/edit?usp=sharing"
-  img: 2024/dju-db/10-reg-er.jpg
-  logistics: >
-    <a href="https://drive.google.com/file/d/1gIY4Zv2Reb1JmOPCyNvbllZm0UEfHVQ2/view?usp=sharing">8장 연습 문제</a><br>
-    <a href="https://drive.google.com/file/d/1kBFLeTiLQI6nFxoFANmeTR5yp4WSy7Tv/view?usp=sharing">9장 연습 문제</a>
+    <strong>Midterm Test</strong><br>
+    <div style="display: none;">
+       <a href="#">스터디 가이드</a><br>
+       <a href="#">중간퀴즈</a>
+    </div>
 
-- date: 4/29
+- date: 4/27
   week: 9
   title: >
-    <strong>Midterm Test</strong>
+    <strong>Chapter 07 관계 데이터 모델</strong>
+  slides: 
+  img: 
+  readings:
+  hw: 
+  logistics:
 
-- date: 5/6
+- date: 5/4
   week: 10
   title: >
-    <span style="color: red"><strong>No Class</strong> 어린이 날 (대체)</span>
+    <strong>Chapter 08 논리적 설계 기초</strong>
+  slides: 
+  img: 
+  readings:
+  hw: 
+  logistics:
 
-- date: 5/13
+- date: 5/11
   week: 11
   title: >
-    <strong>10 데이터베이스 설계</strong>
-  supp:
-  readings: p. 342-378
-  hw:
-  slides: "https://docs.google.com/presentation/d/1qS6A3C-t6Zdr9f7vBkkzAOD5uTmGNR903Xpm-TsZ83Y/edit?usp=sharing"
-  img: 2024/dju-db/11-db-arch.jpg
-  logistics: >
-    <a href="https://drive.google.com/file/d/1oLRxH49dNMTGL8c_L7KA50n2fYf9ZI5l/view?usp=sharing">10장 연습 문제</a>
+    <strong>Chapter 09 논리적 설계 심화</strong>
+  slides: 
+  img: 
+  readings:
+  hw: 
+  logistics:
 
-- date: 5/20
+- date: 5/18
   week: 12
   title: >
-    <strong>11 데이터웨어하우스와 데이터베이스 응용</strong>
-  supp:
-  readings: p. 380-420
-  hw:
-  slides: "https://docs.google.com/presentation/d/15wXgQwlUYmLnPlSkYZ-J4KHrc0Jm8FdHd-J6xlS46_s/edit?usp=sharing"
-  img: 2024/dju-db/12-data-warehouse.jpg
-  logistics: >
-    <a href="https://drive.google.com/file/d/12QgjN0c0LV8W0UM7XrX74aNKkn8qV8ho/view?usp=sharing">11장 연습 문제</a>
-
-- date: 5/27
-  week: 13
-  title: >
-    <strong>12 빅데이터와 NoSQL</strong>
-  supp:
-  readings: p. 422-456
-  hw:
-  slides: "https://docs.google.com/presentation/d/1RoPW2FoNcLz3cOEw_a6toiVUtOqJgwtKn8g1aX1_yKk/edit?usp=sharing"
-  img: 2024/dju-db/13-big-data.jpg
-  logistics: >
-    <a href="https://drive.google.com/file/d/1nqckkikdZhItsZm6R9zHd8T7xJIfIDdo/view?usp=sharing">12장 연습 문제</a>
-
-- date: 6/3
-  week: 14
-  title: >
-    <span style="color: red"><strong>No Class</strong> 선거</span>
+    <strong>Chapter 10 정규화</strong>
+  slides: 
+  img: 
+  readings:
+  hw: 
+  logistics:
 
 - date: >
-    <span style="color: red">6/3 보강</span>
-  week: 14
+    <span style="color: red;">5/25</span>
+  week: 1
   title: >
-    <strong>14 데이터베이스 모바일 웹 프로그래밍</strong>
-  supp:
-  readings: p. 492-532
-  hw: "https://classroom.github.com/a/5ZoPwbxv"
-  slides: "https://docs.google.com/presentation/d/1jVm51DY7akksIe9c_0ahWJ5LylCBcHE1QVK566pF2k4/edit?usp=sharing"
-  img: 2024/dju-db/15-mobile-web.jpg
-  logistics: >
-    PHP MovieDB 프로젝트
+    <span style="color: red"><strong>No Class</strong> Buddha's Bday</span>
+  slides: 
+  img: 
+  readings:
+  hw: 
+  logistics:
 
-- date: 6/10
+- date: 6/1
+  week: 14
+  title: <strong>Chapter 11 물리적 설계</strong>
+  slides: 
+  img: 
+  readings:
+  hw: 
+  logistics:
+
+- date: 6/1 (Makeup)
+  week: 14
+  title: <strong>Chapter 12 데이터베이스 구현</strong>
+  slides: 
+  img: 
+  readings:
+  hw: 
+  logistics:
+
+- date: 6/8
   week: 15
   title: >
-    <strong>13 NoSQL과 몽고DB</strong>
-  supp:
-  readings: p 458-490
-  hw:
-  slides: "https://docs.google.com/presentation/d/1q9u0-vbXhD6iG3gyYx_e4cuBTrN0zU3vwys7kLXB19M/edit?usp=sharing"
-  slides2: "https://docs.google.com/presentation/d/1nQ9S0eJkDxUubjYuhfDyA1j6DHjCgPsr8s00Q-Q3E14/edit?usp=sharing"
-  img: 2024/dju-db/14-mongodb.jpg
-  logistics: >
-    <a href="https://drive.google.com/file/d/1F4n3wKVU99UZJgOO6GCjJy_PR4T9mD-K/view?usp=sharing">13장 연습 문제</a>
+    <strong>개인 프로젝트</strong>
+  slides: 
+  img: 
+  readings:
+  hw: 
+  logistics:
 
-- date: 6/17
+- date: 6/15
   week: 16
   title: >
     <strong>Final Test</strong><br>
-    <a href="https://forms.gle/wbrvrxUnkduxJkp26">퀴즈</a>
-    <div style="display: none;"><br>
-      <a href="">퀴즈</a> | <a href="">실기</a>
-      스터디 가이드: <a href="">짧게</a>
+    <div style="display: none;">
+      <a href="#">기말퀴즈</a>
+      <a href="#">스터디 가이드</a>
     </div>
