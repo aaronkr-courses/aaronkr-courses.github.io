@@ -2,7 +2,7 @@
 layout: distill
 title: Internet Content Management (PHP)
 subtitle: 인터넷콘텐츠관리
-description: ??? • 2026년 1학기 • 원광대학교
+description: 374095 • 2026년 1학기 • 원광대학교
 logo: wku-logo.png
 img: assets/img/books/php-text.jpg
 importance: 3
@@ -24,9 +24,9 @@ toc:
       - name: Project 프로젝트
 
 information:
-  - section: ???
-    time: 화 678 Tues 2-5pm?
-    location: ???
+  - section: 374095
+    time: 화 678 Tues 2-5pm
+    location: 프라임관 지상 2층 - 콘텐츠응용개발실습실
     kakaotalk:
 
 Main-Text:

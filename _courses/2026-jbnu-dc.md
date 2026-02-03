@@ -68,7 +68,7 @@ Supplementary:
 
 #### Grading 평가방법
 
-| Att: <strong style="color: #9b65ff;">20%</strong> | Midterm: <strong style="color: #9b65ff;">25%</strong> | Final: <strong style="color: #9b65ff;">30%</strong> | HW: <strong style="color: #9b65ff;">15%</strong> | Project: <strong style="color: #9b65ff;">10%</strong> |
+| Att: <strong style="color: #9b65ff;">20%</strong> | Midterm: <strong style="color: #9b65ff;">25%</strong> | Final: <strong style="color: #9b65ff;">25%</strong> | HW: <strong style="color: #9b65ff;">20%</strong> | Project: <strong style="color: #9b65ff;">10%</strong> |
 
 ## Schedule 강의일정
 

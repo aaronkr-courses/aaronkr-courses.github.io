@@ -2,7 +2,7 @@
 layout: distill
 title: Convergence Power Electronics
 subtitle: 융합전자전력공학
-description: ??? • 2026년 1학기 • 전북대학교
+description: 0000131120 • 2026년 1학기 • 전북대학교
 logo: jbnu-logo-2.png
 img: assets/img/books/pe-principles.jpg
 importance: 5
@@ -24,17 +24,17 @@ toc:
       - name: Project 프로젝트
 
 information:
-  - section: ???
+  - section: 0000131120
     time: 수 234 Wed 10am-1pm
     location: 인문대학 2호관 504호
     kakaotalk: 
 
 Main-Text:
   - text: "주교재"
-    author: "Kassakian, John G., David J. Perreault, George C. Verghese, and Martin F. Schlecht"
+    author: "Kassakian, John G. et. al"
     title: >
-      <strong>Principles of Power Electronics.</strong>, 2nd Edition
-    publisher: "Cambridge University Press, 2023"
+      <strong>Principles of Power Electronics</strong>, 2nd Edition
+    publisher: "Cambridge University Press | October 5, 2023"
     link: "https://www.amazon.com/Principles-Power-Electronics-John-Kassakian/dp/1316519511"
     code:
     notes:
@@ -49,12 +49,12 @@ Supplementary:
     link: "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/"
     code:
     notes:
-    image: books/schaums-circuits.jpg
+    image: books/mit-ocw.jpg
 ---
 
 #### Grading 평가방법
 
-| Att: <strong style="color: #9b65ff;">20%</strong> | Midterm: <strong style="color: #9b65ff;">25%</strong> | Final: <strong style="color: #9b65ff;">30%</strong> | HW: <strong style="color: #9b65ff;">15%</strong> | Project: <strong style="color: #9b65ff;">10%</strong> |
+| Att: <strong style="color: #9b65ff;">20%</strong> | Midterm: <strong style="color: #9b65ff;">25%</strong> | Final: <strong style="color: #9b65ff;">25%</strong> | HW: <strong style="color: #9b65ff;">20%</strong> | Project: <strong style="color: #9b65ff;">10%</strong> |
 
 ## Schedule 강의일정
 

@@ -2,9 +2,9 @@
 layout: distill
 title: Device Analysis
 subtitle: 기기분석의 이해
-description: ??? • 2026년 1학기 • 전북대학교
+description: 0000131119 • 2026년 1학기 • 전북대학교
 logo: jbnu-logo-2.png
-img: assets/img/books/inst-analysis.jpg
+img: assets/img/books/inst-analysis-8.jpg
 importance: 7
 category: 2026-1
 now: Yes
@@ -24,21 +24,31 @@ toc:
       - name: Project 프로젝트
 
 information:
-  - section: ???
+  - section: 0000131119
     time: 목 567 | Thur 1-4pm
-    location: 인문대학 2호관 331호?
+    location: 인문대학 2호관 331호
     kakaotalk: 
 
 Main-Text:
   - text: "주교재"
-    author: "MacKay, David J. C."
+    author: "Thomas J. Bruno, James W. Robinson, et. al."
     title: >
-      <strong>Undergraduate Instrumental Analysis</strong> 7th Edition
-    publisher: "CRC Press | 2014년 7월 21일"
-    link: "https://www.amazon.com/Undergraduate-Instrumental-Analysis-James-Robinson/dp/1420061356/"
+      <strong>Undergraduate Instrumental Analysis</strong> 8th Edition
+    publisher: "CRC Press | July 31, 2023"
+    link: "https://www.amazon.com/Undergraduate-Instrumental-Analysis-Thomas-Bruno-dp-1032036915/dp/1032036915/"
     code:
     notes:
-    image: books/inst-analysis.jpg
+    image: books/inst-analysis-8.jpg
+
+  - text: "주교재"
+    author: "양재삼 저"
+    title: >
+      <strong>마이크로파이썬을 활용한 사물인터넷</strong> 챗GPT로 코딩하기
+    publisher: "한빛아카데미 | 2025년 01월 02일"
+    link: "https://www.yes24.com/product/goods/141217787"
+    code:
+    notes:
+    image: books/iot.jpg
 
 Supplementary:
   - text: "부교재"
@@ -49,7 +59,7 @@ Supplementary:
     link: "https://ocw.mit.edu/courses/3-15-electrical-optical-magnetic-materials-and-devices-fall-2006/"
     code:
     notes:
-    image:
+    image: books/mit-ocw.jpg
 
   - text: "부교재"
     author: "Prof. Carol Livermore, Prof. Joel Voldman"
@@ -59,12 +69,12 @@ Supplementary:
     link: "https://ocw.mit.edu/courses/6-777j-design-and-fabrication-of-microelectromechanical-devices-spring-2007/"
     code:
     notes:
-    image:
+    image: books/mit-ocw.jpg
 ---
 
 #### Grading 평가방법
 
-| 출석 (Att): <strong style="color: #9b65ff;">20%</strong> | 중간고사 (Midterm): <strong style="color: #9b65ff;">25%</strong> | 기말고사 (Final): <strong style="color: #9b65ff;">30%</strong> | 과제 (HW): <strong style="color: #9b65ff;">15%</strong> | 프로젝트: 10% |
+| 출석 (Att): <strong style="color: #9b65ff;">20%</strong> | 중간고사 (Midterm): <strong style="color: #9b65ff;">25%</strong> | 기말고사 (Final): <strong style="color: #9b65ff;">25%</strong> | 과제 (HW): <strong style="color: #9b65ff;">20%</strong> | Project: 10% |
 
 ## Schedule 강의일정
 
