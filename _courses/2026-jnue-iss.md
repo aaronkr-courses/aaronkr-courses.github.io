@@ -25,17 +25,17 @@ toc:
   - name: Instructor 강사소개
 
 information:
-  - section: 070137-???
+  - section: 070137-1
     time: 금 12 | Fri 9am-11am
     location: 전산교육실
     kakaotalk: 
 
-  - section: 070137-???
+  - section: 070137-4
     time: 수 34 | Fri 11am-1pm
     location: 전산교육실
     kakaotalk: 
 
-  - section: 070137-???
+  - section: 070137-6
     time: 수 67 | Fri 2pm-4pm
     location: 전산교육실
     kakaotalk: 
@@ -61,6 +61,10 @@ Main-Text:
     notes:
     image: books/entry.jpg
 ---
+
+#### Grading 평가방법
+
+| 출석 (Att): <strong style="color: #9b65ff;">10%</strong> | 중간고사 (Midterm): <strong style="color: #9b65ff;">30%</strong> | 기말고사 (Final): <strong style="color: #9b65ff;">30%</strong> | 과제 (HW): <strong style="color: #9b65ff;">30%</strong> |
 
 ## Schedule 강의일정
 

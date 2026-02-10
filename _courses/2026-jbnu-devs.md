@@ -74,7 +74,7 @@ Supplementary:
 
 #### Grading 평가방법
 
-| 출석 (Att): <strong style="color: #9b65ff;">20%</strong> | 중간고사 (Midterm): <strong style="color: #9b65ff;">25%</strong> | 기말고사 (Final): <strong style="color: #9b65ff;">25%</strong> | 과제 (HW): <strong style="color: #9b65ff;">20%</strong> | Project: 10% |
+| 출석 (Att): <strong style="color: #9b65ff;">20%</strong> | 중간고사 (Midterm): <strong style="color: #9b65ff;">25%</strong> | 기말고사 (Final): <strong style="color: #9b65ff;">25%</strong> | 과제 (HW): <strong style="color: #9b65ff;">20%</strong> | Project: <strong style="color: #9b65ff;">10%</strong> |
 
 ## Schedule 강의일정
 

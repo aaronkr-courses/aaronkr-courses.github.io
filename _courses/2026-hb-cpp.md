@@ -58,7 +58,7 @@ Supplementary:
 
 #### Grading 평가방법
 
-| 출석: <strong style="color: #9b65ff;">10%</strong> | 중간: <strong style="color: #9b65ff;">25%</strong> | 기말: <strong style="color: #9b65ff;">30%</strong> | 과제 (HW): <strong style="color: #9b65ff;">30%</strong> | 프로젝트: <strong style="color: #9b65ff;">5%</strong> |
+| 출석: <strong style="color: #9b65ff;">10%</strong> | 중간: <strong style="color: #9b65ff;">30%</strong> | 기말: <strong style="color: #9b65ff;">30%</strong> | 과제 (HW): <strong style="color: #9b65ff;">25%</strong> | 프로젝트: <strong style="color: #9b65ff;">5%</strong> |
 
 ## Schedule 강의일정
 
