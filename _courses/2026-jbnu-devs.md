@@ -4,7 +4,7 @@ title: Device Analysis
 subtitle: 기기분석의 이해
 description: 0000131119 • 2026년 1학기 • 전북대학교
 logo: jbnu-logo-2.png
-img: assets/img/books/inst-analysis-8.jpg
+img: assets/img/books/inst-analysis-morris.jpg
 importance: 7
 category: 2026-1
 now: Yes
@@ -31,15 +31,16 @@ information:
 
 Main-Text:
   - text: "주교재"
-    author: "Thomas J. Bruno, James W. Robinson, et. al."
+    author: "Alan S. Morris, Reza Langari"
     title: >
-      <strong>Undergraduate Instrumental Analysis</strong> 8th Edition
-    publisher: "CRC Press | July 31, 2023"
-    link: "https://www.amazon.com/Undergraduate-Instrumental-Analysis-Thomas-Bruno-dp-1032036915/dp/1032036915/"
+      <strong>Measurement and Instrumentation: Theory and Application</strong> 3rd Edition
+    publisher: "Academic Press | October 20, 2020"
+    link: "https://www.amazon.com/Measurement-Instrumentation-Application-Alan-Morris/dp/0128171413"
     code:
     notes:
-    image: books/inst-analysis-8.jpg
+    image: books/inst-analysis-morris.jpg
 
+Supplementary:
   - text: "주교재"
     author: "양재삼 저"
     title: >
@@ -50,31 +51,20 @@ Main-Text:
     notes:
     image: books/iot.jpg
 
-Supplementary:
-  - text: "부교재"
-    author: "Prof. Caroline Ross"
+  - text: "주교재"
+    author: "Thomas J. Bruno, James W. Robinson, et. al."
     title: >
-      <strong>Electrical, Optical & Magnetic Materials and Devices</strong>
-    publisher: "MIT OpenCourseWare"
-    link: "https://ocw.mit.edu/courses/3-15-electrical-optical-magnetic-materials-and-devices-fall-2006/"
+      <strong>Undergraduate Instrumental Analysis</strong> 8th Edition
+    publisher: "CRC Press | July 31, 2023"
+    link: "https://www.amazon.com/Undergraduate-Instrumental-Analysis-Thomas-Bruno-dp-1032036915/dp/1032036915/"
     code:
     notes:
-    image: books/mit-ocw.jpg
-
-  - text: "부교재"
-    author: "Prof. Carol Livermore, Prof. Joel Voldman"
-    title: >
-      <strong>Design and Fabrication of Microelectromechanical Devices</strong>
-    publisher: "MIT OpenCourseWare"
-    link: "https://ocw.mit.edu/courses/6-777j-design-and-fabrication-of-microelectromechanical-devices-spring-2007/"
-    code:
-    notes:
-    image: books/mit-ocw.jpg
+    image: books/inst-analysis-8.jpg
 ---
 
 #### Grading 평가방법
 
-| 출석 (Att): <strong style="color: #9b65ff;">20%</strong> | 중간고사 (Midterm): <strong style="color: #9b65ff;">25%</strong> | 기말고사 (Final): <strong style="color: #9b65ff;">25%</strong> | 과제 (HW): <strong style="color: #9b65ff;">20%</strong> | Project: <strong style="color: #9b65ff;">10%</strong> |
+| Att: <strong style="color: #9b65ff;">20%</strong> | Midterm: <strong style="color: #9b65ff;">25%</strong> | Final: <strong style="color: #9b65ff;">25%</strong> | HW: <strong style="color: #9b65ff;">20%</strong> | Project: <strong style="color: #9b65ff;">10%</strong> |
 
 ## Schedule 강의일정
 
@@ -104,20 +94,14 @@ Supplementary:
 
 <img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/inst-analysis.jpg" />
 
-<strong>Undergraduate Instrumental Analysis</strong> <a href="https://www.amazon.com/Undergraduate-Instrumental-Analysis-James-Robinson/dp/1420061356/"></a>
+<strong>Measurement and Instrumentation: Theory and Application, Third Edition</strong> <a href="https://www.amazon.com/Measurement-Instrumentation-Application-Alan-Morris/dp/0128171413"></a>
 
-Crucial to research in molecular biology, medicine, geology, food science, materials science, and many other fields, analytical instrumentation is used by many scientists and engineers who are not chemists. Undergraduate Instrumental Analysis, Seventh Edition provides users of analytical instrumentation with an understanding of these instruments, covering all major fields of modern instrumentation. Following the tradition of earlier editions, this text is designed for teaching undergraduates and those with no analytical chemistry background how contemporary analytical instrumentation works, as well as its uses and limitations.
+_Measurement and Instrumentation: Theory and Application, Third Edition_, introduces undergraduate engineering students to measurement principles and the range of sensors and instruments used for measuring physical variables. Providing the most balanced coverage of measurement theory/technologies and instrumentation, this clearly and comprehensively written text arms students and recently graduated engineers with the knowledge and tools to design and build measurement systems for virtually any engineering application.
 
-Each chapter provides a discussion of the fundamental principles underlying the techniques, descriptions of the instrumentation, and numerous applications. The chapters also contain updated bibliographies and problems, and most have suggested experiments appropriate to the techniques. This completely revised and updated edition covers subjects in more detail, such as a completely revised x-ray chapter, expanded coverage of electroanalytical techniques, and expansion of chromatography and mass spectrometry topics to reflect the predominance of these instruments in laboratories. This includes state-of-the-art sample introduction and mass analyzers, and the latest developments in UPLC and hyphenated techniques. The book also contains new graphics and addresses several new topics:
-
-- Ion mobility spectrometry
-- Time domain NMR (relaxometry)
-- Electron spin resonance spectroscopy (ESR, EPR)
-- Forensic science and bioanalytical applications
-- Microcalorimetry and optical thermal instruments
-- Laser-induced breakdown spectroscopy (LIBS)
-
-This text uniquely combines instrumental analysis with organic spectral interpretation (IR, NMR, and MS). It provides detailed coverage of sampling, sample handling, sample storage, and sample preparation. In addition, the authors have included many instrument manufacturers’ websites, which contain extensive resources.
+- Provides early coverage of measurement system design to facilitate a better framework for understanding the importance of studying measurement and instrumentation
+- Covers the latest developments in measurement technologies, including smart sensors, intelligent instruments, microsensors, digital recorders, displays and interfaces
+- Includes significant material on data acquisition and signal processing with LabVIEW
+- New sections in this updated edition include an expansion of sections on MEMS and electrical safety, new illustrations, including more photos of real devices, and more worked examples and end-of-chapter problems
 
 ---
 

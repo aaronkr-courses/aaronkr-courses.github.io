@@ -19,7 +19,7 @@
   week: 2
   title: >
     <strong>Introduction<br>
-    Concepts of Instrumental Analytical Chemistry</strong>
+    1. Fundamentals of Measurement Systems</strong>
   supp:
   readings:
   hw:
@@ -31,8 +31,8 @@
 - date: 3/12
   week: 3
   title: >
-    <strong>Introduction to Spectroscopy<br>
-    Magnetic Resonance Spectroscopy</strong>
+    <strong>2. Instrument Types and Performance Characteristics<br>
+    3. Measurement Uncertainty</strong>
   supp:
   readings:
   hw:
@@ -44,7 +44,8 @@
 - date: 3/19
   week: 4
   title: >
-    <strong>Infrared, Near-Infrared, and Raman Spectroscopy</strong>
+    <strong>4. Statistical Analysis of Measurements Subject to Random Errors<br>
+    5. Calibration of Measuring Sensors and Instruments</strong>
   supp:
   readings:
   hw:
@@ -56,7 +57,8 @@
 - date: 3/26
   week: 5
   title: >
-    <strong>Visible and Ultraviolet Molecular Spectroscopy</strong>
+    <strong>6. Data Acquisition and Signal Processing<br>
+    7. Variable Conversion</strong>
   supp:
   readings:
   hw:
@@ -68,8 +70,8 @@
 - date: 4/2
   week: 6
   title: >
-    <strong>Atomic Absorption Spectrometry<br>
-    Atomic Emission Spectroscopy</strong>
+    <strong>8. Measurement Signal Transmission<br>
+    9. Display, Recording, and Presentation of Measurement Data</strong>
   supp:
   readings:
   hw:
@@ -81,7 +83,8 @@
 - date: 4/9
   week: 7
   title: >
-    <strong>X-Ray Spectroscopy</strong>
+    <strong>10. Intelligent Devices<br>
+    11. Measurement Reliability and Safety Systems</strong>
   supp:
   readings:
   hw:
@@ -101,8 +104,8 @@
 - date: 4/23
   week: 9
   title: >
-    <strong>Mass Spectrometry I: Principles and Instrumentation<br>
-    Mass Spectrometry II: Spectral Interpretation and Applications</strong>
+    <strong>12. Data Acquisition with LabVIEW<br>
+    13. Sensor Technologies</strong>
   supp:
   readings:
   hw:
@@ -114,7 +117,8 @@
 - date: 4/30
   week: 10
   title: >
-    <strong>Principles of Chromatography</strong>
+    <strong>14. Temperature Measurement<br>
+    15. Pressure Measurement</strong>
   supp:
   readings:
   hw:
@@ -126,7 +130,8 @@
 - date: 5/7
   week: 11
   title: >
-    <strong>Gas Chromatography</strong>
+    <strong>16. Flow Measurement<br>
+    17. Level Measurement</strong>
   supp:
   readings:
   hw:
@@ -138,7 +143,8 @@
 - date: 5/14
   week: 12
   title: >
-    <strong>Chromatography with Liquid Mobile Phases</strong>
+    <strong>18. Mass, Force, and Torque Measurement<br>
+    19. Translational Motion, Vibration, and Shock Measurement</strong>
   supp:
   readings:
   hw:
@@ -150,7 +156,8 @@
 - date: 5/21
   week: 13
   title: >
-    <strong>Surface Analysis</strong>
+    <strong>20. Rotational Motion Transducers<br>
+    21. Summary of Other Measurements</strong>
   supp:
   readings:
   hw:
@@ -162,7 +169,8 @@
 - date: 5/28
   week: 14
   title: >
-    <strong>Electroanalytical Chemistry</strong>
+    <strong>A1. Imperial-Metric-SI Conversion Tables<br>
+    A2. Thévenin’s Theorem</strong>
   supp:
   readings:
   hw:
@@ -174,7 +182,8 @@
 - date: 6/4
   week: 15
   title: >
-    <strong>Thermal Analysis</strong>
+    <strong>A3. Thermocouple Tables<br>
+    A4. Using Mathematical Tables</strong>
   supp:
   readings:
   hw:
