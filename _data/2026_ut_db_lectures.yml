@@ -12,10 +12,9 @@
 - date: 3/9
   week: 2
   title: >
-    <strong>책소개, 수업소개, 강사소개<br>
-    Chapter 01 데이터베이스 개요</strong>
-  slides: 
-  img: 
+    <strong>책소개, 수업소개, 강사소개</strong>
+  slides: "https://docs.google.com/presentation/d/1YSxtLE7hEW-Lm0GJAKSXW-iuDxnx6UwnOe5qtFfCKPM/edit?usp=sharing"
+  img: 2026/ut-db/1-intro.jpg
   readings:
   hw: 
   logistics:
@@ -23,7 +22,7 @@
 - date: 3/16
   week: 3
   title: >
-    <strong>Chapter 02 데이터베이스 설계 개요</strong>
+    <strong>Chapter 01 데이터베이스 개요</strong>
   slides: 
   img: 
   readings:
@@ -33,7 +32,7 @@
 - date: 3/23
   week: 4
   title: >
-    <strong>Chapter 03 요구 수집 및 분석</strong>
+    <strong>Chapter 02 데이터베이스 설계 개요</strong>
   slides: 
   img: 
   readings:
@@ -43,7 +42,7 @@
 - date: 3/30
   week: 5
   title: >
-    <strong>Chapter 04 ER 모델</strong>
+    <strong>Chapter 03 요구 수집 및 분석</strong>
   slides: 
   img: 
   readings:
@@ -53,7 +52,7 @@
 - date: 4/6
   week: 6
   title: >
-    <strong>Chapter 05 개념적 설계 기초</strong>
+    <strong>Chapter 04 ER 모델</strong>
   slides: 
   img: 
   readings:
@@ -63,7 +62,7 @@
 - date: 4/13
   week: 7
   title: >
-    <strong>Chapter 06 개념적 설계 심화</strong>
+    <strong>Chapter 05 개념적 설계 기초</strong>
   slides: 
   img: 
   readings:
@@ -82,7 +81,7 @@
 - date: 4/27
   week: 9
   title: >
-    <strong>Chapter 07 관계 데이터 모델</strong>
+    <strong>Chapter 06 개념적 설계 심화</strong>
   slides: 
   img: 
   readings:
@@ -92,7 +91,7 @@
 - date: 5/4
   week: 10
   title: >
-    <strong>Chapter 08 논리적 설계 기초</strong>
+    <strong>Chapter 07 관계 데이터 모델</strong>
   slides: 
   img: 
   readings:
@@ -102,7 +101,7 @@
 - date: 5/11
   week: 11
   title: >
-    <strong>Chapter 09 논리적 설계 심화</strong>
+    <strong>Chapter 08 논리적 설계 기초</strong>
   slides: 
   img: 
   readings:
@@ -112,7 +111,7 @@
 - date: 5/18
   week: 12
   title: >
-    <strong>Chapter 10 정규화</strong>
+    <strong>Chapter 09 논리적 설계 심화</strong>
   slides: 
   img: 
   readings:
@@ -132,7 +131,7 @@
 
 - date: 6/1
   week: 14
-  title: <strong>Chapter 11 물리적 설계</strong>
+  title: <strong>Chapter 10 정규화</strong>
   slides: 
   img: 
   readings:
@@ -141,7 +140,7 @@
 
 - date: 6/1 (Makeup)
   week: 14
-  title: <strong>Chapter 12 데이터베이스 구현</strong>
+  title: <strong>Chapter 11 물리적 설계</strong>
   slides: 
   img: 
   readings:
@@ -151,7 +150,7 @@
 - date: 6/8
   week: 15
   title: >
-    <strong>개인 프로젝트</strong>
+    <strong>Chapter 12 데이터베이스 구현</strong>
   slides: 
   img: 
   readings:
