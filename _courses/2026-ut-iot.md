@@ -2,7 +2,7 @@
 layout: distill
 title: IoT
 sutitle: 사물인터넷
-description: ??? • 2026년 1학기 • 한국교통대학교
+description: 442213 • 2026년 1학기 • 한국교통대학교
 logo: ut-logo.png
 img: assets/img/books/iot.jpg
 importance: 1
@@ -28,9 +28,9 @@ toc:
   - name: Instructor 강사소개
 
 information:
-  - section: ???
+  - section: 442213
     time: 월 123 | Mon 9am-12pm
-    location: ???
+    location: W18동 214호
     kakaotalk: 
 
 Main-Text:
