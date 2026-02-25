@@ -47,7 +47,7 @@ Main-Text:
 
 #### Grading 평가방법
 
-| 출석 (Att): <strong style="color: #9b65ff;">10%</strong> | 중간고사 (Midterm): <strong style="color: #9b65ff;">25%</strong> | 기말고사 (Final): <strong style="color: #9b65ff;">30%</strong> | 과제 (HW): <strong style="color: #9b65ff;">20%</strong> | 프로젝트: <strong style="color: #9b65ff;">15%</strong> |
+| 출석 (Att): <strong style="color: #9b65ff;">10%</strong> | 중간고사 (Midterm): <strong style="color: #9b65ff;">25%</strong> | 기말고사 (Final): <strong style="color: #9b65ff;">25%</strong> | 과제 (HW): <strong style="color: #9b65ff;">25%</strong> | 프로젝트: <strong style="color: #9b65ff;">15%</strong> |
 
 ## Schedule 강의일정
 
@@ -81,8 +81,8 @@ Main-Text:
 
 - 출석: **10%**
 - 중간고사: **25%**
-- 기말고사: **30%**
-- 과제 (연습문제, 실습코드, 등): **20%**
+- 기말고사: **25%**
+- 과제 (연습문제, 실습코드, 등): **25%**
 - 프로젝트: **15%**
 
 {% include_relative common/policies.md %}
