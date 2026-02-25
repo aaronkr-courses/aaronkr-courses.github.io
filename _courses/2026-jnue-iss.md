@@ -28,17 +28,17 @@ information:
   - section: 070137-1
     time: 금 12 | Fri 9am-11am
     location: 전산교육실
-    kakaotalk: 
+    kakaotalk: https://open.kakao.com/o/gmVEXdii
 
   - section: 070137-4
-    time: 수 34 | Fri 11am-1pm
+    time: 금 34 | Fri 11am-1pm
     location: 전산교육실
-    kakaotalk: 
+    kakaotalk: https://open.kakao.com/o/g6RYXdii
 
   - section: 070137-6
-    time: 수 67 | Fri 2pm-4pm
+    time: 금 67 | Fri 2pm-4pm
     location: 전산교육실
-    kakaotalk: 
+    kakaotalk: https://open.kakao.com/o/g95kYdii
 
 Main-Text:
   - text: "주교재"

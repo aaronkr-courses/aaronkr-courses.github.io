@@ -27,7 +27,7 @@ information:
   - section: 0000131119
     time: 목 567 | Thur 1-4pm
     location: 인문대학 2호관 331호
-    kakaotalk: 
+    kakaotalk: https://open.kakao.com/o/gzdKVdii
 
 Main-Text:
   - text: "주교재"

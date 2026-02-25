@@ -31,7 +31,7 @@ information:
   - section: 0000127046
     time: 목 123 | Thur 9am-12pm
     location: 인문대학 2호관 501호
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/guPlVdii
 
 Main-Text:
   - text: "주교재"

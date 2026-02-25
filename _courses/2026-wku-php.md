@@ -27,7 +27,7 @@ information:
   - section: 374095
     time: 화 678 Tues 2-5pm
     location: 프라임관 지상 2층 - 콘텐츠응용개발실습실
-    kakaotalk:
+    kakaotalk: https://open.kakao.com/o/gNS2Wdii
 
 Main-Text:
   - text: "주교재"

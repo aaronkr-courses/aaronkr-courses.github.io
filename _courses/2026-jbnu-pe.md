@@ -27,7 +27,7 @@ information:
   - section: 0000131120
     time: 수 234 Wed 10am-1pm
     location: 인문대학 2호관 504호
-    kakaotalk: 
+    kakaotalk: https://open.kakao.com/o/gj9iUdii
 
 Main-Text:
   - text: "주교재"
