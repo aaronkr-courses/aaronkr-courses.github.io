@@ -139,7 +139,7 @@
   hw: 
   logistics:
 
-- date: 6/1 (Makeup)
+- date: 6/8
   week: 14
   title: <strong>CHAPTER 12 센서 데이터 모니터링하기</strong>
   slides: 
@@ -148,7 +148,8 @@
   hw: 
   logistics:
 
-- date: 6/8
+- date: >
+    <span style="color: red">6/11 (LMS 보강)</span>
   week: 15
   title: >
     <strong>CHAPTER 13 전등 제어와 경보 시스템 구성하기</strong>
