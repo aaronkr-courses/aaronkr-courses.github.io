@@ -138,7 +138,7 @@
   hw: 
   logistics:
 
-- date: 6/1 (Makeup)
+- date: 6/8
   week: 14
   title: <strong>Chapter 11 물리적 설계</strong>
   slides: 
@@ -147,7 +147,8 @@
   hw: 
   logistics:
 
-- date: 6/8
+- date: >
+    <span style="color: red">6/11 (LMS 보강)</span>
   week: 15
   title: >
     <strong>Chapter 12 데이터베이스 구현</strong>
