@@ -44,19 +44,20 @@
 - date: 3/18
   week: 3
   title: >
-    <strong>DC/DC Conversion</strong>
+    <strong>Rectifiers</strong>
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/16xQNWuYy0dVoetT5M5sfSItp3lR9mrOXc0otvsOCilM/edit?usp=sharing"
   slides2:
-  img: 
+  img: 2026/jbnu-pe/3-rectifiers.jpg
   logistics:
 
 - date: 3/25
   week: 4
   title: >
-    <strong>Magnetics</strong>
+    <strong>DC/DC Conversion<br>
+    Magnetics</strong>
   supp:
   readings:
   hw:
