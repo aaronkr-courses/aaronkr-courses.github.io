@@ -154,6 +154,13 @@ body.dark {
         <label>학번 · Student ID</label>
         <input type="text" id="f-id" placeholder="20231234" required autocomplete="off" inputmode="numeric"/>
       </div>
+      <div class="field">
+        <label style="font-weight:400;color:var(--muted)">
+          피드백 (선택사항) · Feedback <span style="font-size:11px">(optional)</span>
+        </label>
+        <input type="text" id="f-feedback" 
+               placeholder="강의나 앱에 대한 의견을 남겨주세요 · Comments on class or app"/>
+      </div>
       <button type="submit" class="btn-sub" id="submit-btn">출석 제출 · Submit attendance</button>
       <div class="err-box" id="err-box"></div>
     </form>
@@ -291,44 +298,21 @@ async function doSubmit(e) {
       studentId:   sid,
       ip:          userIp,
       onCampus:    onCampus,
+      feedback:    document.getElementById('f-feedback').value.trim() || null,
       submitted:   true,
       timestamp:   firebase.firestore.FieldValue.serverTimestamp(),
       tokenUsed:   urlToken
     });
     clearInterval(timerInterval);
-    showFormEmbed(name, sid);
+    document.getElementById('ok-detail').innerHTML =
+      `<strong>${name}</strong> (${sid})<br>
+       ${sessionData.className || ''}<br><br>
+       출석이 완료되었습니다 · You're all done!`;
+    show('success');
   } catch(err) {
     btn.disabled=false; btn.textContent='출석 제출 · Submit attendance';
     showErr('저장 실패 · Save error: '+err.message);
   }
-}
-
-function showFormEmbed(name, sid) {
-  // Get entry IDs — per-class override or global fallback
-  const cls = CLASSES.find(c=>c.id===sessionData.classId);
-  const entryName = cls?.entryName || FORM_ENTRY_NAME;
-  const entryId   = cls?.entryId   || FORM_ENTRY_ID;
-  const formBase  = sessionData.formUrl;
-  const filled    = `${formBase}?${entryName}=${encodeURIComponent(name)}&${entryId}=${encodeURIComponent(sid)}&usp=pp_url`;
-
-  const card = document.querySelector('.card');
-  card.innerHTML = `
-    <div style="text-align:center;margin-bottom:1.25rem">
-      <div style="font-size:32px;margin-bottom:.5rem">📋</div>
-      <h2 style="font-size:16px;font-weight:700;margin-bottom:4px">마지막 단계 · Last step</h2>
-      <p style="font-size:13px;color:var(--muted);line-height:1.6;margin-bottom:.5rem">
-        아래 Google 폼에서 <strong>제출</strong>을 눌러주세요.<br>
-        Press <strong>Submit</strong> in the form to finish.
-      </p>
-      <p style="font-size:11px;color:var(--muted)">이름과 학번이 자동 입력되었습니다 · Name and ID pre-filled.</p>
-    </div>
-    <iframe src="${filled}&embedded=true"
-      style="width:100%;height:520px;border:none;border-radius:8px"
-      frameborder="0" marginheight="0" marginwidth="0">로딩 중…</iframe>
-    <p style="font-size:11px;color:var(--muted);text-align:center;margin-top:.75rem">
-      폼 제출 후 창을 닫아도 됩니다 · You may close this page after submitting.
-    </p>
-  `;
 }
 
 function showErr(msg){const el=document.getElementById('err-box');if(el){el.textContent=msg;el.style.display='';}}

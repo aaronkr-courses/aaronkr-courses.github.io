@@ -244,10 +244,6 @@ body.dark {
       <div class="card">
         <div class="card-label">Session control</div>
         <div class="field-row">
-          <div style="flex:1">
-            <label class="lbl">Google Form URL <span style="font-weight:400">(auto-filled from selected class)</span></label>
-            <input type="text" id="form-url-input" placeholder="Select a class above, or paste a URL manually"/>
-          </div>
           <button class="btn-g" id="start-btn" onclick="startSession()">▶ Start session</button>
           <button class="btn-r" id="stop-btn"  onclick="stopSession()" style="display:none">■ Stop</button>
         </div>
@@ -496,8 +492,8 @@ function initListeners() {
 
 // ── Session control ────────────────────────────────────────────
 async function startSession() {
-  const url = document.getElementById('form-url-input').value.trim();
-  if (!url || !url.startsWith('http')) { showMsg('Please select a class (or paste a valid form URL).','err'); return; }
+  if (!selectedClass) { showMsg('Please select a class first.','err'); return; }
+  const url = '';  // no longer using Google Forms
 
   const cls   = selectedClass || { id:'manual', name:'Manual', nameKo:'', school:'', semester:'', students:0 };
   const sid   = 'S' + Date.now().toString(36).toUpperCase();
@@ -508,7 +504,6 @@ async function startSession() {
       active:       true,
       sessionId:    sid,
       token:        token,
-      formUrl:      url,
       classId:      cls.id,
       className:    cls.name,
       classNameKo:  cls.nameKo,

@@ -26,7 +26,6 @@ const CLASSES = [
     school:   "JBNU",
     semester: "2026-1",
     students: 45,
-    formUrl:  "https://forms.gle/REPLACE_WITH_YOUR_FORM_LINK"
   },
   {
     id:       "2026-jbnu-devs",
@@ -35,7 +34,6 @@ const CLASSES = [
     school:   "JBNU",
     semester: "2026-1",
     students: 38,
-    formUrl:  "https://forms.gle/REPLACE_WITH_YOUR_FORM_LINK"
   },
   {
     id:       "2026-jbnu-pe",
@@ -44,7 +42,6 @@ const CLASSES = [
     school:   "JBNU",
     semester: "2026-1",
     students: 52,
-    formUrl:  "https://forms.gle/REPLACE_WITH_YOUR_FORM_LINK"
   },
   {
     id:       "2026-ut-iot",
@@ -53,7 +50,6 @@ const CLASSES = [
     school:   "UT",
     semester: "2026-1",
     students: 30,
-    formUrl:  "https://forms.gle/REPLACE_WITH_YOUR_FORM_LINK"
   },
   {
     id:       "2026-ut-db",
@@ -62,7 +58,6 @@ const CLASSES = [
     school:   "UT",
     semester: "2026-1",
     students: 35,
-    formUrl:  "https://forms.gle/REPLACE_WITH_YOUR_FORM_LINK"
   },
   {
     id:       "2026-wku-php",
@@ -71,7 +66,6 @@ const CLASSES = [
     school:   "WKU",
     semester: "2026-1",
     students: 40,
-    formUrl:  "https://forms.gle/REPLACE_WITH_YOUR_FORM_LINK"
   },
   {
     id:       "2026-hb-cpp",
@@ -80,7 +74,6 @@ const CLASSES = [
     school:   "HB",
     semester: "2026-1",
     students: 28,
-    formUrl:  "https://forms.gle/REPLACE_WITH_YOUR_FORM_LINK"
   },
   {
     id:       "2026-jnue-iss",
@@ -89,7 +82,6 @@ const CLASSES = [
     school:   "JNUE",
     semester: "2026-1",
     students: 25,
-    formUrl:  "https://forms.gle/REPLACE_WITH_YOUR_FORM_LINK"
   }
 ];
 
@@ -101,11 +93,3 @@ const SCHOOLS = {
   HB:   { label: "한밭대", color: "#993C1D" },
   JNUE: { label: "전주교육대", color: "#5F5E5A" }
 };
-
-// ── Google Form entry IDs for pre-filling ─────────────────────
-// Go to your form → ⋮ menu → "Get pre-filled link"
-// Fill in sample values, copy the URL, find the entry.XXXXXXXXX numbers.
-// If ALL your forms use the same field order, one set of IDs works for all.
-// If forms differ, you can add entryName/entryId per class object above instead.
-const FORM_ENTRY_NAME = "entry.000000000";  // ← replace with your name field entry ID
-const FORM_ENTRY_ID   = "entry.000000001";  // ← replace with your student ID field entry ID
