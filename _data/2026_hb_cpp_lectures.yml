@@ -41,7 +41,7 @@
   readings: Accelerated C++, <strong>4장 pp. 48-128</strong>
   hw:
   slides: "https://docs.google.com/presentation/d/1MHrevhoPPx3-QNR4z1IuKrQlnqCTLRMya0bzfY4vTUM/edit?usp=sharing"
-  img2: 2025/hb-cpp/4-containers.jpg
+  img: 2025/hb-cpp/4-containers.jpg
   logistics:
 
 - date: 4/1
