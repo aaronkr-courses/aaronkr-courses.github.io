@@ -401,6 +401,7 @@ function buildClassSelector() {
       btn.innerHTML = `<span class="school-dot" style="background:${school.color}"></span>${cls.name} <span style="font-size:11px;color:var(--muted)">${school.label}</span>`;
       btn.onclick = () => selectClass(cls, btn);
       wrap.appendChild(btn);
+      autoSelectClass();
     });
   });
 }
@@ -490,7 +491,10 @@ function initListeners() {
 
 // ── Session control ────────────────────────────────────────────
 async function startSession() {
-  if (!selectedClass) { showMsg('Please select a class first.','err'); return; }
+  if (!selectedClass) {
+    alert('⚠️ Please select a class before starting a session.');
+    return;
+  }
   const url = '';  // no longer using Google Forms
 
   const cls   = selectedClass || { id:'manual', name:'Manual', nameKo:'', school:'', semester:'', students:0 };
@@ -759,6 +763,36 @@ function closeQRModal(event) {
   document.getElementById('qr-modal').classList.remove('open');
   document.body.style.overflow = '';
   clearInterval(window._modalCdInterval);
+}
+
+function autoSelectClass() {
+  const now   = new Date();
+  const day   = now.getDay();
+  const hhmm  = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0');
+
+  // Look for a class whose schedule window contains right now
+  // Extends 15 minutes before start so you can open early
+  const match = CLASSES.find(cls => {
+    if (!cls.schedule?.length) return false;
+    return cls.schedule.some(slot => {
+      if (slot.day !== day) return false;
+      const early = subtractMinutes(slot.start, 15);
+      return hhmm >= early && hhmm <= slot.end;
+    });
+  });
+
+  if (match) {
+    const btn = document.querySelector(`.class-btn[data-id="${match.id}"]`);
+    if (btn) { btn.click(); }  // reuses your existing selectClass() logic
+  }
+}
+
+function subtractMinutes(hhmm, mins) {
+  const [h, m] = hhmm.split(':').map(Number);
+  const total  = h * 60 + m - mins;
+  const hh     = Math.floor(Math.max(total, 0) / 60).toString().padStart(2,'0');
+  const mm     = (Math.max(total, 0) % 60).toString().padStart(2,'0');
+  return `${hh}:${mm}`;
 }
 </script>
 
