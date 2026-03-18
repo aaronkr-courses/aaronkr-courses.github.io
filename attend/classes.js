@@ -25,7 +25,7 @@ const CLASSES = [
     nameKo:   "프로그램 기반 회로 이론 I (DC)",
     school:   "JBNU",
     semester: "2026-1",
-    students: 45,
+    students: 69,
     schedule: [
       { day: 4, start: "09:00", end: "12:00" },  // Thur 9–12pm
     ]
@@ -36,7 +36,7 @@ const CLASSES = [
     nameKo:   "기기분석의 이해",
     school:   "JBNU",
     semester: "2026-1",
-    students: 38,
+    students: 31,
     schedule: [
       { day: 4, start: "13:00", end: "16:00" },  // Thur 1–4pm
     ]
@@ -47,7 +47,7 @@ const CLASSES = [
     nameKo:   "융합전자전력공학",
     school:   "JBNU",
     semester: "2026-1",
-    students: 52,
+    students: 60,
     schedule: [
       { day: 3, start: "10:00", end: "13:00" }   // Wednesday 10–1pm
     ]
@@ -58,7 +58,7 @@ const CLASSES = [
     nameKo:   "IoT",
     school:   "UT",
     semester: "2026-1",
-    students: 30,
+    students: 27,
     schedule: [
       { day: 1, start: "09:00", end: "12:00" },  // Monday 9–12
     ]
@@ -69,7 +69,7 @@ const CLASSES = [
     nameKo:   "데이터베이스 설계",
     school:   "UT",
     semester: "2026-1",
-    students: 35,
+    students: 33,
     schedule: [
       { day: 1, start: "13:00", end: "17:00" },  // Monday 1–5pm
     ]
@@ -80,7 +80,7 @@ const CLASSES = [
     nameKo:   "인터넷콘텐츠관리",
     school:   "WKU",
     semester: "2026-1",
-    students: 40,
+    students: 32,
     schedule: [
       { day: 2, start: "14:00", end: "17:00" },  // Tues 2-5pm
     ]
@@ -102,7 +102,7 @@ const CLASSES = [
     nameKo:   "정보사회와 소프트웨어",
     school:   "JNUE",
     semester: "2026-1",
-    students: 25,
+    students: 23,
     schedule: [
       { day: 5, start: "09:00", end: "11:00" },  // Friday 9–11am
       { day: 5, start: "11:00", end: "13:00" },  // Friday 11-1pm
@@ -114,9 +114,9 @@ const CLASSES = [
 
 // ── SCHOOL COLORS (shown as badges in the dropdown) ──────────
 const SCHOOLS = {
-  JBNU: { label: "전북대", color: "#185FA5" },
-  UT:   { label: "교통대", color: "#0F6E56" },
-  WKU:  { label: "원광대", color: "#854F0B" },
-  HB:   { label: "한밭대", color: "#993C1D" },
-  JNUE: { label: "전주교육대", color: "#5F5E5A" }
+  JBNU: { label: "전북대", color: "#56296E" },
+  UT:   { label: "교통대", color: "#621E22" },
+  WKU:  { label: "원광대", color: "#004386" },
+  HB:   { label: "한밭대", color: "#0195B9" },
+  JNUE: { label: "전주교육대", color: "#8EC743" }
 };
