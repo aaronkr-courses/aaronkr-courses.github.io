@@ -9,8 +9,8 @@
 //    school    — university abbreviation
 //    semester  — e.g. "2026-1"
 //    students  — total enrolled students (for progress bar)
-//    formUrl   — your Google Form /viewform URL for THIS class
-//               (update each semester — old sessions keep their old URL in history)
+//    schedule  — optional array of { day:0-6, start:"HH:MM", end:"HH:MM" } for session scheduling (see JNUE example)
+//       Days: 0=Sun, 1=Mon, 2=Tue, 3=Wed, 4=Thu, 5=Fri, 6=Sat.
 //
 //  TIP: Keep old semesters in the ARCHIVED section below so
 //       session history stays readable. Just don't put them
@@ -26,6 +26,9 @@ const CLASSES = [
     school:   "JBNU",
     semester: "2026-1",
     students: 45,
+    schedule: [
+      { day: 4, start: "09:00", end: "12:00" },  // Thur 9–12pm
+    ]
   },
   {
     id:       "2026-jbnu-devs",
@@ -34,6 +37,9 @@ const CLASSES = [
     school:   "JBNU",
     semester: "2026-1",
     students: 38,
+    schedule: [
+      { day: 4, start: "13:00", end: "16:00" },  // Thur 1–4pm
+    ]
   },
   {
     id:       "2026-jbnu-pe",
@@ -42,6 +48,9 @@ const CLASSES = [
     school:   "JBNU",
     semester: "2026-1",
     students: 52,
+    schedule: [
+      { day: 3, start: "10:00", end: "13:00" }   // Wednesday 10–1pm
+    ]
   },
   {
     id:       "2026-ut-iot",
@@ -50,6 +59,9 @@ const CLASSES = [
     school:   "UT",
     semester: "2026-1",
     students: 30,
+    schedule: [
+      { day: 1, start: "09:00", end: "12:00" },  // Monday 9–12
+    ]
   },
   {
     id:       "2026-ut-db",
@@ -58,6 +70,9 @@ const CLASSES = [
     school:   "UT",
     semester: "2026-1",
     students: 35,
+    schedule: [
+      { day: 1, start: "13:00", end: "17:00" },  // Monday 1–5pm
+    ]
   },
   {
     id:       "2026-wku-php",
@@ -66,6 +81,9 @@ const CLASSES = [
     school:   "WKU",
     semester: "2026-1",
     students: 40,
+    schedule: [
+      { day: 2, start: "14:00", end: "17:00" },  // Tues 2-5pm
+    ]
   },
   {
     id:       "2026-hb-cpp",
@@ -74,6 +92,9 @@ const CLASSES = [
     school:   "HB",
     semester: "2026-1",
     students: 28,
+    schedule: [
+      { day: 3, start: "14:00", end: "18:00" }   // Wednesday 2–6pm
+    ]
   },
   {
     id:       "2026-jnue-iss",
@@ -82,6 +103,12 @@ const CLASSES = [
     school:   "JNUE",
     semester: "2026-1",
     students: 25,
+    schedule: [
+      { day: 5, start: "09:00", end: "11:00" },  // Friday 9–11am
+      { day: 5, start: "11:00", end: "13:00" },  // Friday 11-1pm
+      { day: 5, start: "14:00", end: "16:00" },  // Friday 2-4pm
+
+    ]
   }
 ];
 
