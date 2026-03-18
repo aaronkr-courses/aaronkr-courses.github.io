@@ -73,9 +73,36 @@ input[type=text]:focus{outline:none;border-color:var(--teal-md)}
       border-radius:50%;animation:spin .7s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 .footer{text-align:center;margin-top:1rem;font-size:11px;color:var(--muted)}
+
+body.dark {
+  --border:#3a3a38;--bg:#1a1a18;--surface:#242422;
+  --text:#e8e6e0;--muted:#888780;--gray-lt:#2a2a28;
+  --teal-lt:#0a2e26;--amber-lt:#2e1f00;--blue-lt:#0a1e35;--red-lt:#2e1008;
+}
 </style>
 </head>
 <body>
+  <div class="topbar">
+    <div class="topbar-l">
+      <span style="font-size:20px">🎓</span>
+      <h2>Aaronkr Attendance</h2>
+    </div>
+    <div class="topbar-r">
+      <!-- INSERT before <span style="font-size:12px..." id="user-email"> -->
+      <a href="https://aaronkr-courses.github.io/courses/" 
+        style="font-size:13px;color:var(--muted);text-decoration:none;padding:5px 10px;
+                border:1px solid var(--border);border-radius:var(--rs);white-space:nowrap"
+        onmouseover="this.style.background='var(--gray-lt)'" 
+        onmouseout="this.style.background='none'">
+        ← Courses
+      </a>
+
+      <button id="theme-toggle" onclick="toggleTheme()" 
+              style="padding:5px 10px;border:1px solid var(--border);border-radius:var(--rs);
+                    background:none;cursor:pointer;font-size:15px;color:var(--text)" 
+              title="Toggle dark mode">🌙</button>
+    </div>
+  </div>
 <div class="card">
   <div class="hdr">
     <div class="icon">📋</div>
@@ -139,6 +166,23 @@ input[type=text]:focus{outline:none;border-color:var(--teal-md)}
 </div>
 
 <script>
+  // INSERT anywhere in <script>
+function toggleTheme() {
+  const dark = document.body.classList.toggle('dark');
+  document.getElementById('theme-toggle').textContent = dark ? '☀️' : '🌙';
+  localStorage.setItem('attend-theme', dark ? 'dark' : 'light');
+}
+// Apply saved theme on load
+(function() {
+  if (localStorage.getItem('attend-theme') === 'dark') {
+    document.body.classList.add('dark');
+    document.addEventListener('DOMContentLoaded', () => {
+      const btn = document.getElementById('theme-toggle');
+      if (btn) btn.textContent = '☀️';
+    });
+  }
+})();
+
 firebase.initializeApp(FIREBASE_CONFIG);
 const db = firebase.firestore();
 

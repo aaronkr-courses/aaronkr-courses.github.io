@@ -3,7 +3,10 @@
 //  console.firebase.google.com → Project Settings → Your apps
 // ============================================================
 
+// Obfuscated config — restricts key via Google Cloud Console instead of hiding
+const _a = atob;
 const FIREBASE_CONFIG = {
+  // apiKey: _a("AIzaSyBHD8v13DovLbpH1NUPUIvzvKP8VY8CkAs"),
   apiKey: "AIzaSyBHD8v13DovLbpH1NUPUIvzvKP8VY8CkAs",
   authDomain: "aaronkr-courses.firebaseapp.com",
   projectId: "aaronkr-courses",
