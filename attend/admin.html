@@ -298,20 +298,75 @@ body.dark {
     </div><!-- /control -->
 
     <!-- ── ACCESS LOG ── -->
+    <!-- REPLACE the entire <div class="panel" id="tab-log"> block with this -->
     <div class="panel" id="tab-log">
       <div class="card">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
-          <div class="card-label" style="margin-bottom:0">Access log — current session</div>
-          <button class="btn-s" onclick="exportCSV()">↓ Export CSV</button>
+          <div class="card-label" style="margin-bottom:0">Access log</div>
+          <div style="display:flex;gap:8px">
+            <button class="btn-s" style="font-size:12px" onclick="applyLogFilters()">↺ Refresh</button>
+            <button class="btn-s" style="font-size:12px" onclick="exportFilteredCSV()">↓ Export CSV</button>
+          </div>
         </div>
+
+        <!-- Filter row -->
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem;padding-bottom:1rem;
+                    border-bottom:1px solid var(--border);align-items:flex-end">
+          <div>
+            <label class="lbl">Class</label>
+            <select id="log-filter-class" onchange="applyLogFilters()" style="width:auto;min-width:160px">
+              <option value="">All classes</option>
+            </select>
+          </div>
+          <div>
+            <label class="lbl">Date</label>
+            <input type="date" id="log-filter-date" onchange="applyLogFilters()"
+                  style="padding:7px 10px;border:1px solid var(--border);border-radius:var(--rs);
+                          font-size:14px;background:var(--surface);color:var(--text)"/>
+          </div>
+          <div>
+            <label class="lbl">Session</label>
+            <select id="log-filter-session" onchange="applyLogFilters()" style="width:auto;min-width:180px">
+              <option value="">All sessions</option>
+              <option value="__current__">Current session only</option>
+            </select>
+          </div>
+          <div>
+            <label class="lbl">Submitted</label>
+            <select id="log-filter-submitted" onchange="applyLogFilters()" style="width:auto">
+              <option value="">All</option>
+              <option value="yes">Submitted</option>
+              <option value="no">Not submitted</option>
+            </select>
+          </div>
+          <div>
+            <label class="lbl">Location</label>
+            <select id="log-filter-location" onchange="applyLogFilters()" style="width:auto">
+              <option value="">All</option>
+              <option value="campus">Campus only</option>
+              <option value="offcampus">Off-campus only</option>
+            </select>
+          </div>
+          <button class="btn-s" style="font-size:12px;align-self:flex-end" onclick="clearLogFilters()">✕ Clear filters</button>
+        </div>
+
+        <!-- Summary line -->
+        <div id="log-filter-summary" style="font-size:12px;color:var(--muted);margin-bottom:10px"></div>
+
         <div id="log-empty" style="text-align:center;padding:2rem;color:var(--muted);font-size:13px">
-          No entries yet. Start a session to begin collecting data.
+          No entries match the current filters.
         </div>
         <div class="tbl-wrap" id="log-wrap" style="display:none">
           <table>
             <thead><tr>
-              <th>Time</th><th>Class</th><th>Student name</th><th>Student ID</th>
-              <th>IP address</th><th>Location</th><th>Submitted</th>
+              <th onclick="sortLog('timestamp')" style="cursor:pointer">Time ↕</th>
+              <th onclick="sortLog('className')"  style="cursor:pointer">Class ↕</th>
+              <th>Student name</th>
+              <th>Student ID</th>
+              <th>IP address</th>
+              <th>Location</th>
+              <th>Submitted</th>
+              <th>Feedback</th>
             </tr></thead>
             <tbody id="log-body"></tbody>
           </table>
@@ -484,11 +539,12 @@ function initListeners() {
   });
 
   if (unsubLogs) unsubLogs();
-  unsubLogs = db.collection('logs').orderBy('timestamp','desc').limit(500)
+  // WITH this:
+  unsubLogs = db.collection('logs').orderBy('timestamp','desc').limit(2000)
     .onSnapshot(snap => {
-      // logs = snap.docs.map(d => d.data());
-      window.logs = snap.docs.map(d => d.data()); 
-      updateStats(); updateLogTable();
+      window.logs = snap.docs.map(d => d.data());
+      updateStats();
+      applyLogFilters();  // use filter-aware render instead of direct call
     });
 }
 
@@ -626,29 +682,7 @@ function setBadge(on) {
 
 // ── Log table ──────────────────────────────────────────────────
 function updateLogTable() {
-  // REPLACE the filter line you just added in both functions with this:
-  const logs = window.logs.filter(l =>
-    l.sessionId === sessionId &&
-    (!clearedAt || (l.timestamp?.toDate?.() || new Date()) > clearedAt)
-  );
-  if (!logs.length) {
-    document.getElementById('log-empty').style.display='';
-    document.getElementById('log-wrap').style.display='none'; return;
-  }
-  document.getElementById('log-empty').style.display='none';
-  document.getElementById('log-wrap').style.display='';
-  document.getElementById('log-body').innerHTML = logs.map(l=>{
-    const ts=l.timestamp?.toDate?.()?.toTimeString().split(' ')[0]||'—';
-    return `<tr>
-      <td class="mono">${ts}</td>
-      <td><span style="font-size:11px">${l.className||'—'}</span></td>
-      <td>${l.studentName||'—'}</td>
-      <td class="mono">${l.studentId||'—'}</td>
-      <td class="mono">${l.ip||'—'}</td>
-      <td><span class="badge ${l.onCampus?'b-on':'b-warn'}">${l.onCampus?'Campus':'Off-campus'}</span></td>
-      <td><span class="badge ${l.submitted?'b-on':'b-off'}">${l.submitted?'Yes':'No'}</span></td>
-    </tr>`;
-  }).join('');
+  applyLogFilters();  // REPLACE body with just this one line
 }
 
 // ── History ────────────────────────────────────────────────────
@@ -786,7 +820,7 @@ function openQRModal() {
   }, 1000);
 }
 
-// MODAL (New)
+// ── Modal ─────────────────────────────────────────────────────
 function updateModalCd() {
   const tl  = timeLeft();
   const mm  = String(Math.floor(tl/60)).padStart(2,'0');
@@ -838,6 +872,163 @@ function clearSessionStats() {
   clearedAt = new Date();
   updateStats();
   updateLogTable();
+}
+
+// ── Access Log ─────────────────────────────────────────────────────
+// ── Log filter state ───────────────────────────────────────────
+let logSortKey = 'timestamp';
+let logSortAsc = false;
+
+function populateLogFilters() {
+  // Class dropdown — built from actual log data so it shows historical classes too
+  const classEl = document.getElementById('log-filter-class');
+  if (!classEl) return;
+  const seen = new Set();
+  const opts = ['<option value="">All classes</option>'];
+  window.logs.forEach(l => {
+    if (l.classId && !seen.has(l.classId)) {
+      seen.add(l.classId);
+      opts.push(`<option value="${l.classId}">${l.className || l.classId}</option>`);
+    }
+  });
+  const current = classEl.value;
+  classEl.innerHTML = opts.join('');
+  classEl.value = current;
+
+  // Session dropdown — populated from session history + current
+  const sessEl = document.getElementById('log-filter-session');
+  if (!sessEl) return;
+  const sessOpts = ['<option value="">All sessions</option>',
+                    '<option value="__current__">Current session only</option>'];
+  allHistory.forEach(h => {
+    const dt = h.startedAt?.toDate?.()?.toLocaleDateString('ko-KR') || '';
+    sessOpts.push(`<option value="${h.sessionId}">${h.className || h.classId} — ${dt} (${h.sessionId})</option>`);
+  });
+  const curSess = sessEl.value;
+  sessEl.innerHTML = sessOpts.join('');
+  sessEl.value = curSess;
+}
+
+function applyLogFilters() {
+  populateLogFilters();
+
+  const cls       = document.getElementById('log-filter-class')?.value     || '';
+  const date      = document.getElementById('log-filter-date')?.value      || '';
+  const sess      = document.getElementById('log-filter-session')?.value   || '';
+  const submitted = document.getElementById('log-filter-submitted')?.value || '';
+  const location  = document.getElementById('log-filter-location')?.value  || '';
+
+  let filtered = [...(window.logs || [])];
+
+  if (cls)       filtered = filtered.filter(l => l.classId === cls);
+  if (sess === '__current__') filtered = filtered.filter(l => l.sessionId === sessionId);
+  else if (sess) filtered = filtered.filter(l => l.sessionId === sess);
+  if (date)      filtered = filtered.filter(l => {
+    const d = l.timestamp?.toDate?.();
+    return d && d.toISOString().slice(0,10) === date;
+  });
+  if (submitted === 'yes') filtered = filtered.filter(l =>  l.submitted);
+  if (submitted === 'no')  filtered = filtered.filter(l => !l.submitted);
+  if (location === 'campus')    filtered = filtered.filter(l =>  l.onCampus);
+  if (location === 'offcampus') filtered = filtered.filter(l => !l.onCampus);
+
+  // Sort
+  filtered.sort((a, b) => {
+    let av = a[logSortKey], bv = b[logSortKey];
+    if (logSortKey === 'timestamp') {
+      av = a.timestamp?.toDate?.()?.getTime() || 0;
+      bv = b.timestamp?.toDate?.()?.getTime() || 0;
+    }
+    if (av < bv) return logSortAsc ?  1 : -1;
+    if (av > bv) return logSortAsc ? -1 :  1;
+    return 0;
+  });
+
+  // Summary line
+  const subs    = filtered.filter(l=>l.submitted).length;
+  const offcamp = filtered.filter(l=>!l.onCampus).length;
+  const sumEl   = document.getElementById('log-filter-summary');
+  if (sumEl) sumEl.textContent =
+    `${filtered.length} entries · ${subs} submitted · ${offcamp} off-campus`;
+
+  renderLogTable(filtered);
+}
+
+function sortLog(key) {
+  if (logSortKey === key) logSortAsc = !logSortAsc;
+  else { logSortKey = key; logSortAsc = false; }
+  applyLogFilters();
+}
+
+function clearLogFilters() {
+  document.getElementById('log-filter-class').value     = '';
+  document.getElementById('log-filter-date').value      = '';
+  document.getElementById('log-filter-session').value   = '';
+  document.getElementById('log-filter-submitted').value = '';
+  document.getElementById('log-filter-location').value  = '';
+  applyLogFilters();
+}
+
+function renderLogTable(filtered) {
+  if (!filtered.length) {
+    document.getElementById('log-empty').style.display = '';
+    document.getElementById('log-wrap').style.display  = 'none';
+    return;
+  }
+  document.getElementById('log-empty').style.display = 'none';
+  document.getElementById('log-wrap').style.display  = '';
+  document.getElementById('log-body').innerHTML = filtered.map(l => {
+    const ts = l.timestamp?.toDate?.()?.toLocaleString('ko-KR',
+               {dateStyle:'short',timeStyle:'short'}) || '—';
+    return `<tr>
+      <td class="mono" style="font-size:11px;white-space:nowrap">${ts}</td>
+      <td style="font-size:12px">${l.className||'—'}</td>
+      <td>${l.studentName||'—'}</td>
+      <td class="mono">${l.studentId||'—'}</td>
+      <td class="mono" style="font-size:11px">${l.ip||'—'}</td>
+      <td><span class="badge ${l.onCampus?'b-on':'b-warn'}">${l.onCampus?'Campus':'Off-campus'}</span></td>
+      <td><span class="badge ${l.submitted?'b-on':'b-off'}">${l.submitted?'Yes':'No'}</span></td>
+      <td style="font-size:12px;color:var(--muted);max-width:180px">${l.feedback||''}</td>
+    </tr>`;
+  }).join('');
+}
+
+// Updated CSV export — respects current filters
+function exportFilteredCSV() {
+  const cls       = document.getElementById('log-filter-class')?.value     || '';
+  const date      = document.getElementById('log-filter-date')?.value      || '';
+  const sess      = document.getElementById('log-filter-session')?.value   || '';
+  const submitted = document.getElementById('log-filter-submitted')?.value || '';
+  const location  = document.getElementById('log-filter-location')?.value  || '';
+
+  let filtered = [...(window.logs || [])];
+  if (cls)       filtered = filtered.filter(l => l.classId === cls);
+  if (sess === '__current__') filtered = filtered.filter(l => l.sessionId === sessionId);
+  else if (sess) filtered = filtered.filter(l => l.sessionId === sess);
+  if (date)      filtered = filtered.filter(l => {
+    const d = l.timestamp?.toDate?.(); return d && d.toISOString().slice(0,10) === date;
+  });
+  if (submitted === 'yes') filtered = filtered.filter(l =>  l.submitted);
+  if (submitted === 'no')  filtered = filtered.filter(l => !l.submitted);
+  if (location === 'campus')    filtered = filtered.filter(l =>  l.onCampus);
+  if (location === 'offcampus') filtered = filtered.filter(l => !l.onCampus);
+
+  if (!filtered.length) { alert('No data matches the current filters.'); return; }
+
+  const rows = filtered.map(l => {
+    const t = l.timestamp?.toDate?.()?.toISOString() || '';
+    return [t, l.className||'', l.studentName||'', l.studentId||'',
+            l.ip||'', l.onCampus?'Yes':'No', l.submitted?'Yes':'No',
+            (l.feedback||'').replace(/,/g,''), l.sessionId||''].join(',');
+  });
+  const blob = new Blob(
+    [['Time,Class,Name,Student ID,IP,On Campus,Submitted,Feedback,Session ID',...rows].join('\n')],
+    {type:'text/csv'}
+  );
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `attendance_${date||new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
 }
 </script>
 
