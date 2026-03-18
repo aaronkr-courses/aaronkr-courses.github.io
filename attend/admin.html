@@ -278,7 +278,11 @@ body.dark {
             <div class="metric"><div class="m-lbl">Off-campus IPs</div><div class="m-val" id="stat-offcampus">—</div></div>
           </div>
           <div class="card" style="margin-top:0">
-            <div class="card-label">Attendance progress</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+              <div class="card-label" style="margin-bottom:0">Attendance progress</div>
+              <button class="btn-s" style="font-size:12px;padding:4px 10px" onclick="clearSessionStats()" 
+                      title="Hide scans collected so far — does not delete data">✕ Clear display</button>
+            </div>
             <div style="display:flex;justify-content:space-between;font-size:12px;color:var(--muted)">
               <span id="att-sub-txt">0 submitted</span>
               <span id="att-pend-txt">— pending</span>
@@ -327,6 +331,7 @@ body.dark {
             <option value="">All semesters</option>
           </select>
           <button class="btn-s" onclick="loadHistory()">↺ Refresh</button>
+          <button class="btn-s" style="color:var(--red)" onclick="clearHistory()">✕ Clear history</button>
         </div>
         <div id="hist-empty" style="text-align:center;padding:2rem;color:var(--muted);font-size:13px">
           No past sessions found.
@@ -370,6 +375,7 @@ const auth = firebase.auth();
 const db   = firebase.firestore();
 
 // ── State ──────────────────────────────────────────────────────
+let clearedAt     = null;  // ADD near top of <script> with other state vars
 let selectedClass = null;
 let sessionActive = false;
 let sessionId     = null;
@@ -377,7 +383,8 @@ let currentToken  = null;
 let cdInterval    = null;
 let unsubLogs     = null;
 let unsubSession  = null;
-let logs          = [];
+// let logs          = [];
+window.logs       = [];
 let lastQrToken   = null;
 let allHistory    = [];
 
@@ -479,7 +486,8 @@ function initListeners() {
   if (unsubLogs) unsubLogs();
   unsubLogs = db.collection('logs').orderBy('timestamp','desc').limit(500)
     .onSnapshot(snap => {
-      logs = snap.docs.map(d => d.data());
+      // logs = snap.docs.map(d => d.data());
+      window.logs = snap.docs.map(d => d.data()); 
       updateStats(); updateLogTable();
     });
 }
@@ -495,6 +503,8 @@ async function startSession() {
   const cls   = selectedClass || { id:'manual', name:'Manual', nameKo:'', school:'', semester:'', students:0 };
   const sid   = 'S' + Date.now().toString(36).toUpperCase();
   const token = genToken();
+
+  clearedAt = null;  // ADD at top of startSession()
 
   try {
     await db.collection('sessions').doc('current').set({
@@ -583,6 +593,11 @@ function updateQR() {
 
 // ── Stats ──────────────────────────────────────────────────────
 function updateStats() {
+  // REPLACE the filter line you just added in both functions with this:
+  const logs = window.logs.filter(l =>
+    l.sessionId === sessionId &&
+    (!clearedAt || (l.timestamp?.toDate?.() || new Date()) > clearedAt)
+  );
   const subs    = logs.filter(l=>l.submitted).length;
   const offCmp  = logs.filter(l=>!l.onCampus).length;
   const total   = selectedClass?.students || 0;
@@ -611,6 +626,11 @@ function setBadge(on) {
 
 // ── Log table ──────────────────────────────────────────────────
 function updateLogTable() {
+  // REPLACE the filter line you just added in both functions with this:
+  const logs = window.logs.filter(l =>
+    l.sessionId === sessionId &&
+    (!clearedAt || (l.timestamp?.toDate?.() || new Date()) > clearedAt)
+  );
   if (!logs.length) {
     document.getElementById('log-empty').style.display='';
     document.getElementById('log-wrap').style.display='none'; return;
@@ -674,6 +694,29 @@ function renderHistory(rows) {
       <td>${h.scans??'—'}</td><td>${h.submissions??'—'}</td><td>${h.offCampusCount??'—'}</td>
     </tr>`;
   }).join('');
+}
+
+function clearHistory() {
+  const cls = document.getElementById('hist-filter-class').value;
+  const sem = document.getElementById('hist-filter-sem').value;
+
+  // Build a human-readable description of what will be deleted
+  const scope = cls ? `class "${CLASSES.find(c=>c.id===cls)?.name || cls}"` 
+                    : sem ? `semester "${sem}"` 
+                    : 'ALL session history';
+  if (!confirm(`Permanently delete ${scope} from Firestore?\n\nThis cannot be undone. Log entries are not affected.`)) return;
+
+  const toDelete = allHistory.filter(h =>
+    (!cls || h.classId === cls) && (!sem || h.semester === sem)
+  );
+  if (!toDelete.length) { alert('Nothing to delete.'); return; }
+
+  Promise.all(
+    toDelete.map(h => db.collection('session_history').doc(h.sessionId).delete())
+  ).then(() => {
+    showMsg(`Deleted ${toDelete.length} session record${toDelete.length>1?'s':''}.`, 'ok');
+    loadHistory();
+  }).catch(e => showMsg('Error: ' + e.message, 'err'));
 }
 
 // ── CSV export ─────────────────────────────────────────────────
@@ -788,6 +831,13 @@ function subtractMinutes(hhmm, mins) {
   const hh     = Math.floor(Math.max(total, 0) / 60).toString().padStart(2,'0');
   const mm     = (Math.max(total, 0) % 60).toString().padStart(2,'0');
   return `${hh}:${mm}`;
+}
+
+function clearSessionStats() {
+  if (!confirm('Clear the current stats display? This hides existing scans from view but does not delete any data.')) return;
+  clearedAt = new Date();
+  updateStats();
+  updateLogTable();
 }
 </script>
 
