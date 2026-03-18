@@ -453,7 +453,6 @@ function initListeners() {
       sessionActive = true;
       sessionId     = d.sessionId;
       currentToken  = d.token;
-      document.getElementById('form-url-input').value = d.formUrl || '';
       setBadge(true);
       document.getElementById('start-btn').style.display = 'none';
       document.getElementById('stop-btn').style.display  = '';
@@ -463,7 +462,6 @@ function initListeners() {
       document.getElementById('countdown-wrap').style.display = '';
       document.getElementById('url-display').style.display    = '';
       document.getElementById('url-display').textContent      = studentUrl();
-      document.getElementById('form-info').style.display      = '';
       updateQR();
       startCd();
     } else {
