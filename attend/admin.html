@@ -288,9 +288,6 @@ body.dark {
             <div class="warn-box" id="offcampus-warn" style="display:none">
               ⚠️ <span id="offcampus-warn-txt"></span>
             </div>
-            <div class="info-box" id="form-info" style="display:none">
-              ℹ️ The Google Form is embedded on the student page — students never see the raw form URL.
-            </div>
           </div>
         </div>
       </div>
@@ -411,7 +408,6 @@ function selectClass(cls, btn) {
   document.querySelectorAll('.class-btn').forEach(b => b.classList.remove('selected'));
   btn.classList.add('selected');
   selectedClass = cls;
-  document.getElementById('form-url-input').value = cls.formUrl || '';
   const school = SCHOOLS[cls.school] || {label: cls.school};
   document.getElementById('selected-class-info').style.display = '';
   document.getElementById('selected-class-info').innerHTML =
@@ -474,7 +470,6 @@ function initListeners() {
       document.getElementById('countdown-wrap').style.display = 'none';
       document.getElementById('url-display').style.display    = 'none';
       document.getElementById('session-info').style.display   = 'none';
-      document.getElementById('form-info').style.display      = 'none';
       document.getElementById('qr-area').innerHTML =
         '<div class="qr-ph"><p>Start a session<br>to show QR code</p></div>';
       lastQrToken = null;
