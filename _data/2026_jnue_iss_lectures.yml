@@ -26,9 +26,12 @@
     <a href="https://classroom.google.com/c/Nzk2NDE5Njc5NzY3?cjc=hrlttg34">11시 클래스룸</a><br>
     <a href="https://classroom.google.com/c/ODQ3ODU2NzA5NjM2?cjc=fyqaj547">14시 클래스룸</a>
 
-- date: 3/20
+- date: >
+    <span style="color: red;">3/20 (MT)</span>
   week: 3
   title: >
+    <strong style="color: red;">No School (MT)</strong><br>
+    <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강)</a><br>
     <strong>3장 편집과 인쇄로 작업 실력 키우기</strong>
   slides: "https://docs.google.com/presentation/d/1R6L8CQrcoa3z1b_UYJICeqARHiOoVRnjPGQJQzSumMc/edit?usp=sharing"
   readings:
