@@ -11,8 +11,10 @@ now: Yes
 
 toc:
   - name: Schedule 강의일정
-  - name: Overview 개요
+  - name: Instructor 강사소개
   - name: Textbook 교재
+  - name: Overview 개요
+  - name: Resources 자료실
   - name: Logistics 수업운영
     subsections:
       # if a section has subsections, you can add them as follows:
@@ -24,8 +26,6 @@ toc:
       - name: Midterm 중간고사
       - name: Final 기말고사
       - name: Project 프로젝트
-  - name: Resources 자료실
-  - name: Instructor 강사소개
 
 information:
   - section: 0000127046
@@ -78,6 +78,14 @@ Supplementary:
 
 ---
 
+## Instructor 강사소개
+
+{% include aboutAaron.html %}
+
+<a class="btncv" href="#">Top</a>
+
+---
+
 ## Overview 개요
 
 <img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/electric-circuits.jpg" />
@@ -111,13 +119,5 @@ McGraw-Hill''s Connect, is also available with Fundamentals of Electric Circuits
 - 프로젝트: **10%**
 
 {% include_relative common/policies.md %}
-
-<a class="btncv" href="#">Top</a>
-
----
-
-## Instructor 강사소개
-
-{% include aboutAaron.html %}
 
 <a class="btncv" href="#">Top</a>

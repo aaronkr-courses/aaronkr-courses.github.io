@@ -11,8 +11,11 @@ now: Yes
 
 toc:
   - name: Schedule 강의일정
-  - name: Overview 개요
+  - name: Instructor 강사소개
   - name: Textbook 교재
+  - name: Overview 개요
+  - name: Resources 자료실
+  - name: Logistics 수업운영
     subsections:
       # if a section has subsections, you can add them as follows:
       # subsections:
@@ -22,7 +25,6 @@ toc:
       - name: Assignments 과제
       - name: Midterm 중간고사
       - name: Final 기말고사
-  - name: Instructor 강사소개
 
 information:
   - section: 070137-1
@@ -69,6 +71,14 @@ Main-Text:
 ## Schedule 강의일정
 
 {% include schedule.md data_file="2026_jnue_iss_lectures" %}
+
+<a class="btncv" href="#">Top</a>
+
+---
+
+## Instructor 강사소개
+
+{% include aboutAaron.html %}
 
 <a class="btncv" href="#">Top</a>
 
@@ -138,13 +148,5 @@ IT 교육 크리에이터 ‘누나IT’가 알려주는 엑셀 왕초보를 위
 - 프로젝트: **10%**
 
 {% include_relative common/policies.md %}
-
-<a class="btncv" href="#">Top</a>
-
----
-
-## Instructor 강사소개
-
-{% include aboutAaron.html %}
 
 <a class="btncv" href="#">Top</a>

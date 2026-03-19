@@ -64,6 +64,14 @@ Supplementary:
 
 ---
 
+## Instructor 강사소개
+
+{% include aboutAaron.html %}
+
+<a class="btncv" href="#">Top</a>
+
+---
+
 ## Overview 개요
 
 <img style="float: left; width: 150px; margin: 0 10px 10px 0;" src="/assets/img/books/php-text.jpg" />
@@ -103,13 +111,5 @@ Supplementary:
 - 프로젝트: **15%**
 
 {% include_relative common/policies.md %}
-
-<a class="btncv" href="#">Top</a>
-
----
-
-## Instructor 강사소개
-
-{% include aboutAaron.html %}
 
 <a class="btncv" href="#">Top</a>

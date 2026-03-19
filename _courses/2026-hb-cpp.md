@@ -11,8 +11,10 @@ now: Yes
 
 toc:
   - name: Schedule 강의일정
-  - name: Overview 개요
+  - name: Instructor 강사소개
   - name: Textbook 교재
+  - name: Overview 개요
+  - name: Resources 자료실
   - name: Logistics 수업운영
     subsections:
       # if a section has subsections, you can add them as follows:
@@ -24,8 +26,6 @@ toc:
       - name: Midterm 중간고사
       - name: Final 기말고사
       - name: Project 프로젝트
-  - name: Resources 자료실
-  - name: Instructor 강사소개
 
 information:
   - section: INFO2118
@@ -63,6 +63,14 @@ Supplementary:
 ## Schedule 강의일정
 
 {% include schedule.md data_file="2026_hb_cpp_lectures" %}
+
+<a class="btncv" href="#">Top</a>
+
+---
+
+## Instructor 강사소개
+
+{% include aboutAaron.html %}
 
 <a class="btncv" href="#">Top</a>
 
@@ -114,13 +122,5 @@ It also takes a unique approach to introducing features of C++ and the standard 
 - 프로젝트: **5%**
 
 {% include_relative common/policies.md %}
-
-<a class="btncv" href="#">Top</a>
-
----
-
-## Instructor 강사소개
-
-{% include aboutAaron.html %}
 
 <a class="btncv" href="#">Top</a>
