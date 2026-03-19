@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>출석 체크인 · Attendance</title>
+<script src="firebase-config.js"></script>
+<script src="classes.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<style>
+:root{
+  --teal:#0F6E56;--teal-lt:#E1F5EE;--teal-md:#1D9E75;
+  --red:#993C1D;--red-lt:#FAECE7;
+  --amber:#854F0B;--amber-lt:#FAEEDA;
+  --border:#D3D1C7;--bg:#F5F5F2;--surface:#FFF;
+  --text:#2C2C2A;--muted:#888780;--r:12px;--rs:8px;
+}
+.topbar{background:var(--surface);border-bottom:1px solid var(--border);padding:0 1.25rem;
+        display:flex;align-items:center;justify-content:space-between;height:50px;
+        position:fixed;width:100%;top:0;z-index:10}
+.topbar h2{font-size:15px;font-weight:600}
+.topbar-l,.topbar-r{display:flex;align-items:center;gap:10px}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;
+     background:var(--bg);color:var(--text);min-height:100vh;
+     display:flex;align-items:center;justify-content:center;padding:1.5rem}
+.card{background:var(--surface);border-radius:var(--r);border:1px solid var(--border);
+      padding:2rem 1.75rem;width:100%;max-width:460px;
+      box-shadow:0 2px 12px rgba(0,0,0,.06)}
+.hdr{text-align:center;margin-bottom:1.5rem}
+.hdr .icon{font-size:36px;margin-bottom:.5rem}
+.hdr h1{font-size:19px;font-weight:700;margin-bottom:3px}
+.hdr .sub{font-size:13px;color:var(--muted);line-height:1.6}
+.class-badge{display:inline-block;margin-top:8px;padding:3px 12px;
+             border-radius:999px;font-size:12px;font-weight:600;
+             background:var(--teal-lt);color:var(--teal)}
+.state{display:none}.state.on{display:block}
+/* closed */
+.closed-box{text-align:center;padding:2rem 1rem;background:var(--bg);border-radius:var(--rs)}
+.closed-box .icon{font-size:32px;margin-bottom:.5rem}
+.closed-box h2{font-size:15px;font-weight:600;margin-bottom:5px}
+.closed-box p{font-size:13px;color:var(--muted);line-height:1.6}
+/* expired */
+.expired-box{text-align:center;padding:2rem 1rem;background:var(--red-lt);border-radius:var(--rs)}
+.expired-box h2{font-size:15px;font-weight:600;color:var(--red);margin-bottom:5px}
+.expired-box p{font-size:13px;color:var(--red);line-height:1.6}
+/* timer */
+.timer-bar{display:flex;align-items:center;justify-content:space-between;
+           padding:7px 11px;background:var(--teal-lt);border-radius:var(--rs);
+           margin-bottom:1.25rem;font-size:13px;color:var(--teal)}
+.timer-val{font-family:monospace;font-weight:700;font-size:14px}
+/* form */
+.field{margin-bottom:1rem}
+label{display:block;font-size:13px;font-weight:500;margin-bottom:4px}
+input[type=text]{width:100%;padding:10px 12px;border:1px solid var(--border);
+  border-radius:var(--rs);font-size:15px;font-family:inherit;color:var(--text);background:var(--surface);transition:border-color .15s}
+input[type=text]:focus{outline:none;border-color:var(--teal-md)}
+.btn-sub{width:100%;padding:12px;background:var(--teal);color:#fff;border:none;
+         border-radius:var(--rs);font-size:16px;font-weight:600;cursor:pointer;font-family:inherit;transition:background .15s}
+.btn-sub:hover{background:var(--teal-md)}
+.btn-sub:disabled{background:var(--muted);cursor:not-allowed}
+/* offcampus */
+.offcampus-notice{padding:7px 11px;background:var(--amber-lt);border-radius:var(--rs);
+                  font-size:12px;color:var(--amber);margin-bottom:1rem;display:none;line-height:1.5}
+/* error */
+.err-box{padding:7px 11px;background:var(--red-lt);border-radius:var(--rs);
+         font-size:12px;color:var(--red);margin-top:10px;display:none}
+/* success */
+.ok-box{text-align:center;padding:2rem 1rem;background:var(--teal-lt);border-radius:var(--rs)}
+.ok-box .icon{font-size:36px;margin-bottom:.5rem}
+.ok-box h2{font-size:17px;font-weight:700;color:var(--teal);margin-bottom:5px}
+.ok-box p{font-size:13px;color:var(--teal);line-height:1.6}
+/* spinner */
+.spinner{display:flex;align-items:center;justify-content:center;padding:2rem 0;gap:8px;color:var(--muted);font-size:13px}
+.spin{width:18px;height:18px;border:2px solid var(--border);border-top-color:var(--teal-md);
+      border-radius:50%;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.footer{text-align:center;margin-top:1rem;font-size:11px;color:var(--muted)}
+
+body.dark {
+  --border:#3a3a38;--bg:#1a1a18;--surface:#242422;
+  --text:#e8e6e0;--muted:#888780;--gray-lt:#2a2a28;
+  --teal-lt:#0a2e26;--amber-lt:#2e1f00;--blue-lt:#0a1e35;--red-lt:#2e1008;
+}
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-l">
+      <span style="font-size:20px">🎓</span>
+      <h2>Aaronkr Attendance</h2>
+    </div>
+    <div class="topbar-r">
+      <!-- INSERT before <span style="font-size:12px..." id="user-email"> -->
+      <a href="https://aaronkr-courses.github.io/courses/" 
+        style="font-size:13px;color:var(--muted);text-decoration:none;padding:5px 10px;
+                border:1px solid var(--border);border-radius:var(--rs);white-space:nowrap"
+        onmouseover="this.style.background='var(--gray-lt)'" 
+        onmouseout="this.style.background='none'">
+        ← Courses
+      </a>
+
+      <button id="theme-toggle" onclick="toggleTheme()" 
+              style="padding:5px 10px;border:1px solid var(--border);border-radius:var(--rs);
+                    background:none;cursor:pointer;font-size:15px;color:var(--text)" 
+              title="Toggle dark mode">🌙</button>
+    </div>
+  </div>
+<div class="card">
+  <div class="hdr">
+    <div class="icon">📋</div>
+    <h1>출석 체크인 · Attendance</h1>
+    <p class="sub">QR 코드를 통해서만 접속 가능합니다<br>Only accessible via the classroom QR code</p>
+    <div class="class-badge" id="class-badge" style="display:none"></div>
+  </div>
+
+  <div class="state on" id="s-loading">
+    <div class="spinner"><div class="spin"></div>Checking session…</div>
+  </div>
+
+  <div class="state" id="s-closed">
+    <div class="closed-box">
+      <div class="icon">🔒</div>
+      <h2>출석 세션이 열려있지 않습니다<br>Session not active</h2>
+      <p>교수님이 세션을 열 때까지 기다려 주세요.<br>Wait for your professor to open the session.</p>
+    </div>
+  </div>
+
+  <div class="state" id="s-expired">
+    <div class="expired-box">
+      <div class="icon" style="font-size:32px;margin-bottom:.5rem">⏱</div>
+      <h2>QR 코드가 만료되었습니다<br>QR code expired</h2>
+      <p>이 QR 코드는 더 이상 유효하지 않습니다.<br>강의실에서 새 QR 코드를 스캔하세요.<br><br>
+         Scan the latest QR code shown in class.</p>
+    </div>
+  </div>
+
+  <div class="state" id="s-active">
+    <div class="timer-bar">
+      <span>✅ 세션 열림 · Open</span>
+      <span>만료 · Expires <span class="timer-val" id="timer-val">--:--</span></span>
+    </div>
+    <div class="offcampus-notice" id="offcampus-notice">
+      ⚠️ 학교 외부 네트워크 감지됨 · Off-campus network detected. This access is being logged.
+    </div>
+    <form onsubmit="doSubmit(event)">
+      <div class="field">
+        <label>이름 · Full name</label>
+        <input type="text" id="f-name" placeholder="홍길동" required autocomplete="name"/>
+      </div>
+      <div class="field">
+        <label>학번 · Student ID</label>
+        <input type="text" id="f-id" placeholder="20231234" required autocomplete="off" inputmode="numeric"/>
+      </div>
+      <div class="field">
+        <label style="font-weight:400;color:var(--muted)">
+          피드백 (선택사항) · Feedback <span style="font-size:11px">(optional)</span>
+        </label>
+        <input type="text" id="f-feedback" 
+               placeholder="강의나 앱에 대한 의견을 남겨주세요 · Comments on class or app"/>
+      </div>
+      <button type="submit" class="btn-sub" id="submit-btn">출석 제출 · Submit attendance</button>
+      <div class="err-box" id="err-box"></div>
+    </form>
+  </div>
+
+  <div class="state" id="s-success">
+    <div class="ok-box">
+      <div class="icon">✅</div>
+      <h2>출석이 기록되었습니다<br>Attendance recorded!</h2>
+      <p id="ok-detail">Please also complete the Google Form below.</p>
+    </div>
+  </div>
+
+  <div class="footer" id="footer"></div>
+</div>
+
+<script>
+  // INSERT anywhere in <script>
+function toggleTheme() {
+  const dark = document.body.classList.toggle('dark');
+  document.getElementById('theme-toggle').textContent = dark ? '☀️' : '🌙';
+  localStorage.setItem('attend-theme', dark ? 'dark' : 'light');
+}
+// Apply saved theme on load
+(function() {
+  if (localStorage.getItem('attend-theme') === 'dark') {
+    document.body.classList.add('dark');
+    document.addEventListener('DOMContentLoaded', () => {
+      const btn = document.getElementById('theme-toggle');
+      if (btn) btn.textContent = '☀️';
+    });
+  }
+})();
+
+firebase.initializeApp(FIREBASE_CONFIG);
+const db = firebase.firestore();
+
+const params    = new URLSearchParams(window.location.search);
+const urlToken  = params.get('t') || '';
+const urlSessId = params.get('s') || '';
+
+let timerInterval = null;
+let sessionData   = null;
+let userIp        = '';
+let onCampus      = false;
+
+async function getIP() {
+  try {
+    const r = await fetch('https://api.ipify.org?format=json');
+    const j = await r.json();
+    userIp   = j.ip || '';
+    onCampus = CAMPUS_IP_PREFIXES.some(p => userIp.startsWith(p));
+    if (!onCampus) document.getElementById('offcampus-notice').style.display = '';
+  } catch(e) { userIp = 'unknown'; onCampus = false; }
+}
+
+async function init() {
+  await getIP();
+
+  const snap = await db.collection('sessions').doc('current').get();
+  if (!snap.exists || !snap.data().active) { show('closed'); return; }
+
+  sessionData = snap.data();
+
+  if (!urlToken || urlToken !== sessionData.token) { show('expired'); return; }
+  if (urlSessId && urlSessId !== sessionData.sessionId) { show('expired'); return; }
+
+  // Show class badge
+  if (sessionData.className) {
+    const badge = document.getElementById('class-badge');
+    badge.textContent = sessionData.className + (sessionData.classNameKo ? ' · '+sessionData.classNameKo : '');
+    badge.style.display = '';
+  }
+
+  // Log the scan (submitted=false at this point)
+  await db.collection('logs').add({
+    sessionId:   sessionData.sessionId,
+    classId:     sessionData.classId   || '',
+    className:   sessionData.className || '',
+    ip:          userIp,
+    onCampus:    onCampus,
+    submitted:   false,
+    timestamp:   firebase.firestore.FieldValue.serverTimestamp(),
+    tokenUsed:   urlToken,
+    studentName: null,
+    studentId:   null
+  }).catch(()=>{});
+
+  show('active');
+  startTimer();
+
+  // Watch for session close
+  db.collection('sessions').doc('current').onSnapshot(s => {
+    if (!s.data()?.active && document.getElementById('s-active').classList.contains('on')) {
+      clearInterval(timerInterval);
+      // Grace: only expire if form hasn't been started
+      const nm = document.getElementById('f-name').value.trim();
+      const id = document.getElementById('f-id').value.trim();
+      if (!nm && !id) show('expired');
+    }
+  });
+}
+
+function show(state) {
+  ['loading','closed','expired','active','success'].forEach(s=>{
+    const el=document.getElementById('s-'+s);
+    if(el) el.className='state'+(s===state?' on':'');
+  });
+}
+
+function startTimer() { updateTimer(); timerInterval=setInterval(()=>{updateTimer();if(timeLeft()<=0&&!document.getElementById('f-name').value)show('expired');},1000); }
+function timeLeft()   { const ms=TOKEN_INTERVAL_SECONDS*1000;return Math.max(0,Math.ceil((ms-(Date.now()%ms))/1000)); }
+function updateTimer(){
+  const tl=timeLeft();
+  const el=document.getElementById('timer-val');
+  if(el){ el.textContent=String(Math.floor(tl/60)).padStart(2,'0')+':'+String(tl%60).padStart(2,'0');
+          el.style.color=tl<30?'#993C1D':''; }
+}
+
+async function doSubmit(e) {
+  e.preventDefault();
+  const name = document.getElementById('f-name').value.trim();
+  const sid  = document.getElementById('f-id').value.trim();
+  if (!name||!sid) return;
+  const btn = document.getElementById('submit-btn');
+  btn.disabled=true; btn.textContent='제출 중… / Submitting…'; hideErr();
+
+  try {
+    // Write attendance log
+    await db.collection('logs').add({
+      sessionId:   sessionData.sessionId,
+      classId:     sessionData.classId   || '',
+      className:   sessionData.className || '',
+      studentName: name,
+      studentId:   sid,
+      ip:          userIp,
+      onCampus:    onCampus,
+      feedback:    document.getElementById('f-feedback').value.trim() || null,
+      submitted:   true,
+      timestamp:   firebase.firestore.FieldValue.serverTimestamp(),
+      tokenUsed:   urlToken
+    });
+    clearInterval(timerInterval);
+    document.getElementById('ok-detail').innerHTML =
+      `<strong>${name}</strong> (${sid})<br>
+       ${sessionData.className || ''}<br><br>
+       출석이 완료되었습니다 · You're all done!`;
+    show('success');
+  } catch(err) {
+    btn.disabled=false; btn.textContent='출석 제출 · Submit attendance';
+    showErr('저장 실패 · Save error: '+err.message);
+  }
+}
+
+function showErr(msg){const el=document.getElementById('err-box');if(el){el.textContent=msg;el.style.display='';}}
+function hideErr()   {const el=document.getElementById('err-box');if(el)el.style.display='none';}
+
+document.getElementById('footer').textContent =
+  new Date().toLocaleString('ko-KR',{dateStyle:'medium',timeStyle:'short'});
+
+init();
+</script>
+</body>
+</html>

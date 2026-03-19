@@ -16,7 +16,7 @@
     <a href="https://drive.google.com/drive/folders/1XRI8KHzocVz4gamFO_V0qjqBXhmhyljl?usp=sharing"><strong>Template files</strong></a>
 
 - date: 3/5
-  week: 2
+  week: 1
   title: >
     <strong>Introduction<br>
     1. Fundamentals of Measurement Systems</strong>
@@ -29,36 +29,33 @@
   logistics:
 
 - date: 3/12
-  week: 3
+  week: 2
   title: >
-    <strong>2. Instrument Types and Performance Characteristics<br>
-    3. Measurement Uncertainty</strong>
+    <strong>2. Instrument Types and Performance Characteristics</strong>
   supp:
   readings:
   hw:
-  slides: 
-  slides2: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/1MsG79alDJi0v1yYsYczoir7LNxv1sksbQh7ELVnu-b0/edit?usp=sharing"
+  slides2: "https://docs.google.com/presentation/d/1FwqO51uVqi4QRDyW2u20VhF-7GiNlCtX/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true"
+  img: 2026/jbnu-devs/2-inst-types.jpg
   logistics:
 
 - date: 3/19
-  week: 4
+  week: 3
   title: >
-    <strong>4. Statistical Analysis of Measurements Subject to Random Errors<br>
-    5. Calibration of Measuring Sensors and Instruments</strong>
+    <strong>3. Measurement Uncertainty</strong>
   supp:
   readings:
   hw:
-  slides: 
+  slides: "https://docs.google.com/presentation/d/1Dk5PVAxED9NzYA0KbwoaH_Re204QYbzb-9D0H1xEanw/edit?usp=sharing"
   slides2: 
-  img: 
+  img: 2026/jbnu-devs/3-uncertainty.jpg
   logistics:
 
 - date: 3/26
-  week: 5
+  week: 4
   title: >
-    <strong>6. Data Acquisition and Signal Processing<br>
-    7. Variable Conversion</strong>
+    <strong>4. Statistical Analysis of Measurements Subject to Random Errors</strong>
   supp:
   readings:
   hw:
@@ -68,10 +65,9 @@
   logistics:
 
 - date: 4/2
-  week: 6
+  week: 5
   title: >
-    <strong>8. Measurement Signal Transmission<br>
-    9. Display, Recording, and Presentation of Measurement Data</strong>
+    <strong>5. Calibration of Measuring Sensors and Instruments</strong>
   supp:
   readings:
   hw:
@@ -81,10 +77,9 @@
   logistics:
 
 - date: 4/9
-  week: 7
+  week: 6
   title: >
-    <strong>10. Intelligent Devices<br>
-    11. Measurement Reliability and Safety Systems</strong>
+    <strong>6. Data Acquisition and Signal Processing</strong>
   supp:
   readings:
   hw:
@@ -94,18 +89,9 @@
   logistics:
 
 - date: 4/16
-  week: 8
+  week: 7
   title: >
-    <strong>Midterm Test</strong><br>
-    <div style="display:none;">
-      <a href="#">Midterm Study Guide</a>
-    </div>
-
-- date: 4/23
-  week: 9
-  title: >
-    <strong>12. Data Acquisition with LabVIEW<br>
-    13. Sensor Technologies</strong>
+    <strong>7. Variable Conversion</strong>
   supp:
   readings:
   hw:
@@ -114,11 +100,18 @@
   img: 
   logistics:
 
-- date: 4/30
-  week: 10
+- date: 4/23
+  week: 8
   title: >
-    <strong>14. Temperature Measurement<br>
-    15. Pressure Measurement</strong>
+    <strong>Midterm Test</strong><br>
+    <div style="display:none;">
+      <a href="#">Midterm Study Guide</a>
+    </div>
+
+- date: 4/30
+  week: 9
+  title: >
+    <strong>8. Measurement Signal Transmission</strong>
   supp:
   readings:
   hw:
@@ -128,10 +121,9 @@
   logistics:
 
 - date: 5/7
-  week: 11
+  week: 10
   title: >
-    <strong>16. Flow Measurement<br>
-    17. Level Measurement</strong>
+    <strong>9. Display, Recording, and Presentation of Measurement Data</strong>
   supp:
   readings:
   hw:
@@ -141,10 +133,9 @@
   logistics:
 
 - date: 5/14
-  week: 12
+  week: 11
   title: >
-    <strong>18. Mass, Force, and Torque Measurement<br>
-    19. Translational Motion, Vibration, and Shock Measurement</strong>
+    <strong>10. Intelligent Devices</strong>
   supp:
   readings:
   hw:
@@ -154,10 +145,9 @@
   logistics:
 
 - date: 5/21
-  week: 13
+  week: 12
   title: >
-    <strong>20. Rotational Motion Transducers<br>
-    21. Summary of Other Measurements</strong>
+    <strong>11. Measurement Reliability and Safety Systems</strong>
   supp:
   readings:
   hw:
@@ -167,10 +157,9 @@
   logistics:
 
 - date: 5/28
-  week: 14
+  week: 13
   title: >
-    <strong>A1. Imperial-Metric-SI Conversion Tables<br>
-    A2. Thévenin’s Theorem</strong>
+    <strong>12. Data Acquisition with LabVIEW</strong>
   supp:
   readings:
   hw:
@@ -180,10 +169,9 @@
   logistics:
 
 - date: 6/4
-  week: 15
+  week: 14
   title: >
-    <strong>A3. Thermocouple Tables<br>
-    A4. Using Mathematical Tables</strong>
+    <strong>13. Sensor Technologies</strong>
   supp:
   readings:
   hw:
@@ -192,8 +180,8 @@
   img: 
   logistics:
 
-- date: 6/18
-  week: 16
+- date: 6/11
+  week: 15
   title: >
     <strong>Final Test</strong><br>
     <div style="display:none;">

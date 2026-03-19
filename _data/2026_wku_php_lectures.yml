@@ -13,45 +13,43 @@
 - date: 3/10
   week: 2
   title: >
-    1장 변수, 표현식 그리고 연산자<br>
-    2장 제어 구조
+    1장 변수, 표현식 그리고 연산자
   supp:
   readings:
-  hw:
-  slides:
+  hw: "https://classroom.github.com/a/V42HuTPF"
+  slides: "https://docs.google.com/presentation/d/1OP2tDbPWT6lnk9ZXuMaGwqyU3ZuDcp--l3UDqHauoxk/edit?usp=sharing"
   slides2:
-  img:
+  img: 2026/wku-php/2-basics.jpg
   logistics:
 
 - date: 3/17
   week: 3
   title: >
-    3장 함수<br>
-    4장 객체 & 클래스
+    2장 제어 구조
   supp:
   readings:
-  hw:
-  slides:
+  hw: "https://classroom.github.com/a/Uy5l1zEq"
+  slides: "https://docs.google.com/presentation/d/1vlpI7c7-_xNzRJiyG6n4Pf55Q1PjFiwF_fU88-Vtqj0/edit?usp=sharing"
   slides2:
-  img:
+  img: 2026/wku-php/3-func.jpg
   logistics:
 
 - date: 3/24
   week: 4
   title: >
-    5장 내장 함수
+    3장 함수
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1TL6Zg7eIyXu3az1A848Ppc6B8vZheQyurnLAntxNDes/edit?usp=sharing"
   slides2:
-  img:
+  img: 2026/wku-php/4-func-again.jpg
   logistics:
 
 - date: 3/31
   week: 5
   title: >
-    6장 브라우저로부터 데이터 가져오기
+    4장 객체 & 클래스
   supp:
   readings:
   hw:
@@ -63,8 +61,8 @@
 - date: 4/7
   week: 6
   title: >
-    7장 이미지 & 파일<br>
-    8장 날짜 & 시간
+    5장 내장 함수<br>
+    6장 브라우저로부터 데이터 가져오기
   supp:
   readings:
   hw:
@@ -76,8 +74,8 @@
 - date: 4/14
   week: 7
   title: >
-    9장 쿠키 & 세션<br>
-    10장 오류 처리
+    7장 이미지 & 파일<br>
+    8장 날짜 & 시간
   supp:
   readings:
   hw:
@@ -98,7 +96,8 @@
 - date: 4/28
   week: 9
   title: >
-    11장 구조화된 쿼리 언어
+    9장 쿠키 & 세션<br>
+    10장 오류 처리
   supp:
   readings:
   hw:
@@ -115,6 +114,7 @@
 - date: 5/12
   week: 11
   title: >
+    11장 구조화된 쿼리 언어<br>
     12장 데이터베이스에서 데이터 가져오기 & 표시하기
   supp:
   readings:

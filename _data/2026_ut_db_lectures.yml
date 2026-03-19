@@ -23,18 +23,18 @@
   week: 3
   title: >
     <strong>Chapter 01 데이터베이스 개요</strong>
-  slides: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/1cMKCbZQ_3I16hLYx5jhOQNGggwHLmU1wL5wzg_LBwx0/edit?usp=sharing"
+  img: 2026/ut-db/2-about-dbs.jpg
   readings:
-  hw: 
+  hw: "https://classroom.github.com/a/r5TabZFB"
   logistics:
 
 - date: 3/23
   week: 4
   title: >
     <strong>Chapter 02 데이터베이스 설계 개요</strong>
-  slides: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/1yOQhWrsMYjQ7lXvBoXYKYp9UjNzUu4zHy40avBvrXWs/edit?usp=sharing"
+  img: 2026/ut-db/3-db-design.jpg
   readings:
   hw: 
   logistics:
@@ -138,7 +138,7 @@
   hw: 
   logistics:
 
-- date: 6/1 (Makeup)
+- date: 6/8
   week: 14
   title: <strong>Chapter 11 물리적 설계</strong>
   slides: 
@@ -147,7 +147,8 @@
   hw: 
   logistics:
 
-- date: 6/8
+- date: >
+    <span style="color: red">6/11 (LMS 보강)</span>
   week: 15
   title: >
     <strong>Chapter 12 데이터베이스 구현</strong>

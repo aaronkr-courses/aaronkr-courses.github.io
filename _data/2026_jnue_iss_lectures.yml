@@ -17,12 +17,14 @@
   slides: "https://docs.google.com/presentation/d/1Wu-AiNpgdrCuJHD8OQVX9-6Euh00Q_aR5dzZSLF3Bsg/edit?usp=sharing"
   readings:
   supp:
-  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzU4NTY2MzQ3NDc3/details"
-  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzU4NTczMzgyOTc2/details"
-  img2: 2025/jnue-iss/2-starting.jpg
+  hw1: 
+  hw2: 
+  hw3:
+  img: 2025/jnue-iss/2-starting.jpg
   logistics: >
-    <a href="https://classroom.google.com/c/NzU3NjE5NTQ0MTc2?cjc=vagjo5g">Google 클래스룸 (음악)</a><br><br>
-    <a href="https://classroom.google.com/c/NzU3NjE5MjczNDkx?cjc=5drxpo7">Google 클래스룸 (수학)</a>
+    <a href="https://classroom.google.com/c/ODUwMTE5OTQ1NDM4?cjc=ur3sfwgy">9시 클래스룸</a><br>
+    <a href="https://classroom.google.com/c/Nzk2NDE5Njc5NzY3?cjc=hrlttg34">11시 클래스룸</a><br>
+    <a href="https://classroom.google.com/c/ODQ3ODU2NzA5NjM2?cjc=fyqaj547">14시 클래스룸</a>
 
 - date: 3/20
   week: 3
@@ -31,9 +33,9 @@
   slides: "https://docs.google.com/presentation/d/1R6L8CQrcoa3z1b_UYJICeqARHiOoVRnjPGQJQzSumMc/edit?usp=sharing"
   readings:
   supp:
-  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzYwMDA1MzQ2Mzgx/details"
-  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzYwMDEzNDIxMDgw/details"
-  img2: 2025/jnue-iss/3-calc.jpg
+  hw1: 
+  hw2: 
+  img: 2025/jnue-iss/3-calc.jpg
   logistics:
 
 - date: 3/27
@@ -43,8 +45,8 @@
   slides: "https://docs.google.com/presentation/d/1ZSBOnAWr8DJqrjW19ewQK3yAQtQS18jlIYlQjgvZm9k/edit?usp=sharing"
   readings:
   supp:
-  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzYyNTIzOTg3NTAz/details"
-  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzYyNTIzNTczMDkx/details"
+  hw1: 
+  hw2: 
   img2: 2025/jnue-iss/4-calc.jpg
   logistics:
 
@@ -55,10 +57,10 @@
   slides: "https://docs.google.com/presentation/d/13mk7I40qRDSgNBQ1nXj8SMuumA3nFuClXbS3M0jg1sg/edit?usp=sharing"
   readings:
   supp:
-  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzUzNDE2NjMzMTU5/details"
-  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzUzNDE3MjQ2MDUx/details"
+  hw1:
+  hw2: 
   img2: 2025/jnue-iss/5-formulas.jpg
-  logistics: >
+  logistics2: >
     <a href="https://docs.google.com/spreadsheets/d/1fBNjjBhUF9nEHgdI06TzGF0rbEBoLIsb/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true">시작 파일</a>
 
 - date: 4/10
@@ -68,10 +70,10 @@
   slides: "https://docs.google.com/presentation/d/1TsbzScRAFMfLWNK7wIeEUeHi3IMH0fqmcP4V5d-FDeY/edit?usp=sharing"
   readings:
   supp:
-  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzY1MzAyMzk4Mjgz/details"
-  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzY3MDkzNDA3OTMx/details"
+  hw1: 
+  hw2: 
   img2: 2025/jnue-iss/6-data.jpg
-  logistics: >
+  logistics2: >
     <a href="https://docs.google.com/spreadsheets/d/1DPOu_YX7ciXNlEGMfPyNqJFb9WDE_wvb/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true">시작 파일</a>
 
 - date: 4/17
@@ -83,10 +85,10 @@
   slides: "https://docs.google.com/presentation/d/1ZC948uMZ9d_v5CwJkKL7dL0u3vQbZaoZMdGh0geYBZA/edit?usp=sharing"
   readings:
   supp:
-  hw1: "https://classroom.google.com/c/NzU3NjE5NTQ0MTc2/a/NzcyMjM2MjU5MjYy/details"
-  hw2: "https://classroom.google.com/c/NzU3NjE5MjczNDkx/a/NzcyMjUyNzk3ODc2/details"
+  hw1:
+  hw2:
   img2: 2025/jnue-iss/7-charts.jpg
-  logistics: >
+  logistics2: >
     <a href="https://forms.gle/gTbY6w2CASzhncTD8">수학 링크</a><br>
     <div style="display:none;">
       <a href="https://forms.gle/G1EkwLPVDoLwB85H7">음악 퀴즈</a><br>
@@ -103,18 +105,19 @@
   hw:
   logistics:
 
-- date: >
-    <span style="color: red;">5/1 (LMS)</span>
+- date: 5/1
   week: 9
   title: >
-    <strong style="color: red;">No School (개인사정)</strong><br>
-    <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강)</a><br>
+    <div style="display: none">
+      <strong style="color: red;">No School (개인사정)</strong><br>
+      <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강)</a><br>
+    </div>
     <strong>WEEK 03 알쏭달쏭! 알고리즘 제대로 알기<br>
     WEEK 04 어서 와! 엔트리는 처음이지?</strong>
   slides: "https://docs.google.com/presentation/d/11NQaELLLf3WRL30k7yPxZZpO2ocynej5FkH-1mqidTY/edit?usp=sharing"
   readings:
   img2: 2025/jnue-iss/9-alg-entry.jpg
-  logistics: >
+  logistics2: >
     <a href="https://forms.gle/MtG4fxgZQMGMMjdu6">Entry 계정 링크</a>
 
 - date: 5/8

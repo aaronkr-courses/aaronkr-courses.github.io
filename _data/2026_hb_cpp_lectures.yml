@@ -4,7 +4,7 @@
     <strong>수업 소개</strong>
   supp:
   readings: Accelerated C++, <strong>0장 pp. 26-34</strong>
-  hw: "https://classroom.github.com/a/HWOZflew"
+  hw: "https://classroom.github.com/a/dWvi0UfR"
   slides: "https://docs.google.com/presentation/d/1z-gLR1EKPCNSeWWRoxOD8Z-QOngeK-_Es2c_PE5AfsI/edit?usp=sharing"
   img: 2024/hb-cpp/1-cpp-intro.jpg
   logistics:
@@ -17,9 +17,9 @@
     <strong>CHAPTER 2 반복문과 카운팅</strong>
   supp:
   readings: Accelerated C++, <strong>1-2장 pp. 26-48</strong>
-  hw: "https://classroom.github.com/a/HjU8bHdA"
+  hw: "https://classroom.github.com/a/s6yA-ETK"
   slides: "https://docs.google.com/presentation/d/1S4mY_gLCo0_0rWe1lCwS4sbSRnyLDLNPwTeVlfomric/edit?usp=sharing"
-  img2: 2024/hb-cpp/2-cpp-strings.jpg
+  img  : 2024/hb-cpp/2-cpp-strings.jpg
   logistics:
 
 - date: 3/18
@@ -28,9 +28,9 @@
     <strong>CHAPTER 3 데이터 일괄 처리</strong>
   supp:
   readings: Accelerated C++, <strong>3장 pp. 48-128</strong>
-  hw: "https://classroom.github.com/a/kdypmbIz"
+  hw: "https://classroom.github.com/a/7cY5ha99"
   slides: "https://docs.google.com/presentation/d/13o4-ZsTewxFeBXz-9XKOzMdFZO9TzM1keEWd30DZB_c/edit?usp=sharing"
-  img2: 2024/hb-cpp/4-cpp-data.jpg
+  img: 2024/hb-cpp/4-cpp-data.jpg
   logistics:
 
 - date: 3/25
@@ -39,9 +39,9 @@
     <strong>CHAPTER 4 프로그램 및 데이터 구조화</strong>
   supp:
   readings: Accelerated C++, <strong>4장 pp. 48-128</strong>
-  hw: "https://classroom.github.com/a/YiOLSxOI"
+  hw:
   slides: "https://docs.google.com/presentation/d/1MHrevhoPPx3-QNR4z1IuKrQlnqCTLRMya0bzfY4vTUM/edit?usp=sharing"
-  img2: 2025/hb-cpp/4-containers.jpg
+  img: 2025/hb-cpp/4-containers.jpg
   logistics:
 
 - date: 4/1
@@ -51,7 +51,7 @@
   supp:
   readings: >
     Accelerated C++, <strong>5장 pp. 131-164</strong>
-  hw: "https://classroom.github.com/a/rimPz5Ko"
+  hw:
   slides: "https://docs.google.com/presentation/d/1lN_icmRvuYPy99ILE7-fr2LnAKgBK2esVERtcksw_iE/edit?usp=sharing"
   img2: 2024/hb-cpp/6-cpp-containers-strings.jpg
   logistics:
@@ -63,7 +63,7 @@
   supp:
   readings: >
     Accelerated C++, <strong>6장 pp. 170-198</strong>
-  hw: "https://classroom.github.com/a/gN5crwfC"
+  hw:
   slides: "https://docs.google.com/presentation/d/15XPrW8VZUtrAPB1vBWX2zRs2Dyx2fZ93vENSdQVtc9E/edit?usp=sharing"
   img2: 2024/hb-cpp/7-cpp-lib-algorithms.jpg
   logistics: >
@@ -76,7 +76,7 @@
   supp:
   readings: >
     Accelerated C++, <strong>7장 pp. 202-222</strong>
-  hw: "https://classroom.github.com/a/m9XQ2mUq"
+  hw:
   slides: "https://docs.google.com/presentation/d/1N9Fv9cM5CohQsPnPaGCAZfmTuvdM3PyGnO_V7hxXMxA/edit?usp=sharing"
   img2: 2024/hb-cpp/9-cpp-a-containers.jpg
   logistics: >
@@ -96,7 +96,7 @@
   readings: >
     Accelerated C++, <strong>8장 pp. 225-248</strong><br>
     Accelerated C++, <strong>9장 pp. 251-271</strong>
-  hw: "https://classroom.github.com/a/Qm1tDM1m"
+  hw:
   slides: "https://docs.google.com/presentation/d/1egDE93iN5rWULPahVj_FBvEzsTaGglhQ6qZ-dD0MWug/edit?usp=sharing"
   img2: 2024/hb-cpp/10-cpp-generic-types.jpg
   logistics:
@@ -108,7 +108,7 @@
   supp:
   readings: >
     Accelerated C++, <strong>10장 pp. 274-299</strong>
-  hw: "https://classroom.github.com/a/cr1XyQYb"
+  hw:
   slides: "https://docs.google.com/presentation/d/1gw7GLdRzWjxpK_UlVEQn8E9xNd0IReHrxw6vPIwA1qA/edit?usp=sharing"
   img2: 2024/hb-cpp/11-cpp-memory.jpg
   logistics:
@@ -119,7 +119,7 @@
     <strong>CHAPTER 11 추상 데이터 타입</strong>
   supp:
   readings: Accelerated C++, <strong>11장 pp. 302-335</strong>
-  hw: "https://classroom.github.com/a/R9gvNdyY"
+  hw:
   slides: "https://docs.google.com/presentation/d/1tAkFzr3ejmv6ERe6E6Ng2RB-kVtayFkTpWDlNKuCJP0/edit?usp=sharing"
   img2: 2024/hb-cpp/12-abstract-data-types.jpg
   logistics:
@@ -130,7 +130,7 @@
     <strong>CHAPTER 12 값처럼 동작하는 클래스 객체</strong>
   supp:
   readings: Accelerated C++, <strong>12장 pp. 338-359</strong>
-  hw: "https://classroom.github.com/a/45bb0M7V"
+  hw:
   slides: "https://docs.google.com/presentation/d/1zMUfc73NQsGXszyYbzuAoay4OYOGGMgABAGM9iFfC4E/edit?usp=sharing"
   img2: 2024/hb-cpp/13-cpp-str-class.jpg
   logistics:
@@ -141,7 +141,7 @@
     <strong>CHAPTER 13 상속과 동적 바인딩</strong>
   supp:
   readings: Accelerated C++, <strong>13장 pp. 362-398</strong>
-  hw: "https://classroom.github.com/a/NmkOyoah"
+  hw:
   slides: "https://docs.google.com/presentation/d/1b5uiVgeNYdFr9v1Tg9wAOC2iLKKAAgRMAGtXCn3XQiE/edit?usp=sharing"
   img2: 2024/hb-cpp/14-inheritance.jpg
   logistics: >
@@ -158,7 +158,7 @@
     <strong>CHAPTER 14 메모리 관리 자동화</strong>
   supp:
   readings: Accelerated C++, <strong>14장 pp. 399-</strong>
-  hw: "https://classroom.github.com/a/b8_IqZXK"
+  hw:
   slides: "https://docs.google.com/presentation/d/1jZsl94TLtSibDlOzFc4SNnihqfv376pldcq5WaAyURI/edit?usp=sharing"
   img2: 2025/hb-cpp/14-auto-mem.jpg
   logistics: >
