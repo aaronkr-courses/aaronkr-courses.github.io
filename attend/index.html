@@ -207,15 +207,35 @@ let sessionData   = null;
 let userIp        = '';
 let onCampus      = false;
 
+// REPLACE the entire getIP() function:
 async function getIP() {
   try {
-    const r = await fetch('https://api.ipify.org?format=json');
+    const r = await fetch('https://ipapi.co/json/');
     const j = await r.json();
-    userIp   = j.ip || '';
-    onCampus = CAMPUS_IP_PREFIXES.some(p => userIp.startsWith(p));
-    if (!onCampus) document.getElementById('offcampus-notice').style.display = '';
-  } catch(e) { userIp = 'unknown'; onCampus = false; }
+
+    userIp   = j.ip      || 'unknown';
+    const country = j.country_code || '';   // 'KR' for Korea
+    const region  = j.region       || '';   // e.g. 'North Jeolla'
+    const city    = j.city         || '';   // e.g. 'Jeonju'
+
+    // Primary check: must be in Korea
+    // Optional tighter check: also verify region/city matches your university
+    onCampus = country === 'KR' && region.includes('Jeolla');
+
+    // Store geo info to log it
+    window.geoInfo = { country, region, city };
+
+    if (!onCampus) {
+      document.getElementById('offcampus-notice').style.display = '';
+    }
+  } catch(e) {
+    userIp   = 'unknown';
+    onCampus = true;  // fail open — don't penalize if API is down
+    window.geoInfo = {};
+  }
 }
+
+let scanLogRef = null;  // ADD near other top-level variables
 
 async function init() {
   await getIP();
@@ -236,18 +256,23 @@ async function init() {
   }
 
   // Log the scan (submitted=false at this point)
-  await db.collection('logs').add({
+try {
+  scanLogRef = await db.collection('logs').add({
     sessionId:   sessionData.sessionId,
     classId:     sessionData.classId   || '',
     className:   sessionData.className || '',
     ip:          userIp,
+    country:     window.geoInfo?.country || '',
+    region:      window.geoInfo?.region  || '',
+    city:        window.geoInfo?.city    || '',
     onCampus:    onCampus,
     submitted:   false,
     timestamp:   firebase.firestore.FieldValue.serverTimestamp(),
     tokenUsed:   urlToken,
     studentName: null,
     studentId:   null
-  }).catch(()=>{});
+  });
+} catch(e) { scanLogRef = null; }
 
   show('active');
   startTimer();
@@ -290,19 +315,36 @@ async function doSubmit(e) {
 
   try {
     // Write attendance log
-    await db.collection('logs').add({
-      sessionId:   sessionData.sessionId,
-      classId:     sessionData.classId   || '',
-      className:   sessionData.className || '',
-      studentName: name,
-      studentId:   sid,
-      ip:          userIp,
-      onCampus:    onCampus,
-      feedback:    document.getElementById('f-feedback').value.trim() || null,
-      submitted:   true,
-      timestamp:   firebase.firestore.FieldValue.serverTimestamp(),
-      tokenUsed:   urlToken
-    });
+    if (scanLogRef) {
+      await scanLogRef.update({
+        studentName:  name,
+        studentId:    sid,
+        submitted:    true,
+        country:      window.geoInfo?.country || '',
+        region:       window.geoInfo?.region  || '',
+        city:         window.geoInfo?.city    || '',
+        feedback:     document.getElementById('f-feedback')?.value.trim() || null,
+        submittedAt:  firebase.firestore.FieldValue.serverTimestamp()
+      });
+    } else {
+      // Fallback if scan ref was lost (e.g. page refreshed mid-session)
+      await db.collection('logs').add({
+        sessionId:   sessionData.sessionId,
+        classId:     sessionData.classId   || '',
+        className:   sessionData.className || '',
+        studentName: name,
+        studentId:   sid,
+        ip:          userIp,
+        country:     window.geoInfo?.country || '',
+        region:      window.geoInfo?.region  || '',
+        city:        window.geoInfo?.city    || '',
+        onCampus:    onCampus,
+        submitted:   true,
+        feedback:    document.getElementById('f-feedback')?.value.trim() || null,
+        timestamp:   firebase.firestore.FieldValue.serverTimestamp(),
+        tokenUsed:   urlToken
+      });
+    }
     clearInterval(timerInterval);
     document.getElementById('ok-detail').innerHTML =
       `<strong>${name}</strong> (${sid})<br>

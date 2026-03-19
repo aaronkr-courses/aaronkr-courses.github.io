@@ -228,6 +228,7 @@ body.dark {
       <button class="tab active" onclick="switchTab('control',this)">Control panel</button>
       <button class="tab"        onclick="switchTab('log',this)">Access log</button>
       <button class="tab"        onclick="switchTab('history',this)">Session history</button>
+      <button class="tab"        onclick="switchTab('feedback',this)">Session feedback</button>
     </div>
 
     <!-- ── CONTROL PANEL ── -->
@@ -398,6 +399,41 @@ body.dark {
               <th>Started</th><th>Ended</th><th>Scans</th><th>Submitted</th><th>Off-campus</th>
             </tr></thead>
             <tbody id="hist-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- SESSION FEEDBACK -->
+    <div class="panel" id="tab-feedback">
+      <div class="card">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+          <div class="card-label" style="margin-bottom:0">Session feedback</div>
+          <div style="display:flex;gap:8px;align-items:flex-end">
+            <div>
+              <label class="lbl">Session</label>
+              <select id="fb-filter-session" onchange="loadFeedback()" style="width:auto;min-width:180px">
+                <option value="">All sessions</option>
+                <option value="__current__">Current session</option>
+              </select>
+            </div>
+            <button class="btn-s" style="font-size:12px" onclick="exportFeedbackCSV()">↓ Export</button>
+          </div>
+        </div>
+
+        <div id="fb-summary" style="font-size:12px;color:var(--muted);margin-bottom:10px"></div>
+
+        <div id="fb-empty" style="text-align:center;padding:2rem;color:var(--muted);font-size:13px">
+          No feedback submitted yet.
+        </div>
+        <div class="tbl-wrap" id="fb-wrap" style="display:none">
+          <table>
+            <thead><tr>
+              <th>Time</th>
+              <th>Class</th>
+              <th>Feedback</th>
+            </tr></thead>
+            <tbody id="fb-body"></tbody>
           </table>
         </div>
       </div>
@@ -766,6 +802,76 @@ function exportCSV() {
   a.download=`attendance_${new Date().toISOString().slice(0,10)}.csv`; a.click();
 }
 
+// ── Session Feedback ──────────────────────────────────────────────
+function loadFeedback() {
+  // Populate session dropdown from history
+  const sel  = document.getElementById('fb-filter-session');
+  const cur  = sel.value;
+  const opts = ['<option value="">All sessions</option>',
+                '<option value="__current__">Current session</option>'];
+  allHistory.forEach(h => {
+    const dt = h.startedAt?.toDate?.()?.toLocaleDateString('ko-KR') || '';
+    opts.push(`<option value="${h.sessionId}">${h.className||h.classId} — ${dt}</option>`);
+  });
+  sel.innerHTML = opts.join('');
+  sel.value = cur;
+
+  const sessFilter = sel.value;
+
+  // Filter logs to only entries with feedback
+  let filtered = (window.logs || []).filter(l => l.feedback && l.feedback.trim() !== '');
+
+  if (sessFilter === '__current__') filtered = filtered.filter(l => l.sessionId === sessionId);
+  else if (sessFilter)             filtered = filtered.filter(l => l.sessionId === sessFilter);
+
+  // Sort newest first
+  filtered.sort((a,b) => {
+    const at = a.timestamp?.toDate?.()?.getTime() || 0;
+    const bt = b.timestamp?.toDate?.()?.getTime() || 0;
+    return bt - at;
+  });
+
+  const sumEl = document.getElementById('fb-summary');
+  if (sumEl) sumEl.textContent = `${filtered.length} feedback response${filtered.length !== 1 ? 's' : ''}`;
+
+  if (!filtered.length) {
+    document.getElementById('fb-empty').style.display = '';
+    document.getElementById('fb-wrap').style.display  = 'none';
+    return;
+  }
+  document.getElementById('fb-empty').style.display = 'none';
+  document.getElementById('fb-wrap').style.display  = '';
+
+  document.getElementById('fb-body').innerHTML = filtered.map(l => {
+    const ts = l.timestamp?.toDate?.()?.toLocaleString('ko-KR',
+               {dateStyle:'short', timeStyle:'short'}) || '—';
+    return `<tr>
+      <td class="mono" style="font-size:11px;white-space:nowrap">${ts}</td>
+      <td style="font-size:12px">${l.className || '—'}</td>
+      <td style="line-height:1.6">${l.feedback}</td>
+    </tr>`;
+  }).join('');
+}
+
+function exportFeedbackCSV() {
+  const sessFilter = document.getElementById('fb-filter-session')?.value || '';
+  let filtered = (window.logs || []).filter(l => l.feedback && l.feedback.trim() !== '');
+  if (sessFilter === '__current__') filtered = filtered.filter(l => l.sessionId === sessionId);
+  else if (sessFilter)             filtered = filtered.filter(l => l.sessionId === sessFilter);
+
+  if (!filtered.length) { alert('No feedback to export.'); return; }
+
+  const rows = filtered.map(l => {
+    const t = l.timestamp?.toDate?.()?.toISOString() || '';
+    return [t, l.className||'', (l.feedback||'').replace(/,/g,';')].join(',');
+  });
+  const blob = new Blob([['Time,Class,Feedback',...rows].join('\n')], {type:'text/csv'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `feedback_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+}
+
 // ── Tabs ───────────────────────────────────────────────────────
 function switchTab(id,btn) {
   document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
@@ -773,6 +879,7 @@ function switchTab(id,btn) {
   document.getElementById('tab-'+id).classList.add('active');
   btn.classList.add('active');
   if(id==='history') loadHistory();
+  if(id==='feedback') loadFeedback();
 }
 
 // ── Status ─────────────────────────────────────────────────────
@@ -986,7 +1093,12 @@ function renderLogTable(filtered) {
       <td>${l.studentName||'—'}</td>
       <td class="mono">${l.studentId||'—'}</td>
       <td class="mono" style="font-size:11px">${l.ip||'—'}</td>
-      <td><span class="badge ${l.onCampus?'b-on':'b-warn'}">${l.onCampus?'Campus':'Off-campus'}</span></td>
+      <td>
+        <span class="badge ${l.onCampus?'b-on':'b-warn'}">
+          ${l.onCampus ? 'Korea' : 'Foreign'}
+        </span>
+        ${l.city ? `<span style="font-size:11px;color:var(--muted);margin-left:4px">${l.city}</span>` : ''}
+      </td>
       <td><span class="badge ${l.submitted?'b-on':'b-off'}">${l.submitted?'Yes':'No'}</span></td>
       <td style="font-size:12px;color:var(--muted);max-width:180px">${l.feedback||''}</td>
     </tr>`;
