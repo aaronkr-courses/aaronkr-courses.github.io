@@ -39,7 +39,8 @@
   img: 2026/ut-db/3-db-design.jpg
   readings:
   hw: 
-  logistics:
+  logistics: >
+    <a href="https://drive.google.com/file/d/1I80ayRhVtC6j1vOB74mhxZkjX-yVXzmL/view?usp=sharing">연습문제 chp2.md</a>
 
 - date: 3/30
   week: 5
