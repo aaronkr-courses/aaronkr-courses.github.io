@@ -24,6 +24,7 @@
   title: >
     <strong>Chapter 01 데이터베이스 개요</strong>
   slides: "https://docs.google.com/presentation/d/1cMKCbZQ_3I16hLYx5jhOQNGggwHLmU1wL5wzg_LBwx0/edit?usp=sharing"
+  slides2: "https://docs.google.com/presentation/d/18Y-0nSrlGzUN3x7CETKwkAf-5t-1rFYCcAUEhueknRA/edit?usp=sharing"
   img: 2026/ut-db/2-about-dbs.jpg
   readings:
   hw: "https://classroom.github.com/a/r5TabZFB"
@@ -34,6 +35,7 @@
   title: >
     <strong>Chapter 02 데이터베이스 설계 개요</strong>
   slides: "https://docs.google.com/presentation/d/1yOQhWrsMYjQ7lXvBoXYKYp9UjNzUu4zHy40avBvrXWs/edit?usp=sharing"
+  slides2: "https://docs.google.com/presentation/d/1EmHhUwbOk6vQ8i0Y5wVLSyt2TT6siIRFdFehboi7LEM/edit?usp=sharing"
   img: 2026/ut-db/3-db-design.jpg
   readings:
   hw: 
