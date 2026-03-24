@@ -44,8 +44,8 @@
   week: 5
   title: >
     <strong>CHAPTER 04 조건문과 반복문 다루기</strong>
-  slides: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/1BumVpVOnaUdVhDHhDZVUAR7CicqqtHJoYFF8SzLu-bQ/edit?usp=sharing"
+  img: 2026/ut-iot/4-loops.jpg
   readings:
   hw: 
   logistics:
@@ -54,8 +54,8 @@
   week: 6
   title: >
     <strong>CHAPTER 05 함수와 클래스 만들기</strong>
-  slides: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/1u2Bh4C6oN0fkA9sntCZV5E61cKJ2J8ZtOnvu23JlEDc/edit?usp=sharing"
+  img2: 2026/ut-iot/5-classes.jpg
   readings:
   hw: 
   logistics:
@@ -64,8 +64,8 @@
   week: 7
   title: >
     <strong>CHAPTER 06 개발 보드와 실드 다루기</strong>
-  slides: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/1havsA0dADya6cxnEdvjTlM7xmyrpXlnu-rVrYyHDz34/edit?usp=sharing"
+  img2: 2026/ut-iot/6-board.jpg
   readings:
   hw: 
   logistics:
@@ -83,8 +83,8 @@
   week: 9
   title: >
     <strong>CHAPTER 07 개발 보드의 핀 다루기</strong>
-  slides: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/1majq27AYzVlRlEE_bglpWoIuuJvETRvVJUQF_itwvNc/edit?usp=sharing"
+  img2: 2026/ut-iot/8-pins.jpg
   readings:
   hw: 
   logistics:
@@ -93,8 +93,8 @@
   week: 10
   title: >
     <strong>CHAPTER 08 인터럽트와 타이머 다루기</strong>
-  slides: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/1T2hDriiSWlalu5dHzwca2CmYHAlfdmgZsKbQZ7QOUoA/edit?usp=sharing"
+  img2: 2026/ut-iot/9-timer.jpg
   readings:
   hw: 
   logistics:
@@ -103,8 +103,8 @@
   week: 11
   title: >
     <strong>CHAPTER 09 개발 보드에 부품 연결하기</strong>
-  slides: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/1XT8-xK29PIvxItaIXYOlJS2GYS4_Ob1AdjopNRwwWww/edit?usp=sharing"
+  img2: 2026/ut-iot/10-components.jpg
   readings:
   hw: 
   logistics:
@@ -113,48 +113,44 @@
   week: 12
   title: >
     <strong>CHAPTER 10 MQTT 서버 만들기</strong>
-  slides: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/1iep0VKcQbW2oZEpK6MJCT4RMsDMsHBl1Jvbw90TcyvI/edit?usp=sharing"
+  img2: 2026/ut-iot/11-mqtt.jpg
   readings:
   hw: 
   logistics:
 
 - date: >
     <span style="color: red;">5/25</span>
-  week: 1
+  week: 13
   title: >
     <span style="color: red"><strong>No Class</strong> Buddha's Bday</span>
-  slides: 
-  img: 
-  readings:
-  hw: 
-  logistics:
+
 
 - date: 6/1
   week: 14
   title: <strong>CHAPTER 11 Node-Red 서버 만들고 활용하기</strong>
-  slides: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/1CRshi1slMQmaFFVSOnEkvS9ZmsRAfHCm6UKWMLqbc-4/edit?usp=sharing"
+  img2: 2026/ut-iot/12-node-red.jpg
   readings:
   hw: 
   logistics:
 
 - date: 6/8
-  week: 14
+  week: 15
   title: <strong>CHAPTER 12 센서 데이터 모니터링하기</strong>
-  slides: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/11D8k0Jp9DcidxvBP1lSPN53Irq_mk2pnI1LD8y3r_F8/edit?usp=sharing"
+  img2: 2026/ut-iot/13-sensors.jpg
   readings:
   hw: 
   logistics:
 
 - date: >
     <span style="color: red">6/11 (LMS 보강)</span>
-  week: 15
+  week: 16
   title: >
     <strong>CHAPTER 13 전등 제어와 경보 시스템 구성하기</strong>
-  slides: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/1Sl0ia9jA6wq81gDr5vWpyOpCl4b2n2X7x-EUnAxwPqE/edit?usp=sharing"
+  img2: 2026/ut-iot/14-alarms.jpg
   readings:
   hw: 
   logistics:
