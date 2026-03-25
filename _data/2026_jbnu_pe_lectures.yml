@@ -56,20 +56,21 @@
 - date: 3/25
   week: 4
   title: >
-    <strong>DC/DC Conversion<br>
-    Magnetics</strong>
+    <strong>Deeper Circuit Understanding</strong>
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1W2Eod9vt70hPOvABpTD8QGYw9OMVGyuoMCF33k5n5-Q/edit?usp=sharing"
   slides2:
-  img: 
+  img: 2026/jbnu-pe/4-deeper-understanding.jpg
   logistics:
 
 - date: 4/1
   week: 5
   title: >
-    <strong>Isolated DC/DC Conversion</strong>
+    <strong>DC/DC Conversion<br>
+    Magnetics<br>
+    Isolated DC/DC Conversion</strong>
   supp:
   readings:
   hw:
