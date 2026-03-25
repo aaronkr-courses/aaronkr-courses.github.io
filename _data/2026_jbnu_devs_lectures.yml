@@ -59,9 +59,9 @@
   supp:
   readings:
   hw:
-  slides: 
-  slides2: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/14-UekJUJkJtN4ZqlJPO8pYjoW_Bs0iK6kMHFrjP6aZA/edit?usp=sharing"
+  slides2: "https://docs.google.com/presentation/d/13l98RRldFHOqsuxySket-AeIXwgKxlv5/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true"
+  img: 2026/jbnu-devs/4-random-errors.jpg
   logistics:
 
 - date: 4/2

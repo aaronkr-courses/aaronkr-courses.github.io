@@ -97,7 +97,8 @@
       <a href="https://forms.gle/G1EkwLPVDoLwB85H7">음악 퀴즈</a><br>
     </div>
 
-- date: 4/24
+- date: >
+    <span style="color: red;">4/24</span>
   week: 8
   title: >
     <strong style="color: red">1학년 참관실습Ⅰ</strong> 보강?<br>
@@ -108,13 +109,12 @@
   hw:
   logistics:
 
-- date: 5/1
+- date: >
+    <span style="color: red;">5/1</span>
   week: 9
   title: >
-    <div style="display: none">
-      <strong style="color: red;">No School (개인사정)</strong><br>
-      <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강)</a><br>
-    </div>
+    <strong style="color: red;">No School (개교기념일)</strong><br>
+    <a style="color: red;" href="https://lms.jnue.kr">(LMS에서 보강?)</a><br>
     <strong>WEEK 03 알쏭달쏭! 알고리즘 제대로 알기<br>
     WEEK 04 어서 와! 엔트리는 처음이지?</strong>
   slides: "https://docs.google.com/presentation/d/11NQaELLLf3WRL30k7yPxZZpO2ocynej5FkH-1mqidTY/edit?usp=sharing"
@@ -145,7 +145,8 @@
   img2: 2025/jnue-iss/11-coding-ii.jpg
   logistics:
 
-- date: 5/22
+- date: >
+    <span style="color: red;">5/22</span>
   week: 12
   title: >
     <strong>WEEK 09 장바구니에 물건을 넣고 빼기<br>
