@@ -53,7 +53,7 @@
         [ slides ]
         {% endif %}
         {% if lecture.slides2 %}
-        <a href="{{ lecture.slides2 }}" target="_blank">Slides 2{% if lecture.slides2Title %}: slides2Title{% endif %}</a>
+        <a href="{{ lecture.slides2 }}" target="_blank">Slides 2{% if lecture.slides2Title %}: {{lecture.slides2Title}}{% endif %}</a>
         {% endif %}
     </td>
     <td>
