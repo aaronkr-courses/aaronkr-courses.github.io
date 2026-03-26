@@ -37,6 +37,7 @@
   hw:
   slides: "https://docs.google.com/presentation/d/1MsG79alDJi0v1yYsYczoir7LNxv1sksbQh7ELVnu-b0/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/1umdjpwusE-egTTk8RDPWIac7aeQGRAZJ/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true"
+  slides2Title: "Understanding IoT"
   img: 2026/jbnu-devs/2-inst-types.jpg
   logistics:
 
@@ -49,6 +50,7 @@
   hw:
   slides: "https://docs.google.com/presentation/d/1Dk5PVAxED9NzYA0KbwoaH_Re204QYbzb-9D0H1xEanw/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/1FwqO51uVqi4QRDyW2u20VhF-7GiNlCtX/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true"
+  slides2Title: "Microcontroller Setup"
   img: 2026/jbnu-devs/3-uncertainty.jpg
   logistics:
 
@@ -61,6 +63,7 @@
   hw:
   slides: "https://docs.google.com/presentation/d/14-UekJUJkJtN4ZqlJPO8pYjoW_Bs0iK6kMHFrjP6aZA/edit?usp=sharing"
   slides2: "https://docs.google.com/presentation/d/13l98RRldFHOqsuxySket-AeIXwgKxlv5/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true"
+  slides2Title: "Data Types"
   img: 2026/jbnu-devs/4-random-errors.jpg
   logistics:
 
@@ -71,9 +74,10 @@
   supp:
   readings:
   hw:
-  slides: 
-  slides2: 
-  img: 
+  slides: "https://docs.google.com/presentation/d/1mgv9035snLOLdYrN6Hqzmvm3_hLb8GcoKV9WXndL66w/edit?usp=sharing"
+  slides2: "https://docs.google.com/presentation/d/14_liggYmnYGd8B3QAhzfGOfseCSvNzYq/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true"
+  slides2Title: "Conditionals and Loops"
+  img: 2026/jbnu-devs/5-calibration.jpg
   logistics:
 
 - date: 4/9
