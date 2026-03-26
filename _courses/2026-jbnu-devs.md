@@ -26,7 +26,7 @@ toc:
 information:
   - section: 0000131119
     time: 목 567 | Thur 1-4pm
-    location: 인문대학 2호관 331호
+    location: 정보화교육동 201호
     kakaotalk: https://open.kakao.com/o/gzdKVdii
 
 Main-Text:
