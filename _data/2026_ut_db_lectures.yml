@@ -28,7 +28,8 @@
   img: 2026/ut-db/2-about-dbs.jpg
   readings:
   hw: "https://classroom.github.com/a/r5TabZFB"
-  logistics:
+  logistics: >
+    <a href="https://drive.google.com/file/d/1lHhN-FoIKC-V10TmZ17bSe7KewvoTgXW/view?usp=sharing">1장 과제 정답</a>
 
 - date: 3/23
   week: 4
