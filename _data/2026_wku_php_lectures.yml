@@ -61,21 +61,19 @@
 - date: 4/7
   week: 6
   title: >
-    5장 내장 함수<br>
-    6장 브라우저로부터 데이터 가져오기
+    5장 내장 함수
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1PPnBE3Zv8u4Qyj21IdE9CSHdrhwxP_sKiNtFwio3Bi4/edit?usp=sharing"
   slides2:
-  img:
+  img: 2026/wku-php/6-built-in.jpg
   logistics:
 
 - date: 4/14
   week: 7
   title: >
-    7장 이미지 & 파일<br>
-    8장 날짜 & 시간
+    6장 브라우저로부터 데이터 가져오기
   supp:
   readings:
   hw:
@@ -96,8 +94,7 @@
 - date: 4/28
   week: 9
   title: >
-    9장 쿠키 & 세션<br>
-    10장 오류 처리
+    7장 이미지 & 파일
   supp:
   readings:
   hw:
@@ -114,8 +111,7 @@
 - date: 5/12
   week: 11
   title: >
-    11장 구조화된 쿼리 언어<br>
-    12장 데이터베이스에서 데이터 가져오기 & 표시하기
+    8장 날짜 & 시간
   supp:
   readings:
   hw:
@@ -127,7 +123,7 @@
 - date: 5/19
   week: 12
   title: >
-    13장 데이터베이스의 데이터 업데이트하기
+    9장 쿠키 & 세션
   supp:
   readings:
   hw:
@@ -139,7 +135,7 @@
 - date: 5/26
   week: 13
   title: >
-    14장 리팩터링 & 종속성 주입
+    10장 오류 처리
   supp:
   readings:
   hw:
@@ -151,7 +147,7 @@
 - date: 6/2
   week: 14
   title: >
-    15장 네임스페이스 & 라이브러리
+    11장 구조화된 쿼리 언어
   supp:
   readings:
   hw:
@@ -163,8 +159,7 @@
 - date: 6/9
   week: 15
   title: >
-    16장 멤버십<br>
-    17장 기능 추가하기
+    12장 데이터베이스에서 데이터 가져오기 & 표시하기
   supp:
   readings:
   hw:
@@ -181,3 +176,9 @@
       <br><a href="#">스터디 가이드</a>
       <br><a href="#">기말퀴즈</a>
     </div>
+  logistics: >
+    13장 데이터베이스의 데이터 업데이트하기<br>
+    14장 리팩터링 & 종속성 주입<br>
+    15장 네임스페이스 & 라이브러리<br>
+    16장 멤버십<br>
+    17장 기능 추가하기
