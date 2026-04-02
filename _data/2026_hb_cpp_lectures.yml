@@ -51,7 +51,7 @@
   supp:
   readings: >
     Accelerated C++, <strong>5장 pp. 131-164</strong>
-  hw:
+  hw: "https://classroom.github.com/a/DOmN8FB1"
   slides: "https://docs.google.com/presentation/d/1lN_icmRvuYPy99ILE7-fr2LnAKgBK2esVERtcksw_iE/edit?usp=sharing"
   img: 2024/hb-cpp/6-cpp-containers-strings.jpg
   logistics:
