@@ -68,9 +68,7 @@
 - date: 4/1
   week: 5
   title: >
-    <strong>DC/DC Conversion<br>
-    Magnetics<br>
-    Isolated DC/DC Conversion</strong>
+    <strong>DC/DC Conversion</strong>
   supp:
   readings:
   hw:
@@ -82,20 +80,23 @@
 - date: 4/8
   week: 6
   title: >
-    <strong>Switching Losses and Snubbers<br>
-    Thermal Modeling and Heat Sinking</strong>
+    <strong>Converter Waveforms<br>
+    Magnetics</strong>
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1Hy8NSOwxKLWFnU8Ao_MFJpz9dysEzrpP3gc2Bn0WqWg/edit?usp=sharing"
   slides2:
-  img: 
+  img: 2026/jbnu-pe/6-converter-waveforms.jpg
   logistics:
 
 - date: 4/15
   week: 7
   title: >
-    <strong>Inverters</strong>
+    <strong>Isolated DC/DC Conversion<br>
+    Switching Losses and Snubbers<br>
+    Thermal Modeling and Heat Sinking<br>
+    Inverters</strong>
   supp:
   readings:
   hw:

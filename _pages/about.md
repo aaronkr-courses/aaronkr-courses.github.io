@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-permalink: /
+permalink: /about/
 subtitle: >
   <a href='https://portal.jbnu.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 2px;" src="/assets/img/jbnu-logo-2.png" /></a>
   <a href='https://www.jbnu.ac.kr'>전북대학교</a>

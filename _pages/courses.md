@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /courses/
+permalink: /
 title: Courses
 description: Current and previous Computer courses taught by Aaron Snowberger.
 nav: false

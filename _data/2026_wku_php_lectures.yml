@@ -68,8 +68,7 @@
   slides: "https://docs.google.com/presentation/d/1PPnBE3Zv8u4Qyj21IdE9CSHdrhwxP_sKiNtFwio3Bi4/edit?usp=sharing"
   slides2:
   img: 2026/wku-php/6-built-in.jpg
-  logistics: >
-    <a href="https://github.com/aaronkr-classroom/wku-php-2026-5-built-in-php-functions-php">원래 코드 저장소</a>
+  logistics: 
 
 - date: 4/14
   week: 7
