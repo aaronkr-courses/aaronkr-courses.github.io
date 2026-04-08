@@ -6,7 +6,7 @@ nav_order: 6
 dropdown: true
 children:
   - title: All Courses
-    permalink: /courses/
+    permalink: /
   - title: divider
   - title: UT-IOT
     permalink: /courses/2026-ut-iot/
@@ -30,5 +30,5 @@ children:
     permalink: /courses/2026-jnue-iss/
   - title: divider
   - title: Archives
-    permalink: /courses/
+    permalink: /
 ---

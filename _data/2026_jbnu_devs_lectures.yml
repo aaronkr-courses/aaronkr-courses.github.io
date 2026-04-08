@@ -83,13 +83,13 @@
 - date: 4/9
   week: 6
   title: >
-    <strong>6. Data Acquisition and Signal Processing</strong>
+    <strong>6. Conversion of Nonvoltage Sensor Outputs</strong>
   supp:
   readings:
   hw:
-  slides: 
+  slides: "https://docs.google.com/presentation/d/1XyGDEoNmdgaZRWmRjMONG-LmfDK8y_7XDIvZ34SOhMs/edit?usp=sharing"
   slides2: 
-  img: 
+  img: 2026/jbnu-devs/6-nonvoltage.jpg
   logistics:
 
 - date: 4/16
