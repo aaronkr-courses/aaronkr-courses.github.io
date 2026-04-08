@@ -54,7 +54,8 @@
   hw: "https://classroom.github.com/a/DOmN8FB1"
   slides: "https://docs.google.com/presentation/d/1lN_icmRvuYPy99ILE7-fr2LnAKgBK2esVERtcksw_iE/edit?usp=sharing"
   img: 2024/hb-cpp/6-cpp-containers-strings.jpg
-  logistics:
+  logistics: >
+    <a href="https://github.com/aaronkr-classroom/5-cpp-containers-2026-jekkilekki">5장 실습 코드</a>
 
 - date: 4/8
   week: 6
