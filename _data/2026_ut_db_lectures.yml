@@ -53,7 +53,8 @@
   readings:
   hw: 
   logistics: >
-    <a href="https://drive.google.com/file/d/1oJbLLO8GIVpyjrUo7L1Ycy8bKe6ymnjt/view?usp=sharing">연습문제 chp3.md</a>
+    <a href="https://drive.google.com/file/d/1oJbLLO8GIVpyjrUo7L1Ycy8bKe6ymnjt/view?usp=sharing">연습문제 chp3.md</a><br>
+    <a href="https://drive.google.com/file/d/1HShXoG3sHfYsAZQb7GLJtjBRBheP4Ri3/view?usp=sharing">3장 과제 정답</a>
 
 - date: 4/6
   week: 6
@@ -64,7 +65,8 @@
   readings:
   hw: 
   logistics: >
-    <a href="https://drive.google.com/file/d/1EbWvXLCUdWNkQM1RYBFyANejruSeHnE1/view?usp=sharing">연습문제 chp4.md</a>
+    <a href="https://drive.google.com/file/d/1EbWvXLCUdWNkQM1RYBFyANejruSeHnE1/view?usp=sharing">연습문제 chp4.md</a><br>
+    <a href="https://drive.google.com/file/d/1FbjkSQzIfDXVJwiuwwku8WCZ3PAyuoEK/view?usp=sharing">4장 과제 정답</a>
 
 - date: 4/13
   week: 7
@@ -74,7 +76,9 @@
   img: 2026/ut-db/6-conceptual.jpg
   readings:
   hw: 
-  logistics:
+  logistics: >
+    <a href="https://drive.google.com/file/d/1enaMCMwyqbeO6TwISxy9FaKVnXGpdk3V/view?usp=sharing">연습문제 chp5.md</a><br>
+    <a href="https://docs.google.com/document/d/1w1PMxdzOikczy8aLTEdWBi7OyjEolqqvCQZP4ctouX0/edit?usp=sharing">5장 - 실습문제</a>
 
 - date: 4/20
   week: 8
