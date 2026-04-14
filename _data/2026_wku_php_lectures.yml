@@ -76,7 +76,7 @@
     6장 브라우저로부터 데이터 가져오기
   supp:
   readings:
-  hw:
+  hw: "https://classroom.github.com/a/PXi4ede6"
   slides: "https://docs.google.com/presentation/d/1ucVdnOQnqBPjx_VvA-a6Sy5LuhkOu-xR4_qNMRKr6SI/edit?usp=sharing"
   slides2:
   img: 2026/wku-php/7-browser-data.jpg
