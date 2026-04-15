@@ -96,13 +96,13 @@
 - date: 4/16
   week: 7
   title: >
-    <strong>7. Variable Conversion</strong>
+    <strong>7. Measurement Signal Transmission</strong>
   supp:
   readings:
   hw:
-  slides: 
+  slides: "https://docs.google.com/presentation/d/1QLbxKmQRRdlFUCUoHazJKaY_2Y7nsayO-Y_sRoPaUnI/edit?usp=sharing"
   slides2: 
-  img: 
+  img: 2026/jbnu-devs/7-signal-transmission.jpg
   logistics:
 
 - date: 4/23
