@@ -74,9 +74,9 @@
   week: 8
   title: >
     <strong>Midterm Test</strong><br>
-    <div style="display: none;">
-       <a href="#">스터디 가이드</a><br>
-       <a href="#">중간퀴즈</a>
+    <div>
+       <a href="https://docs.google.com/presentation/d/1PsyaeW1YO1VKWV9ykgOSZaOK8oeg35aBVpjcHdbYkfI/edit?usp=sharing">스터디 가이드</a><br>
+       <a  style="display: none;" href="#">중간퀴즈</a>
     </div>
 
 - date: 4/27
