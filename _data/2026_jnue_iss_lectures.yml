@@ -90,11 +90,12 @@
   supp:
   hw1:
   hw2:
-  img2: 2025/jnue-iss/7-charts.jpg
+  img: 2025/jnue-iss/7-charts.jpg
   logistics2: >
-    <a href="https://forms.gle/gTbY6w2CASzhncTD8">수학 링크</a><br>
     <div style="display:none;">
-      <a href="https://forms.gle/G1EkwLPVDoLwB85H7">음악 퀴즈</a><br>
+      <a href="https://forms.gle/L3QNgtVyf3ysn7W96">9시 퀴즈</a><br>
+      <a href="https://forms.gle/WYMVh6AHmqaff8kU8">11시 퀴즈</a><br>
+      <a href="https://forms.gle/ScsfWaFfc3JTKtuJ6">14시 퀴즈</a>
     </div>
 
 - date: >
