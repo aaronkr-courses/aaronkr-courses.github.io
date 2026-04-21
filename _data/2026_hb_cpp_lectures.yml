@@ -86,7 +86,11 @@
 - date: 4/22
   week: 8
   title: >
-    <strong>Midterm Test</strong>
+    <strong>Midterm Test</strong><br>
+    <div>
+      <br><a style="display: none;" href="#">중간고사 퀴즈</a>
+      <br><a style="display: none;" href="#">중간고사 실기</a>
+    </div>
 
 - date: 4/29
   week: 9
