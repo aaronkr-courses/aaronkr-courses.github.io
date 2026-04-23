@@ -109,7 +109,10 @@
   week: 8
   title: >
     <strong>Midterm Test</strong><br>
-    <div>
+    <a href="https://github.com/aaronkr-classroom/device-analysis-code-exercises-jekkilekki">Sensor Code</a><br>
+    <a href="https://forms.gle/y2TeLqZyZF1YBgu57">Quiz</a><br>
+    <a style="display: none" href="https://docs.google.com/document/d/10J3RL0r6MipMhhlXzFCZ4w0qI5MCAq_xZ5v-VdfgP-s/edit?usp=sharing">Practical (turn in on GitHub)</a>
+    <div style="display: none">
       <a href="https://docs.google.com/presentation/d/1LImQbECx7ms977wkkqh9QMhYMrt8ScdYRd0wODusYUo/edit?usp=sharing">Midterm Study Guide</a>
     </div>
 
