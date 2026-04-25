@@ -1,38 +1,35 @@
-/*******************************************************************************
- * Variables used throughout the theme.
- * To adjust anything, simply edit the variables below and rebuild the theme.
- ******************************************************************************/
+// ── CSS Custom Properties (injected into :root via _base.scss) ──────────────
+// Dark mode defaults
+$bg-dark:       #090910;
+$surface-dark:  #12121e;
+$border-dark:   #22223a;
+$muted-dark:    #55557a;
+$text-dark:     #eeeeff;
+$sub-dark:      #b8b8d8;
+$accent:        #9b65ff;
+$accent2:       #7eb8f7;
+$accent3:       #6dccdd;
+$warn:          #fbbf24;
+$error:         #fb6f84;
+$tag-bg-dark:   #181828;
+$nav-bg-dark:   rgba(9, 9, 16, 0.92);
 
+// Light mode overrides
+$bg-light:      #f2f2f8;
+$surface-light: #ffffff;
+$border-light:  #e0e0f0;
+$muted-light:   #8888b0;
+$text-light:    #111128;
+$sub-light:     #3a3a62;
+$accent-light:  #7c3aff;
+$accent2-light: #2563eb;
+$accent3-light: #0badbc;
+$warn-light:    #d97706;
+$error-light:   #e5294a;
+$tag-bg-light:  #ebebf8;
+$nav-bg-light:  rgba(242, 242, 248, 0.95);
 
-// Colors
-$red-color:           #FF3636 !default;
-$red-color-dark:      #B71C1C !default;
-$orange-color:        #F29105 !default;
-$blue-color:          #0076df !default;
-$blue-color-dark:     #00369f !default;
-$cyan-color:          #2698BA !default;
-$light-cyan-color:    lighten($cyan-color, 25%);
-$green-color:         #00ab37 !default;
-$green-color-lime:    #B7D12A !default;
-$green-color-dark:    #009f06 !default;
-$green-color-light:   #ddffdd !default;
-$green-color-bright:  #11D68B !default;
-$purple-color:        #B509AC !default;
-$light-purple-color:  lighten($purple-color, 25%);
-$pink-color:          #f92080 !default;
-$pink-color-light:    #ffdddd !default;
-$yellow-color:        #efcc00 !default;
-
-$grey-color:          #828282 !default;
-$grey-color-light:    lighten($grey-color, 40%);
-$grey-color-dark:     #1C1C1D;
-$grey-900:            #212529;
-
-$white-color: #ffffff !default;
-$black-color: #000000 !default;
-
-
-// Theme colors
-
-$code-bg-color-light:     rgba($purple-color, 0.05);
-$code-bg-color-dark:      #2c3237 !default;
+// Shared
+$radius: 6px;
+$max-width: 960px;
+$nav-height: 52px;

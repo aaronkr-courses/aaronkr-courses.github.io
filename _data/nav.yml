@@ -1,0 +1,56 @@
+# _data/nav.yml
+# Navigation items. Three item types:
+#   - Simple link:        has url, title_en, title_ko (url_prefix: true for contains-match)
+#   - Dynamic dropdown:   has category (pulls courses from site.courses collection)
+#   - Static dropdown:    has items array
+
+- title_en: "Courses"
+  title_ko: "강좌"
+  url: "/"
+
+- title_en: "2026"
+  title_ko: "2026"
+  dropdown_id: "dd-courses"
+  category: "2026-1"
+  semester_en: "Spring 2026"
+  semester_ko: "2026년 1학기"
+  footer_en: "All Courses"
+  footer_ko: "전체 강좌"
+  footer_url: "/archive"
+
+- title_en: "Policies"
+  title_ko: "정책"
+  dropdown_id: "dd-policies"
+  footer_en: "All Policies"
+  footer_ko: "전체 정책"
+  footer_url: "/policies"
+  items:
+    - title_en: "Attendance"
+      title_ko: "출석 정책"
+      url: "/policies/attendance"
+    - title_en: "Assignments"
+      title_ko: "과제 정책"
+      url: "/policies/assignments"
+    - title_en: "Tests & Exams"
+      title_ko: "시험 정책"
+      url: "/policies/tests"
+    - title_en: "Collaboration"
+      title_ko: "협업 정책"
+      url: "/policies/collaboration"
+    - title_en: "Late Policy"
+      title_ko: "지각 제출 정책"
+      url: "/policies/late"
+    - divider: true
+    - title_en: "★ AI Tools Policy"
+      title_ko: "★ AI 사용 정책"
+      url: "/policies/ai"
+
+- title_en: "Archive"
+  title_ko: "강의 이력"
+  url: "/archive"
+  url_prefix: true
+
+- title_en: "Office Hours"
+  title_ko: "상담 시간"
+  url: "/office-hours"
+  url_prefix: true

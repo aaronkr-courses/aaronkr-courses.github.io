@@ -1,0 +1,173 @@
+- date: >
+    <span style="color: red;">3/2</span>
+  week: 1
+  title: >
+    <span style="color: red"><strong>No Class</strong> 삼일절 (대체휴일)</span>
+  slides: 
+  img: 
+  readings:
+  hw: 
+  logistics:
+
+- date: 3/9
+  week: 2
+  title: >
+    <strong>책소개, 수업소개, 강사소개<br>
+    CHAPTER 01 사물인터넷 이해하기</strong>
+  slides: "https://docs.google.com/presentation/d/1Uh1FSMNs1HTFTVJJwK78awv23XKr9vtp75LsW92IjYw/edit?usp=sharing"
+  img: 2026/ut-iot/1-intro.jpg
+  readings:
+  hw: 
+  logistics:
+
+- date: 3/16
+  week: 3
+  title: >
+    <strong>CHAPTER 02 마이크로파이썬 개발 환경 만들기</strong>
+  slides: "https://docs.google.com/presentation/d/104IfxrPVUw6AwIC-bM4Jm_DpgiEuJBotxzW5sGRuE7A/edit?usp=sharing"
+  img: 2026/ut-iot/2-dev-env.jpg
+  readings:
+  hw: 
+  logistics:
+
+- date: 3/23
+  week: 4
+  title: >
+    <strong>CHAPTER 03 생성형 AI와 자료형 익히기</strong>
+  slides: "https://docs.google.com/presentation/d/1og_GR4qMrygWzMPPUZMBRjO0c5tigqbFTtuJhOe5R04/edit?usp=sharing"
+  img: 2026/ut-iot/3-micropython.jpg
+  readings:
+  hw: "https://classroom.github.com/a/kpJtYeMa"
+  logistics:
+
+- date: 3/30
+  week: 5
+  title: >
+    <strong>CHAPTER 04 조건문과 반복문 다루기</strong>
+  slides: "https://docs.google.com/presentation/d/1BumVpVOnaUdVhDHhDZVUAR7CicqqtHJoYFF8SzLu-bQ/edit?usp=sharing"
+  img: 2026/ut-iot/4-loops.jpg
+  readings:
+  hw: 
+  logistics:
+
+- date: 4/6
+  week: 6
+  title: >
+    <strong>CHAPTER 05 함수와 클래스 만들기</strong>
+  slides: "https://docs.google.com/presentation/d/1u2Bh4C6oN0fkA9sntCZV5E61cKJ2J8ZtOnvu23JlEDc/edit?usp=sharing"
+  img: 2026/ut-iot/5-classes.jpg
+  readings:
+  hw: 
+  logistics:
+
+- date: 4/13
+  week: 7
+  title: >
+    <strong>CHAPTER 06 개발 보드와 실드 다루기</strong>
+  slides: "https://docs.google.com/presentation/d/1havsA0dADya6cxnEdvjTlM7xmyrpXlnu-rVrYyHDz34/edit?usp=sharing"
+  img: 2026/ut-iot/6-board.jpg
+  readings:
+  hw: 
+  logistics:
+
+- date: 4/20
+  week: 8
+  title: >
+    <strong>Midterm Test</strong><br>
+    <div>
+       <a style="display: none;" href="https://docs.google.com/presentation/d/1PsyaeW1YO1VKWV9ykgOSZaOK8oeg35aBVpjcHdbYkfI/edit?usp=sharing">스터디 가이드</a><br>
+       <a href="https://forms.gle/fjPvhmPtRuhudsLs7">중간고사 퀴즈</a><br>
+       <a href="https://docs.google.com/document/d/1MZUlrQj75lH8g-wSluTirqjp2Xc3KlmkO_OQgDNpLAs/edit?usp=drivesdk">중간고사 실기</a>
+    </div>
+
+- date: 4/27
+  week: 9
+  hidden: true
+  title: >
+    <strong>CHAPTER 07 개발 보드의 핀 다루기</strong>
+  slides: "https://docs.google.com/presentation/d/1majq27AYzVlRlEE_bglpWoIuuJvETRvVJUQF_itwvNc/edit?usp=sharing"
+  img2: 2026/ut-iot/8-pins.jpg
+  readings:
+  hw: 
+  logistics:
+
+- date: 5/4
+  week: 10
+  hidden: true
+  title: >
+    <strong>CHAPTER 08 인터럽트와 타이머 다루기</strong>
+  slides: "https://docs.google.com/presentation/d/1T2hDriiSWlalu5dHzwca2CmYHAlfdmgZsKbQZ7QOUoA/edit?usp=sharing"
+  img2: 2026/ut-iot/9-timer.jpg
+  readings:
+  hw: 
+  logistics:
+
+- date: 5/11
+  week: 11
+  hidden: true
+  title: >
+    <strong>CHAPTER 09 개발 보드에 부품 연결하기</strong>
+  slides: "https://docs.google.com/presentation/d/1XT8-xK29PIvxItaIXYOlJS2GYS4_Ob1AdjopNRwwWww/edit?usp=sharing"
+  img2: 2026/ut-iot/10-components.jpg
+  readings:
+  hw: 
+  logistics:
+
+- date: 5/18
+  week: 12
+  hidden: true
+  title: >
+    <strong>CHAPTER 10 MQTT 서버 만들기</strong>
+  slides: "https://docs.google.com/presentation/d/1iep0VKcQbW2oZEpK6MJCT4RMsDMsHBl1Jvbw90TcyvI/edit?usp=sharing"
+  img2: 2026/ut-iot/11-mqtt.jpg
+  readings:
+  hw: 
+  logistics:
+
+- date: >
+    <span style="color: red;">5/25</span>
+  week: 13
+  title: >
+    <span style="color: red"><strong>No Class</strong> Buddha's Bday</span>
+
+
+- date: 6/1
+  week: 14
+  hidden: true
+  title: <strong>CHAPTER 11 Node-Red 서버 만들고 활용하기</strong>
+  slides: "https://docs.google.com/presentation/d/1CRshi1slMQmaFFVSOnEkvS9ZmsRAfHCm6UKWMLqbc-4/edit?usp=sharing"
+  img2: 2026/ut-iot/12-node-red.jpg
+  readings:
+  hw: 
+  logistics:
+
+- date: 6/8
+  week: 15
+  hidden: true
+  title: <strong>CHAPTER 12 센서 데이터 모니터링하기</strong>
+  slides: "https://docs.google.com/presentation/d/11D8k0Jp9DcidxvBP1lSPN53Irq_mk2pnI1LD8y3r_F8/edit?usp=sharing"
+  img2: 2026/ut-iot/13-sensors.jpg
+  readings:
+  hw: 
+  logistics:
+
+- date: >
+    <span style="color: red">6/11 (LMS 보강)</span>
+  week: 16
+  hidden: true
+  title: >
+    <strong>CHAPTER 13 전등 제어와 경보 시스템 구성하기</strong>
+  slides: "https://docs.google.com/presentation/d/1Sl0ia9jA6wq81gDr5vWpyOpCl4b2n2X7x-EUnAxwPqE/edit?usp=sharing"
+  img2: 2026/ut-iot/14-alarms.jpg
+  readings:
+  hw: 
+  logistics:
+
+- date: 6/15
+  week: 16
+  title: >
+    <strong>Final Test</strong><br>
+    <div style="display: none;">
+      <a href="#">기말퀴즈</a>
+      <a href="#">스터디 가이드</a>
+    </div>

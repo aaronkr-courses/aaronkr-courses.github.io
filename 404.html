@@ -1,9 +1,22 @@
 ---
-layout: page
+layout: default
+title: Page Not Found
 permalink: /404.html
-title: "Page not found"
-description: "Looks like there has been a mistake. Nothing exists here."
-redirect: true
 ---
 
-<p>You will be redirected to the main page within 3 seconds. If not redirected, please go back to the <a href="{{ site.baseurl }}/">home page</a>.</p>
+<div class="wrap" style="text-align:center;padding:80px 0 120px;">
+  <div style="font-family:'IBM Plex Mono',monospace;font-size:5rem;font-weight:500;color:var(--accent);line-height:1;">404</div>
+  <h1 style="margin:16px 0 12px;">Page <em>Not Found</em></h1>
+  <p style="color:var(--muted);max-width:420px;margin:0 auto 32px;">
+    <span class="lang-en">That page doesn't exist. It may have moved, or the URL might be wrong.</span>
+    <span class="lang-ko">해당 페이지를 찾을 수 없습니다. 이동되었거나 URL이 잘못되었을 수 있습니다.</span>
+  </p>
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+    <a href="{{ '/' | relative_url }}" class="ql-btn" style="text-decoration:none;">
+      ← <span class="lang-en">Back to Courses</span><span class="lang-ko">강좌 목록으로</span>
+    </a>
+    <a href="{{ '/archive/' | relative_url }}" class="ql-btn" style="text-decoration:none;">
+      <span class="lang-en">Course Archive</span><span class="lang-ko">강좌 아카이브</span>
+    </a>
+  </div>
+</div>

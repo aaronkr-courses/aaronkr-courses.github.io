@@ -1,0 +1,156 @@
+- date: 9/4
+  week: 1
+  title: >
+    - 과정 소개 <br />
+    - 1장 웹사이트를 해킹하다
+  slides: "https://docs.google.com/presentation/d/1EurJuMaQVRj8MvTei6whxYdhG4-jgUzBNALNItr1dh0/edit?usp=sharing"
+  readings: >
+    웹 개발자를 위한 웹 보안, <br>
+    <strong>1장 pp. 6-29</strong>
+  logistics:
+
+- date: 9/11
+  week: 2
+  title: >
+    - 2장 인터넷 작동 방식
+  slides: "https://docs.google.com/presentation/d/1ZfXCRp8I9h6aS6FBCTm3Do6GxtHFwg88MA7DaoSbMq8/edit?usp=sharing"
+  readings: >
+    웹 개발자를 위한 웹 보안, <br>
+    <strong>2장 pp. 35-44</strong>
+  logistics:
+
+- date: 9/18
+  week: 3
+  title: >
+    - 3장 브라우저 작동 방식
+  slides: "https://docs.google.com/presentation/d/1D8kJ3x9a5HLWBDp7IocCMeeudOBnsRxi8_aN4ExtTss/edit?usp=sharing"
+  readings: >
+    웹 개발자를 위한 웹 보안, <br>
+    <strong>3장 pp. 45-52</strong>
+  logistics: >
+    <a href="https://classroom.github.com/a/vidC-btC">3주차 코딩: Node 웹서버 실습</a>
+
+- date: 9/25
+  week: 4
+  title: >
+    - 4장 웹 서버 작동 방식
+  slides: "https://docs.google.com/presentation/d/16WBPHmdOJGnB9nWbZxW215Qa1H2xbYjF41hFl-UapmY/edit?usp=sharing"
+  readings: >
+    웹 개발자를 위한 웹 보안, <br>
+    <strong>4장 pp. 53-67</strong>
+  logistics: >
+    <a href="https://classroom.github.com/a/V72aMUCJ">4주차 코딩: 풀 웹 앱 실습</a>
+
+- date: 10/2
+  week: 5
+  title: >
+    <strong>No School</strong> Chuseok
+
+- date: 10/9
+  week: 6
+  title: >
+    <strong>No School</strong> Hangul Day
+
+- date: 10/16
+  week: 7
+  title: >
+    - 5장 프로그래머 작동 방식
+  slides: "https://docs.google.com/presentation/d/1CGI8WL-ofDaC1x9X2YNcF1rnX55dRMn-rYssPi9MgwM/edit?usp=sharing"
+  readings: >
+    웹 개발자를 위한 웹 보안, <br>
+    <strong>5장 pp. 69-82</strong>
+  logistics: >
+    <a href="https://classroom.github.com/a/KdH-dZHA">7주차 코딩: Express 웹 앱</a>
+
+- date: 10/23
+  week: 8
+  title: >
+    <strong>Midterm Test</strong>
+  logistics: >
+    <a href="https://forms.gle/jVQDAKLPoX9Punze8">퀴즈</a><br>
+    <a href="https://classroom.github.com/a/Li_CD40-">리포트 양식</a>
+
+- date: 10/30
+  week: 9
+  title: >
+    <strong>No School</strong> DJU BDay
+
+- date: 11/6
+  week: 10
+  title: >
+    - 6장 인젝션 공격 <br />
+    - 7장 크로스 사이트 스크립팅 공격
+  slides: "https://docs.google.com/presentation/d/1Q7EUBIjwoXgo6moMw3uFuzt2E-zS0IEFuaIH7ne2nUU/edit?usp=sharing"
+  readings: >
+    웹 개발자를 위한 웹 보안, <br>
+    <strong>6-7장 pp. 85-116</strong>
+  logistics:
+
+- date: 11/13
+  week: 11
+  title: >
+    - 8장 사이트 간 요청 위조 공격 <br />
+    - 9장 인증 손상
+  slides: "https://docs.google.com/presentation/d/1fhPv3T9w0D0gpgnYMe3DVZmi3woRG-gtha5RgBUeth8/edit?usp=sharing"
+  readings: >
+    웹 개발자를 위한 웹 보안, <br>
+    <strong>8-9장 pp. 117-139</strong>
+  logistics:
+
+- date: 11/20
+  week: 12
+  title: >
+    - 10장 세션 하이재킹 <br />
+    - 11장 권한
+  slides: "https://docs.google.com/presentation/d/1JncntGVT-h7u9BNwcpGkoZe_7J1cBfdkXGLuezuGyiI/edit?usp=sharing"
+  readings: >
+    웹 개발자를 위한 웹 보안, <br>
+    <strong>10-11장 pp. 141-165</strong>
+  logistics:
+
+- date: 11/27
+  week: 13
+  title: >
+    - 12장 정보 누출<br>
+    - 13장 암호화
+  slides: "https://docs.google.com/presentation/d/1Me3ujrSQRUtfLFWYRXE2SRBWKWrIxnZPCw_pwZzjK9Y/edit?usp=sharing"
+  readings: >
+    웹 개발자를 위한 웹 보안, <br>
+    <strong>12-13장 pp. 167-188</strong>
+  logistics:
+
+- date: 12/4
+  week: 14
+  title: >
+    - 14장 서드 파티<br>
+    - 15장 XML 공격
+  slides: "https://docs.google.com/presentation/d/1ClASql_ujDWzpr4ZCbnGduTNiFzA-7AkqkYXWmY1_KA/edit?usp=sharing"
+  readings: >
+    웹 개발자를 위한 웹 보안, <br>
+    <strong>14-15장 pp. 191-218</strong>
+  logistics:
+
+- date: 12/11
+  week: 15
+  title: >
+    - 16장 부속품이 되지 마라 <br />
+    - 17장 서비스 거부 공격
+  slides: "https://docs.google.com/presentation/d/1QHAKMWRmkkuE_LyDRHReDDzOX4TM3xVp3JknR3TmhWI/edit?usp=sharing"
+  readings: >
+    웹 개발자를 위한 웹 보안, <br>
+    <strong>16-17장 pp. 219-237</strong>
+  logistics: >
+    <a href="https://codepen.io/collection/aMQPza">실습 코드</a>
+
+- date: 12/18
+  week: 16
+  title: >
+    <strong>Final Test</strong>
+  logistics: >
+    <a href="https://forms.gle/6KySzW2y8mr3YeSF9">퀴즈</a><br>
+    <a href="https://forms.gle/FaN6KeaU8vSXfjFs6">발표 PPT 제출</a>
+
+- date: 12/22
+  week: 17
+  title: >
+    <strong>Final Grades</strong>

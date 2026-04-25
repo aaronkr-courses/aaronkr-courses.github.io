@@ -1,0 +1,210 @@
+---
+layout: default
+---
+<div class="wrap">
+
+  {%- assign info = page.information | first -%}
+
+  {%- assign _page_logo = page.logo -%}
+  {%- for _u in site.data.universities -%}
+    {%- if _u.abbr == page.uni -%}{%- assign _page_logo = _u.logo -%}{%- endif -%}
+  {%- endfor -%}
+  <div class="course-hero">
+    {%- if _page_logo -%}
+    <div class="course-uni-logo">
+      <img src="{{ _page_logo }}" alt="{{ page.description | split: ' • ' | last }}" />
+    </div>
+    {%- endif -%}
+    <div class="course-badges animate d1">
+      <span class="c-badge code">{{ info.section | default: page.section }}</span>
+      <span class="c-badge sem">{{ page.category | replace: '-', ' ' }}</span>
+      <span class="c-badge uni">{{ page.description | split: ' • ' | last }}</span>
+    </div>
+    <h1 class="animate d2">{{ page.title }}</h1>
+    {% if page.subtitle %}<div class="course-subtitle animate d2">{{ page.subtitle }}</div>{% endif %}
+
+    {%- if page.information.size > 1 -%}
+    <div class="stats-strip animate d3" style="grid-template-columns:repeat({{ page.information.size | times: 3 | at_most: 6 }},1fr);">
+      {%- for section in page.information -%}
+      <div class="strip-item"><span class="strip-label"><span class="lang-en">Section</span><span class="lang-ko">분반</span></span><span class="strip-value">{{ section.section }}</span></div>
+      <div class="strip-item"><span class="strip-label"><span class="lang-en">Time</span><span class="lang-ko">수업 시간</span></span><span class="strip-value">{{ section.time }}</span></div>
+      <div class="strip-item"><span class="strip-label"><span class="lang-en">Room</span><span class="lang-ko">강의실</span></span><span class="strip-value">{{ section.location }}</span></div>
+      {%- endfor -%}
+    </div>
+    {%- elsif info -%}
+    <div class="stats-strip animate d3">
+      <div class="strip-item"><span class="strip-label"><span class="lang-en">Section</span><span class="lang-ko">분반</span></span><span class="strip-value">{{ info.section }}</span></div>
+      <div class="strip-item"><span class="strip-label"><span class="lang-en">Time</span><span class="lang-ko">수업 시간</span></span><span class="strip-value">{{ info.time }}</span></div>
+      <div class="strip-item"><span class="strip-label"><span class="lang-en">Room</span><span class="lang-ko">강의실</span></span><span class="strip-value">{{ info.location }}</span></div>
+      <div class="strip-item"><span class="strip-label"><span class="lang-en">Year</span><span class="lang-ko">연도</span></span><span class="strip-value">{{ page.category | split: '-' | first }}</span></div>
+    </div>
+    {%- endif -%}
+
+    <div class="quick-links animate d3">
+      {%- for section in page.information -%}
+        {%- if section.kakaotalk -%}
+        <a href="{{ section.kakaotalk }}" class="ql-btn kakao" target="_blank">
+          💬 <span class="txt">KakaoTalk{% if page.information.size > 1 %} ({{ section.section }}){% endif %}</span>
+        </a>
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if page.github -%}
+      <a href="{{ page.github }}" class="ql-btn gh" target="_blank">💻 <span class="txt">GitHub Classroom</span></a>
+      {%- endif -%}
+      {%- if page.classroom -%}
+      <a href="{{ page.classroom }}" class="ql-btn" target="_blank">📖 <span class="txt">Google Classroom</span></a>
+      {%- endif -%}
+    </div>
+  </div><!-- /.course-hero -->
+
+  <div class="page-layout">
+    <aside class="sidebar">
+      <ul class="sidebar-nav">
+        <li><a href="#grading"><span class="lang-en">Grading</span><span class="lang-ko">성적 평가</span></a></li>
+        <li><a href="#schedule"><span class="lang-en">Schedule</span><span class="lang-ko">강의 일정</span></a></li>
+        <li><a href="#overview"><span class="lang-en">Overview</span><span class="lang-ko">과목 소개</span></a></li>
+        <li><a href="#textbooks"><span class="lang-en">Textbooks</span><span class="lang-ko">교재</span></a></li>
+        <li><a href="#instructor"><span class="lang-en">Instructor</span><span class="lang-ko">강사 소개</span></a></li>
+      </ul>
+    </aside>
+
+    <main>
+
+      <!-- ── Grading ──────────────────────────────────────────────────────── -->
+      <div class="crs-section" id="grading">
+        <div class="crs-heading"><span class="crs-label"><span class="lang-en">Grading</span><span class="lang-ko">성적 평가</span></span><span class="crs-line"></span></div>
+
+        {%- if page.grading -%}
+        {%- assign g = page.grading -%}
+
+        {%- comment -%} 상대평가 badge — default to relative grading {%- endcomment -%}
+        <div class="grading-type">
+          {%- if page.grading_type == 'absolute' -%}
+          <span class="gs-badge absolute-grading"><span class="lang-en">Absolute Grading</span><span class="lang-ko">절대평가</span></span>
+          <span class="gs-desc"><span class="lang-en">Final grade based on fixed percentage cutoffs.</span><span class="lang-ko">고정 비율 기준으로 최종 성적 산출.</span></span>
+          {%- else -%}
+          <span class="gs-badge relative-grading"><span class="lang-en">Relative Grading</span><span class="lang-ko">상대평가</span></span>
+          <span class="gs-desc"><span class="lang-en">Grade distribution set by university policy.</span><span class="lang-ko">대학교 정책에 따라 성적 분포 결정.</span></span>
+          {%- endif -%}
+        </div>
+
+        <div class="grade-track">
+          {%- if g.attendance -%}
+          <div class="grade-seg" style="flex:{{ g.attendance }};background:#4a5568;">
+            <span class="grade-pct">{{ g.attendance }}%</span><span class="grade-name"><span class="lang-en">Attend.</span><span class="lang-ko">출석</span></span>
+          </div>
+          {%- endif -%}
+          {%- if g.homework -%}
+          <div class="grade-seg" style="flex:{{ g.homework }};background:#7c3aff;">
+            <span class="grade-pct">{{ g.homework }}%</span><span class="grade-name"><span class="lang-en">HW</span><span class="lang-ko">과제</span></span>
+          </div>
+          {%- endif -%}
+          {%- if g.quiz -%}
+          <div class="grade-seg" style="flex:{{ g.quiz }};background:#9b65ff;">
+            <span class="grade-pct">{{ g.quiz }}%</span><span class="grade-name"><span class="lang-en">Quiz</span><span class="lang-ko">퀴즈</span></span>
+          </div>
+          {%- endif -%}
+          {%- if g.midterm -%}
+          <div class="grade-seg" style="flex:{{ g.midterm }};background:#2563eb;">
+            <span class="grade-pct">{{ g.midterm }}%</span><span class="grade-name"><span class="lang-en">Mid.</span><span class="lang-ko">중간</span></span>
+          </div>
+          {%- endif -%}
+          {%- if g.final -%}
+          <div class="grade-seg" style="flex:{{ g.final }};background:#0e6490;">
+            <span class="grade-pct">{{ g.final }}%</span><span class="grade-name"><span class="lang-en">Final</span><span class="lang-ko">기말</span></span>
+          </div>
+          {%- endif -%}
+          {%- if g.project -%}
+          <div class="grade-seg" style="flex:{{ g.project }};background:#b45309;">
+            <span class="grade-pct">{{ g.project }}%</span><span class="grade-name"><span class="lang-en">Proj.</span><span class="lang-ko">프로젝트</span></span>
+          </div>
+          {%- endif -%}
+        </div>
+        <div class="grade-legend">
+          {%- if g.attendance -%}<span class="gl-item"><span class="gl-dot" style="background:#4a5568;"></span>{{ g.attendance }}% <span class="lang-en">Attendance</span><span class="lang-ko">출석</span></span>{%- endif -%}
+          {%- if g.homework -%}<span class="gl-item"><span class="gl-dot" style="background:#7c3aff;"></span>{{ g.homework }}% <span class="lang-en">Homework</span><span class="lang-ko">과제</span></span>{%- endif -%}
+          {%- if g.quiz -%}<span class="gl-item"><span class="gl-dot" style="background:#9b65ff;"></span>{{ g.quiz }}% <span class="lang-en">Quiz</span><span class="lang-ko">퀴즈</span></span>{%- endif -%}
+          {%- if g.midterm -%}<span class="gl-item"><span class="gl-dot" style="background:#2563eb;"></span>{{ g.midterm }}% <span class="lang-en">Midterm</span><span class="lang-ko">중간고사</span></span>{%- endif -%}
+          {%- if g.final -%}<span class="gl-item"><span class="gl-dot" style="background:#0e6490;"></span>{{ g.final }}% <span class="lang-en">Final</span><span class="lang-ko">기말고사</span></span>{%- endif -%}
+          {%- if g.project -%}<span class="gl-item"><span class="gl-dot" style="background:#b45309;"></span>{{ g.project }}% <span class="lang-en">Project</span><span class="lang-ko">프로젝트</span></span>{%- endif -%}
+        </div>
+        {%- endif -%}
+      </div>
+
+      <!-- ── Schedule ─────────────────────────────────────────────────────── -->
+      <div class="crs-section" id="schedule">
+        <div class="crs-heading"><span class="crs-label"><span class="lang-en">Schedule</span><span class="lang-ko">강의 일정</span></span><span class="crs-line"></span></div>
+        {%- if page.data_file -%}
+          {% include schedule.html data_file=page.data_file %}
+        {%- elsif page.external_url -%}
+          <p style="color:var(--muted);font-family:'IBM Plex Mono',monospace;font-size:.8rem;">
+            Schedule available on the <a href="{{ page.external_url }}" target="_blank" style="color:var(--accent2);">course site →</a>
+          </p>
+        {%- else -%}
+          <p style="color:var(--muted);font-family:'IBM Plex Mono',monospace;font-size:.8rem;">Schedule coming soon.</p>
+        {%- endif -%}
+      </div>
+
+      <!-- ── Overview ─────────────────────────────────────────────────────── -->
+      <div class="crs-section" id="overview">
+        <div class="crs-heading"><span class="crs-label"><span class="lang-en">Overview</span><span class="lang-ko">과목 소개</span></span><span class="crs-line"></span></div>
+
+        {%- comment -%} Prerequisites stub — populate page.prereqs: list in front matter {%- endcomment -%}
+        {%- assign prereqs = page.prereqs -%}
+        {%- unless prereqs -%}
+          {%- comment -%} Infer default prereq from subject {%- endcomment -%}
+          {%- assign _tl = page.title | downcase -%}
+          {%- if _tl contains 'c++' -%}
+            {%- assign _prereq_default = 'Basic C programming; data structures recommended' -%}
+            {%- assign _prereq_ko = '기초 C 프로그래밍; 자료구조 권장' -%}
+          {%- elsif _tl contains 'database' or _tl contains 'sql' -%}
+            {%- assign _prereq_default = 'Introduction to Programming' -%}
+            {%- assign _prereq_ko = '프로그래밍 기초' -%}
+          {%- elsif _tl contains 'machine learning' or _tl contains 'deep learning' -%}
+            {%- assign _prereq_default = 'Python programming; linear algebra; basic statistics' -%}
+            {%- assign _prereq_ko = '파이썬 프로그래밍; 선형대수; 기초 통계' -%}
+          {%- elsif _tl contains 'web' or _tl contains 'node' or _tl contains 'php' -%}
+            {%- assign _prereq_default = 'HTML/CSS basics; introductory programming' -%}
+            {%- assign _prereq_ko = 'HTML/CSS 기초; 프로그래밍 입문' -%}
+          {%- else -%}
+            {%- assign _prereq_default = 'No formal prerequisites. Curiosity required.' -%}
+            {%- assign _prereq_ko = '공식 선수 과목 없음. 호기심 필수.' -%}
+          {%- endif -%}
+        {%- endunless -%}
+
+        <div class="prereq-box">
+          <span class="prereq-label"><span class="lang-en">Prerequisites</span><span class="lang-ko">선수 과목</span></span>
+          <ul class="prereq-list">
+            {%- if prereqs -%}
+              {%- for pr in prereqs -%}
+              <li>{{ pr.en }}<span class="prereq-kr">{{ pr.ko }}</span></li>
+              {%- endfor -%}
+            {%- else -%}
+            <li>
+              <span class="lang-en">{{ _prereq_default }}</span>
+              <span class="lang-ko">{{ _prereq_ko }}</span>
+            </li>
+            {%- endif -%}
+          </ul>
+        </div>
+
+        <div class="overview-text dropcap">
+          {{ content }}
+        </div>
+      </div>
+
+      <!-- ── Textbooks ─────────────────────────────────────────────────────── -->
+      <div class="crs-section" id="textbooks">
+        <div class="crs-heading"><span class="crs-label"><span class="lang-en">Textbooks</span><span class="lang-ko">교재</span></span><span class="crs-line"></span></div>
+        {% include textbooks.html %}
+      </div>
+
+      <!-- ── Instructor ─────────────────────────────────────────────────────── -->
+      <div class="crs-section" id="instructor">
+        <div class="crs-heading"><span class="crs-label"><span class="lang-en">Instructor</span><span class="lang-ko">강사 소개</span></span><span class="crs-line"></span></div>
+        {% include about_aaron.html %}
+      </div>
+
+    </main>
+  </div><!-- /.page-layout -->
+</div><!-- /.wrap -->

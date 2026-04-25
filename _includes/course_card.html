@@ -1,0 +1,66 @@
+{% comment %}
+  Renders a course card for the home/archive page.
+  Usage: {% include course_card.html course=course %}
+  OR inside a for loop with 'course' variable.
+{% endcomment %}
+
+{%- assign c = include.course | default: course -%}
+{%- assign uni_parts = c.description | split: ' • ' -%}
+{%- assign uni_name = uni_parts | last -%}
+{%- assign uni_init = c.init | upcase -%}
+
+{%- comment -%} Infer subject tag from title/description {%- endcomment -%}
+{%- assign _tl = c.title | downcase -%}
+{%- if _tl contains 'machine learning' or _tl contains 'deep learning' or _tl contains 'ai ' or _tl contains 'artificial' -%}
+  {%- assign _tag_class = 'ai-tag' -%}{%- assign _tag_label = 'AI/ML' -%}
+{%- elsif _tl contains 'database' or _tl contains 'sql' or _tl contains 'data struct' -%}
+  {%- assign _tag_class = 'data' -%}{%- assign _tag_label = 'Data' -%}
+{%- elsif _tl contains 'web' or _tl contains 'php' or _tl contains 'node' or _tl contains 'html' or _tl contains 'jsp' -%}
+  {%- assign _tag_class = 'web' -%}{%- assign _tag_label = 'Web' -%}
+{%- elsif _tl contains 'python' or _tl contains 'java' or _tl contains 'c++' or _tl contains 'scratch' or _tl contains 'programming' -%}
+  {%- assign _tag_class = 'theory' -%}{%- assign _tag_label = 'Programming' -%}
+{%- elsif _tl contains 'iot' or _tl contains 'circuit' or _tl contains 'device' or _tl contains 'semiconductor' or _tl contains 'medical' -%}
+  {%- assign _tag_class = 'systems' -%}{%- assign _tag_label = 'Systems' -%}
+{%- elsif _tl contains 'electric' or _tl contains 'power' or _tl contains 'hydrogen' -%}
+  {%- assign _tag_class = 'ee' -%}{%- assign _tag_label = 'EE' -%}
+{%- else -%}
+  {%- assign _tag_class = 'theory' -%}{%- assign _tag_label = 'CS' -%}
+{%- endif -%}
+
+<a class="card" href="{{ c.url | relative_url }}">
+  <div class="card-inner">
+    {%- if c.img -%}
+    <div class="card-thumb" style="background-image:url('{{ c.img | relative_url }}')"></div>
+    {%- endif -%}
+    <div class="card-body">
+      <div class="card-code">
+        {%- if uni_init != '' -%}<span class="uni-init-tag">{{ uni_init }}</span>{%- endif -%}
+        {{ c.description | split: ' • ' | first }}
+      </div>
+      <div class="card-title">{{ c.title }}</div>
+      {%- if c.subtitle -%}
+      <div class="card-subtitle">{{ c.subtitle }}</div>
+      {%- endif -%}
+      <div class="card-tags">
+        <span class="tag {{ _tag_class }}">{{ _tag_label }}</span>
+        {%- if c.now -%}<span class="tag systems">● Active</span>{%- endif -%}
+      </div>
+      <div class="card-footer">
+        <div class="card-meta">
+          <span>{{ uni_name }}</span>
+          <span>{{ c.category | replace: '-', ' ' }}</span>
+        </div>
+        <span class="card-arrow">→</span>
+      </div>
+    </div>
+  </div><!-- .card-inner -->
+  {%- assign _c_logo = c.logo -%}
+  {%- for _u in site.data.universities -%}
+    {%- if _u.abbr == c.uni -%}{%- assign _c_logo = _u.logo -%}{%- endif -%}
+  {%- endfor -%}
+  {%- if _c_logo -%}
+  <div class="uni-badge">
+    <img src="{{ _c_logo }}" class="ub-abbr" />
+  </div>
+  {%- endif -%}
+</a>

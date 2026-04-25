@@ -1,0 +1,145 @@
+- date: 3/3
+  week: 1
+  title: >
+    <strong>수업 소개 / Overview and Introduction to Class</strong>
+  slides: "https://github.com/ut-nodejs/ut-nodejs.github.io/raw/master/slides/_0-NodeJS-수업-소개.pdf"
+  readings:
+
+- date: 3/10
+  week: 2
+  title: >
+    <strong>깃허브 클래스룸과 웹프로그래밍 복습 / GitHub Classroom & Web Programming Review</strong>
+  slides: "https://github.com/ut-nodejs/ut-nodejs.github.io/raw/master/slides/_2.%20웹%20프로그래밍%20복습.pdf"
+  readings: "Get Programming with Node.js, pp. 25-33 / pp. 47-57 / pp. 59-68"
+  logistics: >
+    <a href="https://classroom.github.com/a/ufXcgZ68">2주차 과제 (AM)</a> /
+    <a href="https://classroom.github.com/a/YeQuxwK6">2주차 과제 (PM)</a>
+
+- date: 3/17
+  week: 3
+  title: >
+    <strong>Unit 1: 노드 웹서버 첫 걸음 / Node Webserver First Steps</strong> <br />
+    - Lessons 3-6: Node.js 모듈, 웹서버, 수신 데이터, 라우트
+  slides: "https://github.com/ut-nodejs/ut-nodejs.github.io/raw/master/slides/1.%20Node.js의%20시작.pdf"
+  readings: "Get Programming with Node.js, pp. 37-46 / pp. 67-116"
+  logistics: >
+    <a href="https://classroom.github.com/a/poWHzDMH">3주차 과제 (AM)</a> /
+    <a href="https://classroom.github.com/a/Fyol0_-I">3주차 과제 (PM)</a>
+
+- date: 3/24
+  week: 4
+  title: >
+    <strong>Unit 1-7: 캡스톤1 — 첫 웹 앱 / Capstone 1: First Web App</strong>
+  slides: "https://github.com/ut-nodejs/ut-nodejs.github.io/raw/master/slides/1-7.%20캡스톤1%20-%20첫%20웹%20애플리케이션.pdf"
+  readings: "Get Programming with Node.js, pp. 101-129"
+  logistics: >
+    <a href="https://classroom.github.com/a/TJpdR0C3">4주차 과제 (AM)</a> /
+    <a href="https://classroom.github.com/a/F4nLnLQw">4주차 과제 (PM)</a>
+
+- date: 3/31
+  week: 5
+  title: >
+    <strong>캡스톤1: 연속 (부트스트랩 포함) / Capstone 1: Continued (with Bootstrap)</strong>
+  slides: "https://github.com/ut-nodejs/ut-nodejs.github.io/raw/master/slides/1-7b.%20캡스톤1%20-%20부트스트랩%20보충.pdf"
+  readings: "Get Programming with Node.js, pp. 117-129"
+
+- date: 4/7
+  week: 6
+  title: >
+    <strong>Unit 2: Express.js를 통한 웹 개발 / Web Development with Express.js</strong> <br />
+    - Lessons 8-11: Express.js 설정, 라우트, 뷰, 에러 처리
+  slides: "https://github.com/ut-nodejs/ut-nodejs.github.io/raw/master/slides/2.8-11-express-web-development.pdf"
+  readings: "Get Programming with Node.js, pp. 133-171"
+  logistics: >
+    <a href="https://classroom.github.com/a/rmcCIOLs">6주차 과제 (AM)</a> /
+    <a href="https://classroom.github.com/a/PS97F3y2">6주차 과제 (PM)</a>
+
+- date: 4/14
+  week: 7
+  title: >
+    <strong>Unit 3: MongoDB 연결 / Connecting to MongoDB</strong> <br />
+    - Lessons 13-15: MongoDB 셋업, Mongoose 모델, 컨트롤러
+  slides: "https://github.com/ut-nodejs/ut-nodejs.github.io/raw/master/slides/3.13-15-connecting-mongodb.pdf"
+  readings: "Get Programming with Node.js, pp. 189-226"
+  logistics: >
+    <a href="https://classroom.github.com/a/WlIOQuYe">7주차 과제 (AM)</a> /
+    <a href="https://classroom.github.com/a/HW6fxILP">7주차 과제 (PM)</a>
+
+- date: 4/21
+  week: 8
+  title: >
+    <strong>Midterm Test</strong> — 캡스톤2: Express 실기 시험
+  slides: "https://github.com/ut-nodejs/ut-nodejs.github.io/raw/master/slides/2.12-express-capstone.pdf"
+  readings: "Get Programming with Node.js, pp. 175-188 (Lesson 12: Capstone)"
+  logistics: >
+    중간고사 — 퀴즈 + 실기 (15%)
+
+- date: 4/28
+  week: 9
+  title: >
+    <strong>Unit 3: MongoDB 계속하기 + 캡스톤3 / Continuing MongoDB + Capstone 3</strong> <br />
+    - Lesson 16: 사용자 구독 저장
+  slides: "https://github.com/ut-nodejs/ut-nodejs.github.io/raw/master/slides/3.16-mongo-capstone.pdf"
+  readings: "Get Programming with Node.js, pp. 189-235"
+  logistics: >
+    <a href="https://classroom.github.com/a/v0fVqeZI">9주차 과제 (AM)</a> /
+    <a href="https://classroom.github.com/a/wX75l5Lj">9주차 과제 (PM)</a>
+
+- date: 5/5
+  week: 10
+  title: >
+    <strong>No School</strong> — 어린이날
+
+- date: 5/12
+  week: 11
+  title: >
+    <strong>Unit 4: 사용자 데이터 모델 / Building a User Model</strong> <br />
+    - Lessons 17-18: 데이터 모델 개선, 사용자 모델 구현
+  slides: "https://github.com/ut-nodejs/ut-nodejs.github.io/raw/master/slides/4.17-building-user-model.pdf"
+  readings: "Get Programming with Node.js, pp. 239-273"
+  logistics: >
+    <a href="https://classroom.github.com/a/is-vbBM_">10주차 과제 (AM)</a> /
+    <a href="https://classroom.github.com/a/Q0S0uHH3">10주차 과제 (PM)</a>
+
+- date: 5/19
+  week: 12
+  title: >
+    <strong>Unit 4: 캡스톤4 — CRUD 작업 / Capstone 4: CRUD Operations</strong> <br />
+    - Lessons 19-20: 모델 생성·읽기·업데이트·삭제
+  slides: "https://github.com/ut-nodejs/ut-nodejs.github.io/raw/master/slides/4.21-crud-capstone.pdf"
+  readings: "Get Programming with Node.js, pp. 275-300"
+
+- date: 5/26
+  week: 13
+  title: >
+    <strong>Unit 5: 플래시 메시지와 패스워드 해싱 / Flash Messaging & Password Hashing</strong> <br />
+    - Lessons 22-23: 세션·플래시 메시지, 로그인 폼·bcrypt
+  slides: "https://github.com/ut-nodejs/ut-nodejs.github.io/raw/master/slides/5.22-flash-and-hash.pdf"
+  readings: "Get Programming with Node.js, pp. 323-348"
+  logistics: >
+    <a href="https://classroom.github.com/a/1ricAk9U">12주차 과제 (AM)</a> /
+    <a href="https://classroom.github.com/a/EBkUHdy7">12주차 과제 (PM)</a>
+
+- date: 6/2
+  week: 14
+  title: >
+    <strong>Unit 5: 캡스톤5 — 사용자 인증 / Capstone 5: Adding User Authentication</strong> <br />
+    - Lessons 24-25: Passport.js 인증
+  slides: "https://github.com/ut-nodejs/ut-nodejs.github.io/raw/master/slides/5.22-flash-and-hash-and-passport.pdf"
+  readings: "Get Programming with Node.js, pp. 349-374"
+
+- date: 6/9
+  week: 15
+  title: >
+    <strong>Unit 6: API 추가 / Adding an API (+ Capstone 6)</strong>
+  logistics: >
+    <a href="https://classroom.github.com/a/BKktPWLV">14주차 과제 (AM)</a> /
+    <a href="https://classroom.github.com/a/CLT4LCO_">14주차 과제 (PM)</a>
+
+- date: 6/16
+  week: 16
+  title: >
+    <strong>Final Test</strong> — 최종 프로젝트 + 기말고사
+  logistics: >
+    기말고사 — 퀴즈 + 실기 (20%)<br>
+    최종 프로젝트 제출 (25%)

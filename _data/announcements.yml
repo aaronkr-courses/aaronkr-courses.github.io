@@ -1,0 +1,22 @@
+# Announcements shown on the homepage.
+# Remove or comment out entries when no longer relevant.
+#
+# Fields:
+#   date:       YYYY-MM-DD
+#   type:       new | teal | info | warn | error  (dot color)
+#   title:      English title
+#   title_ko:   Korean title (optional)
+#   body:       English body text (optional)
+#   body_ko:    Korean body text (optional)
+#   url:        Link URL (optional, defaults to #)
+#   badge:      Badge label text (optional)
+#   badge_type: course | lab | admin  (badge color, defaults to admin)
+
+- date: 2026-04-24
+  type: new
+  title: "Site Redesign — Spring 2026"
+  title_ko: "사이트 개편 — 2026년 1학기"
+  body: "Welcome to the newly redesigned courses site, now built with Jekyll on GitHub Pages. Courses, schedules, and policies are updated for Spring 2026."
+  body_ko: "Jekyll 기반으로 새롭게 개편된 강좌 사이트에 오신 것을 환영합니다. 강좌, 강의 일정, 규정이 2026년 1학기에 맞게 업데이트되었습니다."
+  badge: "Spring 2026"
+  badge_type: admin

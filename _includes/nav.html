@@ -1,0 +1,107 @@
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="{{ '/' | relative_url }}">courses.aaron.kr</a>
+    <ul class="nav-links">
+      {%- for item in site.data.nav -%}
+        {%- if item.category -%}
+          {%- comment -%}Dynamic course dropdown — pulls from site.courses collection{%- endcomment -%}
+          <li class="has-dropdown" id="{{ item.dropdown_id }}">
+            <button>{{ item.title_en }} &#x25BE;</button>
+            <ul class="nav-dropdown">
+              <li><span class="dd-semester"><span class="lang-en">{{ item.semester_en }}</span><span class="lang-ko">{{ item.semester_ko }}</span></span></li>
+              {%- assign _dd_courses = site.courses | where: "category", item.category | sort: "importance" -%}
+              {%- for course in _dd_courses -%}
+              <li>
+                <a href="{{ course.url | relative_url }}">
+                  <span class="dd-code">{{ course.description | split: ' • ' | first }}</span>
+                  {{ course.title }}
+                </a>
+              </li>
+              {%- endfor -%}
+              <li class="dd-divider"></li>
+              <li class="dd-all"><a href="{{ item.footer_url | relative_url }}"><span class="lang-en">{{ item.footer_en }}</span><span class="lang-ko">{{ item.footer_ko }}</span> &#x2192;</a></li>
+            </ul>
+          </li>
+        {%- elsif item.items -%}
+          {%- comment -%}Static dropdown — items listed in nav.yml{%- endcomment -%}
+          <li class="has-dropdown" id="{{ item.dropdown_id }}">
+            <button><span class="lang-en">{{ item.title_en }}</span><span class="lang-ko">{{ item.title_ko }}</span> &#x25BE;</button>
+            <ul class="nav-dropdown">
+              {%- for sub in item.items -%}
+                {%- if sub.divider -%}
+                <li class="dd-divider"></li>
+                {%- else -%}
+                <li><a href="{{ sub.url | relative_url }}"><span class="lang-en">{{ sub.title_en }}</span><span class="lang-ko">{{ sub.title_ko }}</span></a></li>
+                {%- endif -%}
+              {%- endfor -%}
+              {%- if item.footer_url -%}
+              <li class="dd-divider"></li>
+              <li class="dd-all"><a href="{{ item.footer_url | relative_url }}"><span class="lang-en">{{ item.footer_en }}</span><span class="lang-ko">{{ item.footer_ko }}</span> &#x2192;</a></li>
+              {%- endif -%}
+            </ul>
+          </li>
+        {%- else -%}
+          {%- comment -%}Simple link — url_prefix: true uses contains match for active state{%- endcomment -%}
+          {%- if item.url_prefix -%}
+          <li><a href="{{ item.url | relative_url }}"{% if page.url contains item.url %} class="active-page"{% endif %}><span class="lang-en">{{ item.title_en }}</span><span class="lang-ko">{{ item.title_ko }}</span></a></li>
+          {%- else -%}
+          <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active-page"{% endif %}><span class="lang-en">{{ item.title_en }}</span><span class="lang-ko">{{ item.title_ko }}</span></a></li>
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+    <div class="nav-controls">
+      <button class="ctrl-btn theme-btn" aria-label="Toggle theme">🌙</button>
+      <button class="ctrl-btn lang-btn">한국어</button>
+      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile nav (mirrors desktop structure from nav.yml) -->
+  <div class="mobile-nav" id="mobile-nav">
+    {%- for item in site.data.nav -%}
+      {%- if item.category -%}
+        {%- assign _mob_id = item.dropdown_id | remove: "dd-" -%}
+        <button class="m-toggle" data-sub="m-{{ _mob_id }}-sub">
+          <span><span class="lang-en">{{ item.title_en }}</span><span class="lang-ko">{{ item.title_ko }}</span></span>
+          <span class="m-chevron">&#x25BE;</span>
+        </button>
+        <div class="mobile-sub" id="m-{{ _mob_id }}-sub">
+          {%- assign _m_courses = site.courses | where: "category", item.category | sort: "importance" -%}
+          {%- for course in _m_courses -%}
+          <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
+          {%- endfor -%}
+          <div class="dd-divider"></div>
+          <a href="{{ item.footer_url | relative_url }}"><span class="lang-en">{{ item.footer_en }}</span><span class="lang-ko">{{ item.footer_ko }}</span> &#x2192;</a>
+        </div>
+      {%- elsif item.items -%}
+        {%- assign _mob_id = item.dropdown_id | remove: "dd-" -%}
+        <button class="m-toggle" data-sub="m-{{ _mob_id }}-sub">
+          <span><span class="lang-en">{{ item.title_en }}</span><span class="lang-ko">{{ item.title_ko }}</span></span>
+          <span class="m-chevron">&#x25BE;</span>
+        </button>
+        <div class="mobile-sub" id="m-{{ _mob_id }}-sub">
+          {%- for sub in item.items -%}
+            {%- if sub.divider -%}
+            <div class="dd-divider"></div>
+            {%- else -%}
+            <a href="{{ sub.url | relative_url }}"><span class="lang-en">{{ sub.title_en }}</span><span class="lang-ko">{{ sub.title_ko }}</span></a>
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if item.footer_url -%}
+          <div class="dd-divider"></div>
+          <a href="{{ item.footer_url | relative_url }}"><span class="lang-en">{{ item.footer_en }}</span><span class="lang-ko">{{ item.footer_ko }}</span> &#x2192;</a>
+          {%- endif -%}
+        </div>
+      {%- else -%}
+        <a href="{{ item.url | relative_url }}"><span class="lang-en">{{ item.title_en }}</span><span class="lang-ko">{{ item.title_ko }}</span></a>
+      {%- endif -%}
+    {%- endfor -%}
+    <div class="mobile-controls">
+      <button class="ctrl-btn theme-btn" aria-label="Toggle theme">🌙</button>
+      <button class="ctrl-btn lang-btn">한국어</button>
+    </div>
+  </div>
+</nav>

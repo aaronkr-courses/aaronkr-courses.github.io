@@ -1,62 +1,113 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang }}">
-
-  <!-- Head -->
-  <head>
-  {%- if page.redirect -%}
-    <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
-  {%- endif -%}
+<html lang="{{ site.lang | default: 'en' }}" data-theme="dark">
+<head>
   {% include head.html %}
-  </head>
+  <script>
+  // Apply saved theme + language + waves state before first paint (prevents flash)
+  (function(){
+    var t = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', t);
+    if (localStorage.getItem('lang') === 'ko') document.documentElement.classList.add('ko');
+    if (localStorage.getItem('waves') !== 'on') document.documentElement.classList.add('waves-off');
+  })();
+  </script>
+</head>
+<body>
+  {% include nav.html %}
+  <div class="mobile-nav-backdrop" id="mobile-backdrop"></div>
 
-  <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  {{ content }}
 
-    <!-- Header -->
-    {%- include header.html %}
+  {% include footer.html %}
 
-    <!-- Content -->
-    <div class="container mt-5">
-      {% if page.toc and page.toc.sidebar %}
-        {% if page.toc.sidebar == "right" %}
-        <div class="row">
-          <!-- main content area -->
-          <div class="col-sm-9">
-            {{ content }}
-          </div>
-          <!-- sidebar, which will move to the top on a small screen -->
-          <div class="col-sm-3">
-            <nav id="toc-sidebar" class="sticky-top"></nav>
-          </div>
-        </div>
-        {% else %}
-        <div class="row">
-          <!-- sidebar, which will move to the top on a small screen -->
-          <div class="col-sm-3">
-            <nav id="toc-sidebar" class="sticky-top"></nav>
-          </div>
-          <!-- main content area -->
-          <div class="col-sm-9">
-            {{ content }}
-          </div>
-        </div>
-        {% endif %}
-      {% else %}
-        {{ content }}
-      {% endif %}
-    </div>
+  <script>
+  // ── Theme ──────────────────────────────────────────────────────────────────
+  function applyTheme(t) {
+    document.documentElement.setAttribute('data-theme', t);
+    document.querySelectorAll('.theme-btn').forEach(b => b.textContent = t === 'dark' ? '🌙' : '☀️');
+    localStorage.setItem('theme', t);
+  }
+  (() => applyTheme(localStorage.getItem('theme') || 'dark'))();
+  document.querySelectorAll('.theme-btn').forEach(b =>
+    b.addEventListener('click', () => applyTheme(
+      document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'
+    ))
+  );
 
-    <!-- Footer -->
-    {%- include footer.html %}
+  // ── Language toggle ────────────────────────────────────────────────────────
+  function applyLang(lang) {
+    document.documentElement.classList.toggle('ko', lang === 'ko');
+    document.querySelectorAll('.lang-btn').forEach(x => x.textContent = lang === 'en' ? '한국어' : 'English');
+    // Legacy data-en / data-ko attribute support
+    document.querySelectorAll('[data-en]').forEach(el => {
+      if (lang === 'ko' && el.dataset.ko) el.textContent = el.dataset.ko;
+      else el.textContent = el.dataset.en;
+    });
+    localStorage.setItem('lang', lang);
+  }
+  let _lang = localStorage.getItem('lang') || 'en';
+  applyLang(_lang);
+  document.querySelectorAll('.lang-btn').forEach(b => b.addEventListener('click', () => {
+    _lang = _lang === 'en' ? 'ko' : 'en';
+    applyLang(_lang);
+  }));
 
-    <!-- JavaScripts -->
-    {% include scripts/jquery.html %}
-    {% include scripts/bootstrap.html %}
-    {% include scripts/masonry.html %}
-    {% include scripts/misc.html %}
-    {% include scripts/badges.html %}
-    {% include scripts/mathjax.html %}
-    {% include scripts/analytics.html %}
-    {% include scripts/progressBar.html %}
-  </body>
+  // ── Waves toggle ──────────────────────────────────────────────────────────
+  function applyWaves(on) {
+    document.documentElement.classList.toggle('waves-off', !on);
+    document.querySelectorAll('.wave-btn').forEach(b => b.textContent = on ? '🌊' : '〰');
+    localStorage.setItem('waves', on ? 'on' : 'off');
+  }
+  (() => applyWaves(localStorage.getItem('waves') === 'on'))();
+  document.querySelectorAll('.wave-btn').forEach(b => b.addEventListener('click', () =>
+    applyWaves(document.documentElement.classList.contains('waves-off'))
+  ));
+
+  // ── Dropdowns (click only) ─────────────────────────────────────────────────
+  document.querySelectorAll('.has-dropdown').forEach(item => {
+    item.querySelector('button').addEventListener('click', e => {
+      e.stopPropagation();
+      const was = item.classList.contains('open');
+      document.querySelectorAll('.has-dropdown.open').forEach(d => d.classList.remove('open'));
+      if (!was) item.classList.add('open');
+    });
+  });
+  document.addEventListener('click', () =>
+    document.querySelectorAll('.has-dropdown.open').forEach(d => d.classList.remove('open'))
+  );
+
+  // ── Hamburger ──────────────────────────────────────────────────────────────
+  const _hb = document.getElementById('hamburger');
+  const _mn = document.getElementById('mobile-nav');
+  const _bd = document.getElementById('mobile-backdrop');
+  if (_hb && _mn) {
+    function _closeMenu() {
+      _mn.classList.remove('open');
+      _hb.classList.remove('open');
+      _hb.setAttribute('aria-expanded', false);
+      if (_bd) _bd.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    _hb.addEventListener('click', () => {
+      const o = _mn.classList.toggle('open');
+      _hb.classList.toggle('open', o);
+      _hb.setAttribute('aria-expanded', o);
+      if (_bd) _bd.classList.toggle('open', o);
+      document.body.style.overflow = o ? 'hidden' : '';
+    });
+    if (_bd) _bd.addEventListener('click', _closeMenu);
+  }
+  // Mobile sub-menus (driven by data-sub attribute)
+  document.querySelectorAll('.m-toggle[data-sub]').forEach(b => {
+    const s = document.getElementById(b.dataset.sub);
+    if (s) b.addEventListener('click', () => {
+      const o = s.classList.toggle('open');
+      b.classList.toggle('open', o);
+    });
+  });
+
+  </script>
+  <script src="{{ '/assets/js/waves.js' | relative_url }}" defer></script>
+  {% if page.layout == 'course' %}{% include course_scripts.html %}{% endif %}
+</body>
 </html>

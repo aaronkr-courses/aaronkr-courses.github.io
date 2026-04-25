@@ -1,0 +1,14 @@
+<script>
+// ── Sidebar active-section tracking ─────────────────────────────────────────
+const sIds = ['grading','schedule','overview','textbooks','instructor','policies'];
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      document.querySelectorAll('.sidebar-nav a').forEach(a => a.classList.remove('active'));
+      const a = document.querySelector(`.sidebar-nav a[href="#${e.target.id}"]`);
+      if (a) a.classList.add('active');
+    }
+  });
+}, { rootMargin: '-25% 0px -65% 0px' });
+sIds.forEach(id => { const el = document.getElementById(id); if (el) obs.observe(el); });
+</script>

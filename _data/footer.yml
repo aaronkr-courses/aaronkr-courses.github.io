@@ -1,0 +1,24 @@
+# _data/footer.yml
+# Footer column data. Social links (Connect column) remain in footer.html
+# because they use conditional site config variables.
+
+teaching:
+  heading_en: "Teaching"
+  heading_ko: "강의"
+  links:
+    - title_en: "Current Courses"
+      title_ko: "현재 강좌"
+      url: "/"
+    - title_en: "Course Archive"
+      title_ko: "강의 이력"
+      url: "/archive"
+    - title_en: "Academic Policies"
+      title_ko: "학사 규정"
+      url: "/policies"
+    - title_en: "Office Hours"
+      title_ko: "상담 시간"
+      url: "/office-hours"
+
+connect:
+  heading_en: "Connect"
+  heading_ko: "연락처"

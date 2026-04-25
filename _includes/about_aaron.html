@@ -1,0 +1,60 @@
+{%- assign instructor = site.data.staff.Instructors | first -%}
+{%- assign email_display = instructor.email | default: site.email | replace: '@', ' &#064; ' -%}
+{%- comment -%}
+  Remote bio: this include attempts to fetch https://aaronsnowberger.com/bio.json at runtime.
+  To enable, add a bio.json page to aaronsnowberger.com:
+    ---
+    layout: null
+    permalink: /bio.json
+    ---
+    {
+      "bio_en": "Your English bio here...",
+      "bio_ko": "한국어 자기소개...",
+      "role": "Ph.D. · Hanbat National University (2023)"
+    }
+  If the fetch fails, the static content below is shown as a fallback.
+{%- endcomment -%}
+<div class="instructor-box">
+  <div class="instructor-avatar">
+    {%- if instructor.image -%}
+    <img src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}" alt="{{ instructor.name }}" />
+    {%- else -%}
+    🧑‍💻
+    {%- endif -%}
+  </div>
+  <div style="flex:1;min-width:0;">
+    <div class="instructor-name">{{ instructor.name | default: 'Aaron Snowberger' }}</div>
+    <div class="instructor-role" id="instructor-role">Ph.D. · Hanbat National University (2023)</div>
+    <div class="instructor-links">
+      <a href="mailto:{{ instructor.email | default: site.email }}">✉ {{ email_display }}</a>
+      {%- if instructor.kakaotalk -%}
+      <a href="{{ instructor.kakaotalk }}" target="_blank">💬 KakaoTalk: AaronKr</a>
+      {%- endif -%}
+      <a href="{{ instructor.url | default: 'https://aaron.kr' }}" target="_blank">🌐 aaron.kr</a>
+      <a href="https://pailab.io" target="_blank">🔬 PAI Lab →</a>
+      {%- if site.orcid_id -%}
+      <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank">🆔 ORCID</a>
+      {%- endif -%}
+      {%- if site.github_username -%}
+      <a href="https://github.com/{{ site.github_username }}" target="_blank">⌨ GitHub</a>
+      {%- endif -%}
+    </div>
+    <div class="instructor-bio">
+      <p id="bio-en" class="lang-en">Aaron Snowberger earned his Ph.D. in Information and Communications Engineering from Hanbat National University in South Korea in 2023. He also holds degrees in Computer Science and Media Design. He has taught technology courses for over 8 years, English for over 15 years, and has freelanced as a web developer and magazine designer for over 5 years. His current research interests include computer vision, natural language processing, image processing, signal processing, and machine learning.</p>
+      <p id="bio-ko" class="lang-ko">Aaron Snowberger는 2023년 한국 한밭대학교에서 정보통신공학 박사 학위를 취득했습니다. 그는 또한 컴퓨터 과학 및 미디어 디자인 학위를 취득했습니다. 그는 8년 이상 기술 과정을 가르쳤고, 15년 이상 영어를 가르쳤으며, 5년 이상 웹 개발자 및 잡지 디자이너로 프리랜서로 일했습니다. 현재 연구 관심사는 컴퓨터 비전, 자연어 처리, 영상 처리, 신호 처리, 기계 학습입니다.</p>
+    </div>
+  </div>
+</div>
+<script>
+// Pull live bio from aaronsnowberger.com — silently falls back to static text above.
+(function() {
+  fetch('https://aaronsnowberger.com/bio.json')
+    .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
+    .then(function(d) {
+      if (d.bio_en) document.getElementById('bio-en').innerHTML = d.bio_en;
+      if (d.bio_ko) document.getElementById('bio-ko').innerHTML = d.bio_ko;
+      if (d.role)   document.getElementById('instructor-role').textContent = d.role;
+    })
+    .catch(function() {}); // no-op: static bio remains
+})();
+</script>

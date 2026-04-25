@@ -1,30 +1,27 @@
-{% if site.footer_fixed %}
-<footer class="fixed-bottom">
-  <div class="container mt-0">
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{
-    site.middle_name }} {{ site.last_name }}. {{ site.footer_text }} {%- if
-    site.impressum_path -%}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}"
-      >Impressum</a
-    >. {%- endif -%} {%- if site.last_updated -%} Last updated: {{ "now" | date:
-    '%B %d, %Y' }}. {%- endif %}
+<footer>
+  <div class="footer-grid">
+    <div class="f-col">
+      <span class="f-brand">Aaron Snowberger</span>
+      <span><span class="lang-en">Ph.D. — Hanbat National University</span><span class="lang-ko">공학박사 — 한밭대학교</span></span>
+      <span><span class="lang-en">CS &amp; Engineering Lecturer</span><span class="lang-ko">컴퓨터공학 강사</span></span>
+      <a href="mailto:{{ site.email }}">{{ site.email | replace: '@', ' &#064; ' }}</a>
+    </div>
+    <div class="f-col">
+      <span class="f-heading"><span class="lang-en">{{ site.data.footer.teaching.heading_en }}</span><span class="lang-ko">{{ site.data.footer.teaching.heading_ko }}</span></span>
+      {%- for link in site.data.footer.teaching.links -%}
+      <a href="{{ link.url | relative_url }}"><span class="lang-en">{{ link.title_en }}</span><span class="lang-ko">{{ link.title_ko }}</span></a>
+      {%- endfor -%}
+    </div>
+    <div class="f-col">
+      <span class="f-heading"><span class="lang-en">{{ site.data.footer.connect.heading_en }}</span><span class="lang-ko">{{ site.data.footer.connect.heading_ko }}</span></span>
+      {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a>{% endif %}
+      {% if site.linkedin_username %}<a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>{% endif %}
+      {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank">Google Scholar</a>{% endif %}
+      <a href="https://pailab.io" target="_blank">PAI Lab →</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">&copy; {{ 'now' | date: '%Y' }} Aaron Snowberger</span>
+    <span class="footer-updated"><span class="lang-en">Last updated {{ 'now' | date: '%B %Y' }}</span><span class="lang-ko">최종 업데이트 {{ 'now' | date: '%Y년 %m월' }}</span></span>
   </div>
 </footer>
-{%- else -%}
-<footer class="sticky-bottom mt-5">
-  <div class="container">
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{
-    site.middle_name }} {{ site.last_name }}.
-    <br />
-    {{ site.footer_text }}
-    <br />
-    {%- if site.impressum_path -%}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}"
-      >Impressum</a
-    >. {%- endif -%}
-    <br />
-    {%- if site.last_updated -%} Last updated: {{ "now" | date: '%B %d, %Y' }}.
-    {%- endif %}
-  </div>
-</footer>
-{%- endif %}

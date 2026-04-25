@@ -1,57 +1,57 @@
-<!--<h3 class="textbooks-title" style="font-size: 30px" id="textbooks-교재">
-  Textbooks 교재
-</h3>-->
-<table class="table textbooks clearfix" style="border: none">
-  <colgroup>
-    <col style="width: 10%" />
-    <col style="width: 90%" />
-  </colgroup>
-  <tbody>
-    {% for text in page.Main-Text %}
-    <tr class="textbook">
-      <th scope="row">
-        <a href="{{ text.link }}" target="_blank"
-          ><img
-            width="100"
-            style="box-shadow: 1px 1px 5px gainsboro"
-            src="{{ text.image | prepend: '/assets/img/' | relative_url }}"
-        /></a>
-      </th>
-      <td>
-        <ol class="text-info" style="list-style: none; padding-left: 0">
-          <li>
-            <span>Text:</span>
-            <a href="{{ text.link }}" target="_blank">{{ text.title }}</a>
-          </li>
-          <li><span>Author:</span> {{ text.author }}</li>
-          <li><span>Publisher:</span> {{ text.publisher }}</li>
-        </ol>
-      </td>
-    </tr>
-    {% endfor %} {% for text in page.Supplementary %}
-    <tr class="textbook">
-      <th scope="col">
-        {% if text.image %}
-        <a href="{{ text.link }}" target="_blank"
-          ><img
-            width="60"
-            align="right"
-            style="box-shadow: 1px 1px 5px gainsboro"
-            src="{{ text.image | prepend: '/assets/img/' | relative_url }}"
-        /></a>
-        {% endif %}
-      </th>
-      <td>
-        <ol class="text-info" style="list-style: none; padding-left: 0">
-          <li>
-            <span>Supplementary:</span>
-            <a href="{{ text.link }}" target="_blank">{{ text.title }}</a>
-          </li>
-          <li><span>Author:</span> {{ text.author }}</li>
-          <li><span>Publisher:</span> {{ text.publisher }}</li>
-        </ol>
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+{% comment %}
+  Renders the Main-Text and Supplementary textbooks from page front matter.
+  Used inside the course layout.
+{% endcomment %}
+
+<ul class="book-list">
+
+  {%- for text in page.Main-Text -%}
+  <li class="book-item">
+    <div class="book-cover-col">
+      <div class="bk-img main-img">
+        {%- if text.image -%}
+        <img src="{{ text.image | prepend: '/assets/img/' | relative_url }}" alt="{{ text.title | strip_html }}" />
+        {%- else -%}
+        <div class="bk-img-inner main-bk">{{ text.title | strip_html | truncate: 30 }}</div>
+        {%- endif -%}
+      </div>
+    </div>
+    <div class="book-info">
+      <span class="book-badge req">★ <span class="lang-en">Required</span><span class="lang-ko">교재</span></span>
+      <div class="book-title">{{ text.title }}</div>
+      <div class="book-author">{{ text.author }}</div>
+      <div class="book-pub">{{ text.publisher }}</div>
+      {%- if text.link -%}
+      <a href="{{ text.link }}" class="book-buy" target="_blank"><span class="lang-en">Buy</span><span class="lang-ko">구매</span> →</a>
+      {%- endif -%}
+      {%- if text.code -%}
+      <a href="{{ text.code }}" class="book-buy" target="_blank" style="margin-left:6px;">Code →</a>
+      {%- endif -%}
+    </div>
+  </li>
+  {%- endfor -%}
+
+  {%- for text in page.Supplementary -%}
+  <li class="book-item">
+    <div class="book-cover-col">
+      <div class="bk-img supp-img">
+        {%- if text.image -%}
+        <img src="{{ text.image | prepend: '/assets/img/' | relative_url }}" alt="{{ text.title | strip_html }}" />
+        {%- else -%}
+        <div class="bk-img-inner supp-bk1">{{ text.title | strip_html | truncate: 20 }}</div>
+        {%- endif -%}
+      </div>
+    </div>
+    <div class="book-info">
+      <span class="book-badge supp"><span class="lang-en">Supplementary</span><span class="lang-ko">참고</span></span>
+      <div class="book-title">{{ text.title }}</div>
+      <div class="book-author">{{ text.author }}</div>
+      <div class="book-pub">{{ text.publisher }}</div>
+      {%- if text.link -%}
+      <a href="{{ text.link }}" class="book-buy" target="_blank"><span class="lang-en">Buy</span><span class="lang-ko">구매</span> →</a>
+      {%- endif -%}
+    </div>
+  </li>
+  {%- endfor -%}
+
+</ul>
