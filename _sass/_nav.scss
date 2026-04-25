@@ -134,7 +134,6 @@ nav {
   top: $nav-height;
   left: 0;
   right: 0;
-  bottom: 0;
   z-index: 198;
   overflow-y: auto;
   &.open { display: flex; }
@@ -181,7 +180,9 @@ nav {
 }
 .mobile-controls { display: flex; gap: 8px; padding: 10px 24px 0; }
 
+// ── Responsive ───────────────────────────────────────────────────────────────
 @media (max-width: 700px) {
   .nav-links { display: none; }
   .hamburger { display: flex; }
+  .nav-inner { justify-content: space-between; }
 }
