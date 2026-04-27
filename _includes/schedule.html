@@ -17,7 +17,7 @@
 {%- else -%}
   {%- assign lecture_data = site.data[include.data_file] -%}
 {%- endif -%}
-{%- assign today_ts   = 'now' | date: '%s' | plus: 0 -%}
+{%- assign today_ts   = 'now' | date: '%s' | plus: 7 -%}
 {%- assign skip_count = 0 -%}
 
 <table class="sched-table">
