@@ -3,7 +3,7 @@ layout: course
 init: UT
 title: IoT
 title_ko: 사물인터넷
-subtitle: Dept. of Computer Science & Engineering  ·  연세대학교 컴퓨터공학과
+subtitle: Dept. of Software Engineering  ·  교통대학교
 description: 442213 • 2026년 1학기 • 한국교통대학교
 uni: ut
 img: assets/img/books/iot.jpg
