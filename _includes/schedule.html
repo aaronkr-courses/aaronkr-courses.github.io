@@ -52,15 +52,15 @@
       {%- endif -%}
       {%- assign skip_count = skip_count | plus: 1 -%}
     {%- elsif item_ts >= week_start_ts and item_ts <= week_end_ts -%}
-      {%- assign row_class = 'this-week' -%}   {# 🔥 CURRENT WEEK HIGHLIGHT #}
+      {%- assign row_class = 'this-week' -%}
       {%- assign row_type  = 'normal' -%}
 
     {%- elsif item_ts < week_start_ts -%}
-      {%- assign row_class = 'past' -%}        {# 🔻 faded #}
+      {%- assign row_class = 'past' -%}
       {%- assign row_type  = 'normal' -%}
 
     {%- else -%}
-      {%- assign row_class = '' -%}            {# 🔼 future normal #}
+      {%- assign row_class = '' -%}
       {%- assign row_type  = 'normal' -%}
     {%- endif -%}
 
