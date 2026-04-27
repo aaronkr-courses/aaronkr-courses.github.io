@@ -23,6 +23,7 @@ information:
     time: 목 123 | Thur 9am-12pm
     location: 글로벌인제관 107호
     kakaotalk: https://open.kakao.com/o/guPlVdii
+    classroom: https://classroom.google.com/c/Nzk2NDE5Njc5NTkw?cjc=ifpsgfon
 
 Main-Text:
   - text: "주교재"

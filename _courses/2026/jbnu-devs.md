@@ -23,6 +23,7 @@ information:
     time: 목 567 | Thur 1-4pm
     location: 정보화교육동 201호
     kakaotalk: https://open.kakao.com/o/gzdKVdii
+    github: https://classroom.github.com/a/ckk3PfSO
 
 Main-Text:
   - text: "주교재"

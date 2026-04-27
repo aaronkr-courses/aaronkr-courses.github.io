@@ -24,6 +24,7 @@ information:
     time: 월 123 | Mon 9am-12pm
     location: W18동 214호
     kakaotalk: https://open.kakao.com/o/g0ufTdii
+    github: https://classroom.github.com/a/kpJtYeMa
 
 Main-Text:
   - text: "주교재"

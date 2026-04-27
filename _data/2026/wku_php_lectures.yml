@@ -95,14 +95,7 @@
 - date: 4/28
   week: 9
   title: >
-    7장 이미지 & 파일
-  supp:
-  readings:
-  hw:
-  slides:
-  slides2:
-  img:
-  logistics:
+    <span style="color: red"><strong>No Class</strong> 대각개교절</span>
 
 - date: 5/5
   week: 10
@@ -112,6 +105,7 @@
 - date: 5/12
   week: 11
   title: >
+    7장 이미지 & 파일<br>
     8장 날짜 & 시간
   supp:
   readings:
@@ -178,8 +172,10 @@
       <br><a href="#">기말퀴즈</a>
     </div>
   logistics: >
-    13장 데이터베이스의 데이터 업데이트하기<br>
-    14장 리팩터링 & 종속성 주입<br>
-    15장 네임스페이스 & 라이브러리<br>
-    16장 멤버십<br>
-    17장 기능 추가하기
+    <div style="display: none;">
+      13장 데이터베이스의 데이터 업데이트하기<br>
+      14장 리팩터링 & 종속성 주입<br>
+      15장 네임스페이스 & 라이브러리<br>
+      16장 멤버십<br>
+      17장 기능 추가하기
+    </div>

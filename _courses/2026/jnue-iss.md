@@ -22,16 +22,19 @@ information:
     time: 금 12 | Fri 9am-11am
     location: 전산교육실
     kakaotalk: https://open.kakao.com/o/gmVEXdii
+    classroom: https://classroom.google.com/c/ODUwMTE5OTQ1NDM4?cjc=ur3sfwgy
 
   - section: 070137-4
     time: 금 34 | Fri 11am-1pm
     location: 전산교육실
     kakaotalk: https://open.kakao.com/o/g6RYXdii
+    classroom: https://classroom.google.com/c/Nzk2NDE5Njc5NzY3?cjc=hrlttg34
 
   - section: 070137-6
     time: 금 67 | Fri 2pm-4pm
     location: 전산교육실
     kakaotalk: https://open.kakao.com/o/g95kYdii
+    classroom: https://classroom.google.com/c/ODQ3ODU2NzA5NjM2?cjc=fyqaj547
 
 Main-Text:
   - text: "주교재"
