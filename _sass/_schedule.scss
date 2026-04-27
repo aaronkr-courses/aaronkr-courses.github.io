@@ -15,6 +15,7 @@ tr.sched-row {
   &:first-child > td { border-top: 1px solid var(--border); }
   &:hover { background: var(--surface); }
   &.past { opacity: .65; }
+  &.this-week { background: var(--surface); }
 
   // No-class + test rows: center the span cell
   &.no-class td.sched-span,

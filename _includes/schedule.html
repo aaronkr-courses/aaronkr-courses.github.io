@@ -17,7 +17,19 @@
 {%- else -%}
   {%- assign lecture_data = site.data[include.data_file] -%}
 {%- endif -%}
-{%- assign today_ts   = 'now' | date: '%s' | plus: 7 -%}
+{%- assign today_ts   = 'now' | date: '%s' | plus: 0 -%}
+
+{%- comment %} 🔥 Week Range Block 🔥 {% endcomment -%}
+{%- assign today_wday = 'now' | date: '%w' | plus: 0 -%} {# 0=Sun, 1=Mon ... #}
+
+{%- assign days_from_monday = today_wday | minus: 1 -%}
+{%- if today_wday == 0 -%}
+  {%- assign days_from_monday = 6 -%}
+{%- endif -%}
+
+{%- assign week_start_ts = today_ts | minus: days_from_monday | times: 86400 -%}
+{%- assign week_end_ts   = week_start_ts | plus: 6 | times: 86400 -%}
+
 {%- assign skip_count = 0 -%}
 
 <table class="sched-table">
@@ -39,11 +51,16 @@
         {%- assign row_class = 'test-row' -%}
       {%- endif -%}
       {%- assign skip_count = skip_count | plus: 1 -%}
-    {%- elsif item_ts < today_ts -%}
-      {%- assign row_class = 'past' -%}
+    {%- elsif item_ts >= week_start_ts and item_ts <= week_end_ts -%}
+      {%- assign row_class = 'this-week' -%}   {# 🔥 CURRENT WEEK HIGHLIGHT #}
       {%- assign row_type  = 'normal' -%}
+
+    {%- elsif item_ts < week_start_ts -%}
+      {%- assign row_class = 'past' -%}        {# 🔻 faded #}
+      {%- assign row_type  = 'normal' -%}
+
     {%- else -%}
-      {%- assign row_class = '' -%}
+      {%- assign row_class = '' -%}            {# 🔼 future normal #}
       {%- assign row_type  = 'normal' -%}
     {%- endif -%}
 
