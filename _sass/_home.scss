@@ -167,6 +167,7 @@ a.announce-item:hover .ann-arrow { opacity: 1; transform: translateX(3px); }
     left: 0;
     right: 0;
     height: 2px;
+    z-index: 1;
     background: linear-gradient(90deg, var(--accent), var(--accent2), var(--accent3));
 }
 .cta-content {

@@ -47,13 +47,13 @@ layout: default
           💬 <span class="txt">KakaoTalk{% if page.information.size > 1 %} ({{ section.section }}){% endif %}</span>
         </a>
         {%- endif -%}
+        {%- if section.github -%}
+        <a href="{{ section.github }}" class="ql-btn gh" target="_blank">💻 <span class="txt">GitHub Classroom</span></a>
+        {%- endif -%}
+        {%- if section.classroom -%}
+        <a href="{{ section.classroom }}" class="ql-btn" target="_blank">📖 <span class="txt">Google Classroom</span></a>
+        {%- endif -%}
       {%- endfor -%}
-      {%- if page.github -%}
-      <a href="{{ page.github }}" class="ql-btn gh" target="_blank">💻 <span class="txt">GitHub Classroom</span></a>
-      {%- endif -%}
-      {%- if page.classroom -%}
-      <a href="{{ page.classroom }}" class="ql-btn" target="_blank">📖 <span class="txt">Google Classroom</span></a>
-      {%- endif -%}
     </div>
   </div><!-- /.course-hero -->
 

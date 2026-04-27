@@ -4,10 +4,6 @@
 #   - Dynamic dropdown:   has category (pulls courses from site.courses collection)
 #   - Static dropdown:    has items array
 
-- title_en: "Courses"
-  title_ko: "강좌"
-  url: "/"
-
 - title_en: "2026"
   title_ko: "2026"
   dropdown_id: "dd-courses"
@@ -41,8 +37,8 @@
       title_ko: "지각 제출 정책"
       url: "/policies/late"
     - divider: true
-    - title_en: "★ AI Tools Policy"
-      title_ko: "★ AI 사용 정책"
+    - title_en: "AI Tool Use"
+      title_ko: "AI 사용 정책"
       url: "/policies/ai"
 
 - title_en: "Archive"
@@ -54,3 +50,27 @@
   title_ko: "상담 시간"
   url: "/office-hours"
   url_prefix: true
+
+- title_en: "Resources"
+  title_ko: "자료"
+  dropdown_id: "dd-resources"
+  footer_en: "Visit PAI Lab"
+  footer_ko: "피지컬 AI 연구실"
+  footer_url: "https://pailab.io"
+  items:
+    - title_en: "Writing Research Papers"
+      title_ko: "연구 논문 작성"
+      url: "https://www.pailab.io/pages/papers"
+    - title_en: "Presenting at Conferences"
+      title_ko: "컨퍼런스 발표"
+      url: "https://www.pailab.io/pages/conferences"
+    - title_en: "Publishing in Journals"
+      title_ko: "저널 발표"
+      url: "https://www.pailab.io/pages/journals"
+    - divider: true
+    - title_en: "Arduino (Circuits)"
+      title_ko: "아두이노"
+      url: https://www.pailab.io/pages/arduino-overview"
+    - title_en: "ESP32 (IoT)"
+      title_ko: "ESP32"
+      url: "https://www.pailab.io/pages/esp32-overview"
