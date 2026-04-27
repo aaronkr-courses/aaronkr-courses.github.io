@@ -20,7 +20,7 @@
 {%- assign today_ts   = 'now' | date: '%s' | plus: 0 -%}
 
 {%- comment %} 🔥 Week Range Block 🔥 {% endcomment -%}
-{%- assign today_wday = 'now' | date: '%w' | plus: 0 -%} {# 0=Sun, 1=Mon ... #}
+{%- assign today_wday = 'now' | date: '%w' | plus: 0 -%}
 
 {%- assign days_from_monday = today_wday | minus: 1 -%}
 {%- if today_wday == 0 -%}
