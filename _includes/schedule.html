@@ -85,7 +85,7 @@
         <span class="lang-en">{{ item.title }}</span>
         <span class="lang-ko">{{ item.title_ko | default: item.title }}</span>
       </div>
-      {%- if item.logistics -%}
+      {%- if item.logistics and item.hidden != true -%}
       <div class="sched-subtitle">{{ item.logistics }}</div>
       {%- endif -%}
     </td>

@@ -114,24 +114,23 @@
   week: 9
   title: >
     <strong>Isolated DC/DC Conversion<br>
-    Switching Losses and Snubbers<br>
-    Thermal Modeling and Heat Sinking<br>
-    Inverters<br>
-    Switched-Mode Rectifiers<br>
-    Three-Phase Systems<br>
-    Three-Phase Inverters</strong>
+    Switching Losses and Snubbers</strong>
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/13ITAPqPqJHfQNejP-SKxPiX4Y8DPs__EmXCdC_18Vac/edit?usp=sharing"
   slides2:
-  img: 
+  img: 2026/jbnu-pe/8-isolated-converters.jpg
   logistics:
 
 - date: 5/6
   week: 10
   title: >
-    <strong>Control<br>
+    <strong>Thermal Modeling and Heat Sinking<br>
+    Inverters<br>
+    Switched-Mode Rectifiers<br>
+    Three-Phase Systems<br>
+    Three-Phase InvertersControl<br>
     Current-Mode Control</strong>
   supp:
   readings:
