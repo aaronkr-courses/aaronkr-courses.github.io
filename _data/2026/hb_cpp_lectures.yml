@@ -85,6 +85,7 @@
 
 - date: 4/22
   week: 8
+  hidden: true
   title: >
     <strong>Midterm Test</strong><br>
     <div>
@@ -94,7 +95,6 @@
 
 - date: 4/29
   week: 9
-  hidden: true
   title: >
     <strong>CHAPTER 8 제네릭 함수<br>
     CHAPTER 9 새로운 타입 정의</strong>
