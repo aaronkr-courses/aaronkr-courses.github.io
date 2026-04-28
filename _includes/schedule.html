@@ -125,7 +125,7 @@
         <span class="lang-en">{{ item.title }}</span>
         <span class="lang-ko">{{ item.title_ko | default: item.title }}</span>
       </div>
-      {%- if item.readings -%}
+      {%- if item.readings and item.hidden != true -%}
       <div class="sched-readings">📖 {{ item.readings }}</div>
       {%- endif -%}
     </td>
