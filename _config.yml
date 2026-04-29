@@ -74,7 +74,7 @@ kramdown:
   syntax_highlighter_opts:
     css_class: "highlight"
 
-include: ["_pages"]
+include: ["_pages", "attend/**/*"]
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -85,7 +85,6 @@ exclude:
   - 2023-course-sites/
   - 2023-migration-notes.md
   - CLAUDE.md
-  - attend/
 
 # ─────────────────────────────────────────
 # Plugins (GitHub Pages compatible)
