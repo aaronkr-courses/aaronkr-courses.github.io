@@ -102,7 +102,7 @@
   readings: >
     Accelerated C++, <strong>8장 pp. 225-248</strong><br>
     Accelerated C++, <strong>9장 pp. 251-271</strong>
-  hw:
+  hw: "https://classroom.github.com/a/IiuIL-0I"
   slides: "https://docs.google.com/presentation/d/1egDE93iN5rWULPahVj_FBvEzsTaGglhQ6qZ-dD0MWug/edit?usp=sharing"
   img2: 2024/hb-cpp/10-cpp-generic-types.jpg
   logistics:
