@@ -85,6 +85,7 @@ exclude:
   - 2023-course-sites/
   - 2023-migration-notes.md
   - CLAUDE.md
+  - attend/
 
 # ─────────────────────────────────────────
 # Plugins (GitHub Pages compatible)
