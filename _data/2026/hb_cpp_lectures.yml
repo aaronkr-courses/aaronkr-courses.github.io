@@ -105,7 +105,8 @@
   hw: "https://classroom.github.com/a/IiuIL-0I"
   slides: "https://docs.google.com/presentation/d/1egDE93iN5rWULPahVj_FBvEzsTaGglhQ6qZ-dD0MWug/edit?usp=sharing"
   img2: 2024/hb-cpp/10-cpp-generic-types.jpg
-  logistics:
+  logistics: >
+    <a href="https://github.com/aaronkr-classroom/10-generic-functions-classes-jekkilekki/tree/main/chp9">Chp 9 필수 파일</a>
 
 - date: 5/6
   week: 10
