@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Attendance Admin · Aaron Snowberger</title>
+<script src="firebase-config.js"></script>
+<script src="classes.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<style>
+:root {
+  --teal:#0F6E56;--teal-lt:#E1F5EE;--teal-md:#1D9E75;
+  --red:#993C1D;--red-lt:#FAECE7;
+  --amber:#854F0B;--amber-lt:#FAEEDA;
+  --blue:#185FA5;--blue-lt:#E6F1FB;
+  --gray:#5F5E5A;--gray-lt:#F1EFE8;
+  --border:#D3D1C7;--bg:#F5F5F2;--surface:#FFF;
+  --text:#2C2C2A;--muted:#888780;
+  --r:10px;--rs:6px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,'Segoe UI',sans-serif;font-size:14px;
+     background:var(--bg);color:var(--text);min-height:100vh}
+
+/* AUTH */
+#auth-screen{display:flex;align-items:center;justify-content:center;min-height:100vh}
+.auth-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);
+           padding:2.5rem 2rem;text-align:center;width:340px}
+.auth-card h1{font-size:20px;font-weight:600;margin-bottom:6px}
+.auth-card p{font-size:13px;color:var(--muted);margin-bottom:1.5rem}
+.btn-google{display:inline-flex;align-items:center;gap:10px;padding:10px 20px;
+            border:1px solid var(--border);border-radius:var(--rs);background:var(--surface);
+            font-size:14px;cursor:pointer;width:100%;justify-content:center;transition:background .15s}
+.btn-google:hover{background:var(--gray-lt)}
+
+/* LAYOUT */
+#main-screen{display:none}
+.topbar{background:var(--surface);border-bottom:1px solid var(--border);padding:0 1.25rem;
+        display:flex;align-items:center;justify-content:space-between;height:50px;
+        position:sticky;top:0;z-index:10}
+.topbar h2{font-size:15px;font-weight:600}
+.topbar-l,.topbar-r{display:flex;align-items:center;gap:10px}
+.page{max-width:1080px;margin:0 auto;padding:1.25rem}
+
+/* TABS */
+.tabs{display:flex;border-bottom:1px solid var(--border);margin-bottom:1.25rem}
+.tab{padding:8px 15px;font-size:14px;cursor:pointer;border:none;background:none;
+     color:var(--muted);border-bottom:2px solid transparent;transition:.15s}
+.tab.active{color:var(--text);font-weight:600;border-bottom-color:var(--teal-md)}
+.panel{display:none}.panel.active{display:block}
+
+/* CARDS */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);
+      padding:1.25rem;margin-bottom:1rem}
+.card-label{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;
+            letter-spacing:.04em;margin-bottom:12px}
+
+/* GRID */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:1rem}
+@media(max-width:680px){.g2,.g3{grid-template-columns:1fr}}
+
+/* FORM CONTROLS */
+.lbl{font-size:12px;color:var(--muted);display:block;margin-bottom:4px}
+input[type=text],select{padding:8px 11px;border:1px solid var(--border);
+  border-radius:var(--rs);font-size:14px;background:var(--surface);
+  color:var(--text);font-family:inherit;width:100%}
+input[type=text]:focus,select:focus{outline:none;border-color:var(--teal-md)}
+.field-row{display:flex;gap:8px;align-items:flex-end;flex-wrap:wrap}
+.btn-g{padding:9px 18px;background:var(--teal);color:#fff;border:none;
+       border-radius:var(--rs);font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap}
+.btn-g:hover{background:var(--teal-md)}
+.btn-r{padding:9px 18px;background:var(--red);color:#fff;border:none;
+       border-radius:var(--rs);font-size:14px;font-weight:500;cursor:pointer}
+.btn-s{padding:6px 12px;border:1px solid var(--border);border-radius:var(--rs);
+       background:none;font-size:13px;cursor:pointer;color:var(--text)}
+.btn-s:hover{background:var(--gray-lt)}
+
+/* CLASS SELECTOR */
+.class-selector{display:flex;flex-wrap:wrap;gap:6px;padding:8px 0}
+.class-btn{padding:5px 12px;border:1px solid var(--border);border-radius:999px;
+           font-size:13px;cursor:pointer;background:none;color:var(--text);
+           transition:all .15s;display:flex;align-items:center;gap:5px}
+.class-btn:hover{background:var(--gray-lt)}
+.class-btn.selected{border-color:var(--teal-md);background:var(--teal-lt);color:var(--teal);font-weight:500}
+.school-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.sem-header{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;
+            letter-spacing:.05em;margin:10px 0 5px;width:100%}
+
+/* BADGES */
+.badge{display:inline-flex;align-items:center;gap:4px;padding:2px 8px;
+       border-radius:999px;font-size:11px;font-weight:500}
+.b-on{background:var(--teal-lt);color:var(--teal)}
+.b-off{background:var(--gray-lt);color:var(--gray)}
+.b-warn{background:var(--amber-lt);color:var(--amber)}
+.b-info{background:var(--blue-lt);color:var(--blue)}
+.dot{width:6px;height:6px;border-radius:50%}
+.dot-on{background:var(--teal-md)}.dot-off{background:var(--muted)}
+
+/* QR */
+.qr-wrap{display:flex;flex-direction:column;align-items:center;gap:10px}
+#qr-box{padding:12px;background:#F1EFE8;border-radius:var(--rs)}
+.url-pill{font-family:monospace;font-size:10px;color:var(--muted);word-break:break-all;
+          text-align:center;padding:5px 8px;background:var(--bg);border-radius:var(--rs);width:100%}
+.countdown{font-family:monospace;font-size:28px;font-weight:600;color:var(--text);text-align:center}
+.cd-bar-outer{height:4px;background:var(--border);border-radius:2px;overflow:hidden;
+              width:160px;margin:2px auto}
+.cd-bar-inner{height:100%;background:var(--teal-md);transition:width 1s linear;border-radius:2px}
+.qr-ph{width:210px;height:210px;background:var(--bg);border:1px dashed var(--border);
+       border-radius:var(--rs);display:flex;align-items:center;justify-content:center}
+.qr-ph p{font-size:12px;color:var(--muted);text-align:center;padding:1rem;line-height:1.6}
+
+/* METRICS */
+.metric{background:var(--bg);border-radius:var(--rs);padding:.875rem}
+.m-lbl{font-size:11px;color:var(--muted);margin-bottom:3px}
+.m-val{font-size:22px;font-weight:600}
+.m-g{color:var(--teal)}.m-a{color:var(--amber)}
+
+/* PROGRESS */
+.att-bar-o{height:8px;background:var(--bg);border-radius:4px;overflow:hidden;margin:6px 0;
+           border:1px solid var(--border)}
+.att-bar-i{height:100%;background:var(--teal-md);border-radius:4px;transition:width .5s}
+.warn-box{padding:8px 12px;background:var(--amber-lt);border-radius:var(--rs);
+          font-size:12px;color:var(--amber);margin-top:8px;display:flex;align-items:center;gap:6px}
+.info-box{padding:8px 12px;background:var(--blue-lt);border-radius:var(--rs);
+          font-size:12px;color:var(--blue);margin-top:8px}
+
+/* TABLE */
+.tbl-wrap{overflow-x:auto;max-height:340px;overflow-y:auto}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;padding:6px 10px;color:var(--muted);font-weight:600;font-size:11px;
+   border-bottom:1px solid var(--border);text-transform:uppercase;letter-spacing:.03em;
+   background:var(--bg);position:sticky;top:0}
+td{padding:7px 10px;border-bottom:1px solid var(--border)}
+tr:last-child td{border-bottom:none}
+.mono{font-family:monospace;font-size:11px}
+
+/* STATUS */
+#status-msg{padding:8px 12px;border-radius:var(--rs);font-size:13px;display:none;margin-top:10px}
+.msg-ok{background:var(--teal-lt);color:var(--teal)}
+.msg-err{background:var(--red-lt);color:var(--red)}
+
+/* HISTORY FILTER */
+.filter-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem;align-items:center}
+.filter-row select{width:auto;min-width:160px}
+
+/* INSERT in <style> */
+.modal-overlay {
+  display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);
+  z-index:1000;align-items:center;justify-content:center;flex-direction:column;gap:1.25rem;
+}
+.modal-overlay.open { display:flex; }
+.modal-qr-box {
+  padding:20px;background:#F1EFE8;border-radius:16px;cursor:pointer;
+  box-shadow:0 8px 40px rgba(0,0,0,.4);
+}
+.modal-meta { color:#fff;text-align:center;font-size:13px;opacity:.8 }
+.modal-cd   { color:#fff;font-family:monospace;font-size:22px;font-weight:600 }
+.modal-close {
+  position:fixed;top:1.25rem;right:1.5rem;background:none;border:1px solid rgba(255,255,255,.3);
+  color:#fff;border-radius:8px;padding:6px 14px;font-size:14px;cursor:pointer;
+}
+.modal-close:hover { background:rgba(255,255,255,.1) }
+
+body.dark {
+  --border:#3a3a38;--bg:#1a1a18;--surface:#242422;
+  --text:#e8e6e0;--muted:#888780;--gray-lt:#2a2a28;
+  --teal-lt:#0a2e26;--amber-lt:#2e1f00;--blue-lt:#0a1e35;--red-lt:#2e1008;
+}
+</style>
+</head>
+<body>
+
+<!-- AUTH SCREEN -->
+<div id="auth-screen">
+  <div class="auth-card">
+    <div style="font-size:40px;margin-bottom:.75rem">🎓</div>
+    <h1>Attendance System</h1>
+    <p>Sign in with your Google account to manage attendance sessions.</p>
+    <button class="btn-google" onclick="signIn()">
+      <svg width="18" height="18" viewBox="0 0 24 24">
+        <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+        <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+        <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+        <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+      </svg>
+      Sign in with Google
+    </button>
+    <div id="auth-err" style="font-size:12px;color:var(--red);margin-top:10px;display:none"></div>
+  </div>
+</div>
+
+<!-- MAIN DASHBOARD -->
+<div id="main-screen">
+  <div class="topbar">
+    <div class="topbar-l">
+      <span style="font-size:20px">🎓</span>
+      <h2>Attendance Dashboard</h2>
+      <span class="badge" id="session-badge">
+        <span class="dot dot-off" id="badge-dot"></span>
+        <span id="badge-txt">No session</span>
+      </span>
+    </div>
+    <div class="topbar-r">
+      <!-- INSERT before <span style="font-size:12px..." id="user-email"> -->
+      <a href="https://aaronkr-courses.github.io/courses/" 
+        style="font-size:13px;color:var(--muted);text-decoration:none;padding:5px 10px;
+                border:1px solid var(--border);border-radius:var(--rs);white-space:nowrap"
+        onmouseover="this.style.background='var(--gray-lt)'" 
+        onmouseout="this.style.background='none'">
+        ← Courses
+      </a>
+
+      <button id="theme-toggle" onclick="toggleTheme()" 
+              style="padding:5px 10px;border:1px solid var(--border);border-radius:var(--rs);
+                    background:none;cursor:pointer;font-size:15px;color:var(--text)" 
+              title="Toggle dark mode">🌙</button>
+      <span style="font-size:12px;color:var(--muted)" id="user-email"></span>
+      <button class="btn-s" onclick="doSignOut()">Sign out</button>
+    </div>
+  </div>
+
+  <div class="page">
+    <div class="tabs">
+      <button class="tab active" onclick="switchTab('control',this)">Control panel</button>
+      <button class="tab"        onclick="switchTab('log',this)">Access log</button>
+      <button class="tab"        onclick="switchTab('history',this)">Session history</button>
+      <button class="tab"        onclick="switchTab('feedback',this)">Session feedback</button>
+    </div>
+
+    <!-- ── CONTROL PANEL ── -->
+    <div class="panel active" id="tab-control">
+
+      <!-- Class selector -->
+      <div class="card">
+        <div class="card-label">Select class</div>
+        <div class="class-selector" id="class-selector"></div>
+        <div id="selected-class-info" style="margin-top:10px;font-size:13px;color:var(--muted);display:none"></div>
+      </div>
+
+      <!-- Session control -->
+      <div class="card">
+        <div class="card-label">Session control</div>
+        <div class="field-row">
+          <button class="btn-g" id="start-btn" onclick="startSession()">▶ Start session</button>
+          <button class="btn-r" id="stop-btn"  onclick="stopSession()" style="display:none">■ Stop</button>
+        </div>
+        <div id="status-msg"></div>
+        <p id="session-info" style="font-size:11px;color:var(--muted);margin-top:8px;display:none"></p>
+      </div>
+
+      <div class="g2">
+        <!-- QR card -->
+        <div class="card">
+          <div class="card-label">Live QR code</div>
+          <div class="qr-wrap">
+            <div id="qr-area"><div class="qr-ph"><p>Start a session<br>to show QR code</p></div></div>
+            <div id="url-display" class="url-pill" style="display:none"></div>
+            <div id="countdown-wrap" style="display:none;text-align:center">
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">New token in</div>
+              <div class="countdown" id="countdown-display">02:00</div>
+              <div class="cd-bar-outer"><div class="cd-bar-inner" id="countdown-bar" style="width:0%"></div></div>
+              <button class="btn-s" style="margin-top:8px;font-size:12px" onclick="rotateToken()">⟳ Refresh now</button>
+              <!-- INSERT after the Refresh now button, still inside countdown-wrap -->
+              <button class="btn-g" style="margin-top:6px;font-size:12px;padding:7px 14px" 
+                      onclick="openQRModal()">⤢ Show fullscreen</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stats -->
+        <div>
+          <div class="g3">
+            <div class="metric"><div class="m-lbl">QR scans</div><div class="m-val" id="stat-scans">—</div></div>
+            <div class="metric"><div class="m-lbl">Submitted</div><div class="m-val m-g" id="stat-subs">—</div></div>
+            <div class="metric"><div class="m-lbl">Off-campus IPs</div><div class="m-val" id="stat-offcampus">—</div></div>
+          </div>
+          <div class="card" style="margin-top:0">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+              <div class="card-label" style="margin-bottom:0">Attendance progress</div>
+              <button class="btn-s" style="font-size:12px;padding:4px 10px" onclick="clearSessionStats()" 
+                      title="Hide scans collected so far — does not delete data">✕ Clear display</button>
+            </div>
+            <div style="display:flex;justify-content:space-between;font-size:12px;color:var(--muted)">
+              <span id="att-sub-txt">0 submitted</span>
+              <span id="att-pend-txt">— pending</span>
+            </div>
+            <div class="att-bar-o"><div class="att-bar-i" id="att-bar" style="width:0%"></div></div>
+            <p style="font-size:12px;color:var(--muted);margin-top:4px" id="att-rate">—</p>
+            <div class="warn-box" id="offcampus-warn" style="display:none">
+              ⚠️ <span id="offcampus-warn-txt"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /control -->
+
+    <!-- ── ACCESS LOG ── -->
+    <!-- REPLACE the entire <div class="panel" id="tab-log"> block with this -->
+    <div class="panel" id="tab-log">
+      <div class="card">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+          <div class="card-label" style="margin-bottom:0">Access log</div>
+          <div style="display:flex;gap:8px">
+            <button class="btn-s" style="font-size:12px" onclick="applyLogFilters()">↺ Refresh</button>
+            <button class="btn-s" style="font-size:12px" onclick="exportFilteredCSV()">↓ Export CSV</button>
+          </div>
+        </div>
+
+        <!-- Filter row -->
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem;padding-bottom:1rem;
+                    border-bottom:1px solid var(--border);align-items:flex-end">
+          <div>
+            <label class="lbl">Class</label>
+            <select id="log-filter-class" onchange="applyLogFilters()" style="width:auto;min-width:160px">
+              <option value="">All classes</option>
+            </select>
+          </div>
+          <div>
+            <label class="lbl">Date</label>
+            <input type="date" id="log-filter-date" onchange="applyLogFilters()"
+                  style="padding:7px 10px;border:1px solid var(--border);border-radius:var(--rs);
+                          font-size:14px;background:var(--surface);color:var(--text)"/>
+          </div>
+          <div>
+            <label class="lbl">Session</label>
+            <select id="log-filter-session" onchange="applyLogFilters()" style="width:auto;min-width:180px">
+              <option value="">All sessions</option>
+              <option value="__current__">Current session only</option>
+            </select>
+          </div>
+          <div>
+            <label class="lbl">Submitted</label>
+            <select id="log-filter-submitted" onchange="applyLogFilters()" style="width:auto">
+              <option value="">All</option>
+              <option value="yes">Submitted</option>
+              <option value="no">Not submitted</option>
+            </select>
+          </div>
+          <div>
+            <label class="lbl">Location</label>
+            <select id="log-filter-location" onchange="applyLogFilters()" style="width:auto">
+              <option value="">All</option>
+              <option value="campus">Campus only</option>
+              <option value="offcampus">Off-campus only</option>
+            </select>
+          </div>
+          <button class="btn-s" style="font-size:12px;align-self:flex-end" onclick="clearLogFilters()">✕ Clear filters</button>
+        </div>
+
+        <!-- Summary line -->
+        <div id="log-filter-summary" style="font-size:12px;color:var(--muted);margin-bottom:10px"></div>
+
+        <div id="log-empty" style="text-align:center;padding:2rem;color:var(--muted);font-size:13px">
+          No entries match the current filters.
+        </div>
+        <div class="tbl-wrap" id="log-wrap" style="display:none">
+          <table>
+            <thead><tr>
+              <th onclick="sortLog('timestamp')" style="cursor:pointer">Time ↕</th>
+              <th onclick="sortLog('className')"  style="cursor:pointer">Class ↕</th>
+              <th>Student name</th>
+              <th>Student ID</th>
+              <th>IP address</th>
+              <th>Location</th>
+              <th>Submitted</th>
+              <th>Feedback</th>
+            </tr></thead>
+            <tbody id="log-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── SESSION HISTORY ── -->
+    <div class="panel" id="tab-history">
+      <div class="card">
+        <div class="card-label" style="margin-bottom:10px">Session history</div>
+        <div class="filter-row">
+          <select id="hist-filter-class" onchange="filterHistory()">
+            <option value="">All classes</option>
+          </select>
+          <select id="hist-filter-sem" onchange="filterHistory()">
+            <option value="">All semesters</option>
+          </select>
+          <button class="btn-s" onclick="loadHistory()">↺ Refresh</button>
+          <button class="btn-s" style="color:var(--red)" onclick="clearHistory()">✕ Clear history</button>
+        </div>
+        <div id="hist-empty" style="text-align:center;padding:2rem;color:var(--muted);font-size:13px">
+          No past sessions found.
+        </div>
+        <div class="tbl-wrap" id="hist-wrap" style="display:none">
+          <table>
+            <thead><tr>
+              <th>Class</th><th>Semester</th><th>Session ID</th>
+              <th>Started</th><th>Ended</th><th>Scans</th><th>Submitted</th><th>Off-campus</th>
+            </tr></thead>
+            <tbody id="hist-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- SESSION FEEDBACK -->
+    <div class="panel" id="tab-feedback">
+      <div class="card">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+          <div class="card-label" style="margin-bottom:0">Session feedback</div>
+          <div style="display:flex;gap:8px;align-items:flex-end">
+            <div>
+              <label class="lbl">Session</label>
+              <select id="fb-filter-session" onchange="loadFeedback()" style="width:auto;min-width:180px">
+                <option value="">All sessions</option>
+                <option value="__current__">Current session</option>
+              </select>
+            </div>
+            <button class="btn-s" style="font-size:12px" onclick="exportFeedbackCSV()">↓ Export</button>
+          </div>
+        </div>
+
+        <div id="fb-summary" style="font-size:12px;color:var(--muted);margin-bottom:10px"></div>
+
+        <div id="fb-empty" style="text-align:center;padding:2rem;color:var(--muted);font-size:13px">
+          No feedback submitted yet.
+        </div>
+        <div class="tbl-wrap" id="fb-wrap" style="display:none">
+          <table>
+            <thead><tr>
+              <th>Time</th>
+              <th>Class</th>
+              <th>Feedback</th>
+            </tr></thead>
+            <tbody id="fb-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div><!-- /main -->
+
+<script>
+  // INSERT anywhere in <script>
+function toggleTheme() {
+  const dark = document.body.classList.toggle('dark');
+  document.getElementById('theme-toggle').textContent = dark ? '☀️' : '🌙';
+  localStorage.setItem('attend-theme', dark ? 'dark' : 'light');
+}
+// Apply saved theme on load
+(function() {
+  if (localStorage.getItem('attend-theme') === 'dark') {
+    document.body.classList.add('dark');
+    document.addEventListener('DOMContentLoaded', () => {
+      const btn = document.getElementById('theme-toggle');
+      if (btn) btn.textContent = '☀️';
+    });
+  }
+})();
+
+// ── Firebase init ──────────────────────────────────────────────
+firebase.initializeApp(FIREBASE_CONFIG);
+const auth = firebase.auth();
+const db   = firebase.firestore();
+
+// ── State ──────────────────────────────────────────────────────
+let clearedAt     = null;  // ADD near top of <script> with other state vars
+let selectedClass = null;
+let sessionActive = false;
+let sessionId     = null;
+let currentToken  = null;
+let cdInterval    = null;
+let unsubLogs     = null;
+let unsubSession  = null;
+// let logs          = [];
+window.logs       = [];
+let lastQrToken   = null;
+let allHistory    = [];
+
+// ── Build class selector ───────────────────────────────────────
+function buildClassSelector() {
+  const wrap = document.getElementById('class-selector');
+  // Group by semester
+  const sems = [...new Set(CLASSES.map(c => c.semester))];
+  sems.forEach(sem => {
+    const hdr = document.createElement('div');
+    hdr.className = 'sem-header'; hdr.textContent = sem;
+    wrap.appendChild(hdr);
+    CLASSES.filter(c => c.semester === sem).forEach(cls => {
+      const school = SCHOOLS[cls.school] || {color:'#888',label:cls.school};
+      const btn = document.createElement('button');
+      btn.className = 'class-btn';
+      btn.dataset.id = cls.id;
+      btn.innerHTML = `<span class="school-dot" style="background:${school.color}"></span>${cls.name} <span style="font-size:11px;color:var(--muted)">${school.label}</span>`;
+      btn.onclick = () => selectClass(cls, btn);
+      wrap.appendChild(btn);
+      autoSelectClass();
+    });
+  });
+}
+
+function selectClass(cls, btn) {
+  if (sessionActive) return;
+  document.querySelectorAll('.class-btn').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  selectedClass = cls;
+  const school = SCHOOLS[cls.school] || {label: cls.school};
+  document.getElementById('selected-class-info').style.display = '';
+  document.getElementById('selected-class-info').innerHTML =
+    `<strong>${cls.name}</strong> · ${cls.nameKo} · ${school.label} · ${cls.semester} · ${cls.students} students`;
+}
+
+// ── Auth ───────────────────────────────────────────────────────
+auth.onAuthStateChanged(user => {
+  if (user && user.email === PROFESSOR_EMAIL) {
+    document.getElementById('auth-screen').style.display = 'none';
+    document.getElementById('main-screen').style.display = 'block';
+    document.getElementById('user-email').textContent = user.email;
+    buildClassSelector();
+    initListeners();
+    loadHistory();
+  } else if (user) {
+    auth.signOut();
+    authErr('Only ' + PROFESSOR_EMAIL + ' can access this page.');
+  } else {
+    document.getElementById('auth-screen').style.display = 'flex';
+    document.getElementById('main-screen').style.display = 'none';
+  }
+});
+
+function signIn() {
+  const p = new firebase.auth.GoogleAuthProvider();
+  p.setCustomParameters({login_hint: PROFESSOR_EMAIL});
+  auth.signInWithPopup(p).catch(e => authErr(e.message));
+}
+function doSignOut() { if (unsubLogs) unsubLogs(); if (unsubSession) unsubSession(); auth.signOut(); }
+function authErr(msg) { const el=document.getElementById('auth-err'); el.textContent=msg; el.style.display=''; }
+
+// ── Firestore listeners ────────────────────────────────────────
+function initListeners() {
+  if (unsubSession) unsubSession();
+  unsubSession = db.collection('sessions').doc('current').onSnapshot(snap => {
+    if (!snap.exists) return;
+    const d = snap.data();
+    if (d.active) {
+      sessionActive = true;
+      sessionId     = d.sessionId;
+      currentToken  = d.token;
+      setBadge(true);
+      document.getElementById('start-btn').style.display = 'none';
+      document.getElementById('stop-btn').style.display  = '';
+      document.getElementById('session-info').style.display = '';
+      document.getElementById('session-info').textContent =
+        `Session ${sessionId} · Class: ${d.className || '—'} · Token rotates every ${TOKEN_INTERVAL_SECONDS}s`;
+      document.getElementById('countdown-wrap').style.display = '';
+      document.getElementById('url-display').style.display    = '';
+      document.getElementById('url-display').textContent      = studentUrl();
+      updateQR();
+      startCd();
+    } else {
+      sessionActive = false;
+      setBadge(false);
+      stopCd();
+      document.getElementById('start-btn').style.display = '';
+      document.getElementById('stop-btn').style.display  = 'none';
+      document.getElementById('countdown-wrap').style.display = 'none';
+      document.getElementById('url-display').style.display    = 'none';
+      document.getElementById('session-info').style.display   = 'none';
+      document.getElementById('qr-area').innerHTML =
+        '<div class="qr-ph"><p>Start a session<br>to show QR code</p></div>';
+      lastQrToken = null;
+    }
+  });
+
+  if (unsubLogs) unsubLogs();
+  // WITH this:
+  unsubLogs = db.collection('logs').orderBy('timestamp','desc').limit(2000)
+    .onSnapshot(snap => {
+      window.logs = snap.docs.map(d => d.data());
+      updateStats();
+      applyLogFilters();  // use filter-aware render instead of direct call
+    });
+}
+
+// ── Session control ────────────────────────────────────────────
+async function startSession() {
+  if (!selectedClass) {
+    alert('⚠️ Please select a class before starting a session.');
+    return;
+  }
+  const url = '';  // no longer using Google Forms
+
+  const cls   = selectedClass || { id:'manual', name:'Manual', nameKo:'', school:'', semester:'', students:0 };
+  const sid   = 'S' + Date.now().toString(36).toUpperCase();
+  const token = genToken();
+
+  clearedAt = null;  // ADD at top of startSession()
+
+  try {
+    await db.collection('sessions').doc('current').set({
+      active:       true,
+      sessionId:    sid,
+      token:        token,
+      classId:      cls.id,
+      className:    cls.name,
+      classNameKo:  cls.nameKo,
+      school:       cls.school,
+      semester:     cls.semester,
+      totalStudents:cls.students,
+      startedAt:    firebase.firestore.FieldValue.serverTimestamp(),
+      startedBy:    auth.currentUser.email
+    });
+    await db.collection('session_history').doc(sid).set({
+      sessionId:    sid, active: true,
+      formUrl:      url,
+      classId:      cls.id, className: cls.name,
+      school:       cls.school, semester: cls.semester,
+      totalStudents:cls.students,
+      startedAt:    firebase.firestore.FieldValue.serverTimestamp()
+    });
+    showMsg('Session started — QR code is live.','ok');
+  } catch(e) { showMsg('Error: '+e.message,'err'); }
+}
+
+async function stopSession() {
+  if (!confirm('Stop the current session? Students will no longer be able to submit.')) return;
+  try {
+    const subs   = logs.filter(l=>l.submitted).length;
+    const offCmp = logs.filter(l=>!l.onCampus).length;
+    await db.collection('sessions').doc('current').update({
+      active:false, endedAt:firebase.firestore.FieldValue.serverTimestamp()
+    });
+    if (sessionId) {
+      await db.collection('session_history').doc(sessionId).update({
+        active:false, endedAt:firebase.firestore.FieldValue.serverTimestamp(),
+        scans:logs.length, submissions:subs, offCampusCount:offCmp
+      });
+    }
+    showMsg('Session stopped.','ok');
+    loadHistory();
+  } catch(e) { showMsg('Error: '+e.message,'err'); }
+}
+
+// ── Token ──────────────────────────────────────────────────────
+function genToken() {
+  return Math.floor(Date.now()/(TOKEN_INTERVAL_SECONDS*1000)).toString(36)
+       + Math.random().toString(36).substr(2,6);
+}
+async function rotateToken() {
+  const t = genToken(); currentToken = t;
+  await db.collection('sessions').doc('current').update({token:t});
+  document.getElementById('url-display').textContent = studentUrl();
+  updateQR();
+}
+function studentUrl() {
+  const base = window.location.href.replace(/admin\.html.*$/,'index.html');
+  return `${base}?t=${currentToken}&s=${sessionId}`;
+}
+
+// ── Countdown ──────────────────────────────────────────────────
+function startCd() { stopCd(); updateCd(); cdInterval=setInterval(()=>{updateCd();if(timeLeft()<=1)rotateToken();},1000); }
+function stopCd()  { if(cdInterval){clearInterval(cdInterval);cdInterval=null;} }
+function timeLeft(){ const ms=TOKEN_INTERVAL_SECONDS*1000; return Math.max(1,Math.ceil((ms-(Date.now()%ms))/1000)); }
+function updateCd() {
+  const tl=timeLeft();
+  const el=document.getElementById('countdown-display');
+  const bar=document.getElementById('countdown-bar');
+  if(el)  el.textContent = String(Math.floor(tl/60)).padStart(2,'0')+':'+String(tl%60).padStart(2,'0');
+  if(bar) bar.style.width=((TOKEN_INTERVAL_SECONDS-tl)/TOKEN_INTERVAL_SECONDS*100).toFixed(1)+'%';
+}
+
+// ── QR ─────────────────────────────────────────────────────────
+function updateQR() {
+  if (lastQrToken===currentToken) return;
+  lastQrToken = currentToken;
+  const box = document.getElementById('qr-area');
+  box.innerHTML = '<div id="qr-box" style="padding:12px;background:#F1EFE8;border-radius:6px"></div>';
+  setTimeout(()=>{
+    try { new QRCode('qr-box',{text:studentUrl(),width:210,height:210,colorDark:'#2C2C2A',colorLight:'#F1EFE8'}); }
+    catch(e){}
+  },50);
+}
+
+// ── Stats ──────────────────────────────────────────────────────
+function updateStats() {
+  // REPLACE the filter line you just added in both functions with this:
+  const logs = window.logs.filter(l =>
+    l.sessionId === sessionId &&
+    (!clearedAt || (l.timestamp?.toDate?.() || new Date()) > clearedAt)
+  );
+  const subs    = logs.filter(l=>l.submitted).length;
+  const offCmp  = logs.filter(l=>!l.onCampus).length;
+  const total   = selectedClass?.students || 0;
+  const pct     = total>0?(subs/total*100).toFixed(1):0;
+  document.getElementById('stat-scans').textContent     = logs.length;
+  document.getElementById('stat-subs').textContent      = subs;
+  document.getElementById('stat-offcampus').textContent = offCmp;
+  document.getElementById('att-bar').style.width        = Math.min(100,pct)+'%';
+  document.getElementById('att-sub-txt').textContent    = subs+' submitted';
+  document.getElementById('att-pend-txt').textContent   = total>0?Math.max(0,total-subs)+' pending':'—';
+  document.getElementById('att-rate').textContent       =
+    logs.length>0?Math.round(subs/logs.length*100)+'% of scanners submitted':'—';
+  const wEl = document.getElementById('offcampus-warn');
+  if (offCmp>0) {
+    wEl.style.display='flex';
+    document.getElementById('offcampus-warn-txt').textContent =
+      offCmp+' off-campus IP'+(offCmp>1?'s':'')+' detected — possible link sharing';
+  } else { wEl.style.display='none'; }
+}
+
+function setBadge(on) {
+  document.getElementById('session-badge').className='badge '+(on?'b-on':'b-off');
+  document.getElementById('badge-dot').className='dot '+(on?'dot-on':'dot-off');
+  document.getElementById('badge-txt').textContent = on?'Session active':'Session closed';
+}
+
+// ── Log table ──────────────────────────────────────────────────
+function updateLogTable() {
+  applyLogFilters();  // REPLACE body with just this one line
+}
+
+// ── History ────────────────────────────────────────────────────
+async function loadHistory() {
+  const snap = await db.collection('session_history').orderBy('startedAt','desc').limit(200).get();
+  allHistory = snap.docs.map(d=>d.data());
+  // Populate filters
+  const clsEl  = document.getElementById('hist-filter-class');
+  const semEl  = document.getElementById('hist-filter-sem');
+  const clsIds = [...new Set(allHistory.map(h=>h.classId).filter(Boolean))];
+  const sems   = [...new Set(allHistory.map(h=>h.semester).filter(Boolean))];
+  clsEl.innerHTML = '<option value="">All classes</option>'
+    + clsIds.map(id=>{const c=CLASSES.find(x=>x.id===id); return `<option value="${id}">${c?c.name:id}</option>`;}).join('');
+  semEl.innerHTML = '<option value="">All semesters</option>'
+    + sems.map(s=>`<option value="${s}">${s}</option>`).join('');
+  renderHistory(allHistory);
+}
+
+function filterHistory() {
+  const cls = document.getElementById('hist-filter-class').value;
+  const sem = document.getElementById('hist-filter-sem').value;
+  renderHistory(allHistory.filter(h=>
+    (!cls||h.classId===cls) && (!sem||h.semester===sem)
+  ));
+}
+
+function renderHistory(rows) {
+  if (!rows.length) {
+    document.getElementById('hist-empty').style.display='';
+    document.getElementById('hist-wrap').style.display='none'; return;
+  }
+  document.getElementById('hist-empty').style.display='none';
+  document.getElementById('hist-wrap').style.display='';
+  document.getElementById('hist-body').innerHTML = rows.map(h=>{
+    const st = h.startedAt?.toDate?.()?.toLocaleString()||'—';
+    const en = h.endedAt?.toDate?.()?.toLocaleString()||(h.active?'Active now':'—');
+    const school = SCHOOLS[h.school]||{color:'#888',label:h.school||'—'};
+    return `<tr>
+      <td><span class="school-dot" style="background:${school.color};display:inline-block;margin-right:5px"></span>${h.className||h.classId||'—'}</td>
+      <td>${h.semester||'—'}</td>
+      <td class="mono" style="font-size:11px">${h.sessionId}</td>
+      <td style="font-size:12px">${st}</td><td style="font-size:12px">${en}</td>
+      <td>${h.scans??'—'}</td><td>${h.submissions??'—'}</td><td>${h.offCampusCount??'—'}</td>
+    </tr>`;
+  }).join('');
+}
+
+function clearHistory() {
+  const cls = document.getElementById('hist-filter-class').value;
+  const sem = document.getElementById('hist-filter-sem').value;
+
+  // Build a human-readable description of what will be deleted
+  const scope = cls ? `class "${CLASSES.find(c=>c.id===cls)?.name || cls}"` 
+                    : sem ? `semester "${sem}"` 
+                    : 'ALL session history';
+  if (!confirm(`Permanently delete ${scope} from Firestore?\n\nThis cannot be undone. Log entries are not affected.`)) return;
+
+  const toDelete = allHistory.filter(h =>
+    (!cls || h.classId === cls) && (!sem || h.semester === sem)
+  );
+  if (!toDelete.length) { alert('Nothing to delete.'); return; }
+
+  Promise.all(
+    toDelete.map(h => db.collection('session_history').doc(h.sessionId).delete())
+  ).then(() => {
+    showMsg(`Deleted ${toDelete.length} session record${toDelete.length>1?'s':''}.`, 'ok');
+    loadHistory();
+  }).catch(e => showMsg('Error: ' + e.message, 'err'));
+}
+
+// ── CSV export ─────────────────────────────────────────────────
+function exportCSV() {
+  if (!logs.length) { alert('No data to export.'); return; }
+  const rows = logs.map(l=>{
+    const t=l.timestamp?.toDate?.()?.toISOString()||'';
+    return [t,l.className||'',l.studentName||'',l.studentId||'',l.ip||'',
+            l.onCampus?'Yes':'No',l.submitted?'Yes':'No',l.sessionId||''].join(',');
+  });
+  const blob = new Blob([['Time,Class,Name,Student ID,IP,On Campus,Submitted,Session ID',...rows].join('\n')],{type:'text/csv'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+  a.download=`attendance_${new Date().toISOString().slice(0,10)}.csv`; a.click();
+}
+
+// ── Session Feedback ──────────────────────────────────────────────
+function loadFeedback() {
+  // Populate session dropdown from history
+  const sel  = document.getElementById('fb-filter-session');
+  const cur  = sel.value;
+  const opts = ['<option value="">All sessions</option>',
+                '<option value="__current__">Current session</option>'];
+  allHistory.forEach(h => {
+    const dt = h.startedAt?.toDate?.()?.toLocaleDateString('ko-KR') || '';
+    opts.push(`<option value="${h.sessionId}">${h.className||h.classId} — ${dt}</option>`);
+  });
+  sel.innerHTML = opts.join('');
+  sel.value = cur;
+
+  const sessFilter = sel.value;
+
+  // Filter logs to only entries with feedback
+  let filtered = (window.logs || []).filter(l => l.feedback && l.feedback.trim() !== '');
+
+  if (sessFilter === '__current__') filtered = filtered.filter(l => l.sessionId === sessionId);
+  else if (sessFilter)             filtered = filtered.filter(l => l.sessionId === sessFilter);
+
+  // Sort newest first
+  filtered.sort((a,b) => {
+    const at = a.timestamp?.toDate?.()?.getTime() || 0;
+    const bt = b.timestamp?.toDate?.()?.getTime() || 0;
+    return bt - at;
+  });
+
+  const sumEl = document.getElementById('fb-summary');
+  if (sumEl) sumEl.textContent = `${filtered.length} feedback response${filtered.length !== 1 ? 's' : ''}`;
+
+  if (!filtered.length) {
+    document.getElementById('fb-empty').style.display = '';
+    document.getElementById('fb-wrap').style.display  = 'none';
+    return;
+  }
+  document.getElementById('fb-empty').style.display = 'none';
+  document.getElementById('fb-wrap').style.display  = '';
+
+  document.getElementById('fb-body').innerHTML = filtered.map(l => {
+    const ts = l.timestamp?.toDate?.()?.toLocaleString('ko-KR',
+               {dateStyle:'short', timeStyle:'short'}) || '—';
+    return `<tr>
+      <td class="mono" style="font-size:11px;white-space:nowrap">${ts}</td>
+      <td style="font-size:12px">${l.className || '—'}</td>
+      <td style="line-height:1.6">${l.feedback}</td>
+    </tr>`;
+  }).join('');
+}
+
+function exportFeedbackCSV() {
+  const sessFilter = document.getElementById('fb-filter-session')?.value || '';
+  let filtered = (window.logs || []).filter(l => l.feedback && l.feedback.trim() !== '');
+  if (sessFilter === '__current__') filtered = filtered.filter(l => l.sessionId === sessionId);
+  else if (sessFilter)             filtered = filtered.filter(l => l.sessionId === sessFilter);
+
+  if (!filtered.length) { alert('No feedback to export.'); return; }
+
+  const rows = filtered.map(l => {
+    const t = l.timestamp?.toDate?.()?.toISOString() || '';
+    return [t, l.className||'', (l.feedback||'').replace(/,/g,';')].join(',');
+  });
+  const blob = new Blob([['Time,Class,Feedback',...rows].join('\n')], {type:'text/csv'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `feedback_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+}
+
+// ── Tabs ───────────────────────────────────────────────────────
+function switchTab(id,btn) {
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById('tab-'+id).classList.add('active');
+  btn.classList.add('active');
+  if(id==='history') loadHistory();
+  if(id==='feedback') loadFeedback();
+}
+
+// ── Status ─────────────────────────────────────────────────────
+function showMsg(txt,type) {
+  const el=document.getElementById('status-msg');
+  el.textContent=txt; el.className=type==='ok'?'msg-ok':'msg-err'; el.style.display='';
+  setTimeout(()=>{el.style.display='none';},5000);
+}
+
+// INSERT in <script>
+let modalQrInstance = null;
+
+function openQRModal() {
+  if (!sessionActive || !currentToken) return;
+  const modal = document.getElementById('qr-modal');
+  const box   = document.getElementById('modal-qr-box');
+  box.innerHTML = '';
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+
+  // Render a larger QR in the modal
+  setTimeout(() => {
+    try {
+      modalQrInstance = new QRCode(box, {
+        text: studentUrl(), width: 380, height: 380,
+        colorDark: '#2C2C2A', colorLight: '#F1EFE8'
+      });
+    } catch(e) {}
+  }, 50);
+
+  // Sync countdown in modal
+  document.getElementById('modal-url').textContent = studentUrl();
+  updateModalCd();
+  window._modalCdInterval = setInterval(() => {
+    updateModalCd();
+    // Redraw QR if token rotated
+    if (lastQrToken !== currentToken) {
+      box.innerHTML = '';
+      setTimeout(() => {
+        try { new QRCode(box,{text:studentUrl(),width:380,height:380,colorDark:'#2C2C2A',colorLight:'#F1EFE8'}); }
+        catch(e){}
+      }, 50);
+      document.getElementById('modal-url').textContent = studentUrl();
+    }
+  }, 1000);
+}
+
+// ── Modal ─────────────────────────────────────────────────────
+function updateModalCd() {
+  const tl  = timeLeft();
+  const mm  = String(Math.floor(tl/60)).padStart(2,'0');
+  const ss  = String(tl%60).padStart(2,'0');
+  const el  = document.getElementById('modal-cd');
+  if (el) { el.textContent = `Next token in ${mm}:${ss}`; el.style.color = tl<30?'#F0997B':'#fff'; }
+}
+
+function closeQRModal(event) {
+  // Close on overlay click (not on the QR box itself)
+  if (event && event.target !== document.getElementById('qr-modal')) return;
+  document.getElementById('qr-modal').classList.remove('open');
+  document.body.style.overflow = '';
+  clearInterval(window._modalCdInterval);
+}
+
+function autoSelectClass() {
+  const now   = new Date();
+  const day   = now.getDay();
+  const hhmm  = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0');
+
+  // Look for a class whose schedule window contains right now
+  // Extends 15 minutes before start so you can open early
+  const match = CLASSES.find(cls => {
+    if (!cls.schedule?.length) return false;
+    return cls.schedule.some(slot => {
+      if (slot.day !== day) return false;
+      const early = subtractMinutes(slot.start, 15);
+      return hhmm >= early && hhmm <= slot.end;
+    });
+  });
+
+  if (match) {
+    const btn = document.querySelector(`.class-btn[data-id="${match.id}"]`);
+    if (btn) { btn.click(); }  // reuses your existing selectClass() logic
+  }
+}
+
+function subtractMinutes(hhmm, mins) {
+  const [h, m] = hhmm.split(':').map(Number);
+  const total  = h * 60 + m - mins;
+  const hh     = Math.floor(Math.max(total, 0) / 60).toString().padStart(2,'0');
+  const mm     = (Math.max(total, 0) % 60).toString().padStart(2,'0');
+  return `${hh}:${mm}`;
+}
+
+function clearSessionStats() {
+  if (!confirm('Clear the current stats display? This hides existing scans from view but does not delete any data.')) return;
+  clearedAt = new Date();
+  updateStats();
+  updateLogTable();
+}
+
+// ── Access Log ─────────────────────────────────────────────────────
+// ── Log filter state ───────────────────────────────────────────
+let logSortKey = 'timestamp';
+let logSortAsc = false;
+
+function populateLogFilters() {
+  // Class dropdown — built from actual log data so it shows historical classes too
+  const classEl = document.getElementById('log-filter-class');
+  if (!classEl) return;
+  const seen = new Set();
+  const opts = ['<option value="">All classes</option>'];
+  window.logs.forEach(l => {
+    if (l.classId && !seen.has(l.classId)) {
+      seen.add(l.classId);
+      opts.push(`<option value="${l.classId}">${l.className || l.classId}</option>`);
+    }
+  });
+  const current = classEl.value;
+  classEl.innerHTML = opts.join('');
+  classEl.value = current;
+
+  // Session dropdown — populated from session history + current
+  const sessEl = document.getElementById('log-filter-session');
+  if (!sessEl) return;
+  const sessOpts = ['<option value="">All sessions</option>',
+                    '<option value="__current__">Current session only</option>'];
+  allHistory.forEach(h => {
+    const dt = h.startedAt?.toDate?.()?.toLocaleDateString('ko-KR') || '';
+    sessOpts.push(`<option value="${h.sessionId}">${h.className || h.classId} — ${dt} (${h.sessionId})</option>`);
+  });
+  const curSess = sessEl.value;
+  sessEl.innerHTML = sessOpts.join('');
+  sessEl.value = curSess;
+}
+
+function applyLogFilters() {
+  populateLogFilters();
+
+  const cls       = document.getElementById('log-filter-class')?.value     || '';
+  const date      = document.getElementById('log-filter-date')?.value      || '';
+  const sess      = document.getElementById('log-filter-session')?.value   || '';
+  const submitted = document.getElementById('log-filter-submitted')?.value || '';
+  const location  = document.getElementById('log-filter-location')?.value  || '';
+
+  let filtered = [...(window.logs || [])];
+
+  if (cls)       filtered = filtered.filter(l => l.classId === cls);
+  if (sess === '__current__') filtered = filtered.filter(l => l.sessionId === sessionId);
+  else if (sess) filtered = filtered.filter(l => l.sessionId === sess);
+  if (date)      filtered = filtered.filter(l => {
+    const d = l.timestamp?.toDate?.();
+    return d && d.toISOString().slice(0,10) === date;
+  });
+  if (submitted === 'yes') filtered = filtered.filter(l =>  l.submitted);
+  if (submitted === 'no')  filtered = filtered.filter(l => !l.submitted);
+  if (location === 'campus')    filtered = filtered.filter(l =>  l.onCampus);
+  if (location === 'offcampus') filtered = filtered.filter(l => !l.onCampus);
+
+  // Sort
+  filtered.sort((a, b) => {
+    let av = a[logSortKey], bv = b[logSortKey];
+    if (logSortKey === 'timestamp') {
+      av = a.timestamp?.toDate?.()?.getTime() || 0;
+      bv = b.timestamp?.toDate?.()?.getTime() || 0;
+    }
+    if (av < bv) return logSortAsc ?  1 : -1;
+    if (av > bv) return logSortAsc ? -1 :  1;
+    return 0;
+  });
+
+  // Summary line
+  const subs    = filtered.filter(l=>l.submitted).length;
+  const offcamp = filtered.filter(l=>!l.onCampus).length;
+  const sumEl   = document.getElementById('log-filter-summary');
+  if (sumEl) sumEl.textContent =
+    `${filtered.length} entries · ${subs} submitted · ${offcamp} off-campus`;
+
+  renderLogTable(filtered);
+}
+
+function sortLog(key) {
+  if (logSortKey === key) logSortAsc = !logSortAsc;
+  else { logSortKey = key; logSortAsc = false; }
+  applyLogFilters();
+}
+
+function clearLogFilters() {
+  document.getElementById('log-filter-class').value     = '';
+  document.getElementById('log-filter-date').value      = '';
+  document.getElementById('log-filter-session').value   = '';
+  document.getElementById('log-filter-submitted').value = '';
+  document.getElementById('log-filter-location').value  = '';
+  applyLogFilters();
+}
+
+function renderLogTable(filtered) {
+  if (!filtered.length) {
+    document.getElementById('log-empty').style.display = '';
+    document.getElementById('log-wrap').style.display  = 'none';
+    return;
+  }
+  document.getElementById('log-empty').style.display = 'none';
+  document.getElementById('log-wrap').style.display  = '';
+  document.getElementById('log-body').innerHTML = filtered.map(l => {
+    const ts = l.timestamp?.toDate?.()?.toLocaleString('ko-KR',
+               {dateStyle:'short',timeStyle:'short'}) || '—';
+    return `<tr>
+      <td class="mono" style="font-size:11px;white-space:nowrap">${ts}</td>
+      <td style="font-size:12px">${l.className||'—'}</td>
+      <td>${l.studentName||'—'}</td>
+      <td class="mono">${l.studentId||'—'}</td>
+      <td class="mono" style="font-size:11px">${l.ip||'—'}</td>
+      <td>
+        <span class="badge ${l.onCampus?'b-on':'b-warn'}">
+          ${l.onCampus ? 'Korea' : 'Foreign'}
+        </span>
+        ${l.city ? `<span style="font-size:11px;color:var(--muted);margin-left:4px">${l.city}</span>` : ''}
+      </td>
+      <td><span class="badge ${l.submitted?'b-on':'b-off'}">${l.submitted?'Yes':'No'}</span></td>
+      <td style="font-size:12px;color:var(--muted);max-width:180px">${l.feedback||''}</td>
+    </tr>`;
+  }).join('');
+}
+
+// Updated CSV export — respects current filters
+function exportFilteredCSV() {
+  const cls       = document.getElementById('log-filter-class')?.value     || '';
+  const date      = document.getElementById('log-filter-date')?.value      || '';
+  const sess      = document.getElementById('log-filter-session')?.value   || '';
+  const submitted = document.getElementById('log-filter-submitted')?.value || '';
+  const location  = document.getElementById('log-filter-location')?.value  || '';
+
+  let filtered = [...(window.logs || [])];
+  if (cls)       filtered = filtered.filter(l => l.classId === cls);
+  if (sess === '__current__') filtered = filtered.filter(l => l.sessionId === sessionId);
+  else if (sess) filtered = filtered.filter(l => l.sessionId === sess);
+  if (date)      filtered = filtered.filter(l => {
+    const d = l.timestamp?.toDate?.(); return d && d.toISOString().slice(0,10) === date;
+  });
+  if (submitted === 'yes') filtered = filtered.filter(l =>  l.submitted);
+  if (submitted === 'no')  filtered = filtered.filter(l => !l.submitted);
+  if (location === 'campus')    filtered = filtered.filter(l =>  l.onCampus);
+  if (location === 'offcampus') filtered = filtered.filter(l => !l.onCampus);
+
+  if (!filtered.length) { alert('No data matches the current filters.'); return; }
+
+  const rows = filtered.map(l => {
+    const t = l.timestamp?.toDate?.()?.toISOString() || '';
+    return [t, l.className||'', l.studentName||'', l.studentId||'',
+            l.ip||'', l.onCampus?'Yes':'No', l.submitted?'Yes':'No',
+            (l.feedback||'').replace(/,/g,''), l.sessionId||''].join(',');
+  });
+  const blob = new Blob(
+    [['Time,Class,Name,Student ID,IP,On Campus,Submitted,Feedback,Session ID',...rows].join('\n')],
+    {type:'text/csv'}
+  );
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `attendance_${date||new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+}
+</script>
+
+<!-- INSERT just before </body> -->
+<div class="modal-overlay" id="qr-modal" onclick="closeQRModal(event)">
+  <button class="modal-close" onclick="closeQRModal()">✕ Close</button>
+  <div class="modal-qr-box" id="modal-qr-box"></div>
+  <div class="modal-meta">
+    <div>Scan from QR code above · 위 QR 코드를 스캔하세요</div>
+    <div class="modal-cd" id="modal-cd"></div>
+    <div style="font-size:11px;margin-top:4px;opacity:.6" id="modal-url"></div>
+  </div>
+</div>
+</body>
+</html>
