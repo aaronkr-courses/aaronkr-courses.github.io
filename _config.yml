@@ -74,7 +74,7 @@ kramdown:
   syntax_highlighter_opts:
     css_class: "highlight"
 
-include: ["_pages", "attend/**/*"]
+include: ["_pages"]
 exclude:
   - Gemfile
   - Gemfile.lock
