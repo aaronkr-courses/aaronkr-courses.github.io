@@ -51,8 +51,8 @@
   fetch('https://aaronsnowberger.com/bio.json')
     .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
     .then(function(d) {
-      if (d.bio_en) document.getElementById('bio-en').innerHTML = d.bio_en;
-      if (d.bio_ko) document.getElementById('bio-ko').innerHTML = d.bio_ko;
+      if (d.bio_en) document.getElementById('bio-en').textContent = d.bio_en;
+      if (d.bio_ko) document.getElementById('bio-ko').textContent = d.bio_ko;
       if (d.role)   document.getElementById('instructor-role').textContent = d.role;
     })
     .catch(function() {}); // no-op: static bio remains

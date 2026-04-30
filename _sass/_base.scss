@@ -14,6 +14,12 @@
   --tag-bg: #{$tag-bg-dark};
   --radius: #{$radius};
   --nav-bg: #{$nav-bg-dark};
+  --grade-attend:  #{$grade-attend};
+  --grade-hw:      #{$grade-hw};
+  --grade-quiz:    #{$grade-quiz};
+  --grade-mid:     #{$grade-mid};
+  --grade-final:   #{$grade-final};
+  --grade-project: #{$grade-project};
 }
 
 [data-theme="light"] {

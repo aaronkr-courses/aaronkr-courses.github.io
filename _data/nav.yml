@@ -70,7 +70,7 @@
     - divider: true
     - title_en: "Arduino (Circuits)"
       title_ko: "아두이노"
-      url: https://www.pailab.io/pages/arduino-overview"
+      url: "https://www.pailab.io/pages/arduino-overview"
     - title_en: "ESP32 (IoT)"
       title_ko: "ESP32"
       url: "https://www.pailab.io/pages/esp32-overview"

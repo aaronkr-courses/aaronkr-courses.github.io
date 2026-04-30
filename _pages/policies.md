@@ -4,58 +4,6 @@ title: Academic Policies
 permalink: /policies/
 ---
 
-<style>
-.pol-section{padding:44px 0 0}
-.policy-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(262px,1fr));gap:14px;margin-bottom:52px}
-a.pol-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);display:flex;flex-direction:column;text-decoration:none;color:inherit;position:relative;overflow:hidden;transition:border-color .2s,transform .18s,box-shadow .2s}
-a.pol-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--accent),var(--accent3));opacity:.55;transition:opacity .2s}
-a.pol-card:hover::before{opacity:1}
-a.pol-card:hover{border-color:#3a3a5a;transform:translateY(-2px);box-shadow:0 8px 32px rgba(0,0,0,.4)}
-.pol-card-body{display:flex;flex-direction:column;gap:8px;padding:18px;flex:1;min-width:0}
-.pol-code{font-family:'IBM Plex Mono',monospace;font-size:.68rem;color:var(--accent3);letter-spacing:.08em;padding-right:56px}
-.pol-card-title{font-size:.9rem;font-weight:500;color:var(--text);line-height:1.35}
-.pol-excerpt{position:relative;max-height:82px;overflow:hidden;font-size:.78rem;color:var(--sub);line-height:1.6;flex:1}
-.pol-excerpt::after{content:'';position:absolute;bottom:0;left:0;right:0;height:36px;background:linear-gradient(transparent,var(--surface));pointer-events:none}
-[data-theme=light] .pol-excerpt::after{background:linear-gradient(transparent,#fff)}
-.read-more{display:inline-block;margin-top:8px;font-family:'IBM Plex Mono',monospace;font-size:.67rem;color:var(--accent3);letter-spacing:.04em;pointer-events:none;transition:letter-spacing .2s}
-a.pol-card:hover .read-more{letter-spacing:.08em}
-.pol-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
-.pol-tag{font-family:'IBM Plex Mono',monospace;font-size:.62rem;padding:2px 8px;border-radius:3px;background:var(--tag-bg);border:1px solid var(--border);color:var(--muted)}
-.pol-tag.core{color:var(--accent3);border-color:rgba(109,204,221,.25)}
-.pol-tag.ai-p{color:var(--accent);border-color:rgba(155,101,255,.28)}
-.pol-tag.assess{color:var(--accent2);border-color:rgba(126,184,247,.25)}
-.pol-tag.conduct{color:var(--warn);border-color:rgba(251,191,36,.22)}
-.pol-card-footer{display:flex;align-items:center;justify-content:space-between;margin-top:4px}
-.pol-updated{font-family:'IBM Plex Mono',monospace;font-size:.62rem;color:var(--muted)}
-.pol-arrow{font-size:.75rem;color:var(--muted);opacity:0;transition:opacity .18s,transform .18s}
-a.pol-card:hover .pol-arrow{opacity:1;transform:translateX(3px)}
-.list-section{padding:0 0 52px}
-.pol-list{list-style:none}
-a.pol-list-item{display:flex;align-items:baseline;gap:16px;padding:14px 0;border-bottom:1px solid var(--border);text-decoration:none;color:inherit;transition:background .15s}
-a.pol-list-item:last-child{border-bottom:none}
-a.pol-list-item:hover{background:var(--surface)}
-.pl-num{font-family:'IBM Plex Mono',monospace;font-size:.68rem;color:var(--muted);width:28px;flex-shrink:0}
-.pl-content{flex:1;min-width:0}
-.pl-title{font-size:.92rem;font-weight:500;color:var(--text);line-height:1.35}
-.pl-desc{font-size:.78rem;color:var(--muted);margin-top:3px;line-height:1.5}
-.pl-meta{display:flex;gap:10px;flex-shrink:0;align-items:center}
-.pl-date{font-family:'IBM Plex Mono',monospace;font-size:.62rem;color:var(--muted);white-space:nowrap}
-.pl-arrow{font-size:.75rem;color:var(--muted);opacity:0;transition:opacity .15s,transform .15s}
-a.pol-list-item:hover .pl-arrow{opacity:1;transform:translateX(3px)}
-.faq-section{padding:0 0 64px}
-.faq-list{list-style:none}
-.faq-item{border-bottom:1px solid var(--border)}
-.faq-item:first-child{border-top:1px solid var(--border)}
-.faq-q{display:flex;align-items:center;justify-content:space-between;padding:18px 0;cursor:pointer;background:none;border:none;width:100%;text-align:left;font-family:'Playfair Display','DM Serif Display',serif;font-size:1.05rem;font-weight:700;color:var(--text);transition:color .2s;gap:16px;line-height:1.3}
-.faq-q:hover,.faq-item.open .faq-q{color:var(--accent3)}
-.faq-chevron{font-size:.65rem;color:var(--muted);transition:transform .25s;flex-shrink:0;font-family:'IBM Plex Mono',monospace}
-.faq-item.open .faq-chevron{transform:rotate(180deg)}
-.faq-a{display:none;padding:0 0 18px;font-size:.88rem;color:var(--sub);line-height:1.8;max-width:640px}
-.faq-a p+p{margin-top:10px}
-.faq-item.open .faq-a{display:block}
-@media(max-width:700px){.policy-grid{grid-template-columns:1fr}.pl-desc{display:none}}
-</style>
-
 <div class="wrap">
 <header class="page-header">
   <p class="eyebrow animate d1">

@@ -90,43 +90,43 @@ layout: default
 
         <div class="grade-track">
           {%- if g.attendance -%}
-          <div class="grade-seg" style="flex:{{ g.attendance }};background:#4a5568;">
+          <div class="grade-seg" style="flex:{{ g.attendance }};background:var(--grade-attend);">
             <span class="grade-pct">{{ g.attendance }}%</span><span class="grade-name"><span class="lang-en">Attend.</span><span class="lang-ko">출석</span></span>
           </div>
           {%- endif -%}
           {%- if g.homework -%}
-          <div class="grade-seg" style="flex:{{ g.homework }};background:#7c3aff;">
+          <div class="grade-seg" style="flex:{{ g.homework }};background:var(--grade-hw);">
             <span class="grade-pct">{{ g.homework }}%</span><span class="grade-name"><span class="lang-en">HW</span><span class="lang-ko">과제</span></span>
           </div>
           {%- endif -%}
           {%- if g.quiz -%}
-          <div class="grade-seg" style="flex:{{ g.quiz }};background:#9b65ff;">
+          <div class="grade-seg" style="flex:{{ g.quiz }};background:var(--grade-quiz);">
             <span class="grade-pct">{{ g.quiz }}%</span><span class="grade-name"><span class="lang-en">Quiz</span><span class="lang-ko">퀴즈</span></span>
           </div>
           {%- endif -%}
           {%- if g.midterm -%}
-          <div class="grade-seg" style="flex:{{ g.midterm }};background:#2563eb;">
+          <div class="grade-seg" style="flex:{{ g.midterm }};background:var(--grade-mid);">
             <span class="grade-pct">{{ g.midterm }}%</span><span class="grade-name"><span class="lang-en">Mid.</span><span class="lang-ko">중간</span></span>
           </div>
           {%- endif -%}
           {%- if g.final -%}
-          <div class="grade-seg" style="flex:{{ g.final }};background:#0e6490;">
+          <div class="grade-seg" style="flex:{{ g.final }};background:var(--grade-final);">
             <span class="grade-pct">{{ g.final }}%</span><span class="grade-name"><span class="lang-en">Final</span><span class="lang-ko">기말</span></span>
           </div>
           {%- endif -%}
           {%- if g.project -%}
-          <div class="grade-seg" style="flex:{{ g.project }};background:#b45309;">
+          <div class="grade-seg" style="flex:{{ g.project }};background:var(--grade-project);">
             <span class="grade-pct">{{ g.project }}%</span><span class="grade-name"><span class="lang-en">Proj.</span><span class="lang-ko">프로젝트</span></span>
           </div>
           {%- endif -%}
         </div>
         <div class="grade-legend">
-          {%- if g.attendance -%}<span class="gl-item"><span class="gl-dot" style="background:#4a5568;"></span>{{ g.attendance }}% <span class="lang-en">Attendance</span><span class="lang-ko">출석</span></span>{%- endif -%}
-          {%- if g.homework -%}<span class="gl-item"><span class="gl-dot" style="background:#7c3aff;"></span>{{ g.homework }}% <span class="lang-en">Homework</span><span class="lang-ko">과제</span></span>{%- endif -%}
-          {%- if g.quiz -%}<span class="gl-item"><span class="gl-dot" style="background:#9b65ff;"></span>{{ g.quiz }}% <span class="lang-en">Quiz</span><span class="lang-ko">퀴즈</span></span>{%- endif -%}
-          {%- if g.midterm -%}<span class="gl-item"><span class="gl-dot" style="background:#2563eb;"></span>{{ g.midterm }}% <span class="lang-en">Midterm</span><span class="lang-ko">중간고사</span></span>{%- endif -%}
-          {%- if g.final -%}<span class="gl-item"><span class="gl-dot" style="background:#0e6490;"></span>{{ g.final }}% <span class="lang-en">Final</span><span class="lang-ko">기말고사</span></span>{%- endif -%}
-          {%- if g.project -%}<span class="gl-item"><span class="gl-dot" style="background:#b45309;"></span>{{ g.project }}% <span class="lang-en">Project</span><span class="lang-ko">프로젝트</span></span>{%- endif -%}
+          {%- if g.attendance -%}<span class="gl-item"><span class="gl-dot" style="background:var(--grade-attend);"></span>{{ g.attendance }}% <span class="lang-en">Attendance</span><span class="lang-ko">출석</span></span>{%- endif -%}
+          {%- if g.homework -%}<span class="gl-item"><span class="gl-dot" style="background:var(--grade-hw);"></span>{{ g.homework }}% <span class="lang-en">Homework</span><span class="lang-ko">과제</span></span>{%- endif -%}
+          {%- if g.quiz -%}<span class="gl-item"><span class="gl-dot" style="background:var(--grade-quiz);"></span>{{ g.quiz }}% <span class="lang-en">Quiz</span><span class="lang-ko">퀴즈</span></span>{%- endif -%}
+          {%- if g.midterm -%}<span class="gl-item"><span class="gl-dot" style="background:var(--grade-mid);"></span>{{ g.midterm }}% <span class="lang-en">Midterm</span><span class="lang-ko">중간고사</span></span>{%- endif -%}
+          {%- if g.final -%}<span class="gl-item"><span class="gl-dot" style="background:var(--grade-final);"></span>{{ g.final }}% <span class="lang-en">Final</span><span class="lang-ko">기말고사</span></span>{%- endif -%}
+          {%- if g.project -%}<span class="gl-item"><span class="gl-dot" style="background:var(--grade-project);"></span>{{ g.project }}% <span class="lang-en">Project</span><span class="lang-ko">프로젝트</span></span>{%- endif -%}
         </div>
         {%- endif -%}
       </div>
