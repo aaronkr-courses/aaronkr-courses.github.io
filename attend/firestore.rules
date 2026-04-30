@@ -1,25 +1,49 @@
 // Paste into: Firebase Console → Firestore Database → Rules tab
-// Replace YOUR_EMAIL with your actual email address.
+// Replace YOUR_EMAIL with your actual professor Google account email.
 
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
 
+    // ── Current session ─────────────────────────────────────────
+    // Students read this to check if a session is active + get the token.
+    // Only the professor can write (start / stop / rotate token).
     match /sessions/current {
       allow read:  if true;
       allow write: if request.auth != null
-                   && request.auth.token.email == "YOUR_EMAIL@jbnu.ac.kr";
+                   && request.auth.token.email == "YOUR_EMAIL";
     }
 
+    // ── Session history ─────────────────────────────────────────
+    // Professor-only — stores completed session summaries.
     match /session_history/{id} {
       allow read, write: if request.auth != null
-                         && request.auth.token.email == "YOUR_EMAIL@jbnu.ac.kr";
+                         && request.auth.token.email == "YOUR_EMAIL";
     }
 
+    // ── Attendance logs ─────────────────────────────────────────
     match /logs/{id} {
-      allow create: if true;
-      allow read, update, delete: if request.auth != null
-                                   && request.auth.token.email == "YOUR_EMAIL@jbnu.ac.kr";
+
+      // Students CREATE a scan entry when they open the QR link.
+      // Rules enforced server-side:
+      //   1. submitted must be false  (can't self-report as present)
+      //   2. studentName / studentId must NOT be set yet  (those come in the update)
+      //   3. tokenUsed must match the live session token  (server-side token check)
+      allow create: if request.resource.data.submitted == false
+                    && !('studentName' in request.resource.data)
+                    && !('studentId' in request.resource.data)
+                    && request.resource.data.tokenUsed ==
+                         get(/databases/$(database)/documents/sessions/current).data.token;
+
+      // Students UPDATE their own (unsubmitted) entry to attach name + ID.
+      // Professors can update any entry (e.g. corrections).
+      allow update: if resource.data.submitted == false
+                    || (request.auth != null
+                        && request.auth.token.email == "YOUR_EMAIL");
+
+      // Only the professor can read or delete log entries.
+      allow read, delete: if request.auth != null
+                          && request.auth.token.email == "YOUR_EMAIL";
     }
   }
 }

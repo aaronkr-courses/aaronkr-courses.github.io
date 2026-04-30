@@ -37,8 +37,19 @@ jobs:
           sed -i "s|YOUR_PROJECT_ID|${FIREBASE_PROJECT_ID}|g"         attend/firebase-config.js
           sed -i "s|YOUR_SENDER_ID|${FIREBASE_SENDER_ID}|g"           attend/firebase-config.js
           sed -i "s|YOUR_APP_ID|${FIREBASE_APP_ID}|g"                 attend/firebase-config.js
-          sed -i "s|YOUR_MEASUREMENT_ID|${FIREBASE_MEASUREMENT_ID}|g" attend/firebase-config.js
           sed -i "s|your-email@gmail.com|${PROFESSOR_EMAIL}|g"        attend/firebase-config.js
+          # measurementId is optional — remove the line entirely if secret is not set
+          if [ -z "${FIREBASE_MEASUREMENT_ID}" ]; then
+            sed -i '/measurementId/d' attend/firebase-config.js
+          else
+            sed -i "s|YOUR_MEASUREMENT_ID|${FIREBASE_MEASUREMENT_ID}|g" attend/firebase-config.js
+          fi
+          # Verify all placeholders were replaced (fail fast if a required secret is missing)
+          if grep -q "YOUR_" attend/firebase-config.js; then
+            echo "ERROR: firebase-config.js still contains unreplaced placeholders:" >&2
+            grep "YOUR_" attend/firebase-config.js >&2
+            exit 1
+          fi
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1

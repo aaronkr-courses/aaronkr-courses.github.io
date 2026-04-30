@@ -337,22 +337,27 @@ async function doSubmit(e) {
         submittedAt:  firebase.firestore.FieldValue.serverTimestamp()
       });
     } else {
-      // Fallback if scan ref was lost (e.g. page refreshed mid-session)
-      await db.collection('logs').add({
+      // Fallback: page was refreshed mid-session and scanLogRef was lost.
+      // Two-step: create unsubmitted entry (passes token rule), then update to submitted.
+      const fallbackRef = await db.collection('logs').add({
         sessionId:   sessionData.sessionId,
         classId:     sessionData.classId   || '',
         className:   sessionData.className || '',
-        studentName: name,
-        studentId:   sid,
         ip:          userIp,
         country:     window.geoInfo?.country || '',
         region:      window.geoInfo?.region  || '',
         city:        window.geoInfo?.city    || '',
         onCampus:    onCampus,
-        submitted:   true,
-        feedback:    document.getElementById('f-feedback')?.value.trim() || null,
+        submitted:   false,
         timestamp:   firebase.firestore.FieldValue.serverTimestamp(),
         tokenUsed:   urlToken
+      });
+      await fallbackRef.update({
+        studentName: name,
+        studentId:   sid,
+        submitted:   true,
+        feedback:    document.getElementById('f-feedback')?.value.trim() || null,
+        submittedAt: firebase.firestore.FieldValue.serverTimestamp()
       });
     }
     clearInterval(timerInterval);

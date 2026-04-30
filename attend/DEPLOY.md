@@ -91,7 +91,6 @@ The deploy workflow reads your real credentials from GitHub Secrets — they are
 | `FIREBASE_PROJECT_ID` | Same (e.g. `aaronkr-courses`) |
 | `FIREBASE_SENDER_ID` | Same (`messagingSenderId`) |
 | `FIREBASE_APP_ID` | Same (`appId`) |
-| `FIREBASE_MEASUREMENT_ID` | Same (`measurementId`) |
 | `PROFESSOR_EMAIL` | Your Google account email (must match Firestore rules) |
 
 ---
@@ -106,7 +105,7 @@ The deploy workflow reads your real credentials from GitHub Secrets — they are
 
 ---
 
-## Step 6 — Push to main and verify
+## Step 7 — Push to main and verify
 
 ```bash
 # firebase-config.js is gitignored — git will skip it automatically
@@ -123,7 +122,7 @@ When it finishes (~2–3 minutes), visit:
 
 ---
 
-## Step 6 — Set up your Google Forms (optional)
+## Step 8 — Set up your Google Forms (optional)
 
 For each class, create a Google Form with at least:
 - Short answer: Full name (이름)
@@ -172,7 +171,7 @@ bundle exec jekyll serve --livereload
 
 ## Each class session — how to use
 
-1. Open `https://aaronkr-courses.github.io/courses/attend/admin.html` on your device
+1. Open `https://courses.aaron.kr/attend/admin.html` on your device
 2. Sign in with Google
 3. Click the class button (color-coded by university)
 4. Click **▶ Start session**
