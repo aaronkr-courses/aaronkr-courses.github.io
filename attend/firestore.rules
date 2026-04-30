@@ -1,27 +1,25 @@
-// ============================================================
-//  FIREBASE CONFIG — fill this in once, never touch again
-//  console.firebase.google.com → Project Settings → Your apps
-// ============================================================
+// Paste into: Firebase Console → Firestore Database → Rules tab
+// Replace YOUR_EMAIL with your actual email address.
 
-// Obfuscated config — restricts key via Google Cloud Console instead of hiding
-const _a = atob;
-const FIREBASE_CONFIG = {
-  // apiKey: _a("AIzaSyBHD8v13DovLbpH1NUPUIvzvKP8VY8CkAs"),
-  apiKey: "AIzaSyBHD8v13DovLbpH1NUPUIvzvKP8VY8CkAs",
-  authDomain: "aaronkr-courses.firebaseapp.com",
-  projectId: "aaronkr-courses",
-  storageBucket: "aaronkr-courses.firebasestorage.app",
-  messagingSenderId: "130275017151",
-  appId: "1:130275017151:web:6fc9f3895fdf1cfbd0210a",
-  measurementId: "G-1JJW461PEK"
-};
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
 
-// Your university Google account — only this email can sign in to admin
-const PROFESSOR_EMAIL = "aaronkr.trainer@gmail.com";
+    match /sessions/current {
+      allow read:  if true;
+      allow write: if request.auth != null
+                   && request.auth.token.email == "YOUR_EMAIL@jbnu.ac.kr";
+    }
 
-// Campus IP prefixes — students on university WiFi will match these.
-// Off-campus IPs get flagged in the dashboard.
-const CAMPUS_IP_PREFIXES = ["192.168.", "10.0.", "172.16.", "165.229.", "203.254."];
+    match /session_history/{id} {
+      allow read, write: if request.auth != null
+                         && request.auth.token.email == "YOUR_EMAIL@jbnu.ac.kr";
+    }
 
-// Token rotation in seconds (120 = 2 minutes)
-const TOKEN_INTERVAL_SECONDS = 120;
+    match /logs/{id} {
+      allow create: if true;
+      allow read, update, delete: if request.auth != null
+                                   && request.auth.token.email == "YOUR_EMAIL@jbnu.ac.kr";
+    }
+  }
+}

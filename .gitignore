@@ -4,3 +4,6 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 vendor/
+
+# Attendance app — real Firebase credentials (never commit these)
+attend/firebase-config.js
