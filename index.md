@@ -36,10 +36,6 @@ permalink: /
         {%- endif -%}
       {%- endfor -%}
       <div class="stat">
-        <div class="stat-num">{{ active_courses.size }}</div>
-        <div class="stat-label"><span class="lang-en">Active Courses</span><span class="lang-ko">현재 강좌</span></div>
-      </div>
-      <div class="stat">
         <div class="stat-num">{{ _all_uni_count }}</div>
         <div class="stat-label"><span class="lang-en">Universities</span><span class="lang-ko">대학교</span></div>
       </div>
@@ -48,7 +44,14 @@ permalink: /
         <div class="stat-label"><span class="lang-en">Total Courses</span><span class="lang-ko">총 강좌</span></div>
       </div>
       <div class="stat">
-        <div class="stat-num">2021</div>
+        <div class="stat-num">{{ site.data.github.total_repos_formatted }}</div>
+        <div class="stat-label">
+          <span class="lang-en">Student Repositories</span>
+          <span class="lang-ko">학생 레포지토리</span>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">2006</div>
         <div class="stat-label"><span class="lang-en">Teaching Since</span><span class="lang-ko">첫 강의</span></div>
       </div>
     </div>
