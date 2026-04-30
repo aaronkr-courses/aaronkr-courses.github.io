@@ -5,7 +5,7 @@ permalink: /policies/
 ---
 
 <div class="wrap">
-<header class="page-header">
+<header class="page-header" data-waves>
   <p class="eyebrow animate d1">
     <span class="lang-en">Course Policies &amp; Expectations</span>
     <span class="lang-ko">수업 규정 및 기대</span>

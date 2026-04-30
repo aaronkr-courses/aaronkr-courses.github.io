@@ -6,7 +6,7 @@ eyebrow: Teaching History
 ---
 
 <div class="wrap">
-  <header class="page-header">
+  <header class="page-header" data-waves>
     <div class="eyebrow">
       <span class="lang-en">Teaching History</span>
       <span class="lang-ko">강의 이력</span>
