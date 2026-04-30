@@ -91,6 +91,9 @@ eyebrow: Teaching History
         </button>
       </div>
     </div>
+    <div class="hero-wave-ctrl">
+      <button class="wave-btn ctrl-btn" aria-label="Toggle wave animation">🌊</button>
+    </div>
   </header>
 
   <main id="archive-main" style="padding:32px 0 80px;">

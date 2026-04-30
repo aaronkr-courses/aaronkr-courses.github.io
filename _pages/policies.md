@@ -15,6 +15,9 @@ permalink: /policies/
     <span class="lang-en">These policies apply to all courses unless the specific course syllabus states otherwise. Please read carefully before the semester begins.</span>
     <span class="lang-ko">특정 강좌 강의계획서에 달리 명시된 경우를 제외하고, 이 규정은 모든 강좌에 적용됩니다. 학기 시작 전에 주의 깊게 읽어 주세요.</span>
   </p>
+  <div class="hero-wave-ctrl">
+    <button class="wave-btn ctrl-btn" aria-label="Toggle wave animation">🌊</button>
+  </div>
 </header>
 <section class="pol-section">
   <div class="section-heading animate d3">

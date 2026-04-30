@@ -92,7 +92,6 @@
 
 - date: 5/4
   week: 10
-  hidden: true
   title: >
     <strong>CHAPTER 08 인터럽트와 타이머 다루기</strong>
   slides: "https://docs.google.com/presentation/d/1T2hDriiSWlalu5dHzwca2CmYHAlfdmgZsKbQZ7QOUoA/edit?usp=sharing"

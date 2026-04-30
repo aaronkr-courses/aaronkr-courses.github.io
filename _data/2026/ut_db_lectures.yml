@@ -103,7 +103,6 @@
 
 - date: 5/4
   week: 10
-  hidden: true
   title: >
     <strong>Chapter 07 관계 데이터 모델</strong>
   slides: "https://docs.google.com/presentation/d/1G32UC2FlIIYgRjv1vHH4b6-zQJt2dd_GdGDvXgcGRSk/edit?usp=sharing"
