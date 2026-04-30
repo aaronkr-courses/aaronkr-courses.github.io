@@ -7,6 +7,16 @@
   Test / no-class rows: colspan="3" across the last three columns.
   YAML fields: date, title, title_ko, week, img, img2, slides, slides2, slides2_title,
                readings, logistics, hw, hw2, skip, hidden
+
+  Past/current-week highlighting:
+    - Only applied to courses whose data_file year matches the current calendar year.
+    - Past courses (2024, 2025 …) render all rows without any fading.
+    - "this-week" = Monday–Sunday window containing today (week-based, not day-based).
+    - Bug note: Liquid filter chains evaluate left-to-right, so
+        today_ts | minus: N | times: 86400  ==  (today_ts - N) * 86400  ← WRONG
+      Always compute the seconds offset first, then subtract:
+        _off = N | times: 86400
+        week_start_ts = today_ts | minus: _off               ← CORRECT
 {% endcomment %}
 
 {%- if include.data_file contains "/" -%}
@@ -15,27 +25,40 @@
   {%- assign _df_key   = _df_parts[1] -%}
   {%- assign lecture_data = site.data[_df_year][_df_key] -%}
 {%- else -%}
+  {%- assign _df_year = include.data_file | split: "_" | first -%}
   {%- assign lecture_data = site.data[include.data_file] -%}
 {%- endif -%}
-{%- assign today_ts   = 'now' | date: '%s' | plus: 0 -%}
 
-{%- comment %} 🔥 Week Range Block 🔥 {% endcomment -%}
-{%- assign today_wday = 'now' | date: '%w' | plus: 0 -%}
-
-{%- assign days_from_monday = today_wday | minus: 1 -%}
-{%- if today_wday == 0 -%}
-  {%- assign days_from_monday = 6 -%}
+{%- comment -%} Only highlight past/current-week rows for the current year {%- endcomment -%}
+{%- assign _curr_year = 'now' | date: '%Y' -%}
+{%- assign _is_current = false -%}
+{%- if _df_year == _curr_year -%}
+  {%- assign _is_current = true -%}
 {%- endif -%}
 
-{%- assign week_start_ts = today_ts | minus: days_from_monday | times: 86400 -%}
-{%- assign week_end_ts   = week_start_ts | plus: 6 | times: 86400 -%}
+{%- assign today_ts = 'now' | date: '%s' | plus: 0 -%}
+
+{%- if _is_current -%}
+  {%- comment -%}
+    Compute the Mon–Sun window containing today.
+    IMPORTANT: compute _off first, then subtract — do NOT chain | minus | times.
+  {%- endcomment -%}
+  {%- assign today_wday = 'now' | date: '%w' | plus: 0 -%}
+  {%- assign _dfm = today_wday | minus: 1 -%}
+  {%- if today_wday == 0 -%}{%- assign _dfm = 6 -%}{%- endif -%}
+  {%- assign _off         = _dfm | times: 86400 -%}
+  {%- assign week_start_ts = today_ts | minus: _off -%}
+  {%- assign week_end_ts   = week_start_ts | plus: 604800 -%}
+{%- endif -%}
 
 {%- assign skip_count = 0 -%}
 
 <table class="sched-table">
 {%- for item in lecture_data -%}
   {%- if item.date -%}
-    {%- assign item_ts    = item.date | date: '%s' | plus: 0 -%}
+    {%- comment -%} Prepend the year so Ruby parses the correct calendar year {%- endcomment -%}
+    {%- assign _dated  = _df_year | append: "/" | append: item.date -%}
+    {%- assign item_ts = _dated | date: '%s' | plus: 0 -%}
     {%- assign title_lower = item.title | downcase -%}
 
     {%- comment -%} Determine row type and CSS class {%- endcomment -%}
@@ -43,21 +66,31 @@
       {%- assign row_class = 'no-class' -%}
       {%- assign row_type  = 'noclass'  -%}
       {%- assign skip_count = skip_count | plus: 1 -%}
+
     {%- elsif title_lower contains 'test' or title_lower contains 'exam' or title_lower contains 'midterm' or title_lower contains 'final' or title_lower contains '시험' -%}
-      {%- assign row_type = 'test' -%}
-      {%- if item_ts < today_ts -%}
-        {%- assign row_class = 'test-row past' -%}
+      {%- assign row_type   = 'test' -%}
+      {%- assign skip_count = skip_count | plus: 1 -%}
+      {%- if _is_current -%}
+        {%- if item_ts >= week_start_ts and item_ts < week_end_ts -%}
+          {%- assign row_class = 'test-row this-week' -%}
+        {%- elsif item_ts < week_start_ts -%}
+          {%- assign row_class = 'test-row past' -%}
+        {%- else -%}
+          {%- assign row_class = 'test-row' -%}
+        {%- endif -%}
       {%- else -%}
         {%- assign row_class = 'test-row' -%}
       {%- endif -%}
-      {%- assign skip_count = skip_count | plus: 1 -%}
-    {%- elsif item_ts >= week_start_ts and item_ts <= week_end_ts -%}
-      {%- assign row_class = 'this-week' -%}
-      {%- assign row_type  = 'normal' -%}
 
-    {%- elsif item_ts < week_start_ts -%}
-      {%- assign row_class = 'past' -%}
-      {%- assign row_type  = 'normal' -%}
+    {%- elsif _is_current -%}
+      {%- assign row_type = 'normal' -%}
+      {%- if item_ts >= week_start_ts and item_ts < week_end_ts -%}
+        {%- assign row_class = 'this-week' -%}
+      {%- elsif item_ts < week_start_ts -%}
+        {%- assign row_class = 'past' -%}
+      {%- else -%}
+        {%- assign row_class = '' -%}
+      {%- endif -%}
 
     {%- else -%}
       {%- assign row_class = '' -%}

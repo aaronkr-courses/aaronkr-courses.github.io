@@ -691,6 +691,22 @@ function updateQR() {
     try { new QRCode('qr-box',{text:studentUrl(),width:210,height:210,colorDark:'#2C2C2A',colorLight:'#F1EFE8'}); }
     catch(e){}
   },50);
+  // Keep modal in sync — if it's open, redraw the large QR too
+  if (document.getElementById('qr-modal')?.classList.contains('open')) {
+    refreshModalQR();
+  }
+}
+
+function refreshModalQR() {
+  const box = document.getElementById('modal-qr-box');
+  if (!box) return;
+  box.innerHTML = '';
+  setTimeout(() => {
+    try { new QRCode(box,{text:studentUrl(),width:380,height:380,colorDark:'#2C2C2A',colorLight:'#F1EFE8'}); }
+    catch(e) {}
+  }, 50);
+  const urlEl = document.getElementById('modal-url');
+  if (urlEl) urlEl.textContent = studentUrl();
 }
 
 // ── Stats ──────────────────────────────────────────────────────
@@ -899,42 +915,15 @@ function showMsg(txt,type) {
   setTimeout(()=>{el.style.display='none';},5000);
 }
 
-// INSERT in <script>
-let modalQrInstance = null;
-
 function openQRModal() {
   if (!sessionActive || !currentToken) return;
   const modal = document.getElementById('qr-modal');
-  const box   = document.getElementById('modal-qr-box');
-  box.innerHTML = '';
   modal.classList.add('open');
   document.body.style.overflow = 'hidden';
-
-  // Render a larger QR in the modal
-  setTimeout(() => {
-    try {
-      modalQrInstance = new QRCode(box, {
-        text: studentUrl(), width: 380, height: 380,
-        colorDark: '#2C2C2A', colorLight: '#F1EFE8'
-      });
-    } catch(e) {}
-  }, 50);
-
-  // Sync countdown in modal
-  document.getElementById('modal-url').textContent = studentUrl();
+  refreshModalQR();
   updateModalCd();
-  window._modalCdInterval = setInterval(() => {
-    updateModalCd();
-    // Redraw QR if token rotated
-    if (lastQrToken !== currentToken) {
-      box.innerHTML = '';
-      setTimeout(() => {
-        try { new QRCode(box,{text:studentUrl(),width:380,height:380,colorDark:'#2C2C2A',colorLight:'#F1EFE8'}); }
-        catch(e){}
-      }, 50);
-      document.getElementById('modal-url').textContent = studentUrl();
-    }
-  }, 1000);
+  clearInterval(window._modalCdInterval);
+  window._modalCdInterval = setInterval(updateModalCd, 1000);
 }
 
 // ── Modal ─────────────────────────────────────────────────────

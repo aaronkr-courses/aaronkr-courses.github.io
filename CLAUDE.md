@@ -89,7 +89,7 @@ claude-courses/
     └── ...
 ```
 
-## Current State (as of Session 15 — April 2026)
+## Current State (as of Session 16 — April 2026)
 
 | Component | Status | Notes |
 |---|---|---|
@@ -211,6 +211,9 @@ claude-courses/
 21. **Early theme/lang init** — Inline `<script>` in `<head>` (before first paint) reads `localStorage` and applies `data-theme` + `html.ko` class immediately. Prevents flash of wrong theme or both languages rendering simultaneously.
 23. **Dynamic favicon** — `head.html` sets `<link rel="icon" href="{{ page.logo }}">` when `page.logo` is set (course pages). All other pages fall back to `site.icon`. This lets each course page show its university logo as the browser tab icon.
 24. **Schedule table layout** — `schedule.html` renders a `<table class="sched-table">` with 4 `<td>` columns: date, thumbnail + slides2, info (week/title/readings), logistics + HW links. Test/no-class rows use `<td colspan="3">` for columns 2–4. Links in `logistics:` YAML no longer break layout since they live in their own `<td>`. The `<a class="sched-thumb">` pattern makes the thumbnail itself a link (slides), and `slides2`/`slides2_title` render a second link below.
+26. **Schedule past/this-week highlighting** — Only applied to courses whose `data_file` year matches the current calendar year (e.g. `2026/hb_cpp_lectures` → year `2026`). Past-year courses (2024, 2025…) render all rows without fading. Year is extracted as `_df_year = include.data_file | split: "/" | first`. Dates are parsed as `_df_year + "/" + item.date` (e.g. `"2026/3/4"`) so Ruby uses the correct year. Week boundary: `_off = days_from_monday | times: 86400; week_start_ts = today_ts | minus: _off; week_end_ts = week_start_ts | plus: 604800`. **Critical: never chain `| minus: N | times: 86400`** — that computes `(ts-N)*86400`, not `ts-(N*86400)`. This-week = Mon–Sun window containing today. Current-week rows get class `this-week` (teal left border); past rows get class `past` (reduced opacity). Test rows follow the same logic with amber border for this-week.
+27. **GitHub Actions workflow** — Single file `.github/workflows/deploy.yml` with 4 jobs: `update-stats` (push + monthly cron, `contents: write`), `lint` (yamllint on `_data/`; warnings only; skipped on schedule), `build` (Firebase config injection + Jekyll build; skipped on schedule), `deploy` (GitHub Pages; skipped on schedule). `jekyll.yml` and `github-stats.yml` were deleted — they are fully replaced by `deploy.yml`.
+28. **QR modal refresh** — `admin.html` uses `refreshModalQR()` helper that redraws the 380×380 modal QR. `updateQR()` calls `refreshModalQR()` whenever the modal overlay has class `open`. The modal countdown interval (`_modalCdInterval`) only drives the countdown text — it does NOT independently check/refresh the QR. This avoids the race condition where `lastQrToken` is updated before the modal interval runs.
 25. **Remote instructor bio** — `about_aaron.html` renders static bio from `_data/staff.yml` by default, then a small `<script>` fetches `https://aaronsnowberger.com/bio.json` and swaps `#bio-en`, `#bio-ko`, `#instructor-role` on success. aaronsnowberger.com must expose a `bio.json` page (see comment in `about_aaron.html` for the expected JSON format). GitHub Pages sets `Access-Control-Allow-Origin: *` so no CORS issues.
 22. **`.f-col span` / `.lang-*` conflict** — `_base.scss` `.f-col p, .f-col a, .f-col span` rule uses `:not(.lang-en):not(.lang-ko)` to exclude lang-toggle spans from getting `display: block`. Without this, `.lang-ko { display: none }` was overridden and both languages showed in the footer.
 
@@ -356,6 +359,38 @@ This is the same reason `<div id="thumb-section">` works — the outer div keeps
 **Fix:** Added `ctx.save(); ctx.translate(wH, hH);` before drawing and `ctx.restore()` after. Fill rect changed to `fillRect(-wH, -hH, w, h)` to cover the full canvas in centered coords. Y coordinate changed from `hH + n*hH` (which added a double-hH shift) to `n * hH` (clean centered value).  
 **Files:** `assets/js/waves.js`
 
+### 20. schedule.html: all rows show as `.past` due to broken week_start_ts calculation
+**Symptom:** Every row in every course schedule gets the `past` CSS class (faded opacity). Even rows for dates that are in the future appear faded.  
+**Root cause:** Liquid filter chains evaluate strictly left-to-right. The expression:
+```liquid
+week_start_ts = today_ts | minus: days_from_monday | times: 86400
+```
+evaluates as `(today_ts − days_from_monday) × 86400`, which is an astronomically large number (≈ 150 trillion). Every `item_ts` is less than this, so every row falls into the `elsif item_ts < week_start_ts` branch → `row_class = 'past'`.  
+**Fix:** Compute the seconds offset first, then subtract:
+```liquid
+{%- assign _off = _dfm | times: 86400 -%}
+{%- assign week_start_ts = today_ts | minus: _off -%}
+{%- assign week_end_ts   = week_start_ts | plus: 604800 -%}
+```
+**File:** `_includes/schedule.html`
+
+### 21. schedule.html: wrong year used for date parsing on multi-year sites
+**Symptom:** Lecture dates from 2024 or 2025 course pages are treated as if they're in the current year (2026), making them either all past or all future unexpectedly.  
+**Root cause:** Data file dates use M/D format (e.g. `3/4`). Without a year prefix, Ruby's `Time.parse("3/4")` assumes the current year (2026). For old courses this is wrong.  
+**Fix 1:** Prepend the year extracted from the `data_file` path before parsing:
+```liquid
+{%- assign _dated  = _df_year | append: "/" | append: item.date -%}
+{%- assign item_ts = _dated | date: '%s' | plus: 0 -%}
+```
+**Fix 2:** Only apply `past`/`this-week` logic when the data_file year equals the current year (`_df_year == _curr_year`). Past courses (2024, 2025…) render all rows without fading.  
+**File:** `_includes/schedule.html`
+
+### 22. QR modal does not refresh when token rotates
+**Symptom:** The full-screen QR modal displays the correct initial QR code, but after the 2-minute token rotation the QR code in the modal does not update. You must close and reopen the modal to get the new QR.  
+**Root cause:** `updateQR()` (called by `rotateToken()`) sets `lastQrToken = currentToken` immediately. The modal's interval then checks `if (lastQrToken !== currentToken)` — but since `lastQrToken` was just updated, this condition is never true.  
+**Fix:** Added `refreshModalQR()` helper. `updateQR()` calls it after redrawing the main QR whenever the modal overlay has class `open`. The modal interval now only drives the countdown display — QR refresh is piggybacked on the existing `rotateToken()` → `updateQR()` chain.  
+**File:** `attend/admin.html`
+
 ## Design System
 
 ### Color palette (CSS custom properties)
@@ -488,3 +523,4 @@ The original prototype HTML files (`index.html`, `course.html`, `archive.html`, 
 9. Session 13: **UX improvements** — Canvas waves (full-width, animated), thumbnail localStorage, JBNU/HB display order swap, profile-link slide-in hover, footer one-language fix, nav/footer YAML data files, office-hours uni logos from `site.universities`, Cal.com theme fix, Calendly comparison embed
 10. Session 14: **Logo propagation + schedule fix + remote bio + SimplexNoise waves** — Uni logos in index uni-group headers; faded 120px watermark logo in course-hero upper-right; course-page favicon = `page.logo`; schedule converted from flex rows to `<table>` (4 `<td>` cols, `colspan=3` for test/no-class); `slides2`/`slides2_title` support; `logistics` HTML links no longer break layout; `about_aaron.html` JS fetch from `aaronsnowberger.com/bio.json` with static fallback; canvas waves replaced with SimplexNoise cascading lines (purple ↔ teal, lighter/slower, glow + blur + lighter blend mode)
 11. Session 15: **Waves debugging + single-source-of-truth logos** — Diagnosed `prefers-reduced-motion` killing canvas; fixed full-width lines via `ctx.translate(wH,hH)`; `data-waves` opt-in attribute (index + office-hours only); waves default OFF with localStorage toggle; 44 course files migrated from `logo: <url>` to `uni: <abbr>`; `_data/universities.yml` created as canonical logo source; all templates updated to `site.data.universities` + for-loop lookup; stats bar university count deduplicated to exclude non-universities
+12. Session 16: **Security + quality audit + bug fixes** — Full repo security audit (AUDIT.md); moved policies inline `<style>` to `_sass/_pages.scss`; grading bar colors extracted to CSS custom properties (`--grade-attend` etc.); fixed malformed YAML in `_data/nav.yml`; `innerHTML → textContent` in `about_aaron.html` (XSS); fixed `schedule.html`: year detection from data_file path, correct week boundary calculation (`_off = N | times: 86400; ts | minus: _off` — NOT chained), past rows only for current year, `this-week` highlighting (Mon–Sun window, teal border); QR modal auto-refresh on token rotation via `refreshModalQR()`; consolidated 3 GitHub Actions workflows into single `deploy.yml` with yamllint lint step

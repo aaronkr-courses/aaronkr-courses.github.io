@@ -14,8 +14,15 @@ tr.sched-row {
   > td + td { padding-left: 12px; }
   &:first-child > td { border-top: 1px solid var(--border); }
   &:hover { background: var(--surface); }
-  &.past { opacity: .65; }
-  &.this-week { background: var(--surface); }
+  &.past { opacity: .55; }
+  &.this-week {
+    background: rgba(109, 204, 221, .06);
+    > td:first-child { border-left: 3px solid var(--accent3); padding-left: 7px; }
+  }
+  &.test-row.this-week {
+    background: rgba(251, 191, 36, .05);
+    > td:first-child { border-left: 3px solid var(--warn); padding-left: 7px; }
+  }
 
   // No-class + test rows: center the span cell
   &.no-class td.sched-span,
