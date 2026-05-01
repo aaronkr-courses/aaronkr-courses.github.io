@@ -27,7 +27,7 @@
   {%- assign _tag_class = 'theory' -%}{%- assign _tag_label = 'CS' -%}
 {%- endif -%}
 
-<a class="card" href="{{ c.url | relative_url }}">
+<a class="card" href="{{ c.url | relative_url }}" aria-label="{{ c.title }}{% if c.subtitle %}: {{ c.subtitle }}{% endif %} — {{ uni_name }}">
   <div class="card-inner">
     {%- if c.img -%}
     <div class="card-thumb" style="background-image:url('{{ c.img | relative_url }}')"></div>
@@ -59,8 +59,8 @@
     {%- if _u.abbr == c.uni -%}{%- assign _c_logo = _u.logo -%}{%- endif -%}
   {%- endfor -%}
   {%- if _c_logo -%}
-  <div class="uni-badge">
-    <img src="{{ _c_logo }}" class="ub-abbr" />
+  <div class="uni-badge" aria-hidden="true">
+    <img src="{{ _c_logo }}" class="ub-abbr" alt="" />
   </div>
   {%- endif -%}
 </a>

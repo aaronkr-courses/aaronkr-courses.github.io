@@ -1,4 +1,5 @@
-<nav>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<nav aria-label="Main navigation">
   <div class="nav-inner">
     <a class="nav-brand" href="{{ '/' | relative_url }}">courses.aaron.kr</a>
     <ul class="nav-links">
@@ -6,7 +7,7 @@
         {%- if item.category -%}
           {%- comment -%}Dynamic course dropdown — pulls from site.courses collection{%- endcomment -%}
           <li class="has-dropdown" id="{{ item.dropdown_id }}">
-            <button>{{ item.title_en }} &#x25BE;</button>
+            <button aria-haspopup="true" aria-expanded="false" aria-label="{{ item.title_en }} menu">{{ item.title_en }} &#x25BE;</button>
             <ul class="nav-dropdown">
               <li><span class="dd-semester"><span class="lang-en">{{ item.semester_en }}</span><span class="lang-ko">{{ item.semester_ko }}</span></span></li>
               {%- assign _dd_courses = site.courses | where: "category", item.category | sort: "importance" -%}
@@ -25,7 +26,7 @@
         {%- elsif item.items -%}
           {%- comment -%}Static dropdown — items listed in nav.yml{%- endcomment -%}
           <li class="has-dropdown" id="{{ item.dropdown_id }}">
-            <button><span class="lang-en">{{ item.title_en }}</span><span class="lang-ko">{{ item.title_ko }}</span> &#x25BE;</button>
+            <button aria-haspopup="true" aria-expanded="false" aria-label="{{ item.title_en }} menu"><span class="lang-en">{{ item.title_en }}</span><span class="lang-ko">{{ item.title_ko }}</span> &#x25BE;</button>
             <ul class="nav-dropdown">
               {%- for sub in item.items -%}
                 {%- if sub.divider -%}
@@ -52,15 +53,15 @@
     </ul>
     <div class="nav-controls">
       <button class="ctrl-btn theme-btn" aria-label="Toggle theme">🌙</button>
-      <button class="ctrl-btn lang-btn">한국어</button>
-      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+      <button class="ctrl-btn lang-btn" aria-label="Toggle language between English and Korean">한국어</button>
+      <button class="hamburger" id="hamburger" aria-label="Open mobile menu" aria-expanded="false" aria-controls="mobile-nav">
         <span></span><span></span><span></span>
       </button>
     </div>
   </div>
 
   <!-- Mobile nav (mirrors desktop structure from nav.yml) -->
-  <div class="mobile-nav" id="mobile-nav">
+  <div class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
     {%- for item in site.data.nav -%}
       {%- if item.category -%}
         {%- assign _mob_id = item.dropdown_id | remove: "dd-" -%}
@@ -101,7 +102,7 @@
     {%- endfor -%}
     <div class="mobile-controls">
       <button class="ctrl-btn theme-btn" aria-label="Toggle theme">🌙</button>
-      <button class="ctrl-btn lang-btn">한국어</button>
+      <button class="ctrl-btn lang-btn" aria-label="Toggle language between English and Korean">한국어</button>
     </div>
   </div>
 </nav>

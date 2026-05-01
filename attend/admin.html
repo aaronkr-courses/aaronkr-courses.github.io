@@ -68,7 +68,9 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;font-size:14px;
 input[type=text],select{padding:8px 11px;border:1px solid var(--border);
   border-radius:var(--rs);font-size:14px;background:var(--surface);
   color:var(--text);font-family:inherit;width:100%}
-input[type=text]:focus,select:focus{outline:none;border-color:var(--teal-md)}
+input[type=text]:focus,select:focus{outline:2px solid var(--teal-md);outline-offset:1px;border-color:var(--teal-md)}
+input[type=text]:focus:not(:focus-visible),select:focus:not(:focus-visible){outline:none}
+:focus-visible{outline:2px solid var(--teal-md);outline-offset:2px;border-radius:var(--rs)}
 .field-row{display:flex;gap:8px;align-items:flex-end;flex-wrap:wrap}
 .btn-g{padding:9px 18px;background:var(--teal);color:#fff;border:none;
        border-radius:var(--rs);font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap}
@@ -214,25 +216,25 @@ body.dark {
         ← Courses
       </a>
 
-      <button id="theme-toggle" onclick="toggleTheme()" 
+      <button id="theme-toggle" onclick="toggleTheme()"
               style="padding:5px 10px;border:1px solid var(--border);border-radius:var(--rs);
-                    background:none;cursor:pointer;font-size:15px;color:var(--text)" 
-              title="Toggle dark mode">🌙</button>
-      <span style="font-size:12px;color:var(--muted)" id="user-email"></span>
+                    background:none;cursor:pointer;font-size:15px;color:var(--text)"
+              aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
+      <span style="font-size:12px;color:var(--muted)" id="user-email" aria-label="Signed in as"></span>
       <button class="btn-s" onclick="doSignOut()">Sign out</button>
     </div>
   </div>
 
   <div class="page">
-    <div class="tabs">
-      <button class="tab active" onclick="switchTab('control',this)">Control panel</button>
-      <button class="tab"        onclick="switchTab('log',this)">Access log</button>
-      <button class="tab"        onclick="switchTab('history',this)">Session history</button>
-      <button class="tab"        onclick="switchTab('feedback',this)">Session feedback</button>
+    <div class="tabs" role="tablist" aria-label="Attendance dashboard sections">
+      <button class="tab active" role="tab" aria-selected="true"  aria-controls="tab-control" onclick="switchTab('control',this)">Control panel</button>
+      <button class="tab"        role="tab" aria-selected="false" aria-controls="tab-log"     onclick="switchTab('log',this)">Access log</button>
+      <button class="tab"        role="tab" aria-selected="false" aria-controls="tab-history"  onclick="switchTab('history',this)">Session history</button>
+      <button class="tab"        role="tab" aria-selected="false" aria-controls="tab-feedback" onclick="switchTab('feedback',this)">Session feedback</button>
     </div>
 
     <!-- ── CONTROL PANEL ── -->
-    <div class="panel active" id="tab-control">
+    <div class="panel active" id="tab-control" role="tabpanel" aria-labelledby="tab-control">
 
       <!-- Class selector -->
       <div class="card">
@@ -360,14 +362,14 @@ body.dark {
         <div class="tbl-wrap" id="log-wrap" style="display:none">
           <table>
             <thead><tr>
-              <th onclick="sortLog('timestamp')" style="cursor:pointer">Time ↕</th>
-              <th onclick="sortLog('className')"  style="cursor:pointer">Class ↕</th>
-              <th>Student name</th>
-              <th>Student ID</th>
-              <th>IP address</th>
-              <th>Location</th>
-              <th>Submitted</th>
-              <th>Feedback</th>
+              <th scope="col" onclick="sortLog('timestamp')" style="cursor:pointer">Time ↕</th>
+              <th scope="col" onclick="sortLog('className')"  style="cursor:pointer">Class ↕</th>
+              <th scope="col">Student name</th>
+              <th scope="col">Student ID</th>
+              <th scope="col">IP address</th>
+              <th scope="col">Location</th>
+              <th scope="col">Submitted</th>
+              <th scope="col">Feedback</th>
             </tr></thead>
             <tbody id="log-body"></tbody>
           </table>
@@ -395,8 +397,8 @@ body.dark {
         <div class="tbl-wrap" id="hist-wrap" style="display:none">
           <table>
             <thead><tr>
-              <th>Class</th><th>Semester</th><th>Session ID</th>
-              <th>Started</th><th>Ended</th><th>Scans</th><th>Submitted</th><th>Off-campus</th>
+              <th scope="col">Class</th><th scope="col">Semester</th><th scope="col">Session ID</th>
+              <th scope="col">Started</th><th scope="col">Ended</th><th scope="col">Scans</th><th scope="col">Submitted</th><th scope="col">Off-campus</th>
             </tr></thead>
             <tbody id="hist-body"></tbody>
           </table>
@@ -429,9 +431,9 @@ body.dark {
         <div class="tbl-wrap" id="fb-wrap" style="display:none">
           <table>
             <thead><tr>
-              <th>Time</th>
-              <th>Class</th>
-              <th>Feedback</th>
+              <th scope="col">Time</th>
+              <th scope="col">Class</th>
+              <th scope="col">Feedback</th>
             </tr></thead>
             <tbody id="fb-body"></tbody>
           </table>
@@ -901,9 +903,10 @@ function exportFeedbackCSV() {
 // ── Tabs ───────────────────────────────────────────────────────
 function switchTab(id,btn) {
   document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
-  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t=>{t.classList.remove('active');t.setAttribute('aria-selected','false');});
   document.getElementById('tab-'+id).classList.add('active');
   btn.classList.add('active');
+  btn.setAttribute('aria-selected','true');
   if(id==='history') loadHistory();
   if(id==='feedback') loadFeedback();
 }
@@ -1144,8 +1147,8 @@ function exportFilteredCSV() {
 </script>
 
 <!-- INSERT just before </body> -->
-<div class="modal-overlay" id="qr-modal" onclick="closeQRModal(event)">
-  <button class="modal-close" onclick="closeQRModal()">✕ Close</button>
+<div class="modal-overlay" id="qr-modal" onclick="closeQRModal(event)" role="dialog" aria-modal="true" aria-label="Fullscreen QR code">
+  <button class="modal-close" onclick="closeQRModal()" aria-label="Close fullscreen QR code">✕ Close</button>
   <div class="modal-qr-box" id="modal-qr-box"></div>
   <div class="modal-meta">
     <div>Scan from QR code above · 위 QR 코드를 스캔하세요</div>

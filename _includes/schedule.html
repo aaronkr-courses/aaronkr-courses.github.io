@@ -53,7 +53,17 @@
 
 {%- assign skip_count = 0 -%}
 
-<table class="sched-table">
+<table class="sched-table" role="table">
+<caption class="sr-only">Course lecture schedule</caption>
+<thead class="sr-only">
+  <tr>
+    <th scope="col">Date</th>
+    <th scope="col">Slides</th>
+    <th scope="col">Week and topic</th>
+    <th scope="col">Homework and logistics</th>
+  </tr>
+</thead>
+<tbody>
 {%- for item in lecture_data -%}
   {%- if item.date -%}
     {%- comment -%} Prepend the year so Ruby parses the correct calendar year {%- endcomment -%}
@@ -131,11 +141,12 @@
       {%- if _thumb_src -%}
         {%- if item.slides and item.hidden != true -%}
         <a class="sched-thumb" href="{{ item.slides }}" target="_blank"
+           aria-label="Open slides for {{ item.title }}"
            style="background-image:url('/assets/img/{{ _thumb_src }}')">
-          <div class="sched-extra">▶ Slides</div>
+          <div class="sched-extra" aria-hidden="true">▶ Slides</div>
         </a>
         {%- elsif item.hidden != true -%}
-        <div class="sched-thumb" style="background-image:url('/assets/img/{{ _thumb_src }}')"></div>
+        <div class="sched-thumb" aria-hidden="true" style="background-image:url('/assets/img/{{ _thumb_src }}')"></div>
         {%- endif -%}
       {%- else -%}
         <div class="sched-spacer">
@@ -180,4 +191,5 @@
   </tr>
   {%- endif -%}
 {%- endfor -%}
+</tbody>
 </table>

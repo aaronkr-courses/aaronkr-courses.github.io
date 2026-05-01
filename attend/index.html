@@ -56,7 +56,9 @@ body{font-family:-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;
 label{display:block;font-size:13px;font-weight:500;margin-bottom:4px}
 input[type=text]{width:100%;padding:10px 12px;border:1px solid var(--border);
   border-radius:var(--rs);font-size:15px;font-family:inherit;color:var(--text);background:var(--surface);transition:border-color .15s}
-input[type=text]:focus{outline:none;border-color:var(--teal-md)}
+input[type=text]:focus{outline:2px solid var(--teal-md);outline-offset:1px;border-color:var(--teal-md)}
+input[type=text]:focus:not(:focus-visible){outline:none}
+:focus-visible{outline:2px solid var(--teal-md);outline-offset:2px;border-radius:var(--rs)}
 .btn-sub{width:100%;padding:12px;background:var(--teal);color:#fff;border:none;
          border-radius:var(--rs);font-size:16px;font-weight:600;cursor:pointer;font-family:inherit;transition:background .15s}
 .btn-sub:hover{background:var(--teal-md)}
@@ -102,10 +104,10 @@ body.dark {
         ← Courses
       </a>
 
-      <button id="theme-toggle" onclick="toggleTheme()" 
+      <button id="theme-toggle" onclick="toggleTheme()"
               style="padding:5px 10px;border:1px solid var(--border);border-radius:var(--rs);
-                    background:none;cursor:pointer;font-size:15px;color:var(--text)" 
-              title="Toggle dark mode">🌙</button>
+                    background:none;cursor:pointer;font-size:15px;color:var(--text)"
+              aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
     </div>
   </div>
 <div class="card">
@@ -147,18 +149,18 @@ body.dark {
     </div>
     <form onsubmit="doSubmit(event)">
       <div class="field">
-        <label>이름 · Full name</label>
+        <label for="f-name">이름 · Full name</label>
         <input type="text" id="f-name" placeholder="홍길동" required autocomplete="name"/>
       </div>
       <div class="field">
-        <label>학번 · Student ID</label>
+        <label for="f-id">학번 · Student ID</label>
         <input type="text" id="f-id" placeholder="20231234" required autocomplete="off" inputmode="numeric"/>
       </div>
       <div class="field">
-        <label style="font-weight:400;color:var(--muted)">
+        <label for="f-feedback" style="font-weight:400;color:var(--muted)">
           피드백 (선택사항) · Feedback <span style="font-size:11px">(optional)</span>
         </label>
-        <input type="text" id="f-feedback" 
+        <input type="text" id="f-feedback"
                placeholder="강의나 앱에 대한 의견을 남겨주세요 · Comments on class or app"/>
       </div>
       <button type="submit" class="btn-sub" id="submit-btn">출석 제출 · Submit attendance</button>

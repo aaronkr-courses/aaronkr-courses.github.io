@@ -74,7 +74,7 @@ permalink: /
       {%- endif -%}     
     </div>
   <div class="hero-wave-ctrl">
-    <button class="wave-btn ctrl-btn" aria-label="Toggle wave animation">🌊</button>
+    <button class="wave-btn ctrl-btn" aria-label="Toggle wave animation" aria-pressed="true">🌊</button>
   </div>
   </header>
 
@@ -89,7 +89,7 @@ permalink: /
         <span class="section-line"></span>
       </div>
       <div class="section-actions">
-        <button class="thumb-toggle" id="thumb-toggle">
+        <button class="thumb-toggle" id="thumb-toggle" aria-label="Toggle course thumbnail images" aria-pressed="false">
           <span class="t-icon">⊞</span>
           <span class="lang-en">Thumbnails</span><span class="lang-ko">썸네일</span>
         </button>
@@ -320,12 +320,14 @@ if (_tt) {
   if (localStorage.getItem('thumbs') === '1') {
     _sec.classList.add('thumbs-active');
     _tt.classList.add('active');
+    _tt.setAttribute('aria-pressed', 'true');
     const _ic0 = _tt.querySelector('.t-icon');
     if (_ic0) _ic0.textContent = '⊟';
   }
   _tt.addEventListener('click', () => {
     const a = _sec.classList.toggle('thumbs-active');
     _tt.classList.toggle('active', a);
+    _tt.setAttribute('aria-pressed', a ? 'true' : 'false');
     const ic = _tt.querySelector('.t-icon');
     if (ic) ic.textContent = a ? '⊟' : '⊞';
     localStorage.setItem('thumbs', a ? '1' : '0');

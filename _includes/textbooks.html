@@ -22,7 +22,11 @@
       <div class="book-author">{{ text.author }}</div>
       <div class="book-pub">{{ text.publisher }}</div>
       {%- if text.link -%}
-      <a href="{{ text.link }}" class="book-buy" target="_blank"><span class="lang-en">Buy</span><span class="lang-ko">구매</span> →</a>
+        {%- if text.link contains '.pdf' -%}
+        <a href="{{ text.link }}" class="book-buy" target="_blank" aria-label="Download PDF (opens in new tab)"><span class="lang-en">Download (PDF)</span><span class="lang-ko">다운로드 (PDF)</span> →</a>
+        {%- else -%}
+        <a href="{{ text.link }}" class="book-buy" target="_blank"><span class="lang-en">Buy</span><span class="lang-ko">구매</span> →</a>
+        {%- endif -%}
       {%- endif -%}
       {%- if text.code -%}
       <a href="{{ text.code }}" class="book-buy" target="_blank" style="margin-left:6px;">Code →</a>
@@ -48,7 +52,11 @@
       <div class="book-author">{{ text.author }}</div>
       <div class="book-pub">{{ text.publisher }}</div>
       {%- if text.link -%}
-      <a href="{{ text.link }}" class="book-buy" target="_blank"><span class="lang-en">Buy</span><span class="lang-ko">구매</span> →</a>
+        {%- if text.link contains '.pdf' -%}
+        <a href="{{ text.link }}" class="book-buy" target="_blank" aria-label="Download PDF (opens in new tab)"><span class="lang-en">Download (PDF)</span><span class="lang-ko">다운로드 (PDF)</span> →</a>
+        {%- else -%}
+        <a href="{{ text.link }}" class="book-buy" target="_blank"><span class="lang-en">Buy</span><span class="lang-ko">구매</span> →</a>
+        {%- endif -%}
       {%- endif -%}
     </div>
   </li>
