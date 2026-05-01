@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Office Hours
+description: Office hours, campus schedule, and contact information for Prof. Aaron Snowberger. KakaoTalk for quick questions; office hours held after class at each campus Monday through Friday.
 permalink: /office-hours/
 ---
 

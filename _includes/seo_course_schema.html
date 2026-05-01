@@ -1,0 +1,58 @@
+{%- comment -%}
+  Course structured data — schema.org/Course
+  Rendered inside <head> for every page using layout: course
+{%- endcomment -%}
+{%- assign _info = page.information | first -%}
+{%- assign _provider_name = "Aaron Snowberger" -%}
+{%- for _u in site.data.universities -%}
+  {%- if _u.abbr == page.uni -%}
+    {%- assign _provider_name = _u.name -%}
+    {%- assign _provider_url  = _u.url -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign _course_url = site.url | append: page.url -%}
+{%- assign _desc_plain = page.description | strip_html | normalize_whitespace -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": {{ page.title | jsonify }},
+  "description": {{ _desc_plain | jsonify }},
+  "url": {{ _course_url | jsonify }},
+  "inLanguage": ["en", "ko"],
+  "provider": {
+    "@type": "EducationalOrganization",
+    "name": {{ _provider_name | jsonify }}{%- if _provider_url -%},
+    "url": {{ _provider_url | jsonify }}{%- endif %}
+  },
+  "instructor": {
+    "@type": "Person",
+    "name": "Aaron Snowberger",
+    "url": "https://aaron.kr",
+    "sameAs": [
+      "https://github.com/aaronkr-courses",
+      "https://linkedin.com/in/aaronsnowberger",
+      "https://orcid.org/0000-0001-8652-0936",
+      "https://scholar.google.com/citations?user=JCbnnvUAAAAJ"
+    ]
+  }{%- if _info.time -%},
+  "courseSchedule": {{ _info.time | jsonify }}{%- endif %}{%- if page.category -%},
+  "offers": {
+    "@type": "Offer",
+    "category": "Free",
+    "price": "0",
+    "priceCurrency": "KRW"
+  },
+  "educationalCredentialAwarded": "University Credit",
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "onsite",
+    "inLanguage": ["en", "ko"]{%- if _info.location -%},
+    "location": {
+      "@type": "Place",
+      "name": {{ _info.location | jsonify }}
+    }{%- endif %}{%- if _info.time -%},
+    "schedule": {{ _info.time | jsonify }}{%- endif %}
+  }{%- endif %}
+}
+</script>

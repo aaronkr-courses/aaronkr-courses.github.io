@@ -1,0 +1,46 @@
+{%- comment -%}
+  EducationalOrganization + Person structured data for the home page.
+  Rendered inside <head> only when page.url == '/'
+{%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://aaron.kr/#person",
+      "name": "Aaron Snowberger",
+      "url": "https://aaron.kr",
+      "email": "{{ site.email }}",
+      "jobTitle": "Lecturer, Computer Science & Engineering",
+      "knowsLanguage": ["en", "ko"],
+      "sameAs": [
+        "https://github.com/aaronkr-courses",
+        "https://linkedin.com/in/aaronsnowberger",
+        "https://orcid.org/0000-0001-8652-0936",
+        "https://scholar.google.com/citations?user=JCbnnvUAAAAJ",
+        "https://www.researchgate.net/profile/Aaron-Snowberger",
+        "https://www.kaggle.com/aaronsnowberger"
+      ],
+      "worksFor": [
+        {% for uni in site.universities %}{
+          "@type": "EducationalOrganization",
+          "name": "{{ uni.name }}",
+          "url": "{{ uni.url }}"
+        }{% unless forloop.last %},{% endunless %}{% endfor %}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}/",
+      "name": "{{ site.title }}",
+      "description": "{{ site.description | strip_newlines | strip }}",
+      "publisher": {
+        "@id": "https://aaron.kr/#person"
+      },
+      "inLanguage": ["en", "ko"]
+    }
+  ]
+}
+</script>

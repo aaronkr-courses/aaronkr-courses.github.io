@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Academic Policies
+description: Course policies for all classes taught by Prof. Aaron Snowberger, including attendance, grading, AI tool use, assignments, collaboration, and late submission rules.
 permalink: /policies/
 ---
 

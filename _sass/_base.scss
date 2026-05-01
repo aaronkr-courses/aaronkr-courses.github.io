@@ -204,7 +204,7 @@ canvas.hero-waves {
 
 // ── Typography ───────────────────────────────────────────────────────────────
 // Slightly larger base font on wider screens (10-15% boost via clamp)
-html { font-size: clamp(15px, 1.05vw, 17px); }
+html { font-size: clamp(16px, 1.15vw, 18px); }
 
 h1 {
   font-family: 'Playfair Display', 'DM Serif Display', serif;
@@ -276,9 +276,9 @@ footer {
 .f-brand  { font-family: 'IBM Plex Mono', monospace; font-size: .88rem; color: var(--accent3); letter-spacing: .04em; display: block; margin-bottom: 10px; }
 .f-col p, .f-col a, .f-col span:not(.lang-en):not(.lang-ko) { display: block; font-size: .8rem; color: var(--muted); margin-bottom: 5px; text-decoration: none; transition: color .2s; line-height: 1.5; }
 .f-col a:hover { color: var(--sub); }
-.f-heading { font-family: 'IBM Plex Mono', monospace; font-size: .65rem; color: var(--accent2); text-transform: uppercase; letter-spacing: .1em; margin-bottom: 12px; display: block; }
+.f-heading { font-family: 'IBM Plex Mono', monospace; font-size: .7rem; color: var(--accent2); text-transform: uppercase; letter-spacing: .1em; margin-bottom: 12px; display: block; }
 .footer-bottom { max-width: $max-width; margin: 0 auto; padding: 16px 28px 0; border-top: 1px solid var(--border); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
-.footer-copy, .footer-updated { font-family: 'IBM Plex Mono', monospace; font-size: .65rem; color: var(--muted); }
+.footer-copy, .footer-updated { font-family: 'IBM Plex Mono', monospace; font-size: .72rem; color: var(--muted); }
 
 // ── Responsive ───────────────────────────────────────────────────────────────
 @media (max-width: 700px) {

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Attendance & Participation Policy
+description: Attendance requirements and participation grading policy for all courses taught by Prof. Aaron Snowberger. Missing more than one-third of classes results in automatic course failure.
 permalink: /policies/attendance/
 ---
 

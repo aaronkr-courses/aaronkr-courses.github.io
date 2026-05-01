@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tests & Exams Policy
+description: Midterm and final exam rules, makeup exam procedures, and regrading policy for all courses taught by Prof. Aaron Snowberger at Korean universities.
 permalink: /policies/tests/
 ---
 

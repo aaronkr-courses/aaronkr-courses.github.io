@@ -15,6 +15,22 @@ baseurl: ""
 icon: /assets/img/aaron.jpg
 
 # ─────────────────────────────────────────
+# SEO / Open Graph defaults
+# ─────────────────────────────────────────
+logo: /assets/img/aaron.jpg
+
+social:
+  name: Aaron Snowberger
+  links:
+    - https://github.com/aaronkr-courses
+    - https://linkedin.com/in/aaronsnowberger
+    - https://scholar.google.com/citations?user=JCbnnvUAAAAJ
+    - https://orcid.org/0000-0001-8652-0936
+
+twitter:
+  username: aaronkr
+
+# ─────────────────────────────────────────
 # Social
 # ─────────────────────────────────────────
 github_username: aaronkr-courses
@@ -107,6 +123,14 @@ defaults:
       path: "_pages"
     values:
       layout: page
+  - scope:
+      path: "attend"
+    values:
+      sitemap: false
+  - scope:
+      path: "assets/pdf"
+    values:
+      sitemap: false
 
 # ─────────────────────────────────────────
 # Universities

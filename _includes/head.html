@@ -1,7 +1,22 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
-<meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}"/>
+<meta name="robots" content="index, follow"/>
+{%- comment -%}
+  For course pages, page.description holds the structured "CODE • SEMESTER • UNIVERSITY"
+  string used for display logic. We inject a human-readable meta description separately
+  so search engines see something meaningful (120–160 chars).
+{%- endcomment -%}
+{%- if page.layout == 'course' -%}
+  {%- assign _desc_parts = page.description | split: ' • ' -%}
+  {%- assign _uni_name   = _desc_parts | last -%}
+  {%- assign _semester   = _desc_parts[1] | default: page.category -%}
+  {%- if page.seo_description -%}
+    {%- assign _meta_desc = page.seo_description -%}
+  {%- else -%}
+    {%- assign _meta_desc = page.title | append: ' — ' | append: _semester | append: ', ' | append: _uni_name | append: '. Taught by Prof. Aaron Snowberger. Find the syllabus, schedule, textbooks, and grading breakdown.' -%}
+  {%- endif -%}
+<meta name="description" content="{{ _meta_desc | truncate: 160 }}"/>
+{%- endif -%}
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,700;1,700&family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet"/>
@@ -16,3 +31,32 @@
 <link rel="icon" href="{{ site.icon | relative_url }}" />
 {%- endif -%}
 {% seo %}
+{%- comment -%}
+  og:image override — jekyll-seo-tag reads `image:` front matter.
+  Course pages use `img:` instead; inject explicit tags here when present.
+{%- endcomment -%}
+{%- comment -%}
+  Override og:description and og:image for course pages.
+  jekyll-seo-tag uses page.description (the structured code•sem•uni string);
+  we inject human-readable overrides after the seo block.
+  Most crawlers use the LAST occurrence of duplicate OG tags.
+{%- endcomment -%}
+{%- if page.layout == 'course' -%}
+<meta property="og:description" content="{{ _meta_desc | truncate: 160 }}" />
+<meta property="twitter:description" content="{{ _meta_desc | truncate: 160 }}" />
+{%- endif -%}
+{%- if page.img -%}
+{%- assign _og_image = site.url | append: '/assets/img/' | append: page.img -%}
+<meta property="og:image" content="{{ _og_image }}" />
+<meta property="og:image:alt" content="{{ page.title }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="{{ _og_image }}" />
+{%- elsif site.logo -%}
+{%- assign _og_image = site.url | append: site.logo -%}
+<meta property="og:image" content="{{ _og_image }}" />
+<meta property="og:image:alt" content="{{ site.title }}" />
+<meta name="twitter:image" content="{{ _og_image }}" />
+{%- endif -%}
+{%- comment -%} Course structured data (Course schema, EducationalOrganization) {%- endcomment -%}
+{%- if page.layout == 'course' -%}{% include seo_course_schema.html %}{%- endif -%}
+{%- if page.url == '/' or page.url == '' -%}{% include seo_org_schema.html %}{%- endif -%}

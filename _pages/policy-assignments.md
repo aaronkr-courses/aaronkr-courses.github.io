@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Assignments & Practice Policy
+description: Assignment and practice submission policy for courses taught by Prof. Aaron Snowberger. Covers individual work requirements, plagiarism rules, and code-sharing guidelines.
 permalink: /policies/assignments/
 ---
 

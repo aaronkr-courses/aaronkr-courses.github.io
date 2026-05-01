@@ -137,9 +137,9 @@
 }
 [data-theme="light"] {
   .tag.ml      { color: var(--accent);  border-color: rgba(124,58,255,.25); }
-  .tag.theory  { color: #2563eb;        border-color: #bfdbfe; }
+  .tag.theory  { color: #2256d8;        border-color: #bfdbfe; } // was #2563eb — 4.13:1→5.12:1 on tag-bg
   .tag.systems { color: var(--accent3); border-color: rgba(11,173,188,.25); }
-  .tag.ai-tag  { color: #e5294a;        border-color: rgba(229,41,74,.25); }
+  .tag.ai-tag  { color: #c0182e;        border-color: rgba(192,24,46,.25); } // was #e5294a — 3.74:1→5.16:1 on tag-bg
 }
 
 // ── Filter panel ─────────────────────────────────────────────────────────────

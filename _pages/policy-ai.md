@@ -1,6 +1,7 @@
 ---
 layout: default
 title: AI & ChatGPT Use Policy
+description: Policy on using generative AI tools (ChatGPT, Claude, Copilot) in Prof. Aaron Snowberger's courses. Covers permitted uses, mandatory disclosure, and exam restrictions.
 permalink: /policies/ai/
 ---
 

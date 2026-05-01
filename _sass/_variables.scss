@@ -18,21 +18,21 @@ $nav-bg-dark:   rgba(9, 9, 16, 0.92);
 $bg-light:      #f2f2f8;
 $surface-light: #ffffff;
 $border-light:  #e0e0f0;
-$muted-light:   #8888b0;
+$muted-light:   #6060a0; // was #8888b0 — raised contrast: 2.8:1→4.76:1 on #f2f2f8
 $text-light:    #111128;
 $sub-light:     #3a3a62;
 $accent-light:  #7c3aff;
-$accent2-light: #2563eb;
-$accent3-light: #0badbc;
-$warn-light:    #d97706;
-$error-light:   #e5294a;
+$accent2-light: #2256d8; // was #2563eb — raised contrast: 4.35:1→5.40:1 on #f2f2f8
+$accent3-light: #066d7c; // was #0badbc — raised contrast: 2.43:1→5.22:1 on #f2f2f8
+$warn-light:    #9f5504; // was #d97706 — raised contrast: 2.76:1→4.82:1 on #f2f2f8
+$error-light:   #c0182e; // was #e5294a — raised contrast: 3.94:1→5.43:1 on #f2f2f8
 $tag-bg-light:  #ebebf8;
 $nav-bg-light:  rgba(242, 242, 248, 0.95);
 
 // Grading bar segment colors
 $grade-attend:  #4a5568;
 $grade-hw:      #7c3aff;
-$grade-quiz:    #9b65ff;
+$grade-quiz:    #7840e8; // was #9b65ff — white text ratio raised: 3.49:1→5.40:1
 $grade-mid:     #2563eb;
 $grade-final:   #0e6490;
 $grade-project: #b45309;

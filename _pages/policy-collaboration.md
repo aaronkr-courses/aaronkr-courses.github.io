@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Collaboration Policy
+description: Acceptable collaboration policy for homework and projects in Prof. Aaron Snowberger's courses. Explains the boundary between peer discussion and academic dishonesty.
 permalink: /policies/collaboration/
 ---
 

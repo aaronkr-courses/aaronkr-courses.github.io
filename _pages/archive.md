@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Course Archive
+description: Complete archive of all Computer Science and Engineering courses taught by Prof. Aaron Snowberger at Korean universities from 2021 to present, organized by semester.
 permalink: /archive/
 eyebrow: Teaching History
 ---

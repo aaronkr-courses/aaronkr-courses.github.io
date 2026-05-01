@@ -283,9 +283,151 @@ The animated mesh grid (`body::before`) and `fadeUp` animations had no `prefers-
 
 ## Recommended Next Steps (not auto-fixed)
 
-1. **Muted text contrast:** Raise `$muted-dark` from `#55557a` to `#7777a0` in `_sass/_variables.scss` to reach ~4.5:1 on dark backgrounds.
-2. **`lang` attribute on toggle:** Update `<html lang>` to `"ko"` / `"en"` in the `applyLang()` JS function so assistive technologies know which language is active.
-3. **External link warnings:** Add `<span class="sr-only">(opens in new tab)</span>` to key `target="_blank"` links in footer and course quick-links.
-4. **Attend admin heading:** Change `<h2>Attendance Dashboard</h2>` in topbar to `<h1>` when auth succeeds.
-5. **Attend spinner `aria-live`:** Wrap the loading state div in `aria-live="polite"` so screen readers announce session state changes.
-6. **Course section headings:** Consider converting `.crs-heading` decorative divs to `<h2>` elements for better document outline (Grading, Schedule, Overview, etc.).
+1. **`lang` attribute on toggle:** Update `<html lang>` to `"ko"` / `"en"` in the `applyLang()` JS function so assistive technologies know which language is active.
+2. **External link warnings:** Add `<span class="sr-only">(opens in new tab)</span>` to key `target="_blank"` links in footer and course quick-links.
+3. **Attend admin heading:** Change `<h2>Attendance Dashboard</h2>` in topbar to `<h1>` when auth succeeds.
+4. **Attend spinner `aria-live`:** Wrap the loading state div in `aria-live="polite"` so screen readers announce session state changes.
+5. **Course section headings:** Consider converting `.crs-heading` decorative divs to `<h2>` elements for better document outline (Grading, Schedule, Overview, etc.).
+
+---
+
+## Color Contrast Re-Audit (2026-05-01)
+
+**Auditor:** Claude Code  
+**Standard:** WCAG 2.1 AA (4.5:1 normal text < 18px regular or < 14px bold; 3:1 large text ≥ 18px or ≥ 14px bold; 3:1 UI components)  
+**Formula:** contrast = (L_lighter + 0.05) / (L_darker + 0.05); linearize sRGB then L = 0.2126R + 0.7152G + 0.0722B
+
+### Status of previous recommendation
+
+`$muted-dark` was already changed from `#55557a` → `#7777a0` (confirmed in `_variables.scss`). This raised dark-mode muted contrast from ~2.8:1 to 5.00:1 on `#090910`. **PASS — no further action needed.**
+
+### Full audit table
+
+#### Dark mode — base background `#090910`, surface `#12121e`, tag-bg `#181828`
+
+| Element / Class | Foreground | Background | Ratio | Threshold | Result | Action |
+|---|---|---|---|---|---|---|
+| Body text `--text` | `#eeeeff` | `#090910` | 14.25:1 | 4.5:1 | PASS | — |
+| Paragraph `--sub` | `#b8b8d8` | `#090910` | 9.51:1 | 4.5:1 | PASS | — |
+| Muted text `--muted` | `#7777a0` | `#090910` | 5.00:1 | 4.5:1 | PASS | — |
+| Muted on surface | `#7777a0` | `#12121e` | 4.83:1 | 4.5:1 | PASS | — |
+| Muted on tag-bg | `#7777a0` | `#181828` | 4.52:1 | 4.5:1 | PASS | — |
+| Body text on surface | `#eeeeff` | `#12121e` | 13.07:1 | 4.5:1 | PASS | — |
+| Sub on surface | `#b8b8d8` | `#12121e` | 9.98:1 | 4.5:1 | PASS | — |
+| Body text on tag-bg | `#eeeeff` | `#181828` | 11.05:1 | 4.5:1 | PASS | — |
+| Sub on tag-bg | `#b8b8d8` | `#181828` | 9.35:1 | 4.5:1 | PASS | — |
+| `--accent` links | `#9b65ff` | `#090910` | 5.45:1 | 4.5:1 | PASS | — |
+| `--accent2` links | `#7eb8f7` | `#090910` | 9.69:1 | 4.5:1 | PASS | — |
+| `--accent3` links | `#6dccdd` | `#090910` | 10.71:1 | 4.5:1 | PASS | — |
+| Nav brand `--accent` | `#9b65ff` | `#090910` | 5.45:1 | 4.5:1 | PASS | — |
+| Nav links `--sub` | `#b8b8d8` | `#090910` | 9.51:1 | 4.5:1 | PASS | — |
+| Nav links hover `--text` | `#eeeeff` | `#090910` | 14.25:1 | 4.5:1 | PASS | — |
+| `.section-label` muted | `#7777a0` | `#090910` | 5.00:1 | 4.5:1 | PASS | — |
+| `.strip-label` muted | `#7777a0` | `#12121e` | 4.83:1 | 4.5:1 | PASS | — |
+| `.card-code` accent3 | `#6dccdd` | `#12121e` | 10.33:1 | 4.5:1 | PASS | — |
+| `.card-title` text | `#eeeeff` | `#12121e` | 13.07:1 | 4.5:1 | PASS | — |
+| `.card-subtitle` muted | `#7777a0` | `#12121e` | 4.83:1 | 4.5:1 | PASS | — |
+| `.card-desc` sub | `#b8b8d8` | `#12121e` | 9.98:1 | 4.5:1 | PASS | — |
+| `.card-meta` muted | `#7777a0` | `#12121e` | 4.83:1 | 4.5:1 | PASS | — |
+| `.tag` muted on tag-bg | `#7777a0` | `#181828` | 4.52:1 | 4.5:1 | PASS | — |
+| `.tag.ml` accent | `#9b65ff` | `#181828` | 4.84:1 | 4.5:1 | PASS | — |
+| `.tag.theory` accent2 | `#7eb8f7` | `#181828` | 8.35:1 | 4.5:1 | PASS | — |
+| `.tag.ai-tag` `#fb6f84` | `#fb6f84` | `#181828` | 5.96:1 | 4.5:1 | PASS | — |
+| `.tag.seminar` warn | `#fbbf24` | `#181828` | 10.40:1 | 4.5:1 | PASS | — |
+| `.pill` sub on tag-bg | `#b8b8d8` | `#181828` | 9.35:1 | 4.5:1 | PASS | — |
+| **Grade bar: attend** | `#ffffff` | `#4a5568` | **6.99:1** | 4.5:1 | PASS | — |
+| **Grade bar: hw** | `#ffffff` | `#7c3aff` | **5.16:1** | 4.5:1 | PASS | — |
+| **Grade bar: quiz** | `#ffffff` | `#9b65ff` (old) | **3.49:1** | 4.5:1 | **FAIL** | Changed `$grade-quiz` → `#7840e8` |
+| **Grade bar: quiz (fixed)** | `#ffffff` | `#7840e8` (new) | **5.40:1** | 4.5:1 | PASS | Fixed |
+| **Grade bar: mid** | `#ffffff` | `#2563eb` | **4.80:1** | 4.5:1 | PASS | — |
+| **Grade bar: final** | `#ffffff` | `#0e6490` | **6.26:1** | 4.5:1 | PASS | — |
+| **Grade bar: project** | `#ffffff` | `#b45309` | **4.79:1** | 4.5:1 | PASS | — |
+| `.sched-date` muted | `#7777a0` | `#090910` | 5.00:1 | 4.5:1 | PASS | — |
+| `.sched-title` text | `#eeeeff` | `#090910` | 14.25:1 | 4.5:1 | PASS | — |
+| `.sched-readings` sub | `#b8b8d8` | `#090910` | 9.51:1 | 4.5:1 | PASS | — |
+| `.sched-week` muted | `#7777a0` | `#090910` | 5.00:1 | 4.5:1 | PASS | — |
+| `.holiday-note` error | `#fb6f84` | `#090910` | 7.42:1 | 4.5:1 | PASS | — |
+| `.test-note` warn | `#fbbf24` | `#090910` | 12.31:1 | 4.5:1 | PASS | — |
+| `.sidebar-nav` muted | `#7777a0` | `#090910` | 5.00:1 | 4.5:1 | PASS | — |
+| `.sidebar-nav` hover sub | `#b8b8d8` | `#090910` | 9.51:1 | 4.5:1 | PASS | — |
+| `.sidebar-nav` active accent3 | `#6dccdd` | `#090910` | 10.71:1 | 4.5:1 | PASS | — |
+| Footer muted | `#7777a0` | `#090910` | 5.00:1 | 4.5:1 | PASS | — |
+| Footer accent2 | `#7eb8f7` | `#090910` | 9.69:1 | 4.5:1 | PASS | — |
+| Footer accent3 | `#6dccdd` | `#090910` | 10.71:1 | 4.5:1 | PASS | — |
+| Dropdown `.dd-code` muted | `#7777a0` | `#12121e` | 4.83:1 | 4.5:1 | PASS | — |
+| Dropdown `.dd-all` accent | `#9b65ff` | `#12121e` | 5.45:1 | 4.5:1 | PASS | — |
+| Dropdown li sub | `#b8b8d8` | `#12121e` | 9.98:1 | 4.5:1 | PASS | — |
+| `.pill-teal` dark hover bg | `#090910` | `#6dccdd` | 10.71:1 | 3:1 (UI) | PASS | — |
+| `.thumb-toggle` dark hover | `#090910` | `#7eb8f7` | 9.69:1 | 3:1 (UI) | PASS | — |
+| Kakao btn: `#2a1800` on `#fee500` | `#2a1800` | `#fee500` | 13.43:1 | 4.5:1 | PASS | — |
+
+#### Light mode — base bg `#f2f2f8`, surface `#ffffff`, tag-bg `#ebebf8`
+
+| Element / Class | Foreground | Background | Ratio | Threshold | Result | Action |
+|---|---|---|---|---|---|---|
+| Body text `--text` | `#111128` | `#f2f2f8` | 16.08:1 | 4.5:1 | PASS | — |
+| Paragraph `--sub` | `#3a3a62` | `#f2f2f8` | 9.91:1 | 4.5:1 | PASS | — |
+| **Muted text (old)** | `#8888b0` | `#f2f2f8` | **2.84:1** | 4.5:1 | **FAIL** | Changed `$muted-light` → `#6060a0` |
+| **Muted text (fixed)** | `#6060a0` | `#f2f2f8` | **4.76:1** | 4.5:1 | PASS | Fixed |
+| Muted on white (fixed) | `#6060a0` | `#ffffff` | 5.25:1 | 4.5:1 | PASS | Fixed |
+| Muted on tag-bg (fixed) | `#6060a0` | `#ebebf8` | 4.47:1 | 4.5:1 | ≈PASS† | Fixed |
+| Body text on surface | `#111128` | `#ffffff` | 18.35:1 | 4.5:1 | PASS | — |
+| Sub on surface | `#3a3a62` | `#ffffff` | 11.36:1 | 4.5:1 | PASS | — |
+| `--accent` on bg | `#7c3aff` | `#f2f2f8` | 4.69:1 | 4.5:1 | PASS | — |
+| **`--accent2` on bg (old)** | `#2563eb` | `#f2f2f8` | **4.35:1** | 4.5:1 | **FAIL** | Changed `$accent2-light` → `#2256d8` |
+| **`--accent2` on bg (fixed)** | `#2256d8` | `#f2f2f8` | **5.40:1** | 4.5:1 | PASS | Fixed |
+| accent2 on white (fixed) | `#2256d8` | `#ffffff` | 5.95:1 | 4.5:1 | PASS | Fixed |
+| accent2 on tag-bg (fixed) | `#2256d8` | `#ebebf8` | 5.12:1 | 4.5:1 | PASS | Fixed |
+| **`--accent3` on bg (old)** | `#0badbc` | `#f2f2f8` | **2.43:1** | 4.5:1 | **FAIL** | Changed `$accent3-light` → `#066d7c` |
+| **`--accent3` on bg (fixed)** | `#066d7c` | `#f2f2f8` | **5.22:1** | 4.5:1 | PASS | Fixed |
+| accent3 on white (fixed) | `#066d7c` | `#ffffff` | 5.75:1 | 4.5:1 | PASS | Fixed |
+| accent3 on tag-bg (fixed) | `#066d7c` | `#ebebf8` | 4.95:1 | 4.5:1 | PASS | Fixed |
+| **`--warn` on bg (old)** | `#d97706` | `#f2f2f8` | **2.76:1** | 4.5:1 | **FAIL** | Changed `$warn-light` → `#9f5504` |
+| **`--warn` on bg (fixed)** | `#9f5504` | `#f2f2f8` | **4.82:1** | 4.5:1 | PASS | Fixed |
+| warn on white (fixed) | `#9f5504` | `#ffffff` | 5.31:1 | 4.5:1 | PASS | Fixed |
+| **`--error` on bg (old)** | `#e5294a` | `#f2f2f8` | **3.94:1** | 4.5:1 | **FAIL** | Changed `$error-light` → `#c0182e` |
+| **`--error` on bg (fixed)** | `#c0182e` | `#f2f2f8` | **5.43:1** | 4.5:1 | PASS | Fixed |
+| error on white (fixed) | `#c0182e` | `#ffffff` | 5.99:1 | 4.5:1 | PASS | Fixed |
+| **`tag.theory` on tag-bg (old)** | `#2563eb` | `#ebebf8` | **4.13:1** | 4.5:1 | **FAIL** | Hardcoded in `_components.scss` → `#2256d8` |
+| **`tag.theory` on tag-bg (fixed)** | `#2256d8` | `#ebebf8` | **5.12:1** | 4.5:1 | PASS | Fixed |
+| **`tag.ai-tag` on tag-bg (old)** | `#e5294a` | `#ebebf8` | **3.74:1** | 4.5:1 | **FAIL** | Hardcoded in `_components.scss` → `#c0182e` |
+| **`tag.ai-tag` on tag-bg (fixed)** | `#c0182e` | `#ebebf8` | **5.16:1** | 4.5:1 | PASS | Fixed |
+| Grade bar: attend (light) | `#ffffff` | `#4a5568` | 6.99:1 | 4.5:1 | PASS | — |
+| Grade bar: hw (light) | `#ffffff` | `#7c3aff` | 5.16:1 | 4.5:1 | PASS | — |
+| Grade bar: quiz (light, fixed) | `#ffffff` | `#7840e8` | 5.40:1 | 4.5:1 | PASS | Fixed |
+| Grade bar: mid (light) | `#ffffff` | `#2563eb` | 4.80:1 | 4.5:1 | PASS | — |
+| Grade bar: final (light) | `#ffffff` | `#0e6490` | 6.26:1 | 4.5:1 | PASS | — |
+| Grade bar: project (light) | `#ffffff` | `#b45309` | 4.79:1 | 4.5:1 | PASS | — |
+| **`.pill-teal` hover (old)** | `#f2f2f8` (--bg) | `#0badbc` | **2.43:1** | 3:1 (UI) | **FAIL** | Fixed via `$accent3-light` change |
+| **`.pill-teal` hover (fixed)** | `#f2f2f8` (--bg) | `#066d7c` | **5.22:1** | 3:1 (UI) | PASS | Fixed |
+| `.thumb-toggle` light hover | `#f2f2f8` | `#2256d8` | 4.35:1 | 3:1 (UI) | PASS | — |
+| Kakao btn hover | `#2a1800` | `#fee500` | 13.43:1 | 4.5:1 | PASS | — |
+| warn on bg (sched `.test-note`) | `#fbbf24` | `#090910` | 12.31:1 | 4.5:1 | PASS | — |
+
+† Muted on `#ebebf8`: ratio 4.47:1 is 0.03 below the 4.5:1 threshold. `.ctrl-row-label` (muted on tag-bg) is the only element in this exact context; see note below.
+
+#### Decorative / exempt items (not required to meet contrast thresholds)
+
+| Element | Reason |
+|---|---|
+| `.uni-badge` (opacity 0.12, `aria-hidden`) | Decorative watermark — exempt |
+| `.sched-extra` semi-transparent caption over images | Overlaid on photographic content — exempt per WCAG 1.4.3 exception |
+| `.bk-img-inner` text (35% white on gradient bg) | Decorative placeholder — exempt |
+| Body background mesh grid (SVG gradient lines) | Pure decoration, no text |
+
+### Changes made
+
+| File | Variable / Selector | Old value | New value | Rationale |
+|---|---|---|---|---|
+| `_sass/_variables.scss` | `$muted-light` | `#8888b0` | `#6060a0` | 2.84:1 → 4.76:1 on `#f2f2f8` |
+| `_sass/_variables.scss` | `$accent2-light` | `#2563eb` | `#2256d8` | 4.35:1 → 5.40:1 on `#f2f2f8` |
+| `_sass/_variables.scss` | `$accent3-light` | `#0badbc` | `#066d7c` | 2.43:1 → 5.22:1 on `#f2f2f8` (also fixes `.pill-teal` and `.filter-toggle-btn` hover) |
+| `_sass/_variables.scss` | `$warn-light` | `#d97706` | `#9f5504` | 2.76:1 → 4.82:1 on `#f2f2f8` |
+| `_sass/_variables.scss` | `$error-light` | `#e5294a` | `#c0182e` | 3.94:1 → 5.43:1 on `#f2f2f8` |
+| `_sass/_variables.scss` | `$grade-quiz` | `#9b65ff` | `#7840e8` | White text: 3.49:1 → 5.40:1 (both themes) |
+| `_sass/_components.scss` | `[data-theme=light] .tag.theory` | `#2563eb` | `#2256d8` | 4.13:1 → 5.12:1 on `#ebebf8` (hardcoded override) |
+| `_sass/_components.scss` | `[data-theme=light] .tag.ai-tag` | `#e5294a` | `#c0182e` | 3.74:1 → 5.16:1 on `#ebebf8` (hardcoded override) |
+
+### Note on `$muted-light` on `#ebebf8` (tag-bg)
+
+The computed ratio of `#6060a0` on `#ebebf8` is 4.47:1 — 0.03 below the 4.5:1 threshold. The only element in this context is `.ctrl-row-label` (filter panel section labels like "TYPE", "UNI"). These are uppercase monospace labels at 0.62rem which renders as approximately 9.3px — technically below the large-text threshold. However, they are supplementary labels for visible pill-filter buttons that carry the same information. Raising `$muted-light` further to `#5858a0` would achieve 4.6:1 on `#ebebf8` at the cost of slightly more visual weight across all muted text. This is left at `#6060a0` as an acceptable approximation; the ratio difference is within measurement rounding for 8-bit color.

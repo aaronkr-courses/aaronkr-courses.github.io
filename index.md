@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Courses
+title: Teaching & Courses
+description: Computer Science and Engineering courses taught by Prof. Aaron Snowberger at five Korean universities. Find schedules, textbooks, assignments, and policies for all active courses.
 permalink: /
 ---
 

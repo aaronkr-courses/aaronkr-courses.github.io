@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Late Policy
+title: Late Submission Policy
+description: Late submission penalties and grace period rules for assignments in Prof. Aaron Snowberger's courses. Explains how to request an extension before a deadline.
 permalink: /policies/late/
 ---
 
