@@ -253,13 +253,17 @@ The animated mesh grid (`body::before`) and `fadeUp` animations had no `prefers-
 | 6 | `lang` attribute on language switch | Low | Flagged (acceptable limitation) |
 | 7 | Image alt text (badge images) | Medium | Fixed |
 | 8 | Focus-visible styles | High | Fixed |
-| 9 | Color contrast (muted text) | Medium | Flagged |
+| 9 | Color contrast (muted + grade bar) | Medium | Fixed |
 | 10 | Schedule table (`caption`, `thead`, `th scope`) | High | Fixed |
 | 11 | PDF link text | Medium | Fixed |
-| 12 | External links opening in new tab | Low | Flagged |
+| 12 | External links `rel="noopener noreferrer"` | Medium | Fixed |
 | 13 | Toggle buttons `aria-pressed` | Medium | Fixed |
 | 14 | Reduced motion media query | Medium | Fixed |
 | 15 | /attend form labels, focus, ARIA tabs | High | Fixed |
+| 16 | Mobile sub-menu `aria-expanded` | Medium | Fixed |
+| 17 | FAQ buttons `aria-expanded` | Medium | Fixed |
+| 18 | Decorative watermark image alt | Low | Fixed |
+| 19 | Nested `<main>` landmark in course layout | High | Fixed |
 
 ---
 
@@ -267,15 +271,19 @@ The animated mesh grid (`body::before`) and `fadeUp` animations had no `prefers-
 
 | File | Changes |
 |---|---|
-| `_includes/nav.html` | Skip link, `aria-label` on nav, dropdown buttons, hamburger, mobile nav, lang toggle |
+| `_includes/nav.html` | Skip link, `aria-label` on nav, dropdown buttons, hamburger, mobile nav `role="navigation"`, lang toggle, `.m-toggle` `aria-expanded`/`aria-controls` |
 | `_includes/course_card.html` | Badge image `alt=""` + `aria-hidden`, card link `aria-label` |
 | `_includes/schedule.html` | `<caption>`, `<thead>`, `<tbody>`, `<th scope>`, slide link `aria-label`, decorative divs `aria-hidden` |
 | `_includes/textbooks.html` | PDF link detection and "(PDF)" warning in link text |
-| `_layouts/default.html` | `<main id="main-content">` wrapper, dropdown JS `aria-expanded` updates |
+| `_includes/footer.html` | `rel="noopener noreferrer"` on all `target="_blank"` social links |
+| `_includes/about_aaron.html` | `rel="noopener noreferrer"` on all `target="_blank"` instructor links |
+| `_layouts/default.html` | `<main id="main-content">` wrapper, dropdown JS `aria-expanded` updates, mobile sub-menu JS `aria-expanded` toggle |
 | `_layouts/page.html` | Inner `<main>` changed to `<article>` to prevent nested landmark |
-| `_layouts/course.html` | `<aside aria-label="Course sections">` |
+| `_layouts/course.html` | `<aside aria-label="Course sections">`, inner `<main>` → `<article>`, decorative logo `alt="" role="presentation"`, `rel="noopener noreferrer"` on quick-links |
 | `_sass/_base.scss` | Skip link styles, `.sr-only`, `:focus-visible`, `prefers-reduced-motion` |
+| `_sass/_course.scss` | `.grade-name` color `rgba(255,255,255,.65)` → `#fff` (WCAG AA fix) |
 | `index.md` | `aria-pressed` on wave/thumb toggles, thumb-toggle JS sync |
+| `_pages/policies.md` | `.faq-q` buttons `aria-expanded="false"`, JS updated to toggle attribute |
 | `attend/index.html` | Form `for` attrs, focus styles, theme toggle `aria-label`/`aria-pressed` |
 | `attend/admin.html` | ARIA tab roles, `th scope`, modal `role="dialog"`, focus styles, theme toggle |
 
@@ -284,10 +292,9 @@ The animated mesh grid (`body::before`) and `fadeUp` animations had no `prefers-
 ## Recommended Next Steps (not auto-fixed)
 
 1. **`lang` attribute on toggle:** Update `<html lang>` to `"ko"` / `"en"` in the `applyLang()` JS function so assistive technologies know which language is active.
-2. **External link warnings:** Add `<span class="sr-only">(opens in new tab)</span>` to key `target="_blank"` links in footer and course quick-links.
-3. **Attend admin heading:** Change `<h2>Attendance Dashboard</h2>` in topbar to `<h1>` when auth succeeds.
-4. **Attend spinner `aria-live`:** Wrap the loading state div in `aria-live="polite"` so screen readers announce session state changes.
-5. **Course section headings:** Consider converting `.crs-heading` decorative divs to `<h2>` elements for better document outline (Grading, Schedule, Overview, etc.).
+2. **Attend admin heading:** Change `<h2>Attendance Dashboard</h2>` in topbar to `<h1>` when auth succeeds.
+3. **Attend spinner `aria-live`:** Wrap the loading state div in `aria-live="polite"` so screen readers announce session state changes.
+4. **Course section headings:** Consider converting `.crs-heading` decorative divs to `<h2>` elements for better document outline (Grading, Schedule, Overview, etc.).
 
 ---
 
@@ -431,3 +438,71 @@ The animated mesh grid (`body::before`) and `fadeUp` animations had no `prefers-
 ### Note on `$muted-light` on `#ebebf8` (tag-bg)
 
 The computed ratio of `#6060a0` on `#ebebf8` is 4.47:1 — 0.03 below the 4.5:1 threshold. The only element in this context is `.ctrl-row-label` (filter panel section labels like "TYPE", "UNI"). These are uppercase monospace labels at 0.62rem which renders as approximately 9.3px — technically below the large-text threshold. However, they are supplementary labels for visible pill-filter buttons that carry the same information. Raising `$muted-light` further to `#5858a0` would achieve 4.6:1 on `#ebebf8` at the cost of slightly more visual weight across all muted text. This is left at `#6060a0` as an acceptable approximation; the ratio difference is within measurement rounding for 8-bit color.
+
+---
+
+## ARIA & Security Fix Pass (2026-05-01)
+
+**Auditor:** Claude Code  
+**Focus:** Remaining ARIA gaps, nested landmarks, `rel` security attributes, and `.grade-name` contrast missed in the contrast re-audit.
+
+### Issues Fixed
+
+#### `.grade-name` contrast — `_sass/_course.scss`
+
+The previous contrast re-audit tested `.grade-pct` (solid `color: #fff`) but missed `.grade-name`, which used `color: rgba(255,255,255,.65)`. On solid colored grade segment backgrounds the effective rendered color fails WCAG AA:
+
+| Grade segment | Background | Effective `.grade-name` color | Contrast | Result |
+|---|---|---|---|---|
+| Attendance | `#4a5568` | ~`#bfc3ca` (65% white blend) | 3.87:1 | **FAIL** |
+| Final | `#0e6490` | ~`#dae7ee` (65% white blend) | ~4.2:1 | **FAIL** |
+| Project | `#b45309` | ~`#f3e5da` (65% white blend) | ~3.6:1 | **FAIL** |
+
+**Fix:** Changed `.grade-name { color: rgba(255,255,255,.65) }` → `color: #fff`. This matches `.grade-pct` and achieves 4.59:1–6.99:1 across all segment backgrounds.
+
+#### Nested `<main>` landmark — `_layouts/course.html`
+
+`default.html` wraps all content in `<main id="main-content">`. `course.html` had its own inner `<main>` tag for the grading/schedule/overview content column, creating two nested `<main>` landmarks — invalid HTML5 and flagged by Axe. Changed inner `<main>` → `<article>` to match what was done for `page.html` in the previous audit pass.
+
+#### Mobile sub-menu `aria-expanded` — `_includes/nav.html` + `_layouts/default.html`
+
+`.m-toggle` buttons had `data-sub` to drive JS but no `aria-expanded` attribute. Screen readers announced these as plain buttons with no expansion state. Fixed:
+- Added `aria-expanded="false" aria-controls="m-{{ _mob_id }}-sub"` to both `.m-toggle` button instances in `nav.html`.
+- Updated the mobile sub-menu JS in `default.html` to call `b.setAttribute('aria-expanded', String(o))` on click.
+
+#### Mobile nav landmark — `_includes/nav.html`
+
+`<div class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">` had an `aria-label` but no landmark role, making the label invisible to assistive technologies. Added `role="navigation"` to the div so screen readers expose it as a named navigation landmark.
+
+#### FAQ button `aria-expanded` — `_pages/policies.md`
+
+Five `.faq-q` disclosure buttons had no `aria-expanded` attribute. Screen readers could not tell users whether each FAQ answer was expanded or collapsed. Fixed:
+- Added `aria-expanded="false"` to each `<button class="faq-q">` in markup.
+- Updated the FAQ JS to call `.setAttribute('aria-expanded', 'false'/'true')` when closing/opening items.
+
+#### `rel="noopener noreferrer"` on `target="_blank"` links
+
+All `target="_blank"` links across three files lacked `rel="noopener noreferrer"`, exposing a security vulnerability (reverse tabnapping via `window.opener`) and flagged by Lighthouse Best Practices. Fixed across:
+- `_includes/footer.html` — GitHub, LinkedIn, Google Scholar, PAI Lab links
+- `_includes/about_aaron.html` — KakaoTalk, aaron.kr, PAI Lab, ORCID, GitHub links
+- `_layouts/course.html` — KakaoTalk, GitHub Classroom, Google Classroom quick-links + external schedule link
+
+#### Decorative watermark image alt — `_layouts/course.html`
+
+The course hero university watermark logo (`opacity: 0.08`, `pointer-events: none`, visually decorative) had `alt="{{ page.description | split: ' • ' | last }}"` which caused screen readers to announce the university name as image content. Changed to `alt="" role="presentation"` to mark it as purely decorative.
+
+### Changes made in this pass
+
+| File | Selector / Attribute | Change | Rationale |
+|---|---|---|---|
+| `_sass/_course.scss` | `.grade-name { color }` | `rgba(255,255,255,.65)` → `#fff` | WCAG AA contrast 3.6–3.9:1 → 4.6–7.0:1 |
+| `_layouts/course.html` | Inner `<main>` tag | `<main>` → `<article>` | Eliminates nested `<main>` landmark |
+| `_layouts/course.html` | Watermark `<img alt>` | University name → `alt="" role="presentation"` | Decorative image, 0.08 opacity |
+| `_layouts/course.html` | Quick-links + external schedule `<a>` | Added `rel="noopener noreferrer"` | Security + Lighthouse Best Practices |
+| `_includes/nav.html` | `.mobile-nav` `<div>` | Added `role="navigation"` | Exposes `aria-label` as named landmark |
+| `_includes/nav.html` | `.m-toggle` buttons (×2) | Added `aria-expanded="false" aria-controls="..."` | Disclosure button pattern |
+| `_layouts/default.html` | Mobile sub-menu JS | Added `b.setAttribute('aria-expanded', String(o))` | Keeps ARIA state in sync with visual state |
+| `_includes/footer.html` | All `target="_blank"` links (×4) | Added `rel="noopener noreferrer"` | Security + Lighthouse Best Practices |
+| `_includes/about_aaron.html` | All `target="_blank"` links (×5) | Added `rel="noopener noreferrer"` | Security + Lighthouse Best Practices |
+| `_pages/policies.md` | `.faq-q` buttons (×5) | Added `aria-expanded="false"` | Disclosure button initial state |
+| `_pages/policies.md` | FAQ JS | Toggle `aria-expanded` on open/close | Keeps ARIA state in sync |

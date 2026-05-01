@@ -117,6 +117,7 @@
     if (s) b.addEventListener('click', () => {
       const o = s.classList.toggle('open');
       b.classList.toggle('open', o);
+      b.setAttribute('aria-expanded', String(o));
     });
   });
 

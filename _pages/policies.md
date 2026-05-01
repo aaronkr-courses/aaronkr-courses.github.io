@@ -137,7 +137,7 @@ permalink: /policies/
     <div class="section-heading"><span class="section-label-sm"><span class="lang-en">Frequently Asked Questions</span><span class="lang-ko">자주 묻는 질문</span></span><span class="section-line-sm"></span></div>
     <ul class="faq-list">
       <li class="faq-item">
-        <button class="faq-q">
+        <button class="faq-q" aria-expanded="false">
           <span><span class="lang-en">Can I use ChatGPT to help write my assignments?</span><span class="lang-ko">ChatGPT를 사용하여 과제 작성을 도울 수 있나요?</span></span>
           <span class="faq-chevron">&#x25BE;</span>
         </button>
@@ -146,7 +146,7 @@ permalink: /policies/
         </div>
       </li>
       <li class="faq-item">
-        <button class="faq-q">
+        <button class="faq-q" aria-expanded="false">
           <span><span class="lang-en">What happens if I miss an exam?</span><span class="lang-ko">시험에 결석하면 어떻게 되나요?</span></span>
           <span class="faq-chevron">&#x25BE;</span>
         </button>
@@ -155,7 +155,7 @@ permalink: /policies/
         </div>
       </li>
       <li class="faq-item">
-        <button class="faq-q">
+        <button class="faq-q" aria-expanded="false">
           <span><span class="lang-en">How do I appeal a grade?</span><span class="lang-ko">성적에 이의를 제기하려면 어떻게 하나요?</span></span>
           <span class="faq-chevron">&#x25BE;</span>
         </button>
@@ -164,7 +164,7 @@ permalink: /policies/
         </div>
       </li>
       <li class="faq-item">
-        <button class="faq-q">
+        <button class="faq-q" aria-expanded="false">
           <span><span class="lang-en">How many absences are allowed?</span><span class="lang-ko">결석은 몇 번까지 허용되나요?</span></span>
           <span class="faq-chevron">&#x25BE;</span>
         </button>
@@ -173,7 +173,7 @@ permalink: /policies/
         </div>
       </li>
       <li class="faq-item">
-        <button class="faq-q">
+        <button class="faq-q" aria-expanded="false">
           <span><span class="lang-en">Can I submit assignments late?</span><span class="lang-ko">과제를 늦게 제출할 수 있나요?</span></span>
           <span class="faq-chevron">&#x25BE;</span>
         </button>
@@ -191,8 +191,14 @@ permalink: /policies/
 document.querySelectorAll('.faq-q').forEach(b => {
   b.addEventListener('click', () => {
     const i = b.closest('.faq-item'), w = i.classList.contains('open');
-    document.querySelectorAll('.faq-item.open').forEach(x => x.classList.remove('open'));
-    if (!w) i.classList.add('open');
+    document.querySelectorAll('.faq-item.open').forEach(x => {
+      x.classList.remove('open');
+      x.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+    });
+    if (!w) {
+      i.classList.add('open');
+      b.setAttribute('aria-expanded', 'true');
+    }
   });
 });
 </script>

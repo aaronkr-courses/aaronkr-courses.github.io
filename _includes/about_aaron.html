@@ -28,15 +28,15 @@
     <div class="instructor-links">
       <a href="mailto:{{ instructor.email | default: site.email }}">✉ {{ email_display }}</a>
       {%- if instructor.kakaotalk -%}
-      <a href="{{ instructor.kakaotalk }}" target="_blank">💬 KakaoTalk: AaronKr</a>
+      <a href="{{ instructor.kakaotalk }}" target="_blank" rel="noopener noreferrer">💬 KakaoTalk: AaronKr</a>
       {%- endif -%}
-      <a href="{{ instructor.url | default: 'https://aaron.kr' }}" target="_blank">🌐 aaron.kr</a>
-      <a href="https://pailab.io" target="_blank">🔬 PAI Lab →</a>
+      <a href="{{ instructor.url | default: 'https://aaron.kr' }}" target="_blank" rel="noopener noreferrer">🌐 aaron.kr</a>
+      <a href="https://pailab.io" target="_blank" rel="noopener noreferrer">🔬 PAI Lab →</a>
       {%- if site.orcid_id -%}
-      <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank">🆔 ORCID</a>
+      <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" rel="noopener noreferrer">🆔 ORCID</a>
       {%- endif -%}
       {%- if site.github_username -%}
-      <a href="https://github.com/{{ site.github_username }}" target="_blank">⌨ GitHub</a>
+      <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">⌨ GitHub</a>
       {%- endif -%}
     </div>
     <div class="instructor-bio">

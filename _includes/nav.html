@@ -61,11 +61,11 @@
   </div>
 
   <!-- Mobile nav (mirrors desktop structure from nav.yml) -->
-  <div class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+  <div role="navigation" class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
     {%- for item in site.data.nav -%}
       {%- if item.category -%}
         {%- assign _mob_id = item.dropdown_id | remove: "dd-" -%}
-        <button class="m-toggle" data-sub="m-{{ _mob_id }}-sub">
+        <button class="m-toggle" data-sub="m-{{ _mob_id }}-sub" aria-expanded="false" aria-controls="m-{{ _mob_id }}-sub">
           <span><span class="lang-en">{{ item.title_en }}</span><span class="lang-ko">{{ item.title_ko }}</span></span>
           <span class="m-chevron">&#x25BE;</span>
         </button>
@@ -79,7 +79,7 @@
         </div>
       {%- elsif item.items -%}
         {%- assign _mob_id = item.dropdown_id | remove: "dd-" -%}
-        <button class="m-toggle" data-sub="m-{{ _mob_id }}-sub">
+        <button class="m-toggle" data-sub="m-{{ _mob_id }}-sub" aria-expanded="false" aria-controls="m-{{ _mob_id }}-sub">
           <span><span class="lang-en">{{ item.title_en }}</span><span class="lang-ko">{{ item.title_ko }}</span></span>
           <span class="m-chevron">&#x25BE;</span>
         </button>
