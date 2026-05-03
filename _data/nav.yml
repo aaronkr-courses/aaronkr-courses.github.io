@@ -4,8 +4,8 @@
 #   - Dynamic dropdown:   has category (pulls courses from site.courses collection)
 #   - Static dropdown:    has items array
 
-- title_en: "2026"
-  title_ko: "2026"
+- title_en: "2026 Courses"
+  title_ko: "2026 강의"
   dropdown_id: "dd-courses"
   category: "2026-1"
   semester_en: "Spring 2026"
