@@ -101,6 +101,7 @@ exclude:
   - 2023-course-sites/
   - 2023-migration-notes.md
   - CLAUDE.md
+  - ACCESSIBILITY_AUDIT.md
 
 # ─────────────────────────────────────────
 # Plugins (GitHub Pages compatible)
