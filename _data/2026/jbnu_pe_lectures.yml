@@ -127,23 +127,23 @@
   week: 10
   title: >
     <strong>Thermal Modeling and Heat Sinking<br>
-    Inverters<br>
-    Switched-Mode Rectifiers<br>
-    Three-Phase Systems<br>
-    Three-Phase InvertersControl<br>
-    Current-Mode Control</strong>
+    Inverters</strong>
   supp:
   readings:
   hw:
-  slides:
+  slides: "https://docs.google.com/presentation/d/1zSVFVb3kItJ2f5sjAvIep6iw_RVt9Hd4Exr6rG1C0I4/edit?usp=sharing"
   slides2:
-  img: 
+  img: 2026/jbnu-pe/10-heat-inverters.jpg
   logistics:
 
 - date: 5/13
   week: 11
   title: >
-    <strong>EMI Filters</strong>
+    <strong>Switched-Mode Rectifiers<br>
+    Three-Phase Systems<br>
+    Three-Phase InvertersControl<br>
+    Current-Mode Control<br>
+    EMI Filters</strong>
   supp:
   readings:
   hw:
