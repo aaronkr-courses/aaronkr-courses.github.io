@@ -133,7 +133,7 @@ td.sched-logistics {
   margin-top: 4px;
   margin-right: 4px;
   transition: background .15s;
-  &:hover { background: rgba(155,101,255,.1); }
+  &:hover { background: rgba(155,101,255,.5); color: white; }
   &.due { color: var(--warn); border-color: rgba(251,191,36,.28); &:hover { background: rgba(251,191,36,.08); } }
 }
 
