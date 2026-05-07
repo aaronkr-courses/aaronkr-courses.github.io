@@ -137,7 +137,8 @@
   readings:
   hw:
   slides: "https://docs.google.com/presentation/d/1nDC2HwvSJeKO5nbRI-g18z8GUcRNdbKob5GjLeGpI5I/edit?usp=sharing"
-  slides2: 
+  slides2: "https://docs.google.com/presentation/d/1Le0kPf3uIaC_QulW-Ngxru_pS4q0Le3R/edit?usp=sharing&ouid=111221545203304105756&rtpof=true&sd=true"
+  slides2Title: "Interrupt & Timer"
   img: 2026/jbnu-devs/10-presenting-data.jpg
   logistics:
 
